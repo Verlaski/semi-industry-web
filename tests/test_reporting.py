@@ -45,6 +45,19 @@ class ReportingTests(unittest.TestCase):
             self.assertFalse(checks["problems"], checks["problems"])
             self.assertGreater(checks["page_count"], 2)
 
+    def test_korean_company_names_remain_readable_in_bundled_pdf(self):
+        import os
+        import pymupdf
+        os.environ['REPORT_FONT_MODE'] = 'bundled'
+        with tempfile.TemporaryDirectory(prefix='hangul-test-', dir=ROOT / '.local') as temp:
+            target = Path(temp) / 'hangul.pdf'
+            generate(build_report(self.snapshot, 'materials', {'track_id': 'ma-f-wafer'}), target)
+            with pymupdf.open(target) as document:
+                text = ''.join(page.get_text() for page in document)
+            self.assertIn('실트론', text)
+            self.assertNotIn('\x00', text)
+            self.assertNotIn('\ufffd', text)
+
 
 if __name__ == "__main__":
     unittest.main()

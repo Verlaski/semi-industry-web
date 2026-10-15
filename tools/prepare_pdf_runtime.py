@@ -24,6 +24,8 @@ for name, weight in (("NotoSansSC-Regular.ttf", 400), ("NotoSansSC-Bold.ttf", 70
 license_path = FONTS / "OFL.txt"
 if not license_path.exists():
     urllib.request.urlretrieve("https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE", license_path)
+if any(not (FONTS / f"NotoSansKR-Hangul-{weight}.ttf").exists() for weight in ("Regular", "Bold")):
+    subprocess.run([sys.executable, str(ROOT / "tools/build_korean_fonts.py")], check=True)
 runtime = ROOT / ".local" / "python-linux"
 if not (runtime / "reportlab").exists():
     subprocess.run([sys.executable, "-m", "pip", "install", "--target", str(runtime), "--platform", "manylinux2014_x86_64",

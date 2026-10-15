@@ -1,0 +1,4073 @@
+{
+ "batch": "batch_cn_auto",
+ "entities": [
+  {
+   "source_keys": [
+    "ACMRESEARCH"
+   ],
+   "entity_decision": "",
+   "company_id": "ACMRESEARCH",
+   "name_cn": "盛美上海",
+   "name_en": "ACM Research",
+   "short_name": "盛美上海",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "ACMRESEARCH_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688082.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688082"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：盛美上海（688082.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E7%9B%9B%E7%BE%8E%E4%B8%8A%E6%B5%B7&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688082",
+     "url": "https://qt.gtimg.cn/q=sh688082",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "AMEC"
+   ],
+   "entity_decision": "",
+   "company_id": "AMEC",
+   "name_cn": "中微公司",
+   "name_en": "AMEC",
+   "short_name": "中微公司",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "AMEC_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688012.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688012"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中微公司（688012.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E4%B8%AD%E5%BE%AE%E5%85%AC%E5%8F%B8&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688012",
+     "url": "https://qt.gtimg.cn/q=sh688012",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "DJEL"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "东方晶源",
+   "name_en": "DJEL",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "HWATSING"
+   ],
+   "entity_decision": "",
+   "company_id": "HWATSING",
+   "name_cn": "华海清科",
+   "name_en": "Hwatsing",
+   "short_name": "华海清科",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HWATSING_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688120.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688120"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：华海清科（688120.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%8D%8E%E6%B5%B7%E6%B8%85%E7%A7%91&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688120",
+     "url": "https://qt.gtimg.cn/q=sh688120",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KINGSEMI"
+   ],
+   "entity_decision": "",
+   "company_id": "KINGSEMI",
+   "name_cn": "芯源微",
+   "name_en": "Kingsemi",
+   "short_name": "芯源微",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KINGSEMI_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688037.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688037"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：芯源微（688037.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%8A%AF%E6%BA%90%E5%BE%AE&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688037",
+     "url": "https://qt.gtimg.cn/q=sh688037",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "LEADMICRO"
+   ],
+   "entity_decision": "",
+   "company_id": "LEADMICRO",
+   "name_cn": "微导纳米",
+   "name_en": "Leadmicro",
+   "short_name": "微导纳米",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "LEADMICRO_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688147.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688147"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：微导纳米（688147.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%BE%AE%E5%AF%BC%E7%BA%B3%E7%B1%B3&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688147",
+     "url": "https://qt.gtimg.cn/q=sh688147",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NAURA"
+   ],
+   "entity_decision": "",
+   "company_id": "NAURA",
+   "name_cn": "北方华创",
+   "name_en": "NAURA",
+   "short_name": "北方华创",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NAURA_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002371.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002371"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：北方华创（002371.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz002371",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002371",
+     "url": "https://qt.gtimg.cn/q=sz002371",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "PIOTECH"
+   ],
+   "entity_decision": "",
+   "company_id": "PIOTECH",
+   "name_cn": "拓荆科技",
+   "name_en": "Piotech",
+   "short_name": "拓荆科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "PIOTECH_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688072.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688072"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：拓荆科技（688072.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%8B%93%E8%8D%86%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688072",
+     "url": "https://qt.gtimg.cn/q=sh688072",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "PNCS"
+   ],
+   "entity_decision": "",
+   "company_id": "PNCS",
+   "name_cn": "至纯科技",
+   "name_en": "PNCS",
+   "short_name": "至纯科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "PNCS_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "603690.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh603690"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：至纯科技（603690.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%87%B3%E7%BA%AF%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh603690",
+     "url": "https://qt.gtimg.cn/q=sh603690",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "RSIC"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "上海睿励",
+   "name_en": "RSIC",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "SKYVERSE"
+   ],
+   "entity_decision": "",
+   "company_id": "SKYVERSE",
+   "name_cn": "中科飞测",
+   "name_en": "Skyverse",
+   "short_name": "中科飞测",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SKYVERSE_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688361.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688361"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中科飞测（688361.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E4%B8%AD%E7%A7%91%E9%A3%9E%E6%B5%8B&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688361",
+     "url": "https://qt.gtimg.cn/q=sh688361",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "上海中艺"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "上海中艺",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "上海新阳"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300236",
+   "name_cn": "上海新阳",
+   "name_en": "",
+   "short_name": "上海新阳",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300236_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300236.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300236"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：上海新阳（300236.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%98%B3&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300236",
+     "url": "https://qt.gtimg.cn/q=sz300236",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "上海锡喜"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "上海锡喜",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "东莞亚聚电子"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "东莞亚聚电子",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "中环领先"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "中环领先",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "中瓷电子"
+   ],
+   "entity_decision": "",
+   "company_id": "CN003031",
+   "name_cn": "中瓷电子",
+   "name_en": "",
+   "short_name": "中瓷电子",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN003031_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "003031.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz003031"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中瓷电子（003031.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz003031",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz003031",
+     "url": "https://qt.gtimg.cn/q=sz003031",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "中科仪"
+   ],
+   "entity_decision": "",
+   "company_id": "CN920186",
+   "name_cn": "中科仪",
+   "name_en": "",
+   "short_name": "中科仪",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN920186_BSE",
+     "market": "A股",
+     "exchange": "BSE",
+     "ticker": "920186.BJ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "bj920186"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中科仪（920186.BJ）",
+     "url": "https://qt.gtimg.cn/q=bj920186",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 bj920186",
+     "url": "https://qt.gtimg.cn/q=bj920186",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "中科信"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300678",
+   "name_cn": "中科信",
+   "name_en": "",
+   "short_name": "中科信息",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300678_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300678.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300678"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中科信息（300678.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E4%B8%AD%E7%A7%91%E4%BF%A1&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300678",
+     "url": "https://qt.gtimg.cn/q=sz300678",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "名称近似匹配（原名 中科信 vs 行情名 中科信息），待人工复核"
+  },
+  {
+   "source_keys": [
+    "中科科化"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "中科科化",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "中船特气"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688146",
+   "name_cn": "中船特气",
+   "name_en": "",
+   "short_name": "中船特气",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688146_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688146.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688146"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：中船特气（688146.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E4%B8%AD%E8%88%B9%E7%89%B9%E6%B0%94&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688146",
+     "url": "https://qt.gtimg.cn/q=sh688146",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "京仪装备"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688652",
+   "name_cn": "京仪装备",
+   "name_en": "",
+   "short_name": "京仪装备",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688652_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688652.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688652"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：京仪装备（688652.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688652",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688652",
+     "url": "https://qt.gtimg.cn/q=sh688652",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "先锋精科"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688605",
+   "name_cn": "先锋精科",
+   "name_en": "",
+   "short_name": "先锋精科",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688605_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688605.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688605"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：先锋精科（688605.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688605",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688605",
+     "url": "https://qt.gtimg.cn/q=sh688605",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "兴森科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002436",
+   "name_cn": "兴森科技",
+   "name_en": "",
+   "short_name": "兴森科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002436_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002436.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002436"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：兴森科技（002436.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%85%B4%E6%A3%AE%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002436",
+     "url": "https://qt.gtimg.cn/q=sz002436",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "凯格精机"
+   ],
+   "entity_decision": "",
+   "company_id": "CN301338",
+   "name_cn": "凯格精机",
+   "name_en": "",
+   "short_name": "凯格精机",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN301338_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "301338.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz301338"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：凯格精机（301338.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%87%AF%E6%A0%BC%E7%B2%BE%E6%9C%BA&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz301338",
+     "url": "https://qt.gtimg.cn/q=sz301338",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "北京华丞电子"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "北京华丞电子",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "华卓精科"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "华卓精科",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "华峰测控"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688200",
+   "name_cn": "华峰测控",
+   "name_en": "",
+   "short_name": "华峰测控",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688200_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688200.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688200"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：华峰测控（688200.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%8D%8E%E5%B3%B0%E6%B5%8B%E6%8E%A7&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688200",
+     "url": "https://qt.gtimg.cn/q=sh688200",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "华特气体"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688268",
+   "name_cn": "华特气体",
+   "name_en": "",
+   "short_name": "华特气体",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688268_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688268.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688268"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：华特气体（688268.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%8D%8E%E7%89%B9%E6%B0%94%E4%BD%93&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688268",
+     "url": "https://qt.gtimg.cn/q=sh688268",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "南大光电"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300346",
+   "name_cn": "南大光电",
+   "name_en": "",
+   "short_name": "南大光电",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300346_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300346.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300346"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：南大光电（300346.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%8D%97%E5%A4%A7%E5%85%89%E7%94%B5&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300346",
+     "url": "https://qt.gtimg.cn/q=sz300346",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "同飞股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300990",
+   "name_cn": "同飞股份",
+   "name_en": "",
+   "short_name": "同飞股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300990_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300990.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300990"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：同飞股份（300990.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz300990",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300990",
+     "url": "https://qt.gtimg.cn/q=sz300990",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "吾拾微"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "吾拾微",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "和研科技"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "和研科技",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "国科精密"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "国科精密",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "奥特维"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688516",
+   "name_cn": "奥特维",
+   "name_en": "",
+   "short_name": "奥特维",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688516_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688516.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688516"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：奥特维（688516.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%A5%A5%E7%89%B9%E7%BB%B4&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688516",
+     "url": "https://qt.gtimg.cn/q=sh688516",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "宇晶股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002943",
+   "name_cn": "宇晶股份",
+   "name_en": "",
+   "short_name": "宇晶股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002943_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002943.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002943"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：宇晶股份（002943.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%AE%87%E6%99%B6%E8%82%A1%E4%BB%BD&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002943",
+     "url": "https://qt.gtimg.cn/q=sz002943",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "安集科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688019",
+   "name_cn": "安集科技",
+   "name_en": "",
+   "short_name": "安集科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688019_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688019.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688019"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：安集科技（688019.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%AE%89%E9%9B%86%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688019",
+     "url": "https://qt.gtimg.cn/q=sh688019",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "富创精密"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688409",
+   "name_cn": "富创精密",
+   "name_en": "",
+   "short_name": "富创精密",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688409_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688409.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688409"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：富创精密（688409.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688409",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688409",
+     "url": "https://qt.gtimg.cn/q=sh688409",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "康强电子"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002119",
+   "name_cn": "康强电子",
+   "name_en": "",
+   "short_name": "康强电子",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002119_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002119.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002119"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：康强电子（002119.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%BA%B7%E5%BC%BA%E7%94%B5%E5%AD%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002119",
+     "url": "https://qt.gtimg.cn/q=sz002119",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "彤程新材"
+   ],
+   "entity_decision": "",
+   "company_id": "CN603650",
+   "name_cn": "彤程新材",
+   "name_en": "",
+   "short_name": "彤程新材",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN603650_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "603650.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh603650"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：彤程新材（603650.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%BD%A4%E7%A8%8B%E6%96%B0%E6%9D%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh603650",
+     "url": "https://qt.gtimg.cn/q=sh603650",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "微见智能"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "微见智能",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "德邦科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688035",
+   "name_cn": "德邦科技",
+   "name_en": "",
+   "short_name": "德邦科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688035_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688035.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688035"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：德邦科技（688035.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%BE%B7%E9%82%A6%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688035",
+     "url": "https://qt.gtimg.cn/q=sh688035",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "德龙激光"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688170",
+   "name_cn": "德龙激光",
+   "name_en": "",
+   "short_name": "德龙激光",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688170_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688170.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688170"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：德龙激光（688170.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%BE%B7%E9%BE%99%E6%BF%80%E5%85%89&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688170",
+     "url": "https://qt.gtimg.cn/q=sh688170",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "恒硕科技"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "恒硕科技",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "恒运昌"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688785",
+   "name_cn": "恒运昌",
+   "name_en": "",
+   "short_name": "恒运昌",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688785_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688785.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688785"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：恒运昌（688785.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688785",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688785",
+     "url": "https://qt.gtimg.cn/q=sh688785",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "文一科技"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "文一科技",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "新松机器人"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300024",
+   "name_cn": "新松机器人",
+   "name_en": "",
+   "short_name": "机器人",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300024_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300024.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300024"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：机器人（300024.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz300024",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300024",
+     "url": "https://qt.gtimg.cn/q=sz300024",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "名称近似匹配（原名 新松机器人 vs 行情名 机器人），待人工复核"
+  },
+  {
+   "source_keys": [
+    "新莱应材"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300260",
+   "name_cn": "新莱应材",
+   "name_en": "",
+   "short_name": "新莱应材",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300260_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300260.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300260"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：新莱应材（300260.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz300260",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300260",
+     "url": "https://qt.gtimg.cn/q=sz300260",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "旺矽科技"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "旺矽科技",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "晶瑞电材"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300655",
+   "name_cn": "晶瑞电材",
+   "name_en": "",
+   "short_name": "晶瑞电材",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300655_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300655.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300655"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：晶瑞电材（300655.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%99%B6%E7%91%9E%E7%94%B5%E6%9D%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300655",
+     "url": "https://qt.gtimg.cn/q=sz300655",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "有研新材"
+   ],
+   "entity_decision": "",
+   "company_id": "CN600206",
+   "name_cn": "有研新材",
+   "name_en": "",
+   "short_name": "有研新材",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN600206_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "600206.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh600206"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：有研新材（600206.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%9C%89%E7%A0%94%E6%96%B0%E6%9D%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh600206",
+     "url": "https://qt.gtimg.cn/q=sh600206",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "格朗瑞"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "格朗瑞",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "汉钟精机"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002158",
+   "name_cn": "汉钟精机",
+   "name_en": "",
+   "short_name": "汉钟精机",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002158_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002158.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002158"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：汉钟精机（002158.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz002158",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002158",
+     "url": "https://qt.gtimg.cn/q=sz002158",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "江丰电子"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300666",
+   "name_cn": "江丰电子",
+   "name_en": "",
+   "short_name": "江丰电子",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300666_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300666.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300666"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：江丰电子（300666.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%B1%9F%E4%B8%B0%E7%94%B5%E5%AD%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300666",
+     "url": "https://qt.gtimg.cn/q=sz300666",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "江化微"
+   ],
+   "entity_decision": "",
+   "company_id": "CN603078",
+   "name_cn": "江化微",
+   "name_en": "",
+   "short_name": "江化微",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN603078_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "603078.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh603078"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：江化微（603078.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%B1%9F%E5%8C%96%E5%BE%AE&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh603078",
+     "url": "https://qt.gtimg.cn/q=sh603078",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "沪硅产业"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688126",
+   "name_cn": "沪硅产业",
+   "name_en": "",
+   "short_name": "沪硅产业",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688126_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688126.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688126"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：沪硅产业（688126.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%B2%AA%E7%A1%85%E4%BA%A7%E4%B8%9A&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688126",
+     "url": "https://qt.gtimg.cn/q=sh688126",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "河北中瓷"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "河北中瓷",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "深南电路"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002916",
+   "name_cn": "深南电路",
+   "name_en": "",
+   "short_name": "深南电路",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002916_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002916.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002916"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：深南电路（002916.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%B7%B1%E5%8D%97%E7%94%B5%E8%B7%AF&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002916",
+     "url": "https://qt.gtimg.cn/q=sz002916",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "清溢光电"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688138",
+   "name_cn": "清溢光电",
+   "name_en": "",
+   "short_name": "清溢光电",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688138_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688138.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688138"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：清溢光电（688138.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E6%B8%85%E6%BA%A2%E5%85%89%E7%94%B5&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688138",
+     "url": "https://qt.gtimg.cn/q=sh688138",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "潮州三环"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "潮州三环",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "烁科精微"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "烁科精微",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "烟台一诺"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "烟台一诺",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "猎奇智能"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "猎奇智能",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "珂玛科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN301611",
+   "name_cn": "珂玛科技",
+   "name_en": "",
+   "short_name": "珂玛科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN301611_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "301611.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz301611"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：珂玛科技（301611.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz301611",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz301611",
+     "url": "https://qt.gtimg.cn/q=sz301611",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "珠海越亚"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "珠海越亚",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "石英股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN603688",
+   "name_cn": "石英股份",
+   "name_en": "",
+   "short_name": "石英股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN603688_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "603688.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh603688"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：石英股份（603688.SH）",
+     "url": "https://qt.gtimg.cn/q=sh603688",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh603688",
+     "url": "https://qt.gtimg.cn/q=sh603688",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "矽电股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN301629",
+   "name_cn": "矽电股份",
+   "name_en": "",
+   "short_name": "矽电股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN301629_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "301629.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz301629"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：矽电股份（301629.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E7%9F%BD%E7%94%B5%E8%82%A1%E4%BB%BD&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz301629",
+     "url": "https://qt.gtimg.cn/q=sz301629",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "神州半导体"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "神州半导体",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "神工股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688233",
+   "name_cn": "神工股份",
+   "name_en": "",
+   "short_name": "神工股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688233_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688233.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688233"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：神工股份（688233.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688233",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688233",
+     "url": "https://qt.gtimg.cn/q=sh688233",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "福晶科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002222",
+   "name_cn": "福晶科技",
+   "name_en": "",
+   "short_name": "福晶科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002222_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002222.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002222"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：福晶科技（002222.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz002222",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002222",
+     "url": "https://qt.gtimg.cn/q=sz002222",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "科益虹源"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "科益虹源",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "立昂微"
+   ],
+   "entity_decision": "",
+   "company_id": "CN605358",
+   "name_cn": "立昂微",
+   "name_en": "",
+   "short_name": "立昂微",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN605358_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "605358.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh605358"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：立昂微（605358.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E7%AB%8B%E6%98%82%E5%BE%AE&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh605358",
+     "url": "https://qt.gtimg.cn/q=sh605358",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "精智达"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688627",
+   "name_cn": "精智达",
+   "name_en": "",
+   "short_name": "精智达",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688627_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688627.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688627"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：精智达（688627.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E7%B2%BE%E6%99%BA%E8%BE%BE&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688627",
+     "url": "https://qt.gtimg.cn/q=sh688627",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "精测电子"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300567",
+   "name_cn": "精测电子",
+   "name_en": "",
+   "short_name": "精测电子",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300567_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300567.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300567"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：精测电子（300567.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E7%B2%BE%E6%B5%8B%E7%94%B5%E5%AD%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300567",
+     "url": "https://qt.gtimg.cn/q=sz300567",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "耐科装备"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688419",
+   "name_cn": "耐科装备",
+   "name_en": "",
+   "short_name": "耐科装备",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688419_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688419.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688419"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：耐科装备（688419.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%80%90%E7%A7%91%E8%A3%85%E5%A4%87&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688419",
+     "url": "https://qt.gtimg.cn/q=sh688419",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "联动科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN301369",
+   "name_cn": "联动科技",
+   "name_en": "",
+   "short_name": "联动科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN301369_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "301369.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz301369"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：联动科技（301369.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%81%94%E5%8A%A8%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz301369",
+     "url": "https://qt.gtimg.cn/q=sz301369",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "臻宝科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688797",
+   "name_cn": "臻宝科技",
+   "name_en": "",
+   "short_name": "臻宝科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688797_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688797.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688797"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：臻宝科技（688797.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%87%BB%E5%AE%9D%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688797",
+     "url": "https://qt.gtimg.cn/q=sh688797",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "芯慧联"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "芯慧联",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "芯睿科技"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "芯睿科技",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "茂莱光学"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688502",
+   "name_cn": "茂莱光学",
+   "name_en": "",
+   "short_name": "茂莱光学",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688502_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688502.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688502"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：茂莱光学（688502.SH）",
+     "url": "https://qt.gtimg.cn/q=sh688502",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688502",
+     "url": "https://qt.gtimg.cn/q=sh688502",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "菲利华"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300395",
+   "name_cn": "菲利华",
+   "name_en": "",
+   "short_name": "菲利华",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300395_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300395.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300395"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：菲利华（300395.SZ）",
+     "url": "https://qt.gtimg.cn/q=sz300395",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：见检索；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300395",
+     "url": "https://qt.gtimg.cn/q=sz300395",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "西安奕材"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688783",
+   "name_cn": "西安奕材",
+   "name_en": "",
+   "short_name": "西安奕材-U",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688783_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688783.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688783"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：西安奕材-U（688783.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%A5%BF%E5%AE%89%E5%A5%95%E6%9D%90&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688783",
+     "url": "https://qt.gtimg.cn/q=sh688783",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "名称近似匹配（原名 西安奕材 vs 行情名 西安奕材-U），待人工复核"
+  },
+  {
+   "source_keys": [
+    "路维光电"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688401",
+   "name_cn": "路维光电",
+   "name_en": "",
+   "short_name": "路维光电",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688401_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688401.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688401"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：路维光电（688401.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%B7%AF%E7%BB%B4%E5%85%89%E7%94%B5&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688401",
+     "url": "https://qt.gtimg.cn/q=sh688401",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "迈为股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300751",
+   "name_cn": "迈为股份",
+   "name_en": "",
+   "short_name": "迈为股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300751_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300751.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300751"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：迈为股份（300751.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E8%BF%88%E4%B8%BA%E8%82%A1%E4%BB%BD&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300751",
+     "url": "https://qt.gtimg.cn/q=sz300751",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "金宏气体"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688106",
+   "name_cn": "金宏气体",
+   "name_en": "",
+   "short_name": "金宏气体",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688106_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688106.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688106"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：金宏气体（688106.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%87%91%E5%AE%8F%E6%B0%94%E4%BD%93&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688106",
+     "url": "https://qt.gtimg.cn/q=sh688106",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "金海通"
+   ],
+   "entity_decision": "",
+   "company_id": "CN603061",
+   "name_cn": "金海通",
+   "name_en": "",
+   "short_name": "金海通",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN603061_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "603061.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh603061"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：金海通（603061.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%87%91%E6%B5%B7%E9%80%9A&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：沪A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh603061",
+     "url": "https://qt.gtimg.cn/q=sh603061",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "隆华科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300263",
+   "name_cn": "隆华科技",
+   "name_en": "",
+   "short_name": "隆华科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300263_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300263.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300263"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：隆华科技（300263.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%9A%86%E5%8D%8E%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300263",
+     "url": "https://qt.gtimg.cn/q=sz300263",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "雅克科技"
+   ],
+   "entity_decision": "",
+   "company_id": "CN002409",
+   "name_cn": "雅克科技",
+   "name_en": "",
+   "short_name": "雅克科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN002409_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002409.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002409"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：雅克科技（002409.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%9B%85%E5%85%8B%E7%A7%91%E6%8A%80&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz002409",
+     "url": "https://qt.gtimg.cn/q=sz002409",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "青禾晶元"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "青禾晶元",
+   "name_en": "",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  },
+  {
+   "source_keys": [
+    "飞凯材料"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300398",
+   "name_cn": "飞凯材料",
+   "name_en": "",
+   "short_name": "飞凯材料",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300398_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300398.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300398"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：飞凯材料（300398.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%A3%9E%E5%87%AF%E6%9D%90%E6%96%99&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300398",
+     "url": "https://qt.gtimg.cn/q=sz300398",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "鼎龙股份"
+   ],
+   "entity_decision": "",
+   "company_id": "CN300054",
+   "name_cn": "鼎龙股份",
+   "name_en": "",
+   "short_name": "鼎龙股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN300054_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300054.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300054"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：鼎龙股份（300054.SZ）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%BC%8E%E9%BE%99%E8%82%A1%E4%BB%BD&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：深A；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sz300054",
+     "url": "https://qt.gtimg.cn/q=sz300054",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "龙图光罩"
+   ],
+   "entity_decision": "",
+   "company_id": "CN688721",
+   "name_cn": "龙图光罩",
+   "name_en": "",
+   "short_name": "龙图光罩",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CN688721_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688721.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688721"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：龙图光罩（688721.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E9%BE%99%E5%9B%BE%E5%85%89%E7%BD%A9&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688721",
+     "url": "https://qt.gtimg.cn/q=sh688721",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "MATTSON"
+   ],
+   "entity_decision": "",
+   "company_id": "MATTSON",
+   "name_cn": "屹唐半导体",
+   "name_en": "Mattson",
+   "short_name": "屹唐股份",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "MATTSON_SSE",
+     "market": "A股",
+     "exchange": "SSE",
+     "ticker": "688729.SH",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sh688729"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东方财富",
+     "title": "证券简称检索：屹唐股份（688729.SH）",
+     "url": "https://searchapi.eastmoney.com/api/suggest/get?input=%E5%B1%B9%E5%94%90%E5%8D%8A%E5%AF%BC%E4%BD%93&type=14&token=D43BF722C8E33BD1C740FD9E4C0DEA0F&count=8",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态/代码/板块",
+     "caliber": "东财证券名录检索",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "板块：科创板；gtimg 实时行情名称交叉验证一致"
+    },
+    {
+     "org": "腾讯财经",
+     "title": "gtimg 行情快照 sh688729",
+     "url": "https://qt.gtimg.cn/q=sh688729",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "行情存在性",
+     "caliber": "实时行情接口",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "名称近似匹配（原名 屹唐半导体 vs 行情名 屹唐股份），待人工复核"
+  },
+  {
+   "source_keys": [
+    "SMEE"
+   ],
+   "entity_decision": "",
+   "company_id": "",
+   "name_cn": "上海微电子装备",
+   "name_en": "SMEE",
+   "short_name": "",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "",
+   "listings": [],
+   "evidence": [],
+   "confidence": "low",
+   "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+  }
+ ]
+}

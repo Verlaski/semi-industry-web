@@ -18,18 +18,19 @@ def build():
             text += path.read_text(encoding='utf-8')
     target = SITE / 'assets/fonts'
     target.mkdir(parents=True, exist_ok=True)
-    for weight in ('Regular', 'Bold'):
-        options = subset.Options()
-        options.flavor = 'woff2'
-        # Retain family/license metadata and shaping needed by the selected glyphs.
-        options.name_IDs = ['*']
-        font = subset.load_font(str(ROOT / f'reporting/fonts/NotoSansSC-{weight}.ttf'), options)
-        sub = subset.Subsetter(options=options)
-        sub.populate(text=text)
-        sub.subset(font)
-        output = target / f'NotoSansSC-{weight}.woff2'
-        subset.save_font(font, str(output), options)
-        print(output.name, output.stat().st_size)
+    for family in ('NotoSansSC', 'NotoSansKR-Hangul'):
+        for weight in ('Regular', 'Bold'):
+            options = subset.Options()
+            options.flavor = 'woff2'
+            # Retain family/license metadata and shaping needed by the selected glyphs.
+            options.name_IDs = ['*']
+            font = subset.load_font(str(ROOT / f'reporting/fonts/{family}-{weight}.ttf'), options)
+            sub = subset.Subsetter(options=options)
+            sub.populate(text=text)
+            sub.subset(font)
+            output = target / f'{family}-{weight}.woff2'
+            subset.save_font(font, str(output), options)
+            print(output.name, output.stat().st_size)
     shutil.copy2(ROOT / 'reporting/fonts/OFL.txt', target / 'OFL.txt')
 
 

@@ -7,7 +7,7 @@ from reportlab.lib.units import cm
 from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Spacer, PageBreak, Paragraph, KeepTogether
 import re
 from .components import paragraph, table
-from .styles import FontResolver, styles, NAVY, GRAY
+from .styles import FontResolver, styles, NAVY, GRAY, font_fallback
 
 
 def generate(model, destination):
@@ -23,7 +23,7 @@ def generate(model, destination):
     for i, item in enumerate(model.summary, 1):
         text = escape(item).replace("两条并行投入链", '<b><font backColor="#FFF2CC">两条并行投入链</font></b>')
         text = re.sub(r"\d+个(?:一级)?赛道", lambda m: '<b><font color="#C00000">' + m.group() + '</font></b>', text)
-        story.append(Paragraph('<b><font color="#17375E">' + str(i) + ". </font></b>" + text, st["body"]))
+        story.append(Paragraph(font_fallback('<b><font color="#17375E">' + str(i) + ". </font></b>" + text), st["body"]))
     if model.quotes:
         story.append(paragraph("行情快照（各市场币种不可直接相加）", st["h1"]))
         for q in model.quotes:
@@ -55,7 +55,7 @@ def generate(model, destination):
             text += "备注：" + source["remark"]
         url = source.get("url", "")
         if url.startswith(("https://", "http://")):
-            reference_nodes.append(Paragraph(escape(text) + '<br/><link href=' + quoteattr(url) + ' color="#17375E">' + escape(url) + "</link>", st["ref"]))
+            reference_nodes.append(Paragraph(font_fallback(escape(text) + '<br/><link href=' + quoteattr(url) + ' color="#17375E">' + escape(url) + "</link>"), st["ref"]))
         else:
             reference_nodes.append(paragraph(text, st["ref"]))
     story.extend(reference_nodes[:-4])

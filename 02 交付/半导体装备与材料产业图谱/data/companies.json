@@ -1,0 +1,6746 @@
+{
+  "companies": [
+    {
+      "company_id": "ACCESS",
+      "name_cn": "珠海越亚半导体股份有限公司",
+      "name_en": "Zhuhai ACCESS Semiconductor Co., Ltd.",
+      "short_name": "珠海越亚",
+      "aliases": [
+        "越亚",
+        "越亚半导体",
+        "越亚封装"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-234",
+      "source_keys": [
+        "珠海越亚"
+      ],
+      "entity_decision": "确认为独立实体：珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2026-07-16过会、07-17提交注册，截至2026-10-15未见发行上市，记非上市；珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2025-09-30受理、2026-07-16上市委通过、2026-07-17提交注册，截至2026-10-15未见发行挂牌，记非上市；IPO在审：创业板（深交所），审核状态：中止（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "创业板IPO已提交注册，尚未发行；后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO已提交注册，尚未发行；后续将转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "创业板（深交所），审核状态：中止"
+    },
+    {
+      "company_id": "ACCOTEST",
+      "name_cn": "北京华峰测控技术股份有限公司",
+      "name_en": "Beijing Huafeng Test & Control Technology Co., Ltd.",
+      "short_name": "华峰测控",
+      "aliases": [
+        "AccoTEST"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ACCOTEST_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688200.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688200",
+            "eastmoney": "1.688200"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-102",
+      "source_keys": [
+        "华峰测控"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ACMSH",
+      "name_cn": "盛美半导体设备（上海）股份有限公司",
+      "name_en": "ACM Research (Shanghai), Inc.",
+      "short_name": "盛美上海",
+      "aliases": [
+        "盛美半导体"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ACMSH_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688082.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688082",
+            "eastmoney": "1.688082"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-001",
+      "source_keys": [
+        "ACMRESEARCH"
+      ],
+      "entity_decision": "纳斯达克上市公司 ACM Research, Inc.（ACMR）的控股子公司（ACMR 持股约 73%）；盛美上海本体已在科创板上市，2026 年 4 月公告筹划发行 H 股（截至核验日尚未在港交所挂牌）",
+      "confidence": "high",
+      "unresolved": "H 股发行处于筹划阶段，港股代码未定"
+    },
+    {
+      "company_id": "AMEC",
+      "name_cn": "中微半导体设备（上海）股份有限公司",
+      "name_en": "Advanced Micro-Fabrication Equipment Inc. China",
+      "short_name": "中微公司",
+      "aliases": [
+        "中微半导体"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "AMEC_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688012.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688012",
+            "eastmoney": "1.688012"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-005",
+      "source_keys": [
+        "AMEC"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ANJI",
+      "name_cn": "安集微电子科技（上海）股份有限公司",
+      "name_en": "Anji Microelectronics Technology (Shanghai) Co., Ltd.",
+      "short_name": "安集科技",
+      "aliases": [
+        "安集微电子"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ANJI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688019.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688019"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-136",
+      "source_keys": [
+        "安集科技"
+      ],
+      "entity_decision": "确认为上市公司主体：安集微电子科技（上海）股份有限公司（科创板 688019）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "AURASKY",
+      "name_cn": "北京华丞电子股份有限公司",
+      "name_en": "Beijing Aurasky Electronics Co., Ltd.",
+      "short_name": "华丞电子",
+      "aliases": [
+        "AURASKY",
+        "七星流量计",
+        "北京七星华创流量计有限公司"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-093",
+      "source_keys": [
+        "北京华丞电子"
+      ],
+      "entity_decision": "北京华丞电子股份有限公司（2026年5月由有限公司改制更名；曾用名北京七星华创流量计有限公司）；北方华创科技集团旗下核心国有控股企业，自身未上市",
+      "confidence": "high",
+      "unresolved": "英文法定名称未确认（AURASKY 为品牌名）；股东结构（七星华创/北方华创体系关联）未专项核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "AUTOWELL",
+      "name_cn": "无锡奥特维科技股份有限公司",
+      "name_en": "Wuxi Autowell Technology Co., Ltd.",
+      "short_name": "奥特维",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "AUTOWELL_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688516.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688516"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-128",
+      "source_keys": [
+        "奥特维"
+      ],
+      "entity_decision": "确认为上市公司主体：无锡奥特维科技股份有限公司（科创板 688516）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "CASCOL",
+      "name_cn": "上海中艺自动化系统有限公司",
+      "name_en": "Chart Automation System Co., Ltd.",
+      "short_name": "上海中艺",
+      "aliases": [
+        "Cascol",
+        "中艺",
+        "中艺自动化"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-040",
+      "source_keys": [
+        "上海中艺"
+      ],
+      "entity_decision": "上海中艺自动化系统有限公司（2001年成立，集成电路分选机/编带机厂商）；非上市",
+      "confidence": "medium",
+      "unresolved": "法定英文名称未确认；company_id CASCOL 取自官网域名 cascol.com；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；法定英文名称以 SEMI 展商名录 Chart Automation System 为准，建议工商档案复核",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CASTECH",
+      "name_cn": "福建福晶科技股份有限公司",
+      "name_en": "CASTECH Inc.",
+      "short_name": "福晶科技",
+      "aliases": [
+        "CASTECH"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CASTECH_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002222.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002222"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-250",
+      "source_keys": [
+        "福晶科技"
+      ],
+      "entity_decision": "确认为独立实体：福建福晶科技股份有限公司，深交所主板（原中小板）上市；ticker_hint 002222 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "CCKJ",
+      "name_cn": "杭州长川科技股份有限公司",
+      "name_en": "Hangzhou Changchuan Technology Co., Ltd.",
+      "short_name": "长川科技",
+      "aliases": [
+        "CCTech",
+        "Changchuan Technology",
+        "长川科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CCKJ_",
+          "market": "A股",
+          "exchange": "深交所创业板",
+          "ticker": "300604.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300604"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-413",
+      "source_keys": [
+        "长川科技"
+      ],
+      "entity_decision": "赛道主体=长川科技本体（杭州长川科技股份有限公司，国产半导体测试设备平台龙头），创业板独立上市，无母子归属问题",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "CCTC",
+      "name_cn": "潮州三环（集团）股份有限公司",
+      "name_en": "Chaozhou Three-Circle (Group) Co., Ltd.",
+      "short_name": "三环集团",
+      "aliases": [
+        "CCTC",
+        "三环",
+        "三环集团",
+        "潮州三环"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CCTC_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300408.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300408"
+          }
+        },
+        {
+          "listing_id": "CCTC_HKEX",
+          "market": "港股",
+          "exchange": "HKEX",
+          "ticker": "6951.HK",
+          "primary": false,
+          "provider_symbols": {
+            "tencent": "hk06951"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-216",
+      "source_keys": [
+        "潮州三环"
+      ],
+      "entity_decision": "确认为上市公司主体：潮州三环（集团）股份有限公司（创业板 300408，2014年上市，证券简称'三环集团'）；潮州三环（集团）股份有限公司（三环集团）；2014-12-03深交所创业板上市，代码300408；2026-07-09香港联交所主板上市，代码6951.HK，A+H两地上市",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+    },
+    {
+      "company_id": "CETC43",
+      "name_cn": "中国电子科技集团公司第四十三研究所",
+      "name_en": "CETC 43rd Research Institute",
+      "short_name": "中电科43所",
+      "aliases": [
+        "43所",
+        "中国电科43所",
+        "中电科43所"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-347",
+      "source_keys": [
+        "中电科43所/合肥圣达"
+      ],
+      "entity_decision": "拆分：中电科43所（研究所）与合肥圣达电子科技实业有限公司为不同法人，43所仅为合肥圣达第一大股东（持股46.27%），各占一条",
+      "confidence": "medium",
+      "unresolved": "研究所企业化改制后运营主体名称未逐字核验",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CNEPO",
+      "name_cn": "长春国科精密光学技术有限公司",
+      "name_en": "Changchun National Precision Optics Co., Ltd.",
+      "short_name": "国科精密",
+      "aliases": [
+        "国科精密光学",
+        "长春国科精密"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-124",
+      "source_keys": [
+        "国科精密"
+      ],
+      "entity_decision": "确认为非上市公司：长春国科精密光学技术有限公司（光刻投影光学系统），2022年初被国望光学全资收购，原始备注'未上市'核验一致；长春国科精密光学技术有限公司（光刻机投影物镜）；2021年春被北京国望光学科技有限公司全资收购，为其全资子公司，自身未上市",
+      "confidence": "medium",
+      "unresolved": "英文全称未见权威披露；被国望光学收购后的存续主体状态未进一步核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；被国望光学收购后的最新存续主体状态未进一步核验；英文法定名称未确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CSLVAC",
+      "name_cn": "深圳市恒运昌真空技术股份有限公司",
+      "name_en": "Shenzhen CSL Vacuum Science and Technology Co., Ltd.",
+      "short_name": "恒运昌",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CSLVAC_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688785.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688785"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-163",
+      "source_keys": [
+        "恒运昌"
+      ],
+      "entity_decision": "确认为上市公司主体：深圳市恒运昌真空技术股份有限公司（科创板 688785，2026-01-28上市），ticker_hint 核验一致",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "DARBOND",
+      "name_cn": "烟台德邦科技股份有限公司",
+      "name_en": "Darbond Technology Co., Ltd.",
+      "short_name": "德邦科技",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DARBOND_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688035.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688035"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-152",
+      "source_keys": [
+        "德邦科技"
+      ],
+      "entity_decision": "确认为上市公司主体：烟台德邦科技股份有限公司（科创板 688035）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "DELPHILASER",
+      "name_cn": "苏州德龙激光股份有限公司",
+      "name_en": "",
+      "short_name": "德龙激光",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DELPHILASER_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688170.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688170"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-155",
+      "source_keys": [
+        "德龙激光"
+      ],
+      "entity_decision": "确认为上市公司主体：苏州德龙激光股份有限公司（科创板 688170，2022-04-29上市）",
+      "confidence": "high",
+      "unresolved": "英文全称未核验（通行用法 Suzhou Delphi Laser Co., Ltd. 未经招股书级来源确认）"
+    },
+    {
+      "company_id": "DINGLONG",
+      "name_cn": "湖北鼎龙控股股份有限公司",
+      "name_en": "Hubei Dinglong Co., Ltd.",
+      "short_name": "鼎龙股份",
+      "aliases": [
+        "湖北鼎龙化学股份有限公司",
+        "鼎龙控股"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DINGLONG_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300054.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300054"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-330",
+      "source_keys": [
+        "鼎龙股份"
+      ],
+      "entity_decision": "确认为独立实体：湖北鼎龙控股股份有限公司，深交所创业板上市（300054），为主上市地；2026-07-06已向香港联交所主板递交H股上市申请，截至2026-10-15未见H股挂牌，暂列A股单一上市",
+      "confidence": "high",
+      "unresolved": "H股申请审核中，若完成挂牌需补录港交所listing；英文全称以最新年报口径复核"
+    },
+    {
+      "company_id": "DJEL",
+      "name_cn": "东方晶源微电子科技（北京）股份有限公司",
+      "name_en": "DJEL",
+      "short_name": "东方晶源",
+      "aliases": [
+        "DJEL",
+        "东方晶源电子"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-008",
+      "source_keys": [
+        "DJEL"
+      ],
+      "entity_decision": "科创板 IPO 已于 2026-09-29 获上交所受理（招股说明书申报稿披露），辅导机构中信建投，截至 2026-10-15 尚未发行上市；东方晶源微电子科技（北京）股份有限公司；2026年已申报科创板IPO（拟募资约25亿元），目前处于审核流程中，尚未发行上市；2024-11曾完成近10亿元融资；IPO在审：科创板（上交所），审核状态：已问询（2026-09-29）（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "法定英文名称未确认（DJEL 为英文品牌缩写）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO审核中，存在不确定性；法定英文名称以官网品牌 Dongfang Jingyuan Electron Limited 为准",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询（2026-09-29）"
+    },
+    {
+      "company_id": "DZFC",
+      "name_cn": "深圳市大族封测科技股份有限公司",
+      "name_en": "",
+      "short_name": "大族封测",
+      "aliases": [
+        "大族光电",
+        "大族封测"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-350",
+      "source_keys": [
+        "大族封测",
+        "大族激光/大族封测"
+      ],
+      "entity_decision": "拆分+合并：大族封测为独立法人（大族激光控股子公司），两行候选均指同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ESWINMAT",
+      "name_cn": "西安奕斯伟材料科技股份有限公司",
+      "name_en": "Xi'an ESWIN Material Technology Co., Ltd.",
+      "short_name": "西安奕材",
+      "aliases": [
+        "奕斯伟材料",
+        "西安奕斯伟硅片",
+        "西安奕材-U"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ESWINMAT_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688783.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688783"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-294",
+      "source_keys": [
+        "西安奕材"
+      ],
+      "entity_decision": "确认为独立实体：西安奕斯伟材料科技股份有限公司（ESWIN Material），2025-10-28上交所科创板上市（未盈利标识-U），代码688783；'奕斯伟材料'为其通行称谓，控股股东为北京奕斯伟科技集团；主体确认：西安奕斯伟材料科技股份有限公司（西安奕材/西安奕材-U）；2025-10-28科创板（科创成长层）上市，代码688783，12英寸硅片厂商",
+      "confidence": "high",
+      "unresolved": "名称近似匹配（原名 西安奕材 vs 行情名 西安奕材-U），待人工复核"
+    },
+    {
+      "company_id": "ETOWNSEMI",
+      "name_cn": "北京屹唐半导体科技股份有限公司",
+      "name_en": "Beijing E-Town Semiconductor Technology Co., Ltd.",
+      "short_name": "屹唐股份",
+      "aliases": [
+        "Mattson",
+        "Mattson Technology",
+        "屹唐",
+        "屹唐 Mattson",
+        "屹唐半导体"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ETOWNSEMI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688729.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688729"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-338",
+      "source_keys": [
+        "MATTSON"
+      ],
+      "entity_decision": "合并归一：屹唐半导体与Mattson为同一上市主体——北京屹唐半导体科技股份有限公司（2025-07-08科创板上市，688729）；Mattson Technology为屹唐2015-2016年收购的美国子公司品牌，不单独上市；主体确认：北京屹唐半导体科技股份有限公司（屹唐股份）；2015年北京经开区国资通过并购美国 Mattson Technology 设立，Mattson 为其品牌/前身；2025-06科创板上市，代码688729",
+      "confidence": "high",
+      "unresolved": "名称近似匹配（原名 屹唐半导体 vs 行情名 屹唐股份），待人工复核"
+    },
+    {
+      "company_id": "FASTPRINT",
+      "name_cn": "深圳市兴森快捷电路科技股份有限公司",
+      "name_en": "Shenzhen Fastprint Circuit Tech Co., Ltd.",
+      "short_name": "兴森科技",
+      "aliases": [
+        "兴森快捷"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FASTPRINT_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002436.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002436",
+            "eastmoney": "0.002436"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-086",
+      "source_keys": [
+        "兴森科技"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FEILIHUA",
+      "name_cn": "湖北菲利华石英玻璃股份有限公司",
+      "name_en": "Hubei Feilihua Quartz Glass Co., Ltd.",
+      "short_name": "菲利华",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FEILIHUA_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300395.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300395"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-291",
+      "source_keys": [
+        "菲利华"
+      ],
+      "entity_decision": "确认为独立实体：湖北菲利华石英玻璃股份有限公司，深交所创业板上市；ticker_hint 300395 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FORTUNE",
+      "name_cn": "沈阳富创精密设备股份有限公司",
+      "name_en": "Shenyang Fortune Precision Equipment Co., Ltd.",
+      "short_name": "富创精密",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FORTUNE_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688409.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688409"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-139",
+      "source_keys": [
+        "富创精密"
+      ],
+      "entity_decision": "确认为上市公司主体：沈阳富创精密设备股份有限公司（科创板 688409），ticker_hint 核验一致",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "GENORI",
+      "name_cn": "重庆臻宝科技股份有限公司",
+      "name_en": "Chongqing Genori Technology Co., Ltd.",
+      "short_name": "臻宝科技",
+      "aliases": [
+        "Genori"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "GENORI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688797.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688797"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-277",
+      "source_keys": [
+        "臻宝科技"
+      ],
+      "entity_decision": "确认为独立实体：重庆臻宝科技股份有限公司（英文 Genori），2026-06-24上交所科创板上市，代码688797；备注'科创板IPO'已落地为上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "GKG",
+      "name_cn": "东莞市凯格精机股份有限公司",
+      "name_en": "GKG Precision Machine Co., Ltd.",
+      "short_name": "凯格精机",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "GKG_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "301338.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz301338",
+            "eastmoney": "0.301338"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-090",
+      "source_keys": [
+        "凯格精机"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "GLR",
+      "name_cn": "江苏格朗瑞科技有限公司",
+      "name_en": "Jiangsu Grandtry Technology Co., Ltd.",
+      "short_name": "格朗瑞",
+      "aliases": [
+        "Grandtry",
+        "格朗瑞科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-191",
+      "source_keys": [
+        "格朗瑞"
+      ],
+      "entity_decision": "确认为非上市公司：江苏格朗瑞科技有限公司（半导体封测设备，苏州工业园区）；江苏格朗瑞科技有限公司（2010年成立，苏州工业园区，半导体转塔式分选机等专用设备）；非上市",
+      "confidence": "medium",
+      "unresolved": "英文全称不完整（36氪页面截断）；未见任何上市记录；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；英文法定名称未确认（Grandtry 为公开报道品牌口径）；未见任何上市记录",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "GLTECH",
+      "name_cn": "光力科技股份有限公司",
+      "name_en": "GL Tech Co., Ltd.",
+      "short_name": "光力科技",
+      "aliases": [
+        "GL Tech",
+        "光力瑞弘（全资子公司）",
+        "光力科技",
+        "子公司：ADT（以色列）/LP、LPB（英国）"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "GLTECH_",
+          "market": "A股",
+          "exchange": "深交所创业板",
+          "ticker": "300480.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300480"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-415",
+      "source_keys": [
+        "光力科技"
+      ],
+      "entity_decision": "赛道主体=光力科技本体（光力科技股份有限公司，创业板上市）；以色列ADT（划片机）、英国LP/LPB（空气主轴）为其收购的海外子公司，赛道地位归属上市本体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "GRINM",
+      "name_cn": "有研新材料股份有限公司",
+      "name_en": "Grinm Advanced Materials Co., Ltd.",
+      "short_name": "有研新材",
+      "aliases": [
+        "有研硅股"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "GRINM_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "600206.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh600206"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-187",
+      "source_keys": [
+        "有研新材"
+      ],
+      "entity_decision": "确认为上市公司主体：有研新材料股份有限公司（上交所主板 600206）；备注'有研亿金'为其全资子公司有研亿金新材料有限公司，非独立上市主体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HANBELL",
+      "name_cn": "上海汉钟精机股份有限公司",
+      "name_en": "Shanghai Hanbell Precise Machinery Co., Ltd.",
+      "short_name": "汉钟精机",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HANBELL_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002158.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002158"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-195",
+      "source_keys": [
+        "汉钟精机"
+      ],
+      "entity_decision": "确认为上市公司主体：上海汉钟精机股份有限公司（深交所 002158），ticker_hint 核验一致",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HANSLASER",
+      "name_cn": "大族激光科技产业集团股份有限公司",
+      "name_en": "Han's Laser Technology Industry Group Co., Ltd.",
+      "short_name": "大族激光",
+      "aliases": [
+        "Han's Laser",
+        "大族激光"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HANSLASER_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002008.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002008",
+            "eastmoney": "0.002008"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-350",
+      "source_keys": [
+        "大族激光/大族封测"
+      ],
+      "entity_decision": "拆分：大族激光为上市母公司，大族封测为其控股子公司，两个独立法人各占一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HEYAN",
+      "name_cn": "沈阳和研科技股份有限公司",
+      "name_en": "Shenyang Heyan Technology Co., Ltd.",
+      "short_name": "和研科技",
+      "aliases": [
+        "沈阳和研"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-120",
+      "source_keys": [
+        "和研科技"
+      ],
+      "entity_decision": "确认为非上市公司：沈阳和研科技股份有限公司（划片机/研磨机厂商），2023年1月IPO辅导备案，未见后续上市；沈阳和研科技股份有限公司（划片机/研磨机等半导体磨划设备）；非上市，2023年曾启动A股IPO辅导备案，截至2026-10-15未见发行上市",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "HHCK",
+      "name_cn": "江苏华海诚科新材料股份有限公司",
+      "name_en": "Jiangsu Huahai Chengke New Material Co., Ltd.",
+      "short_name": "华海诚科",
+      "aliases": [
+        "Huahai Chengke",
+        "华海诚科"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HHCK_",
+          "market": "A股",
+          "exchange": "上交所科创板",
+          "ticker": "688535.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688535"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-403",
+      "source_keys": [
+        "华海诚科"
+      ],
+      "entity_decision": "赛道主体=华海诚科本体（江苏华海诚科新材料股份有限公司，环氧塑封料/电子胶黏剂），科创板独立上市，无母公司归属问题；2025年完成对衡所华威100%收购",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HSHW",
+      "name_cn": "衡所华威电子有限公司",
+      "name_en": "Hysol Huawei Electronics Co., Ltd.",
+      "short_name": "衡所华威",
+      "aliases": [
+        "Hysol",
+        "原汉高华威",
+        "母公司：华海诚科（688535.SH）",
+        "衡所华威"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-404",
+      "source_keys": [
+        "衡所华威"
+      ],
+      "entity_decision": "赛道主体=衡所华威本体（衡所华威电子有限公司，Hysol品牌，国内环氧塑封料出货量第一）；2025年3月起为华海诚科（688535.SH）100%控股子公司，自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "HUATE",
+      "name_cn": "广东华特气体股份有限公司",
+      "name_en": "Guangdong Huate Gas Co., Ltd.",
+      "short_name": "华特气体",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HUATE_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688268.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688268",
+            "eastmoney": "1.688268"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-106",
+      "source_keys": [
+        "华特气体"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HWATSING",
+      "name_cn": "华海清科股份有限公司",
+      "name_en": "Hwatsing Technology Co., Ltd.",
+      "short_name": "华海清科",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HWATSING_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688120.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688120",
+            "eastmoney": "1.688120"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-012",
+      "source_keys": [
+        "HWATSING"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "INJET",
+      "name_cn": "四川英杰电气股份有限公司",
+      "name_en": "Sichuan Injet Electric Co., Ltd.",
+      "short_name": "英杰电气",
+      "aliases": [
+        "Injet",
+        "英杰电气"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "INJET_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300820.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300820",
+            "eastmoney": "0.300820"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-352",
+      "source_keys": [
+        "英杰电气/英杰晨晖"
+      ],
+      "entity_decision": "拆分：英杰电气为上市母公司，英杰晨晖为其控股子公司，两个独立法人各占一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "IWISEETEC",
+      "name_cn": "苏州芯睿科技有限公司",
+      "name_en": "Suzhou iWiseeTec Co., Ltd.",
+      "short_name": "芯睿科技",
+      "aliases": [
+        "iWiseeTec",
+        "芯睿"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-285",
+      "source_keys": [
+        "芯睿科技"
+      ],
+      "entity_decision": "确认为独立实体：苏州芯睿科技有限公司（晶圆键合/解键合设备，品牌 iWiseeTec），未上市；苏州芯睿科技有限公司（2021年成立，晶圆临时/永久键合及解键合设备）；非上市，已完成多轮融资（累计披露约2.3亿元）",
+      "confidence": "high",
+      "unresolved": "法定英文名未获官方确认（iWiseeTec 为官网品牌口径）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "JHT",
+      "name_cn": "天津金海通半导体设备股份有限公司",
+      "name_en": "JHT Design Co., Ltd.",
+      "short_name": "金海通",
+      "aliases": [
+        "JHT"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JHT_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "603061.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603061"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-310",
+      "source_keys": [
+        "金海通"
+      ],
+      "entity_decision": "确认为独立实体：天津金海通半导体设备股份有限公司（JHT Design），上交所主板上市，代码603061",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "JIANGHUA",
+      "name_cn": "江阴江化微电子材料股份有限公司",
+      "name_en": "",
+      "short_name": "江化微",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JIANGHUA_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "603078.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603078"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-202",
+      "source_keys": [
+        "江化微"
+      ],
+      "entity_decision": "确认为上市公司主体：江阴江化微电子材料股份有限公司（上交所主板 603078，2017年4月上市）",
+      "confidence": "high",
+      "unresolved": "英文全称未核验"
+    },
+    {
+      "company_id": "JINGCE",
+      "name_cn": "武汉精测电子集团股份有限公司",
+      "name_en": "Wuhan Jingce Electronic Group Co., Ltd.",
+      "short_name": "精测电子",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JINGCE_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300567.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300567"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-265",
+      "source_keys": [
+        "精测电子"
+      ],
+      "entity_decision": "确认为独立实体：武汉精测电子集团股份有限公司，深交所创业板上市，代码300567；'上海精测'为其控股子公司上海精测半导体技术有限公司，不构成独立上市实体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "JINGRUI",
+      "name_cn": "晶瑞电子材料股份有限公司",
+      "name_en": "",
+      "short_name": "晶瑞电材",
+      "aliases": [
+        "晶瑞股份"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JINGRUI_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300655.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300655"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-183",
+      "source_keys": [
+        "晶瑞电材"
+      ],
+      "entity_decision": "确认为上市公司主体：晶瑞电子材料股份有限公司（创业板 300655，2017-05-23上市），曾用证券简称'晶瑞股份'",
+      "confidence": "high",
+      "unresolved": "英文全称未核验"
+    },
+    {
+      "company_id": "JINGYI",
+      "name_cn": "北京京仪自动化装备技术股份有限公司",
+      "name_en": "Beijing Jingyi Automation Equipment Co., Ltd.",
+      "short_name": "京仪装备",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JINGYI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688652.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688652",
+            "eastmoney": "1.688652"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-081",
+      "source_keys": [
+        "京仪装备"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "JINHONGGAS",
+      "name_cn": "苏州金宏气体股份有限公司",
+      "name_en": "Suzhou Jinhong Gas Co., Ltd.",
+      "short_name": "金宏气体",
+      "aliases": [
+        "金宏"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JINHONGGAS_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688106.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688106"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-307",
+      "source_keys": [
+        "金宏气体"
+      ],
+      "entity_decision": "确认为独立实体：苏州金宏气体股份有限公司，上交所科创板上市，代码688106",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KANGQIANG",
+      "name_cn": "宁波康强电子股份有限公司",
+      "name_en": "Ningbo Kangqiang Electronics Co., Ltd.",
+      "short_name": "康强电子",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KANGQIANG_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002119.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002119"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-142",
+      "source_keys": [
+        "康强电子"
+      ],
+      "entity_decision": "确认为上市公司主体：宁波康强电子股份有限公司（深交所 002119）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KDSZ",
+      "name_cn": "北京凯德石英股份有限公司",
+      "name_en": "Beijing Kaide Quartz Co., Ltd.",
+      "short_name": "凯德石英",
+      "aliases": [
+        "凯德石英",
+        "原代码835179",
+        "控股股东：江丰电子（300666.SZ，2026年2月起）"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KDSZ_",
+          "market": "A股",
+          "exchange": "北京证券交易所",
+          "ticker": "920179.BJ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "bj920179"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-398",
+      "source_keys": [
+        "凯德石英"
+      ],
+      "entity_decision": "赛道主体=凯德石英本体（北京凯德石英股份有限公司，半导体石英制品）；其自身在北交所上市（920179.BJ，原代码835179），2026年2月起江丰电子（300666.SZ）成为控股股东，但不改变其独立上市地位",
+      "confidence": "high",
+      "unresolved": "北交所代码新旧口径：媒体同时引用835179与920179，本库采用920号段新代码920179.BJ，旧码835179存aliases；tencent前缀按bj920179填写待行情端实测"
+    },
+    {
+      "company_id": "KEMATEK",
+      "name_cn": "苏州珂玛材料科技股份有限公司",
+      "name_en": "Suzhou Kematek, Inc.",
+      "short_name": "珂玛科技",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KEMATEK_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "301611.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz301611"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-231",
+      "source_keys": [
+        "珂玛科技"
+      ],
+      "entity_decision": "确认为独立实体：苏州珂玛材料科技股份有限公司，深交所创业板上市；ticker_hint 301611 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KINGLAI",
+      "name_cn": "昆山新莱洁净应用材料股份有限公司",
+      "name_en": "Kunshan Kinglai Hygienic Materials Co., Ltd.",
+      "short_name": "新莱应材",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KINGLAI_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300260.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300260"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-176",
+      "source_keys": [
+        "新莱应材"
+      ],
+      "entity_decision": "确认为上市公司主体：昆山新莱洁净应用材料股份有限公司（创业板 300260，2011年上市），ticker_hint 核验一致",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KINGSEMI",
+      "name_cn": "沈阳芯源微电子设备股份有限公司",
+      "name_en": "KINGSEMI Co., Ltd.",
+      "short_name": "芯源微",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KINGSEMI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688037.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688037",
+            "eastmoney": "1.688037"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-015",
+      "source_keys": [
+        "KINGSEMI"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KINGSTONE",
+      "name_cn": "上海凯世通半导体股份有限公司",
+      "name_en": "Kingstone Semiconductor Co., Ltd.",
+      "short_name": "凯世通",
+      "aliases": [
+        "KST",
+        "Kingstone",
+        "凯世通",
+        "母公司：先导基电（600641.SH，原万业企业）"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-392",
+      "source_keys": [
+        "KINGSTONE"
+      ],
+      "entity_decision": "赛道主体=凯世通本体（上海凯世通半导体股份有限公司，国内离子注入机龙头）；其为上市公司先导基电（600641.SH，原万业企业，2024年起实控人变更为先导科技集团）控股子公司，凯世通自身未单独上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "KONFOONG",
+      "name_cn": "宁波江丰电子材料股份有限公司",
+      "name_en": "Konfoong Materials International Co., Ltd.",
+      "short_name": "江丰电子",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KONFOONG_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300666.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300666"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-198",
+      "source_keys": [
+        "江丰电子"
+      ],
+      "entity_decision": "确认为上市公司主体：宁波江丰电子材料股份有限公司（创业板 300666，2017年6月上市）；2026年公告拟发行H股，截至核验日未见完成，仅计A股",
+      "confidence": "high",
+      "unresolved": "H股发行计划进行中，完成状态待跟踪"
+    },
+    {
+      "company_id": "LEADMICRO",
+      "name_cn": "江苏微导纳米科技股份有限公司",
+      "name_en": "Jiangsu Leadmicro Nano Technology Co., Ltd.",
+      "short_name": "微导纳米",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LEADMICRO_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688147.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688147",
+            "eastmoney": "1.688147"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-019",
+      "source_keys": [
+        "LEADMICRO"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "LIEQI",
+      "name_cn": "苏州猎奇智能设备股份有限公司",
+      "name_en": "Suzhou Lieqi Intelligent Equipment Co., Ltd.",
+      "short_name": "猎奇智能",
+      "aliases": [
+        "猎奇"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-227",
+      "source_keys": [
+        "猎奇智能"
+      ],
+      "entity_decision": "确认为独立实体：苏州猎奇智能设备股份有限公司（昆山，封测/贴片设备），未上市；上市公司金海通2024年受让部分股权为参股关系；苏州猎奇智能设备股份有限公司（昆山，光模块/半导体封测设备）；创业板IPO 2025-12-26受理、2026-07-31上市委通过、2026-08-21证监会同意注册，截至2026-10-15尚未发行挂牌，记非上市；IPO在审：创业板（深交所），审核状态：注册同意（2026-08-21）（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "法定英文名未获官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO注册已生效，尚未发行上市；后续将转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "创业板（深交所），审核状态：注册同意（2026-08-21）"
+    },
+    {
+      "company_id": "LION",
+      "name_cn": "杭州立昂微电子股份有限公司",
+      "name_en": "Hangzhou Lion Microelectronics Co., Ltd.",
+      "short_name": "立昂微",
+      "aliases": [
+        "LION"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LION_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "605358.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh605358"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-257",
+      "source_keys": [
+        "立昂微"
+      ],
+      "entity_decision": "确认为独立实体：杭州立昂微电子股份有限公司，上交所主板上市，代码605358",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "LONGHUA",
+      "name_cn": "隆华科技集团（洛阳）股份有限公司",
+      "name_en": "Longhua Technology Group (Luoyang) Co., Ltd.",
+      "short_name": "隆华科技",
+      "aliases": [
+        "隆华节能"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LONGHUA_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300263.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300263"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-314",
+      "source_keys": [
+        "隆华科技"
+      ],
+      "entity_decision": "确认为独立实体：隆华科技集团（洛阳）股份有限公司，深交所创业板上市，代码300263；'四丰电子/晶联光电'为其全资子公司（洛阳高新四丰电子材料有限公司、广西晶联光电材料有限责任公司），不构成独立上市实体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MAXWELL",
+      "name_cn": "苏州迈为科技股份有限公司",
+      "name_en": "Suzhou Maxwell Technologies Co., Ltd.",
+      "short_name": "迈为股份",
+      "aliases": [
+        "Maxwell",
+        "迈为科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MAXWELL_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300751.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300751"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-304",
+      "source_keys": [
+        "迈为股份"
+      ],
+      "entity_decision": "确认为独立实体：苏州迈为科技股份有限公司（Maxwell），深交所创业板上市，代码300751",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MICROVIEW",
+      "name_cn": "深圳微见先进封装技术股份有限公司",
+      "name_en": "Microview Intelligent Packaging Technology (Shenzhen) Co., Ltd.",
+      "short_name": "微见智能",
+      "aliases": [
+        "微见智能",
+        "微见智能封装技术（深圳）有限公司"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-150",
+      "source_keys": [
+        "微见智能"
+      ],
+      "entity_decision": "确认为非上市公司：深圳微见先进封装技术股份有限公司（曾用名微见智能封装技术（深圳）有限公司，固晶机厂商），2025年8月完成B轮融资，未上市；微见智能封装技术（深圳）有限公司（2026年更名深圳微见先进封装技术股份有限公司）；高精度固晶机等芯片封装设备；非上市，2025-08完成超亿元B轮融资",
+      "confidence": "high",
+      "unresolved": "股份制改造后是否启动IPO辅导未核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；股改后是否启动IPO辅导未核验",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "MLOPTIC",
+      "name_cn": "南京茂莱光学科技股份有限公司",
+      "name_en": "MLOPTIC Corp.",
+      "short_name": "茂莱光学",
+      "aliases": [
+        "MLOPTIC",
+        "茂莱"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MLOPTIC_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688502.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688502"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-288",
+      "source_keys": [
+        "茂莱光学"
+      ],
+      "entity_decision": "确认为独立实体：南京茂莱光学科技股份有限公司（MLOPTIC），上交所科创板上市；ticker_hint 688502 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NATA",
+      "name_cn": "江苏南大光电材料股份有限公司",
+      "name_en": "Jiangsu Nata Opto-Electronic Material Co., Ltd.",
+      "short_name": "南大光电",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NATA_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300346.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300346",
+            "eastmoney": "0.300346"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-110",
+      "source_keys": [
+        "南大光电"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NAURA",
+      "name_cn": "北方华创科技集团股份有限公司",
+      "name_en": "NAURA Technology Group Co., Ltd.",
+      "short_name": "北方华创",
+      "aliases": [
+        "北方华创科技集团"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NAURA_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002371.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002371",
+            "eastmoney": "0.002371"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-022",
+      "source_keys": [
+        "NAURA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NEWWAY",
+      "name_cn": "深圳市路维光电股份有限公司",
+      "name_en": "Shenzhen Newway Photomask Making Co., Ltd.",
+      "short_name": "路维光电",
+      "aliases": [
+        "Newway"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NEWWAY_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688401.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688401"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-300",
+      "source_keys": [
+        "路维光电"
+      ],
+      "entity_decision": "确认为独立实体：深圳市路维光电股份有限公司（Newway），上交所科创板上市，代码688401",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NEXTOOL",
+      "name_cn": "安徽耐科装备科技股份有限公司",
+      "name_en": "Nextool Technology Co., Ltd.",
+      "short_name": "耐科装备",
+      "aliases": [
+        "Nextool"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NEXTOOL_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688419.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688419"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-269",
+      "source_keys": [
+        "耐科装备"
+      ],
+      "entity_decision": "确认为独立实体：安徽耐科装备科技股份有限公司，上交所科创板上市，代码688419",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NSIG",
+      "name_cn": "上海硅产业集团股份有限公司",
+      "name_en": "",
+      "short_name": "沪硅产业",
+      "aliases": [
+        "上海硅产业集团"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NSIG_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688126.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688126"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-206",
+      "source_keys": [
+        "沪硅产业"
+      ],
+      "entity_decision": "确认为上市公司主体：上海硅产业集团股份有限公司（科创板 688126，2020-04-20上市）",
+      "confidence": "high",
+      "unresolved": "英文全称未核验（company_id采用通行缩写NSIG）"
+    },
+    {
+      "company_id": "PACIFICQUARTZ",
+      "name_cn": "江苏太平洋石英股份有限公司",
+      "name_en": "Jiangsu Pacific Quartz Co., Ltd.",
+      "short_name": "石英股份",
+      "aliases": [
+        "太平洋石英"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PACIFICQUARTZ_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "603688.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603688"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-237",
+      "source_keys": [
+        "石英股份"
+      ],
+      "entity_decision": "确认为独立实体：江苏太平洋石英股份有限公司，上交所主板上市；ticker_hint 603688 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PERIC",
+      "name_cn": "中船（邯郸）派瑞特种气体股份有限公司",
+      "name_en": "Peric Special Gases Co., Ltd.",
+      "short_name": "中船特气",
+      "aliases": [
+        "派瑞特气"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PERIC_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688146.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688146",
+            "eastmoney": "1.688146"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-077",
+      "source_keys": [
+        "中船特气"
+      ],
+      "entity_decision": "中国船舶集团有限公司旗下（七一八研究所体系）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PHICHEM",
+      "name_cn": "上海飞凯材料科技股份有限公司",
+      "name_en": "PhiChem Corporation",
+      "short_name": "飞凯材料",
+      "aliases": [
+        "PhiChem",
+        "飞凯光电材料"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PHICHEM_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300398.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300398"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-326",
+      "source_keys": [
+        "飞凯材料"
+      ],
+      "entity_decision": "确认为独立实体：上海飞凯材料科技股份有限公司（PhiChem），深交所创业板上市，代码300398",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PIOTECH",
+      "name_cn": "拓荆科技股份有限公司",
+      "name_en": "Piotech Inc.",
+      "short_name": "拓荆科技",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PIOTECH_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688072.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688072",
+            "eastmoney": "1.688072"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-025",
+      "source_keys": [
+        "PIOTECH"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PNCS",
+      "name_cn": "上海至纯洁净系统科技股份有限公司",
+      "name_en": "PNC Process Systems Co., Ltd.",
+      "short_name": "至纯科技",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PNCS_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "603690.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603690",
+            "eastmoney": "1.603690"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-028",
+      "source_keys": [
+        "PNCS"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "POWERTECH",
+      "name_cn": "佛山市联动科技股份有限公司",
+      "name_en": "PowerTECH Co., Ltd.",
+      "short_name": "联动科技",
+      "aliases": [
+        "PowerTECH"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "POWERTECH_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "301369.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz301369"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-273",
+      "source_keys": [
+        "联动科技"
+      ],
+      "entity_decision": "确认为独立实体：佛山市联动科技股份有限公司（英文 PowerTECH），深交所创业板上市，代码301369；网传'广东联动科技股份有限公司'未获公告口径支持，以年报法定名称为准",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "QHJY",
+      "name_cn": "青禾晶元半导体科技（集团）有限责任公司",
+      "name_en": "Isabers Group Co., Ltd.",
+      "short_name": "青禾晶元",
+      "aliases": [
+        "Isabers",
+        "北京青禾晶元半导体科技有限责任公司",
+        "青禾晶元集团"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-322",
+      "source_keys": [
+        "青禾晶元"
+      ],
+      "entity_decision": "确认为独立实体：青禾晶元半导体科技（集团）有限责任公司（原北京青禾晶元半导体科技有限责任公司，2025年1月迁址天津滨海高新区并更名，为上市主体）；计划2027年申报上市，截至2026-10-15未上市；青禾晶元半导体科技（集团）有限责任公司（原北京青禾晶元半导体科技有限责任公司，2025-01迁址天津并更名，作为全国总部和上市主体；键合设备/复合衬底）；非上市，计划2027年申报上市",
+      "confidence": "high",
+      "unresolved": "法定英文名未获官方确认；上市计划推进中，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "REDAVENUE",
+      "name_cn": "彤程新材料集团股份有限公司",
+      "name_en": "Red Avenue New Materials Group Co., Ltd.",
+      "short_name": "彤程新材",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "REDAVENUE_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "603650.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603650"
+          }
+        },
+        {
+          "listing_id": "REDAVENUE_HKEX",
+          "market": "港股",
+          "exchange": "HKEX",
+          "ticker": "09607.HK",
+          "primary": false,
+          "provider_symbols": {
+            "tencent": "hk09607"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-146",
+      "source_keys": [
+        "彤程新材"
+      ],
+      "entity_decision": "确认为上市公司主体：彤程新材料集团股份有限公司，A+H两地上市（A股603650，H股09607于2026-09-29挂牌）；备注'北京科华'为其控股的光刻胶子公司北京科华微电子材料有限公司，非独立上市主体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "RSIC",
+      "name_cn": "睿励科学仪器（上海）有限公司",
+      "name_en": "RSIC Scientific Instrument (Shanghai) Co., Ltd.",
+      "short_name": "上海睿励",
+      "aliases": [
+        "上海睿励",
+        "睿励科学仪器"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-032",
+      "source_keys": [
+        "RSIC"
+      ],
+      "entity_decision": "中微公司（688012.SH）参股公司，中微公司为第一大股东（持股约 27.46%），未单独上市；睿励科学仪器（上海）有限公司；非上市，2024-11完成近5亿元战略融资（金石投资、招商致远领投）；中微公司（688012）2020-12公告明确其为非上市公司",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "RSLASER",
+      "name_cn": "北京科益虹源光电技术有限公司",
+      "name_en": "Beijing RSLaser Opto-Electronics Technology Co., Ltd.",
+      "short_name": "科益虹源",
+      "aliases": [
+        "RSLaser",
+        "科益虹源光电"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-253",
+      "source_keys": [
+        "科益虹源"
+      ],
+      "entity_decision": "确认为独立实体：北京科益虹源光电技术有限公司（光刻准分子激光光源），中科院光电院等发起设立，未上市；北京科益虹源光电技术有限公司（2016年成立，中科院微电子所控股，光刻准分子激光器/光源系统）；非上市，尚未有IPO发行记录",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SANJIA",
+      "name_cn": "产投三佳（安徽）科技股份有限公司",
+      "name_en": "",
+      "short_name": "三佳科技",
+      "aliases": [
+        "三佳科技",
+        "产投三佳",
+        "文一三佳",
+        "文一三佳科技股份有限公司",
+        "文一科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SANJIA_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "600520.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh600520"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-167",
+      "source_keys": [
+        "文一科技"
+      ],
+      "entity_decision": "确认为上市公司主体：产投三佳（安徽）科技股份有限公司（600520），原文一三佳科技股份有限公司，证券简称2025-04-16起由'文一科技'变更为'三佳科技'；'文一三佳'为曾用名；主体裁决：脚本检索“文一科技”未匹配是因证券简称2025年变更为三佳科技；上市主体为产投三佳（安徽）科技股份有限公司（曾用名文一三佳科技股份有限公司），上交所主板600520，2002年上市，主营半导体封装模具及设备",
+      "confidence": "high",
+      "unresolved": "更名后英文全称未核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+    },
+    {
+      "company_id": "SCC",
+      "name_cn": "深南电路股份有限公司",
+      "name_en": "Shennan Circuits Co., Ltd.",
+      "short_name": "深南电路",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SCC_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002916.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002916"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-209",
+      "source_keys": [
+        "深南电路"
+      ],
+      "entity_decision": "确认为上市公司主体：深南电路股份有限公司（深交所主板 002916，2017-12-13上市）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SEICHI",
+      "name_cn": "深圳精智达技术股份有限公司",
+      "name_en": "Shenzhen SEICHI Technologies Co., Ltd.",
+      "short_name": "精智达",
+      "aliases": [
+        "SEICHI"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SEICHI_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688627.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688627"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-261",
+      "source_keys": [
+        "精智达"
+      ],
+      "entity_decision": "确认为独立实体：深圳精智达技术股份有限公司，上交所科创板上市，代码688627",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SEVENSTAR",
+      "name_cn": "北京七星华创流量计有限公司",
+      "name_en": "Beijing Sevenstar Flow Co., Ltd.",
+      "short_name": "七星流量计",
+      "aliases": [
+        "Sevenstar",
+        "七星华创",
+        "北京七星流量计",
+        "所属集团：北方华创（002371.SZ）"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-401",
+      "source_keys": [
+        "北京七星流量计"
+      ],
+      "entity_decision": "赛道主体=北京七星华创流量计有限公司（Sevenstar品牌，国产质量流量控制器MFC龙头）；其为北京七星华创电子股份有限公司集团化整合后新设子公司，属北方华创（002371.SZ）体系，自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SHENGDA",
+      "name_cn": "合肥圣达电子科技实业有限公司",
+      "name_en": "",
+      "short_name": "合肥圣达",
+      "aliases": [
+        "合肥圣达",
+        "合肥圣达电子",
+        "圣达"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-348",
+      "source_keys": [
+        "中电科43所/合肥圣达"
+      ],
+      "entity_decision": "拆分：合肥圣达为43所参控股的独立法人企业（产业化公司），单列为一条",
+      "confidence": "medium",
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SHENZHOU",
+      "name_cn": "江苏神州半导体科技股份有限公司",
+      "name_en": "Jiangsu Shenzhou Semiconductor Technology Co., Ltd.",
+      "short_name": "神州半导体",
+      "aliases": [
+        "江苏神州",
+        "神州股份"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-244",
+      "source_keys": [
+        "神州半导体"
+      ],
+      "entity_decision": "确认为独立实体：江苏神州半导体科技股份有限公司（射频电源/匹配器等设备部件），科创板IPO申报中，未上市；江苏神州半导体科技股份有限公司（扬州，等离子体射频电源等半导体设备核心零部件）；科创板IPO 2026-06-30获受理、2026-07-15进入问询，截至2026-10-15未见发行上市；IPO在审：科创板（上交所），审核状态：已问询（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "科创板IPO审核中，后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询"
+    },
+    {
+      "company_id": "SIASUN",
+      "name_cn": "沈阳新松机器人自动化股份有限公司",
+      "name_en": "Siasun Robot & Automation Co., Ltd.",
+      "short_name": "机器人",
+      "aliases": [
+        "新松",
+        "新松半导体公司",
+        "新松机器人"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SIASUN_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300024.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300024"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-171",
+      "source_keys": [
+        "新松机器人"
+      ],
+      "entity_decision": "确认为上市公司主体：沈阳新松机器人自动化股份有限公司（创业板 300024，证券简称'机器人'）；备注'新松半导体'为其半导体业务子公司，非独立上市主体；主体裁决：原文语境为半导体机械手，对应主体为沈阳新松半导体设备有限公司（2023-02成立）；其为创业板上市公司沈阳新松机器人自动化股份有限公司（机器人，300024.SZ）控股子公司（2024年增资后持股71.43%），新松半导体自身未上市",
+      "confidence": "high",
+      "unresolved": "名称近似匹配（原名 新松机器人 vs 行情名 机器人），待人工复核；母公司新松机器人（机器人，300024.SZ）已上市"
+    },
+    {
+      "company_id": "SIDEA",
+      "name_cn": "矽电半导体设备（深圳）股份有限公司",
+      "name_en": "Sidea Semiconductor Equipment (Shenzhen) Co., Ltd.",
+      "short_name": "矽电股份",
+      "aliases": [
+        "矽电半导体"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SIDEA_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "301629.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz301629"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-240",
+      "source_keys": [
+        "矽电股份"
+      ],
+      "entity_decision": "确认为独立实体：矽电半导体设备（深圳）股份有限公司，2025-03-24深交所创业板上市，代码301629",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SINOPACK",
+      "name_cn": "河北中瓷电子科技股份有限公司",
+      "name_en": "Hebei Sinopack Electronic Technology Co., Ltd.",
+      "short_name": "中瓷电子",
+      "aliases": [
+        "中瓷电子",
+        "河北中瓷"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SINOPACK_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "003031.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz003031",
+            "eastmoney": "0.003031"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-058",
+      "source_keys": [
+        "中瓷电子",
+        "河北中瓷"
+      ],
+      "entity_decision": "确认为上市公司主体：河北中瓷电子科技股份有限公司（深交所主板 003031，证券简称'中瓷电子'，2021-01-04上市），控股股东为中国电科十三所；原始候选'未上市子公司'前提不成立，该公司本身已上市；河北中瓷电子科技股份有限公司（中瓷电子）；中国电科13所控股，2021-01-04深交所主板上市，代码003031",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+    },
+    {
+      "company_id": "SINYANG",
+      "name_cn": "上海新阳半导体材料股份有限公司",
+      "name_en": "Shanghai Sinyang Semiconductor Materials Co., Ltd.",
+      "short_name": "上海新阳",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SINYANG_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300236.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300236",
+            "eastmoney": "0.300236"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-044",
+      "source_keys": [
+        "上海新阳"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SKJW",
+      "name_cn": "北京烁科精微电子装备有限公司",
+      "name_en": "",
+      "short_name": "烁科精微",
+      "aliases": [
+        "烁科"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-220",
+      "source_keys": [
+        "烁科精微"
+      ],
+      "entity_decision": "确认为独立实体：北京烁科精微电子装备有限公司，中国电科旗下电科装备体系公司（CMP设备）；子公司未单独上市，母公司电科装备亦未整体上市，记为电科装备旗下非上市主体；北京烁科精微电子装备有限公司（2019年9月成立，中国电科成果转化新设混合所有制公司，CMP设备厂商）；未上市",
+      "confidence": "medium",
+      "unresolved": "法定英文名未获官方确认；未上市结论基于无任何交易所/挂牌记录及公开报道；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SKY",
+      "name_cn": "中国科学院沈阳科学仪器股份有限公司",
+      "name_en": "",
+      "short_name": "中科仪",
+      "aliases": [
+        "沈阳科仪"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SKY_BSE",
+          "market": "A股",
+          "exchange": "BSE",
+          "ticker": "920186.BJ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "bj920186",
+            "eastmoney": "0.920186"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-064",
+      "source_keys": [
+        "中科仪"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "法定英文名称未确认（官网域名 sky.ac.cn）"
+    },
+    {
+      "company_id": "SKYVERSE",
+      "name_cn": "深圳中科飞测科技股份有限公司",
+      "name_en": "Skyverse Technology Co., Ltd.",
+      "short_name": "中科飞测",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SKYVERSE_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688361.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688361",
+            "eastmoney": "1.688361"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-037",
+      "source_keys": [
+        "SKYVERSE"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SMEE",
+      "name_cn": "上海微电子装备（集团）股份有限公司",
+      "name_en": "Shanghai Micro Electronics Equipment (Group) Co., Ltd.",
+      "short_name": "上海微电子",
+      "aliases": [
+        "SMEE",
+        "上海微电子装备"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-343",
+      "source_keys": [
+        "SMEE"
+      ],
+      "entity_decision": "确认为独立实体：上海微电子装备（集团）股份有限公司（SMEE，光刻机整机）；股份有限公司（非上市、国有控股），曾进行科创板IPO辅导后于2024年撤回，截至2026-10-15未上市；上海微电子装备（集团）股份有限公司（SMEE，光刻机整机）；公认未上市",
+      "confidence": "high",
+      "unresolved": "资本运作路径（借壳/分拆）存在市场传闻，未经官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SPRINT",
+      "name_cn": "江苏先锋精密科技股份有限公司",
+      "name_en": "Sprint Precision Technologies Co., Ltd.",
+      "short_name": "先锋精科",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SPRINT_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688605.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688605",
+            "eastmoney": "1.688605"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-083",
+      "source_keys": [
+        "先锋精科"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SQM",
+      "name_cn": "深圳清溢光电股份有限公司",
+      "name_en": "Shenzhen Qingyi Photomask Limited",
+      "short_name": "清溢光电",
+      "aliases": [
+        "清溢"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SQM_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688138.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688138"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-213",
+      "source_keys": [
+        "清溢光电"
+      ],
+      "entity_decision": "确认为上市公司主体：深圳清溢光电股份有限公司（科创板 688138，2019-11-20上市）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "STARMASK",
+      "name_cn": "深圳市龙图光罩股份有限公司",
+      "name_en": "Shenzhen Longtu Photomask Co., Ltd.",
+      "short_name": "龙图光罩",
+      "aliases": [
+        "STARMASK"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "STARMASK_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688721.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688721"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-334",
+      "source_keys": [
+        "龙图光罩"
+      ],
+      "entity_decision": "确认为独立实体：深圳市龙图光罩股份有限公司（STARMASK），上交所科创板上市，代码688721",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "THINKON",
+      "name_cn": "锦州神工半导体股份有限公司",
+      "name_en": "Thinkon Semiconductor Jinzhou Corp.",
+      "short_name": "神工股份",
+      "aliases": [
+        "锦州神工"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "THINKON_SSE",
+          "market": "A股",
+          "exchange": "SSE",
+          "ticker": "688233.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688233"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-247",
+      "source_keys": [
+        "神工股份"
+      ],
+      "entity_decision": "确认为独立实体：锦州神工半导体股份有限公司，上交所科创板上市；ticker_hint 688233 核验属实",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TONFY",
+      "name_cn": "三河同飞制冷股份有限公司",
+      "name_en": "Sanhe Tongfei Refrigeration Co., Ltd.",
+      "short_name": "同飞股份",
+      "aliases": [
+        "同飞制冷"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TONFY_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300990.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300990"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-113",
+      "source_keys": [
+        "同飞股份"
+      ],
+      "entity_decision": "确认为上市公司主体：三河同飞制冷股份有限公司（深交所创业板 300990），ticker_hint 300990 核验一致",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "UPRECISION",
+      "name_cn": "北京华卓精科科技股份有限公司",
+      "name_en": "Beijing U-Precision Tech Co., Ltd.",
+      "short_name": "华卓精科",
+      "aliases": [
+        "U-PRECISION",
+        "华卓"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-097",
+      "source_keys": [
+        "华卓精科"
+      ],
+      "entity_decision": "2020-06 科创板 IPO 获受理、2021-09 过会，2024-06-26 因撤回申请被上交所终止审核；2026 年完成新一轮上市辅导拟再申报科创板；ticker_hint A04100 为原 IPO 申请编号，非证券代码；北京华卓精科科技股份有限公司；曾申报科创板（2021-09过会、2024-06终止）；2026-02-12在北京证监局办理辅导备案重启IPO，2026-06-30科创板IPO再获受理（拟募资35亿元），目前审核状态中止（财报更新），尚未上市；IPO在审：科创板（上交所），审核状态：已问询（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "截至 2026-10-15 未见二次申报获受理的公开信息；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO二次申报受理后中止（财报更新），尚未发行上市",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询"
+    },
+    {
+      "company_id": "WST",
+      "name_cn": "苏州芯慧联半导体科技有限公司",
+      "name_en": "Wisdom Semiconductor Technology (Suzhou) Co., Ltd.",
+      "short_name": "芯慧联",
+      "aliases": [
+        "WST",
+        "芯慧联半导体",
+        "芯慧联新",
+        "芯慧联芯"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-281",
+      "source_keys": [
+        "芯慧联"
+      ],
+      "entity_decision": "确认为独立实体：苏州芯慧联半导体科技有限公司（WST，常熟，湿法/键合等设备）；未上市，2024年10月起被上市公司百傲化学（603360）增资控股；其晶圆键合业务2024年分立为芯慧联芯/芯慧联新（苏州）科技有限公司，亦未上市；苏州芯慧联半导体科技有限公司（涂胶显影/光刻/湿法清洗等黄光制程设备）；2024-12被上市公司百傲化学（603360.SH）控股（增资7亿元持股46.67%并取得控制权），自身未独立上市",
+      "confidence": "high",
+      "unresolved": "英文全称为官方简称口径拼写，法定英文注册名未单独核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "WUSHIWEI",
+      "name_cn": "吾拾微电子（苏州）有限公司",
+      "name_en": "",
+      "short_name": "吾拾微",
+      "aliases": [
+        "吾拾微电子"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-116",
+      "source_keys": [
+        "吾拾微"
+      ],
+      "entity_decision": "确认为非上市公司：吾拾微电子（苏州）有限公司，晶圆级键合/解键合设备厂商，2025年底完成Pre-A轮融资；吾拾微电子（苏州）有限公司（晶圆级临时键合/解键合及永久键合设备）；非上市，2026-09完成亿元A轮融资",
+      "confidence": "high",
+      "unresolved": "英文全称未见权威披露；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "XFDZ",
+      "name_cn": "湖北兴福电子材料股份有限公司",
+      "name_en": "Hubei Xingfu Electronic Materials Co., Ltd.",
+      "short_name": "兴福电子",
+      "aliases": [
+        "Sinophorus",
+        "兴福电子",
+        "控股股东：兴发集团（600141.SH）"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "XFDZ_",
+          "market": "A股",
+          "exchange": "上交所科创板",
+          "ticker": "688545.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688545"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-395",
+      "source_keys": [
+        "兴福电子"
+      ],
+      "entity_decision": "赛道主体=兴福电子本体（湖北兴福电子材料股份有限公司，湿电子化学品）；虽为兴发集团（600141.SH）控股子公司（持股约39.93%），但已于2025-01-22在科创板分拆上市，listing填其自身代码",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "XIXI",
+      "name_cn": "上海锡喜材料科技有限公司",
+      "name_en": "",
+      "short_name": "上海锡喜",
+      "aliases": [
+        "上海新华锦焊接材料科技有限公司",
+        "锡喜材料",
+        "锡喜科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-048",
+      "source_keys": [
+        "上海锡喜"
+      ],
+      "entity_decision": "上海锡喜材料科技有限公司（曾用名上海新华锦焊接材料科技有限公司；BGA锡球/锡膏等半导体封装焊料）；非上市",
+      "confidence": "medium",
+      "unresolved": "英文名称未确认；曾用名来自百科，建议工商档案复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "XYC",
+      "name_cn": "深圳新益昌科技股份有限公司",
+      "name_en": "Shenzhen Xinyichang Technology Co., Ltd.",
+      "short_name": "新益昌",
+      "aliases": [
+        "Xinyichang",
+        "子公司：深圳新益昌开玖自动化设备有限公司（焊线机）",
+        "新益昌"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "XYC_",
+          "market": "A股",
+          "exchange": "上交所科创板",
+          "ticker": "688383.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh688383"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-418",
+      "source_keys": [
+        "新益昌"
+      ],
+      "entity_decision": "赛道主体=新益昌本体（深圳新益昌科技股份有限公司，固晶机龙头，科创板上市）；深圳开玖自动化为其2021年收购的控股子公司（现深圳新益昌开玖自动化设备有限公司），不单列实体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "YAJU",
+      "name_cn": "东莞市亚聚电子材料有限公司",
+      "name_en": "",
+      "short_name": "东莞亚聚",
+      "aliases": [
+        "东莞亚聚",
+        "东莞亚聚电子",
+        "亚聚BONDYAJU",
+        "亚聚电子",
+        "华聚BONDHUAJU"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-051",
+      "source_keys": [
+        "东莞亚聚电子"
+      ],
+      "entity_decision": "东莞市亚聚电子材料有限公司（2009年成立，底部填充胶等电子胶粘剂）；非上市",
+      "confidence": "medium",
+      "unresolved": "英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "YESDO",
+      "name_cn": "烟台一诺电子材料有限公司",
+      "name_en": "Yantai YesDo Electronic Materials Co., Ltd.",
+      "short_name": "烟台一诺",
+      "aliases": [
+        "一诺",
+        "一诺电子",
+        "烟台一诺"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-224",
+      "source_keys": [
+        "烟台一诺"
+      ],
+      "entity_decision": "确认为独立实体：烟台一诺电子材料有限公司（键合丝/封装材料），未上市；烟台一诺电子材料有限公司（2007年成立，键合银丝/金丝等半导体封装材料）；非上市",
+      "confidence": "high",
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "YJCH",
+      "name_cn": "成都英杰晨晖科技有限公司",
+      "name_en": "",
+      "short_name": "英杰晨晖",
+      "aliases": [
+        "晨晖公司",
+        "英杰晨晖"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-352",
+      "source_keys": [
+        "英杰电气/英杰晨晖"
+      ],
+      "entity_decision": "拆分：英杰晨晖为英杰电气控股的独立法人子公司，单列为一条",
+      "confidence": "high",
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "YOKE",
+      "name_cn": "江苏雅克科技股份有限公司",
+      "name_en": "Jiangsu Yoke Technology Co., Ltd.",
+      "short_name": "雅克科技",
+      "aliases": [
+        "Yoke",
+        "Yoke Technology"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "YOKE_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002409.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002409"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-318",
+      "source_keys": [
+        "雅克科技"
+      ],
+      "entity_decision": "确认为独立实体：江苏雅克科技股份有限公司（Yoke），深交所主板（原中小板）上市，代码002409",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "YUJING",
+      "name_cn": "湖南宇晶机器股份有限公司",
+      "name_en": "Hunan Yujing Machinery Co., Ltd.",
+      "short_name": "宇晶股份",
+      "aliases": [],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "YUJING_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "002943.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz002943"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-132",
+      "source_keys": [
+        "宇晶股份"
+      ],
+      "entity_decision": "确认为上市公司主体：湖南宇晶机器股份有限公司（深交所主板 002943）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ZHLX",
+      "name_cn": "中环领先半导体科技股份有限公司",
+      "name_en": "Zhonghuan Advanced Semiconductor Materials Co., Ltd.",
+      "short_name": "中环领先",
+      "aliases": [
+        "中环领先半导体材料有限公司",
+        "天津中环领先"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-055",
+      "source_keys": [
+        "中环领先"
+      ],
+      "entity_decision": "TCL中环（002129.SZ）控股子公司，未单独上市；中环领先半导体科技股份有限公司；TCL中环（002129.SZ）控股子公司，自身未上市；市场曾传分拆独立上市，TCL中环2026-07仍公告以子公司身份投资建设深圳12英寸大硅片项目",
+      "confidence": "high",
+      "unresolved": "曾由有限公司股改为股份有限公司，旧名 中环领先半导体材料有限公司 列入别名；市场有分拆上市传闻，未获公司确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；分拆上市仅为市场讨论，未获公司确认；股改后曾用名中环领先半导体材料有限公司",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ZJJB",
+      "name_cn": "上杭县紫金佳博电子新材料科技有限公司",
+      "name_en": "Shanghang Zijin Jiabo Electronic New Material Technology Co., Ltd.",
+      "short_name": "紫金佳博",
+      "aliases": [
+        "福建紫金佳博新材料有限公司（2026年新项目主体）",
+        "紫金佳博",
+        "股东：紫金矿业（601899.SH）/广东佳博电子科技"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-405",
+      "source_keys": [
+        "紫金佳博"
+      ],
+      "entity_decision": "赛道主体=紫金佳博本体（键合金丝/键合丝国产龙头）；为紫金矿业（601899.SH/02899.HK）与广东佳博电子2017年合资公司，自身未上市；2026年集团新设福建紫金佳博新材料有限公司承接键合线材扩产项目",
+      "confidence": "medium",
+      "unresolved": "法人主体口径：2017年注册主体为\"上杭县紫金佳博电子新材料科技有限公司\"，2026年报道另出现\"福建紫金佳博新材料有限公司\"作为键合线材扩产项目主体，两者承继关系未经工商底档核实",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ZKKH",
+      "name_cn": "江苏中科科化新材料股份有限公司",
+      "name_en": "",
+      "short_name": "中科科化",
+      "aliases": [
+        "北京科化",
+        "科化有限"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-072",
+      "source_keys": [
+        "中科科化"
+      ],
+      "entity_decision": "科创板 IPO 已于 2025-12-05 获受理（保荐人招商证券），截至 2026-10-15 尚未发行上市；江苏中科科化新材料股份有限公司（控股股东北京科化新材料科技有限公司持股64.57%）；环氧塑封料厂商；科创板IPO 2025-12-05获受理、2025-12-24进入问询，截至2026-10-15未见发行上市；IPO在审：科创板（上交所），审核状态：中止（财报更新）（投行之声A股IPO项目明细 2026-10-15）",
+      "confidence": "high",
+      "unresolved": "科创板 IPO 审核中，尚未发行上市；英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO问询中，后续可能转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：中止（财报更新）"
+    },
+    {
+      "company_id": "ZKX",
+      "name_cn": "北京中科信半导体股份有限公司",
+      "name_en": "",
+      "short_name": "中科信",
+      "aliases": [
+        "北京中科信电子装备有限公司",
+        "北京烁科中科信电子装备有限公司",
+        "烁科中科信"
+      ],
+      "country_region": "中国",
+      "listing_status": "非上市",
+      "listings": [
+        {
+          "listing_id": "ZKX_SZSE",
+          "market": "A股",
+          "exchange": "SZSE",
+          "ticker": "300678.SZ",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sz300678"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-067",
+      "source_keys": [
+        "中科信"
+      ],
+      "entity_decision": "中国电科（CETC）电科装备旗下离子注入机业务主体；2026-06-04 启动 IPO 上市辅导（辅导机构中信建投），截至 2026-10-15 未上市；主体裁决：脚本按名称近似匹配300678（中科信息，中科院成都信息技术股份有限公司）为误判，300678主营信息化解决方案、与离子注入无关；图谱所指为北京中科信半导体股份有限公司（曾用名北京烁科中科信电子装备有限公司，中国电科48所系，离子注入机），2026-06-04在北京证监局办理IPO辅导备案，尚未上市",
+      "confidence": "high",
+      "unresolved": "主体更名沿革（中科信电子装备→烁科中科信→中科信半导体）建议以工商登记复核；辅导备案编号未公开；名称近似匹配（原名 中科信 vs 行情名 中科信息），待人工复核；与300678中科信息为不同主体，脚本匹配已纠正",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ZZGF",
+      "name_cn": "深圳市领先半导体科技产业股份有限公司",
+      "name_en": "Shenzhen Lingxian Semiconductor Technology Industry Co., Ltd.",
+      "short_name": "领先股份",
+      "aliases": [
+        "原深圳至正高分子材料股份有限公司",
+        "置入资产：AAMI先进封装材料国际",
+        "至正股份",
+        "领先股份（2026年6月更名）"
+      ],
+      "country_region": "中国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ZZGF_",
+          "market": "A股",
+          "exchange": "上交所主板",
+          "ticker": "603991.SH",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "sh603991"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-408",
+      "source_keys": [
+        "至正股份"
+      ],
+      "entity_decision": "赛道主体=上市公司本体：原至正股份（603991.SH）通过重大资产重组置入AAMI（先进封装材料国际）99.97%股权并置出原主业，2025年并表、2026年6月更名领先股份（深圳市领先半导体科技产业股份有限公司）；AAMI为被置入资产不单列上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ACCURUS",
+      "name_cn": "恒硕科技股份有限公司",
+      "name_en": "Accurus Scientific Co., Ltd.",
+      "short_name": "恒硕科技",
+      "aliases": [
+        "Accurus",
+        "恒硕"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-159",
+      "source_keys": [
+        "恒硕科技"
+      ],
+      "entity_decision": "核验后确认为中国台湾地区企业：恒硕科技股份有限公司（Accurus Scientific，半导体封装锡球），2019年被汉高（Henkel）收购，非独立上市主体；候选归入'中国公司'需注意其为台湾注册；恒硕科技股份有限公司（Accurus Scientific，台湾，半导体封装焊接球）；2021年被马来西亚MI Technovation Berhad（正齐科技，马交所主板）收购99%股权成为其子公司，自身未独立上市",
+      "confidence": "high",
+      "unresolved": "若图谱所指为大陆同名企业则需另行核验；半导体封装锡球语境下匹配Accurus；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；若图谱所指为大陆同名企业需另行核验；半导体封装锡球语境下匹配 Accurus",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CCP",
+      "name_cn": "长春人造树脂厂股份有限公司",
+      "name_en": "Chang Chun Plastics Co., Ltd.",
+      "short_name": "长春人造树脂",
+      "aliases": [
+        "CCP",
+        "长春塑封料",
+        "长春封塑料（常熟）有限公司（与住友电木合资）",
+        "长春集团（Chang Chun Group）"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-424",
+      "source_keys": [
+        "长春塑封料"
+      ],
+      "entity_decision": "赛道主体=长春人造树脂厂股份有限公司（Chang Chun Plastics，台湾长春集团核心企业，环氧塑封料/环氧成型材料）；长春集团为私人控股集团未上市；大陆塑封料产能主体为长春封塑料（常熟）有限公司（与日本住友电木合资）",
+      "confidence": "medium",
+      "unresolved": "长春集团为私人控股，长春人造树脂未上市系行业常识级判断，未获取交易所/官网明示\"未上市\"的A级直接证据",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CWTC",
+      "name_cn": "长华科技股份有限公司",
+      "name_en": "Chang Wah Technology Co., Ltd.",
+      "short_name": "长华科技",
+      "aliases": [
+        "CWTC",
+        "長科",
+        "長華科技"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CWTC_TPEX",
+          "market": "台股",
+          "exchange": "TPEx",
+          "ticker": "6548.TWO",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-567",
+      "source_keys": [
+        "CHANGWAH"
+      ],
+      "entity_decision": "确认为台湾导线架厂商长华科技股份有限公司（Chang Wah Technology Co., Ltd.，CWTC），系长华电材（8070）子公司；与母公司长华电材区分",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FITTECH",
+      "name_cn": "惠特科技股份有限公司",
+      "name_en": "FitTech Co., Ltd.",
+      "short_name": "惠特科技",
+      "aliases": [
+        "FitTech",
+        "惠特"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FITTECH_TPEX",
+          "market": "台股",
+          "exchange": "TPEx",
+          "ticker": "6706.TWO",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-577",
+      "source_keys": [
+        "惠特科技"
+      ],
+      "entity_decision": "确认为惠特科技股份有限公司（FitTech），LED/光电半导体测试分选设备商，台湾柜买中心上柜",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "GLOBALWAFERS",
+      "name_cn": "环球晶圆股份有限公司",
+      "name_en": "GlobalWafers Co., Ltd.",
+      "short_name": "环球晶圆",
+      "aliases": [
+        "GWC",
+        "环球晶",
+        "環球晶圓"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "GLOBALWAFERS_TPEX",
+          "market": "台股",
+          "exchange": "TPEx",
+          "ticker": "6488.TWO",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-570",
+      "source_keys": [
+        "GLOBALWAFERS"
+      ],
+      "entity_decision": "确认为环球晶圆股份有限公司，全球第三大硅晶圆供应商，台湾柜买中心上柜",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HONPREC",
+      "name_cn": "鸿劲精密股份有限公司",
+      "name_en": "Hon Precision, Inc.",
+      "short_name": "鸿劲精密",
+      "aliases": [
+        "HPI",
+        "Hon Precision",
+        "鴻勁",
+        "鴻勁精密"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HONPREC_TWSE",
+          "market": "台股",
+          "exchange": "TWSE",
+          "ticker": "7769.TW",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-579",
+      "source_keys": [
+        "鸿劲精密"
+      ],
+      "entity_decision": "确认为鸿劲精密股份有限公司（Hon Precision, Inc.，HPI），半导体IC测试分选机（Handler）设备商，2025年11月27日转台湾证券交易所上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MPI",
+      "name_cn": "旺矽科技股份有限公司",
+      "name_en": "MPI Corporation",
+      "short_name": "旺矽科技",
+      "aliases": [
+        "MPI",
+        "旺矽",
+        "旺矽科技"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MPI_TPEX",
+          "market": "台股",
+          "exchange": "TPEx",
+          "ticker": "6223.TWO",
+          "primary": true,
+          "provider_symbols": {}
+        }
+      ],
+      "listing_source_id": "SRC-LS-179",
+      "source_keys": [
+        "旺矽科技"
+      ],
+      "entity_decision": "核验后确认为中国台湾地区企业：旺矽科技股份有限公司（MPI Corporation），台湾证券柜台买卖中心（TPEx）上柜，代码6223；候选归入'中国公司'需注意其为台湾注册；旺矽科技股份有限公司（MPI Corporation，台湾新竹，探针卡/半导体测试设备）；台湾证券柜台买卖中心（TPEx）上柜，代码6223",
+      "confidence": "high",
+      "unresolved": "provider_symbols不适用（台股无tencent格式）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+    },
+    {
+      "company_id": "NANYAPCB",
+      "name_cn": "南亚电路板股份有限公司",
+      "name_en": "Nan Ya Printed Circuit Board Corporation",
+      "short_name": "南亚电路板",
+      "aliases": [
+        "NYPCB",
+        "Nan Ya PCB",
+        "南亞電路板",
+        "南电"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NANYAPCB_TWSE",
+          "market": "台股",
+          "exchange": "TWSE",
+          "ticker": "8046.TW",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-573",
+      "source_keys": [
+        "NANYAPCB"
+      ],
+      "entity_decision": "确认为南亚电路板股份有限公司（台塑集团旗下IC载板/PCB厂），台湾证券交易所上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "UNIMICRON",
+      "name_cn": "欣兴电子股份有限公司",
+      "name_en": "Unimicron Technology Corp.",
+      "short_name": "欣兴电子",
+      "aliases": [
+        "欣兴",
+        "欣興電子"
+      ],
+      "country_region": "中国台湾",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "UNIMICRON_TWSE",
+          "market": "台股",
+          "exchange": "TWSE",
+          "ticker": "3037.TW",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-575",
+      "source_keys": [
+        "UNIMICRON"
+      ],
+      "entity_decision": "确认为欣兴电子股份有限公司，全球IC载板龙头，台湾证券交易所上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "AAMI",
+      "name_cn": "先进封装材料国际有限公司",
+      "name_en": "Advanced Assembly Materials International Limited",
+      "short_name": "AAMI",
+      "aliases": [
+        "AAMI",
+        "原ASMPT材料事业部",
+        "股东变更：至正股份/领先股份（603991.SH）收购99.97%"
+      ],
+      "country_region": "中国香港",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-427",
+      "source_keys": [
+        "AAMI"
+      ],
+      "entity_decision": "赛道主体=AAMI本体（先进封装材料国际有限公司，全球前五引线框架供应商，总部中国香港，原始地区\"中国香港/新加坡\"冲突裁决为中国香港，新加坡为运营子公司）；2020年自ASMPT材料业务分拆为合资公司，自身未上市；2025年起被至正股份/领先股份（603991.SH）收购99.97%并并表",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ATS",
+      "name_cn": "奥特斯",
+      "name_en": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft",
+      "short_name": "AT&S",
+      "aliases": [
+        "AT&S"
+      ],
+      "country_region": "奥地利",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ATS_WIENERBRSEVIENNASTOCKEXCHANGE",
+          "market": "欧股",
+          "exchange": "Wiener Börse (Vienna Stock Exchange)",
+          "ticker": "ATS.VI",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-450",
+      "source_keys": [
+        "ATS"
+      ],
+      "entity_decision": "上市主体：AT & S Austria Technologie & Systemtechnik Aktiengesellschaft，奥地利莱奥本注册，维也纳证券交易所主板（Prime Market）上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "EVG",
+      "name_cn": "奥地利EV集团",
+      "name_en": "EV Group (EVG)",
+      "short_name": "EVG",
+      "aliases": [
+        "EV Group",
+        "EVG"
+      ],
+      "country_region": "奥地利",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-353",
+      "source_keys": [
+        "EVG",
+        "EVG/SUSS"
+      ],
+      "entity_decision": "拆分+合并：EVG（奥地利EV Group）与 SUSS（德国SUSS MicroTec）为不同主体；单行 EVG 与斜杠行中的 EVG 为同一主体，合并为一条；修正：EVG 记录误带 SUSS 的别名与 SMHN.DE 上市记录，已剔除（主会话）",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "EXELLIQ",
+      "name_cn": "",
+      "name_en": "Exelliq Austria GmbH",
+      "short_name": "Exelliq",
+      "aliases": [
+        "Greiner Extrusion"
+      ],
+      "country_region": "奥地利",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-452",
+      "source_keys": [
+        "EXELLIQ"
+      ],
+      "entity_decision": "非上市私营公司：前身为 Greiner Extrusion（Greiner 集团挤出业务），2022-12 更名 Exelliq；2023 年起随 Extrusion Technology Group 被 Davis-Standard（Gamut Capital 旗下）收购，未在任何交易所上市。官网 imprint 显示主体为 Exelliq Austria GmbH，持股方 Davis-Standard (Austria) GmbH 100%",
+      "confidence": "high",
+      "unresolved": "无通行中文名；主业为塑料挤出成型设备，与半导体产业链的关联环节待业务侧确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ATOTECH",
+      "name_cn": "安美特",
+      "name_en": "Atotech (MKS Instruments)",
+      "short_name": "Atotech",
+      "aliases": [
+        "Atotech",
+        "MKS Atotech",
+        "原纽交所代码ATC（已退市）",
+        "母公司：MKS Instruments（MKSI.US，纳斯达克）"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-430",
+      "source_keys": [
+        "ATOTECH"
+      ],
+      "entity_decision": "赛道主体=Atotech品牌实体（德国柏林，PCB/IC封装工艺化学品与设备）；2022-08-17被MKS Instruments（MKSI.US）以约44亿美元完成收购并自纽交所退市，品牌存续（MKS旗下Atotech），保留实体并注明归属，listing只填自身=非上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "BASF",
+      "name_cn": "巴斯夫",
+      "name_en": "BASF SE",
+      "short_name": "BASF",
+      "aliases": [],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "BASF_FRANKFURTSTOCKEXCHANGEXETRA",
+          "market": "欧股",
+          "exchange": "Frankfurt Stock Exchange (XETRA)",
+          "ticker": "BAS.DE",
+          "primary": true
+        },
+        {
+          "listing_id": "BASF_OTCMARKETSINTERNATIONALPREMIERQXADRLEVELI",
+          "market": "美股",
+          "exchange": "OTC Markets (International PremierQX, ADR Level I)",
+          "ticker": "BASFY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-454",
+      "source_keys": [
+        "BASF"
+      ],
+      "entity_decision": "上市主体：BASF SE，德国路德维希港注册，法兰克福/XETRA 上市（DAX 成分股），另有美国 OTC 一级 ADR",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "BERLINERGLAS",
+      "name_cn": "柏林玻璃（Berliner Glas）",
+      "name_en": "Berliner Glas KGaA (ASML)",
+      "short_name": "Berliner Glas",
+      "aliases": [
+        "Berliner Glas",
+        "Berliner Glas Group",
+        "母公司：ASML（ASML.AS，2020年收购）"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-433",
+      "source_keys": [
+        "BERLINERGLAS"
+      ],
+      "entity_decision": "赛道主体=Berliner Glas本体（德国柏林，陶瓷与精密光学模组）；2020年被ASML（ASML.AS）收购100%股份，自身未上市；2021-2023年医疗（Berliner Glas Medical）与SwissOptic业务出售给Jenoptik，ASML保留光刻相关业务",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "GN",
+      "name_cn": "G&N精密机床",
+      "name_en": "G&N Genauigkeits Maschinenbau Nürnberg GmbH",
+      "short_name": "G&N",
+      "aliases": [
+        "G&N",
+        "Grinding Machines Nuernberg"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-360",
+      "source_keys": [
+        "G&N/冈本OKAMOTO"
+      ],
+      "entity_decision": "拆分：G&N（德国精密磨床厂）与冈本工作机械（日本上市公司）为不同主体，各占一条",
+      "confidence": "medium",
+      "unresolved": "中文通行名不统一，暂用直译",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "HENKEL",
+      "name_cn": "汉高",
+      "name_en": "Henkel AG & Co. KGaA",
+      "short_name": "Henkel",
+      "aliases": [
+        "汉高股份两合公司"
+      ],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HENKEL_FRANKFURTSTOCKEXCHANGEXETRA",
+          "market": "欧股",
+          "exchange": "Frankfurt Stock Exchange (XETRA)",
+          "ticker": "HEN3.DE",
+          "primary": true
+        },
+        {
+          "listing_id": "HENKEL_OTCMARKETSADRLEVELI",
+          "market": "美股",
+          "exchange": "OTC Markets (ADR Level I, 优先股)",
+          "ticker": "HENKY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-458",
+      "source_keys": [
+        "HENKEL"
+      ],
+      "entity_decision": "上市主体：Henkel AG & Co. KGaA，德国杜塞尔多夫注册，德国各交易所上市（优先股 HEN3 为 DAX 成分、流动性主代码），另有美国 OTC 一级 ADR（HENKY 优先股/HENOY 普通股）。备注中的乐泰/ABLESTIK 为其粘合剂业务品牌，非独立主体",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HERAEUS",
+      "name_cn": "贺利氏",
+      "name_en": "Heraeus Holding GmbH",
+      "short_name": "Heraeus",
+      "aliases": [],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-460",
+      "source_keys": [
+        "HERAEUS"
+      ],
+      "entity_decision": "非上市：Heraeus（贺利氏）为家族全资持有的科技集团（Heraeus Holding GmbH，总部德国哈瑙），1851 年创立，不上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "MERCKKGAA",
+      "name_cn": "默克",
+      "name_en": "Merck KGaA",
+      "short_name": "默克",
+      "aliases": [
+        "EMD Electronics",
+        "Merck KGaA",
+        "德国默克",
+        "默克"
+      ],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MERCKKGAA_XETRA",
+          "market": "欧股",
+          "exchange": "XETRA",
+          "ticker": "MRK.DE",
+          "primary": true
+        },
+        {
+          "listing_id": "MERCKKGAA_OTCMARKETSADRLEVELI",
+          "market": "美股",
+          "exchange": "OTC Markets (ADR Level I)",
+          "ticker": "MKKGY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-364",
+      "source_keys": [
+        "MERCKKGAA",
+        "默克MERCKKGAA/霍尼韦尔HONEYWELL"
+      ],
+      "entity_decision": "拆分：默克 Merck KGaA（德国）与霍尼韦尔 Honeywell（美国）为不同主体，各占一条；上市主体：Merck KGaA（德国达姆施塔特默克，与美国 Merck & Co./默沙东为不同主体），法兰克福/XETRA 上市（Prime Standard、DAX），约 30% 股本流通、其余由 E. Merck KG（默克家族）持有；另有美国 OTC 一级 ADR MKKGY",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PFEIFFER",
+      "name_cn": "普发",
+      "name_en": "Pfeiffer Vacuum Technology AG",
+      "short_name": "Pfeiffer Vacuum",
+      "aliases": [
+        "普发真空"
+      ],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PFEIFFER_FRANKFURTSTOCKEXCHANGEXETRA",
+          "market": "欧股",
+          "exchange": "Frankfurt Stock Exchange (XETRA)",
+          "ticker": "PFV.DE",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-462",
+      "source_keys": [
+        "PFEIFFER"
+      ],
+      "entity_decision": "上市主体：Pfeiffer Vacuum Technology AG（普发真空），德国阿斯拉尔注册，法兰克福/XETRA 上市（代码 PFV）；Busch 集团通过 Pangea GmbH 控股，2023 年起签订控制与利润转移协议，但仍维持上市地位（2026 年仍有报价与定期报告）",
+      "confidence": "high",
+      "unresolved": "自由流通股比例极低，是否后续推进挤出（squeeze-out）退市需持续跟踪"
+    },
+    {
+      "company_id": "SILTRONIC",
+      "name_cn": "世创",
+      "name_en": "Siltronic AG",
+      "short_name": "Siltronic",
+      "aliases": [
+        "世创电子材料"
+      ],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SILTRONIC_FRANKFURTSTOCKEXCHANGEXETRA",
+          "market": "欧股",
+          "exchange": "Frankfurt Stock Exchange (XETRA)",
+          "ticker": "WAF.DE",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-464",
+      "source_keys": [
+        "SILTRONIC"
+      ],
+      "entity_decision": "上市主体：Siltronic AG，德国慕尼黑注册，法兰克福证券交易所 Regulated Market（Prime Standard）/XETRA 上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SUSS",
+      "name_cn": "SUSS MicroTec",
+      "name_en": "SUSS MicroTec SE",
+      "short_name": "SUSS",
+      "aliases": [
+        "SUSS",
+        "SUSS MicroTec SE",
+        "Süss MicroTec"
+      ],
+      "country_region": "德国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SUSS_XETRA",
+          "market": "欧股",
+          "exchange": "XETRA",
+          "ticker": "SMHN.DE",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-355",
+      "source_keys": [
+        "EVG/SUSS",
+        "SUSSMICROTEC"
+      ],
+      "entity_decision": "拆分：SUSS 指德国 SUSS MicroTec SE，与 EVG 分属不同国家、不同上市状态的两个主体，单列一条；上市主体：SUSS MicroTec SE，德国加尔兴（慕尼黑附近）注册，法兰克福/XETRA 上市",
+      "confidence": "high",
+      "unresolved": "无标准化通行中文名（业内偶译“苏斯微技术”，未确认，未列入别名）"
+    },
+    {
+      "company_id": "TRUMPF",
+      "name_cn": "通快",
+      "name_en": "TRUMPF",
+      "short_name": "通快",
+      "aliases": [
+        "TRUMPF",
+        "Trumpf",
+        "通快集团"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-358",
+      "source_keys": [
+        "TRUMPF"
+      ],
+      "entity_decision": "确认独立：TRUMPF（通快集团）为独立主体；与 TRUMPF Hüttinger 名称相近不合并——Hüttinger 是其电子业务子公司，另行保留",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "TRUMPFHUTTINGER",
+      "name_cn": "霍廷格",
+      "name_en": "TRUMPF Hüttinger GmbH + Co. KG",
+      "short_name": "TRUMPF Hüttinger",
+      "aliases": [
+        "Hüttinger",
+        "TRUMPF Hüttinger",
+        "霍廷格"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-358",
+      "source_keys": [
+        "TRUMPFHÜTTINGER"
+      ],
+      "entity_decision": "确认独立（不同主体保留）：TRUMPF Hüttinger 为 TRUMPF 集团旗下独立法人子公司（射频/微波发生器，半导体等离子体电源），不单列上市记录",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ZEISS",
+      "name_cn": "卡尔蔡司SMT",
+      "name_en": "Carl Zeiss SMT GmbH",
+      "short_name": "ZEISS SMT",
+      "aliases": [
+        "蔡司半导体制造技术"
+      ],
+      "country_region": "德国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-456",
+      "source_keys": [
+        "CARLZEISSSMT"
+      ],
+      "entity_decision": "非上市：Carl Zeiss SMT GmbH 为 Carl Zeiss AG 全资子公司（蔡司集团半导体制造技术事业部），集团由 Carl-Zeiss-Stiftung（卡尔蔡司基金会）100% 持有，整体不上市；ASML 2016 年入股 Carl Zeiss SMT 24.9% 少数股权",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ASMPT",
+      "name_cn": "",
+      "name_en": "ASMPT Limited",
+      "short_name": "ASMPT",
+      "aliases": [
+        "ASM Pacific Technology",
+        "ASMPT Ltd"
+      ],
+      "country_region": "新加坡（总部；注册于开曼群岛）",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ASMPT_HKEX",
+          "market": "港股",
+          "exchange": "HKEX",
+          "ticker": "00522.HK",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "hk00522"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-583",
+      "source_keys": [
+        "ASMPT"
+      ],
+      "entity_decision": "确认为 ASMPT Limited（原 ASM Pacific Technology，2022年更名）；注册于开曼群岛，总部新加坡，香港联交所主板上市（00522），1989年上市",
+      "confidence": "high",
+      "unresolved": "早期曾在新加坡交易所挂牌之历史线索未核验其当前状态，未列入多地上市"
+    },
+    {
+      "company_id": "ACCRETECH",
+      "name_cn": "东京精密",
+      "name_en": "Tokyo Seimitsu Co., Ltd. (ACCRETECH)",
+      "short_name": "东京精密",
+      "aliases": [
+        "ACCRETECH",
+        "Accretech",
+        "东京精密"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ACCRETECH_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7729.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-368",
+      "source_keys": [
+        "ACCRETECH",
+        "东京电子/东京精密"
+      ],
+      "entity_decision": "拆分+合并：东京精密（Accretech）与东京电子（TEL）为不同主体；单行 ACCRETECH 与斜杠行中的东京精密为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ADVANTEST",
+      "name_cn": "爱德万测试",
+      "name_en": "Advantest Corporation",
+      "short_name": "Advantest",
+      "aliases": [
+        "Advantest 爱德万测试",
+        "株式会社アドバンテスト"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ADVANTEST_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6857.T",
+          "primary": true
+        },
+        {
+          "listing_id": "ADVANTEST_OTC",
+          "market": "美股",
+          "exchange": "OTC",
+          "ticker": "ATEYY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-478",
+      "source_keys": [
+        "ADVANTEST"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "CANON",
+      "name_cn": "佳能",
+      "name_en": "Canon Inc.",
+      "short_name": "佳能",
+      "aliases": [
+        "Canon",
+        "キヤノン",
+        "佳能"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "CANON_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7751.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-374",
+      "source_keys": [
+        "CANON",
+        "NIKON/CANON"
+      ],
+      "entity_decision": "拆分+合并：Nikon 与 Canon 为不同主体；单行 CANON 与斜杠行中的 Canon 为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "DAIFUKU",
+      "name_cn": "大福",
+      "name_en": "Daifuku Co., Ltd.",
+      "short_name": "Daifuku",
+      "aliases": [
+        "大福（集团）",
+        "株式会社ダイフク"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DAIFUKU_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6383.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-480",
+      "source_keys": [
+        "DAIFUKU"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "DAIHEN",
+      "name_cn": "大恒（DAIHEN，焊接品牌OTC欧地希）",
+      "name_en": "DAIHEN Corporation",
+      "short_name": "DAIHEN",
+      "aliases": [
+        "大阪变压器 Osaka Transformer（前身）",
+        "株式会社ダイヘン",
+        "欧地希 OTC"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DAIHEN_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6622.T",
+          "primary": true
+        },
+        {
+          "listing_id": "DAIHEN_FSE",
+          "market": "日股",
+          "exchange": "FSE（福冈证券交易所）",
+          "ticker": "6622",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-481",
+      "source_keys": [
+        "DAIHEN"
+      ],
+      "entity_decision": "株式会社ダイヘン（前身大阪变压器），焊接机器人/电力设备/半导体电源厂商，焊接业务在华通行品牌名为OTC欧地希",
+      "confidence": "medium",
+      "unresolved": "中文通行译名不统一（大恒/欧地希/直接使用DAIHEN），建议数据库中以英文缩写为准"
+    },
+    {
+      "company_id": "DISCO",
+      "name_cn": "迪思科",
+      "name_en": "DISCO Corporation",
+      "short_name": "DISCO",
+      "aliases": [
+        "Disco 迪思科",
+        "株式会社ディスコ"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DISCO_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6146.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-483",
+      "source_keys": [
+        "DISCO"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "DNP",
+      "name_cn": "大日本印刷",
+      "name_en": "Dai Nippon Printing Co., Ltd.",
+      "short_name": "DNP",
+      "aliases": [
+        "DNP 大日本印刷",
+        "大日本印刷株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DNP_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7912.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-484",
+      "source_keys": [
+        "DNP"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "EBARA",
+      "name_cn": "荏原（荏原制作所）",
+      "name_en": "EBARA Corporation",
+      "short_name": "Ebara",
+      "aliases": [
+        "株式会社荏原製作所",
+        "荏原 Ebara"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "EBARA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6361.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-485",
+      "source_keys": [
+        "EBARA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FERROTEC",
+      "name_cn": "大和热磁（Ferrotec）",
+      "name_en": "Ferrotec Holdings Corporation",
+      "short_name": "Ferrotec",
+      "aliases": [
+        "Ferrotec 大和热磁",
+        "杭州大和热磁电子（中国子公司）",
+        "株式会社フェローテックホールディングス"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FERROTEC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6890.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-486",
+      "source_keys": [
+        "FERROTEC"
+      ],
+      "entity_decision": "上市主体为株式会社フェローテックホールディングス（控股公司），中文圈按其中国子公司杭州大和热磁电子常称\"大和热磁\"",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FUJIFILM",
+      "name_cn": "富士胶片",
+      "name_en": "FUJIFILM Holdings Corporation",
+      "short_name": "Fujifilm",
+      "aliases": [
+        "富士フイルムホールディングス株式会社",
+        "富士写真フイルム Fuji Photo Film（旧名）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FUJIFILM_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4901.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-488",
+      "source_keys": [
+        "FUJIFILM"
+      ],
+      "entity_decision": "上市主体为富士胶片控股（FUJIFILM Holdings），2006年由富士写真胶片改制为控股公司",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FUJIKIN",
+      "name_cn": "富士金",
+      "name_en": "Fujikin Incorporated",
+      "short_name": "Fujikin",
+      "aliases": [
+        "Fujikin 富士金",
+        "株式会社フジキン"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-489",
+      "source_keys": [
+        "FUJIKIN"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "FUJIMI",
+      "name_cn": "富士美（Fujimi）",
+      "name_en": "Fujimi Incorporated",
+      "short_name": "Fujimi",
+      "aliases": [
+        "フジミインコーポレーテッド",
+        "不二见（另见译法）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FUJIMI_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5384.T",
+          "primary": true
+        },
+        {
+          "listing_id": "FUJIMI_NSE",
+          "market": "日股",
+          "exchange": "NSE（名古屋证券交易所）",
+          "ticker": "5384",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-491",
+      "source_keys": [
+        "FUJIMI"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "中文译名（富士美/不二见）使用不统一"
+    },
+    {
+      "company_id": "GIGAPHOTON",
+      "name_cn": "Gigaphoton（ gigaphoton ）",
+      "name_en": "Gigaphoton Inc.",
+      "short_name": "Gigaphoton",
+      "aliases": [
+        "Gigaphoton",
+        "ギガフォトン",
+        "母公司：小松制作所Komatsu（6301.T）"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-436",
+      "source_keys": [
+        "GIGAPHOTON"
+      ],
+      "entity_decision": "赛道主体=Gigaphoton本体（日本栃木县小山市，光刻准分子激光光源双寡头之一）；为小松制作所Komatsu（6301.T）全资子公司，自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "HHT",
+      "name_cn": "日立高新",
+      "name_en": "Hitachi High-Tech Corporation",
+      "short_name": "Hitachi High-Tech",
+      "aliases": [
+        "Hitachi High-Tech 日立高新",
+        "日立ハイテクノロジーズ Hitachi High-Technologies（旧名）",
+        "株式会社日立ハイテク"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-495",
+      "source_keys": [
+        "HITACHIHIGH-TECH"
+      ],
+      "entity_decision": "原株式会社日立ハイテクノロジーズ（东证1部8036）2020年5月18日退市，成为日立制作所100%子公司，并更名株式会社日立ハイテク；当前为非上市日立全资子公司",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "HIRATA",
+      "name_cn": "平田机工",
+      "name_en": "Hirata Corporation",
+      "short_name": "Hirata",
+      "aliases": [
+        "Hirata 平田机工",
+        "平田機工株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HIRATA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6258.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-493",
+      "source_keys": [
+        "HIRATA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HORIBA",
+      "name_cn": "堀场（堀场制作所）",
+      "name_en": "HORIBA, Ltd.",
+      "short_name": "HORIBA",
+      "aliases": [
+        "HORIBA 堀场",
+        "株式会社堀場製作所"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HORIBA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6856.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-497",
+      "source_keys": [
+        "HORIBA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HOYA",
+      "name_cn": "豪雅",
+      "name_en": "HOYA Corporation",
+      "short_name": "HOYA",
+      "aliases": [
+        "HOYA株式会社",
+        "保谷 Hoya"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HOYA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7741.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-498",
+      "source_keys": [
+        "HOYA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "IBIDEN",
+      "name_cn": "揖斐电",
+      "name_en": "IBIDEN Co., Ltd.",
+      "short_name": "Ibiden",
+      "aliases": [
+        "イビデン株式会社",
+        "揖斐电 Ibiden"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "IBIDEN_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4062.T",
+          "primary": true
+        },
+        {
+          "listing_id": "IBIDEN_NSE",
+          "market": "日股",
+          "exchange": "NSE（名古屋证券交易所）",
+          "ticker": "4062",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-499",
+      "source_keys": [
+        "IBIDEN"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "JSR",
+      "name_cn": "JSR（原日本合成橡胶）",
+      "name_en": "JSR Corporation",
+      "short_name": "JSR",
+      "aliases": [
+        "JICC-02株式会社（存续法人登记名沿革）",
+        "JSR株式会社",
+        "日本合成ゴム Japan Synthetic Rubber（旧名）"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-500",
+      "source_keys": [
+        "JSR"
+      ],
+      "entity_decision": "原东证Prime 4185；2024年4月产业革新投资机构（JIC）旗下JICC-02完成TOB，2024年6月25日退市，2024年12月法人并入JICC-02（存续公司沿用JSR株式会社名称），现为JIC旗下非上市公司",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "JXMETALS",
+      "name_cn": "JX金属",
+      "name_en": "JX Advanced Metals Corporation",
+      "short_name": "JX Metals",
+      "aliases": [
+        "JX Metals Corporation（旧英文商号）",
+        "JX日鉱日石金属 JX Nippon Mining & Metals（旧名）",
+        "JX金属株式会社",
+        "日矿金属"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "JXMETALS_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5016.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-502",
+      "source_keys": [
+        "JXMETALS"
+      ],
+      "entity_decision": "原JX日矿日石金属（JX Nippon Mining & Metals），2016年更名JX金属，2024年5月英文商号改为JX Advanced Metals Corporation；2025年3月19日在东证Prime新上市（5016），ENEOS控股仍为大股东（约42%）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KANTOCHEM",
+      "name_cn": "关东化学",
+      "name_en": "Kanto Chemical Co., Inc.",
+      "short_name": "Kanto Chemical",
+      "aliases": [
+        "关东化学 Kanto Chemical",
+        "関東化学株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-504",
+      "source_keys": [
+        "KANTOCHEMICAL"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "KASHIYAMA",
+      "name_cn": "樫山工业",
+      "name_en": "Kashiyama Industries, Ltd.",
+      "short_name": "Kashiyama",
+      "aliases": [
+        "Kashiyama 樫山工业",
+        "樫山工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-506",
+      "source_keys": [
+        "KASHIYAMA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "KOKUSAI",
+      "name_cn": "科库赛电气（Kokusai Electric，原日立国际电气）",
+      "name_en": "Kokusai Electric Corporation",
+      "short_name": "Kokusai Electric",
+      "aliases": [
+        "コクサイエレクトリック株式会社",
+        "国际电气",
+        "日立国际电气 Hitachi Kokusai Electric（旧名，已剥离日立）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KOKUSAI_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6525.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-508",
+      "source_keys": [
+        "KOKUSAIELECTRIC"
+      ],
+      "entity_decision": "原为日立国际电气（Hitachi Kokusai Electric），2017-2018年从日立集团分拆至KKR旗下并更名Kokusai Electric（与日立无资本关系），2023年10月在东证Prime再上市（6525）；中文旧称\"日立国际电气\"已不准确",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KYOCERA",
+      "name_cn": "京瓷",
+      "name_en": "Kyocera Corporation",
+      "short_name": "Kyocera",
+      "aliases": [
+        "京セラ株式会社",
+        "京都陶瓷 Kyoto Ceramic（旧名）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KYOCERA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6971.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-510",
+      "source_keys": [
+        "KYOCERA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "LASERTEC",
+      "name_cn": "雷泰光电（Lasertec）",
+      "name_en": "Lasertec Corporation",
+      "short_name": "Lasertec",
+      "aliases": [
+        "Lasertec半导体（富途译名）",
+        "株式会社レーザーテック"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LASERTEC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6920.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-511",
+      "source_keys": [
+        "LASERTEC"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "LINTEC",
+      "name_cn": "琳得科",
+      "name_en": "Lintec Corporation",
+      "short_name": "Lintec",
+      "aliases": [
+        "リンテック株式会社",
+        "琳得科 Lintec"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LINTEC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7966.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-513",
+      "source_keys": [
+        "LINTEC"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MARUWA",
+      "name_cn": "丸和",
+      "name_en": "MARUWA Co., Ltd.",
+      "short_name": "MARUWA",
+      "aliases": [
+        "丸和 Maruwa",
+        "株式会社マルワ"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MARUWA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5344.T",
+          "primary": true
+        },
+        {
+          "listing_id": "MARUWA_NSE",
+          "market": "日股",
+          "exchange": "NSE（名古屋证券交易所）",
+          "ticker": "5344",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-514",
+      "source_keys": [
+        "MARUWA"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "LSE/SGX挂牌的具体交易代码未逐一核验（公司IR页仅列交易所名）"
+    },
+    {
+      "company_id": "MCG",
+      "name_cn": "三菱化学（三菱化学集团）",
+      "name_en": "Mitsubishi Chemical Group Corporation",
+      "short_name": "Mitsubishi Chemical Group",
+      "aliases": [
+        "三菱ケミカルグループ株式会社",
+        "三菱ケミカルホールディングス Mitsubishi Chemical Holdings（旧名）",
+        "三菱化学 Mitsubishi Chemical"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MCG_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4188.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-516",
+      "source_keys": [
+        "MITSUBISHICHEMICAL"
+      ],
+      "entity_decision": "上市主体为三菱ケミカルグループ株式会社（三菱化学集团），2022年由三菱ケミカルホールディングス（三菱化学控股）更名；事业公司三菱化学株式会社为其子公司",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MITSUIHT",
+      "name_cn": "三井高科技",
+      "name_en": "Mitsui High-tec, Inc.",
+      "short_name": "Mitsui High-tec",
+      "aliases": [
+        "三井ハイテック株式会社",
+        "三井高科技 Mitsui High-tec"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MITSUIHT_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6966.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-517",
+      "source_keys": [
+        "MITSUIHIGH-TEC"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NAGASE",
+      "name_cn": "长濑产业",
+      "name_en": "NAGASE & CO., LTD.",
+      "short_name": "Nagase",
+      "aliases": [
+        "Nagase ChemteX 長瀬ケムテックス（子公司）",
+        "長瀬産業株式会社",
+        "长濑 Nagase"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NAGASE_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "8012.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-519",
+      "source_keys": [
+        "NAGASE"
+      ],
+      "entity_decision": "法定名为長瀬産業株式会社；Nagase ChemteX（長瀬ケムテックス）为其化学品制造子公司，非上市主体本身",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NAMICS",
+      "name_cn": "纳美仕",
+      "name_en": "NAMICS Corporation",
+      "short_name": "NAMICS",
+      "aliases": [
+        "ナミックス株式会社",
+        "纳美仕 NAMICS"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-520",
+      "source_keys": [
+        "NAMICS"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "NGKINSULATORS",
+      "name_cn": "日本碍子",
+      "name_en": "NGK Insulators, Ltd.",
+      "short_name": "NGK Insulators",
+      "aliases": [
+        "NGK",
+        "NGK Insulators",
+        "日本碍子"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NGKINSULATORS_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5333.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-375",
+      "source_keys": [
+        "NGK/NTK",
+        "NGKINSULATORS",
+        "NGKINSULATORS/NTKCERATEC日本碍子"
+      ],
+      "entity_decision": "拆分+合并：NGK（日本碍子，NGK Insulators）与 NTK（特殊陶业旗下 NTK CERATEC）属不同集团的不同主体；单行 NGKINSULATORS 与两个斜杠行中的 NGK/日本碍子为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NIKON",
+      "name_cn": "尼康",
+      "name_en": "Nikon Corporation",
+      "short_name": "尼康",
+      "aliases": [
+        "Nikon",
+        "ニコン",
+        "尼康"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NIKON_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7731.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-374",
+      "source_keys": [
+        "NIKON",
+        "NIKON/CANON"
+      ],
+      "entity_decision": "拆分+合并：Nikon 与 Canon 为不同主体；单行 NIKON 与斜杠行中的 Nikon 为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NIPPONSANSOHD",
+      "name_cn": "日本酸素控股（大阳日酸）",
+      "name_en": "Nippon Sanso Holdings Corporation",
+      "short_name": "Nippon Sanso HD",
+      "aliases": [
+        "Taiyo Nippon Sanso Corporation",
+        "大阳日酸株式会社",
+        "大陽日酸",
+        "日本酸素ホールディングス株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NIPPONSANSOHD_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4091.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-543",
+      "source_keys": [
+        "TAIYONIPPONSANSO"
+      ],
+      "entity_decision": "renamed_mapped",
+      "confidence": "high",
+      "unresolved": "原“大阳日酸/Taiyo Nippon Sanso”上市主体2020年10月改制为控股公司日本酸素控股（4091.T）；大阳日酸株式会社现为非上市事业子公司。图谱若按品牌列示可保留“大阳日酸”作展示名"
+    },
+    {
+      "company_id": "NITERRA",
+      "name_cn": "日本特殊陶业（Niterra）",
+      "name_en": "Niterra Co., Ltd.",
+      "short_name": "Niterra",
+      "aliases": [
+        "NGK火花塞",
+        "Niterra 日本特殊陶业",
+        "Niterra株式会社",
+        "日本特殊陶業株式会社 NGK Spark Plug Co., Ltd.（旧名）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NITERRA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5334.T",
+          "primary": true
+        },
+        {
+          "listing_id": "NITERRA_NSE",
+          "market": "日股",
+          "exchange": "NSE（名古屋证券交易所）",
+          "ticker": "5334",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-522",
+      "source_keys": [
+        "NITERRA"
+      ],
+      "entity_decision": "原日本特殊陶业株式会社（NGK Spark Plug/NGK火花塞），2023年4月更名为Niterra株式会社，证券代码不变（5334）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NITTO",
+      "name_cn": "日东电工",
+      "name_en": "Nitto Denko Corporation",
+      "short_name": "Nitto",
+      "aliases": [
+        "日东电工 Nitto",
+        "日東電工株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "NITTO_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6988.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-523",
+      "source_keys": [
+        "NITTO"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "NTKCERATEC",
+      "name_cn": "NTK CERATEC",
+      "name_en": "NTK CERATEC Co., Ltd.",
+      "short_name": "NTK CERATEC",
+      "aliases": [
+        "NTK",
+        "NTK CERATEC",
+        "NTKセラテック",
+        "特殊陶业NTK"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-376",
+      "source_keys": [
+        "NGK/NTK",
+        "NGKINSULATORS/NTKCERATEC日本碍子"
+      ],
+      "entity_decision": "拆分：NTK 指株式会社NTK CERATEC（日本特殊陶业 Niterra 全资子公司），与 NGK Insulators 分属不同集团，单列一条",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "OKAMOTO",
+      "name_cn": "冈本工作机械制作所",
+      "name_en": "Okamoto Machine Tool Works, Ltd.",
+      "short_name": "冈本",
+      "aliases": [
+        "OKAMOTO",
+        "Okamoto",
+        "冈本"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "OKAMOTO_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6125.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-362",
+      "source_keys": [
+        "G&N/冈本OKAMOTO"
+      ],
+      "entity_decision": "拆分：冈本 Okamoto 指日本冈本工作机械制作所，独立上市主体，单列一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "PANASONIC",
+      "name_cn": "松下控股（松下电子材料为其业务板块）",
+      "name_en": "Panasonic Holdings Corporation",
+      "short_name": "Panasonic",
+      "aliases": [
+        "Panasonic Corporation（旧名）",
+        "パナソニック ホールディングス株式会社",
+        "松下电器产业 Matsushita Electric Industrial（旧名）",
+        "松下电子材料"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PANASONIC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6752.T",
+          "primary": true
+        },
+        {
+          "listing_id": "PANASONIC_NSE",
+          "market": "日股",
+          "exchange": "NSE（名古屋证券交易所）",
+          "ticker": "6752",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-524",
+      "source_keys": [
+        "PANASONIC"
+      ],
+      "entity_decision": "图谱所指\"松下电子材料\"为松下集团旗下电子材料业务板块（原Panasonic Industry电子材料），上市主体为パナソニック ホールディングス株式会社（松下控股，2022年4月由Panasonic株式会社改制更名）",
+      "confidence": "high",
+      "unresolved": "图谱条目实指其电子材料业务而非整个集团，主数据库如需精确到事业公司（松下电器机电等）另议"
+    },
+    {
+      "company_id": "RESONAC",
+      "name_cn": "力森诺科控股",
+      "name_en": "Resonac Holdings Corporation",
+      "short_name": "Resonac",
+      "aliases": [
+        "Resonac",
+        "レゾナック",
+        "力森诺科",
+        "原昭和电工/原日立化成（Hitachi Chemical）"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "RESONAC_PRIME",
+          "market": "日股",
+          "exchange": "东京证券交易所Prime",
+          "ticker": "4004.T",
+          "primary": true,
+          "provider_symbols": {}
+        }
+      ],
+      "listing_source_id": "SRC-LS-438",
+      "source_keys": [
+        "RESONAC"
+      ],
+      "entity_decision": "赛道主体=Resonac Holdings本体（力森诺科，半导体封装材料/ CMP材料）；2023年1月由昭和电工与昭和电工材料（原日立化成，2020年被昭和电工收购）整合而成，承继东证Prime上市地位（4004.T），\"原日立化成\"为历史沿革而非当前母公司",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "RORZE",
+      "name_cn": "罗泽",
+      "name_en": "Rorze Corporation",
+      "short_name": "Rorze",
+      "aliases": [
+        "RORZE 罗泽",
+        "ローツェ株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "RORZE_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6323.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-525",
+      "source_keys": [
+        "RORZE"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SCREEN",
+      "name_cn": "迪恩士",
+      "name_en": "SCREEN Holdings Co., Ltd.",
+      "short_name": "SCREEN",
+      "aliases": [
+        "SCREEN",
+        "SCREEN Holdings",
+        "SCREENホールディングス",
+        "斯克林",
+        "迪恩士"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SCREEN_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "7735.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-374",
+      "source_keys": [
+        "SCREEN",
+        "SCREENHOLDINGS"
+      ],
+      "entity_decision": "合并：SCREEN 为 SCREEN Holdings 的通行简称，同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SEN",
+      "name_cn": "SEN（住友重机械材料解决方案）",
+      "name_en": "Sumitomo Heavy Industries Material Solutions Co., Ltd.",
+      "short_name": "SEN",
+      "aliases": [
+        "SEN",
+        "SEN Corporation",
+        "Sumitomo Eaton Nova",
+        "Sumitomo Heavy Industries Ion Technology",
+        "住友重機械マテリアルソリューションズ"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-383",
+      "source_keys": [
+        "SUMITOMO/SEN住友重工",
+        "住友重工/SENSUMITOMO"
+      ],
+      "entity_decision": "拆分+合并：SEN 原为住友重工与 Eaton/Axcelis 各50%合资公司（Sumitomo Eaton Nova），2009年住友重工收购全部股权，现为全资子会社（现名住友重机械Material Solutions）；两个斜杠行中的 SEN 为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SENJUMETAL",
+      "name_cn": "千住金属",
+      "name_en": "Senju Metal Industry Co., Ltd.",
+      "short_name": "Senju Metal",
+      "aliases": [
+        "SMIC（集团标识）",
+        "千住金属 Senju Metal",
+        "千住金属工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-526",
+      "source_keys": [
+        "SENJUMETAL"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SHI",
+      "name_cn": "住友重工",
+      "name_en": "Sumitomo Heavy Industries, Ltd.",
+      "short_name": "住友重工",
+      "aliases": [
+        "SEN Sumitomo",
+        "SHI",
+        "Sumitomo",
+        "住友重工",
+        "住友重工/SEN",
+        "住友重機械工業"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SHI_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6302.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-381",
+      "source_keys": [
+        "SUMITOMO/SEN住友重工",
+        "住友重工/SENSUMITOMO"
+      ],
+      "entity_decision": "拆分+合并：住友重工与 SEN（离子注入子公司）为不同主体；两个斜杠行表述同一对组合，对应的住友重工合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SHINETSU",
+      "name_cn": "信越化学",
+      "name_en": "Shin-Etsu Chemical Co., Ltd.",
+      "short_name": "Shin-Etsu",
+      "aliases": [
+        "信越化学 Shin-Etsu",
+        "信越化学工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SHINETSU_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4063.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-528",
+      "source_keys": [
+        "SHIN-ETSU"
+      ],
+      "entity_decision": "",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SHINKO",
+      "name_cn": "新光电气工业",
+      "name_en": "Shinko Electric Industries Co., Ltd.",
+      "short_name": "Shinko",
+      "aliases": [
+        "SHINKO",
+        "Shinko Electric",
+        "新光电气",
+        "新光電気工業"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-379",
+      "source_keys": [
+        "SHINKO",
+        "SHINKOELECTRIC"
+      ],
+      "entity_decision": "合并：Shinko Electric（新光电气）为 Shinko Electric Industries（新光電気工業）的通行简称，半导体封装基板语境下两行候选为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": "存在同名企业神钢电机（Shinko Electric Co., Ltd.，Kobe Steel系）的歧义，已按半导体封装基板语境裁决为新光电气工业",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SHINWACONTROLS",
+      "name_cn": "伸和控制",
+      "name_en": "Shinwa Controls Co., Ltd.",
+      "short_name": "Shinwa Controls",
+      "aliases": [
+        "伸和コントロールズ株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-530",
+      "source_keys": [
+        "SHINWACONTROLS"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SMC",
+      "name_cn": "",
+      "name_en": "SMC Corporation",
+      "short_name": "SMC",
+      "aliases": [
+        "SMC株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SMC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6273.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-533",
+      "source_keys": [
+        "SMC"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "无官方中文公司名（中国子公司以SMC名义运营），name_cn留空"
+    },
+    {
+      "company_id": "STELLACHEMIFA",
+      "name_cn": "",
+      "name_en": "Stella Chemifa Corporation",
+      "short_name": "Stella Chemifa",
+      "aliases": [
+        "ステラ ケミファ株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "STELLACHEMIFA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4109.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-535",
+      "source_keys": [
+        "STELLACHEMIFA"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "无通行官方中文名，name_cn留空"
+    },
+    {
+      "company_id": "SUMCO",
+      "name_cn": "胜高",
+      "name_en": "SUMCO Corporation",
+      "short_name": "SUMCO",
+      "aliases": [
+        "株式会社SUMCO"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SUMCO_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "3436.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-537",
+      "source_keys": [
+        "SUMCO"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SUMITOMOBAKELITE",
+      "name_cn": "住友电木",
+      "name_en": "Sumitomo Bakelite Co., Ltd.",
+      "short_name": "Sumitomo Bakelite",
+      "aliases": [
+        "住友ベークライト株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SUMITOMOBAKELITE_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4203.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-539",
+      "source_keys": [
+        "SUMITOMOBAKELITE"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SUMITOMOCHEMICAL",
+      "name_cn": "住友化学",
+      "name_en": "Sumitomo Chemical Co., Ltd.",
+      "short_name": "Sumitomo Chemical",
+      "aliases": [
+        "住友化学株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SUMITOMOCHEMICAL_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4005.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-561",
+      "source_keys": [
+        "住友化学"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "SUMITOMOELECTRIC",
+      "name_cn": "住友电工",
+      "name_en": "Sumitomo Electric Industries, Ltd.",
+      "short_name": "Sumitomo Electric",
+      "aliases": [
+        "住友電工",
+        "住友電気工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SUMITOMOELECTRIC_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5802.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-541",
+      "source_keys": [
+        "SUMITOMOELECTRIC"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TANAKA",
+      "name_cn": "田中贵金属",
+      "name_en": "TANAKA Holdings Co., Ltd.",
+      "short_name": "TANAKA",
+      "aliases": [
+        "TANAKA Precious Metal Technologies Co., Ltd.",
+        "TANAKAホールディングス株式会社",
+        "Tanaka Kikinzoku Kogyo Co., Ltd.",
+        "田中貴金属工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-546",
+      "source_keys": [
+        "TANAKA"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "2025-01-01集团重组后事业公司商号细节（田中貴金属工業→TANAKA Precious Metal Technologies）以日语登记名为准待复核；不影响非上市结论",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "TECHNOQUARTZ",
+      "name_cn": "泰谷诺",
+      "name_en": "Techno Quartz Inc.",
+      "short_name": "Techno Quartz",
+      "aliases": [
+        "テクノクオーツ株式会社",
+        "杭州泰谷诺石英有限公司"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-563",
+      "source_keys": [
+        "泰谷诺"
+      ],
+      "entity_decision": "mapped_uncertain",
+      "confidence": "medium",
+      "unresolved": "“泰谷诺”为Techno Quartz杭州子公司名，推定图谱所指为日本母体Techno Quartz（已于2024-09-27退市，现为GL Techno Holdings(255A.T，东证Standard)子公司）；若原图谱另有所指需人工确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "TEKSCEND",
+      "name_cn": "凸版光罩",
+      "name_en": "Tekscend Photomask Corp.",
+      "short_name": "Tekscend",
+      "aliases": [
+        "Toppan Photomask Co., Ltd.",
+        "テクセンドフォトマスク株式会社",
+        "凸版フォトマスク株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TEKSCEND_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "429A.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-551",
+      "source_keys": [
+        "TOPPANPHOTOMASK"
+      ],
+      "entity_decision": "renamed_mapped",
+      "confidence": "high",
+      "unresolved": "原“凸版光罩/Toppan Photomask”2024-11更名Tekscend Photomask，2025-10-16东证Prime上市（429A.T），现仍为TOPPAN Holdings（7911.T）子会社；中文名“凸版光罩”为旧名通行译法，新名暂无官方中文译名"
+    },
+    {
+      "company_id": "TEL",
+      "name_cn": "东京电子",
+      "name_en": "Tokyo Electron Limited",
+      "short_name": "东京电子",
+      "aliases": [
+        "TEL",
+        "Tokyo Electron",
+        "东京电子",
+        "東京エレクトロン"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TEL_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "8035.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-374",
+      "source_keys": [
+        "TEL",
+        "东京电子/东京精密"
+      ],
+      "entity_decision": "拆分+合并：东京电子与东京精密为不同主体；单行 TEL 与斜杠行中的东京电子为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TOK",
+      "name_cn": "东京应化",
+      "name_en": "Tokyo Ohka Kogyo Co., Ltd.",
+      "short_name": "TOK",
+      "aliases": [
+        "東京応化工業株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TOK_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4186.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-549",
+      "source_keys": [
+        "TOK"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TOSOH",
+      "name_cn": "东曹",
+      "name_en": "Tosoh Corporation",
+      "short_name": "Tosoh",
+      "aliases": [
+        "東ソー",
+        "東ソー株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TOSOH_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "4042.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-554",
+      "source_keys": [
+        "TOSOH"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TOTO",
+      "name_cn": "东陶",
+      "name_en": "TOTO Ltd.",
+      "short_name": "TOTO",
+      "aliases": [
+        "TOTO株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TOTO_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "5332.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-556",
+      "source_keys": [
+        "TOTO"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "名古屋/福冈两地上市共用代码5332，行情抓取以TSE为主"
+    },
+    {
+      "company_id": "TOWA",
+      "name_cn": "",
+      "name_en": "TOWA Corporation",
+      "short_name": "TOWA",
+      "aliases": [
+        "TOWA株式会社"
+      ],
+      "country_region": "日本",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TOWA_TSE",
+          "market": "日股",
+          "exchange": "TSE",
+          "ticker": "6315.T",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-559",
+      "source_keys": [
+        "TOWA"
+      ],
+      "entity_decision": "confirmed",
+      "confidence": "high",
+      "unresolved": "无官方中文名，name_cn留空（勿与东和药品4553混淆）"
+    },
+    {
+      "company_id": "YAMAHAROBOTICS",
+      "name_cn": "雅马哈机器人",
+      "name_en": "Yamaha Robotics Co., Ltd.",
+      "short_name": "Yamaha Robotics",
+      "aliases": [
+        "APIC YAMADA",
+        "PFA",
+        "SHINKAWA",
+        "Shinkawa",
+        "YAMADA",
+        "Yamaha Robotics Holdings",
+        "アピックヤマダ APIC YAMADA（2019年并入）",
+        "ヤマハロボティクスホールディングス（2021-2025旧称）",
+        "ヤマハロボティクス株式会社 Yamaha Robotics",
+        "新川",
+        "株式会社新川 Shinkawa Ltd.（旧法人，已并入）"
+      ],
+      "country_region": "日本",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-369",
+      "source_keys": [
+        "APICYAMADA/YAMAHAROBOTICS",
+        "SHINKAWA",
+        "YAMADA/APICYAMADA"
+      ],
+      "entity_decision": "合并：APIC YAMADA（原 SHINKAWA 全资子公司）已于2025年7月与 Yamaha Robotics Holdings、SHINKAWA、PFA 吸收合并为 Yamaha Robotics Co., Ltd.；两行候选均指向该存续主体，合并为一条；株式会社新川（原东证1部6274）2019年与アピックヤマダ经营整合为ヤマハロボティクスホールディングス，2020年5月25日退市成为雅马哈发动机全资子公司；2025年7月1日新川等4家法人合并为ヤマハロボティクス株式会社（Yamaha Robotics Co., Ltd.），SHINKAWA现为该公司半导体后工序设备（键合机）品牌；当前主体非上市；主会话裁决：与 E1 批 YAMAHAROBOTICS 为同一当前法人，company_id 统一为 YAMAHAROBOTICS",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "AIRLIQUIDE",
+      "name_cn": "液化空气",
+      "name_en": "L'Air Liquide S.A.",
+      "short_name": "Air Liquide",
+      "aliases": [
+        "液化空气集团"
+      ],
+      "country_region": "法国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "AIRLIQUIDE_EURONEXTPARIS",
+          "market": "欧股",
+          "exchange": "Euronext Paris",
+          "ticker": "AI.PA",
+          "primary": true
+        },
+        {
+          "listing_id": "AIRLIQUIDE_OTCMARKETSADR",
+          "market": "美股",
+          "exchange": "OTC Markets (ADR)",
+          "ticker": "AIQUY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-466",
+      "source_keys": [
+        "AIRLIQUIDE"
+      ],
+      "entity_decision": "上市主体：L'Air Liquide S.A.，法国巴黎注册，Euronext Paris（A 板，CAC 40）上市；另有美国 OTC ADR AIQUY",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "EGIDE",
+      "name_cn": "",
+      "name_en": "Egide S.A.",
+      "short_name": "Egide",
+      "aliases": [],
+      "country_region": "法国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "EGIDE_EURONEXTGROWTHPARIS",
+          "market": "欧股",
+          "exchange": "Euronext Growth Paris",
+          "ticker": "ALGID.PA",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-468",
+      "source_keys": [
+        "EGIDE"
+      ],
+      "entity_decision": "上市主体：Egide S.A.，法国博莱讷（Bollène）注册，Euronext Growth Paris 上市（ISIN FR0000072373，代码 ALGID）；电子元件气密封装（hermetic packages）专业厂商",
+      "confidence": "high",
+      "unresolved": "无通行中文名"
+    },
+    {
+      "company_id": "LINDE",
+      "name_cn": "林德",
+      "name_en": "Linde plc",
+      "short_name": "林德",
+      "aliases": [
+        "Linde",
+        "林德集团"
+      ],
+      "country_region": "爱尔兰（注册地；总部英国，业务源自德国/美国合并）",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LINDE_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "LIN",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-581",
+      "source_keys": [
+        "LINDE"
+      ],
+      "entity_decision": "确认为 Linde plc（林德），全球最大工业气体公司；注册于爱尔兰，主要行政办公地在英国 Woking；普通股仅在纳斯达克上市（LIN），法兰克福交易所上市已于2023年3月1日撤销，NYSE上市于2023年11月7日转至Nasdaq",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "COMET",
+      "name_cn": "康姆艾德",
+      "name_en": "Comet Holding AG",
+      "short_name": "Comet",
+      "aliases": [],
+      "country_region": "瑞士",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "COMET_SIXSWISSEXCHANGE",
+          "market": "欧股",
+          "exchange": "SIX Swiss Exchange",
+          "ticker": "COTN.SW",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-470",
+      "source_keys": [
+        "COMET"
+      ],
+      "entity_decision": "上市主体：Comet Holding AG，瑞士弗拉马特（Flamatt）注册，2002-12-17 起在 SIX Swiss Exchange 上市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ACLS",
+      "name_cn": "亚舍立",
+      "name_en": "Axcelis Technologies, Inc.",
+      "short_name": "Axcelis",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ACLS_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "ACLS.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usACLS"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-610",
+      "source_keys": [
+        "AXCELIS"
+      ],
+      "entity_decision": "独立上市公司 Axcelis Technologies, Inc.（离子注入设备，总部马萨诸塞州 Beverly）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ADVANCEDTS",
+      "name_cn": "",
+      "name_en": "Advanced Thermal Sciences Corporation",
+      "short_name": "ATS",
+      "aliases": [
+        "Advanced Thermal Sciences ATS"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-604",
+      "source_keys": [
+        "ADVANCEDTHERMALSCIENCESATS"
+      ],
+      "entity_decision": "非上市；Advanced Thermal Sciences Corporation（ATS，半导体温控系统 TCS，总部加州 Anaheim），现为 Collins Aerospace（柯林斯宇航）一部分，归属母公司 RTX Corporation（NYSE: RTX）；历史上曾为 B/E Aerospace 子公司，随 B/E 并入 Rockwell Collins 后归入 Collins Aerospace",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "AEIS",
+      "name_cn": "先进能源",
+      "name_en": "Advanced Energy Industries, Inc.",
+      "short_name": "Advanced Energy",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "AEIS_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "AEIS.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usAEIS"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-602",
+      "source_keys": [
+        "ADVANCEDENERGY"
+      ],
+      "entity_decision": "独立上市公司 Advanced Energy Industries, Inc.（精密电源/等离子体电源，总部美国科罗拉多州丹佛）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "AMAT",
+      "name_cn": "应用材料",
+      "name_en": "Applied Materials, Inc.",
+      "short_name": "Applied Materials",
+      "aliases": [
+        "AMAT",
+        "Varian Semiconductor（Varian，2011年被收购并入，原 Nasdaq: VSEA）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "AMAT_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "AMAT.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usAMAT"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-608",
+      "source_keys": [
+        "APPLIEDMATERIALS"
+      ],
+      "entity_decision": "独立上市公司 Applied Materials, Inc.（应用材料，总部加州 Santa Clara）；备注中 Varian 指 Varian Semiconductor Equipment Associates（原 Nasdaq: VSEA），2011 年 11 月被 AMAT 以约 49 亿美元收购并退市，现为 AMAT 离子注入业务",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "APD",
+      "name_cn": "空气化工",
+      "name_en": "Air Products and Chemicals, Inc.",
+      "short_name": "Air Products",
+      "aliases": [
+        "空气产品"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "APD_NYSE",
+          "market": "美股",
+          "exchange": "NYSE",
+          "ticker": "APD.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usAPD"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-606",
+      "source_keys": [
+        "AIRPRODUCTS"
+      ],
+      "entity_decision": "独立上市公司 Air Products and Chemicals, Inc.（工业气体，总部宾州 Allentown）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "BRKINSTR",
+      "name_cn": "",
+      "name_en": "Brooks Instrument, LLC",
+      "short_name": "Brooks Instrument",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-614",
+      "source_keys": [
+        "BROOKSINSTRUMENT"
+      ],
+      "entity_decision": "非上市；Brooks Instrument, LLC（质量流量控制器 MFC，总部宾州 Hatfield，成立 1946 年）2012 年起为 Illinois Tool Works Inc.（伊利诺伊工具，NYSE: ITW）子公司；注意与 Brooks Automation 无任何股权关系",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "BROOKS",
+      "name_cn": "布鲁克斯",
+      "name_en": "Brooks Automation",
+      "short_name": "Brooks Automation",
+      "aliases": [
+        "原 Nasdaq: BRKS（上市主体已更名 Azenta, Inc., Nasdaq: AZTA）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-612",
+      "source_keys": [
+        "BROOKSAUTOMATION"
+      ],
+      "entity_decision": "非上市；半导体自动化业务主体 Brooks Automation（总部马萨诸塞州 Chelmsford）2022 年 2 月随交易交割归入私募股权 Thomas H. Lee Partners（交易对价约 30 亿美元）；原上市主体 Brooks Automation, Inc.（原 Nasdaq: BRKS）剥离半导体业务后更名 Azenta, Inc.（Nasdaq: AZTA，生命科学），与本实体不同；2026 年 7 月有报道称 Brooks Automation 正筹划赴美 IPO，尚未完成",
+      "confidence": "high",
+      "unresolved": "筹划中的 IPO 进展需持续跟踪",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CLASSONE",
+      "name_cn": "",
+      "name_en": "ClassOne Technology, Inc.",
+      "short_name": "ClassOne Technology",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-616",
+      "source_keys": [
+        "CLASSONETECHNOLOGY"
+      ],
+      "entity_decision": "非上市私营公司 ClassOne Technology, Inc.（≤200mm 单晶圆电镀/湿法设备 Solstice 系列，总部蒙大拿州 Kalispell，2013 年成立）；注意与同集团翻新设备商 ClassOne Equipment（总部佐治亚州 Atlanta）区分",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "COHU",
+      "name_cn": "科休",
+      "name_en": "Cohu, Inc.",
+      "short_name": "Cohu",
+      "aliases": [
+        "LTX-Credence（Xcerra 前身）",
+        "Xcerra Corporation（2018年被收购并入，原 Nasdaq: XCRA）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "COHU_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "COHU.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usCOHU"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-618",
+      "source_keys": [
+        "COHU"
+      ],
+      "entity_decision": "独立上市公司 Cohu, Inc.（测试分选/接口，总部加州 Poway）；备注“含Xcerra/MCT”确认：Xcerra Corporation（原 Nasdaq: XCRA，由 LTX-Credence 更名而来）2018 年 10 月被 Cohu 以约 7.96 亿美元收购并退市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "COORSTEK",
+      "name_cn": "",
+      "name_en": "CoorsTek, Inc.",
+      "short_name": "CoorsTek",
+      "aliases": [
+        "Coors Porcelain（前身）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-620",
+      "source_keys": [
+        "COORSTEK"
+      ],
+      "entity_decision": "非上市私营公司 CoorsTek, Inc.（半导体用技术陶瓷/石英部件，总部科罗拉多州 Golden，1920 年创立），由 Coors 家族信托 Keystone Holdings LLC 全资持有",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "CYMER",
+      "name_cn": "Cymer（西盟）",
+      "name_en": "Cymer LLC (ASML)",
+      "short_name": "Cymer",
+      "aliases": [
+        "ASML San Diego",
+        "Cymer",
+        "母公司：ASML（ASML.AS，2013年收购）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-440",
+      "source_keys": [
+        "CYMER"
+      ],
+      "entity_decision": "赛道主体=Cymer本体（美国加州圣迭戈，DUV准分子激光光源）；2013年被ASML（ASML.AS）收购，作为ASML旗下独立运营业务存续（ASML San Diego），自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "DUPONT",
+      "name_cn": "杜邦",
+      "name_en": "DuPont de Nemours, Inc.",
+      "short_name": "DuPont",
+      "aliases": [
+        "DowDuPont（2017-2019合并期间主体）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DUPONT_NYSE",
+          "market": "美股",
+          "exchange": "NYSE",
+          "ticker": "DD.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usDD"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-622",
+      "source_keys": [
+        "DUPONT"
+      ],
+      "entity_decision": "独立上市公司 DuPont de Nemours, Inc.（电子材料/特种化学品，总部特拉华州 Wilmington；2019 年 DowDuPont 分拆后的存续主体之一）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ENTEGRIS",
+      "name_cn": "英特格",
+      "name_en": "Entegris, Inc.",
+      "short_name": "Entegris",
+      "aliases": [
+        "Entegris",
+        "已并入：CMC Materials（原CCMP，2022年收购）",
+        "英特格"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ENTEGRIS_",
+          "market": "美股",
+          "exchange": "纳斯达克",
+          "ticker": "ENTG.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usENTG"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-442",
+      "source_keys": [
+        "ENTEGRIS"
+      ],
+      "entity_decision": "赛道主体=Entegris本体（英特格，美国马萨诸塞州Billerica，电子材料/污染控制龙头），纳斯达克独立上市（ENTG.US）；2022年7月完成收购CMC Materials（CCMP，约57亿美元），CMC并入不单列",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FORM",
+      "name_cn": "",
+      "name_en": "FormFactor, Inc.",
+      "short_name": "FormFactor",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FORM_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "FORM.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usFORM"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-624",
+      "source_keys": [
+        "FORMFACTOR"
+      ],
+      "entity_decision": "独立上市公司 FormFactor, Inc.（探针卡/测试系统，总部加州 Livermore）",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "HONEYWELL",
+      "name_cn": "霍尼韦尔",
+      "name_en": "Honeywell Technologies",
+      "short_name": "霍尼韦尔",
+      "aliases": [
+        "Honeywell",
+        "Honeywell International",
+        "霍尼韦尔"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HONEYWELL_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "HON.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usHON"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-367",
+      "source_keys": [
+        "默克MERCKKGAA/霍尼韦尔HONEYWELL",
+        "HONEYWELL"
+      ],
+      "entity_decision": "拆分+合并：霍尼韦尔与默克为不同主体；单行 HONEYWELL 与斜杠行中的霍尼韦尔为同一主体，合并为一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "ICHOR",
+      "name_cn": "",
+      "name_en": "Ichor Holdings, Ltd.",
+      "short_name": "Ichor Systems",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ICHOR_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "ICHR.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usICHR"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-626",
+      "source_keys": [
+        "ICHORSYSTEMS"
+      ],
+      "entity_decision": "独立上市主体为 Ichor Holdings, Ltd.（气体/化学品输送子系统，运营品牌 Ichor Systems，运营总部加州 Fremont）；注意：上市控股主体注册于开曼群岛，运营实体在美国，按业务归属记为美国公司",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认；控股主体注册地开曼群岛（运营在美国），注册地归类口径待定"
+    },
+    {
+      "company_id": "KLA",
+      "name_cn": "科磊",
+      "name_en": "KLA Corporation",
+      "short_name": "KLA",
+      "aliases": [
+        "KLA-Tencor Corporation（1997-2019）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KLA_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "KLAC.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usKLAC"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-630",
+      "source_keys": [
+        "KLA"
+      ],
+      "entity_decision": "独立上市公司 KLA Corporation（过程控制/量检测，总部加州 Milpitas）；1997 年 KLA Instruments 与 Tencor Instruments 合并为 KLA-Tencor Corporation，2019 年 7 月更名 KLA Corporation",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "KNS",
+      "name_cn": "库力索法",
+      "name_en": "Kulicke and Soffa Industries, Inc.",
+      "short_name": "K&S",
+      "aliases": [
+        "K&S",
+        "Kulicke & Soffa"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "KNS_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "KLIC.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usKLIC"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-628",
+      "source_keys": [
+        "K&S"
+      ],
+      "entity_decision": "独立上市公司 Kulicke and Soffa Industries, Inc.（封装/键合设备，品牌 K&S）；注册地为美国宾夕法尼亚州（SEC 注册信息），全球总部在新加坡，按注册地记为美国公司",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "LAM",
+      "name_cn": "泛林",
+      "name_en": "Lam Research Corporation",
+      "short_name": "Lam Research",
+      "aliases": [
+        "泛林集团"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LAM_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "LRCX.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usLRCX"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-632",
+      "source_keys": [
+        "LAMRESEARCH"
+      ],
+      "entity_decision": "独立上市公司 Lam Research Corporation（刻蚀/沉积设备，总部加州 Fremont）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MKS",
+      "name_cn": "",
+      "name_en": "MKS Inc.",
+      "short_name": "MKS",
+      "aliases": [
+        "Atotech Limited（2022年被收购并入，原 NYSE: ATC）",
+        "MKS Instruments",
+        "MKS Instruments, Inc.（2025年5月更名前法定名）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MKS_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "MKSI.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usMKSI"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-634",
+      "source_keys": [
+        "MKSINSTRUMENTS"
+      ],
+      "entity_decision": "独立上市公司，法定名已变更：MKS Instruments, Inc. 于 2025 年 5 月 16 日更名 MKS Inc.（总部马萨诸塞州 Andover，代码不变 MKSI）；Atotech Limited（原 NYSE: ATC，注册泽西岛）2022 年 8 月被 MKS 收购并退市",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MOMENTIVE",
+      "name_cn": "迈图",
+      "name_en": "Momentive Inc.",
+      "short_name": "Momentive",
+      "aliases": [
+        "GE Silicones / GE Bayer Silicones（前身）",
+        "Momentive Performance Materials Inc.（原名）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-636",
+      "source_keys": [
+        "MOMENTIVE"
+      ],
+      "entity_decision": "非上市；迈图（Momentive，有机硅/特种材料，总部纽约州 Niskayuna，原 Momentive Performance Materials Inc.）2024 年起为韩国 KCC Corporation（KRX: 002380）全资子公司；注意半导体石英/陶瓷业务已于 2020 年剥离为 Momentive Technologies（SJL Partners/Wonik QnC 持有），与本实体不同",
+      "confidence": "medium",
+      "unresolved": "需确认原始图谱语境中 Momentive 指迈图高新材料（有机硅，KCC 旗下）还是 Momentive Technologies（石英/陶瓷，SJL/Wonik 旗下）；本行按前者（迈图 Momentive）建档",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "PLAB",
+      "name_cn": "",
+      "name_en": "Photronics, Inc.",
+      "short_name": "Photronics",
+      "aliases": [],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "PLAB_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "PLAB.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usPLAB"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-638",
+      "source_keys": [
+        "PHOTRONICS"
+      ],
+      "entity_decision": "独立上市公司 Photronics, Inc.（光掩模，总部康涅狄格州 Brookfield）",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "PRAXAIR",
+      "name_cn": "普莱克斯",
+      "name_en": "Praxair, Inc. (Linde plc)",
+      "short_name": "Praxair",
+      "aliases": [
+        "Praxair",
+        "原纽交所代码PX（2018年退市）",
+        "普莱克斯",
+        "现属：Linde plc林德（LIN.US）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-446",
+      "source_keys": [
+        "普莱克斯"
+      ],
+      "entity_decision": "赛道主体归属=Linde plc（LIN.US）：Praxair（普莱克斯）2018年10月与林德合并，纽交所代码PX于2018-10-30停止交易，Linde plc为存续上市主体；Praxair作为品牌/子公司存续（如Praxair Surface Technologies），保留实体记录并注明归属，listing只填自身=非上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SILFEX",
+      "name_cn": "Silfex",
+      "name_en": "Silfex, Inc. (Lam Research)",
+      "short_name": "Silfex",
+      "aliases": [
+        "A Lam Research Company",
+        "Silfex",
+        "母公司：Lam Research泛林集团（LRCX.US，纳斯达克）"
+      ],
+      "country_region": "美国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-444",
+      "source_keys": [
+        "SILFEX"
+      ],
+      "entity_decision": "赛道主体=Silfex本体（美国俄亥俄州Eaton，硅部件/硅电极全球最大定制硅组件制造基地）；为Lam Research（LRCX.US）全资子公司（a division of Lam Research），自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "TER",
+      "name_cn": "泰瑞达",
+      "name_en": "Teradyne, Inc.",
+      "short_name": "Teradyne",
+      "aliases": [
+        "Eagle Test Systems / ETS（2008年被收购并入）",
+        "Nextest Systems（2008年被收购并入）"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TER_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "TER.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usTER"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-640",
+      "source_keys": [
+        "TERADYNE"
+      ],
+      "entity_decision": "独立上市公司 Teradyne, Inc.（半导体测试机，总部马萨诸塞州 North Reading，现于 NASDAQ 交易，早年曾在 NYSE 挂牌）；2008 年先后收购 Nextest Systems（原 Nasdaq: NEXT）与 Eagle Test Systems（ETS，原 Nasdaq: EGLT）",
+      "confidence": "high",
+      "unresolved": "原始备注“ETS/LTX-Credence平台”部分有误：ETS（Eagle Test）确属 Teradyne；LTX-Credence 不属 Teradyne，其后身 Xcerra 于 2018 年被 Cohu 收购"
+    },
+    {
+      "company_id": "UCT",
+      "name_cn": "",
+      "name_en": "Ultra Clean Holdings, Inc.",
+      "short_name": "Ultra Clean (UCT)",
+      "aliases": [
+        "UCT"
+      ],
+      "country_region": "美国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "UCT_NASDAQ",
+          "market": "美股",
+          "exchange": "NASDAQ",
+          "ticker": "UCTT.US",
+          "primary": true,
+          "provider_symbols": {
+            "tencent": "usUCTT"
+          }
+        }
+      ],
+      "listing_source_id": "SRC-LS-643",
+      "source_keys": [
+        "ULTRACLEANHOLDINGSUCT"
+      ],
+      "entity_decision": "独立上市公司 Ultra Clean Holdings, Inc.（半导体设备子系统/超高纯清洗服务，品牌 UCT，总部加州 Hayward）",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "EDWARDS",
+      "name_cn": "爱德华",
+      "name_en": "Edwards Limited (Atlas Copco)",
+      "short_name": "Edwards",
+      "aliases": [
+        "Edwards",
+        "Edwards Vacuum",
+        "母公司：Atlas Copco阿特拉斯·科普柯（瑞典，ATCO-A.ST）",
+        "爱德华"
+      ],
+      "country_region": "英国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-448",
+      "source_keys": [
+        "EDWARDS"
+      ],
+      "entity_decision": "赛道主体=Edwards本体（爱德华，英国Burgess Hill，半导体真空泵与尾气处理）；2014年1月被瑞典Atlas Copco（阿特拉斯·科普柯，ATCO-A.ST）以约16亿美元收购，品牌存续，自身未上市",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "ASMI",
+      "name_cn": "",
+      "name_en": "ASM International N.V.",
+      "short_name": "ASM International",
+      "aliases": [],
+      "country_region": "荷兰",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ASMI_EURONEXTAMSTERDAM",
+          "market": "欧股",
+          "exchange": "Euronext Amsterdam",
+          "ticker": "ASM.AS",
+          "primary": true
+        },
+        {
+          "listing_id": "ASMI_OTCQX",
+          "market": "美股",
+          "exchange": "OTCQX",
+          "ticker": "ASMIY",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-472",
+      "source_keys": [
+        "ASMINTERNATIONAL"
+      ],
+      "entity_decision": "上市主体：ASM International N.V.，荷兰阿尔梅勒（Almere）注册，Euronext Amsterdam 上市；另有美国 OTCQX 代码 ASMIY。注意与港股 ASMPT（ASM Pacific Technology，0052.HK）区分",
+      "confidence": "high",
+      "unresolved": "无标准化通行中文名"
+    },
+    {
+      "company_id": "ASML",
+      "name_cn": "阿斯麦",
+      "name_en": "ASML Holding N.V.",
+      "short_name": "ASML",
+      "aliases": [
+        "阿斯麦尔"
+      ],
+      "country_region": "荷兰",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "ASML_EURONEXTAMSTERDAM",
+          "market": "欧股",
+          "exchange": "Euronext Amsterdam",
+          "ticker": "ASML.AS",
+          "primary": true
+        },
+        {
+          "listing_id": "ASML_NASDAQ",
+          "market": "美股",
+          "exchange": "Nasdaq",
+          "ticker": "ASML",
+          "primary": false
+        }
+      ],
+      "listing_source_id": "SRC-LS-474",
+      "source_keys": [
+        "ASML"
+      ],
+      "entity_decision": "上市主体：ASML Holding N.V.，荷兰费尔德霍芬（Veldhoven）注册，Euronext Amsterdam 与 Nasdaq 双重上市（同一代码 ASML）",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "BESI",
+      "name_cn": "比恩西",
+      "name_en": "BE Semiconductor Industries N.V.",
+      "short_name": "Besi",
+      "aliases": [
+        "BESI",
+        "Besi"
+      ],
+      "country_region": "荷兰",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "BESI_EURONEXTAMSTERDAM",
+          "market": "欧股",
+          "exchange": "Euronext Amsterdam",
+          "ticker": "BESI.AS",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-476",
+      "source_keys": [
+        "BESI"
+      ],
+      "entity_decision": "上市主体：BE Semiconductor Industries N.V.（简称 Besi），荷兰杜伊文（Duiven）注册，Euronext Amsterdam 上市（ISIN NL0012866412）",
+      "confidence": "high",
+      "unresolved": "中文名“比恩西”沿用来源清单写法，未见公司官方中文名确认"
+    },
+    {
+      "company_id": "DNF",
+      "name_cn": "DNF",
+      "name_en": "DNF Co., Ltd.",
+      "short_name": "DNF",
+      "aliases": [
+        "DNF",
+        "디엔에프"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "DNF_KOSDAQ",
+          "market": "韩股",
+          "exchange": "KOSDAQ",
+          "ticker": "092070.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-387",
+      "source_keys": [
+        "SOULBRAIN/LAKEMATERIALS/DNF"
+      ],
+      "entity_decision": "拆分：DNF 为独立韩国上市公司（Soulbrain 为其大股东之一，但各自独立上市），单列一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "FST",
+      "name_cn": "FST（Fine Semitech）",
+      "name_en": "Fine Semitech Corp.",
+      "short_name": "FST",
+      "aliases": [
+        "FST",
+        "FST Inc.",
+        "Fine Semitech",
+        "파인세미텍"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "FST_KOSDAQ",
+          "market": "韩股",
+          "exchange": "KOSDAQ",
+          "ticker": "036810.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-391",
+      "source_keys": [
+        "UNISEM/FST"
+      ],
+      "entity_decision": "拆分：FST 为独立韩国上市公司，现名 Fine Semitech Corp.，单列一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "HAESUNGDS",
+      "name_cn": "",
+      "name_en": "HAESUNG DS Co., Ltd.",
+      "short_name": "Haesung DS",
+      "aliases": [
+        "해성디에스"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HAESUNGDS_KRX",
+          "market": "韩股",
+          "exchange": "KRX",
+          "ticker": "195870.KS",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-585",
+      "source_keys": [
+        "HAESUNGDS"
+      ],
+      "entity_decision": "确认为韩国 HAESUNG DS Co., Ltd.（해성디에스），半导体引线框架与封装基板厂商，韩国交易所KOSPI上市",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "HANAMAT",
+      "name_cn": "",
+      "name_en": "Hana Materials Inc.",
+      "short_name": "Hana Materials",
+      "aliases": [
+        "Hana Silicon",
+        "하나머티리얼즈"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "HANAMAT_KRX",
+          "market": "韩股",
+          "exchange": "KRX",
+          "ticker": "166090.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-587",
+      "source_keys": [
+        "HANAMATERIALS"
+      ],
+      "entity_decision": "确认为韩国 Hana Materials Inc.（하나머티리얼즈，前身 Hana Silicon），半导体硅电极/硅环等耗材厂商，KOSDAQ上市",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "HANWHA_SEMITECH",
+      "name_cn": "韩华半导体设备",
+      "name_en": "Hanwha Semitech Co., Ltd.",
+      "short_name": "Hanwha Semitech",
+      "aliases": [
+        "Hanwha",
+        "Hanwha Precision Machinery",
+        "韩华",
+        "한화세미텍",
+        "한화정밀기계"
+      ],
+      "country_region": "韩国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-589",
+      "source_keys": [
+        "HANWHA"
+      ],
+      "entity_decision": "原始条目仅为'韩华(Hanwha)'，按本批半导体设备语境推断为 Hanwha Semitech Co., Ltd.（韩华半导体设备，原 Hanwha Precision Machinery，2025年2月更名）：2024年8月自 Hanwha Aerospace 分拆，现为韩华集团旗下非上市子公司；其上层新控股公司 Hanwha M&S（한화머시너리앤서비스홀딩스）于2026年8月25日在韩国交易所主板上市",
+      "confidence": "medium",
+      "unresolved": "原始条目'韩华'指代主体无法完全确证（亦可能指 Hanwha Corporation 000880.KS 或 Hanwha Solutions 009830.KS 等上市主体）；按本批设备语境暂定为 Hanwha Semitech，待上游口径确认",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "LAKEMATERIALS",
+      "name_cn": "Lake Materials",
+      "name_en": "Lake Materials Co., Ltd.",
+      "short_name": "Lake Materials",
+      "aliases": [
+        "Lake Materials",
+        "레이크머티리얼즈"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "LAKEMATERIALS_KOSDAQ",
+          "market": "韩股",
+          "exchange": "KOSDAQ",
+          "ticker": "281740.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-386",
+      "source_keys": [
+        "SOULBRAIN/LAKEMATERIALS/DNF"
+      ],
+      "entity_decision": "拆分：Lake Materials 为独立韩国上市公司，单列一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "MKELECTRON",
+      "name_cn": "铭凯益",
+      "name_en": "MK Electron Co., Ltd.",
+      "short_name": "MK Electron",
+      "aliases": [
+        "MKE",
+        "엠케이전자"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "MKELECTRON_KRX",
+          "market": "韩股",
+          "exchange": "KRX",
+          "ticker": "033160.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-592",
+      "source_keys": [
+        "MKE"
+      ],
+      "entity_decision": "确认为韩国 MK Electron Co., Ltd.（엠케이전자），半导体键合丝（bonding wire）与焊球厂商，KOSDAQ上市（033160）；'铭凯益'为其在华中文名线索（天津子公司铭凯益电子），母公司在韩英文法定名为 MK Electron",
+      "confidence": "medium",
+      "unresolved": "中文名'铭凯益'作为韩国母公司通行中文名未见官方出处，疑为在华子公司名，待确认"
+    },
+    {
+      "company_id": "SKMATERIALS",
+      "name_cn": "",
+      "name_en": "SK materials",
+      "short_name": "SK Materials",
+      "aliases": [
+        "SK Materials Co., Ltd.",
+        "SK머티리얼즈"
+      ],
+      "country_region": "韩国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-595",
+      "source_keys": [
+        "SKMATERIALS"
+      ],
+      "entity_decision": "原 SK Materials（SK머티리얼즈，原KOSPI上市036490）于2021年12月1日被控股公司 SK Inc. 吸收合并并退市；特种气体等业务分拆为 SK Inc. 旗下非上市子公司（现以 SK materials 名义存续，隶属 SK Inc. 材料板块）",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认；如需对应上市主体请用 SK Inc.（034730.KS）",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SKSILTRON",
+      "name_cn": "",
+      "name_en": "SK Siltron, Inc.",
+      "short_name": "SK Siltron",
+      "aliases": [
+        "SK siltron",
+        "SK실트론"
+      ],
+      "country_region": "韩国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-598",
+      "source_keys": [
+        "SKSILTRON"
+      ],
+      "entity_decision": "确认为 SK Siltron, Inc.（SK실트론），韩国唯一硅晶圆制造商，非上市公司；原 SK Inc. 持股70.6%，2026年7月31日 SK Inc. 董事会批准以2.3万亿韩元将该持股售予 Doosan Corp.（交易尚待交割，预计2027年1月31日前完成）",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认；Doosan 收购交割后归属需更新",
+      "ipo_status": ""
+    },
+    {
+      "company_id": "SOULBRAIN",
+      "name_cn": "Soulbrain",
+      "name_en": "Soulbrain Co., Ltd.",
+      "short_name": "Soulbrain",
+      "aliases": [
+        "Soulbrain",
+        "索尔布雷恩",
+        "솔브레인"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "SOULBRAIN_KOSDAQ",
+          "market": "韩股",
+          "exchange": "KOSDAQ",
+          "ticker": "357780.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-385",
+      "source_keys": [
+        "SOULBRAIN/LAKEMATERIALS/DNF"
+      ],
+      "entity_decision": "拆分：Soulbrain、Lake Materials、DNF 为三家独立韩国上市公司，各占一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "TECHWING",
+      "name_cn": "",
+      "name_en": "Techwing, Inc.",
+      "short_name": "Techwing",
+      "aliases": [
+        "TechWing",
+        "테크윙"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "TECHWING_KRX",
+          "market": "韩股",
+          "exchange": "KRX",
+          "ticker": "089030.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-600",
+      "source_keys": [
+        "TECHWING"
+      ],
+      "entity_decision": "确认为韩国 Techwing, Inc.（테크윙），半导体测试分选机（Memory/SOC Test Handler）与探针设备厂商，KOSDAQ上市",
+      "confidence": "high",
+      "unresolved": "通行中文名未确认"
+    },
+    {
+      "company_id": "UNISEM",
+      "name_cn": "Unisem",
+      "name_en": "UNISEM Co., Ltd.",
+      "short_name": "Unisem",
+      "aliases": [
+        "UNISEM",
+        "Unisem",
+        "유니셈"
+      ],
+      "country_region": "韩国",
+      "listing_status": "上市",
+      "listings": [
+        {
+          "listing_id": "UNISEM_KOSDAQ",
+          "market": "韩股",
+          "exchange": "KOSDAQ",
+          "ticker": "036200.KQ",
+          "primary": true
+        }
+      ],
+      "listing_source_id": "SRC-LS-389",
+      "source_keys": [
+        "UNISEM/FST"
+      ],
+      "entity_decision": "拆分：Unisem 与 FST 为两家独立韩国上市公司，各占一条",
+      "confidence": "high",
+      "unresolved": ""
+    },
+    {
+      "company_id": "UPCHEM",
+      "name_cn": "优比化学（UP Chemical）",
+      "name_en": "UP Chemical Co., Ltd.",
+      "short_name": "UP Chemical",
+      "aliases": [
+        "UP Chemical",
+        "国内产能承接：江苏先科",
+        "母公司：雅克科技（002409.SZ，2016年收购）",
+        "유피케미칼"
+      ],
+      "country_region": "韩国",
+      "listing_status": "非上市",
+      "listings": [],
+      "listing_source_id": "SRC-LS-421",
+      "source_keys": [
+        "UPCHEMICAL"
+      ],
+      "entity_decision": "赛道主体=UP Chemical本体（韩国前驱体厂商，注册地韩国，原始地区\"中国/韩国\"冲突裁决为韩国）；2016年被雅克科技（002409.SZ）以约11.79亿元收购为全资子公司，自身未上市，雅克科技代码不赋给该实体",
+      "confidence": "high",
+      "unresolved": "",
+      "ipo_status": ""
+    }
+  ]
+}

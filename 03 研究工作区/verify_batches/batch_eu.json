@@ -1,0 +1,366 @@
+{
+ "batch": "batch_eu.json",
+ "count": 16,
+ "rows": [
+  {
+   "key": "AT&S",
+   "name_cn": "奥特斯",
+   "name_en": "AT&S",
+   "raw_names": [
+    "奥特斯 AT&S"
+   ],
+   "cn_variants": [
+    "奥特斯"
+   ],
+   "en_variants": [
+    "AT&S"
+   ],
+   "region": "奥地利",
+   "regions_evidence": [
+    "奥地利"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "EXELLIQ",
+   "name_cn": "",
+   "name_en": "Exelliq",
+   "raw_names": [
+    "Exelliq(奥)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Exelliq"
+   ],
+   "region": "奥地利",
+   "regions_evidence": [
+    "奥地利"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "BASF",
+   "name_cn": "巴斯夫",
+   "name_en": "BASF",
+   "raw_names": [
+    "巴斯夫 BASF"
+   ],
+   "cn_variants": [
+    "巴斯夫"
+   ],
+   "en_variants": [
+    "BASF"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "CARLZEISSSMT",
+   "name_cn": "卡尔蔡司SMT",
+   "name_en": "Carl Zeiss SMT",
+   "raw_names": [
+    "Carl Zeiss SMT 卡尔蔡司SMT"
+   ],
+   "cn_variants": [
+    "卡尔蔡司SMT"
+   ],
+   "en_variants": [
+    "Carl Zeiss SMT"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HENKEL",
+   "name_cn": "汉高",
+   "name_en": "Henkel",
+   "raw_names": [
+    "汉高 Henkel",
+    "汉高 Henkel（乐泰/ABLESTIK）"
+   ],
+   "cn_variants": [
+    "汉高"
+   ],
+   "en_variants": [
+    "Henkel"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "乐泰/ABLESTIK"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "HERAEUS",
+   "name_cn": "贺利氏",
+   "name_en": "Heraeus",
+   "raw_names": [
+    "Heraeus 贺利氏",
+    "贺利氏 Heraeus"
+   ],
+   "cn_variants": [
+    "贺利氏"
+   ],
+   "en_variants": [
+    "Heraeus"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "MERCKKGAA",
+   "name_cn": "默克",
+   "name_en": "Merck KGaA",
+   "raw_names": [
+    "默克 Merck KGaA"
+   ],
+   "cn_variants": [
+    "默克"
+   ],
+   "en_variants": [
+    "Merck KGaA"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "PFEIFFER",
+   "name_cn": "普发",
+   "name_en": "Pfeiffer",
+   "raw_names": [
+    "Pfeiffer 普发"
+   ],
+   "cn_variants": [
+    "普发"
+   ],
+   "en_variants": [
+    "Pfeiffer"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SILTRONIC",
+   "name_cn": "世创",
+   "name_en": "Siltronic",
+   "raw_names": [
+    "Siltronic 世创"
+   ],
+   "cn_variants": [
+    "世创"
+   ],
+   "en_variants": [
+    "Siltronic"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SUSSMICROTEC",
+   "name_cn": "",
+   "name_en": "SUSS MicroTec",
+   "raw_names": [
+    "SUSS MicroTec",
+    "SUSS MicroTec(德)",
+    "SUSS MicroTec（德）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "SUSS MicroTec"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 4
+  },
+  {
+   "key": "AIRLIQUIDE",
+   "name_cn": "液化空气",
+   "name_en": "Air Liquide",
+   "raw_names": [
+    "液化空气 Air Liquide"
+   ],
+   "cn_variants": [
+    "液化空气"
+   ],
+   "en_variants": [
+    "Air Liquide"
+   ],
+   "region": "法国",
+   "regions_evidence": [
+    "法国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "EGIDE",
+   "name_cn": "",
+   "name_en": "Egide",
+   "raw_names": [
+    "Egide"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Egide"
+   ],
+   "region": "法国",
+   "regions_evidence": [
+    "法国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "COMET",
+   "name_cn": "康姆艾德",
+   "name_en": "Comet",
+   "raw_names": [
+    "Comet 康姆艾德"
+   ],
+   "cn_variants": [
+    "康姆艾德"
+   ],
+   "en_variants": [
+    "Comet"
+   ],
+   "region": "瑞士",
+   "regions_evidence": [
+    "瑞士"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ASMINTERNATIONAL",
+   "name_cn": "",
+   "name_en": "ASM International",
+   "raw_names": [
+    "ASM International",
+    "ASM International（荷）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "ASM International"
+   ],
+   "region": "荷兰",
+   "regions_evidence": [
+    "荷兰"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "ASML",
+   "name_cn": "阿斯麦",
+   "name_en": "ASML",
+   "raw_names": [
+    "ASML",
+    "ASML（荷）",
+    "阿斯麦 ASML"
+   ],
+   "cn_variants": [
+    "阿斯麦"
+   ],
+   "en_variants": [
+    "ASML"
+   ],
+   "region": "荷兰",
+   "regions_evidence": [
+    "荷兰"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 9
+  },
+  {
+   "key": "BESI",
+   "name_cn": "比恩西",
+   "name_en": "BESI",
+   "raw_names": [
+    "BESI 比恩西",
+    "Besi 比恩西(荷)",
+    "Besi(荷)"
+   ],
+   "cn_variants": [
+    "比恩西"
+   ],
+   "en_variants": [
+    "BESI",
+    "Besi"
+   ],
+   "region": "荷兰",
+   "regions_evidence": [
+    "荷兰"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "name: 同一清洗名连接多种中英文写法；仅粗去重，仍需核验别名对应"
+   ],
+   "occurrence_count": 4
+  }
+ ]
+}

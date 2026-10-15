@@ -1,0 +1,326 @@
+{
+ "batch": "batch_jp_2.json",
+ "count": 15,
+ "rows": [
+  {
+   "key": "SHINWACONTROLS",
+   "name_cn": "伸和控制",
+   "name_en": "Shinwa Controls",
+   "raw_names": [
+    "Shinwa Controls 伸和控制"
+   ],
+   "cn_variants": [
+    "伸和控制"
+   ],
+   "en_variants": [
+    "Shinwa Controls"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SMC",
+   "name_cn": "",
+   "name_en": "SMC",
+   "raw_names": [
+    "SMC"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "SMC"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "STELLACHEMIFA",
+   "name_cn": "",
+   "name_en": "Stella Chemifa",
+   "raw_names": [
+    "Stella Chemifa"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Stella Chemifa"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SUMCO",
+   "name_cn": "胜高",
+   "name_en": "SUMCO",
+   "raw_names": [
+    "SUMCO 胜高"
+   ],
+   "cn_variants": [
+    "胜高"
+   ],
+   "en_variants": [
+    "SUMCO"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SUMITOMOBAKELITE",
+   "name_cn": "住友电木",
+   "name_en": "Sumitomo Bakelite",
+   "raw_names": [
+    "住友电木 Sumitomo Bakelite"
+   ],
+   "cn_variants": [
+    "住友电木"
+   ],
+   "en_variants": [
+    "Sumitomo Bakelite"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SUMITOMOELECTRIC",
+   "name_cn": "住友电工",
+   "name_en": "Sumitomo Electric",
+   "raw_names": [
+    "住友电工 Sumitomo Electric"
+   ],
+   "cn_variants": [
+    "住友电工"
+   ],
+   "en_variants": [
+    "Sumitomo Electric"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TAIYONIPPONSANSO",
+   "name_cn": "大阳日酸",
+   "name_en": "Taiyo Nippon Sanso",
+   "raw_names": [
+    "大阳日酸 Taiyo Nippon Sanso"
+   ],
+   "cn_variants": [
+    "大阳日酸"
+   ],
+   "en_variants": [
+    "Taiyo Nippon Sanso"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TANAKA",
+   "name_cn": "田中贵金属",
+   "name_en": "Tanaka",
+   "raw_names": [
+    "田中贵金属 Tanaka"
+   ],
+   "cn_variants": [
+    "田中贵金属"
+   ],
+   "en_variants": [
+    "Tanaka"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TOK",
+   "name_cn": "东京应化",
+   "name_en": "TOK",
+   "raw_names": [
+    "东京应化 TOK"
+   ],
+   "cn_variants": [
+    "东京应化"
+   ],
+   "en_variants": [
+    "TOK"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TOPPANPHOTOMASK",
+   "name_cn": "凸版",
+   "name_en": "Toppan Photomask",
+   "raw_names": [
+    "Toppan Photomask 凸版"
+   ],
+   "cn_variants": [
+    "凸版"
+   ],
+   "en_variants": [
+    "Toppan Photomask"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TOSOH",
+   "name_cn": "东曹",
+   "name_en": "Tosoh",
+   "raw_names": [
+    "Tosoh 东曹",
+    "东曹 Tosoh"
+   ],
+   "cn_variants": [
+    "东曹"
+   ],
+   "en_variants": [
+    "Tosoh"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "TOTO",
+   "name_cn": "",
+   "name_en": "TOTO",
+   "raw_names": [
+    "TOTO"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "TOTO"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TOWA",
+   "name_cn": "",
+   "name_en": "TOWA",
+   "raw_names": [
+    "TOWA",
+    "TOWA(日)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "TOWA"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "住友化学",
+   "name_cn": "住友化学",
+   "name_en": "",
+   "raw_names": [
+    "住友化学"
+   ],
+   "cn_variants": [
+    "住友化学"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "泰谷诺",
+   "name_cn": "泰谷诺",
+   "name_en": "",
+   "raw_names": [
+    "泰谷诺"
+   ],
+   "cn_variants": [
+    "泰谷诺"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  }
+ ]
+}

@@ -1,0 +1,720 @@
+{
+ "batch": "batch_e1_slash_dup.json",
+ "count": 30,
+ "rows": [
+  {
+   "key": "中电科43所/合肥圣达",
+   "name_cn": "中电科43所/合肥圣达",
+   "name_en": "",
+   "raw_names": [
+    "中电科43所/合肥圣达"
+   ],
+   "cn_variants": [
+    "中电科43所/合肥圣达"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "大族封测",
+   "name_cn": "大族封测",
+   "name_en": "",
+   "raw_names": [
+    "大族封测"
+   ],
+   "cn_variants": [
+    "大族封测"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "duplicate: 与 大族激光/大族封测 名称片段相近：大族激光/大族封测 / 大族封测；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "大族激光/大族封测",
+   "name_cn": "大族激光/大族封测",
+   "name_en": "",
+   "raw_names": [
+    "大族激光/大族封测"
+   ],
+   "cn_variants": [
+    "大族激光/大族封测"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "duplicate: 与 大族封测 名称片段相近：大族激光/大族封测 / 大族封测；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "英杰电气/英杰晨晖",
+   "name_cn": "英杰电气 /英杰晨晖",
+   "name_en": "",
+   "raw_names": [
+    "英杰电气(300820)/英杰晨晖"
+   ],
+   "cn_variants": [
+    "英杰电气 /英杰晨晖"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "300820"
+   ],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "EVG",
+   "name_cn": "奥地利EV集团",
+   "name_en": "EVG",
+   "raw_names": [
+    "EVG 奥地利EV集团",
+    "EVG(奥)"
+   ],
+   "cn_variants": [
+    "奥地利EV集团"
+   ],
+   "en_variants": [
+    "EVG"
+   ],
+   "region": "奥地利",
+   "regions_evidence": [
+    "奥地利"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "duplicate: 与 EVG/SUSS 名称片段相近：EVG /SUSS / EVG；不自动合并"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "EVG/SUSS",
+   "name_cn": "",
+   "name_en": "EVG /SUSS",
+   "raw_names": [
+    "EVG(奥)/SUSS(德)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "EVG /SUSS"
+   ],
+   "region": "奥地利/德国",
+   "regions_evidence": [
+    "奥地利",
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "other: 原始地区多值或冲突：奥地利 / 德国；不得任择一项",
+    "duplicate: 与 EVG 名称片段相近：EVG /SUSS / EVG；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TRUMPF",
+   "name_cn": "通快",
+   "name_en": "TRUMPF",
+   "raw_names": [
+    "TRUMPF 通快"
+   ],
+   "cn_variants": [
+    "通快"
+   ],
+   "en_variants": [
+    "TRUMPF"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 TRUMPFHÜTTINGER 名称片段相近：TRUMPF Hüttinger / TRUMPF；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TRUMPFHÜTTINGER",
+   "name_cn": "霍廷格",
+   "name_en": "TRUMPF Hüttinger",
+   "raw_names": [
+    "TRUMPF Hüttinger 霍廷格"
+   ],
+   "cn_variants": [
+    "霍廷格"
+   ],
+   "en_variants": [
+    "TRUMPF Hüttinger"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 TRUMPF 名称片段相近：TRUMPF Hüttinger / TRUMPF；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "G&N/冈本OKAMOTO",
+   "name_cn": "G&N /冈本 Okamoto",
+   "name_en": "",
+   "raw_names": [
+    "G&N(德)/冈本 Okamoto(日)"
+   ],
+   "cn_variants": [
+    "G&N /冈本 Okamoto"
+   ],
+   "en_variants": [],
+   "region": "德国/日本",
+   "regions_evidence": [
+    "德国",
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "other: 原始地区多值或冲突：德国 / 日本；不得任择一项"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "默克MERCKKGAA/霍尼韦尔HONEYWELL",
+   "name_cn": "默克 Merck KGaA / 霍尼韦尔 Honeywell",
+   "name_en": "",
+   "raw_names": [
+    "默克 Merck KGaA / 霍尼韦尔 Honeywell"
+   ],
+   "cn_variants": [
+    "默克 Merck KGaA / 霍尼韦尔 Honeywell"
+   ],
+   "en_variants": [],
+   "region": "德国/美国",
+   "regions_evidence": [
+    "德国",
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "other: 原始地区多值或冲突：德国 / 美国；不得任择一项",
+    "duplicate: 与 HONEYWELL 名称片段相近：默克 Merck KGaA / 霍尼韦尔 Honeywell / 霍尼韦尔；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ACCRETECH",
+   "name_cn": "东京精密",
+   "name_en": "Accretech",
+   "raw_names": [
+    "东京精密 Accretech(日)",
+    "东京精密(日)",
+    "东京精密（日）"
+   ],
+   "cn_variants": [
+    "东京精密"
+   ],
+   "en_variants": [
+    "Accretech"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 东京电子/东京精密 名称片段相近：东京精密 / 东京电子/东京精密；不自动合并"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "APICYAMADA/YAMAHAROBOTICS",
+   "name_cn": "",
+   "name_en": "APIC YAMADA/Yamaha Robotics",
+   "raw_names": [
+    "APIC YAMADA/Yamaha Robotics(日)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "APIC YAMADA/Yamaha Robotics"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "CANON",
+   "name_cn": "佳能",
+   "name_en": "Canon",
+   "raw_names": [
+    "Canon（日）",
+    "佳能 Canon",
+    "佳能 Canon(日)"
+   ],
+   "cn_variants": [
+    "佳能"
+   ],
+   "en_variants": [
+    "Canon"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 NIKON/CANON 名称片段相近：Nikon/Canon / Canon；不自动合并"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "NGK/NTK",
+   "name_cn": "",
+   "name_en": "NGK/NTK",
+   "raw_names": [
+    "NGK/NTK（日本碍子/特殊陶业）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "NGK/NTK"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "日本碍子/特殊陶业"
+   ],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NGKINSULATORS",
+   "name_cn": "日本碍子",
+   "name_en": "NGK Insulators",
+   "raw_names": [
+    "NGK Insulators 日本碍子"
+   ],
+   "cn_variants": [
+    "日本碍子"
+   ],
+   "en_variants": [
+    "NGK Insulators"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 NGKINSULATORS/NTKCERATEC日本碍子 名称片段相近：NGK Insulators/NTK CERATEC 日本碍子 / 日本碍子；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NGKINSULATORS/NTKCERATEC日本碍子",
+   "name_cn": "NGK Insulators/NTK CERATEC 日本碍子",
+   "name_en": "",
+   "raw_names": [
+    "NGK Insulators/NTK CERATEC 日本碍子"
+   ],
+   "cn_variants": [
+    "NGK Insulators/NTK CERATEC 日本碍子"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "duplicate: 与 NGKINSULATORS 名称片段相近：NGK Insulators/NTK CERATEC 日本碍子 / 日本碍子；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NIKON",
+   "name_cn": "尼康",
+   "name_en": "Nikon",
+   "raw_names": [
+    "Nikon（日）",
+    "尼康 Nikon"
+   ],
+   "cn_variants": [
+    "尼康"
+   ],
+   "en_variants": [
+    "Nikon"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 NIKON/CANON 名称片段相近：Nikon/Canon / Nikon；不自动合并"
+   ],
+   "occurrence_count": 5
+  },
+  {
+   "key": "NIKON/CANON",
+   "name_cn": "",
+   "name_en": "Nikon/Canon",
+   "raw_names": [
+    "Nikon/Canon"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Nikon/Canon"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "duplicate: 与 NIKON 名称片段相近：Nikon/Canon / Nikon；不自动合并",
+    "duplicate: 与 CANON 名称片段相近：Nikon/Canon / Canon；不自动合并"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SCREEN",
+   "name_cn": "",
+   "name_en": "SCREEN",
+   "raw_names": [
+    "SCREEN（日）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "SCREEN"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 SCREENHOLDINGS 名称片段相近：SCREEN Holdings / SCREEN；不自动合并"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "SCREENHOLDINGS",
+   "name_cn": "迪恩士",
+   "name_en": "SCREEN Holdings",
+   "raw_names": [
+    "SCREEN Holdings 迪恩士"
+   ],
+   "cn_variants": [
+    "迪恩士"
+   ],
+   "en_variants": [
+    "SCREEN Holdings"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 SCREEN 名称片段相近：SCREEN Holdings / SCREEN；不自动合并"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SHINKO",
+   "name_cn": "新光电气工业",
+   "name_en": "SHINKO",
+   "raw_names": [
+    "SHINKO 新光电气工业"
+   ],
+   "cn_variants": [
+    "新光电气工业"
+   ],
+   "en_variants": [
+    "SHINKO"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 SHINKOELECTRIC 名称片段相近：SHINKO / Shinko Electric；名称片段相近：新光电气工业 / 新光电气；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SHINKOELECTRIC",
+   "name_cn": "新光电气",
+   "name_en": "Shinko Electric",
+   "raw_names": [
+    "新光电气 Shinko Electric"
+   ],
+   "cn_variants": [
+    "新光电气"
+   ],
+   "en_variants": [
+    "Shinko Electric"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 SHINKO 名称片段相近：SHINKO / Shinko Electric；名称片段相近：新光电气工业 / 新光电气；不自动合并"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SUMITOMO/SEN住友重工",
+   "name_cn": "Sumitomo/SEN 住友重工",
+   "name_en": "",
+   "raw_names": [
+    "Sumitomo/SEN 住友重工（日）"
+   ],
+   "cn_variants": [
+    "Sumitomo/SEN 住友重工"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TEL",
+   "name_cn": "东京电子",
+   "name_en": "TEL",
+   "raw_names": [
+    "TEL东京电子（日）",
+    "TEL（日）",
+    "东京电子 TEL",
+    "东京电子(日)"
+   ],
+   "cn_variants": [
+    "东京电子"
+   ],
+   "en_variants": [
+    "TEL"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 东京电子/东京精密 名称片段相近：东京电子 / 东京电子/东京精密；不自动合并"
+   ],
+   "occurrence_count": 16
+  },
+  {
+   "key": "YAMADA/APICYAMADA",
+   "name_cn": "",
+   "name_en": "YAMADA/APIC YAMADA",
+   "raw_names": [
+    "YAMADA/APIC YAMADA(日，现属Yamaha Robotics)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "YAMADA/APIC YAMADA"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "现属Yamaha Robotics"
+   ],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "东京电子/东京精密",
+   "name_cn": "东京电子/东京精密",
+   "name_en": "",
+   "raw_names": [
+    "东京电子/东京精密"
+   ],
+   "cn_variants": [
+    "东京电子/东京精密"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断",
+    "duplicate: 与 TEL 名称片段相近：东京电子 / 东京电子/东京精密；不自动合并",
+    "duplicate: 与 ACCRETECH 名称片段相近：东京精密 / 东京电子/东京精密；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "住友重工/SENSUMITOMO",
+   "name_cn": "住友重工/SEN Sumitomo",
+   "name_en": "",
+   "raw_names": [
+    "住友重工/SEN Sumitomo"
+   ],
+   "cn_variants": [
+    "住友重工/SEN Sumitomo"
+   ],
+   "en_variants": [],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HONEYWELL",
+   "name_cn": "霍尼韦尔",
+   "name_en": "Honeywell",
+   "raw_names": [
+    "霍尼韦尔 Honeywell"
+   ],
+   "cn_variants": [
+    "霍尼韦尔"
+   ],
+   "en_variants": [
+    "Honeywell"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "duplicate: 与 默克MERCKKGAA/霍尼韦尔HONEYWELL 名称片段相近：默克 Merck KGaA / 霍尼韦尔 Honeywell / 霍尼韦尔；不自动合并"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SOULBRAIN/LAKEMATERIALS/DNF",
+   "name_cn": "",
+   "name_en": "Soulbrain / Lake Materials / DNF",
+   "raw_names": [
+    "Soulbrain / Lake Materials / DNF"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Soulbrain / Lake Materials / DNF"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "UNISEM/FST",
+   "name_cn": "",
+   "name_en": "Unisem/FST",
+   "raw_names": [
+    "Unisem/FST"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Unisem/FST"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "slash: 斜杠可能连接不同主体、品牌或别名；保留组合，待逐一判断"
+   ],
+   "occurrence_count": 1
+  }
+ ]
+}

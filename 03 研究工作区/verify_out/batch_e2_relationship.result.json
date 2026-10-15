@@ -1,0 +1,450 @@
+{
+ "batch": "batch_e2_relationship",
+ "entities": [
+  {
+   "source_keys": ["KINGSTONE"],
+   "entity_decision": "赛道主体=凯世通本体（上海凯世通半导体股份有限公司，国内离子注入机龙头）；其为上市公司先导基电（600641.SH，原万业企业，2024年起实控人变更为先导科技集团）控股子公司，凯世通自身未单独上市",
+   "company_id": "KINGSTONE",
+   "name_cn": "上海凯世通半导体股份有限公司",
+   "name_en": "Kingstone Semiconductor Co., Ltd.",
+   "short_name": "凯世通",
+   "aliases": ["Kingstone", "KST", "凯世通", "母公司：先导基电（600641.SH，原万业企业）"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "第一财经", "title": "万业企业：离子注入机放量在即，打造半导体设备平台化企业", "url": "https://www.yicai.com/news/101631189.html", "publish_date": "2022-12-22", "data_year": "2026", "metric": "万业企业(600641.SH)控股子公司凯世通为国内离子注入机龙头", "caliber": "公司报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": "佐证母子关系与赛道地位"},
+    {"org": "万业企业/新浪财经公告库", "title": "万业企业：2024年半年度报告（控股子公司上海凯世通半导体股份有限公司）", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600641&id=10437298", "publish_date": "2024-08-29", "data_year": "2026", "metric": "定期报告披露凯世通为控股子公司", "caliber": "定期报告", "region": "中国", "type": "交易所", "level": "A", "remark": "A级定期报告确认控股关系"},
+    {"org": "中证网", "title": "万业企业迎新实控人 先导科技集团强势赋能半导体产业发展", "url": "https://www.cs.com.cn/ssgs/gsxw/202411/t20241129_6457413.html", "publish_date": "2024-11-29", "data_year": "2026", "metric": "先导科技集团成为万业企业实控人；万业收购凯世通与Compart Systems", "caliber": "公司报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": "2026年万业企业已更名先导基电（600641.SH）"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["兴福电子"],
+   "entity_decision": "赛道主体=兴福电子本体（湖北兴福电子材料股份有限公司，湿电子化学品）；虽为兴发集团（600141.SH）控股子公司（持股约39.93%），但已于2025-01-22在科创板分拆上市，listing填其自身代码",
+   "company_id": "XFDZ",
+   "name_cn": "湖北兴福电子材料股份有限公司",
+   "name_en": "Hubei Xingfu Electronic Materials Co., Ltd.",
+   "short_name": "兴福电子",
+   "aliases": ["兴福电子", "Sinophorus", "控股股东：兴发集团（600141.SH）"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SH688545", "market": "A股", "exchange": "上交所科创板", "ticker": "688545.SH", "primary": true, "provider_symbols": {"tencent": "sh688545"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "688545[兴福电子]首次公开发行股票并在科创板上市发行公告", "url": "https://www.sse.com.cn/ipo/bookbuilding/detail/index.shtml?securityCode=688545", "publish_date": "2025-01-10", "data_year": "2026", "metric": "科创板IPO代码688545", "caliber": "交易所发行公告", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经", "title": "2025年科创板IPO第一单！兴福电子成功上市（2025-01-22上市，兴发集团子公司）", "url": "https://cj.sina.com.cn/articles/view/3233134660/c0b5b844020017u4q", "publish_date": "2025-01-23", "data_year": "2026", "metric": "上市日期与母子关系", "caliber": "上市报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "雪球", "title": "兴福电子(SH688545)：控股股东兴发集团持股39.93%", "url": "https://xueqiu.com/S/SH688545", "publish_date": "2026-10-15", "data_year": "2026", "metric": "兴发集团持股39.93%", "caliber": "行情页", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["凯德石英"],
+   "entity_decision": "赛道主体=凯德石英本体（北京凯德石英股份有限公司，半导体石英制品）；其自身在北交所上市（920179.BJ，原代码835179），2026年2月起江丰电子（300666.SZ）成为控股股东，但不改变其独立上市地位",
+   "company_id": "KDSZ",
+   "name_cn": "北京凯德石英股份有限公司",
+   "name_en": "Beijing Kaide Quartz Co., Ltd.",
+   "short_name": "凯德石英",
+   "aliases": ["凯德石英", "原代码835179", "控股股东：江丰电子（300666.SZ，2026年2月起）"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "BJ920179", "market": "A股", "exchange": "北京证券交易所", "ticker": "920179.BJ", "primary": true, "provider_symbols": {"tencent": "bj920179"}}
+   ],
+   "evidence": [
+    {"org": "新京报", "title": "2026年首例\"A吃A\"：江丰电子拟出资近6亿元控股凯德石英（股票代码920179）", "url": "https://m.bjnews.com.cn/detail/1770648352129537.html", "publish_date": "2026-02-10", "data_year": "2026", "metric": "凯德石英北交所代码920179；江丰电子收购控制权", "caliber": "公告报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "证券时报", "title": "市场迎开年首单\"A吃A\" 江丰电子拟控股凯德石英（920179.BJ）", "url": "https://stcn.com/article/detail/3636596.html", "publish_date": "2026-02-10", "data_year": "2026", "metric": "交易完成后江丰电子为控股股东、凯德石英为控股子公司", "caliber": "公告报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "乐居财经", "title": "凯德石英(835179.BJ)：江丰电子将成为公司控股股东 股票复牌", "url": "https://www.lejucaijing.com/news-7425160462243394791.html", "publish_date": "2026-02-05", "data_year": "2026", "metric": "北交所旧代码835179与920179并用", "caliber": "公告快讯", "region": "中国", "type": "财经数据站", "level": "B", "remark": "北交所920号段切换后新旧代码并存"}
+   ],
+   "confidence": "high",
+   "unresolved": "北交所代码新旧口径：媒体同时引用835179与920179，本库采用920号段新代码920179.BJ，旧码835179存aliases；tencent前缀按bj920179填写待行情端实测"
+  },
+  {
+   "source_keys": ["北京七星流量计"],
+   "entity_decision": "赛道主体=北京七星华创流量计有限公司（Sevenstar品牌，国产质量流量控制器MFC龙头）；其为北京七星华创电子股份有限公司集团化整合后新设子公司，属北方华创（002371.SZ）体系，自身未上市",
+   "company_id": "SEVENSTAR",
+   "name_cn": "北京七星华创流量计有限公司",
+   "name_en": "Beijing Sevenstar Flow Co., Ltd.",
+   "short_name": "七星流量计",
+   "aliases": ["Sevenstar", "七星华创", "北京七星流量计", "所属集团：北方华创（002371.SZ）"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "北京七星华创流量计有限公司（经招聘平台转引公司简介）", "title": "北京七星华创流量计有限公司公司简介", "url": "https://www.liepin.com/lptjob/69684555", "publish_date": "2025-09-12", "data_year": "2026", "metric": "七星流量计为北京七星华创电子股份有限公司新设子公司，前身为北京建中机器厂（700厂）流量计事业部", "caliber": "公司简介", "region": "中国", "type": "行业媒体", "level": "C", "remark": "公司自述口径"},
+    {"org": "新浪财经公告库", "title": "北京七星华创电子股份有限公司2013年年度报告（北方华创002371公告库）", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002371&id=1311353", "publish_date": "", "data_year": "2026", "metric": "七星华创与北方华创(002371)的体系归属", "caliber": "定期报告", "region": "中国", "type": "交易所", "level": "A", "remark": "历史报告佐证集团关系"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["华海诚科"],
+   "entity_decision": "赛道主体=华海诚科本体（江苏华海诚科新材料股份有限公司，环氧塑封料/电子胶黏剂），科创板独立上市，无母公司归属问题；2025年完成对衡所华威100%收购",
+   "company_id": "HHCK",
+   "name_cn": "江苏华海诚科新材料股份有限公司",
+   "name_en": "Jiangsu Huahai Chengke New Material Co., Ltd.",
+   "short_name": "华海诚科",
+   "aliases": ["华海诚科", "Huahai Chengke"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SH688535", "market": "A股", "exchange": "上交所科创板", "ticker": "688535.SH", "primary": true, "provider_symbols": {"tencent": "sh688535"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经公告库", "title": "华海诚科首次公开发行股票并在科创板上市招股意向书", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688535&id=8885825", "publish_date": "", "data_year": "2026", "metric": "科创板IPO，代码688535", "caliber": "招股意向书", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经", "title": "\"截和\"德邦科技！溢价超300%，华海诚科（SH688535）拿下衡所华威", "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-18/doc-ineqaqmk6593857.shtml", "publish_date": "2025-03-18", "data_year": "2026", "metric": "华海诚科累计16亿元实现衡所华威100%控股", "caliber": "公司报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["紫金佳博"],
+   "entity_decision": "赛道主体=紫金佳博本体（键合金丝/键合丝国产龙头）；为紫金矿业（601899.SH/02899.HK）与广东佳博电子2017年合资公司，自身未上市；2026年集团新设福建紫金佳博新材料有限公司承接键合线材扩产项目",
+   "company_id": "ZJJB",
+   "name_cn": "上杭县紫金佳博电子新材料科技有限公司",
+   "name_en": "Shanghang Zijin Jiabo Electronic New Material Technology Co., Ltd.",
+   "short_name": "紫金佳博",
+   "aliases": ["紫金佳博", "福建紫金佳博新材料有限公司（2026年新项目主体）", "股东：紫金矿业（601899.SH）/广东佳博电子科技"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "福建省政协（转引福建日报）", "title": "\"链\"出新动能：2017年紫金矿业与广东佳博在上杭县合资成立紫金佳博", "url": "http://www.fjzx.gov.cn/kjwwgzdt/19895.jhtml", "publish_date": "2024-08-05", "data_year": "2026", "metric": "合资设立时间与股东结构", "caliber": "官方媒体报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "人民网福建", "title": "出彩出色 聚势兴产：紫金佳博键合金丝、半导体键合线材生产项目", "url": "http://fj.people.com.cn/n2/2026/0228/c181466-41511206.html", "publish_date": "2026-02-28", "data_year": "2026", "metric": "紫金佳博键合金丝项目及半导体键合线材扩产", "caliber": "官方媒体报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "36氪", "title": "紫金佳博项目信息（上杭县紫金佳博电子新材料科技有限公司）", "url": "https://36kr.com/project/2051885059026048", "publish_date": "2017-06-21", "data_year": "2026", "metric": "法人全称与主营键合金丝/银丝/铜丝", "caliber": "项目库", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "medium",
+   "unresolved": "法人主体口径：2017年注册主体为\"上杭县紫金佳博电子新材料科技有限公司\"，2026年报道另出现\"福建紫金佳博新材料有限公司\"作为键合线材扩产项目主体，两者承继关系未经工商底档核实"
+  },
+  {
+   "source_keys": ["至正股份"],
+   "entity_decision": "赛道主体=上市公司本体：原至正股份（603991.SH）通过重大资产重组置入AAMI（先进封装材料国际）99.97%股权并置出原主业，2025年并表、2026年6月更名领先股份（深圳市领先半导体科技产业股份有限公司）；AAMI为被置入资产不单列上市",
+   "company_id": "ZZGF",
+   "name_cn": "深圳市领先半导体科技产业股份有限公司",
+   "name_en": "Shenzhen Lingxian Semiconductor Technology Industry Co., Ltd.",
+   "short_name": "领先股份",
+   "aliases": ["至正股份", "原深圳至正高分子材料股份有限公司", "领先股份（2026年6月更名）", "置入资产：AAMI先进封装材料国际"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SH603991", "market": "A股", "exchange": "上交所主板", "ticker": "603991.SH", "primary": true, "provider_symbols": {"tencent": "sh603991"}}
+   ],
+   "evidence": [
+    {"org": "21财经", "title": "至正股份拟收购全球引线框架龙头AAMI之99.97%股权", "url": "https://m.21jingji.com/article/20241025/herald/9a85c5aef09adc5a714262e42c6f67b3.html", "publish_date": "2024-10-25", "data_year": "2026", "metric": "重大资产置换+发行股份取得AAMI 99.97%股权", "caliber": "公告报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "网易财经（转引公司2025年年报）", "title": "至正股份2025年营收增五成 资产重组转型半导体（置入AAMI并纳入合并报表）", "url": "https://www.163.com/money/article/KSP57G7000259SAH.html", "publish_date": "2026-05-13", "data_year": "2026", "metric": "2025年报确认AAMI并表", "caliber": "年报报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "新浪财经", "title": "更名背后的35亿豪赌：原\"至正股份\"（603991）2026年6月1日变更为\"领先股份\"", "url": "https://www.sina.cn/news/detail/5312266876749673.html", "publish_date": "2026-06-21", "data_year": "2026", "metric": "证券简称更名与公司全称变更", "caliber": "公司报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["衡所华威"],
+   "entity_decision": "赛道主体=衡所华威本体（衡所华威电子有限公司，Hysol品牌，国内环氧塑封料出货量第一）；2025年3月起为华海诚科（688535.SH）100%控股子公司，自身未上市",
+   "company_id": "HSHW",
+   "name_cn": "衡所华威电子有限公司",
+   "name_en": "Hysol Huawei Electronics Co., Ltd.",
+   "short_name": "衡所华威",
+   "aliases": ["Hysol", "原汉高华威", "衡所华威", "母公司：华海诚科（688535.SH）"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "新浪财经", "title": "华海诚科宣布以11.2亿元完成对衡所华威剩余70%股权收购，累计16亿元实现100%控股", "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-03-18/doc-ineqaqmk6593857.shtml", "publish_date": "2025-03-18", "data_year": "2026", "metric": "华海诚科100%控股衡所华威", "caliber": "公告报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "连云港市人民政府", "title": "衡所华威为\"中国芯\"披上\"国产外衣\" 实现高端压缩模环氧塑封料国内量产", "url": "http://www.lyg.gov.cn/zglygzfmhwz/gcyw/content/30eb90ec-3d0f-4380-bfd2-76135361df75.html", "publish_date": "2025-06-08", "data_year": "2026", "metric": "衡所华威电子材料有限公司位于连云港，国内首家专业EMC企业", "caliber": "政府报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "中信建投证券（cninfo公告PDF）", "title": "关于江苏华海诚科收购衡所华威的核查意见：衡所华威深耕半导体封装材料四十余年，Hysol品牌", "url": "http://dataclouds.cninfo.com.cn/shgonggao/2025/2025-08-08/6618cef8738311f0aaf0fa163e957f7a.pdf", "publish_date": "2025-08-08", "data_year": "2026", "metric": "并购核查文件确认标的与品牌", "caliber": "券商核查意见", "region": "中国", "type": "交易所", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["长川科技"],
+   "entity_decision": "赛道主体=长川科技本体（杭州长川科技股份有限公司，国产半导体测试设备平台龙头），创业板独立上市，无母子归属问题",
+   "company_id": "CCKJ",
+   "name_cn": "杭州长川科技股份有限公司",
+   "name_en": "Hangzhou Changchuan Technology Co., Ltd.",
+   "short_name": "长川科技",
+   "aliases": ["长川科技", "Changchuan Technology", "CCTech"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZ300604", "market": "A股", "exchange": "深交所创业板", "ticker": "300604.SZ", "primary": true, "provider_symbols": {"tencent": "sz300604"}}
+   ],
+   "evidence": [
+    {"org": "杭州长川科技股份有限公司官网", "title": "公司简介：2017年4月17日深交所创业板挂牌上市（300604）", "url": "https://www.hzcctech.com/", "publish_date": "2026-09-11", "data_year": "2026", "metric": "上市日期与代码", "caliber": "公司官网", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "证券之星", "title": "杭州长川科技股份有限公司简介（300604）", "url": "https://stock.quote.stockstar.com/corp/brief_300604.shtml", "publish_date": "", "data_year": "2026", "metric": "2008年成立，2017年创业板上市，主营测试机/分选机/探针台/AOI", "caliber": "公司资料", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["光力科技"],
+   "entity_decision": "赛道主体=光力科技本体（光力科技股份有限公司，创业板上市）；以色列ADT（划片机）、英国LP/LPB（空气主轴）为其收购的海外子公司，赛道地位归属上市本体",
+   "company_id": "GLTECH",
+   "name_cn": "光力科技股份有限公司",
+   "name_en": "GL Tech Co., Ltd.",
+   "short_name": "光力科技",
+   "aliases": ["光力科技", "GL Tech", "子公司：ADT（以色列）/LP、LPB（英国）", "光力瑞弘（全资子公司）"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZ300480", "market": "A股", "exchange": "深交所创业板", "ticker": "300480.SZ", "primary": true, "provider_symbols": {"tencent": "sz300480"}}
+   ],
+   "evidence": [
+    {"org": "郑州航空港经济综合实验区", "title": "光力瑞弘（光力科技股份有限公司全资子公司，股票代码300480）ADT 8230划片机入选省首台（套）", "url": "https://m.zzhkgq.gov.cn/2025/09-18/3543180.html", "publish_date": "2025-09-18", "data_year": "2026", "metric": "光力科技300480及子公司体系", "caliber": "政府发布", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "腾讯网/至顶网", "title": "光力科技旗下以色列ADT工厂运营稳定，三次跨国并购（英国LP、英国LPB、以色列ADT）坐稳全球划片机前三", "url": "https://news.qq.com/rain/a/20260310A04Q1100", "publish_date": "2026-03-10", "data_year": "2026", "metric": "收购ADT/LP/LPB事实", "caliber": "公司报道", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "同花顺", "title": "光力科技：为河南半导体产业高质量发展注入科创动能（2015年创业板上市）", "url": "http://m.10jqka.com.cn/20251202/c672882662.shtml", "publish_date": "2025-12-02", "data_year": "2026", "metric": "2015年创业板上市", "caliber": "公司报道", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["新益昌"],
+   "entity_decision": "赛道主体=新益昌本体（深圳新益昌科技股份有限公司，固晶机龙头，科创板上市）；深圳开玖自动化为其2021年收购的控股子公司（现深圳新益昌开玖自动化设备有限公司），不单列实体",
+   "company_id": "XYC",
+   "name_cn": "深圳新益昌科技股份有限公司",
+   "name_en": "Shenzhen Xinyichang Technology Co., Ltd.",
+   "short_name": "新益昌",
+   "aliases": ["新益昌", "Xinyichang", "子公司：深圳新益昌开玖自动化设备有限公司（焊线机）"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SH688383", "market": "A股", "exchange": "上交所科创板", "ticker": "688383.SH", "primary": true, "provider_symbols": {"tencent": "sh688383"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经公告库", "title": "新益昌：2025年年度报告（控股子公司开玖自动化焊线设备获重复性订单）", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688383&id=12218826", "publish_date": "2026-04-28", "data_year": "2026", "metric": "年报确认开玖自动化为控股子公司", "caliber": "定期报告", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "东方财富（券商研报PDF）", "title": "国内固晶机龙头：2021年7月新益昌以4500万元收购开玖自动化75%股权", "url": "https://pdf.dfcfw.com/pdf/H3_AP202207051575819333_1.pdf", "publish_date": "2022-07-05", "data_year": "2026", "metric": "收购开玖自动化75%股权", "caliber": "券商研报", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "雪球", "title": "新益昌(SH688383)行情页", "url": "https://xueqiu.com/S/SH688383", "publish_date": "2026-10-15", "data_year": "2026", "metric": "科创板688383", "caliber": "行情页", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["UPCHEMICAL"],
+   "entity_decision": "赛道主体=UP Chemical本体（韩国前驱体厂商，注册地韩国，原始地区\"中国/韩国\"冲突裁决为韩国）；2016年被雅克科技（002409.SZ）以约11.79亿元收购为全资子公司，自身未上市，雅克科技代码不赋给该实体",
+   "company_id": "UPCHEM",
+   "name_cn": "优比化学（UP Chemical）",
+   "name_en": "UP Chemical Co., Ltd.",
+   "short_name": "UP Chemical",
+   "aliases": ["UP Chemical", "유피케미칼", "母公司：雅克科技（002409.SZ，2016年收购）", "国内产能承接：江苏先科"],
+   "country_region": "韩国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "新浪财经", "title": "\"借势\"海力士：UP Chemical是雅克科技2016年以约11.79亿元从韩国收购", "url": "https://finance.sina.com.cn/wm/2026-07-02/doc-inifmmmu2616442.shtml", "publish_date": "2026-07-02", "data_year": "2026", "metric": "收购时间与对价、韩国子公司身份", "caliber": "公司报道", "region": "韩国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "搜狐（转引公司互动）", "title": "近两年部分前驱体业务由韩国UP Chemical转移至江苏先科", "url": "https://m.sohu.com/a/1080230274_115377", "publish_date": "2026-09-24", "data_year": "2026", "metric": "UP Chemical注册/位于韩国", "caliber": "公司互动纪要", "region": "韩国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "东北证券（天眼查研报库PDF）", "title": "雅克科技(002409)深度报告：通过收购华飞电子、科美特以及UP Chemical全面进入高端电子材料领域", "url": "http://stock.tianyancha.com/ResearchReport/eastmoney/f8fb1d1c07108b5aa4fca9fe0e9c2ab0.pdf", "publish_date": "2019-03-05", "data_year": "2026", "metric": "收购UP Chemical进入前驱体领域", "caliber": "券商研报", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["长春塑封料"],
+   "entity_decision": "赛道主体=长春人造树脂厂股份有限公司（Chang Chun Plastics，台湾长春集团核心企业，环氧塑封料/环氧成型材料）；长春集团为私人控股集团未上市；大陆塑封料产能主体为长春封塑料（常熟）有限公司（与日本住友电木合资）",
+   "company_id": "CCP",
+   "name_cn": "长春人造树脂厂股份有限公司",
+   "name_en": "Chang Chun Plastics Co., Ltd.",
+   "short_name": "长春人造树脂",
+   "aliases": ["长春塑封料", "CCP", "长春集团（Chang Chun Group）", "长春封塑料（常熟）有限公司（与住友电木合资）"],
+   "country_region": "中国台湾",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "长春集团官网", "title": "长春集团-大事纪要（长春人造树脂厂生产半导体封装用环氧树脂成型材料）", "url": "https://www.ccpgp.com/cn/CP/2493/1363/", "publish_date": "", "data_year": "2026", "metric": "集团沿革与塑封料业务归属", "caliber": "公司官网", "region": "中国台湾", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "江苏省中小企业公共服务平台", "title": "长春封塑料（常熟）有限公司：由台湾长春集团与日本住友电木共同出资，生产环氧塑封料", "url": "https://smejs.cn/company_show.aspx?compid=6498f8a600684a27ada2142d0aff5d9e", "publish_date": "", "data_year": "2026", "metric": "大陆合资塑封料主体", "caliber": "政府平台资料", "region": "中国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "EMIS", "title": "长春人造树脂厂股份有限公司 (Chang Chun Plastics Co., Ltd.) 公司概况", "url": "https://www.emis.com/php/company-profile/TW/Chang_Chun_Plastics_Co_Ltd__%E9%95%BF%E6%98%A5%E4%BA%BA%E9%80%A0%E6%A0%91%E8%84%82%E5%8E%82%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8___%E9%95%BF%E6%98%A5%E4%BA%BA%E9%80%A0%E6%A0%91%E8%84%82%E5%8E%82%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8__Chang_Chun_Plastics_Co_Ltd___zh_1713289.html", "publish_date": "2025-06-19", "data_year": "2026", "metric": "1949年成立，台湾公司，主营环氧树脂/成型材料等", "caliber": "公司库", "region": "中国台湾", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "medium",
+   "unresolved": "长春集团为私人控股，长春人造树脂未上市系行业常识级判断，未获取交易所/官网明示\"未上市\"的A级直接证据"
+  },
+  {
+   "source_keys": ["AAMI"],
+   "entity_decision": "赛道主体=AAMI本体（先进封装材料国际有限公司，全球前五引线框架供应商，总部中国香港，原始地区\"中国香港/新加坡\"冲突裁决为中国香港，新加坡为运营子公司）；2020年自ASMPT材料业务分拆为合资公司，自身未上市；2025年起被至正股份/领先股份（603991.SH）收购99.97%并并表",
+   "company_id": "AAMI",
+   "name_cn": "先进封装材料国际有限公司",
+   "name_en": "Advanced Assembly Materials International Limited",
+   "short_name": "AAMI",
+   "aliases": ["AAMI", "原ASMPT材料事业部", "股东变更：至正股份/领先股份（603991.SH）收购99.97%"],
+   "country_region": "中国香港",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "AAMI官网", "title": "Advanced Assembly Materials International Ltd.（总部香港，中国与马来西亚设三大制造中心）", "url": "https://www.aam-intl.com/", "publish_date": "2026-01-29", "data_year": "2026", "metric": "总部香港", "caliber": "公司官网", "region": "中国香港", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "方达律师事务所", "title": "Fangda assists ASMPT in selling AAMI's equity to Zhizheng", "url": "https://www.fangdalaw.com/en/content/details34_15539.html", "publish_date": "", "data_year": "2026", "metric": "AAMI为全球前五引线框架供应商；2020年自ASMPT材料事业部成为合资公司；股权出售给至正", "caliber": "交易法律顾问公告", "region": "中国香港", "type": "行业媒体", "level": "B", "remark": ""},
+    {"org": "东方财富（研报PDF转引）", "title": "ASMPT将材料业务与Wise Road Capital等成立合资公司并更名AAMI，ASMPT保留44.4%股权", "url": "https://www.dfzq.com.hk/ueditor/jsp/upload/file/20220114/1642123489073038227.pdf", "publish_date": "2022-01-14", "data_year": "2026", "metric": "2020年分拆合资结构", "caliber": "券商研报", "region": "中国香港", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["ATOTECH"],
+   "entity_decision": "赛道主体=Atotech品牌实体（德国柏林，PCB/IC封装工艺化学品与设备）；2022-08-17被MKS Instruments（MKSI.US）以约44亿美元完成收购并自纽交所退市，品牌存续（MKS旗下Atotech），保留实体并注明归属，listing只填自身=非上市",
+   "company_id": "ATOTECH",
+   "name_cn": "安美特",
+   "name_en": "Atotech (MKS Instruments)",
+   "short_name": "Atotech",
+   "aliases": ["Atotech", "MKS Atotech", "原纽交所代码ATC（已退市）", "母公司：MKS Instruments（MKSI.US，纳斯达克）"],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Atotech官网", "title": "History of the company Atotech：2022年8月MKS Instruments以约44亿美元现金加股票收购Atotech", "url": "https://www.atotech.com/about-us/history/", "publish_date": "", "data_year": "2026", "metric": "收购完成与品牌存续", "caliber": "公司官网", "region": "德国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "SEC", "title": "MKS Instruments and Atotech Receive Approval from the Royal Court of Jersey（2022-08-17交割）", "url": "https://www.sec.gov/Archives/edgar/data/1762459/000119312522220542/d333272dex991.htm", "publish_date": "2022-08-15", "data_year": "2026", "metric": "收购交割日期", "caliber": "监管申报", "region": "美国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "DLA Piper", "title": "DLA Piper advises MKS Instruments on USD4.4 bn acquisition of Atotech", "url": "https://www.dlapiper.com/en/news/2022/09/dla-piper-advises-mks-instruments-in-the-closing-of-its-acquisition-of-atotech", "publish_date": "2022-09-28", "data_year": "2026", "metric": "44亿美元交易规模", "caliber": "法律顾问公告", "region": "德国", "type": "行业媒体", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["BERLINERGLAS"],
+   "entity_decision": "赛道主体=Berliner Glas本体（德国柏林，陶瓷与精密光学模组）；2020年被ASML（ASML.AS）收购100%股份，自身未上市；2021-2023年医疗（Berliner Glas Medical）与SwissOptic业务出售给Jenoptik，ASML保留光刻相关业务",
+   "company_id": "BERLINERGLAS",
+   "name_cn": "柏林玻璃（Berliner Glas）",
+   "name_en": "Berliner Glas KGaA (ASML)",
+   "short_name": "Berliner Glas",
+   "aliases": ["Berliner Glas", "Berliner Glas Group", "母公司：ASML（ASML.AS，2020年收购）"],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Semiconductor Engineering", "title": "ASML entity profile：In November 2020, ASML acquired Berliner Glas Group", "url": "https://semiengineering.com/entities/asml/", "publish_date": "2026-03-06", "data_year": "2026", "metric": "2020年11月完成收购", "caliber": "行业资料库", "region": "德国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "OptoIndex", "title": "Berliner Glas Group to become part of ASML（ASML收购Berliner Glas KGaA全部股份）", "url": "https://optoindex.com/berliner-glas-group-to-become-part-of-asml/", "publish_date": "2023-12-05", "data_year": "2026", "metric": "收购100%股份含子公司", "caliber": "行业媒体", "region": "德国", "type": "行业媒体", "level": "C", "remark": ""},
+    {"org": "和讯科技（转引）", "title": "Jenoptik将收购ASML旗下Berliner Glas光学模组医疗产品线；Berliner Glas 2020年被ASML收购", "url": "https://tech.hexun.com/2021-11-27/204828935.html", "publish_date": "2021-11-27", "data_year": "2026", "metric": "医疗业务剥离、光刻业务保留", "caliber": "行业媒体", "region": "德国", "type": "行业媒体", "level": "C", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["GIGAPHOTON"],
+   "entity_decision": "赛道主体=Gigaphoton本体（日本栃木县小山市，光刻准分子激光光源双寡头之一）；为小松制作所Komatsu（6301.T）全资子公司，自身未上市",
+   "company_id": "GIGAPHOTON",
+   "name_cn": "Gigaphoton（ gigaphoton ）",
+   "name_en": "Gigaphoton Inc.",
+   "short_name": "Gigaphoton",
+   "aliases": ["Gigaphoton", "ギガフォトン", "母公司：小松制作所Komatsu（6301.T）"],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Komatsu官网Newsroom", "title": "Gigaphoton Inc. is a wholly owned subsidiary of Komatsu Ltd.，总部位于日本栃木县小山市", "url": "https://www.komatsu.jp/en/newsroom/2022/20220729_2", "publish_date": "2022-07-29", "data_year": "2026", "metric": "全资子公司关系与总部", "caliber": "公司官网", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "Gigaphoton官网", "title": "Gigaphoton Excimer Laser for Advanced Packaging Installed at Japanese Company", "url": "https://www.gigaphoton.com/sc/news/9722", "publish_date": "2025-12-08", "data_year": "2026", "metric": "公司存续运营（2025年新闻）", "caliber": "公司官网", "region": "日本", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["RESONAC"],
+   "entity_decision": "赛道主体=Resonac Holdings本体（力森诺科，半导体封装材料/ CMP材料）；2023年1月由昭和电工与昭和电工材料（原日立化成，2020年被昭和电工收购）整合而成，承继东证Prime上市地位（4004.T），\"原日立化成\"为历史沿革而非当前母公司",
+   "company_id": "RESONAC",
+   "name_cn": "力森诺科控股",
+   "name_en": "Resonac Holdings Corporation",
+   "short_name": "Resonac",
+   "aliases": ["Resonac", "力森诺科", "原昭和电工/原日立化成（Hitachi Chemical）", "レゾナック"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "T4004", "market": "日股", "exchange": "东京证券交易所Prime", "ticker": "4004.T", "primary": true, "provider_symbols": {}}
+   ],
+   "evidence": [
+    {"org": "Resonac IR官网", "title": "FAQ：Resonac Holdings证券代码4004，东京证券交易所Prime市场上市", "url": "https://www.resonac.com/ir/faq.html", "publish_date": "", "data_year": "2026", "metric": "代码4004、东证Prime", "caliber": "公司IR", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "Reuters（tradingview转引）", "title": "Japan chip materials maker Resonac（4004）looks to chase deals；formed by Showa Denko's acquisition of Hitachi Chemical", "url": "https://www.tradingview.com/news/reuters.com,2025:newsml_L3N3PA06M:0-japan-chip-materials-maker-resonac-looks-to-chase-deals-after-restructuring/", "publish_date": "2025-02-19", "data_year": "2026", "metric": "公司沿革：昭和电工收购日立化成后整合", "caliber": "通讯社报道", "region": "日本", "type": "行业媒体", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["CYMER"],
+   "entity_decision": "赛道主体=Cymer本体（美国加州圣迭戈，DUV准分子激光光源）；2013年被ASML（ASML.AS）收购，作为ASML旗下独立运营业务存续（ASML San Diego），自身未上市",
+   "company_id": "CYMER",
+   "name_cn": "Cymer（西盟）",
+   "name_en": "Cymer LLC (ASML)",
+   "short_name": "Cymer",
+   "aliases": ["Cymer", "ASML San Diego", "母公司：ASML（ASML.AS，2013年收购）"],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "ASML官网", "title": "ASML San Diego：Acquired by ASML in 2013, Cymer is an independently operated business that develops, manufactures and services DUV light sources", "url": "https://www.asml.com/en/company/about-asml/locations/san-diego", "publish_date": "2026-06-05", "data_year": "2026", "metric": "2013年收购、独立运营业务", "caliber": "公司官网", "region": "美国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "SEMICON China 2025（SEMI官方展会）", "title": "Cymer is part of ASML；Cymer light source (CLS) headquarter based in San Diego, California", "url": "https://expo.semi.org/china2025/Public/eBooth.aspx?IndexInList=1020&FromPage=Exhibitors.aspx&ParentBoothID=&ListByBooth=true&BoothID=627833&Nav=False", "publish_date": "2025-03-26", "data_year": "2026", "metric": "品牌与实体存续", "caliber": "展会资料", "region": "美国", "type": "行业媒体", "level": "C", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["ENTEGRIS"],
+   "entity_decision": "赛道主体=Entegris本体（英特格，美国马萨诸塞州Billerica，电子材料/污染控制龙头），纳斯达克独立上市（ENTG.US）；2022年7月完成收购CMC Materials（CCMP，约57亿美元），CMC并入不单列",
+   "company_id": "ENTEGRIS",
+   "name_cn": "英特格",
+   "name_en": "Entegris, Inc.",
+   "short_name": "Entegris",
+   "aliases": ["Entegris", "英特格", "已并入：CMC Materials（原CCMP，2022年收购）"],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "USENTG", "market": "美股", "exchange": "纳斯达克", "ticker": "ENTG.US", "primary": true, "provider_symbols": {"tencent": "usENTG"}}
+   ],
+   "evidence": [
+    {"org": "SEC（Entegris新闻稿EX-99.1）", "title": "Entegris Completes Acquisition of CMC Materials（Nasdaq: ENTG），2022-07-06交割", "url": "https://www.sec.gov/Archives/edgar/data/1101302/000114036122025275/ny20004647x3_ex99-1.htm", "publish_date": "2022-07-06", "data_year": "2026", "metric": "收购完成、上市代码ENTG", "caliber": "监管申报", "region": "美国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "Yahoo Finance", "title": "Entegris (ENTG) Completes Buyout of CMC Materials for $5.7B", "url": "https://finance.yahoo.com/news/entegris-entg-completes-buyout-cmc-155103149.html", "publish_date": "2022-07-07", "data_year": "2026", "metric": "57亿美元交易规模", "caliber": "财经报道", "region": "美国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SILFEX"],
+   "entity_decision": "赛道主体=Silfex本体（美国俄亥俄州Eaton，硅部件/硅电极全球最大定制硅组件制造基地）；为Lam Research（LRCX.US）全资子公司（a division of Lam Research），自身未上市",
+   "company_id": "SILFEX",
+   "name_cn": "Silfex",
+   "name_en": "Silfex, Inc. (Lam Research)",
+   "short_name": "Silfex",
+   "aliases": ["Silfex", "A Lam Research Company", "母公司：Lam Research泛林集团（LRCX.US，纳斯达克）"],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Silfex官网", "title": "Company：A wholly owned subsidiary of Lam Research, Silfex is the world's largest custom silicon components manufacturing facility", "url": "https://www.silfex.com/company/", "publish_date": "2026-09-17", "data_year": "2026", "metric": "Lam全资子公司、全球最大定制硅组件基地", "caliber": "公司官网", "region": "美国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "Lam Research Newsroom", "title": "Senator Brown Visits Lam's Silfex Team in Ohio（Eaton, OH）", "url": "https://newsroom.lamresearch.com/Senator-Brown-Visits-Lams-Silfex-Team-in-Ohios-Silicon-Valley?blog=true", "publish_date": "2022-10-07", "data_year": "2026", "metric": "所在地Eaton, Ohio", "caliber": "公司官网", "region": "美国", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["普莱克斯"],
+   "entity_decision": "赛道主体归属=Linde plc（LIN.US）：Praxair（普莱克斯）2018年10月与林德合并，纽交所代码PX于2018-10-30停止交易，Linde plc为存续上市主体；Praxair作为品牌/子公司存续（如Praxair Surface Technologies），保留实体记录并注明归属，listing只填自身=非上市",
+   "company_id": "PRAXAIR",
+   "name_cn": "普莱克斯",
+   "name_en": "Praxair, Inc. (Linde plc)",
+   "short_name": "Praxair",
+   "aliases": ["Praxair", "普莱克斯", "原纽交所代码PX（2018年退市）", "现属：Linde plc林德（LIN.US）"],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Linde官网", "title": "Linde plc Announces Satisfaction of Final Conditions to Close Business Combination between Linde AG and Praxair（PX于2018-10-30停止交易）", "url": "https://www.linde.com/news-and-media/2018/linde-plc-announces-satisfaction-of-final-conditions-to-close-business-combination-between-linde-ag-and-praxair", "publish_date": "2018-10-22", "data_year": "2026", "metric": "合并交割与退市安排", "caliber": "公司官网", "region": "美国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "Yahoo Finance", "title": "Linde plc (LIN)：formed from the October 2018 merger of Linde AG and Praxair Inc.", "url": "https://finance.yahoo.com/quote/LIN/", "publish_date": "2026-10-13", "data_year": "2026", "metric": "Linde plc存续主体", "caliber": "行情页", "region": "美国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["EDWARDS"],
+   "entity_decision": "赛道主体=Edwards本体（爱德华，英国Burgess Hill，半导体真空泵与尾气处理）；2014年1月被瑞典Atlas Copco（阿特拉斯·科普柯，ATCO-A.ST）以约16亿美元收购，品牌存续，自身未上市",
+   "company_id": "EDWARDS",
+   "name_cn": "爱德华",
+   "name_en": "Edwards Limited (Atlas Copco)",
+   "short_name": "Edwards",
+   "aliases": ["Edwards", "爱德华", "Edwards Vacuum", "母公司：Atlas Copco阿特拉斯·科普柯（瑞典，ATCO-A.ST）"],
+   "country_region": "英国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Atlas Copco官方博客", "title": "We acquired Edwards in January 2014（vacuum pumps and systems under the Edwards and Atlas Copco brands）", "url": "https://www.thecompressedairblog.com/5-things-to-know-about-atlas-copcos-vacuum-solutions-portfolio", "publish_date": "2025-07-14", "data_year": "2026", "metric": "2014年1月收购、品牌存续", "caliber": "公司官网", "region": "英国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "martini.ai", "title": "Edwards Vacuum, headquartered in Burgess Hill, United Kingdom（subsidiary of Atlas Copco AB following the 2014 acquisition）", "url": "https://martini.ai/pages/research/Edwards%20Vacuum-07da62fb8b31adaf28707cafe71d8f67", "publish_date": "2025-12-15", "data_year": "2026", "metric": "总部与隶属关系", "caliber": "公司资料库", "region": "英国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  }
+ ]
+}

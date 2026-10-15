@@ -1,5 +1,6 @@
 """继承cn-pdf-report-style的A4、藏蓝、斑马纹与中文排版参数。"""
 import os
+import re
 from pathlib import Path
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
@@ -24,7 +25,20 @@ class FontResolver:
         pdfmetrics.registerFont(TTFont("ResearchCN", str(normal), subfontIndex=0))
         pdfmetrics.registerFont(TTFont("ResearchCN-Bold", str(bold), subfontIndex=0))
         pdfmetrics.registerFontFamily("ResearchCN", normal="ResearchCN", bold="ResearchCN-Bold", italic="ResearchCN", boldItalic="ResearchCN-Bold")
+        for weight, name in [('Regular', 'ResearchKR'), ('Bold', 'ResearchKR-Bold')]:
+            fallback = bundled.parent / f'NotoSansKR-Hangul-{weight}.ttf'
+            if not fallback.is_file():
+                raise RuntimeError('缺少Noto韩文字形，请运行python -m tools.build_korean_fonts')
+            pdfmetrics.registerFont(TTFont(name, str(fallback)))
+        pdfmetrics.registerFontFamily('ResearchKR', normal='ResearchKR', bold='ResearchKR-Bold', italic='ResearchKR', boldItalic='ResearchKR-Bold')
         return normal.name
+
+
+def font_fallback(markup):
+    """仅为韩文文本加入同字体家族字形；保留已转义文本和链接标记。"""
+    return ''.join(part if part.startswith('<') else re.sub(r'[\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]+',
+                   lambda match: '<font name="ResearchKR">'+match.group()+'</font>', part)
+                   for part in re.split(r'(<[^>]*>)', markup))
 
 
 def styles():

@@ -3,14 +3,14 @@ import re
 from reportlab.lib.colors import HexColor
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Table, TableStyle
-from .styles import NAVY
+from .styles import NAVY, font_fallback
 
 
 def paragraph(text, style):
     content = escape(str(text)).replace("\n", "<br/>")
     # 中文字体常不含上标负号/数字；使用真正的上标排版，保留科学计数含义。
     content = re.sub(r"[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+", lambda m: "<super>" + m.group().translate(str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻", "0123456789+-")) + "</super>", content)
-    return Paragraph(content, style)
+    return Paragraph(font_fallback(content), style)
 
 
 def table(model, styles, source_note=None):

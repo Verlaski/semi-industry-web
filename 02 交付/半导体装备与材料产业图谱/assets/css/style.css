@@ -366,6 +366,9 @@ table.matrix th { background: var(--navy-soft); color: var(--navy-deep); white-s
 .market-badge.us { background:#e8e9ed;color:#3b4050; }
 .market-badge.overseas { background:#e5f0ef;color:#376b68; }
 .market-badge.unlisted,.market-badge.unknown { background:#eef0f2;color:#697786; }
+.market-badge.ipo { background:#fdf1e0;color:#b05e08; }
+.ipo-detail { color:#b05e08;font:400 12px/1.7 var(--sans); }
+.ipo-banner { background:#fdf1e0;color:#b05e08;border-left:3px solid #b05e08;padding:6px 10px;border-radius:0 4px 4px 0;font-size:12.5px; }
 .market-badge.unknown { font-weight:400; }
 .market-legend { display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:12px 0 18px;font-size:12px;color:var(--muted); }
 .ticker { font:11px var(--mono);color:var(--muted); }
@@ -450,6 +453,8 @@ table.matrix th { background: var(--navy-soft); color: var(--navy-deep); white-s
 /* V1.1 interface refinement — one locally hosted OFL type family. */
 @font-face { font-family:"Semi Noto Sans SC";src:url('../fonts/NotoSansSC-Regular.woff2') format('woff2');font-style:normal;font-weight:400 500;font-display:swap; }
 @font-face { font-family:"Semi Noto Sans SC";src:url('../fonts/NotoSansSC-Bold.woff2') format('woff2');font-style:normal;font-weight:600 900;font-display:swap; }
+@font-face { font-family:"Semi Noto Sans SC";src:url('../fonts/NotoSansKR-Hangul-Regular.woff2') format('woff2');font-style:normal;font-weight:400 500;font-display:swap;unicode-range:U+1100-11FF,U+3130-318F,U+AC00-D7AF; }
+@font-face { font-family:"Semi Noto Sans SC";src:url('../fonts/NotoSansKR-Hangul-Bold.woff2') format('woff2');font-style:normal;font-weight:600 900;font-display:swap;unicode-range:U+1100-11FF,U+3130-318F,U+AC00-D7AF; }
 :root { --nav-height:55px;--radius:10px; }
 button,input,select,textarea { font-family:var(--sans); }
 .site-header { background:var(--navy);border-bottom:0; }

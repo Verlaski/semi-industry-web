@@ -1,0 +1,664 @@
+{
+ "batch": "batch_cn_3+4",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": ["烁科精微"],
+   "entity_decision": "确认为独立实体：北京烁科精微电子装备有限公司，中国电科旗下电科装备体系公司（CMP设备）；子公司未单独上市，母公司电科装备亦未整体上市，记为电科装备旗下非上市主体",
+   "company_id": "SKJW",
+   "name_cn": "北京烁科精微电子装备有限公司",
+   "name_en": "",
+   "short_name": "烁科精微",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "今日招聘网（转载公司校招简介）", "title": "北京烁科精微电子装备有限公司校园招聘", "url": "https://www.jrzp.com/xiaozhaoView/1719779.shtml", "publish_date": "2022-04-17", "data_year": "2026", "metric": "主体身份与股东背景", "caliber": "2019年9月成立于北京经开区，中国电子科技集团科技成果转化新设的混合所有制公司，CMP设备厂商", "region": "中国", "type": "行业媒体", "level": "C", "remark": "未见任何交易所上市记录"},
+    {"org": "中国电子科技集团有限公司官网", "title": "电科装备北京烁科中科信：一心一意只为干好离子注入装备", "url": "https://46.cetc.com.cn/zgdk/1592960/1592965/1802440/index.html", "publish_date": "2026-07-17", "data_year": "2026", "metric": "电科装备体系佐证", "caliber": "佐证'电科装备'集团口径；烁科中科信为同体系兄弟公司（离子注入机），非同一主体", "region": "中国", "type": "公司官网", "level": "B", "remark": ""}
+   ],
+   "confidence": "medium",
+   "unresolved": "法定英文名未获官方确认；未上市结论基于无任何交易所/挂牌记录及公开报道"
+  },
+  {
+   "source_keys": ["烟台一诺"],
+   "entity_decision": "确认为独立实体：烟台一诺电子材料有限公司（键合丝/封装材料），未上市",
+   "company_id": "YESDO",
+   "name_cn": "烟台一诺电子材料有限公司",
+   "name_en": "Yantai YesDo Electronic Materials Co., Ltd.",
+   "short_name": "烟台一诺",
+   "aliases": ["一诺电子"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "烟台一诺电子材料有限公司官网", "title": "烟台一诺电子材料有限公司——键合丝专业生产商", "url": "http://www.yesdochina.cn/", "publish_date": "", "data_year": "2026", "metric": "主体身份", "caliber": "2007年9月成立于烟台经开区，键合丝与焊接材料研发生产企业", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "启信宝", "title": "烟台一诺电子材料有限公司工商信息", "url": "https://www.qixin.com/company/eef73dee-3713-4fdd-b3e0-90a6f5127490", "publish_date": "2025-11-01", "data_year": "2026", "metric": "工商状态", "caliber": "统一社会信用代码91370600666719513T，经营状态存续，有限责任公司（非上市）", "region": "中国", "type": "财经数据站", "level": "B", "remark": "另设全资子公司烟台一诺半导体材料有限公司"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["猎奇智能"],
+   "entity_decision": "确认为独立实体：苏州猎奇智能设备股份有限公司（昆山，封测/贴片设备），未上市；上市公司金海通2024年受让部分股权为参股关系",
+   "company_id": "LIEQI",
+   "name_cn": "苏州猎奇智能设备股份有限公司",
+   "name_en": "",
+   "short_name": "猎奇智能",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "苏州猎奇智能设备股份有限公司官网", "title": "关于我们", "url": "https://www.suzhoulieqi.com/p/abouts.html", "publish_date": "", "data_year": "2026", "metric": "主体身份", "caliber": "成立于2015年（前身2012年），注册资本4125万元，光通信/功率半导体封测设备制造商", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "新浪财经（金海通公告）", "title": "海通证券关于天津金海通拟受让苏州猎奇智能设备有限公司部分股权暨关联交易的核查意见", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603061&id=10398243", "publish_date": "2024-08", "data_year": "2026", "metric": "股权关系与未上市状态", "caliber": "金海通（603061）拟受让猎奇智能部分股权，标的为有限责任公司（后改制股份公司），未上市", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "法定英文名未获官方确认"
+  },
+  {
+   "source_keys": ["珂玛科技"],
+   "entity_decision": "确认为独立实体：苏州珂玛材料科技股份有限公司，深交所创业板上市；ticker_hint 301611 核验属实",
+   "company_id": "KEMATEK",
+   "name_cn": "苏州珂玛材料科技股份有限公司",
+   "name_en": "Suzhou Kematek, Inc.",
+   "short_name": "珂玛科技",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:301611", "market": "A股", "exchange": "SZSE", "ticker": "301611.SZ", "primary": true, "provider_symbols": {"tencent": "sz301611"}}
+   ],
+   "evidence": [
+    {"org": "深圳证券交易所", "title": "关于苏州珂玛材料科技股份有限公司股票上市交易的公告", "url": "https://www.szse.cn/disclosure/notice/company/t20240815_608677.html", "publish_date": "2024-08-14", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2024-08-16创业板上市，证券简称珂玛科技，证券代码301611", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经（上市公告书）", "title": "珂玛科技：首次公开发行股票并在创业板上市之上市公告书", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301611&id=10376354", "publish_date": "2024-08", "data_year": "2026", "metric": "中英文全称", "caliber": "苏州珂玛材料科技股份有限公司 Suzhou Kematek, Inc.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["珠海越亚"],
+   "entity_decision": "确认为独立实体：珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2026-07-16过会、07-17提交注册，截至2026-10-15未见发行上市，记非上市",
+   "company_id": "ACCESS",
+   "name_cn": "珠海越亚半导体股份有限公司",
+   "name_en": "Zhuhai ACCESS Semiconductor Co., Ltd.",
+   "short_name": "珠海越亚",
+   "aliases": ["越亚半导体", "越亚"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "深圳证券交易所（招股书披露文件）", "title": "珠海越亚半导体股份有限公司首次公开发行股票并在创业板上市招股说明书", "url": "http://reportdocs.static.szse.cn/UpFiles/rasinfodisc1/202607/RAS_202607_09185023903A0C1DD241919F8921A4AC71DF91.pdf", "publish_date": "2026-07", "data_year": "2026", "metric": "中英文全称与IPO状态", "caliber": "Zhuhai ACCESS Semiconductor Co., Ltd.；创业板IPO文件（注册环节）", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "钛媒体科股宝", "title": "珠海越亚半导体股份有限公司IPO审核进度", "url": "https://www.tmtpost.com/ipo/company_detail/593494/2", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "2025-09-30受理、2026-07-16上市委通过、2026-07-17提交注册；尚无发行与上市记录", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "创业板IPO已提交注册，尚未发行；后续可能转为上市，需滚动复核"
+  },
+  {
+   "source_keys": ["石英股份"],
+   "entity_decision": "确认为独立实体：江苏太平洋石英股份有限公司，上交所主板上市；ticker_hint 603688 核验属实",
+   "company_id": "PACIFICQUARTZ",
+   "name_cn": "江苏太平洋石英股份有限公司",
+   "name_en": "Jiangsu Pacific Quartz Co., Ltd.",
+   "short_name": "石英股份",
+   "aliases": ["太平洋石英"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:603688", "market": "A股", "exchange": "SSE", "ticker": "603688.SH", "primary": true, "provider_symbols": {"tencent": "sh603688"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "江苏太平洋石英股份有限公司2022年年度报告摘要", "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2023-03-22/603688_20230322_OFJ2.pdf", "publish_date": "2023-03-22", "data_year": "2026", "metric": "上市状态与代码", "caliber": "公司代码603688，公司简称石英股份", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "搜狐证券", "title": "石英股份(603688)公司简介", "url": "https://q.stock.sohu.com/cn/603688/gsjj.shtml", "publish_date": "", "data_year": "2026", "metric": "中英文全称", "caliber": "Jiangsu Pacific Quartz Co., Ltd.，上交所上市", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["矽电股份"],
+   "entity_decision": "确认为独立实体：矽电半导体设备（深圳）股份有限公司，2025-03-24深交所创业板上市，代码301629",
+   "company_id": "SIDEA",
+   "name_cn": "矽电半导体设备（深圳）股份有限公司",
+   "name_en": "Sidea Semiconductor Equipment (Shenzhen) Co., Ltd.",
+   "short_name": "矽电股份",
+   "aliases": ["矽电半导体"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:301629", "market": "A股", "exchange": "SZSE", "ticker": "301629.SZ", "primary": true, "provider_symbols": {"tencent": "sz301629"}}
+   ],
+   "evidence": [
+    {"org": "东方财富（转载深交所上市公告）", "title": "关于矽电半导体设备（深圳）股份有限公司股票上市交易的公告", "url": "https://pdf.dfcfw.com/pdf/H2_AN202503211645416471_1.pdf", "publish_date": "2025-03-21", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2025-03-24创业板上市，证券简称矽电股份，证券代码301629", "region": "中国", "type": "财经数据站", "level": "B", "remark": "系深交所公告转载件"},
+    {"org": "矽电股份官网", "title": "矽电股份（股票代码：301629）", "url": "https://www.sidea.com.cn/", "publish_date": "", "data_year": "2026", "metric": "主体身份", "caliber": "成立于2003年，探针台/分选机等半导体设备厂商", "region": "中国", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["神州半导体"],
+   "entity_decision": "确认为独立实体：江苏神州半导体科技股份有限公司（射频电源/匹配器等设备部件），科创板IPO申报中，未上市",
+   "company_id": "SHENZHOU",
+   "name_cn": "江苏神州半导体科技股份有限公司",
+   "name_en": "Jiangsu Shenzhou Semiconductor Technology Co., Ltd.",
+   "short_name": "神州半导体",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "上海证券交易所（披露文件）", "title": "江苏神州半导体科技股份有限公司首次公开发行股票并在科创板上市（招股说明书等文件）", "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202606/002191_20260630_JUMJ.pdf", "publish_date": "2026-06-30", "data_year": "2026", "metric": "中英文全称与IPO状态", "caliber": "Jiangsu Shenzhou Semiconductor...；科创板IPO申报文件，未见发行上市", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "搜狐财经（瑞财经）", "title": "江苏神州半导体启动IPO 董事长朱培文掌控超七成表决权", "url": "https://www.sohu.com/a/967295339_121850782", "publish_date": "2025-12-19", "data_year": "2026", "metric": "上市状态", "caliber": "2025年12月启动IPO辅导，辅导机构国泰海通", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "科创板IPO审核中，后续可能转为上市，需滚动复核"
+  },
+  {
+   "source_keys": ["神工股份"],
+   "entity_decision": "确认为独立实体：锦州神工半导体股份有限公司，上交所科创板上市；ticker_hint 688233 核验属实",
+   "company_id": "THINKON",
+   "name_cn": "锦州神工半导体股份有限公司",
+   "name_en": "Thinkon Semiconductor Jinzhou Corp.",
+   "short_name": "神工股份",
+   "aliases": ["锦州神工"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688233", "market": "A股", "exchange": "SSE", "ticker": "688233.SH", "primary": true, "provider_symbols": {"tencent": "sh688233"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "关于锦州神工半导体股份有限公司人民币普通股股票科创板上市交易的公告", "url": "https://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20200220_77296561.shtml", "publish_date": "2020-02-20", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2020-02-21科创板上市，证券简称神工股份，证券代码688233", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "证监会资本市场电子化信息披露平台", "title": "沪市科创板：神工股份 688233", "url": "http://eid.csrc.gov.cn/201014/dtl-3900.html", "publish_date": "2020-02-21", "data_year": "2026", "metric": "中英文全称", "caliber": "英文名称 Thinkon Semiconductor Jinzhou Corp.", "region": "中国", "type": "交易所", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["福晶科技"],
+   "entity_decision": "确认为独立实体：福建福晶科技股份有限公司，深交所主板（原中小板）上市；ticker_hint 002222 核验属实",
+   "company_id": "CASTECH",
+   "name_cn": "福建福晶科技股份有限公司",
+   "name_en": "CASTECH Inc.",
+   "short_name": "福晶科技",
+   "aliases": ["CASTECH"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:002222", "market": "A股", "exchange": "SZSE", "ticker": "002222.SZ", "primary": true, "provider_symbols": {"tencent": "sz002222"}}
+   ],
+   "evidence": [
+    {"org": "福建福晶科技股份有限公司官网", "title": "发展历程", "url": "https://gb.castech.com/intro/Development-22.html", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2008年在深交所完成IPO并上市，股票代码002222", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "新浪财经（公司年报）", "title": "福晶科技：2025年年度报告", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002222&id=12254428", "publish_date": "2026-04", "data_year": "2026", "metric": "中英文全称", "caliber": "福建福晶科技股份有限公司 CASTECH Inc.，证券代码002222", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["科益虹源"],
+   "entity_decision": "确认为独立实体：北京科益虹源光电技术有限公司（光刻准分子激光光源），中科院光电院等发起设立，未上市",
+   "company_id": "RSLASER",
+   "name_cn": "北京科益虹源光电技术有限公司",
+   "name_en": "Beijing RSLaser Opto-Electronics Technology Co., Ltd.",
+   "short_name": "科益虹源",
+   "aliases": ["RSLaser"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "启信宝", "title": "北京科益虹源光电技术有限公司工商信息", "url": "https://www.qixin.com/company/1f25a0b3-07f9-4f33-bce5-a47dfec089e4", "publish_date": "2025-09-01", "data_year": "2026", "metric": "工商状态", "caliber": "2016-07-29成立，注册资本26880万元，存续，有限责任公司（非上市）", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "36氪创投平台", "title": "科益虹源项目信息", "url": "https://pitchhub.36kr.com/project/1818796493475974", "publish_date": "", "data_year": "2026", "metric": "中英文全称", "caliber": "英文全称 Beijing RSLaser Opto-Electronics Technology CO.,Ltd.", "region": "中国", "type": "行业媒体", "level": "B", "remark": "华为哈勃2021年入股；未见上市记录"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["立昂微"],
+   "entity_decision": "确认为独立实体：杭州立昂微电子股份有限公司，上交所主板上市，代码605358",
+   "company_id": "LION",
+   "name_cn": "杭州立昂微电子股份有限公司",
+   "name_en": "Hangzhou Lion Microelectronics Co., Ltd.",
+   "short_name": "立昂微",
+   "aliases": ["LION"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:605358", "market": "A股", "exchange": "SSE", "ticker": "605358.SH", "primary": true, "provider_symbols": {"tencent": "sh605358"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所（英文站）", "title": "Hangzhou Lion Microelectronics Co.,Ltd 605358", "url": "https://english.sse.com.cn/markets/equities/list/overview/?COMPANY_CODE=605358&STOCK_CODE=605358", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Listing Date 2020-09-11，Short Name LION，代码605358", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "证监会资本市场电子化信息披露平台", "title": "沪市主板：立昂微 605358", "url": "http://eid.csrc.gov.cn/201010/dtl-4169.html", "publish_date": "2020-09-11", "data_year": "2026", "metric": "中英文全称", "caliber": "杭州立昂微电子股份有限公司 / Hangzhou Lion Microelectronics Co.,Ltd", "region": "中国", "type": "交易所", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["精智达"],
+   "entity_decision": "确认为独立实体：深圳精智达技术股份有限公司，上交所科创板上市，代码688627",
+   "company_id": "SEICHI",
+   "name_cn": "深圳精智达技术股份有限公司",
+   "name_en": "Shenzhen SEICHI Technologies Co., Ltd.",
+   "short_name": "精智达",
+   "aliases": ["SEICHI"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688627", "market": "A股", "exchange": "SSE", "ticker": "688627.SH", "primary": true, "provider_symbols": {"tencent": "sh688627"}}
+   ],
+   "evidence": [
+    {"org": "精智达官网", "title": "关于我们", "url": "https://www.seichitech.com/about/", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2023年在上交所科创板上市，股票代码688627", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "东方财富股吧（公告转载）", "title": "精智达：2026年度向特定对象发行A股股票上市公告书", "url": "https://guba.eastmoney.com/news,688627,1774569989.html", "publish_date": "2026-09-18", "data_year": "2026", "metric": "中英文全称", "caliber": "深圳精智达技术股份有限公司 Shenzhen SEICHI Technologies Co., Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["精测电子"],
+   "entity_decision": "确认为独立实体：武汉精测电子集团股份有限公司，深交所创业板上市，代码300567；'上海精测'为其控股子公司上海精测半导体技术有限公司，不构成独立上市实体",
+   "company_id": "JINGCE",
+   "name_cn": "武汉精测电子集团股份有限公司",
+   "name_en": "Wuhan Jingce Electronic Group Co., Ltd.",
+   "short_name": "精测电子",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300567", "market": "A股", "exchange": "SZSE", "ticker": "300567.SZ", "primary": true, "provider_symbols": {"tencent": "sz300567"}}
+   ],
+   "evidence": [
+    {"org": "平安证券F10", "title": "精测电子300567股票上市时间与板块", "url": "https://zs.stock.pingan.com/f10/t_sz300567.html", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2016-11-22深交所创业板上市，代码300567，公司全称武汉精测电子集团股份有限公司", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "万隆证券网", "title": "精测电子（300567）个股公司概况", "url": "https://wlstocktest.wlstock.com/HuDong/CompanyBaseInfo.aspx?stockNo=300567", "publish_date": "2025-09-30", "data_year": "2026", "metric": "中英文全称", "caliber": "英文全称 WUHAN JINGCE ELECTRONIC GROUP CO.,LTD", "region": "中国", "type": "财经数据站", "level": "B", "remark": "上海精测半导体技术有限公司为其控股子公司（见公司公告）"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["耐科装备"],
+   "entity_decision": "确认为独立实体：安徽耐科装备科技股份有限公司，上交所科创板上市，代码688419",
+   "company_id": "NEXTOOL",
+   "name_cn": "安徽耐科装备科技股份有限公司",
+   "name_en": "Nextool Technology Co., Ltd.",
+   "short_name": "耐科装备",
+   "aliases": ["Nextool"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688419", "market": "A股", "exchange": "SSE", "ticker": "688419.SH", "primary": true, "provider_symbols": {"tencent": "sh688419"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "IPO信息专区：688419 耐科装备", "url": "https://www.sse.com.cn/ipo/bookbuilding/detail/index.shtml?securityCode=688419", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "科创板IPO及上市文件，代码688419", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "搜狐证券", "title": "耐科装备(688419)公司简介", "url": "https://q.stock.sohu.com/cn/688419/gsjj.shtml", "publish_date": "", "data_year": "2026", "metric": "中英文全称", "caliber": "Nextool Technology Co., Ltd.；上市日期2022-11-07（另有口径2022-10-27申购）", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["联动科技"],
+   "entity_decision": "确认为独立实体：佛山市联动科技股份有限公司（英文 PowerTECH），深交所创业板上市，代码301369；网传'广东联动科技股份有限公司'未获公告口径支持，以年报法定名称为准",
+   "company_id": "POWERTECH",
+   "name_cn": "佛山市联动科技股份有限公司",
+   "name_en": "PowerTECH Co., Ltd.",
+   "short_name": "联动科技",
+   "aliases": ["PowerTECH"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:301369", "market": "A股", "exchange": "SZSE", "ticker": "301369.SZ", "primary": true, "provider_symbols": {"tencent": "sz301369"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（公司2025年年度报告）", "title": "联动科技：2025年年度报告", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301369&id=12040449", "publish_date": "2026", "data_year": "2026", "metric": "中英文全称与代码", "caliber": "佛山市联动科技股份有限公司，外文名称 PowerTECH Co., Ltd.，代码301369", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "全景网", "title": "联动科技（301369）新股专题", "url": "https://rs.p5w.net/companyIpo/companyInfo.shtml?companyCode=301369", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "2022-09-22创业板上市，发行价96.58元", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["臻宝科技"],
+   "entity_decision": "确认为独立实体：重庆臻宝科技股份有限公司（英文 Genori），2026-06-24上交所科创板上市，代码688797；备注'科创板IPO'已落地为上市",
+   "company_id": "GENORI",
+   "name_cn": "重庆臻宝科技股份有限公司",
+   "name_en": "Chongqing Genori Technology Co., Ltd.",
+   "short_name": "臻宝科技",
+   "aliases": ["Genori"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688797", "market": "A股", "exchange": "SSE", "ticker": "688797.SH", "primary": true, "provider_symbols": {"tencent": "sh688797"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "关于重庆臻宝科技股份有限公司人民币普通股股票科创板上市交易的公告", "url": "http://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260623_10823184.shtml", "publish_date": "2026-06-23", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2026-06-24科创板上市，证券简称臻宝科技，证券代码688797", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经（上市公告书）", "title": "臻宝科技：首次公开发行股票科创板上市公告书", "url": "http://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688797&id=12405320", "publish_date": "2026-06", "data_year": "2026", "metric": "中英文全称", "caliber": "注册名称（英文）Chongqing Genori Technology Co., Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["芯慧联"],
+   "entity_decision": "确认为独立实体：苏州芯慧联半导体科技有限公司（WST，常熟，湿法/键合等设备）；未上市，2024年10月起被上市公司百傲化学（603360）增资控股；其晶圆键合业务2024年分立为芯慧联芯/芯慧联新（苏州）科技有限公司，亦未上市",
+   "company_id": "WST",
+   "name_cn": "苏州芯慧联半导体科技有限公司",
+   "name_en": "Wisdom Semiconductor Technology (Suzhou) Co., Ltd.",
+   "short_name": "芯慧联",
+   "aliases": ["WST", "芯慧联芯", "芯慧联新"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "东南大学电气工程学院（企业简介转载）", "title": "芯慧联芯（苏州）科技有限公司简介", "url": "https://ee.seu.edu.cn/2025/0301/c25177a519831/page.htm", "publish_date": "2025-02-26", "data_year": "2026", "metric": "主体身份", "caliber": "苏州芯慧联半导体科技有限公司（Wisdom Semiconductor Technology，简称芯慧联/WST），2019年落户常熟高新区", "region": "中国", "type": "行业媒体", "level": "B", "remark": ""},
+    {"org": "邦信阳律师事务所（微信公号）", "title": "上市公司并购重组案例评述：百傲化学收购芯慧联", "url": "http://mp.weixin.qq.com/s?__biz=MzA4MTY3ODQwNA==&mid=2676937968&idx=1&sn=340ce7b6efb41b1da678e3c20dd55140", "publish_date": "", "data_year": "2026", "metric": "股权与未上市状态", "caliber": "2024年10月百傲化学拟增资7亿元并控制芯慧联；标的为有限责任公司，未上市", "region": "中国", "type": "行业媒体", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "英文全称为官方简称口径拼写，法定英文注册名未单独核验"
+  },
+  {
+   "source_keys": ["芯睿科技"],
+   "entity_decision": "确认为独立实体：苏州芯睿科技有限公司（晶圆键合/解键合设备，品牌 iWiseeTec），未上市",
+   "company_id": "IWISEETEC",
+   "name_cn": "苏州芯睿科技有限公司",
+   "name_en": "",
+   "short_name": "芯睿科技",
+   "aliases": ["iWiseeTec"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "苏州芯睿科技有限公司官网", "title": "公司新闻", "url": "https://www.iwiseetec.com/gsxw", "publish_date": "", "data_year": "2026", "metric": "主体身份", "caliber": "成立于2021年，注册资本1398万元，专注键合/解键合设备（2-12英寸）", "region": "中国", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "投资界（企查查数据）", "title": "「苏州芯睿科技」半导体设备研发商", "url": "https://vc.pedaily.cn/company/659907.html", "publish_date": "2024-01-04", "data_year": "2026", "metric": "未上市状态", "caliber": "有限责任公司，累计披露融资3次约2.3亿元（最新B轮），未见上市记录", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "法定英文名未获官方确认（iWiseeTec 为官网品牌口径）"
+  },
+  {
+   "source_keys": ["茂莱光学"],
+   "entity_decision": "确认为独立实体：南京茂莱光学科技股份有限公司（MLOPTIC），上交所科创板上市；ticker_hint 688502 核验属实",
+   "company_id": "MLOPTIC",
+   "name_cn": "南京茂莱光学科技股份有限公司",
+   "name_en": "MLOPTIC Corp.",
+   "short_name": "茂莱光学",
+   "aliases": ["MLOPTIC", "茂莱"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688502", "market": "A股", "exchange": "SSE", "ticker": "688502.SH", "primary": true, "provider_symbols": {"tencent": "sh688502"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（上市公告书）", "title": "茂莱光学：首次公开发行股票科创板上市公告书", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=8870380&stockid=688502", "publish_date": "2023-03-08", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2023-03-09上交所科创板上市，简称茂莱光学，代码688502，MLOPTIC Corp.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "茂莱光学官网", "title": "公司历程", "url": "https://www.mloptic.com/cnhome/about", "publish_date": "", "data_year": "2026", "metric": "上市状态佐证", "caliber": "在上海证券交易所科创板上市（股票代码688502）", "region": "中国", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["菲利华"],
+   "entity_decision": "确认为独立实体：湖北菲利华石英玻璃股份有限公司，深交所创业板上市；ticker_hint 300395 核验属实",
+   "company_id": "FEILIHUA",
+   "name_cn": "湖北菲利华石英玻璃股份有限公司",
+   "name_en": "Hubei Feilihua Quartz Glass Co., Ltd.",
+   "short_name": "菲利华",
+   "aliases": [],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300395", "market": "A股", "exchange": "SZSE", "ticker": "300395.SZ", "primary": true, "provider_symbols": {"tencent": "sz300395"}}
+   ],
+   "evidence": [
+    {"org": "东方财富（公司2024年年度报告）", "title": "菲利华：2024年年度报告", "url": "https://data.eastmoney.com/notices/detail/300395/AN202504211660048801.html", "publish_date": "2025-04-21", "data_year": "2026", "metric": "中英文全称与代码", "caliber": "湖北菲利华石英玻璃股份有限公司，外文名称 Hubei Feilihua Quartz Glass Co., Ltd.，代码300395", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "新浪财经（上市公告书）", "title": "湖北菲利华石英玻璃股份有限公司首次公开发行股票并在创业板上市之上市公告书", "url": "http://vip.stock.finance.sina.com.cn/corp/view/vISSUE_MarketBulletinDetail.php?stockid=300395&id=1503127", "publish_date": "2014-09", "data_year": "2026", "metric": "上市状态", "caliber": "2014-09-10深交所创业板上市，代码300395", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["西安奕材"],
+   "entity_decision": "确认为独立实体：西安奕斯伟材料科技股份有限公司（ESWIN Material），2025-10-28上交所科创板上市（未盈利标识-U），代码688783；'奕斯伟材料'为其通行称谓，控股股东为北京奕斯伟科技集团",
+   "company_id": "ESWINMAT",
+   "name_cn": "西安奕斯伟材料科技股份有限公司",
+   "name_en": "Xi'an ESWIN Material Technology Co., Ltd.",
+   "short_name": "西安奕材",
+   "aliases": ["奕斯伟材料", "西安奕材-U"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688783", "market": "A股", "exchange": "SSE", "ticker": "688783.SH", "primary": true, "provider_symbols": {"tencent": "sh688783"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "关于西安奕斯伟材料科技股份有限公司人民币普通股股票科创板上市交易的公告", "url": "http://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20251024_10795815.shtml", "publish_date": "2025-10-24", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2025-10-28科创板上市，证券简称西安奕材，证券代码688783", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经（上市公告书）", "title": "西安奕材：首次公开发行股票科创板上市公告书", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=&id=11529970", "publish_date": "2025-10", "data_year": "2026", "metric": "中英文全称", "caliber": "Xi'an ESWIN Material Technology Co., Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": "上市时带-U未盈利标识"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["路维光电"],
+   "entity_decision": "确认为独立实体：深圳市路维光电股份有限公司（Newway），上交所科创板上市，代码688401",
+   "company_id": "NEWWAY",
+   "name_cn": "深圳市路维光电股份有限公司",
+   "name_en": "Shenzhen Newway Photomask Making Co., Ltd.",
+   "short_name": "路维光电",
+   "aliases": ["Newway"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688401", "market": "A股", "exchange": "SSE", "ticker": "688401.SH", "primary": true, "provider_symbols": {"tencent": "sh688401"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（科创板上市公告书）", "title": "路维光电：首次公开发行股票科创板上市公告书", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688401&id=8422518", "publish_date": "2022-08", "data_year": "2026", "metric": "上市状态与代码", "caliber": "深圳市路维光电股份有限公司 / Shenzhen Newway Photomask Making Co., Ltd.，代码688401", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "东方财富网", "title": "路维光电股票数据资料", "url": "https://data.eastmoney.com/stockdata/688401.html", "publish_date": "", "data_year": "2026", "metric": "上市状态佐证", "caliber": "688401科创板在交易状态", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["迈为股份"],
+   "entity_decision": "确认为独立实体：苏州迈为科技股份有限公司（Maxwell），深交所创业板上市，代码300751",
+   "company_id": "MAXWELL",
+   "name_cn": "苏州迈为科技股份有限公司",
+   "name_en": "Suzhou Maxwell Technologies Co., Ltd.",
+   "short_name": "迈为股份",
+   "aliases": ["Maxwell", "迈为科技"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300751", "market": "A股", "exchange": "SZSE", "ticker": "300751.SZ", "primary": true, "provider_symbols": {"tencent": "sz300751"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（上市公告书）", "title": "迈为股份：首次公开发行股票并在创业板上市上市公告书", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=300751&id=4859679", "publish_date": "2018-11", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2018-11-09深交所创业板上市，代码300751，Suzhou Maxwell Technologies Co., Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["金宏气体"],
+   "entity_decision": "确认为独立实体：苏州金宏气体股份有限公司，上交所科创板上市，代码688106",
+   "company_id": "JINHONGGAS",
+   "name_cn": "苏州金宏气体股份有限公司",
+   "name_en": "Suzhou Jinhong Gas Co., Ltd.",
+   "short_name": "金宏气体",
+   "aliases": ["金宏"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688106", "market": "A股", "exchange": "SSE", "ticker": "688106.SH", "primary": true, "provider_symbols": {"tencent": "sh688106"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（科创板上市公告书）", "title": "金宏气体首次公开发行股票科创板上市公告书", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688106&id=6367135", "publish_date": "2020-06-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2020-06-16上交所科创板上市，代码688106，Suzhou Jinhong Gas Co.,Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["金海通"],
+   "entity_decision": "确认为独立实体：天津金海通半导体设备股份有限公司（JHT Design），上交所主板上市，代码603061",
+   "company_id": "JHT",
+   "name_cn": "天津金海通半导体设备股份有限公司",
+   "name_en": "JHT Design Co., Ltd.",
+   "short_name": "金海通",
+   "aliases": ["JHT"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:603061", "market": "A股", "exchange": "SSE", "ticker": "603061.SH", "primary": true, "provider_symbols": {"tencent": "sh603061"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所", "title": "关于天津金海通半导体设备股份有限公司人民币普通股股票上市交易的公告", "url": "http://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20230302_88522660.shtml", "publish_date": "2023-03-02", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2023-03-03上交所主板上市，证券简称金海通，证券代码603061", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "中财网（可转债募集说明书申报稿）", "title": "天津金海通半导体设备股份有限公司向不特定对象发行可转换公司债券募集说明书（申报稿）", "url": "https://cfi.cn/p20260730000651.html?client=phone", "publish_date": "2026-07-30", "data_year": "2026", "metric": "中英文全称", "caliber": "英文名称 JHT Design Co.,Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["隆华科技"],
+   "entity_decision": "确认为独立实体：隆华科技集团（洛阳）股份有限公司，深交所创业板上市，代码300263；'四丰电子/晶联光电'为其全资子公司（洛阳高新四丰电子材料有限公司、广西晶联光电材料有限责任公司），不构成独立上市实体",
+   "company_id": "LONGHUA",
+   "name_cn": "隆华科技集团（洛阳）股份有限公司",
+   "name_en": "Longhua Technology Group (Luoyang) Co., Ltd.",
+   "short_name": "隆华科技",
+   "aliases": ["隆华节能"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300263", "market": "A股", "exchange": "SZSE", "ticker": "300263.SZ", "primary": true, "provider_symbols": {"tencent": "sz300263"}}
+   ],
+   "evidence": [
+    {"org": "证券之星（公司2022年年度报告）", "title": "隆华科技：2022年年度报告", "url": "https://stock.stockstar.com/notice/SN2023041400028850.shtml", "publish_date": "2023-04-15", "data_year": "2026", "metric": "中英文全称与代码", "caliber": "隆华科技集团（洛阳）股份有限公司 / Longhua Technology Group（LuoYang）Co.,Ltd.，代码300263", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "投资界", "title": "隆华科技集团(洛阳)股份有限公司", "url": "https://vc.pedaily.cn/stock/3139.html", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "2011年深交所上市，股票代码300263；旗下含四丰电子、晶联光电等子公司", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["雅克科技"],
+   "entity_decision": "确认为独立实体：江苏雅克科技股份有限公司（Yoke），深交所主板（原中小板）上市，代码002409",
+   "company_id": "YOKE",
+   "name_cn": "江苏雅克科技股份有限公司",
+   "name_en": "Jiangsu Yoke Technology Co., Ltd.",
+   "short_name": "雅克科技",
+   "aliases": ["Yoke", "Yoke Technology"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:002409", "market": "A股", "exchange": "SZSE", "ticker": "002409.SZ", "primary": true, "provider_symbols": {"tencent": "sz002409"}}
+   ],
+   "evidence": [
+    {"org": "新浪财经（公司公告：非公开发行上市公告书）", "title": "江苏雅克科技股份有限公司非公开发行股票发行情况暨上市公告书", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=002409&id=7531321", "publish_date": "", "data_year": "2026", "metric": "中英文全称与代码", "caliber": "英文名称 Jiangsu Yoke Technology Co., Ltd.；2010-05-25深交所上市，代码002409", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "东方财富F10", "title": "雅克科技(002409.SZ)公司概况", "url": "https://emweb.eastmoney.com/PC_HSF10/CompanySurvey/Index?type=soft&code=SZ002409", "publish_date": "", "data_year": "2026", "metric": "上市状态佐证", "caliber": "深交所主板A股，上市交易所深圳证券交易所", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["青禾晶元"],
+   "entity_decision": "确认为独立实体：青禾晶元半导体科技（集团）有限责任公司（原北京青禾晶元半导体科技有限责任公司，2025年1月迁址天津滨海高新区并更名，为上市主体）；计划2027年申报上市，截至2026-10-15未上市",
+   "company_id": "QHJY",
+   "name_cn": "青禾晶元半导体科技（集团）有限责任公司",
+   "name_en": "",
+   "short_name": "青禾晶元",
+   "aliases": ["北京青禾晶元半导体科技有限责任公司"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "SEMI大半导体产业网", "title": "青禾晶元总部落户天津", "url": "https://www.semi.org.cn/site/semi/article/71446d788db34c98af85c83ff8874880.html", "publish_date": "2025-01-09", "data_year": "2026", "metric": "主体身份与上市计划", "caliber": "迁址天津并更名为青禾晶元半导体科技（集团）有限责任公司作为上市主体，计划2027年申报上市", "region": "中国", "type": "行业媒体", "level": "B", "remark": ""},
+    {"org": "新浪财经", "title": "青禾晶元总部落户天津，将陆续建设键合设备二期扩产线", "url": "https://finance.sina.com.cn/roll/2025-01-09/doc-ineeixvc7313248.shtml", "publish_date": "2025-01-09", "data_year": "2026", "metric": "未上市状态", "caliber": "2024年10月完成超4.5亿元融资，拟2027年申报上市", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "法定英文名未获官方确认；上市计划推进中，需滚动复核"
+  },
+  {
+   "source_keys": ["飞凯材料"],
+   "entity_decision": "确认为独立实体：上海飞凯材料科技股份有限公司（PhiChem），深交所创业板上市，代码300398",
+   "company_id": "PHICHEM",
+   "name_cn": "上海飞凯材料科技股份有限公司",
+   "name_en": "PhiChem Corporation",
+   "short_name": "飞凯材料",
+   "aliases": ["PhiChem", "飞凯光电材料"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300398", "market": "A股", "exchange": "SZSE", "ticker": "300398.SZ", "primary": true, "provider_symbols": {"tencent": "sz300398"}}
+   ],
+   "evidence": [
+    {"org": "证券之星", "title": "上海飞凯材料科技股份有限公司简介（飞凯材料300398）", "url": "http://stock.quote.stockstar.com/corp/brief_300398.shtml", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "深交所创业板A股，上市日期2014-09-24，代码300398", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "查股网（通达信F10口径）", "title": "飞凯材料(300398)简介公司概况", "url": "http://ddx.gubit.cn/mango/introduction/300398.html", "publish_date": "2025-08-09", "data_year": "2026", "metric": "中英文全称", "caliber": "英文全称 PhiChem Corporation", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["鼎龙股份"],
+   "entity_decision": "确认为独立实体：湖北鼎龙控股股份有限公司，深交所创业板上市（300054），为主上市地；2026-07-06已向香港联交所主板递交H股上市申请，截至2026-10-15未见H股挂牌，暂列A股单一上市",
+   "company_id": "DINGLONG",
+   "name_cn": "湖北鼎龙控股股份有限公司",
+   "name_en": "Hubei Dinglong Co., Ltd.",
+   "short_name": "鼎龙股份",
+   "aliases": ["鼎龙控股", "湖北鼎龙化学股份有限公司"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SZSE:300054", "market": "A股", "exchange": "SZSE", "ticker": "300054.SZ", "primary": true, "provider_symbols": {"tencent": "sz300054"}}
+   ],
+   "evidence": [
+    {"org": "巨潮资讯网（招商证券核查文件）", "title": "招商证券关于湖北鼎龙控股股份有限公司相关核查意见（公司英文名称页）", "url": "http://static.cninfo.com.cn/finalpage/2024-09-26/1221292436.PDF", "publish_date": "2024-09-26", "data_year": "2026", "metric": "中英文全称与代码", "caliber": "公司英文名称 Hubei Dinglong CO., Ltd.，深交所上市，代码300054", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "巨潮资讯网（公司公告）", "title": "湖北鼎龙控股股份有限公司关于向香港联交所递交H股发行上市申请并刊发申请资料的公告", "url": "http://static.cninfo.com.cn/finalpage/2026-07-07/1225412087.PDF", "publish_date": "2026-07-07", "data_year": "2026", "metric": "多地上市进展", "caliber": "2026-07-06向港交所主板递交H股上市申请，尚在审核流程，未挂牌", "region": "中国", "type": "交易所", "level": "A", "remark": "H股若挂牌需补充HKEX listing"}
+   ],
+   "confidence": "high",
+   "unresolved": "H股申请审核中，若完成挂牌需补录港交所listing；英文全称以最新年报口径复核"
+  },
+  {
+   "source_keys": ["龙图光罩"],
+   "entity_decision": "确认为独立实体：深圳市龙图光罩股份有限公司（STARMASK），上交所科创板上市，代码688721",
+   "company_id": "STARMASK",
+   "name_cn": "深圳市龙图光罩股份有限公司",
+   "name_en": "Shenzhen Longtu Photomask Co., Ltd.",
+   "short_name": "龙图光罩",
+   "aliases": ["STARMASK"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688721", "market": "A股", "exchange": "SSE", "ticker": "688721.SH", "primary": true, "provider_symbols": {"tencent": "sh688721"}}
+   ],
+   "evidence": [
+    {"org": "上海证券交易所科创板", "title": "深圳市龙图光罩股份有限公司 688721", "url": "https://www.sse.com.cn/star/market/stocklist/info/company/index.shtml?COMPANY_CODE=688721", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "上市日2024-08-06，公司简称龙图光罩/STARMASK，全称 SHENZHEN LONGTU PHOTOMASK CO., LTD.", "region": "中国", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "新浪财经（上市公告书）", "title": "龙图光罩：首次公开发行股票科创板上市公告书", "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688721&id=10359310", "publish_date": "2024-08-05", "data_year": "2026", "metric": "上市状态佐证", "caliber": "2024-08-06科创板上市，代码688721", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["MATTSON"],
+   "entity_decision": "合并归一：屹唐半导体与Mattson为同一上市主体——北京屹唐半导体科技股份有限公司（2025-07-08科创板上市，688729）；Mattson Technology为屹唐2015-2016年收购的美国子公司品牌，不单独上市",
+   "company_id": "ETOWNSEMI",
+   "name_cn": "北京屹唐半导体科技股份有限公司",
+   "name_en": "Beijing E-Town Semiconductor Technology Co., Ltd.",
+   "short_name": "屹唐股份",
+   "aliases": ["屹唐半导体", "Mattson", "Mattson Technology", "屹唐"],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SSE:688729", "market": "A股", "exchange": "SSE", "ticker": "688729.SH", "primary": true, "provider_symbols": {"tencent": "sh688729"}}
+   ],
+   "evidence": [
+    {"org": "东方财富（转载上交所上市公告）", "title": "关于北京屹唐半导体科技股份有限公司人民币普通股股票科创板上市交易的公告", "url": "https://data.eastmoney.com/notices/detail/688729/AN202507071704398354.html", "publish_date": "2025-07-07", "data_year": "2026", "metric": "上市状态与代码", "caliber": "上证公告（股票）[2025]20号：2025-07-08科创板上市，证券简称屹唐股份，证券代码688729", "region": "中国", "type": "财经数据站", "level": "B", "remark": "系上交所公告转载件"},
+    {"org": "新浪财经（招股说明书注册稿）", "title": "北京屹唐半导体科技股份有限公司科创板首次公开发行股票招股说明书（注册稿）", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688729&id=10783454", "publish_date": "2025-03", "data_year": "2026", "metric": "中英文全称", "caliber": "英文名称 Beijing E-Town Semiconductor Technology Co., Ltd.", "region": "中国", "type": "财经数据站", "level": "B", "remark": "Mattson Technology（MTI）为其收购的美国子公司"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SMEE"],
+   "entity_decision": "确认为独立实体：上海微电子装备（集团）股份有限公司（SMEE，光刻机整机）；股份有限公司（非上市、国有控股），曾进行科创板IPO辅导后于2024年撤回，截至2026-10-15未上市",
+   "company_id": "SMEE",
+   "name_cn": "上海微电子装备（集团）股份有限公司",
+   "name_en": "Shanghai Micro Electronics Equipment (Group) Co., Ltd.",
+   "short_name": "上海微电子",
+   "aliases": ["SMEE", "上海微电子装备"],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "亿欧数据", "title": "SMEE_上海微电子装备（集团）股份有限公司", "url": "https://data.iyiou.com/company/details/be42d01f590761dc06308bc8201e5c8d/profile", "publish_date": "2026-06-20", "data_year": "2026", "metric": "主体身份与未上市状态", "caliber": "企业全称上海微电子装备（集团）股份有限公司，简称SMEE，运营中，融资阶段A轮，未上市", "region": "中国", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "给力讯息（工商信息聚合）", "title": "上海微电子装备（集团）股份有限公司工商信息", "url": "https://www.datauseful.com/company/1885731552599724663.html", "publish_date": "2025-03-27", "data_year": "2026", "metric": "工商状态", "caliber": "企业类型：股份有限公司(非上市、国有控股)，统一社会信用代码91310000736664790J", "region": "中国", "type": "财经数据站", "level": "B", "remark": "2024年10月撤回科创板IPO辅导，借壳传闻未经证实"}
+   ],
+   "confidence": "high",
+   "unresolved": "资本运作路径（借壳/分拆）存在市场传闻，未经官方确认"
+  }
+ ]
+}

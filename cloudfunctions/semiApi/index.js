@@ -96,7 +96,7 @@ exports.main=async function(event) {
     const db=app.database();const query=event.queryStringParameters || event.queryString || {};
     if(method==='GET'&&requestedPath.endsWith('/api/quotes')) {
       const symbols=String(query.symbols || Object.keys(SYMBOLS).join(',')).split(',');
-      if(symbols.length>3 || symbols.some(s=>!SYMBOLS[s]))throw httpError(400,'目前仅支持三只测试证券。');
+      if(symbols.length>Object.keys(SYMBOLS).length || symbols.some(s=>!SYMBOLS[s]))throw httpError(400,'仅支持注册表内证券（当前 '+Object.keys(SYMBOLS).length+' 只）。');
       return response(event,200,{quotes:await quotesFor(db,[...new Set(symbols)]),refresh_interval_seconds:3600});
     }
     if(method==='POST'&&requestedPath.endsWith('/api/reports')) {

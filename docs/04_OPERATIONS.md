@@ -22,6 +22,8 @@ python -m http.server 8000 --directory "02 交付/半导体装备与材料产业
 
 ## 发布网页与函数代码
 
+当前发布桥直接使用官方 MCP 的 JSON-RPC stdio，不依赖 mcporter 常驻守护进程；仓库外的 `CLOUDBASE_MCP_CONFIG` 配置仍兼容。字体准备包含 Noto Sans 中文及 Hangul 字形，网页子集由 `python tools/build_web_fonts.py` 从当前正式数据重建。
+
 先阅读用户提供的CloudBase实战手册；它是本项目资源分离和部署操作的优先依据。工具通过本机MCP登录态操作，不读写明文密钥。若使用自定义mcporter配置，可在本机设置CLOUDBASE_MCP_CONFIG指向仓库外文件。
 
 ```powershell
@@ -47,9 +49,9 @@ python -m tools.deploy_cloudbase --env teyvat-1-d8g0sba0a7e30225d --site --funct
 {"action":"invokeFunction","functionName":"syncQuotes","params":{}}
 ```
 
-运行`python -m tools.cloudbase_mcp manageFunctions --arguments .local/invoke-sync.json`。输出只显示概要，MCP里检查ok和三只证券的provider/status/quote_time/fetched_at。勿把完整日志、环境变量或临时凭证提交。
+运行`python -m tools.cloudbase_mcp manageFunctions --arguments .local/invoke-sync.json`。输出只显示概要，MCP里检查 ok 及注册表全部 96 只证券的 provider/status/quote_time/fetched_at。注册表由正式 listings 生成，勿把完整日志、环境变量或临时凭证提交。
 
-用浏览器打开公司库的“行情试运行”，或请求本项目`apiBase + /api/quotes`。正常价格必须大于0；人民币/港元/美元分别显示。每小时固定:05触发，CloudBase七段表达式为`0 5 * * * * *`。用queryFunctions/listFunctionTriggers确认存在semiHourlyQuotes。
+用浏览器打开公司库行情列，或请求本项目`apiBase + /api/quotes`（默认全部注册证券）。正常价格必须大于0；人民币/港元/美元分别显示。每小时固定:05触发，CloudBase七段表达式为`0 5 * * * * *`。用queryFunctions/listFunctionTriggers确认存在semiHourlyQuotes。
 
 QUOTE_PROVIDERS可设置`Tencent,EastMoney`或`EastMoney,Tencent`，更改时合并既有环境变量。当前环境优先腾讯；东方财富云端连接尚受限。本轮真实触发已验证东方财富失败后自动切到腾讯。完整节假日日历未接入，特殊休市状态需人工解释。
 

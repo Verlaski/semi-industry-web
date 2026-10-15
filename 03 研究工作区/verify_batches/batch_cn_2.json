@@ -1,0 +1,644 @@
+{
+ "batch": "batch_cn_2.json",
+ "count": 30,
+ "rows": [
+  {
+   "key": "同飞股份",
+   "name_cn": "同飞股份",
+   "name_en": "",
+   "raw_names": [
+    "同飞股份(300990)"
+   ],
+   "cn_variants": [
+    "同飞股份"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "300990"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "吾拾微",
+   "name_cn": "吾拾微",
+   "name_en": "",
+   "raw_names": [
+    "吾拾微"
+   ],
+   "cn_variants": [
+    "吾拾微"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "和研科技",
+   "name_cn": "和研科技",
+   "name_en": "",
+   "raw_names": [
+    "和研科技"
+   ],
+   "cn_variants": [
+    "和研科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "国科精密",
+   "name_cn": "国科精密",
+   "name_en": "",
+   "raw_names": [
+    "国科精密(未上市)"
+   ],
+   "cn_variants": [
+    "国科精密"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "未上市"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "奥特维",
+   "name_cn": "奥特维",
+   "name_en": "",
+   "raw_names": [
+    "奥特维"
+   ],
+   "cn_variants": [
+    "奥特维"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "宇晶股份",
+   "name_cn": "宇晶股份",
+   "name_en": "",
+   "raw_names": [
+    "宇晶股份"
+   ],
+   "cn_variants": [
+    "宇晶股份"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "安集科技",
+   "name_cn": "安集科技",
+   "name_en": "",
+   "raw_names": [
+    "安集科技"
+   ],
+   "cn_variants": [
+    "安集科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "富创精密",
+   "name_cn": "富创精密",
+   "name_en": "",
+   "raw_names": [
+    "富创精密(688409)"
+   ],
+   "cn_variants": [
+    "富创精密"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "688409"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "康强电子",
+   "name_cn": "康强电子",
+   "name_en": "",
+   "raw_names": [
+    "康强电子"
+   ],
+   "cn_variants": [
+    "康强电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "彤程新材",
+   "name_cn": "彤程新材",
+   "name_en": "",
+   "raw_names": [
+    "彤程新材（北京科华）"
+   ],
+   "cn_variants": [
+    "彤程新材"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "北京科华"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "微见智能",
+   "name_cn": "微见智能",
+   "name_en": "",
+   "raw_names": [
+    "微见智能"
+   ],
+   "cn_variants": [
+    "微见智能"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "德邦科技",
+   "name_cn": "德邦科技",
+   "name_en": "",
+   "raw_names": [
+    "德邦科技"
+   ],
+   "cn_variants": [
+    "德邦科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "德龙激光",
+   "name_cn": "德龙激光",
+   "name_en": "",
+   "raw_names": [
+    "德龙激光"
+   ],
+   "cn_variants": [
+    "德龙激光"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "恒硕科技",
+   "name_cn": "恒硕科技",
+   "name_en": "",
+   "raw_names": [
+    "恒硕科技"
+   ],
+   "cn_variants": [
+    "恒硕科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "恒运昌",
+   "name_cn": "恒运昌",
+   "name_en": "",
+   "raw_names": [
+    "恒运昌(688785)"
+   ],
+   "cn_variants": [
+    "恒运昌"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "688785"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "文一科技",
+   "name_cn": "文一科技",
+   "name_en": "",
+   "raw_names": [
+    "文一科技",
+    "文一科技（文一三佳）"
+   ],
+   "cn_variants": [
+    "文一科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "文一三佳"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "新松机器人",
+   "name_cn": "新松机器人",
+   "name_en": "",
+   "raw_names": [
+    "新松机器人(300024，新松半导体)"
+   ],
+   "cn_variants": [
+    "新松机器人"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "300024"
+   ],
+   "notes": [
+    "新松半导体"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "新莱应材",
+   "name_cn": "新莱应材",
+   "name_en": "",
+   "raw_names": [
+    "新莱应材(300260)"
+   ],
+   "cn_variants": [
+    "新莱应材"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "300260"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "旺矽科技",
+   "name_cn": "旺矽科技",
+   "name_en": "",
+   "raw_names": [
+    "旺矽科技"
+   ],
+   "cn_variants": [
+    "旺矽科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "晶瑞电材",
+   "name_cn": "晶瑞电材",
+   "name_en": "",
+   "raw_names": [
+    "晶瑞电材"
+   ],
+   "cn_variants": [
+    "晶瑞电材"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "有研新材",
+   "name_cn": "有研新材",
+   "name_en": "",
+   "raw_names": [
+    "有研新材（有研亿金）"
+   ],
+   "cn_variants": [
+    "有研新材"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "有研亿金"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "格朗瑞",
+   "name_cn": "格朗瑞",
+   "name_en": "",
+   "raw_names": [
+    "格朗瑞"
+   ],
+   "cn_variants": [
+    "格朗瑞"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "汉钟精机",
+   "name_cn": "汉钟精机",
+   "name_en": "",
+   "raw_names": [
+    "汉钟精机(002158)"
+   ],
+   "cn_variants": [
+    "汉钟精机"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "002158"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "江丰电子",
+   "name_cn": "江丰电子",
+   "name_en": "",
+   "raw_names": [
+    "江丰电子"
+   ],
+   "cn_variants": [
+    "江丰电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "江化微",
+   "name_cn": "江化微",
+   "name_en": "",
+   "raw_names": [
+    "江化微"
+   ],
+   "cn_variants": [
+    "江化微"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "沪硅产业",
+   "name_cn": "沪硅产业",
+   "name_en": "",
+   "raw_names": [
+    "沪硅产业"
+   ],
+   "cn_variants": [
+    "沪硅产业"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "河北中瓷",
+   "name_cn": "河北中瓷",
+   "name_en": "",
+   "raw_names": [
+    "河北中瓷（中电科13所）"
+   ],
+   "cn_variants": [
+    "河北中瓷"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "中电科13所"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "深南电路",
+   "name_cn": "深南电路",
+   "name_en": "",
+   "raw_names": [
+    "深南电路"
+   ],
+   "cn_variants": [
+    "深南电路"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "清溢光电",
+   "name_cn": "清溢光电",
+   "name_en": "",
+   "raw_names": [
+    "清溢光电"
+   ],
+   "cn_variants": [
+    "清溢光电"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "潮州三环",
+   "name_cn": "潮州三环",
+   "name_en": "",
+   "raw_names": [
+    "潮州三环"
+   ],
+   "cn_variants": [
+    "潮州三环"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  }
+ ]
+}

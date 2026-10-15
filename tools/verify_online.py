@@ -27,7 +27,7 @@ def main():
     html = html.decode("utf-8")
     assets = re.findall(r'(?:src|href)="(assets/[^\"]+)"', html)
     resources = []
-    for resource in assets + ["data/" + name + ".json" for name in ("meta", "equipment", "materials", "sources")] + ["assets/发布校验.txt"]:
+    for resource in assets + ["data/" + name + ".json" for name in ("meta", "equipment", "materials", "sources", "companies")] + ["assets/发布校验.txt"]:
         url = urllib.parse.urljoin(site, urllib.parse.quote(resource, safe="/.-"))
         status, mime, content = request(url)
         expected = "application/json" if resource.endswith(".json") else "text/css" if resource.endswith(".css") else "text/plain" if resource.endswith(".txt") else None
@@ -40,7 +40,14 @@ def main():
     assert status == 200 and health["ok"], "服务健康检查失败"
     status, _, body = request(api + "/api/quotes")
     quotes = json.loads(body)["quotes"]
-    assert status == 200 and len(quotes) == 3 and all(q["price"] and q["price"] > 0 and q["quote_time"] and q["fetched_at"] for q in quotes), "三股行情异常"
+    companies = json.loads((ROOT / "02 交付/半导体装备与材料产业图谱/data/companies.json").read_text(encoding="utf-8"))["companies"]
+    supported = {listing["ticker"] for company in companies for listing in company.get("listings", [])
+                 if re.search(r"\.(SH|SZ|BJ|HK|US)$", listing.get("ticker", ""))}
+    assert status == 200 and len(quotes) == len(supported) and {q["symbol"] for q in quotes} == supported, "行情注册表覆盖不一致"
+    assert all(q["price"] and q["price"] > 0 and q["quote_time"] and q["fetched_at"] for q in quotes), "部分证券行情不可用"
+    from reporting.data_provider import ReportDataProvider
+    expected_version = ReportDataProvider(ROOT / "02 交付/半导体装备与材料产业图谱/data").snapshot()["data_version"]
+    assert health["data_version"] == expected_version, "云端API数据版本未更新"
     assert request(api + "/api/quotes?symbols=UNKNOWN")[0] == 400
     reports = []
     output = ROOT / "output/pdf"
@@ -50,6 +57,7 @@ def main():
         status, _, body = request(api + "/api/reports", payload)
         assert status == 200, "报告生成失败：" + kind
         report = json.loads(body)
+        assert report["data_version"] == expected_version, "PDF与API数据版本不一致"
         status, mime, binary = request(report["download_url"])
         assert status == 200 and mime == "application/pdf" and binary.startswith(b"%PDF-"), "PDF下载异常：" + kind
         (output / ("cloud-" + kind + ".pdf")).write_bytes(binary)

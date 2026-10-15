@@ -6,6 +6,9 @@ import os
 import shutil
 import subprocess
 import tempfile
+import queue
+import threading
+import time
 
 
 def runtime():
@@ -28,14 +31,75 @@ def runtime():
 
 
 def call(tool, arguments):
-    result = subprocess.run(runtime() + ["call", "cloudbase." + tool, "--args", json.dumps(arguments, ensure_ascii=False), "--timeout", "240000", "--output", "json"],
-                            capture_output=True, encoding="utf-8", timeout=250)
-    if result.returncode:
-        raise RuntimeError("CloudBase调用失败；请在MCP查看登录或参数错误，未输出可能含敏感信息的原始响应")
-    payload = json.loads(result.stdout)
+    # 直接使用官方MCP的标准stdio协议，避免共享mcporter守护进程故障阻断发布。
+    config = json.loads(Path(runtime()[3]).read_text(encoding="utf-8"))["mcpServers"]["cloudbase"]
+    command = [config["command"], *config.get("args", [])]
+    env = {**os.environ, **config.get("env", {})}
+    payload = stdio_call(command, env, tool, arguments)
     if payload.get("success") is False:
-        raise RuntimeError(payload.get("message", "CloudBase操作失败"))
+        raise RuntimeError("CloudBase操作失败；请检查工具状态，原始响应未输出")
     return payload
+
+
+def stdio_call(command, env, tool, arguments, timeout=250):
+    process = subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
+                               text=True, encoding="utf-8", env=env)
+    messages = queue.Queue()
+
+    def read():
+        for line in process.stdout:
+            try:
+                messages.put(json.loads(line))
+            except json.JSONDecodeError:
+                pass  # 官方进程可能含非协议启动提示；绝不回显原始输出。
+        messages.put(None)
+
+    threading.Thread(target=read, daemon=True).start()
+
+    def send(message):
+        process.stdin.write(json.dumps(message, ensure_ascii=False) + "\n")
+        process.stdin.flush()
+
+    def request(identifier, method, params):
+        send({"jsonrpc": "2.0", "id": identifier, "method": method, "params": params})
+        deadline = time.monotonic() + timeout
+        while True:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise RuntimeError("CloudBase MCP请求超时")
+            try:
+                message = messages.get(timeout=remaining)
+            except queue.Empty:
+                raise RuntimeError("CloudBase MCP请求超时") from None
+            if message is None:
+                raise RuntimeError("CloudBase MCP进程提前退出")
+            if message.get("id") == identifier:
+                if "error" in message:
+                    raise RuntimeError("CloudBase MCP协议请求失败，原始响应未输出")
+                return message["result"]
+
+    try:
+        request(1, "initialize", {"protocolVersion": "2024-11-05", "capabilities": {},
+                                 "clientInfo": {"name": "semi-industry-release", "version": "1.1"}})
+        send({"jsonrpc": "2.0", "method": "notifications/initialized"})
+        result = request(2, "tools/call", {"name": tool, "arguments": arguments})
+        if result.get("isError"):
+            raise RuntimeError("CloudBase工具执行失败，原始响应未输出")
+        if isinstance(result.get("structuredContent"), dict):
+            return result["structuredContent"]
+        texts = [item["text"] for item in result.get("content", []) if item.get("type") == "text"]
+        if len(texts) != 1:
+            raise RuntimeError("CloudBase工具响应格式异常")
+        return json.loads(texts[0])
+    finally:
+        process.terminate()
+        try:
+            process.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait()
+        process.stdin.close()
+        process.stdout.close()
 
 
 if __name__ == "__main__":

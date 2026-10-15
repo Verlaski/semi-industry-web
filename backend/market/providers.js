@@ -1,9 +1,7 @@
 'use strict';
-const SYMBOLS = Object.freeze({
-  '688012.SH':{name:'中微公司',market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'1.688012',tencent:'sh688012'},
-  '00522.HK':{name:'ASMPT',market:'港股',currency:'HKD',zone:'Asia/Hong_Kong',eastmoney:'116.00522',tencent:'hk00522'},
-  'AMAT.US':{name:'Applied Materials',market:'美股',currency:'USD',zone:'America/New_York',eastmoney:'105.AMAT',tencent:'usAMAT'}
-});
+// 证券注册表由 tools/build_quote_registry.py 依据正式公司主表 companies.json 生成，
+// 手工改动会被下次生成覆盖；listing_id 为正式公司主表上市身份外键。
+const SYMBOLS = Object.freeze(require('./symbols.generated.js'));
 function numeric(value) {if(value===null||value===undefined||value===''||value==='-')return null;const n=Number(value);return Number.isFinite(n)?n:null;}
 function localTimeISO(text,zone) {
   const parts=text.replace(/\D/g,'').match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})$/);
@@ -59,7 +57,7 @@ class TencentProvider extends MarketDataProvider {
     const id=SYMBOLS[symbol].tencent;
     const match=new RegExp('v_'+id+'="([^"]+)"').exec(text);if(!match)throw new Error('Tencent symbol missing');
     const a=match[1].split('~');if(a.length<46)throw new Error('Tencent payload incomplete');
-    const shareIndex=symbol.endsWith('.SH')?73:symbol.endsWith('.HK')?70:62;
+    const shareIndex=/\.(SH|SZ|BJ)$/.test(symbol)?73:symbol.endsWith('.HK')?70:62;
     const cap=value=>numeric(value)===null?null:Number((Number(value)*1e8).toFixed(2));
     return standard(symbol,{price:a[3],previous_close:a[4],quote_time:localTimeISO(a[30],SYMBOLS[symbol].zone),
       market_cap:cap(a[45]),float_market_cap:cap(a[44]),total_shares:a[shareIndex]},'Tencent',now);

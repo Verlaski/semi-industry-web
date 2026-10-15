@@ -1,0 +1,798 @@
+{
+ "batch": "batch_kr_tw_other",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": ["CHANGWAH"],
+   "entity_decision": "确认为台湾导线架厂商长华科技股份有限公司（Chang Wah Technology Co., Ltd.，CWTC），系长华电材（8070）子公司；与母公司长华电材区分",
+   "company_id": "CWTC",
+   "name_cn": "长华科技股份有限公司",
+   "name_en": "Chang Wah Technology Co., Ltd.",
+   "short_name": "长华科技",
+   "aliases": ["長華科技", "CWTC", "長科"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TPEX:6548",
+     "market": "台股",
+     "exchange": "TPEx",
+     "ticker": "6548.TWO",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "台湾经济部商工登记公示资料",
+     "title": "长华科技股份有限公司登记资料（统一编号70849957，股票代号6548，市场类别上柜）",
+     "url": "https://findbiz.nat.gov.tw/fts/company/70849957",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "法定名称与上柜代码",
+     "caliber": "公司登记公示，6548/长科*/上柜",
+     "region": "中国台湾",
+     "type": "交易所",
+     "level": "A",
+     "remark": "官方登记资料"
+    },
+    {
+     "org": "长华科技官网",
+     "title": "公司沿革：2016年9月13日挂牌上柜（股票代号6548）",
+     "url": "https://www.cwtcglobal.com/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "公司自述",
+     "region": "中国台湾",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "TradingView",
+     "title": "6548股价和图表 — TPEX:6548",
+     "url": "https://tw.tradingview.com/symbols/TPEX-6548/",
+     "publish_date": "2026-08-07",
+     "data_year": "2026",
+     "metric": "交易所归属",
+     "caliber": "TPEX:6548",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["GLOBALWAFERS"],
+   "entity_decision": "确认为环球晶圆股份有限公司，全球第三大硅晶圆供应商，台湾柜买中心上柜",
+   "company_id": "GLOBALWAFERS",
+   "name_cn": "环球晶圆股份有限公司",
+   "name_en": "GlobalWafers Co., Ltd.",
+   "short_name": "环球晶圆",
+   "aliases": ["環球晶圓", "环球晶", "GWC"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TPEX:6488",
+     "market": "台股",
+     "exchange": "TPEx",
+     "ticker": "6488.TWO",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "环球晶圆官网",
+     "title": "环球晶圆股份有限公司官网",
+     "url": "https://www.sas-globalwafers.com/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "法定名称",
+     "caliber": "公司官网",
+     "region": "中国台湾",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "TradingView",
+     "title": "6488股价和图表 — TPEX:6488（GlobalWafers Co., Ltd.）",
+     "url": "https://tw.tradingview.com/symbols/TPEX-6488/",
+     "publish_date": "2024-06-08",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "TPEX:6488",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "HiStock嗨投资",
+     "title": "环球晶(6488)公司基本资料",
+     "url": "https://histock.tw/stock/6488/公司资料",
+     "publish_date": "2026-08-29",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "6488上柜",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["NANYAPCB"],
+   "entity_decision": "确认为南亚电路板股份有限公司（台塑集团旗下IC载板/PCB厂），台湾证券交易所上市",
+   "company_id": "NANYAPCB",
+   "name_cn": "南亚电路板股份有限公司",
+   "name_en": "Nan Ya Printed Circuit Board Corporation",
+   "short_name": "南亚电路板",
+   "aliases": ["南亞電路板", "南电", "Nan Ya PCB", "NYPCB"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TWSE:8046",
+     "market": "台股",
+     "exchange": "TWSE",
+     "ticker": "8046.TW",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "南亚科技（台塑集团）新闻稿",
+     "title": "南亚电路板是在台湾证券交易所股票上市之公司，股票代号为8046",
+     "url": "https://www.nanya.com/cn/IR/16?IRId=558",
+     "publish_date": "2019-12-13",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "TWSE上市，8046",
+     "region": "中国台湾",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "台塑集团官方新闻稿"
+    },
+    {
+     "org": "钜亨网",
+     "title": "南电(8046)简介：上市日期2006/04",
+     "url": "https://www.cnyes.com/twstock/8046/company/profile",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "上市8046",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["UNIMICRON"],
+   "entity_decision": "确认为欣兴电子股份有限公司，全球IC载板龙头，台湾证券交易所上市",
+   "company_id": "UNIMICRON",
+   "name_cn": "欣兴电子股份有限公司",
+   "name_en": "Unimicron Technology Corp.",
+   "short_name": "欣兴电子",
+   "aliases": ["欣興電子", "欣兴"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TWSE:3037",
+     "market": "台股",
+     "exchange": "TWSE",
+     "ticker": "3037.TW",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Winvest（台股资料站）",
+     "title": "UNIMICRON(3037) 公司资料：TWSE上市日期2002/08/26",
+     "url": "https://winvest.tw/en/Stock/Symbol/Comment/3037",
+     "publish_date": "2026-09-24",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "TWSE:3037",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Morningstar",
+     "title": "Unimicron Technology Corp (3037) Quote",
+     "url": "https://www.morningstar.com/stocks/xtai/3037/quote",
+     "publish_date": "2026-10-14",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "XTAI:3037",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["惠特科技"],
+   "entity_decision": "确认为惠特科技股份有限公司（FitTech），LED/光电半导体测试分选设备商，台湾柜买中心上柜",
+   "company_id": "FITTECH",
+   "name_cn": "惠特科技股份有限公司",
+   "name_en": "FitTech Co., Ltd.",
+   "short_name": "惠特科技",
+   "aliases": ["FitTech", "惠特"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TPEX:6706",
+     "market": "台股",
+     "exchange": "TPEx",
+     "ticker": "6706.TWO",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "FinLab",
+     "title": "惠特(6706)：光电半导体测试与雷射微细加工设备供应商（台股上柜）",
+     "url": "https://finlab.finance/stocks/6706",
+     "publish_date": "2026-09-03",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "上柜6706",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "口袋证券",
+     "title": "惠特（6706）从LED测试龙头到矽光子/化合物半导体设备商",
+     "url": "https://www.pocket.tw/school/report/SCHOOL/6629/",
+     "publish_date": "2025-11-07",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "6706",
+     "region": "中国台湾",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["鸿劲精密"],
+   "entity_decision": "确认为鸿劲精密股份有限公司（Hon Precision, Inc.，HPI），半导体IC测试分选机（Handler）设备商，2025年11月27日转台湾证券交易所上市",
+   "company_id": "HONPREC",
+   "name_cn": "鸿劲精密股份有限公司",
+   "name_en": "Hon Precision, Inc.",
+   "short_name": "鸿劲精密",
+   "aliases": ["鴻勁精密", "鴻勁", "Hon Precision", "HPI"],
+   "country_region": "中国台湾",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TWSE:7769",
+     "market": "台股",
+     "exchange": "TWSE",
+     "ticker": "7769.TW",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "鸿劲精密官网",
+     "title": "鸿劲精密股份有限公司官网（股票代号:7769）",
+     "url": "https://www.honprec.com/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "法定名称与代码",
+     "caliber": "官网标注股票代号7769",
+     "region": "中国台湾",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "FinLab",
+     "title": "鸿劲(7769)：台湾证券交易所上市，2025/11/27转上市买卖",
+     "url": "https://finlab.finance/stocks/7769",
+     "publish_date": "2026-10-08",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "TWSE上市7769",
+     "region": "中国台湾",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["LINDE"],
+   "entity_decision": "确认为 Linde plc（林德），全球最大工业气体公司；注册于爱尔兰，主要行政办公地在英国 Woking；普通股仅在纳斯达克上市（LIN），法兰克福交易所上市已于2023年3月1日撤销，NYSE上市于2023年11月7日转至Nasdaq",
+   "company_id": "LINDE",
+   "name_cn": "林德",
+   "name_en": "Linde plc",
+   "short_name": "林德",
+   "aliases": ["Linde", "林德集团"],
+   "country_region": "爱尔兰（注册地；总部英国，业务源自德国/美国合并）",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:LIN",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "LIN",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "美国SEC（Linde 10-K披露）",
+     "title": "Linde plc shares：2023年11月7日自NYSE转至Nasdaq，沿用代码LIN",
+     "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828025007990/R23.htm",
+     "publish_date": "2025-02-01",
+     "data_year": "2026",
+     "metric": "上市交易所与代码",
+     "caliber": "10-K：NASDAQ:LIN",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": "SEC filings"
+    },
+    {
+     "org": "Linde plc 官方公告",
+     "title": "Linde Completes Delisting from Frankfurt Stock Exchange（2023-03-01生效）",
+     "url": "https://www.linde.com/news-and-media/2023/linde-plc-linde-completes-delisting-from-frankfurt-stock-exchange",
+     "publish_date": "2023-03-01",
+     "data_year": "2026",
+     "metric": "法兰克福退市",
+     "caliber": "FWB退市公告",
+     "region": "德国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "原始资料'德国/美国'双地区系历史渊源（普莱克斯+林德AG合并），现法律主体注册于爱尔兰、仅美股上市"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["ASMPT"],
+   "entity_decision": "确认为 ASMPT Limited（原 ASM Pacific Technology，2022年更名）；注册于开曼群岛，总部新加坡，香港联交所主板上市（00522），1989年上市",
+   "company_id": "ASMPT",
+   "name_cn": "",
+   "name_en": "ASMPT Limited",
+   "short_name": "ASMPT",
+   "aliases": ["ASM Pacific Technology", "ASMPT Ltd"],
+   "country_region": "新加坡（总部；注册于开曼群岛）",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HKEX:00522",
+     "market": "港股",
+     "exchange": "HKEX",
+     "ticker": "00522.HK",
+     "primary": true,
+     "provider_symbols": {"tencent": "hk00522"}
+    }
+   ],
+   "evidence": [
+    {
+     "org": "ASMPT Limited（港交所披露易文件）",
+     "title": "ASMPT Limited, incorporated in the Cayman Islands, listed on the Main Board of the Stock Exchange (Stock Code: 0522)",
+     "url": "https://www.asmpt.com/site/assets/files/63065/e_00522cir-20230329.pdf",
+     "publish_date": "2023-03-29",
+     "data_year": "2026",
+     "metric": "注册地与上市代码",
+     "caliber": "公司公告",
+     "region": "中国香港",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Morningstar",
+     "title": "ASMPT Ltd (00522)：Listed on the Hong Kong Stock Exchange since 1989, headquartered in Singapore",
+     "url": "https://www.morningstar.com/stocks/xhkg/00522/quote",
+     "publish_date": "2026-10-15",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "XHKG:00522",
+     "region": "中国香港",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "早期曾在新加坡交易所挂牌之历史线索未核验其当前状态，未列入多地上市"
+  },
+  {
+   "source_keys": ["HAESUNGDS"],
+   "entity_decision": "确认为韩国 HAESUNG DS Co., Ltd.（해성디에스），半导体引线框架与封装基板厂商，韩国交易所KOSPI上市",
+   "company_id": "HAESUNGDS",
+   "name_cn": "",
+   "name_en": "HAESUNG DS Co., Ltd.",
+   "short_name": "Haesung DS",
+   "aliases": ["해성디에스"],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KRX:195870",
+     "market": "韩股",
+     "exchange": "KRX",
+     "ticker": "195870.KS",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Morningstar",
+     "title": "Haesung DS Co Ltd (195870) Quote - XKRX",
+     "url": "https://www.morningstar.com/stocks/xkrx/195870/quote",
+     "publish_date": "2026-07-16",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KRX:195870",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Simply Wall St",
+     "title": "HAESUNG DS (KOSE:A195870)",
+     "url": "https://simplywall.st/ko/stocks/kr/semiconductors/kose-a195870/haesung-ds-shares",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "交易所板块",
+     "caliber": "KOSE=KOSPI",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "KOSPI板块"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": ["HANAMATERIALS"],
+   "entity_decision": "确认为韩国 Hana Materials Inc.（하나머티리얼즈，前身 Hana Silicon），半导体硅电极/硅环等耗材厂商，KOSDAQ上市",
+   "company_id": "HANAMAT",
+   "name_cn": "",
+   "name_en": "Hana Materials Inc.",
+   "short_name": "Hana Materials",
+   "aliases": ["하나머티리얼즈", "Hana Silicon"],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KRX:166090",
+     "market": "韩股",
+     "exchange": "KRX",
+     "ticker": "166090.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "维基百科（韩语）",
+     "title": "하나머티리얼즈 주식회사：KOSDAQ 166090，前身 하나실리콘텍",
+     "url": "https://ko.wikipedia.org/wiki/하나머티리얼즈",
+     "publish_date": "2024-02-05",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ 166090",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Yahoo Finance",
+     "title": "Hana Materials Inc. (166090.KQ)",
+     "url": "https://finance.yahoo.com/quote/166090.KQ/",
+     "publish_date": "2026-09-23",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "166090.KQ",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": ["HANWHA"],
+   "entity_decision": "原始条目仅为'韩华(Hanwha)'，按本批半导体设备语境推断为 Hanwha Semitech Co., Ltd.（韩华半导体设备，原 Hanwha Precision Machinery，2025年2月更名）：2024年8月自 Hanwha Aerospace 分拆，现为韩华集团旗下非上市子公司；其上层新控股公司 Hanwha M&S（한화머시너리앤서비스홀딩스）于2026年8月25日在韩国交易所主板上市",
+   "company_id": "HANWHA_SEMITECH",
+   "name_cn": "韩华半导体设备",
+   "name_en": "Hanwha Semitech Co., Ltd.",
+   "short_name": "Hanwha Semitech",
+   "aliases": ["Hanwha Precision Machinery", "한화세미텍", "한화정밀기계"],
+   "country_region": "韩国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Hanwha Group 官网",
+     "title": "Hanwha Semitech 公司介绍（原 Hanwha Precision Machinery，2025年2月更名）",
+     "url": "https://www.hanwha.com/companies/hanwha-semitech.do",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司主体与沿革",
+     "caliber": "集团官网",
+     "region": "韩国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Reuters",
+     "title": "Hanwha Aerospace to spin off semiconductor equipment unit（2024年4月公告分拆，2024年8月生效）",
+     "url": "https://www.reuters.com/markets/asia/hanwha-aerospace-spin-off-semiconductor-equipment-unit-2024-04-05/",
+     "publish_date": "2024-04-05",
+     "data_year": "2026",
+     "metric": "分拆与归属",
+     "caliber": "新闻通讯社",
+     "region": "韩国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Hanwha Group 官网新闻",
+     "title": "Hanwha M&S launches as new holding company；2026年8月25日韩国交易所上市",
+     "url": "https://www.hanwha.com/newsroom/news/press-releases/hanwha-machinery-service-holdings-launches-opening-a-new-chapter-for-tech-life-solutions.do",
+     "publish_date": "2026-08-06",
+     "data_year": "2026",
+     "metric": "上层控股公司上市",
+     "caliber": "集团新闻稿",
+     "region": "韩国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "Hanwha M&S 股票代码未核验，未列入 listings"
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "原始条目'韩华'指代主体无法完全确证（亦可能指 Hanwha Corporation 000880.KS 或 Hanwha Solutions 009830.KS 等上市主体）；按本批设备语境暂定为 Hanwha Semitech，待上游口径确认"
+  },
+  {
+   "source_keys": ["MKE"],
+   "entity_decision": "确认为韩国 MK Electron Co., Ltd.（엠케이전자），半导体键合丝（bonding wire）与焊球厂商，KOSDAQ上市（033160）；'铭凯益'为其在华中文名线索（天津子公司铭凯益电子），母公司在韩英文法定名为 MK Electron",
+   "company_id": "MKELECTRON",
+   "name_cn": "铭凯益",
+   "name_en": "MK Electron Co., Ltd.",
+   "short_name": "MK Electron",
+   "aliases": ["MKE", "엠케이전자"],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KRX:033160",
+     "market": "韩股",
+     "exchange": "KRX",
+     "ticker": "033160.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Bloomberg",
+     "title": "033160: MK Electron Co Ltd Stock Quote - KOSDAQ",
+     "url": "https://www.bloomberg.com/quote/033160:KS",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ:033160",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Naver Finance",
+     "title": "엠케이전자(033160)",
+     "url": "https://finance.naver.com/item/main.naver?code=033160",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ 033160",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "THE ELEC",
+     "title": "MK Electron Co., best known for semiconductor bonding wires",
+     "url": "https://www.thelec.net/news/articleView.html?idxno=5762",
+     "publish_date": "2026-03-10",
+     "data_year": "2026",
+     "metric": "主营业务与英文名",
+     "caliber": "行业媒体",
+     "region": "韩国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "中文名'铭凯益'作为韩国母公司通行中文名未见官方出处，疑为在华子公司名，待确认"
+  },
+  {
+   "source_keys": ["SKMATERIALS"],
+   "entity_decision": "原 SK Materials（SK머티리얼즈，原KOSPI上市036490）于2021年12月1日被控股公司 SK Inc. 吸收合并并退市；特种气体等业务分拆为 SK Inc. 旗下非上市子公司（现以 SK materials 名义存续，隶属 SK Inc. 材料板块）",
+   "company_id": "SKMATERIALS",
+   "name_cn": "",
+   "name_en": "SK materials",
+   "short_name": "SK Materials",
+   "aliases": ["SK머티리얼즈", "SK Materials Co., Ltd."],
+   "country_region": "韩国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "KED Global",
+     "title": "SK's holding firm completes merger with materials arm（2021-11-30）",
+     "url": "https://www.kedglobal.com/advanced-materials/newsView/ked202111300018",
+     "publish_date": "2021-11-30",
+     "data_year": "2026",
+     "metric": "合并退市",
+     "caliber": "财经媒体",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "SK Materials 并入 SK Inc.，特气业务分拆为 SK Inc. 子公司"
+    },
+    {
+     "org": "SK materials 官网",
+     "title": "SK materials 公司介绍（SK Inc. 旗下材料公司）",
+     "url": "https://www.sk-materials.com/new/eng/html/company/introduction.asp",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "存续主体状态",
+     "caliber": "公司官网",
+     "region": "韩国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Morningstar",
+     "title": "SK Inc (034730) Quote - XKRX",
+     "url": "https://www.morningstar.com/stocks/xkrx/034730/quote",
+     "publish_date": "2026-10-02",
+     "data_year": "2026",
+     "metric": "存续母公司上市代码",
+     "caliber": "KRX:034730（KOSPI）",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "母公司 SK Inc. 为 KOSPI 上市（034730.KS），SK Materials 本体已退市"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认；如需对应上市主体请用 SK Inc.（034730.KS）"
+  },
+  {
+   "source_keys": ["SKSILTRON"],
+   "entity_decision": "确认为 SK Siltron, Inc.（SK실트론），韩国唯一硅晶圆制造商，非上市公司；原 SK Inc. 持股70.6%，2026年7月31日 SK Inc. 董事会批准以2.3万亿韩元将该持股售予 Doosan Corp.（交易尚待交割，预计2027年1月31日前完成）",
+   "company_id": "SKSILTRON",
+   "name_cn": "",
+   "name_en": "SK Siltron, Inc.",
+   "short_name": "SK Siltron",
+   "aliases": ["SK실트론", "SK siltron"],
+   "country_region": "韩国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Doosan Group 官方新闻稿",
+     "title": "Acquires 70.6% of SK Siltron shares worth KRW 2.3 trillion",
+     "url": "https://www.doosan.com/en/media-center/press-release_view?id=20172812",
+     "publish_date": "2026-07-31",
+     "data_year": "2026",
+     "metric": "股权结构与未上市状态",
+     "caliber": "公司公告",
+     "region": "韩国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "FINWIRES",
+     "title": "SK Inc. to Sell Controlling Stake in SK Siltron to Doosan For KRW2.3 Trillion",
+     "url": "https://finwires.com/en/article/sk-inc-sell-controlling-stake-sk-siltron-doosan-krw2-3-7053548",
+     "publish_date": "2026-08-03",
+     "data_year": "2026",
+     "metric": "股权出售进展",
+     "caliber": "财经媒体",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认；Doosan 收购交割后归属需更新"
+  },
+  {
+   "source_keys": ["TECHWING"],
+   "entity_decision": "确认为韩国 Techwing, Inc.（테크윙），半导体测试分选机（Memory/SOC Test Handler）与探针设备厂商，KOSDAQ上市",
+   "company_id": "TECHWING",
+   "name_cn": "",
+   "name_en": "Techwing, Inc.",
+   "short_name": "Techwing",
+   "aliases": ["테크윙", "TechWing"],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KRX:089030",
+     "market": "韩股",
+     "exchange": "KRX",
+     "ticker": "089030.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Stock Analysis",
+     "title": "Techwing, Inc. (KOSDAQ:089030)",
+     "url": "https://stockanalysis.com/quote/kosdaq/089030/",
+     "publish_date": "2026-10-07",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ:089030",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Yahoo Finance",
+     "title": "Techwing, Inc. (089030.KQ)",
+     "url": "https://finance.yahoo.com/quote/089030.KQ/",
+     "publish_date": "2026-10-12",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "089030.KQ",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  }
+ ]
+}
