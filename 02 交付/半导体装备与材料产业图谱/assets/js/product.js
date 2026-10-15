@@ -2,7 +2,9 @@
 (function () {
   'use strict';
   const D = window.SemiDomain;
-  let data, repo, esc, src, stage, returnFocus, parentTrack, drawn=[];
+  let data, repo, esc, src, stage, returnFocus, drawn=[];
+  const drawerHistory=[];
+  let drawerFrame;
   const trackMap = new Map();
   const quoteCache=new Map();
   let celebrationTimer, preparationTimer, preparationStepTimer;
@@ -24,10 +26,31 @@
   function companyButton(c,label) {return c ? '<button class="company-link" data-company="'+esc(c.runtime_key)+'">'+esc(label || c.name)+'<span class="company-arrow" aria-hidden="true"> ↗</span></button>' : esc(label || '');}
   function legend() {return '<div class="market-legend" aria-label="资本市场图例"><span>资本市场</span><span class="market-badge a">A股</span><span class="market-badge hk">港股</span><span class="market-badge us">美股</span><span class="market-badge overseas">其他海外上市</span><span class="market-badge unlisted">非上市</span></div>';}
   function drawerSection(title,content) {return '<section class="drawer-section"><h3 class="drawer-section-title">'+esc(title)+'</h3>'+content+'</section>';}
+  function updateDrawerBack() {
+    const back=document.getElementById('drawer-back');
+    back.hidden=!drawerHistory.length;back.textContent='返回上级';
+    back.title=drawerHistory.length ? '返回：'+drawerHistory[drawerHistory.length-1].title : '';
+  }
+  function positionDrawer(scrollTop,focusTarget) {
+    cancelAnimationFrame(drawerFrame);
+    const drawer=document.getElementById('detail-drawer');
+    drawer.scrollTop=scrollTop;
+    drawerFrame=requestAnimationFrame(()=>{
+      (focusTarget?.isConnected ? focusTarget : drawer).focus({preventScroll:true});
+      drawer.scrollTop=scrollTop;
+    });
+  }
+  function backDrawer() {
+    const previous=drawerHistory.pop();if(!previous)return;
+    document.getElementById('drawer-body').replaceChildren(...previous.nodes);
+    updateDrawerBack();positionDrawer(previous.scrollTop,previous.focus);
+  }
   function openDrawer(html) {
-    const layer=document.getElementById('drawer-layer');
-    if(layer.hidden)returnFocus=document.activeElement;
-    document.getElementById('drawer-body').innerHTML=html;layer.hidden=false;
+    const layer=document.getElementById('drawer-layer'),body=document.getElementById('drawer-body');
+    if(layer.hidden){returnFocus=document.activeElement;drawerHistory.length=0;}
+    else drawerHistory.push({nodes:[...body.childNodes],scrollTop:document.getElementById('detail-drawer').scrollTop,
+      focus:document.activeElement,title:document.getElementById('drawer-title')?.textContent || '详情'});
+    body.innerHTML=html;layer.hidden=false;
     // 复用赛道详情的已有字段，只调整抽屉中的信息层级，不修改主图卡片。
     document.querySelectorAll('#drawer-body .tc-kv').forEach(block=>{
       const label=block.querySelector(':scope > .k');if(!label)return;
@@ -37,21 +60,22 @@
     });
     document.body.classList.add('drawer-visible');document.getElementById('app').inert=true;
     document.getElementById('site-nav').inert=true;
-    requestAnimationFrame(()=>document.getElementById('detail-drawer').focus());
+    updateDrawerBack();positionDrawer(0);
   }
   function closeDrawer() {
     const layer=document.getElementById('drawer-layer');if(layer.hidden)return;
     layer.hidden=true;document.body.classList.remove('drawer-visible');document.getElementById('app').inert=false;
-    document.getElementById('site-nav').inert=false;parentTrack=null;
+    document.getElementById('site-nav').inert=false;drawerHistory.length=0;
+    cancelAnimationFrame(drawerFrame);updateDrawerBack();document.getElementById('detail-drawer').scrollTop=0;
     if(returnFocus && returnFocus.isConnected)returnFocus.focus();
   }
   function openTrack(id) {
-    const t=trackMap.get(id);if(!t)return;parentTrack=id;
+    const t=trackMap.get(id);if(!t)return;
     const card=document.getElementById('card-'+id);
     const detail=card && card.querySelector('.tc-detail');
     const html='<div class="drawer-eyebrow">'+esc(t.dataset==='equipment'?'半导体装备':'半导体材料')+' · '+esc(t.group)+'</div><h2 id="drawer-title">'+esc(t.name)+'</h2><p class="drawer-subtitle">'+esc(t.chain_position || '')+' '+stage(t.localization && t.localization.stage)+'</p>'+
       (detail?detail.innerHTML:'<p>详情数据待补充。</p>');
-    document.getElementById('drawer-back').hidden=true;openDrawer(html);
+    openDrawer(html);
   }
   function openChainNode(key) {
     const [type,index]=key.split(':');
@@ -60,7 +84,7 @@
     const html='<div class="drawer-eyebrow">'+(type==='base'?'材料链 · 基础原料':'装备与材料 · 共同应用环节')+'</div><h2 id="drawer-title">'+esc(node.name)+'</h2>'+
       (node.relation?drawerSection('产业关系','<p>'+esc(node.relation)+'</p>'):'')+(node.note?drawerSection('环节说明','<p>'+esc(node.note)+'</p>'):'')+
       (node.players?.length?drawerSection('代表性厂商','<p>'+node.players.map(esc).join(' · ')+'</p>'):'');
-    parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
+    openDrawer(html);
   }
   function openSource(id) {
     const source=data.sources.sources.find(s=>s.source_id===id);if(!source)return;
@@ -69,7 +93,7 @@
     Object.entries(fields).forEach(([key,label])=>{if(source[key])html+='<div><dt>'+label+'</dt><dd>'+esc(source[key])+'</dd></div>';});
     html+='</dl></section>';
     try{const url=new URL(source.url);if(['http:','https:'].includes(url.protocol))html+='<a class="btn source-external" href="'+esc(url.href)+'" target="_blank" rel="noopener">打开原始资料 ↗</a>';}catch(error){/* 没有有效链接时保留已收录的来源字段。 */}
-    parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
+    openDrawer(html);
   }
   function openCompany(key) {
     const c=repo.find(key);if(!c)return;
@@ -92,7 +116,7 @@
     });
     if(!c.occurrences.length)html+='<p class="quiet-note">赛道关系待补充。</p>';
     html+='</section>';
-    document.getElementById('drawer-back').hidden=!parentTrack;openDrawer(html);
+    openDrawer(html);
     if(listing && ['688012.SH','00522.HK','AMAT.US'].includes(listing.ticker))loadQuotes(listing.ticker);
   }
   function filterControls(prefix, search) {
@@ -348,7 +372,7 @@
         const text='本次跟踪清单\n\n'+drawn.map((c,i)=>`${i+1}. ${c.name}｜${[...new Set(c.occurrences.map(o=>o.track_name))].join('/')}｜${c.listing_status || '上市信息待补充'}`).join('\n');
         if(navigator.clipboard)Promise.race([navigator.clipboard.writeText(text),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Clipboard timeout')),1800))]).then(()=>notify('跟踪清单已复制。')).catch(()=>offerList(text));
         else offerList(text);
-      }else if(target.id==='drawer-back'&&parentTrack)openTrack(parentTrack);
+      }else if(target.id==='drawer-back')backDrawer();
       else if(target.matches('sup.src'))openSource(target.dataset.src);
     });
     document.addEventListener('keydown',e=>{
