@@ -502,6 +502,8 @@
     });
     document.querySelectorAll('.site-nav a').forEach(function (a) {
       a.classList.toggle('active', a.getAttribute('data-route') === route);
+      if (a.getAttribute('data-route') === route) a.setAttribute('aria-current', 'page');
+      else a.removeAttribute('aria-current');
     });
     if (trackId) {
       setTimeout(function () {
