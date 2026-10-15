@@ -31,7 +31,7 @@ python -m tools.deploy_cloudbase --env teyvat-1-d8g0sba0a7e30225d --site --funct
 
 发布工具实际查询环境与网关，检查当前MCP绑定，生成白名单发布包，使用纯ASCII临时路径上传。`--site`仅更新semi-industry/目录；`--functions`仅更新既有syncQuotes/generateReport/semiApi代码，保留密钥和环境变量。它不会创建环境、升级套餐或覆盖其他站点。
 
-发布包的CSS/JS文件名带内容摘要，研究请求携带数据版本，避免浏览器沿用旧交互代码。源目录仍使用便于维护的原文件名；不要手工编辑生成文件。
+发布包的CSS/JS/网页字体文件名带内容摘要，研究请求携带数据版本，避免浏览器沿用旧交互代码。源目录仍使用便于维护的原文件名；不要手工编辑生成文件。仅修改前端时使用同一命令加`--site`，不加`--functions`。
 
 首次准备PDF运行包先执行`python -m pip install -r reporting/requirements-dev.txt`，再执行`python tools/prepare_pdf_runtime.py`。脚本下载官方Noto CJK字体源、生成400/700两个静态字重、保存OFL许可证，并下载Python3.9 Linux依赖。代码及字体变动会更新renderer_version，防止下载旧缓存。
 
@@ -94,7 +94,13 @@ ReportDataProvider读取交付目录当前研究数据，输出在output/pdf。Q
 
 运行`python -m tools.verify_online`可重复HTTP/API检查，记录保存在忽略目录.local/online-checks.json，四类实际云端PDF保存在output/pdf/cloud-*.pdf。临时签名不写入记录。浏览器交互与PDF视觉检查仍需单独执行。
 
-本轮验收记录见[在线验收记录](ONLINE_ACCEPTANCE.md)。研究数据版本不等于产品版本，来源结论尚未因本轮开发而重新核验。
+前次完整后端/PDF验收见[在线验收记录](ONLINE_ACCEPTANCE.md)，本次界面修订见[界面验收记录](UI_REFINEMENT_ACCEPTANCE.md)。研究数据版本不等于产品版本，来源结论尚未因本轮开发而重新核验。
+
+## 字体与界面更新
+
+网站使用随仓库保存的Noto Sans SC Regular/Bold网页子集及OFL许可证。新增页面文案或研究数据中的汉字后运行`python -m pip install "fonttools[woff]" brotli`，再运行`python -m tools.build_web_fonts`，将生成的两个woff2与代码/数据一起提交。新增正式公司库后也应重建字体，防止新名称依赖系统回退。子集仅覆盖当前公开页面/数据字符，PDF原字体不变。
+
+界面验收依次检查：桌面与390px窄屏七个路由；总图行距与标签；主图全部/局部折叠、二级公司和详情侧栏；主图标题/三列表头吸顶及离开主图后的退出；表格内部滚动的表头固定；来源五列不换行及右侧完整资料；单抽/十连准备、10个唯一结果、三档卡面、礼炮、取消、空池和清单复制。减少动态效果时跳过准备与彩条。卡面规则只在数据模型维护，不新增研究结论。
 
 ## 回退
 

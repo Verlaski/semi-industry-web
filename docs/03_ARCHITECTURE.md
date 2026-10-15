@@ -23,6 +23,8 @@ MarketDataProvider → syncQuotes（每小时:05）→ quotes_latest
 
 ## 实际资源边界
 
+前端界面继续使用原生HTML/CSS/JavaScript。app.js拥有图谱和来源列表，product.js拥有侧栏、折叠栏、抽卡准备/揭晓和页脚说明，domain.js拥有纯数据适配和卡面跟踪分类。浏览器使用本地Noto Sans SC网页子集及OFL许可证；tools/build_web_fonts.py从已保存的报告字体和当前公开文本重建，发布时字体也带内容摘要。没有增加前端框架、外部字体请求或在线AI调用。
+
 | 层 | 本项目资源 | 说明 |
 | --- | --- | --- |
 | 环境 | teyvat-1-d8g0sba0a7e30225d / ap-shanghai | 复用现有个人版，NoSQL后端 |

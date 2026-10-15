@@ -18,9 +18,6 @@
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
   }
-  function safeSourceUrl(url) {
-    try {var parsed=new URL(url);return ['https:','http:'].indexOf(parsed.protocol)>=0 ? parsed.href : '';} catch (error) {return '';}
-  }
   function el(tag, cls, html) {
     var e = document.createElement(tag);
     if (cls) e.className = cls;
@@ -103,10 +100,7 @@
   function renderChrome() {
     var m = DATA.meta || {};
     document.getElementById('header-meta').innerHTML =
-      '行业口径：<span class="v">' + esc(m.industry_name || '') + '</span><br>' +
-      '数据更新：<span class="v">' + esc(m.updated || '') + '</span><br>' +
-      '版本：<span class="v">' + esc(m.version || '') + '</span>' +
-      (m.dept ? '<br>' + esc(m.dept) : '');
+      '数据更新：<span class="v">' + esc(m.updated || '') + '</span>';
     document.getElementById('footer-inner').innerHTML =
       esc(m.footer_note || '') +
       (m.version_log && m.version_log.length ?
@@ -132,8 +126,7 @@
 
     var html = '';
     html += '<h2 class="section-title">产业链总图</h2>';
-    html += '<p class="section-desc">装备链与材料链两条投入链并行，共同汇入晶圆制造与封装测试。点击赛道名进入对应子图谱。' +
-      '国产化阶段：<span class="stage s1">依赖进口</span> <span class="stage s2">验证导入</span> <span class="stage s3">份额提升</span> <span class="stage s4">批量替代</span> <span class="stage s5">国际领先</span></p>';
+    html += '<p class="section-desc" data-footer-note>装备链与材料链并行汇入制造。国产化阶段依次为：依赖进口、验证导入、份额提升、批量替代、国际领先。阶段描述赛道及其适用产品范围，具体依据见详情。</p>';
 
     html += '<div class="lane-label"><span class="tag">装备链</span>核心零部件与子系统 → 半导体制造装备 → 晶圆制造 / 封装测试</div>';
     html += '<div class="flow">';
@@ -170,7 +163,7 @@
       pkg.map(function (t) { return miniTrack(t, 'materials'); }).join('') + '</div>';
     html += '<div class="flow-arrow"></div>';
     html += '<div class="flow-node" style="border-style:dashed;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px">' +
-      '<div style="font-family:var(--serif);font-weight:700;color:var(--navy)">汇入下游制造</div>' +
+      '<div style="font-family:var(--sans);font-weight:700;color:var(--navy)">汇入下游制造</div>' +
       '<div style="font-size:12px;color:var(--muted);text-align:center">晶圆制造 · 封装测试<br>（同装备链下游）</div></div>';
     html += '</div>';
 
@@ -215,12 +208,20 @@
     }
     if (t.note) detail += '<div class="tc-kv"><span class="k">注</span><span style="color:var(--muted)">' + esc(t.note) + '</span></div>';
 
+    var folds = function (label, content) {
+      return '<details class="track-fold"><summary>' + label + '</summary><div class="fold-content">' + content + '</div></details>';
+    };
+    var compact = folds('全球龙头 · ' + g.length, g.length ? leaderNames(g) : '暂未收录') +
+      folds('国内龙头 · ' + c.length, c.length ? leaderNames(c) : '暂无头部厂商');
+    if (t.subs && t.subs.length) compact += folds('二级分类 · ' + t.subs.length,
+      t.subs.map(function (s) {
+        return '<details class="sub-fold"><summary>' + esc(s.name) + '</summary>' +
+          folds('全球龙头', subLeaderNames(t.id, s.name, 'global') || '暂未收录') +
+          folds('国内龙头', subLeaderNames(t.id, s.name, 'china') || '暂未收录') + '</details>';
+      }).join(''));
     return '<div class="track-card" id="card-' + esc(t.id) + '" data-track="' + esc(t.id) + '">' +
       '<div class="tc-head"><button class="track-open tc-name" data-track-open="' + esc(t.id) + '">' + esc(t.name) + '</button>' + stageBadge(stage) + '</div>' +
-      '<div class="tc-leaders">' +
-        (g.length ? '<span class="lbl">全球</span>' + leaderNames(g) + '<br>' : '') +
-        (c.length ? '<span class="lbl">国内</span>' + leaderNames(c) : '<span class="lbl">国内</span><span style="color:var(--faint)">暂无头部厂商</span>') +
-      '</div>' +
+      '<div class="tc-leaders">' + compact + '</div>' +
       '<div class="tc-detail">' + detail + '</div></div>';
   }
 
@@ -238,7 +239,7 @@
     var facts = kind === 'equipment' ? (data.wfe_facts || []) : [];
     var prov = (DATA.meta.prosperity && DATA.meta.prosperity[kind]) || null;
     html += '<h2 class="section-title">' + esc(data.industry || '') + ' · 产业链图谱</h2>';
-    html += '<p class="section-desc">' + esc(data.intro || '') + '</p>';
+    html += '<p class="section-desc" data-footer-note>' + esc(data.intro || '') + '</p>';
 
     if (prov || facts.length) {
       html += '<div class="card-grid" style="margin-bottom:8px">';
@@ -343,7 +344,7 @@
     var v = document.getElementById('view-landscape');
     var m = DATA.meta || {};
     var html = '<h2 class="section-title">竞争格局与国产化</h2>';
-    html += '<p class="section-desc">集中度、全球与中国核心玩家、国产化阶段与格局变化趋势。国产化判断均附适用产品范围。</p>';
+    html += '<p class="section-desc" data-footer-note>国产化判断均附适用产品范围；集中度与份额请结合年份、指标和来源阅读。</p>';
 
     /* 景气度 */
     var p = m.prosperity || {};
@@ -394,7 +395,7 @@
       { label: '材料 · 晶圆制造材料', tracks: DATA.materials.tracks.filter(function (t) { return t.group === '晶圆制造材料'; }) },
       { label: '材料 · 封装材料', tracks: DATA.materials.tracks.filter(function (t) { return t.group === '封装材料'; }) }
     ];
-    html += '<div class="matrix-wrap"><table class="matrix"><thead><tr><th>板块</th><th>赛道</th><th>国产化阶段</th><th>适用产品范围</th><th>依据</th></tr></thead><tbody>';
+    html += '<div class="matrix-wrap table-wrap"><table class="matrix"><thead><tr><th>板块</th><th>赛道</th><th>国产化阶段</th><th>适用产品范围</th><th>依据</th></tr></thead><tbody>';
     groups.forEach(function (g) {
       g.tracks.forEach(function (t, i) {
         var loc = t.localization || {};
@@ -424,20 +425,17 @@
     var list = (DATA.sources && DATA.sources.sources) || [];
     var m = DATA.meta || {};
     var html = '<h2 class="section-title">数据来源与版本记录</h2>';
-    html += '<p class="section-desc">所有关键数据绑定来源编号；图谱页面中的 [n] 角标对应本表。证据等级：A=行业机构正式数据/上市公司一手披露；B=权威研究报告且口径可确认；C=公司官网/公开采访/行业媒体；D=二手转载（不单独支撑核心结论）。</p>';
-    html += '<div class="table-wrap"><table class="data"><thead><tr>' +
-      '<th>#</th><th>编号</th><th>机构</th><th>资料名称</th><th>发布时间</th><th>数据年份</th><th>指标</th><th>口径</th><th>范围</th><th>类型</th><th>等级</th><th>链接</th><th>备注</th>' +
+    html += '<p class="section-desc" data-footer-note>来源角标对应本表。证据等级：A=行业机构正式数据/上市公司一手披露；B=权威研究报告且口径可确认；C=公司官网/公开采访/行业媒体；D=二手转载，不单独支撑核心结论。</p>';
+    html += '<div class="table-wrap"><table class="data source-table"><thead><tr>' +
+      '<th>Source ID</th><th>机构</th><th>资料名称</th><th>日期 / 年份</th><th>证据</th>' +
       '</tr></thead><tbody>' +
       list.map(function (s, i) {
         return '<tr class="src-row" id="src-' + esc(s.source_id) + '">' +
-          '<td>' + (i + 1) + '</td><td class="code-inline">' + esc(s.source_id) + '</td>' +
-          '<td>' + esc(s.org || '') + '</td><td>' + esc(s.title || '') + '</td>' +
-          '<td>' + esc(s.publish_date || '') + '</td><td>' + esc(s.data_year || '') + '</td>' +
-          '<td>' + esc(s.metric || '') + '</td><td>' + esc(s.caliber || '') + '</td>' +
-          '<td>' + esc(s.region || '') + '</td><td>' + esc(s.type || '') + '</td>' +
-          '<td><span class="level ' + esc(s.level || 'D') + '">' + esc(s.level || '?') + '</span></td>' +
-          '<td>' + (safeSourceUrl(s.url) ? '<a href="' + esc(safeSourceUrl(s.url)) + '" target="_blank" rel="noopener">链接</a>' : '—') + '</td>' +
-          '<td style="max-width:280px">' + esc(s.remark || '') + '</td></tr>';
+          '<td><span class="source-id">[' + (i+1) + '] ' + esc(s.source_id) + '</span></td>' +
+          '<td><span class="cell-clip" title="' + esc(s.org || '') + '">' + esc(s.org || '') + '</span></td>' +
+          '<td><button class="source-open" data-source="' + esc(s.source_id) + '" title="查看资料详情：' + esc(s.title || '') + '">' + esc(s.title || '') + ' ↗</button></td>' +
+          '<td>' + esc(s.publish_date || s.data_year || '—') + '</td>' +
+          '<td><span class="level ' + esc(s.level || 'D') + '">' + esc(s.level || '?') + '</span></td></tr>';
       }).join('') + '</tbody></table></div>';
 
     if (m.version_log && m.version_log.length) {
@@ -453,24 +451,10 @@
   /* ---------- 交互 ---------- */
   function bindInteractions() {
     document.getElementById('app').addEventListener('click', function (e) {
-      if (e.target.closest('[data-company]')) return;
+      if (e.target.closest('[data-company],details,summary,sup.src')) return;
       var card = e.target.closest('.track-card[data-track]');
       if (card && !e.target.closest('a') && !e.target.closest('sup.src')) {
         SemiProduct.openTrack(card.getAttribute('data-track'));
-        return;
-      }
-      var ref = e.target.closest('sup.src');
-      if (ref) {
-        var id = ref.getAttribute('data-src');
-        location.hash = '#/sources';
-        setTimeout(function () {
-          var row = document.getElementById('src-' + id);
-          if (row) {
-            row.scrollIntoView({ block: 'center' });
-            row.classList.add('flash');
-            setTimeout(function () { row.classList.remove('flash'); }, 2100);
-          }
-        }, 60);
         return;
       }
       var fb = e.target.closest('.filter-btn');

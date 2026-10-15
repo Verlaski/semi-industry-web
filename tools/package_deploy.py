@@ -36,6 +36,13 @@ def build(environment):
     # 此文件为公开配置，不包含环境凭证。
     (SITE / "assets/js/config.js").write_text(text, encoding="utf-8")
     # 发布文件名携带内容摘要，让已经打开过网站的浏览器也读取本次版本。
+    css = static / "assets/css/style.css"
+    css_text = css.read_text(encoding="utf-8")
+    for font in (static / "assets/fonts").glob("*.woff2"):
+        revision_name = font.stem + "." + hashlib.sha256(font.read_bytes()).hexdigest()[:12] + font.suffix
+        shutil.copy2(font, font.with_name(revision_name))
+        css_text = css_text.replace("../fonts/" + font.name, "../fonts/" + revision_name)
+    css.write_text(css_text, encoding="utf-8")
     html = (static / "index.html").read_text(encoding="utf-8")
     for asset in [static / "assets/css/style.css", *(static / "assets/js").glob("*.js")]:
         version = hashlib.sha256(asset.read_bytes()).hexdigest()[:12]

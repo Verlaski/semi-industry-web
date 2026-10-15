@@ -199,5 +199,16 @@
     return [{name:kind+'_tracks.csv',rows:[trackKeys,...trackRows]},
       {name:kind+'_leaders.csv',rows:[['track_id','track_name','sub_name','role','name','raw_name','country','share','products','tag','source_id','company_id','source_text','ticker_hints'],...leaders]}];
   }
-  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables};
+  // 编辑性跟踪范围；不是市场评级。只读取已有关系，绝不推断上市身份。
+  const FOCUS_TRACKS=new Set(['eq-f-litho','eq-f-etch','eq-f-depo','ma-f-wafer','ma-f-resist','ma-f-cmp']);
+  function cardCategory(company, trackId) {
+    const rows=company.occurrences.filter(o=>!trackId || o.track_id===trackId);
+    const core=rows.find(o=>FOCUS_TRACKS.has(o.track_id) && !o.sub_name && ['china','global'].includes(o.role));
+    if(core)return {key:'gold',label:'核心龙头',stars:5,reason:'重点跟踪赛道 · 一级龙头名单',trackId:core.track_id,subName:core.sub_name};
+    const follow=rows.find(o=>o.sub_name || /龙头|国产|替代|核心|第一/.test(o.tag || '') ||
+      (company.listing_status==='非上市' && /重点|重要|核心/.test(o.tag || '')));
+    if(follow)return {key:'purple',label:'重点跟踪',stars:4,reason:'细分龙头或重点产业标签',trackId:follow.track_id,subName:follow.sub_name};
+    return {key:'blue',label:'产业观察',stars:3,reason:'产业图谱收录'};
+  }
+  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory};
 });

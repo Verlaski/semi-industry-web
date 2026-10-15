@@ -4,6 +4,9 @@
   const D = window.SemiDomain;
   let data, repo, esc, src, stage, returnFocus, parentTrack, drawn=[];
   const trackMap = new Map();
+  let celebrationTimer, preparationTimer, preparationStepTimer;
+  const starIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 2 2.8 6.5L22 12l-7.2 3.5L12 22l-2.8-6.5L2 12l7.2-3.5Z"/></svg>';
+  const stackIcon='<svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="6" width="15" height="19" rx="2" transform="rotate(-10 3 6)"/><rect x="10" y="2" width="15" height="20" rx="2"/><path d="m17.5 6 1.4 3.5 3.6 1.5-3.6 1.5-1.4 3.5-1.4-3.5-3.6-1.5 3.6-1.5Z"/></svg>';
   const config = () => window.SEMI_CONFIG || {};
   function notify(message) {
     const box=document.getElementById('product-status');box.textContent=message;box.hidden=false;
@@ -41,6 +44,15 @@
       (detail?detail.innerHTML:'<p>详情数据待补充。</p>');
     document.getElementById('drawer-back').hidden=true;openDrawer(html);
   }
+  function openSource(id) {
+    const source=data.sources.sources.find(s=>s.source_id===id);if(!source)return;
+    const fields={org:'发布机构',publish_date:'发布日期',data_year:'数据年份',metric:'指标',caliber:'统计口径',region:'覆盖范围',type:'资料类型',level:'证据等级',access_date:'查阅日期',remark:'备注'};
+    let html='<div class="drawer-eyebrow source-id">'+esc(source.source_id)+'</div><h2 id="drawer-title">'+esc(source.title)+'</h2><dl class="source-facts">';
+    Object.entries(fields).forEach(([key,label])=>{if(source[key])html+='<div><dt>'+label+'</dt><dd>'+esc(source[key])+'</dd></div>';});
+    html+='</dl>';
+    try{const url=new URL(source.url);if(['http:','https:'].includes(url.protocol))html+='<a class="btn source-external" href="'+esc(url.href)+'" target="_blank" rel="noopener">打开原始资料 ↗</a>';}catch(error){/* 没有有效链接时保留已收录的来源字段。 */}
+    parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
+  }
   function openCompany(key) {
     const c=repo.find(key);if(!c)return;
     const listing=D.primaryListing(c);
@@ -76,7 +88,7 @@
     const view=document.getElementById('view-companies');
     view.innerHTML='<h2 class="section-title">龙头公司库</h2><p class="section-desc">从公司反查产业关系、产品与来源。'+(repo.mode==='official'?'已接入正式公司数据库。':'当前为赛道名单兼容展示；上市字段待正式公司数据库补充。')+'</p>'+legend()+
       '<div class="page-actions">'+(repo.mode==='official'?['companies','company_listings','track_company_relations'].map((name,i)=>'<button class="btn" data-export="companies" data-export-table="'+name+'.csv">下载'+['公司','上市信息','赛道关系'][i]+' CSV</button>').join(''):'<button class="btn" data-export="companies">下载公司 CSV</button>')+'</div>'+filterControls('companies',true)+
-      '<p class="quiet-note">地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。</p><div id="company-results"></div>'+
+      '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。</p><div id="company-results"></div>'+
       '<h3 class="section-title">行情试运行</h3><p class="section-desc">三只指定测试证券 · 每小时同步 · 最新价格按各市场币种列示</p><div id="quote-panel" class="quote-grid"><p class="quiet-note">正在读取行情缓存…</p></div>';
     view.querySelectorAll('#companies-filters input,#companies-filters select').forEach(el=>el.addEventListener('input',renderCompanyRows));
     renderCompanyRows();loadQuotes();
@@ -84,31 +96,58 @@
   function renderCompanyRows() {
     const list=repo.filter(values('companies'));
     document.getElementById('company-results').innerHTML='<p class="result-count">'+list.length+' 个公司记录</p>'+(list.length?
-      '<div class="table-wrap"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th><th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
+      '<div class="table-wrap" tabindex="0" role="region" aria-label="公司表，可在表内滚动查看，表头固定"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th><th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
         '<tr><td>'+companyButton(c)+'<small class="english-name">'+esc(c.name_en || '')+(c.combo?' · 组合待拆分':'')+'</small></td><td>'+badge(c)+'</td><td>'+esc(c.country_region || '待补充')+'</td><td>'+[...new Map(c.occurrences.map(o=>[o.track_id,o])).values()].map(o=>'<button class="relation-track" data-open-track="'+esc(o.track_id)+'">'+esc(o.track_name)+'</button>').join(' · ')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty-state">暂无符合条件的记录。未核验上市身份的公司不会被归为“未上市”，可调整筛选条件。</div>');
   }
   function renderDiscovery() {
-    document.getElementById('view-discovery').innerHTML='<div class="discovery-heading"><div><p class="drawer-eyebrow">FOLLOW THE INDUSTRY</p><h2 class="section-title">🎴 机会抽卡</h2><p class="section-desc">把下一家值得了解的产业龙头，交给一点随机性。</p></div><div class="draw-stamp">产业发现<br><small>均匀随机 · 无放回</small></div></div>'+
-      filterControls('discovery',false)+'<p id="discovery-count" class="result-count"></p><p class="quiet-note">候选来自全球、中国及二级细分龙头名单，排除组合主体。上市身份待补充时不归入“未上市”。用于产业发现，不构成投资建议。</p>'+
-      '<div class="draw-actions"><button class="btn primary" data-draw="1">单抽 · 发现一家</button><button class="btn primary" data-draw="10">十连 · 跟踪清单</button><button class="btn" id="copy-draw" disabled>复制清单</button><span id="draw-state" role="status" aria-live="polite"></span></div><div id="draw-results" class="draw-results"><div class="draw-invitation">下一站，产业深处。<br><small>设置条件，揭晓你的研究清单。</small></div></div>';
+    document.getElementById('view-discovery').innerHTML='<div class="discovery-heading"><div><p class="drawer-eyebrow">产业发现 / DISCOVERY</p><h2 class="section-title">AI推荐跟踪龙头</h2><p class="section-desc">发现一家，或开启一份十家跟踪清单。</p></div><div class="draw-stamp">下一家<br><small>值得了解的公司</small></div></div>'+
+      filterControls('discovery',false)+'<p id="discovery-count" class="result-count"></p><p class="quiet-note" data-footer-note>候选来自已有龙头名单，排除组合主体；条件内均匀随机、无放回，无在线 AI 模型评分或个人偏好分析。金卡：光刻、刻蚀、薄膜沉积、硅片、光刻胶、CMP材料六个产品设定的重点跟踪赛道的一级龙头；紫卡：其他二级细分龙头，或原始标签含龙头、国产、替代、核心、第一等跟踪线索（重要未上市企业需有已核验上市状态及重点/重要/核心标签）；其余蓝卡。该范围是产品跟踪配置，不代表研究评级；等级按当前筛选赛道关系计算，概率不加权。准备进度表示揭晓动画进度。</p>'+
+      '<div class="draw-actions"><button class="btn primary draw-single" data-draw="1">'+starIcon+'<span>单抽<small>发现一家</small></span></button><button class="btn primary draw-ten" data-draw="10">'+stackIcon+'<span>十连抽<small>开启跟踪清单</small></span><b aria-hidden="true">×10</b></button><button class="btn" id="copy-draw" disabled>复制清单</button><span id="draw-state" role="status" aria-live="polite"></span></div><div class="card-key" aria-label="卡片等级"><span class="gold">★★★★★ 核心龙头</span><span class="purple">★★★★ 重点跟踪</span><span class="blue">★★★ 产业观察</span></div><p class="card-disclaimer">卡面等级表示产业图谱中的跟踪标签，不构成投资评级。</p><div id="draw-results" class="draw-results" aria-busy="false"><div class="draw-invitation">下一站，产业深处。<br><small>设置条件，揭晓你的研究清单。</small></div></div>';
     document.querySelectorAll('#discovery-filters select').forEach(el=>el.addEventListener('change',()=>{
-      updateCandidateCount();drawn=[];document.getElementById('copy-draw').disabled=true;
+      cancelPreparation();clearCelebration();updateCandidateCount();drawn=[];document.getElementById('copy-draw').disabled=true;
       document.getElementById('draw-state').textContent='';
       document.getElementById('draw-results').innerHTML='<div class="empty-state">筛选条件已更新，抽取一份新清单。</div>';
     }));
     updateCandidateCount();
   }
   function updateCandidateCount() {document.getElementById('discovery-count').textContent='当前符合条件：'+repo.filter(values('discovery'),true).length+' 家';}
-  function drawCards(count) {
+  function cancelPreparation(){clearTimeout(preparationTimer);clearInterval(preparationStepTimer);document.querySelectorAll('[data-draw]').forEach(button=>button.disabled=false);const results=document.getElementById('draw-results');results.setAttribute('aria-busy','false');if(results.querySelector('.draw-preparation')){results.innerHTML='<div class="draw-invitation">准备已取消，随时开启新清单。</div>';document.getElementById('draw-state').textContent='';}}
+  function startDraw(count){
+    let selected;
+    try{selected=D.draw(repo.filter(values('discovery'),true),count);}catch(error){document.getElementById('draw-state').textContent=error.message;return;}
+    cancelPreparation();clearCelebration();drawn=[];document.getElementById('copy-draw').disabled=true;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches){drawCards(count,selected);return;}
+    document.querySelectorAll('[data-draw]').forEach(button=>button.disabled=true);
+    document.getElementById('draw-state').textContent='跟踪清单准备中';
+    const sets=[['把赛道地图摊开，下一位主角在哪？','给候选清单洗个牌，惊喜正在路上…','跟踪标签贴好啦，准备揭晓！'],['产业雷达已上线，开始寻宝！','装备、材料，各路龙头集合中…','清单打包完毕，接住这份灵感！'],['给下一次研究留一点随机的快乐。','熟悉的赛道，也能发现新面孔…','研究搭子已就位，马上见面！']];
+    const messages=sets[Math.floor(Math.random()*sets.length)];
+    const results=document.getElementById('draw-results');results.setAttribute('aria-busy','true');
+    results.innerHTML='<div class="draw-preparation"><div class="preparation-orbit" aria-hidden="true">'+stackIcon+'</div><p id="preparation-message" role="status">'+messages[0]+'</p><progress id="preparation-progress" max="100" value="0" aria-label="卡片揭晓进度"></progress><small>准备你的 '+count+' 家跟踪清单</small></div>';
+    const started=performance.now();
+    preparationStepTimer=setInterval(()=>{const elapsed=performance.now()-started;document.getElementById('preparation-progress').value=Math.min(98,Math.round(elapsed/2400*100));document.getElementById('preparation-message').textContent=messages[Math.min(2,Math.floor(elapsed/800))];},80);
+    preparationTimer=setTimeout(()=>{cancelPreparation();drawCards(count,selected);},2400);
+  }
+  function drawCards(count, selected) {
+    clearCelebration();
     const filters=values('discovery');
-    try {drawn=D.draw(repo.filter(filters,true),count);}catch(error){document.getElementById('draw-state').textContent=error.message;return;}
+    drawn=selected;
     document.getElementById('draw-state').textContent='已揭晓 '+drawn.length+' 家';
     document.getElementById('copy-draw').disabled=false;
     document.getElementById('draw-results').innerHTML=drawn.map((c,i)=>{
-      const occurrence=c.occurrences.find(o=>!filters.track||o.track_id===filters.track)||c.occurrences[0];
-      const t=trackMap.get(occurrence.track_id);const reason=D.recommendation(c,filters.track)+(t && t.localization && t.localization.stage?'该赛道国产化阶段：'+t.localization.stage+'。':'');
-      return '<article class="discovery-card reveal" style="--reveal-delay:'+Math.min(i*35,250)+'ms"><div class="card-number">'+String(i+1).padStart(2,'0')+' / '+String(count).padStart(2,'0')+'</div><h3>'+companyButton(c)+'</h3><div>'+badge(c)+'</div><p class="card-country">'+esc(c.country_region || '国家地区待补充')+'</p><div class="card-track">'+esc(occurrence.track_name)+(occurrence.sub_name?' / '+esc(occurrence.sub_name):'')+'</div><p class="relation-role">'+(occurrence.role==='china'?'中国龙头':'全球龙头')+'</p><div class="card-reason"><small>值得跟踪</small><p>'+esc(reason)+'</p></div>'+src(occurrence.source_id)+'</article>';
+      const category=D.cardCategory(c,filters.track);
+      const occurrence=c.occurrences.find(o=>o.track_id===category.trackId && o.sub_name===category.subName)||c.occurrences.find(o=>!filters.track||o.track_id===filters.track)||c.occurrences[0];
+      const t=trackMap.get(occurrence.track_id);const reason=D.recommendation(c,occurrence.track_id)+(t && t.localization && t.localization.stage?'该赛道国产化阶段：'+t.localization.stage+'。':'');
+      return '<article class="discovery-card reveal card-'+category.key+'" style="--reveal-delay:'+Math.min(i*35,250)+'ms"><div class="card-topline"><span class="card-number">'+String(i+1).padStart(2,'0')+' / '+String(count).padStart(2,'0')+'</span><span class="card-category">'+esc(category.label)+'</span></div><div class="card-stars" aria-label="'+category.stars+'星跟踪标签">'+'★'.repeat(category.stars)+'</div><div class="card-emblem" aria-hidden="true">'+starIcon+'</div><h3>'+companyButton(c)+'</h3><div>'+badge(c)+'</div><p class="card-country">'+esc(c.country_region || '国家地区待补充')+'</p><div class="card-track">'+esc(occurrence.track_name)+(occurrence.sub_name?' / '+esc(occurrence.sub_name):'')+'</div><div class="card-reason"><small>'+esc(category.reason)+'</small><p>'+esc(reason)+'</p></div>'+src(occurrence.source_id)+'</article>';
     }).join('');
+    celebrationTimer=setTimeout(celebrate,950);
+  }
+  function clearCelebration(){clearTimeout(celebrationTimer);document.getElementById('draw-confetti')?.remove();}
+  function celebrate(){
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches || !document.getElementById('view-discovery').classList.contains('active'))return;
+    const layer=document.createElement('div');layer.id='draw-confetti';layer.setAttribute('aria-hidden','true');
+    const colors=['#d6f94a','#087f98','#7043a4','#e4b56b','#52bfcb'];
+    for(let i=0;i<48;i++){const ribbon=document.createElement('i');ribbon.style.cssText='--x:'+Math.random()*100+'vw;--drift:'+(Math.random()*160-80)+'px;--spin:'+(180+Math.random()*540)+'deg;--delay:'+Math.random()*.35+'s;--color:'+colors[i%colors.length];layer.append(ribbon);}
+    document.body.append(layer);celebrationTimer=setTimeout(clearCelebration,3400);
   }
   function offerList(text) {
     document.getElementById('copy-list-panel')?.remove();
@@ -162,22 +201,63 @@
       if(['equipment','materials'].includes(kind)){const key=document.createElement('div');key.innerHTML=legend();bar.after(key);}
     });
   }
+  function refineLayout() {
+    const nav=document.getElementById('site-nav');
+    new ResizeObserver(()=>document.documentElement.style.setProperty('--nav-height',nav.getBoundingClientRect().height+'px')).observe(nav);
+    ['equipment','materials'].forEach(kind=>{
+      const view=document.getElementById('view-'+kind), chain=view.querySelector('.chain');
+      const wrapper=document.createElement('section');wrapper.className='map-section';wrapper.setAttribute('aria-label','产业链主图');
+      const title=chain.previousElementSibling;chain.before(wrapper);
+      const sticky=document.createElement('div');sticky.className='map-sticky';
+      const toolbar=document.createElement('div');toolbar.className='map-toolbar';toolbar.append(title);
+      toolbar.insertAdjacentHTML('beforeend','<div class="map-actions"><button class="btn" data-folds="open">展开全部</button><button class="btn" data-folds="close">收起全部</button></div>');
+      const heads=document.createElement('div');heads.className='map-headings';
+      chain.querySelectorAll('.chain-col-head').forEach((head,i)=>{const clone=head.cloneNode(true);clone.style.gridColumn=String(i*2+1);heads.append(clone);});
+      sticky.append(toolbar,heads);wrapper.append(sticky,chain);
+      new ResizeObserver(()=>wrapper.style.setProperty('--map-toolbar-height',toolbar.getBoundingClientRect().height+'px')).observe(toolbar);
+      view.querySelectorAll('.stat-card').forEach(card=>{card.tabIndex=0;});
+    });
+    const footer=document.getElementById('footer-inner');
+    const notes=document.createElement('details');notes.className='reading-notes';
+    notes.innerHTML='<summary>阅读说明与数据口径</summary><div class="reading-notes-body"></div>';
+    const body=notes.querySelector('div');
+    document.querySelectorAll('.view').forEach(view=>{
+      const candidates=[...view.querySelectorAll('[data-footer-note],.note-block')];
+      if(view.id==='view-companies'){
+        const desc=view.querySelector('.section-desc');
+        candidates.unshift(desc.cloneNode(true));desc.textContent='从公司出发，查看赛道、产品与来源。';
+      }
+      if(!candidates.length)return;
+      const section=document.createElement('section');
+      const heading=document.createElement('h3');heading.textContent=view.querySelector('h2').textContent;section.append(heading);
+      candidates.forEach(note=>{note.className='quiet-note';section.append(note);});body.append(section);
+    });
+    const typography=document.createElement('p');typography.className='quiet-note';typography.textContent='字体：Noto Sans SC（SIL Open Font License 1.1），本地加载。代码与编号使用等宽字体。';body.append(typography);
+    document.querySelectorAll('.view .market-legend').forEach(key=>key.remove());
+    body.insertAdjacentHTML('beforeend',legend());footer.prepend(notes);
+    document.querySelectorAll('.table-wrap').forEach(wrap=>{wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','数据表，可在表内滚动查看，表头固定');});
+    document.addEventListener('click',event=>{
+      const fold=event.target.closest('[data-folds]');if(fold){fold.closest('.map-section').querySelectorAll('details').forEach(d=>d.open=fold.dataset.folds==='open');return;}
+    });
+    window.addEventListener('hashchange',()=>{cancelPreparation();clearCelebration();});
+  }
   function bind() {
     document.addEventListener('click',event=>{
       const target=event.target.closest('button,[data-close-drawer],sup.src');if(!target)return;
       if(target.matches('[data-close-drawer]'))closeDrawer();
       else if(target.matches('[data-company]'))openCompany(target.dataset.company);
       else if(target.matches('[data-open-track]'))openTrack(target.dataset.openTrack);
+      else if(target.matches('[data-source]'))openSource(target.dataset.source);
       else if(target.matches('[data-report]'))report(target);
       else if(target.matches('[data-export]'))exportCSV(target.dataset.export,target.dataset.exportTable);
-      else if(target.matches('[data-draw]'))drawCards(Number(target.dataset.draw));
+      else if(target.matches('[data-draw]'))startDraw(Number(target.dataset.draw));
       else if(target.matches('[data-download-list]'))download('本次跟踪清单.txt',document.querySelector('#copy-list-panel textarea').value,'text/plain;charset=utf-8');
       else if(target.id==='copy-draw'){
         const text='本次跟踪清单\n\n'+drawn.map((c,i)=>`${i+1}. ${c.name}｜${[...new Set(c.occurrences.map(o=>o.track_name))].join('/')}｜${c.listing_status || '上市信息待补充'}`).join('\n');
         if(navigator.clipboard)Promise.race([navigator.clipboard.writeText(text),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Clipboard timeout')),1800))]).then(()=>notify('跟踪清单已复制。')).catch(()=>offerList(text));
         else offerList(text);
       }else if(target.id==='drawer-back'&&parentTrack)openTrack(parentTrack);
-      else if(target.matches('sup.src')){const id=target.dataset.src;closeDrawer();location.hash='#/sources';setTimeout(()=>document.getElementById('src-'+id)?.scrollIntoView({block:'center'}),80);}
+      else if(target.matches('sup.src'))openSource(target.dataset.src);
     });
     document.addEventListener('keydown',e=>{
       if(e.target.matches('sup.src')&&['Enter',' '].includes(e.key)){e.preventDefault();e.target.click();return;}
@@ -199,8 +279,7 @@
   }
   function init(context) {
     configure(context);
-    renderCompanies();renderDiscovery();addActions();bind();
-    document.getElementById('header-meta').insertAdjacentHTML('beforeend','<br>产品版本：<span class="v">V1.1</span>');
+    renderCompanies();renderDiscovery();addActions();refineLayout();bind();
   }
-  window.SemiProduct={configure,init,openTrack,openCompany,closeDrawer,companyButton,badge,exportCSV};
+  window.SemiProduct={configure,init,openTrack,openCompany,openSource,closeDrawer,companyButton,badge,exportCSV};
 })();

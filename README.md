@@ -6,7 +6,7 @@
 
 - [在线网站](https://teyvat-1-d8g0sba0a7e30225d-1463262475.tcloudbaseapp.com/semi-industry/index.html)
 - 环境：`teyvat-1-d8g0sba0a7e30225d`，`ap-shanghai`；复用既有CloudBase个人版。
-- 产品包含产业链总图、装备图谱、材料图谱、龙头公司库、竞争格局、机会抽卡和来源页。
+- 产品包含产业链总图、装备图谱、材料图谱、龙头公司库、竞争格局、AI推荐跟踪龙头和来源页。
 - 正式公司主数据库尚未接入；当前公司库为赛道名单兼容展示，未确认的上市身份显示待补充。
 
 | 想知道什么 | 文档 |
@@ -17,6 +17,7 @@
 | 怎样预览、发布、触发行情和生成报告 | [操作手册](docs/04_OPERATIONS.md) |
 | 为什么采用这些方案 | [关键决策](docs/05_DECISIONS.md) |
 | 本轮改了哪些内容 | [变更记录](CHANGELOG.md) |
+| KimiCode从哪里接手本次界面修订 | [交接文档](docs/KIMICODE_HANDOFF.md) |
 
 网站文件在`02 交付/半导体装备与材料产业图谱/`；四份研究JSON保持原始内容。`backend/`与`cloudfunctions/`实现服务，`reporting/`实现报告，`tools/`用于打包与发布。`01 用户提供资料/`不入库、不发布。
 

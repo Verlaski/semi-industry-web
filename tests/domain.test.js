@@ -3,6 +3,17 @@ const test=require('node:test');const assert=require('node:assert/strict');const
 const D=require('../02 交付/半导体装备与材料产业图谱/assets/js/domain');
 const base=path.join(__dirname,'../02 交付/半导体装备与材料产业图谱/data');
 const data=Object.fromEntries(['meta','equipment','materials','sources'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(base,n+'.json'),'utf8'))]));
+test('卡面等级取已有赛道关系，筛选范围生效，未知上市身份不影响等级',()=>{
+  const c={listing_status:'',occurrences:[{track_id:'eq-f-etch',role:'global',sub_name:''},{track_id:'other',role:'china',sub_name:'细分'}]};
+  assert.equal(D.cardCategory(c).key,'gold');
+  assert.equal(D.cardCategory(c).trackId,'eq-f-etch');
+  assert.equal(D.cardCategory(c,'eq-f-etch').stars,5);
+  assert.equal(D.cardCategory(c,'other').key,'purple');
+  assert.equal(D.cardCategory(c,'missing').key,'blue');
+  assert.equal(D.cardCategory({occurrences:[]}).key,'blue');
+  assert.equal(D.cardCategory({occurrences:[{track_id:'other',tag:'国产MFC龙头'}]}).key,'purple');
+  assert.equal(D.cardCategory({listing_status:'非上市',occurrences:[{track_id:'other'}]}).key,'blue');
+});
 test('兼容模型覆盖一级二级引用，组合主体不进入抽卡',()=>{
   const repo=new D.CompanyRepository(data,null);
   assert.equal(repo.rows.length,408);assert.equal(repo.companies.length,249);
