@@ -34,3 +34,7 @@ Python 10 项、Node 16 项、JS 语法及 diff 检查通过。离线数据投�
 先生成新包并确认内容，再使用内容摘要目录上传，避免覆盖旧包。匿名下载校验成功后更新 config/offline-release.json，再构建/发布网页。只修改数据库不会自动更新已经发布的离线 ZIP；需重新打包。使用 python -m tools.build_offline 生成文件，打包白名单在 tools/build_offline.py。
 
 图标源为 https://brand.github.com/GitHub_Logos.zip 中的 SVG/GitHub_Invertocat_Black.svg。
+
+## 正式发布验收
+
+2026-10-15T21:29:06+08:00（UTC+8）：已合并 main、push 并发布静态网页，应用代码提交 76d7328。线上 index.html 及 6 项 CSS/JS/图标资源与本地构建逐字节一致。线上按钮实际下载成功；下载名准确（浏览器已有同名文件时自动加序号）。公司库行情更新时间正常显示 UTC+8。COS 匿名下载复核通过。
