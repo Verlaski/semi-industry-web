@@ -320,6 +320,51 @@
       if(['equipment','materials'].includes(kind)){const key=document.createElement('div');key.innerHTML=legend();bar.after(key);}
     });
   }
+  const mapFoldAnimations=new Map();
+  function stopMapFold(details) {
+    const state=mapFoldAnimations.get(details);
+    if(state){state.animation.cancel();mapFoldAnimations.delete(details);}
+    details.style.removeProperty('overflow');
+  }
+  function setMapFold(details,expanded,fromHeight) {
+    const previous=mapFoldAnimations.get(details);
+    if(fromHeight===undefined && (previous?previous.expanded===expanded:details.open===expanded))return;
+    // Read the current animated height before cancelling, so rapid clicks reverse smoothly.
+    const from=fromHeight ?? details.getBoundingClientRect().height;
+    stopMapFold(details);
+    details.open=expanded;
+    details.firstElementChild.setAttribute('aria-expanded',String(expanded));
+    const to=details.getBoundingClientRect().height;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches || !details.animate || !details.getClientRects().length || Math.abs(to-from)<1)return;
+    // Keep content rendered until the closing animation has finished.
+    details.open=true;
+    details.style.overflow='hidden';
+    const animation=details.animate([{height:from+'px'},{height:to+'px'}],{duration:240,easing:'cubic-bezier(.2,.7,.2,1)'});
+    mapFoldAnimations.set(details,{animation,expanded});
+    animation.onfinish=()=>{
+      if(mapFoldAnimations.get(details)?.animation!==animation)return;
+      details.open=expanded;
+      details.style.removeProperty('overflow');
+      mapFoldAnimations.delete(details);
+    };
+  }
+  function setAllMapFolds(section,expanded) {
+    const folds=[...section.querySelectorAll('.track-fold,.sub-fold')];
+    const roots=folds.filter(d=>!d.parentElement.closest('.track-fold,.sub-fold'));
+    const heights=roots.map(d=>d.getBoundingClientRect().height);
+    folds.forEach(d=>{
+      stopMapFold(d);d.open=expanded;
+      d.firstElementChild.setAttribute('aria-expanded',String(expanded));
+    });
+    // Animate only outer rows while updating every nested row, avoiding competing heights.
+    roots.forEach((d,i)=>setMapFold(d,expanded,heights[i]));
+  }
+  function finishMapFolds() {
+    for(const [details,state] of mapFoldAnimations){
+      stopMapFold(details);details.open=state.expanded;
+      details.firstElementChild.setAttribute('aria-expanded',String(state.expanded));
+    }
+  }
   function refineLayout() {
     const nav=document.getElementById('site-nav');
     new ResizeObserver(()=>document.documentElement.style.setProperty('--nav-height',nav.getBoundingClientRect().height+'px')).observe(nav);
@@ -351,14 +396,22 @@
       const heading=document.createElement('h3');heading.textContent=view.querySelector('h2').textContent;section.append(heading);
       candidates.forEach(note=>{note.className='quiet-note';section.append(note);});body.append(section);
     });
-    const typography=document.createElement('p');typography.className='quiet-note';typography.textContent='字体：Noto Sans SC（SIL Open Font License 1.1），本地加载。代码与编号使用等宽字体。';body.append(typography);
+    const typography=document.createElement('p');typography.className='quiet-note';typography.textContent='字体：Noto Sans SC（SIL Open Font License 1.1），本地加载。正文与股票代码使用 Sans，Source ID 使用等宽字体。';body.append(typography);
     document.querySelectorAll('.view .market-legend').forEach(key=>key.remove());
     body.insertAdjacentHTML('beforeend',legend());footer.prepend(notes);
     document.querySelectorAll('.table-wrap').forEach(wrap=>{wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','数据表，可在表内滚动查看，表头固定');});
     document.addEventListener('click',event=>{
-      const fold=event.target.closest('[data-folds]');if(fold){fold.closest('.map-section').querySelectorAll('details').forEach(d=>d.open=fold.dataset.folds==='open');return;}
+      const fold=event.target.closest('[data-folds]');
+      if(fold){setAllMapFolds(fold.closest('.map-section'),fold.dataset.folds==='open');return;}
+      const summary=event.target.closest('.track-fold>summary,.sub-fold>summary');
+      if(summary?.closest('.map-section')){
+        event.preventDefault();
+        const details=summary.parentElement;
+        setMapFold(details,!(mapFoldAnimations.get(details)?.expanded ?? details.open));
+      }
     });
-    window.addEventListener('hashchange',()=>{cancelPreparation();clearCelebration();});
+    window.addEventListener('hashchange',()=>{cancelPreparation();clearCelebration();finishMapFolds();});
+    matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change',event=>{if(event.matches)finishMapFolds();});
   }
   function bind() {
     document.addEventListener('click',event=>{

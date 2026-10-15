@@ -501,9 +501,11 @@ button,input,select,textarea { font-family:var(--sans); }
 .track-open:hover { text-decoration:underline;text-underline-offset:4px; }
 .track-card .tc-leaders { margin-top:10px; }
 .track-fold { border-top:1px solid var(--line-soft);font-size:12px; }
-.track-fold summary,.sub-fold summary { padding:9px 0;cursor:pointer;color:var(--ink-2);list-style:none;display:flex;align-items:center;gap:8px; }
+.track-fold summary,.sub-fold summary { padding:9px 8px;cursor:pointer;color:var(--ink-2);list-style:none;display:flex;align-items:center;gap:8px;border-radius:6px;transition:background-color .15s,color .15s; }
+.map-section :is(.track-fold,.sub-fold)>summary:hover,.map-section :is(.track-fold,.sub-fold)>summary:focus-visible { background:var(--navy-soft);color:var(--navy-deep); }
 .track-fold summary::after,.sub-fold summary::after { content:'+';margin-left:auto;font:16px var(--mono);color:var(--muted); }
 .track-fold[open]>summary::after,.sub-fold[open]>summary::after { content:'−'; }
+.map-section :is(.track-fold,.sub-fold)>summary[aria-expanded="false"]::after { content:'+'; }
 summary::-webkit-details-marker { display:none; }
 .fold-content { padding:0 0 12px;line-height:1.9; }
 .sub-fold { padding-left:10px;border-left:2px solid var(--line);margin:7px 0; }
