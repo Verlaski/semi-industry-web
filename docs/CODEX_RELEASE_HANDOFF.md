@@ -41,15 +41,44 @@ python -m tools.deploy_cloudbase --env teyvat-1-d8g0sba0a7e30225d --site --funct
 - 东财（EastMoney）备源对北交所代码的支持未实测通过；A股 SH/SZ 备源格式正常
 - 北交所证券在东财备源失败时会回退腾讯主源（实测腾讯支持 bj 前缀）
 
-## 五、回退
+## 五、第二轮追加：A股IPO在审状态与上市库双向核对（commit `38274da`）
+
+Kimi 后续用用户提供的两份台账素材做了第二轮数据工作，Codex 部署时一并发布以下内容：
+
+### 数据变化
+
+| 项 | 内容 |
+| --- | --- |
+| 新增字段 | companies.json 每条新增 `ipo_status`（`A股IPO在审` 或空）与 `ipo_detail`（板块+交易所+审核状态） |
+| 新分类 | 6 家实体标记 **A股IPO在审**：东方晶源、华卓精科、神州半导体（已问询·科创板）、珠海越亚（中止·创业板）、猎奇智能（注册同意待挂牌·创业板）、中科科化（中止·财报更新·科创板）。`listing_status` 保持"非上市"，**不破坏现有值域**（设计决策 DEC-025） |
+| 来源 | 新增 SRC-LS-900（WIND 全球上市公司清单 28056 家）、SRC-LS-901（投行之声 A股IPO 项目明细 3618 项）；sources.json 现 801 条 |
+| 核对结论 | WIND 清单核对 75 只 A股代码 **0 错误**；非上市中国公司反向排查无漏判已上市公司；4 家命中 WIND "A26xxx" 申报代码系 IPO 在审（非挂牌，未误判为上市） |
+
+### 前端变化（Kimi 已做小范围改动，未动布局）
+
+- `product.js`：`badge()` 对 `ipo_status==='A股IPO在审'` 的非上市公司显示橙色 "IPO在审" 徽章 + 板块/审核状态小字；图例 `legend()` 增加"IPO在审"档；公司详情增加 `ipo-banner` 提示条
+- `domain.js`：VM 透传 `ipo_status/ipo_detail`；公司 CSV（`companies.csv`）表头与行增加两列
+- `style.css`：新增 `.market-badge.ipo`（橙系）、`.ipo-banner`、`.ipo-detail` 样式
+
+### 建议 Codex 做的交互增强（可选，非阻塞）
+
+公司库"上市状态"筛选下拉目前仅"已上市/未上市"两档，建议增加 **"IPO在审"第三档**（`filters.status==='A股IPO在审'` 时按 `ipo_status` 过滤）。该下拉选项在 product.js `filterControls()`，属产品交互增强，由 Codex 统一调整更合适。
+
+### 维护约定（给后续数据维护者）
+
+- `ipo_status` 取数：投行之声 A股IPO 项目明细（用户同事定期导出），审核状态含 已受理/已问询/上市委通过/提交注册/中止/中止（财报更新）/注册同意
+- 状态流转：注册同意→挂牌上市后，`listing_status` 转"上市"、补正式 ticker（届时自动进入行情注册表）；`ipo_status` 清空
+- 注册同意未挂牌前不算上市（猎奇智能即此状态）
+
+## 六、回退
 
 ```text
 git revert <本轮commit>  → 重新执行同一构建发布
 ```
 
-回退后 companies.json 404，前端自动回退兼容模式（行为与本轮之前一致）；注册表与 semiApi 限额随代码回退恢复原状。
+回退后 companies.json 404，前端自动回退兼容模式（行为与本轮之前一致）；注册表与 semiApi 限额随代码回退恢复原状。两轮数据（公司主表 + IPO在审）在同一批 companies.json 中，回退按 commit 粒度进行。
 
-## 六、研究流水线留档（03 研究工作区/，不发布）
+## 七、研究流水线留档（03 研究工作区/，不发布）
 
 - `verify_batches/` 候选分批、`verify_out/` 各批核验结果与 `manual_patches.json` 人工裁决补丁
 - `build_companies.py`（合并+校验+listing_id 归一）、`migrate_relations.py`（关系迁移，与 domain.js pieces/parseName 同规则）、`verify_cn_batch.py`（东财/腾讯接口核验）、`crosscheck_tickers.py`（行情接口名称反查，160/160 一致）
