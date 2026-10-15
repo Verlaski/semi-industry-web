@@ -1,0 +1,243 @@
+{
+  "scope": "materials_fab",
+  "as_of": "2026-10-15",
+  "headline": "SEMI MMDS：2024年全球半导体材料市场675亿美元（+3.8%），其中晶圆制造材料429亿美元（+3.3%）；CMP、光刻胶及配套材料双位数增长，硅与SOI为唯一下滑品类（硅收入-7.1%）。分地区：中国台湾201亿美元连续15年第一，中国大陆135亿美元第二，韩国105亿美元第三。",
+  "tracks": [
+    {
+      "id": "ma-f-wafer",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "半导体硅片",
+      "subs": [
+        {"name": "12英寸抛光/外延片", "note": "2024年全球300mm硅片前五大厂商（信越、SUMCO、环球晶圆、Siltronic、SK Siltron）合计约81.5%，国产化率约5%-10%"},
+        {"name": "8英寸及以下", "note": "国产化率约50%以上，沪硅产业、立昂微、中欣晶圆等批量供货"},
+        {"name": "SOI", "note": "法国Soitec主导全球SOI市场，国内由沪硅产业（新傲科技、Okmetic）布局，整体起步期"}
+      ],
+      "market_size": {"value": "115", "unit": "亿美元", "year": "2024", "scope": "全球（硅片厂商收入，含抛光片/外延片，不含SOI）", "source_id": "SRC-MF-02"},
+      "global_leaders": [
+        {"name": "信越化学 Shin-Etsu", "country": "日", "share": "约27%-28%（2023-2024）", "products": "12英寸抛光片/外延片、SOI", "tag": "全球第一", "source_id": "SRC-MF-03"},
+        {"name": "SUMCO 胜高", "country": "日", "share": "约22%-24%（2023-2024）", "products": "12英寸抛光/外延片", "tag": "全球第二", "source_id": "SRC-MF-03"},
+        {"name": "环球晶圆 GlobalWafers", "country": "台", "share": "约15%-17%（2023-2024）", "products": "全尺寸硅片、SOI", "tag": "全球第三", "source_id": "SRC-MF-03"},
+        {"name": "Siltronic 世创", "country": "德", "share": "约11%-13%（2023-2024）", "products": "12英寸抛光/外延片", "tag": "欧洲最大", "source_id": "SRC-MF-03"},
+        {"name": "SK Siltron", "country": "韩", "share": "约11%-13%（2023-2024）", "products": "12英寸抛光/外延片", "tag": "全球第五", "source_id": "SRC-MF-03"}
+      ],
+      "china_leaders": [
+        {"name": "沪硅产业", "share": "全球约2%-2.5%（2024，按销量505万片）", "tag": "国内大硅片龙头，12英寸产能约50-60万片/月", "source_id": "SRC-MF-24"},
+        {"name": "西安奕材（奕斯伟材料）", "share": "N/A（按收入排名）", "tag": "12英寸国内第一梯队", "source_id": "SRC-MF-25"},
+        {"name": "立昂微", "share": "N/A（按收入排名）", "tag": "8英寸为主力，12英寸爬坡", "source_id": "SRC-MF-24"},
+        {"name": "中环领先（TCL中环）", "share": "N/A（按收入排名）", "tag": "12英寸产能扩张中", "source_id": "SRC-MF-03"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "8英寸及以下抛光/外延片；12英寸处于验证导入期，SOI起步", "evidence": "2024年12英寸国产化率约5%-10%、8英寸约55%；沪硅产业全球份额约2%-2.5%为国产最高", "source_id": "SRC-MF-24"},
+      "note": "口径提示：SEMI SMG统计2024年硅片收入115亿美元（-6.5%）；SEMI MMDS口径2024年硅收入同比-7.1%（SRC-MF-01），两口径存在小幅差异。2024年前六大厂商（含Soitec）合计约79.88%。"
+    },
+    {
+      "id": "ma-f-mask",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "光掩膜（掩膜版）",
+      "subs": [
+        {"name": "晶圆厂配套（captive）", "note": "台积电/三星/英特尔等自建光罩厂，约占全球市场65%（SEMI口径）"},
+        {"name": "独立第三方（merchant）", "note": "约占35%，Photronics、DNP、Toppan三家合计占第三方市场超80%"}
+      ],
+      "market_size": {"value": "约56（约合400亿元人民币）", "unit": "亿美元", "year": "2024", "scope": "全球半导体掩膜版（不含面板用）", "source_id": "SRC-MF-07"},
+      "global_leaders": [
+        {"name": "Photronics", "country": "美", "share": "N/A（第三方掩膜版龙头，三家合计占第三方市场超80%）", "products": "逻辑/存储掩膜版", "tag": "全球最大独立掩膜厂", "source_id": "SRC-MF-08"},
+        {"name": "DNP 大日本印刷", "country": "日", "share": "N/A（按收入排名）", "products": "高端逻辑掩膜版、EUV掩膜", "tag": "高端领先", "source_id": "SRC-MF-08"},
+        {"name": "Toppan Photomask 凸版", "country": "日", "share": "N/A（按收入排名）", "products": "全品类掩膜版", "tag": "第三方前三", "source_id": "SRC-MF-08"},
+        {"name": "HOYA", "country": "日", "share": "N/A（按收入排名）", "products": "EUV空白掩膜基板、掩膜版", "tag": "EUV基板主导", "source_id": "SRC-MF-26"}
+      ],
+      "china_leaders": [
+        {"name": "清溢光电", "share": "N/A（按收入排名）", "tag": "国产第三方掩膜版龙头（面板起家、半导体放量）", "source_id": "SRC-MF-26"},
+        {"name": "路维光电", "share": "N/A（按收入排名）", "tag": "半导体掩膜版国产前三", "source_id": "SRC-MF-26"},
+        {"name": "龙图光罩", "share": "N/A（按收入排名）", "tag": "专注半导体掩膜版，130nm及以上制程", "source_id": "SRC-MF-22"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "130nm及以上成熟制程半导体掩膜版；28nm及以下先进制程及EUV掩膜依赖进口", "evidence": "2024-2025年中国半导体掩膜版整体国产化率约10%；28nm以下由Photronics/DNP/Toppan/HOYA主导", "source_id": "SRC-MF-26"},
+      "note": "国内另有晶圆厂配套光罩厂（如中芯国际光罩厂、华润微旗下迪思微）自产自用，不计入第三方市场。口径冲突：第三方机构对全球光掩膜（含面板）2024年估计约50-53亿美元，与本处半导体掩膜版口径（约400亿元人民币）存在差异，系统计范围不同。"
+    },
+    {
+      "id": "ma-f-resist",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "光刻胶及配套材料",
+      "subs": [
+        {"name": "g/i-line", "note": "国产化率约30%-40%，晶瑞电材、北京科华批量供货"},
+        {"name": "KrF", "note": "国产化率约3%-8%，北京科华（彤程新材）为国内龙头，徐州博康、晶瑞电材、恒坤新材放量"},
+        {"name": "ArF干式", "note": "国产化率不足3%，南大光电等通过验证、小批量"},
+        {"name": "ArF浸没式", "note": "基本依赖进口，国产处于验证导入期"},
+        {"name": "EUV", "note": "国产化率为0，TOK份额超五成、日本厂商合计约九成；日本对华实质断供"},
+        {"name": "配套材料（BARC/显影液等）", "note": "显影液（TMAH）国产格林达等已规模供应；BARC、顶部涂层等仍以日美厂商为主。据彤程新材招股书口径，2024年中国半导体光刻胶市场ArF约26亿元、KrF约21亿元、g/i线及其他约9亿元"}
+      ],
+      "market_size": {"value": "约27（中国大陆7.71亿美元、占全球28.2%）", "unit": "亿美元", "year": "2024", "scope": "全球半导体光刻胶（不含面板/PCB胶）", "source_id": "SRC-MF-04"},
+      "global_leaders": [
+        {"name": "JSR", "country": "日", "share": "ArF约24.9%（2020口径）", "products": "KrF/ArF/EUV全系列，收购Inpria强化EUV", "tag": "ArF全球第一", "source_id": "SRC-MF-05"},
+        {"name": "东京应化 TOK", "country": "日", "share": "KrF约31.4%、EUV约51.8%（2020口径）", "products": "g/i线、KrF、ArF、EUV", "tag": "KrF与EUV第一", "source_id": "SRC-MF-05"},
+        {"name": "信越化学 Shin-Etsu", "country": "日", "share": "KrF约21.9%、ArF约21.8%（2020口径）", "products": "KrF/ArF/EUV", "tag": "全品类前三", "source_id": "SRC-MF-05"},
+        {"name": "住友化学", "country": "日", "share": "ArF约16.8%（2020口径）", "products": "g/i线、ArF", "tag": "日系主力", "source_id": "SRC-MF-05"},
+        {"name": "富士胶片 Fujifilm", "country": "日", "share": "N/A（按收入排名）", "products": "KrF/ArF/EUV及配套材料", "tag": "日系主力", "source_id": "SRC-MF-23"}
+      ],
+      "china_leaders": [
+        {"name": "彤程新材（北京科华）", "share": "N/A（按收入排名）", "tag": "国产KrF光刻胶龙头", "source_id": "SRC-MF-06"},
+        {"name": "晶瑞电材", "share": "N/A（按收入排名）", "tag": "g/i线规模供货，KrF上量", "source_id": "SRC-MF-23"},
+        {"name": "南大光电", "share": "N/A（按收入排名）", "tag": "ArF光刻胶通过验证、小批量销售", "source_id": "SRC-MF-23"},
+        {"name": "上海新阳", "share": "N/A（按收入排名）", "tag": "KrF/ArF布局，配套电镀液清洗液协同", "source_id": "SRC-MF-23"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "g/i线光刻胶（国产化率约30%-40%）；KrF约3%-8%处验证导入向份额提升过渡；ArF不足3%、EUV为0", "evidence": "2024年中国大陆半导体光刻胶市场7.71亿美元（+42.25%），为全球最大区域市场；高端ArF/EUV由JSR/TOK/信越等主导且对华管制收紧", "source_id": "SRC-MF-04"},
+      "note": "美国杜邦（g/i线约19.1%、KrF约10.9%，2020口径）、韩国东进世美肯亦为主要海外厂商。徐州博康（华懋科技参股）、恒坤新材为新进入者。全球光刻胶市场日企合计份额约70%-95%（各口径不一）。"
+    },
+    {
+      "id": "ma-f-gas",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "电子特气",
+      "subs": [
+        {"name": "电子大宗气体（氮/氧/氩/氢/氦）", "note": "国内市场呈「1内资+3外资」格局，现场制气（TGCM）长期合约绑定"},
+        {"name": "含氟特气（NF3/WF6等）", "note": "中船特气NF3、WF6进入全球前列并打入5nm制程"},
+        {"name": "高纯氨/硅烷/磷烷等", "note": "金宏气体超纯氨、南大光电高纯磷烷砷烷实现批量替代"},
+        {"name": "光刻气（Kr/Ne/F2混合气）", "note": "华特气体稀混光刻气通过ASML供应链认证，高端品种仍紧缺"}
+      ],
+      "market_size": {"value": "约60", "unit": "亿美元", "year": "2024", "scope": "全球电子特气（中商产业研究院口径）", "source_id": "SRC-MF-09"},
+      "global_leaders": [
+        {"name": "林德 Linde", "country": "德/美", "share": "N/A（四大巨头合计约90%）", "products": "电子大宗气、特气、TGCM服务", "tag": "全球第一", "source_id": "SRC-MF-10"},
+        {"name": "液化空气 Air Liquide", "country": "法", "share": "N/A（按收入排名）", "products": "电子气体全线、载气", "tag": "四大巨头之一", "source_id": "SRC-MF-10"},
+        {"name": "空气化工 Air Products", "country": "美", "share": "N/A（按收入排名）", "products": "电子大宗气、特气", "tag": "四大巨头之一", "source_id": "SRC-MF-10"},
+        {"name": "大阳日酸 Taiyo Nippon Sanso", "country": "日", "share": "N/A（按收入排名）", "products": "电子气体、设备", "tag": "日系龙头", "source_id": "SRC-MF-10"}
+      ],
+      "china_leaders": [
+        {"name": "中船特气（派瑞特气）", "share": "N/A（按收入排名）", "tag": "NF3/WF6全球前列，国内首个进入5nm制程特气供应商", "source_id": "SRC-MF-11"},
+        {"name": "华特气体", "share": "N/A（按收入排名）", "tag": "光刻气等20余种特气导入国内外晶圆厂", "source_id": "SRC-MF-10"},
+        {"name": "金宏气体", "share": "N/A（按收入排名）", "tag": "超纯氨、电子大宗气TGCM", "source_id": "SRC-MF-10"},
+        {"name": "南大光电", "share": "N/A（按收入排名）", "tag": "高纯磷烷/砷烷、氢类特气", "source_id": "SRC-MF-10"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "NF3、WF6、高纯氨、清洗/刻蚀常用特气；光刻气及先进制程高纯气体验证导入", "evidence": "2024年中国电子特气市场约280亿元、集成电路占比超60%，国产化率不足30%（另有口径约35%）；四大外资占全球约90%", "source_id": "SRC-MF-11"},
+      "note": "口径冲突：中商产业研究院估2024年全球电子特气约60亿美元；Linx Consulting口径2024年约44亿美元；TECHCET口径2021年电子气体合计62.5亿美元（大宗17.1+特气45.3）。差异源于是否含大宗电子气及统计边界不同。雅克科技（科美特）、昊华科技亦为国内重要含氟特气厂商。"
+    },
+    {
+      "id": "ma-f-wet",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "湿电子化学品",
+      "subs": [
+        {"name": "通用型（硫酸/双氧水/氢氟酸/氨水等）", "note": "2023年全球约38亿美元（TECHCET），国产化率最高，G4/G5级批量供货"},
+        {"name": "功能型（刻蚀液/清洗液/显影液/电镀液）", "note": "2023年全球约12亿美元（TECHCET），配方壁垒高，国产加速导入"}
+      ],
+      "market_size": {"value": "约55（2023年52亿美元，2024年预计+6%）", "unit": "亿美元", "year": "2024E", "scope": "全球半导体用湿电子化学品（TECHCET口径）", "source_id": "SRC-MF-12"},
+      "global_leaders": [
+        {"name": "巴斯夫 BASF", "country": "德", "share": "N/A（欧美厂商合计约30%）", "products": "超纯酸、显影液", "tag": "欧美龙头", "source_id": "SRC-MF-13"},
+        {"name": "三菱化学 Mitsubishi Chemical", "country": "日", "share": "N/A（日系厂商合计约27%）", "products": "超纯硫酸/双氧水/功能液", "tag": "日系龙头", "source_id": "SRC-MF-13"},
+        {"name": "关东化学 Kanto Chemical", "country": "日", "share": "N/A（按收入排名）", "products": "超净高纯试剂全品类", "tag": "高端市场主导", "source_id": "SRC-MF-13"},
+        {"name": "Stella Chemifa", "country": "日", "share": "N/A（按收入排名）", "products": "高纯氢氟酸、缓冲蚀刻液", "tag": "高纯氟化物龙头", "source_id": "SRC-MF-13"},
+        {"name": "默克 Merck KGaA / 霍尼韦尔 Honeywell", "country": "德/美", "share": "N/A（按收入排名）", "products": "功能型湿化学品、高纯溶剂", "tag": "欧美主力", "source_id": "SRC-MF-13"}
+      ],
+      "china_leaders": [
+        {"name": "兴福电子（兴发集团）", "share": "N/A（按收入排名）", "tag": "电子级磷酸/硫酸国内龙头，进入主流晶圆厂", "source_id": "SRC-MF-13"},
+        {"name": "江化微", "share": "N/A（按收入排名）", "tag": "超净高纯试剂及功能液，8英寸批量供货", "source_id": "SRC-MF-13"},
+        {"name": "晶瑞电材", "share": "N/A（按收入排名）", "tag": "双氧水/硫酸/氨水G5级量产", "source_id": "SRC-MF-13"},
+        {"name": "上海新阳", "share": "N/A（按收入排名）", "tag": "电镀液/清洗液进入先进封装与晶圆产线", "source_id": "SRC-MF-13"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "G4/G5级通用酸碱（硫酸/双氧水/氢氟酸/氨水）及部分功能型刻蚀液、清洗液、显影液", "evidence": "半导体用湿电子化学品国产化率2023年约44%（2020年仅23%）；12英寸高端功能液仍以关东化学/三菱化学等为主", "source_id": "SRC-MF-14"},
+      "note": "口径冲突：TECHCET半导体专用口径2023年约52亿美元；另有「湿电子化学品」全口径（含面板/光伏）2024年约101亿美元。格林达（TMAH显影液）、多氟多（电子级氢氟酸）、中巨芯亦为国内主要厂商。"
+    },
+    {
+      "id": "ma-f-cmp",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "CMP抛光材料",
+      "subs": [
+        {"name": "抛光液", "note": "2024年全球前六大厂商合计约85%；铜及铜阻挡层抛光液约占市场45%（Fujifilm披露口径）"},
+        {"name": "抛光垫", "note": "杜邦（含原罗门哈斯）长期主导、份额约75%-80%，鼎龙股份为国产第一"}
+      ],
+      "market_size": {"value": "37.01", "unit": "亿美元", "year": "2024", "scope": "全球晶圆用CMP抛光材料（抛光液+抛光垫，QYResearch口径）", "source_id": "SRC-MF-15"},
+      "global_leaders": [
+        {"name": "Entegris（收购CMC Materials）", "country": "美", "share": "N/A（按收入排名）", "products": "全品类抛光液、抛光垫", "tag": "抛光液全球第一梯队", "source_id": "SRC-MF-16"},
+        {"name": "Fujimi", "country": "日", "share": "N/A（按收入排名）", "products": "硅片/介电/金属抛光液", "tag": "日系龙头", "source_id": "SRC-MF-16"},
+        {"name": "富士胶片 Fujifilm", "country": "日", "share": "N/A（按收入排名）", "products": "铜/钨抛光液", "tag": "日系主力", "source_id": "SRC-MF-17"},
+        {"name": "DuPont 杜邦", "country": "美", "share": "抛光垫约75%-80%", "products": "抛光垫、抛光液", "tag": "抛光垫绝对主导", "source_id": "SRC-MF-17"},
+        {"name": "Resonac（原日立化成）", "country": "日", "share": "N/A（按收入排名）", "products": "抛光液、CMP后清洗液", "tag": "日系主力", "source_id": "SRC-MF-16"}
+      ],
+      "china_leaders": [
+        {"name": "安集科技", "share": "全球约11%（2024，2023年约8%，2025年约13%）", "tag": "国产抛光液龙头，铜/钨/介电全覆盖", "source_id": "SRC-MF-17"},
+        {"name": "鼎龙股份", "share": "N/A（按收入排名）", "tag": "国产CMP抛光垫第一，并拓展抛光液/清洗液", "source_id": "SRC-MF-17"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "铜/钨/介电材料抛光液（安集全球份额超一成）；抛光垫验证导入转批量（鼎龙），高端抛光垫仍依赖杜邦", "evidence": "安集科技2024年抛光液全球市占率约11%、清洗液约4%；鼎龙抛光垫在国内晶圆厂批量放量", "source_id": "SRC-MF-17"},
+      "note": "口径提示：另有行业媒体称抛光液国产化率约5%，与安集全球份额约11%的数据存在明显冲突，前者疑为早期或狭义口径，本表采用公司披露及券商研报口径。SEMI指出2024年CMP材料为材料市场中双位数增长的品类之一。"
+    },
+    {
+      "id": "ma-f-target",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "溅射靶材",
+      "subs": [
+        {"name": "铝/钛/钽靶", "note": "江丰电子三类主流靶材出货量已居全球首位（公司/媒体口径）"},
+        {"name": "铜及铜合金靶", "note": "江丰高纯铜靶全球份额从2020年约4.2%升至2024年约8.5%"}
+      ],
+      "market_size": {"value": "44.19", "unit": "亿美元", "year": "2024", "scope": "全球溅射靶材全口径（含显示/太阳能等，QYResearch）", "source_id": "SRC-MF-18"},
+      "global_leaders": [
+        {"name": "JX金属 JX Metals", "country": "日", "share": "约30%（2023）", "products": "钛/铝/钽/ITO靶", "tag": "全球第一", "source_id": "SRC-MF-18"},
+        {"name": "霍尼韦尔 Honeywell", "country": "美", "share": "约20%（2023）", "products": "钛/铝/铜/钽靶", "tag": "全球前二", "source_id": "SRC-MF-18"},
+        {"name": "东曹 Tosoh", "country": "日", "share": "约20%（2023）", "products": "铝/钛/钽靶", "tag": "全球前三", "source_id": "SRC-MF-18"},
+        {"name": "普莱克斯（现属林德 Linde）", "country": "美", "share": "约10%（2023）", "products": "铝/钛靶及合金靶", "tag": "四家合计约80%", "source_id": "SRC-MF-18"}
+      ],
+      "china_leaders": [
+        {"name": "江丰电子", "share": "全球晶圆制造用溅射靶材第二（2022，弗若斯特沙利文）；国内12英寸晶圆厂综合份额约73%（媒体口径）", "tag": "国产替代标杆、全球前二", "source_id": "SRC-MF-19"},
+        {"name": "有研新材（有研亿金）", "share": "N/A（按收入排名）", "tag": "高纯铜/钴/贵金属靶", "source_id": "SRC-MF-19"},
+        {"name": "隆华科技（四丰电子/晶联光电）", "share": "N/A（按收入排名）", "tag": "钼/ITO靶，半导体靶拓展中", "source_id": "SRC-MF-19"}
+      ],
+      "localization": {"stage": "批量替代", "scope": "铝、钛、钽、铜等超高纯金属及合金溅射靶材（12英寸成熟及先进制程）", "evidence": "江丰电子2022年全球晶圆制造溅射靶材份额第二，铝/钛/钽靶出货全球领先，覆盖国内全部主流12英寸晶圆厂", "source_id": "SRC-MF-19"},
+      "note": "44.19亿美元为全应用口径；半导体晶圆制造用靶材为其中一部分（中国市场2024年溅射靶材全口径约476亿元）。「江丰2024年全球市占26.9%」为媒体口径，与弗若斯特沙利文排名口径并存，需谨慎引用。"
+    },
+    {
+      "id": "ma-f-precursor",
+      "chain_position": "上游",
+      "group": "晶圆制造材料",
+      "name": "薄膜沉积前驱体",
+      "subs": [
+        {"name": "硅基前驱体（TEOS等）", "note": "成熟品类，雅克科技、南大光电等批量供应"},
+        {"name": "High-k前驱体", "note": "预计2031年占前驱体市场约38.6%（QYResearch），3D NAND/DRAM核心耗材"},
+        {"name": "金属前驱体", "note": "先进逻辑栅极/互连用，技术壁垒最高，国产验证导入期"}
+      ],
+      "market_size": {"value": "约18.06", "unit": "亿美元", "year": "2024", "scope": "全球半导体CVD/ALD用前驱体（QYResearch口径）", "source_id": "SRC-MF-20"},
+      "global_leaders": [
+        {"name": "默克 Merck KGaA", "country": "德", "share": "N/A（按收入排名）", "products": "High-k/金属前驱体全线", "tag": "全球前列", "source_id": "SRC-MF-21"},
+        {"name": "液化空气 Air Liquide", "country": "法", "share": "N/A（按收入排名）", "products": "前驱体+载气一体化", "tag": "全球前列", "source_id": "SRC-MF-21"},
+        {"name": "UP Chemical（雅克科技子公司）", "country": "韩/中", "share": "N/A（全球前五大）", "products": "High-k/硅基前驱体", "tag": "存储大厂核心供应商", "source_id": "SRC-MF-21"},
+        {"name": "SK Materials", "country": "韩", "share": "N/A（按收入排名）", "products": "硅基/金属前驱体", "tag": "韩系主力", "source_id": "SRC-MF-21"},
+        {"name": "Soulbrain / Lake Materials / DNF", "country": "韩", "share": "N/A（前20大合计约96%）", "products": "High-k/金属前驱体", "tag": "韩系集群", "source_id": "SRC-MF-21"}
+      ],
+      "china_leaders": [
+        {"name": "雅克科技", "share": "N/A（全球前五大，媒体口径全球市占率约18%）", "tag": "前驱体国内绝对龙头（UP Chemical+科美特）", "source_id": "SRC-MF-27"},
+        {"name": "南大光电", "share": "N/A（按收入排名）", "tag": "MO源全球领先，前驱体导入晶圆厂", "source_id": "SRC-MF-21"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "存储用High-k及硅基前驱体（雅克科技进入国际存储大厂供应链）；先进逻辑金属前驱体验证导入", "evidence": "雅克科技2025年报披露high-k/硅基/金属前驱体广泛用于3D NAND、DRAM及逻辑芯片；UP Chemical居全球前五大厂商", "source_id": "SRC-MF-27"},
+      "note": "口径冲突：QYResearch估2024年全球半导体CVD/ALD前驱体约18.06亿美元（2031年33.58亿，CAGR 9.1%）；另有券商/雪球口径称2024年约32.19亿美元（CAGR 10.9%），差异可能源于是否含TEOS等成熟硅基品类及面板用前驱体。"
+    }
+  ],
+  "sources": [
+    {"source_id": "SRC-MF-01", "org": "SEMI（MMDS）", "title": "2024 Global Semiconductor Materials Market Posts $67.5 Billion in Revenue", "publish_date": "2025-04-28", "data_year": "2024", "metric": "全球半导体材料市场675亿美元（+3.8%）；晶圆制造材料429亿美元（+3.3%）；封装材料246亿美元（+4.7%）；中国台湾201亿/中国大陆135亿/韩国105亿美元；硅收入-7.1%；CMP、光刻胶及配套双位数增长", "caliber": "厂商收入口径，分七大区域", "region": "全球", "url": "https://www.techpowerup.com/336020/2024-global-semiconductor-materials-market-posts-usd-67-5-billion-in-revenue", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "semi.org官网403，经PRNewswire通稿镜像页核对全文"},
+    {"source_id": "SRC-MF-02", "org": "SEMI（SMG硅制造商小组）", "title": "Worldwide Silicon Wafer Shipments and Revenue Start Recovery in Late 2024", "publish_date": "2025-02-13", "data_year": "2024", "metric": "2024年全球硅片出货12266 MSI（-2.7%），收入115亿美元（-6.5%）", "caliber": "抛光片+外延片+非抛光片厂商出货，不含SOI", "region": "全球", "url": "https://www.prnewswire.com/news-releases/worldwide-silicon-wafer-shipments-and-revenue-start-recovery-in-late-2024-semi-reports-302375339.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "与MMDS硅收入-7.1%存在口径差异"},
+    {"source_id": "SRC-MF-03", "org": "36氪/辰宇信息咨询", "title": "长协到期，硅片迎来涨价大年；半导体硅片行业规模报告", "publish_date": "2026-06-26", "data_year": "2024", "metric": "2024年前六大硅片厂商合计约79.88%；300mm前五大约81.5%；信越约27%-28%、SUMCO约22%-24%、环球晶圆约15%-17%、Siltronic与SK Siltron各约11%-13%", "caliber": "按收入/出货口径混合，各机构略有差异", "region": "全球", "url": "https://m.36kr.com/p/3869826792281349", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "份额区间综合多来源，2023-2024年数据"},
+    {"source_id": "SRC-MF-04", "org": "与非网", "title": "国产光刻胶走到哪了？", "publish_date": "2025-11-27", "data_year": "2024", "metric": "2024年中国大陆半导体光刻胶市场7.71亿美元（+42.25%），占全球28.2%（推算全球约27亿美元）", "caliber": "半导体用光刻胶，不含面板/PCB", "region": "中国/全球", "url": "https://www.eefocus.com/article/1922503.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "全球规模为按占比推算值"},
+    {"source_id": "SRC-MF-05", "org": "电子技术应用网（引TOK/Fujifilm数据）", "title": "太紫薇国产120nm KrF光刻胶通过半导体工艺量产验证", "publish_date": "2026-05-01", "data_year": "2020", "metric": "分品类份额：g/i线 TOK 25.2%/杜邦19.1%/住友15.7%；KrF TOK 31.4%/信越21.9%/JSR 20.9%；ArF JSR 24.9%/信越21.8%/住友16.8%/TOK 15.8%；EUV TOK 51.8%", "caliber": "TOK与Fujifilm 2020年披露口径", "region": "全球", "url": "https://chinaaet.com/article/3000167980", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "份额为2020年数据，近年格局大体稳定但数值或有变动"},
+    {"source_id": "SRC-MF-06", "org": "彤程新材港股招股书（经格隆汇转述）", "title": "彤程新材冲击港股IPO", "publish_date": "2026-09-12", "data_year": "2024", "metric": "2024年中国半导体光刻胶市场：ArF约26亿元、KrF约21亿元、g/i线及其他约9亿元", "caliber": "招股书引用的销售金额口径", "region": "中国", "url": "https://www.gelonghui.com/news/5174763", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "原始出处为彤程新材H股招股书"},
+    {"source_id": "SRC-MF-07", "org": "前瞻产业研究院（经新浪财经发布）", "title": "半导体掩膜版行业市场规模：2024年全球近400亿元", "publish_date": "2025-03-04", "data_year": "2024", "metric": "2023年全球半导体掩膜版约380亿元，2024年初步估算近400亿元；中国台湾份额约38%", "caliber": "半导体掩膜版（含captive+merchant），人民币计价", "region": "全球", "url": "https://finance.sina.com.cn/roll/2025-03-04/doc-inennkck5808890.shtml", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-08", "org": "观研报告网（引SEMI）", "title": "半导体掩膜版行业现状：独立第三方市场高度集中", "publish_date": "2024-07-29", "data_year": "2023-2024", "metric": "晶圆厂配套光罩厂占65%，独立第三方占35%；第三方市场由Photronics、DNP、Toppan主导", "caliber": "SEMI统计口径", "region": "全球", "url": "https://m.chinabaogao.com/detail/721654.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "第三方前三占merchant市场超80%另见三个皮匠报告库"},
+    {"source_id": "SRC-MF-09", "org": "国金证券（引中商产业研究院）", "title": "AI系列深度（二）：相关化工新材料受益", "publish_date": "2025-02-25", "data_year": "2024", "metric": "2019-2024年全球电子特气市场由39亿增至约60亿美元（CAGR约9%）；国内由133.4亿增至262.5亿元", "caliber": "电子特气口径（与Linx/TECHCET边界不同）", "region": "全球/中国", "url": "https://pdf.dfcfw.com/pdf/H3_AP202502251643482384_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "与Linx 2024年约44亿美元存在口径差异"},
+    {"source_id": "SRC-MF-10", "org": "普华有策", "title": "电子特气：半导体“血液”迎国产替代加速突破", "publish_date": "2026-08-14", "data_year": "2025-2026", "metric": "空气化工、林德、液化空气、大阳日酸四家长期占据全球绝大部分市场份额；国内金宏气体、华特气体、南大光电、雅克科技、昊华科技、中船特气等加速追赶", "caliber": "定性格局描述，四家合计约90%为行业通行口径", "region": "全球/中国", "url": "https://www.phpolicy.com/xingyezixun/9627537", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-11", "org": "微信公众平台（关税豁免清单解析）", "title": "美国关税豁免新材料清单解析", "publish_date": "2026-05", "data_year": "2024", "metric": "2024年中国电子特气市场约280亿元，集成电路占比超60%，国产化率不足30%；中船特气WF6/NF3进入5nm制程", "caliber": "中国电子特气市场", "region": "中国", "url": "http://mp.weixin.qq.com/s?__biz=Mzk0NjM5ODkwMA==&mid=2247488556&idx=1&sn=e4b21dd3924427cede28e9726a5fa890", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "国产化率另有约35%口径（材料联盟），记录差异"},
+    {"source_id": "SRC-MF-12", "org": "立鼎产业研究网（引TECHCET）", "title": "2023年全球半导体湿电子化学品市场规模增长及预测", "publish_date": "2024-10-23", "data_year": "2023", "metric": "2023年全球半导体湿电子化学品约52亿美元（-2%），其中通用型38亿、配方型12亿；2024年预计+6%；2027年预计69亿美元", "caliber": "TECHCET半导体专用口径", "region": "全球", "url": "https://www.leadingir.com/trend/view/9486.html", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MF-13", "org": "三个皮匠报告", "title": "湿化学品：定义、分类、生产工艺、产业链与市场趋势", "publish_date": "2026-08-27", "data_year": "2025-2026", "metric": "集成电路用湿电子化学品全球份额：欧美约30%、日本约27%；主要厂商BASF、默克、霍尼韦尔、三菱化学、关东化学、Stella Chemifa、东友精细化学等", "caliber": "按厂商收入份额（IC用湿化学品）", "region": "全球", "url": "https://www.sgpjbg.com/news/7069998.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-14", "org": "电子工程专辑", "title": "2026湿电子化学品产业发展报告解读", "publish_date": "2026-03-15", "data_year": "2023-2024", "metric": "半导体用湿电子化学品国产化率2023年约44%（2020年23%）；显示用2024年54%；光伏近100%；2024年全球湿电子化学品全口径101.02亿美元（+3.6%），IC占70%", "caliber": "国产化率为按需求量/供应口径估算", "region": "中国/全球", "url": "https://www.eet-china.com/mp/a480686.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "全口径规模与TECHCET半导体口径差异大，已在note记录"},
+    {"source_id": "SRC-MF-15", "org": "QYResearch（经格隆汇发布）", "title": "全球晶圆用CMP抛光材料市场报告", "publish_date": "2025-06-23", "data_year": "2024", "metric": "2024年全球晶圆用CMP抛光材料市场37.01亿美元，预计2031年58.43亿美元（CAGR 6.8%）", "caliber": "抛光液+抛光垫，晶圆制造用", "region": "全球", "url": "https://www.gelonghui.com/p/2368029", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MF-16", "org": "QYResearch/环洋咨询", "title": "2024年全球硅片CMP抛光液行业规模调查及厂商分析", "publish_date": "2024-06-22", "data_year": "2024", "metric": "全球主要厂商：Fujimi、Entegris(CMC Materials)、Fujifilm、Merck(Versum)、DuPont、Resonac、安集微电子、Soulbrain等", "caliber": "厂商清单及产能口径", "region": "全球", "url": "https://m.gelonghui.com/p/807106", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-17", "org": "国金证券/东方财富财富号", "title": "CMP抛光液与抛光垫国产化提速；对日国产替代上市公司梳理", "publish_date": "2026-03-11", "data_year": "2024-2025", "metric": "2024年全球抛光液前六大厂商合计约85%；铜及铜阻挡层抛光液约占45%（Fujifilm披露）；安集科技2024年抛光液全球市占率约11%、清洗液约4%（2023年8%、2025年约13%）；杜邦主导抛光垫，鼎龙股份国产第一", "caliber": "公司披露+券商测算", "region": "全球/中国", "url": "https://finance.sina.com.cn/stock/zqgd/2026-03-11/doc-inhqqqfs5694026.shtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "安集份额来自公司披露经媒体转述"},
+    {"source_id": "SRC-MF-18", "org": "爱建证券（引QYResearch/江丰电子招股书）", "title": "靶材行业深度报告", "publish_date": "2025-12-26", "data_year": "2023-2024", "metric": "2024年全球溅射靶材市场44.19亿美元（QYResearch）；2023年份额：JX金属30%、霍尼韦尔20%、东曹20%、普莱克斯10%，合计约80%", "caliber": "全应用口径（含显示/太阳能等）", "region": "全球", "url": "https://pdf.dfcfw.com/pdf/H3_AP202512261808670985_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-MF-19", "org": "东方财富财富号（引弗若斯特沙利文）", "title": "江丰电子深度研究：从国产替代先锋到全球溅射靶材龙头", "publish_date": "2026-09-19", "data_year": "2022-2024", "metric": "2022年江丰电子全球晶圆制造用溅射靶材份额第二（弗若斯特沙利文）；高纯铜靶全球份额2020年4.2%→2024年8.5%，国内半导体客户采购占比32%", "caliber": "晶圆制造用靶材口径", "region": "全球/中国", "url": "https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20251009122808999520120&postId=1608232330", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "「国内12英寸厂综合份额73%」为ZAKER媒体口径，级别D，谨慎使用"},
+    {"source_id": "SRC-MF-20", "org": "QYResearch（经搜狐发布）", "title": "半导体CVD和ALD用前驱体市场调研报告", "publish_date": "2025-12-19", "data_year": "2024", "metric": "2024年全球半导体CVD/ALD前驱体约18.06亿美元，预计2031年33.58亿美元（CAGR 9.1%）", "caliber": "半导体用前驱体", "region": "全球", "url": "https://www.sohu.com/a/967157938_121166796", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": "另有口径2024年约32.19亿美元（雪球，CAGR 10.9%），记录差异"},
+    {"source_id": "SRC-MF-21", "org": "QYResearch（经MBA智库发布）", "title": "半导体CVD和ALD用前驱体：前20大企业占全球96%", "publish_date": "2026-04-13", "data_year": "2025", "metric": "主要厂商：默克、液化空气、UP Chemical（雅克科技）、SK Materials、Lake Materials、南大光电、DNF、Soulbrain、艾迪科等；前20大合计约96%", "caliber": "厂商排名口径", "region": "全球", "url": "https://doc.mbalib.com/view/bef2a697a52c673ef380a3a45eed51e8.html", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-22", "org": "龙图光罩2025年中报（经雪球转述）", "title": "龙图光罩等半导体掩膜版企业研究分析", "publish_date": "2025-10-20", "data_year": "2025", "metric": "晶圆厂/IDM配套掩膜厂占全球65%，独立第三方占35%", "caliber": "公司中报引用行业数据", "region": "全球", "url": "https://xueqiu.com/6843441724/357483250", "access_date": "2026-10-15", "type": "上市公司披露", "level": "B", "remark": ""},
+    {"source_id": "SRC-MF-23", "org": "网易号（半导体材料梳理）", "title": "一天吃透半导体材料5大核心", "publish_date": "2026-06-11", "data_year": "2025-2026", "metric": "光刻胶国产化率：g/i线约30%-40%、KrF约3%-8%、ArF不足1%-3%、EUV为0%；日本企业主导全球70%以上份额", "caliber": "行业综合估算", "region": "中国", "url": "https://www.163.com/dy/article/KV5VPAI70556BCDX.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-24", "org": "全球半导体观察DRAMeXchange", "title": "沪硅产业拟收购三家子公司股权，2025年硅片市场风云起", "publish_date": "2025-02-24", "data_year": "2024", "metric": "12英寸硅片国产化率综合多方数据约5%-10%；沪硅产业2024年12英寸产能达60万片/月", "caliber": "行业多方数据综合", "region": "中国", "url": "https://www.dramx.com/News/cailiao-shebei/20250224-38026.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "8英寸国产化率约55%见东方财富财富号2026-06-29梳理"},
+    {"source_id": "SRC-MF-25", "org": "电子工程专辑", "title": "中国12英寸硅片市场“诸侯争霸”：奕斯伟、沪硅产业、有研半导体", "publish_date": "2025-12-08", "data_year": "2025", "metric": "西安奕材、沪硅产业、有研半导体等扩产12英寸，产能与技术双线突破", "caliber": "定性", "region": "中国", "url": "https://www.eet-china.com/mp/a458457.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-26", "org": "中电网/一微半导体", "title": "国产化率仅10% 掩膜版“芯片底片”的国产突围战", "publish_date": "2026-08-31", "data_year": "2025-2026", "metric": "中国半导体掩膜版整体国产化率约10%；28nm及以下、EUV配套由Photronics、DNP、Toppan、HOYA主导；2026年中国半导体掩膜版市场预计210亿元", "caliber": "行业研究数据", "region": "中国/全球", "url": "https://www.ewsemi.com/NewsDetail/8589745.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MF-27", "org": "雅克科技2025年年度报告摘要（巨潮资讯）", "title": "江苏雅克科技股份有限公司2025年年度报告摘要", "publish_date": "2026-04-28", "data_year": "2025", "metric": "公司半导体前驱体包括high-k、硅基、金属材料等类别，广泛用于3D NAND、NOR FLASH、DRAM和逻辑芯片", "caliber": "公司年报披露", "region": "中国", "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225216876.PDF", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "「全球市占率18%」为东方财富财富号媒体口径，未作正式引用依据"}
+  ]
+}

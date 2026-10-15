@@ -1,0 +1,190 @@
+{
+  "scope": "equipment_backend",
+  "tracks": [
+    {
+      "id": "eq-b-package",
+      "chain_position": "中游",
+      "group": "后道设备",
+      "name": "封装设备",
+      "subs": [
+        {
+          "name": "划片切割",
+          "global_leaders": ["DISCO 迪思科(日)：全球市占率约59%-65%（2022-2025，口径不一），砂轮/激光划片绝对龙头", "东京精密 Accretech(日)：全球第二，市占率约12%-25%（口径不一）", "光力科技(中，含收购的以色列ADT/英国LP)：全球前三"],
+          "china_leaders": ["光力科技：国内12英寸全自动划片机市占率约30%，国内唯一量产12英寸划片机厂商", "德龙激光：激光隐切/激光开槽", "大族激光/大族封测", "和研科技"],
+          "note": "2022年全球市场约17亿美元（中国约5亿美元），CR3接近90%，日系合计约71%；国产化率约10%-20%。DISCO份额各来源口径差异大（59%/65%/70%），取区间表述。"
+        },
+        {
+          "name": "减薄研磨",
+          "global_leaders": ["DISCO 迪思科(日)：全球份额最高，公开共识超60%", "东京精密 Accretech(日)", "G&N(德)/冈本 Okamoto(日)"],
+          "china_leaders": ["华海清科：Versatile-GP300减薄抛光一体机已获头部客户批量订单", "宇晶股份", "光力科技（研磨抛光产品线）"],
+          "note": "2023年全球CR2约68%、CR3约84%；2024年我国进口研磨机金额3.8亿美元，2017-2024年CAGR约13%；国产化率约5%-10%，为封装设备中国产化最低环节之一。"
+        },
+        {
+          "name": "贴片固晶(die bonder)",
+          "global_leaders": ["ASMPT(新加坡/港股上市)：2018年全球固晶机市占率约31%（Yole），全球封装设备龙头", "Besi 比恩西(荷)：2018年约28%，高端固晶/先进封装贴装领先", "新益昌(中)：2018年全球约6%，位列第三", "Shinkawa(日)、Hanwha(韩)"],
+          "china_leaders": ["新益昌：国产固晶机龙头，高精度机型HAD8212可用于CoWoS/HBM封装（位置精度±3μm）", "猎奇智能：2024年全球光模块贴片设备按台数市占率约21%，居第一（弗若斯特沙利文）", "微见智能", "凯格精机"],
+          "note": "全球固晶机市场规模超20亿美元，ASMPT+Besi合计市占率超60%；中低精度固晶国产化率约70%，高精度固晶机国产化率仅约20%，贴片环节整体国产化率约30%。"
+        },
+        {
+          "name": "键合(引线键合/倒装/TCB/混合键合)",
+          "global_leaders": ["K&S 库力索法(美)：引线键合机全球市占率超60%，引线键合CR2(K&S+ASMPT)约80%", "ASMPT(新)：TCB热压键合份额约34%（Yole 2024Q3），引线键合第二", "Besi(荷)：混合键合设备市占率约67%，官网称占全球高端键合机市场近74%；TCB约17%", "K&S：TCB约27%；EVG(奥)/SUSS(德)：晶圆级键合"],
+          "china_leaders": ["奥特维：铝线键合机对标国际一线", "大族封测：焊线机年产量曾达3000台级", "新益昌（收购深圳开玖，光通讯焊线机国内市占超80%）", "拓荆科技：混合键合Dione 300/300F，2023年首台晶圆对晶圆键合设备出货", "迈为股份、芯慧联：混合键合布局"],
+          "note": "2024年我国引线键合机进口市场约6.18亿美元；引线键合国产化率约20%-30%（2021年曾仅3%），TCB/混合键合国产处于验证导入期。BESI混合键合份额有67%（研报）与74%（官网口径，指高端键合机）两种表述，口径不同。"
+        },
+        {
+          "name": "塑封",
+          "global_leaders": ["TOWA(日)：全球全自动塑封机市占率过半（年销量约200台，2020年SEMI口径），高端塑封与YAMADA合计约70%", "YAMADA/APIC YAMADA(日，现属Yamaha Robotics)：年销量约50台", "Besi(荷)、ASMPT(新)：各约50台/年（2020年口径）"],
+          "china_leaders": ["耐科装备：2024年国内半导体封装设备市占率约15%，已批量供货长电/通富/华天并进入英飞凌、安世海外工厂", "文一科技（文一三佳）"],
+          "note": "2020年中国大陆全自动塑封系统市场约20亿元（SEMI，耐科装备问询回复转引）；2024年全球全自动塑封机市场约4.42亿美元（QYResearch）；国产已可替代TOWA/YAMADA常规塑封机型，处于批量替代阶段。"
+        },
+        {
+          "name": "切筋成型",
+          "global_leaders": ["TOWA(日)", "APIC YAMADA/Yamaha Robotics(日)", "Exelliq(奥)"],
+          "china_leaders": ["耐科装备：国内少数同时提供全自动塑封+切筋成型设备的厂商", "文一科技"],
+          "note": "与塑封环节同源（塑封后直接进入切筋成型），格局高度重叠；中国大陆切筋成型设备技术趋于成熟，国产化率在后道设备中相对较高，公开独立份额数据缺乏。"
+        },
+        {
+          "name": "电镀",
+          "global_leaders": ["Lam Research 泛林(美)：SABRE系列ECD设备主导bumping/RDL电镀", "ClassOne Technology(美)：先进封装电镀专业厂商", "Atotech(德，已被MKS收购)：电镀化学品+设备"],
+          "china_leaders": ["盛美上海：Ultra ECP系列覆盖bump/pillar/RDL及面板级封装电镀，FOPLP电镀设备获国际奖项，2025年交付首台水平式面板电镀设备"],
+          "note": "指先进封装bumping/RDL用电化学沉积(ECD)设备；全球半导体电镀系统市场2026年预计约62.8亿美元（Fortune Business Insights，口径含前道铜互连，不限封装），封装环节独立规模与份额缺乏权威公开数据。"
+        },
+        {
+          "name": "临时键合与解键合",
+          "global_leaders": ["EVG 奥地利EV集团：临时键合/解键合龙头（850系列）", "SUSS MicroTec(德)：XBS300等", "东京电子(日)：Synapse系列"],
+          "china_leaders": ["芯源微：临时键合机/解键合机已获国内多家客户订单并通过多家客户工艺验证（2026年半年报）；2024年报在手订单近20台", "拓荆科技", "迈为股份", "华卓精科、青禾晶元、吾拾微、芯睿科技"],
+          "note": "市场规模尚小：Yole预计临时键合/解键合设备2027年约1.76亿美元（2020-2027 CAGR约7%）；长期由EVG/SUSS/TEL垄断，国产刚起步，处验证导入阶段。"
+        },
+        {
+          "name": "先进封装光刻",
+          "global_leaders": ["上海微电子 SMEE(中)：后道/先进封装光刻机全球市占率第一（约40%），国内市占率超80%", "佳能 Canon(日)", "SUSS MicroTec(德)、EVG(奥)：掩模对准/键合对准曝光"],
+          "china_leaders": ["上海微电子：已交付国内首台2.5D/3D先进封装光刻机"],
+          "note": "先进封装光刻（RDL/Bumping/TSV用）技术难度低于前道光刻，是光刻环节中国产唯一取得国际领先的细分；SMEE全球约40%、国内80%+份额为研报口径，未见行业协会正式统计。"
+        }
+      ],
+      "market_size": {
+        "value": "约61",
+        "unit": "亿美元",
+        "year": "2025",
+        "scope": "全球封装（组装/包装）设备销售额，SEMI WWSEMS口径",
+        "source_id": "SRC-EB-01"
+      },
+      "global_leaders": [
+        {"name": "ASMPT", "country": "新加坡（香港上市）", "share": "固晶机约31%（2018，Yole）", "products": "固晶机、引线键合机、TCB键合机、塑封、SMT贴片", "tag": "全球封装设备龙头", "source_id": "SRC-EB-27"},
+        {"name": "BESI 比恩西", "country": "荷兰", "share": "高端键合机近74%（公司口径）；混合键合约67%", "products": "高端固晶机、倒装/TCB/混合键合、塑封、电镀", "tag": "先进封装键合设备龙头", "source_id": "SRC-EB-08"},
+        {"name": "DISCO 迪思科", "country": "日本", "share": "划片机约59%-65%、减薄机超60%", "products": "划片机、减薄研磨机、激光切割", "tag": "切磨抛垄断者", "source_id": "SRC-EB-10"},
+        {"name": "K&S 库力索法", "country": "美国", "share": "引线键合机超60%；TCB约27%（2024）", "products": "引线键合机、楔焊机、TCB/先进封装键合", "tag": "引线键合龙头", "source_id": "SRC-EB-07"},
+        {"name": "TOWA", "country": "日本", "share": "全自动塑封机过半", "products": "塑封设备、切筋成型、模具", "tag": "塑封设备龙头", "source_id": "SRC-EB-17"}
+      ],
+      "china_leaders": [
+        {"name": "光力科技", "share": "划片机全球前三；国内12英寸划片机约30%", "tag": "划片切割国产龙头（并购ADT/LP/LPB）", "source_id": "SRC-EB-12"},
+        {"name": "新益昌", "share": "全球固晶机约6%（2018，Yole），国产固晶机第一", "tag": "固晶机/焊线机国产龙头", "source_id": "SRC-EB-27"},
+        {"name": "华海清科", "share": "N/A（按订单）", "tag": "减薄抛光一体机打破日企垄断", "source_id": "SRC-EB-14"},
+        {"name": "耐科装备", "share": "国内塑封设备约15%（2024）", "tag": "塑封+切筋成型国产主力", "source_id": "SRC-EB-15"}
+      ],
+      "localization": {
+        "stage": "验证导入",
+        "scope": "封装设备整体；工序高度分化——塑封/切筋成型与中低精度固晶已达批量替代，划片、引线键合处于份额提升，减薄研磨、高端TCB/混合键合、临时键合仍依赖进口或刚验证导入",
+        "evidence": "封装装备国产化率整体仍低：划片机10%-20%、减薄机5%-10%、引线键合20%-30%、高精度固晶约20%；先进封装光刻机例外（SMEE全球领先）",
+        "source_id": "SRC-EB-13"
+      },
+      "note": "市场规模口径：SEMI 2025年7月年中报告预计2025年封装设备54亿美元（+7.7%），2026年4月公布的2025年实际增速为20.8%（据此推算约61亿美元），2026年预计+9.6%达67亿美元；采用2025年实际口径。先进封装光刻按任务要求单列为sub。DISCO划片份额各来源59%-70%不等，取区间。"
+    },
+    {
+      "id": "eq-b-test",
+      "chain_position": "中游",
+      "group": "后道设备",
+      "name": "测试设备",
+      "subs": [
+        {
+          "name": "SoC测试机",
+          "global_leaders": ["Advantest 爱德万测试(日)：2024年数字SoC测试机全球约60%，中国大陆接近60%", "Teradyne 泰瑞达(美)：全球约30%，中国大陆约15%"],
+          "china_leaders": ["长川科技：D9000数字测试机批量突破，国产SoC测试机龙头", "华峰测控：STS8600高端SoC测试系统对标爱德万V93000，已在头部GPU客户验证通过"],
+          "note": "2024年全球SoC测试机市场约40+亿美元（另有46亿美元口径）；高端SoC测试机国产化率不足15%，国产处于验证导入向份额提升过渡阶段。"
+        },
+        {
+          "name": "存储测试机",
+          "global_leaders": ["Advantest 爱德万测试(日)：存储测试机全球约55%，绝对主导", "Teradyne 泰瑞达(美)：约40%"],
+          "china_leaders": ["长川科技：存储测试机已取得批量订单（第二成长曲线）", "精智达：存储芯片测试设备供应商"],
+          "note": "2024年全球存储测试机市场约10+亿美元（另有14亿美元口径）；受HBM扩产驱动高景气，单价100万-300万美元，国产份额很低。"
+        },
+        {
+          "name": "模拟与分立测试机",
+          "global_leaders": ["Teradyne 泰瑞达(美，ETS/LTX-Credence平台)", "Advantest 爱德万测试(日)", "Cohu 科休(美)"],
+          "china_leaders": ["华峰测控：模拟/数模混合测试机国内市占第一，STS8200为主力机型，国内测试机市占率约8%", "长川科技：CTA系列模拟测试机起家，国内测试机市占率约5%", "联动科技：分立器件测试"],
+          "note": "模拟/分立测试机单价5万-15万美元，技术门槛相对低，是国产测试机最先实现批量替代的细分；华峰测控、长川科技国内市占率分别约8%和5%（中证鹏元，时点未注明）。"
+        },
+        {
+          "name": "探针台",
+          "global_leaders": ["东京电子(日)、东京精密(日)：2019年中国市场合计份额约34%以上，全球主导", "FormFactor(美)", "旺矽科技、惠特科技(中国台湾)：2019年大陆市场日台四厂合计约74%"],
+          "china_leaders": ["矽电股份：2023年中国探针台市场份额25.7%，大陆厂商第一；大陆首家12英寸晶圆探针台产业化厂商", "长川科技：探针台产品线（收购长奕科技）"],
+          "note": "全球探针台市场规模超10亿美元；矽电股份2019-2023年中国市场份额从13%升至25.7%，探针台国产化率约20%，12英寸高端机型国产仍处追赶阶段。"
+        },
+        {
+          "name": "分选机handler",
+          "global_leaders": ["Cohu 科休(美，含Xcerra/MCT)：全球第一，市占率约20%-21%", "Advantest 爱德万测试(日)：全球第二，约15%+", "鸿劲精密(中国台湾)：全球第四，约10%+", "Techwing(韩)、ASMPT(新)"],
+          "china_leaders": ["长川科技：全球第三、中国第一，2024年市占率约13.1%，分选机收入11.9亿元，2024年国内中标量约45%居首", "金海通：全球第五、中国第二，2024年市占率约3.9%，三温分选机放量", "上海中艺、格朗瑞"],
+          "note": "全球分选机市场规模超10亿美元（2023年约20亿美元，QYResearch口径），CR5约57%-59%；国产化率约35%，为测试设备中国产化程度最高的细分之一。"
+        }
+      ],
+      "market_size": {
+        "value": "约112",
+        "unit": "亿美元",
+        "year": "2025",
+        "scope": "全球半导体测试设备销售额，SEMI口径（预计值，同比+48.1%）",
+        "source_id": "SRC-EB-06"
+      },
+      "global_leaders": [
+        {"name": "Advantest 爱德万测试", "country": "日本", "share": "2024年测试机市占率约58%（公司投资者指引）；FY2024营收53亿美元", "products": "V93000 SoC测试机、存储测试机、分选机", "tag": "全球ATE第一", "source_id": "SRC-EB-04"},
+        {"name": "Teradyne 泰瑞达", "country": "美国", "share": "与爱德万合计约80%（公司口径）-90%（Counterpoint口径）", "products": "UltraFLEX/J750 SoC测试机、ETS模拟测试、存储测试", "tag": "全球ATE双寡头之一", "source_id": "SRC-EB-03"},
+        {"name": "Cohu 科休", "country": "美国", "share": "分选机全球约20%-21%", "products": "分选机、测试插座、接口", "tag": "分选机全球龙头", "source_id": "SRC-EB-19"},
+        {"name": "东京电子/东京精密", "country": "日本", "share": "探针台全球主导（N/A，按收入排名）", "products": "晶圆探针台", "tag": "探针台双雄", "source_id": "SRC-EB-18"}
+      ],
+      "china_leaders": [
+        {"name": "长川科技", "share": "分选机全球约13.1%（2024）、国内中标约45%；国内测试机约5%", "tag": "测试机+分选机+探针台平台型龙头", "source_id": "SRC-EB-19"},
+        {"name": "华峰测控", "share": "国内测试机约8%；模拟测试机国内第一", "tag": "模拟/数模混合测试机龙头，STS8600冲击高端SoC", "source_id": "SRC-EB-20"},
+        {"name": "矽电股份", "share": "中国探针台市场25.7%（2023）", "tag": "国产探针台龙头", "source_id": "SRC-EB-18"},
+        {"name": "金海通", "share": "分选机全球约3.9%（2024）", "tag": "平移式/三温分选机国产第二", "source_id": "SRC-EB-19"}
+      ],
+      "localization": {
+        "stage": "份额提升",
+        "scope": "模拟/分立测试机与分选机已进入批量替代/份额提升；高端SoC与存储测试机国产化率不足15%，仍处验证导入",
+        "evidence": "Frost & Sullivan：测试设备国产化率2016年12%→2022年21%→2027年预计28%；2024年中国测试机市场中SoC占63.14%、存储占15.95%，高端机型国产份额仍低",
+        "source_id": "SRC-EB-20"
+      },
+      "note": "双寡头合计份额存在口径差异：爱德万投资者指引称Advantest+Teradyne合计约80%（2024年爱德万约58%），Counterpoint称两强占2024年测试设备市场超90%——前者偏测试机(ATE)口径、后者或含更广测试设备，并列保留。市场规模采用SEMI 2025年预计112亿美元（+48.1%），2026年预计125.4亿美元。"
+    }
+  ],
+  "sources": [
+    {"source_id": "SRC-EB-01", "org": "SEMI", "title": "SEMI年中报告：半导体设备市场有望连续五年扩张（2026-07）", "publish_date": "2026-07-15", "data_year": "2025-2026E", "metric": "封装设备销售额：2025年+20.8%（约61亿美元），2026E+9.6%至67亿美元；测试设备2028E达208亿美元", "caliber": "WWSEMS设备销售额", "region": "全球", "url": "https://www.semi.org.cn/site/semi/article/88d23b6850284acb8ecc6f06c0a59828.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2025年封装设备绝对值由2026E 67亿美元与增速9.6%反推约61亿美元"},
+    {"source_id": "SRC-EB-02", "org": "SEMI", "title": "SEMI报告：2025年全球半导体设备总销售额预计将达1255亿美元（2025-07年中预测）", "publish_date": "2025-07-23", "data_year": "2024-2026E", "metric": "2024年封装设备销售额+25.4%；2025E+7.7%至54亿美元；2026E测试设备+5.0%", "caliber": "WWSEMS设备销售额（预测）", "region": "全球", "url": "https://www.semi.org.cn/site/semi/article/f0263c0fb9f24995bcac136c182e2741.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "与SRC-EB-01的2025实际值存在预测vs实际差异，正文已注明"},
+    {"source_id": "SRC-EB-03", "org": "Counterpoint Research", "title": "Semiconductor Test Equipment Makers' 2024 Performance", "publish_date": "2025-02-24", "data_year": "2024", "metric": "2024年全球半导体测试设备收入同比+18%；Advantest+Teradyne合计超90%；SoC+存储测试机约占3/4", "caliber": "测试设备厂商收入", "region": "全球", "url": "https://counterpointresearch.com/en/reports/semiconductor-test-equipment-makers-2024-performance", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "双寡头90%口径与爱德万官方80%口径并存，见正文note"},
+    {"source_id": "SRC-EB-04", "org": "Advantest", "title": "Advantest Investors Guide 2025-04", "publish_date": "2025-04-25", "data_year": "2024", "metric": "Advantest与Teradyne合计约占测试机市场80%；2024年爱德万份额约58%（经由上市公司公告转引确认）", "caliber": "公司自述测试机(ATE)市场份额", "region": "全球", "url": "https://www.advantest.com/document/en/investors/ir-library/investors-guide/Investors_Guide_2504E.pdf", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "58%数字另见同花顺转载公告引用"},
+    {"source_id": "SRC-EB-05", "org": "券商研报（新浪财经转载）", "title": "半导体测试设备行业深度：行业景气度有序复苏 高端测试设备突破在即", "publish_date": "2025-08-24", "data_year": "2024", "metric": "2024年SoC测试机40+亿美元、存储测试机10+亿美元；探针台全球超10亿美元；分选机超10亿美元；测试机/分选机/探针台占后道测试设备63%/17.4%/15.2%（2022,SEMI）", "caliber": "SEMI+研报整理", "region": "全球", "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/804860612960/index.phtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "另有中研网引SoC 46亿/存储14亿美元口径"},
+    {"source_id": "SRC-EB-06", "org": "SEMI（雪球专栏转引）", "title": "半导体测试设备市场规模", "publish_date": "2026-02-01", "data_year": "2025E-2026E", "metric": "2025年全球半导体测试设备销售额预计112亿美元（+48.1%），2026E约125.4亿美元", "caliber": "SEMI测试设备销售额预测", "region": "全球", "url": "https://xueqiu.com/3578700268/374375807", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "二手转引SEMI，建议后续以SEMI原文复核"},
+    {"source_id": "SRC-EB-07", "org": "券商研报（东方财富网PDF）", "title": "半导体键合设备行业深度：先进封装高密度互联推动键合技术发展，国产设备持续突破", "publish_date": "2025-03-05", "data_year": "2024", "metric": "引线键合机K&S+ASMPT CR2约80%；2024年我国引线键合机进口市场约6.18亿美元", "caliber": "研报整理（海关进口+行业访谈）", "region": "全球/中国", "url": "https://pdf.dfcfw.com/pdf/H3_AP202503051644081990_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EB-08", "org": "券商研报（新浪财经转载，半导体设备系列研究之二十七）", "title": "键合设备：推动先进封装发展的关键力量", "publish_date": "2024-09-09", "data_year": "2024", "metric": "BESI占全球高端键合机市场近74%（公司官网口径）；K&S、ASMPT、EVG、SUSS格局梳理", "caliber": "公司口径+研报整理", "region": "全球", "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/industry/rptid/766511416897/index.phtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "74%为BESI官网自述口径"},
+    {"source_id": "SRC-EB-09", "org": "Yole Développement（行业媒体转引）", "title": "全球TCB热压键合机头部厂商市场份额分析", "publish_date": "2026-08-11", "data_year": "2024", "metric": "TCB键合机：ASMPT约34%、K&S约27%、BESI约17%，CR3约78%（Yole 2024Q3封装设备报告）", "caliber": "Yole设备份额", "region": "全球", "url": "http://tonzh.com/news/1786426228682-6o8ms1.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "Yole数据的二手转载，未取得原文"},
+    {"source_id": "SRC-EB-10", "org": "未来半导体（行业媒体）", "title": "先进封装设备之争：国产划片机精度世界一流、稳定性二流、市占率三流", "publish_date": "2026-09-03", "data_year": "2022", "metric": "2022年全球晶圆切割设备市场约17亿美元（中国约5亿美元）；DISCO超65%、东京精密约25%，前三家（含光力）超87%；国产化率约10%", "caliber": "行业媒体整理", "region": "全球/中国", "url": "http://www.fsemi.tech/cms/data_report/1794.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-11", "org": "东方财富财富号（自媒体）", "title": "日系占据71%全球份额：划片机是半导体后道封测的核心设备", "publish_date": "2026-08-11", "data_year": "2025", "metric": "DISCO市占率约59%、东京精密约12%、日系合计约71%；前四（含光力科技、沈阳和研）约79%", "caliber": "自媒体整理", "region": "全球", "url": "https://caifuhao.eastmoney.com/news/20260811091528061620380", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "与SRC-EB-10的65%/25%口径冲突，正文取区间"},
+    {"source_id": "SRC-EB-12", "org": "光力科技（互动平台/雪球整理）", "title": "光力科技划片机市场地位与国产化进展", "publish_date": "2026-02-27", "data_year": "2025", "metric": "全球前三（DISCO/东京精密/光力合计近90%）；国内12英寸划片机市占率约30%；唯一量产12英寸全自动双轴划片机的国产企业；已进入头部封测企业批量销售", "caliber": "公司互动平台回复", "region": "全球/中国", "url": "https://www.sohu.com/a/990490257_114984", "access_date": "2026-10-15", "type": "上市公司披露", "level": "C", "remark": "互动易口径，非定期报告"},
+    {"source_id": "SRC-EB-13", "org": "虎嗅/网易（工程师调研盘点）", "title": "FAB国产替代进程如何了，工程师怎么看？", "publish_date": "2025-09-26", "data_year": "2025", "metric": "国产化率：划片机10%-20%、减薄机5%-10%、引线键合20%-30%、探针台约20%、测试机约25%、分选机约35%；DISCO划片份额高达70%；K&S+ASMPT引线键合超80%", "caliber": "行业访谈盘点", "region": "中国", "url": "https://www.163.com/dy/article/KAC9UAMQ05567OC1.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "多环节国产化率的统一出处"},
+    {"source_id": "SRC-EB-14", "org": "清华大学出版社数据图表/网易转载行业研究", "title": "减薄机：海外龙头DISCO、东京精密等，CR3约84%", "publish_date": "2025-09-01", "data_year": "2023-2024", "metric": "2024年我国进口研磨机3.8亿美元（2017-2024 CAGR约13%）；2023年全球减薄机CR2约68%、CR3约84%（DISCO/东京精密/G&N/Okamoto）；华海清科Versatile-GP300获批量订单", "caliber": "海关进口额+行业整理", "region": "全球/中国", "url": "https://data.djyanbao.com/detail/8009129.html?businessId=13", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-15", "org": "QYResearch", "title": "2024-2030全球与中国全自动半导体塑封机市场研究", "publish_date": "2025-03-26", "data_year": "2024", "metric": "2024年全球全自动塑封机市场约4.42亿美元，预计2031年7.1亿美元（CAGR 7.1%）", "caliber": "QYR销售额口径", "region": "全球", "url": "https://www.qyresearch.com.cn/reports/fully-automatic-semiconductor-molding-machine-p3467741.html", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "仅含全自动塑封机，非全部塑封设备"},
+    {"source_id": "SRC-EB-16", "org": "耐科装备（问询回复，转引SEMI）", "title": "发行人及保荐机构回复意见", "publish_date": "2022-10-14", "data_year": "2020", "metric": "2020年中国大陆全自动塑封系统市场约20亿元；TOWA年销约200台、YAMADA/Besi/ASM各约50台、文一科技及耐科各约20台", "caliber": "SEMI统计（销量口径）", "region": "中国大陆", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688419&id=7893243", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "数据年份较早（2020），仅作格局参考"},
+    {"source_id": "SRC-EB-17", "org": "华经情报网", "title": "2025年全球中国塑封机行业发展现状及趋势", "publish_date": "2025-09-03", "data_year": "2024", "metric": "塑封机呈日欧技术+中国市场格局，TOWA份额过半；文一科技、耐科装备占较少份额；耐科已进入长电/通富/华天", "caliber": "行业研究整理", "region": "全球/中国", "url": "https://m.huaon.com/channel/trend/1102942.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-18", "org": "矽电股份招股说明书/证券时报", "title": "矽电股份招股书及探针台市场份额报道", "publish_date": "2025-01-13", "data_year": "2019-2023", "metric": "2019年全球探针台市场矽电13%（第4）、东京精密34%等；2019年中国市场东京电子/东京精密/旺矽/惠特合计74%；2019-2023年矽电中国市场份额13%→25.7%", "caliber": "SEMI+CSA Research统计（招股书转引）", "region": "全球/中国", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=301629&id=10707258", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "2023年中国25.7%份额见东方财富网2025-03-03报道"},
+    {"source_id": "SRC-EB-19", "org": "QYResearch/雪球专栏整理", "title": "全球半导体测试分选机市场格局与五大上市公司比较", "publish_date": "2026-02-23", "data_year": "2024", "metric": "分选机CR5约57%：Cohu约20%+、Advantest约15%+、长川科技13.1%（分选机收入11.9亿元）、鸿劲约10%+、金海通3.9%；QYR口径CR5约59%、Cohu约21%；2023年全球分选机约20.24亿美元", "caliber": "QYR调研+公司披露整理", "region": "全球", "url": "https://xueqiu.com/3352558222/376620136", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "雪球专栏部分为二手整理（D级成分），核心份额与QYR口径相互印证"},
+    {"source_id": "SRC-EB-20", "org": "上市公司公告（转引Frost & Sullivan与爱德万指引）", "title": "测试设备国产化率与测试机格局公告材料", "publish_date": "2025-11-28", "data_year": "2022-2027E", "metric": "测试设备国产化率：2016年12%、2022年21%、2027E 28%（Frost & Sullivan）；爱德万+泰瑞达合计约80%，2024年爱德万约58%；华峰测控定位模拟/数模混合", "caliber": "F&S+公司指引", "region": "中国/全球", "url": "https://news.10jqka.com.cn/tapp/notice.html?client_userid=nxqPo&share_hxapp=gsc&share_action=&back_source=&back_share=&back_content=#seq=55068979", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "同花顺转载公告"},
+    {"source_id": "SRC-EB-21", "org": "券商研报（思瀚产业研究院转载）", "title": "后道测试：AI测试要求提升，关注国产测试机双龙头", "publish_date": "2025-09-22", "data_year": "2024", "metric": "2024年数字SoC测试机：爱德万全球约60%、泰瑞达约30%；中国大陆爱德万近60%、泰瑞达约15%；存储测试机：爱德万约55%、泰瑞达约40%；华峰STS8600对标V93K并在头部GPU客户验证通过；长川D9000批量订单", "caliber": "研报整理（SEMI等）", "region": "全球/中国", "url": "http://chinasihan.com/news/cyzx/22888.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EB-22", "org": "上海韦豪创芯（投资机构，转引Yole）", "title": "键合设备——先进封装领域关键设备（下）", "publish_date": "2025-04-18", "data_year": "2020-2027E", "metric": "临时键合/解键合设备2027年市场约1.76亿美元（2020-2027 CAGR约7%，Yole）；2030年前混合键合设备累计需求超1400套、约28亿欧元（BESI预计）；EVG/SUSS主导临时键合", "caliber": "Yole+BESI预计", "region": "全球", "url": "https://www.inno-chip.cn/926.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-23", "org": "芯源微2026年半年度报告（微博转引）", "title": "芯源微临时键合/解键合设备进展", "publish_date": "2026-09-03", "data_year": "2024-2026H1", "metric": "临时键合机、解键合机已获国内多家客户订单、通过多家客户工艺验证；2024年报在手订单近20台；EVG850/XBS300/Synapse为海外产线主流机型", "caliber": "公司定期报告", "region": "中国", "url": "https://weibo.com/2/detail/5339083104060069", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "经微博二手转引半年报内容，建议复核半年报原文"},
+    {"source_id": "SRC-EB-24", "org": "知乎专栏（失效分析赵工，行业人士整理）", "title": "键合设备-先进封装领域关键设备", "publish_date": "2025-04-16", "data_year": "2023-2025", "metric": "国内键合设备厂商图谱：拓荆科技（混合键合Dione 300/300F，2023年首台W2W出货）、芯源微（临时键合/解键合）、华卓精科、芯慧联、吾拾微、青禾晶元、芯睿科技；混合键合BESI主导、临时键合EVG/SUSS主导", "caliber": "行业整理", "region": "中国/全球", "url": "http://zhuanlan.zhihu.com/p/1895772982971983260", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-25", "org": "东方财富证券研报（PDF）", "title": "关注半导体行业自主可控及AI终端繁荣两大主线", "publish_date": "2024-12-17", "data_year": "2024", "metric": "上海微电子在先进封装光刻机领域全球市占率第一；SMEE占国内后道封装用光刻机80%以上市场份额（另源称全球约40%）", "caliber": "券商研报整理", "region": "全球/中国", "url": "https://pdf.dfcfw.com/pdf/H3_AP202412171641332220_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "全球40%份额为媒体口径，未见机构正式统计"},
+    {"source_id": "SRC-EB-26", "org": "盛美上海官网/证券时报", "title": "盛美上海交付首台水平式面板电镀设备；Ultra ECP产品系列", "publish_date": "2025-11-17", "data_year": "2025", "metric": "Ultra ECP系列覆盖pillar/bump/RDL及面板级封装电镀；FOPLP电镀设备获国际奖项；2025年交付首台水平式面板电镀设备", "caliber": "公司披露", "region": "中国", "url": "https://stcn.com/article/detail/3498618.html", "access_date": "2026-10-15", "type": "公司官网", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-27", "org": "东北证券研报（东方财富网PDF，转引Yole）", "title": "国内固晶机龙头，Mini LED和半导体业务加速成长（新益昌）", "publish_date": "2022-07-05", "data_year": "2018", "metric": "2018年全球固晶机份额：ASMPT 31%、Besi 28%、新益昌 6%（Yole Développement）", "caliber": "Yole份额", "region": "全球", "url": "https://pdf.dfcfw.com/pdf/H3_AP202207051575819333_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "数据年份较旧（2018），近年缺权威更新"},
+    {"source_id": "SRC-EB-28", "org": "未来半导体（行业媒体）", "title": "先进封装设备之争：全球贴片机（固晶机）高速精进", "publish_date": "2026-09-03", "data_year": "2025", "metric": "固晶机全球市场规模超20亿美元，ASMPT、BESI处于垄断地位", "caliber": "行业媒体整理", "region": "全球", "url": "http://www.fsemi.tech/cms/equipment_materials/1680.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EB-29", "org": "搜狐新闻（转引券商研报）", "title": "半导体键合设备行业深度：先进封装高密度互联推动键合技术发展", "publish_date": "2025-03-08", "data_year": "2024", "metric": "BESI混合键合设备市占率约67%；ASMPT、K&S主导热压键合（TCB）市场", "caliber": "研报整理", "region": "全球", "url": "https://news.sohu.com/a/868007131_121655386", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "与SRC-EB-08的74%（高端键合机口径）并列"},
+    {"source_id": "SRC-EB-30", "org": "弗若斯特沙利文（新浪财经IPO报道转引）", "title": "猎奇智能冲击创业板IPO：全球光模块封测设备市场", "publish_date": "2026-04-30", "data_year": "2024", "metric": "2024年全球光模块贴片设备按台数：猎奇智能21%（第一）、日本4T 21%、ASMPT 15%、MRSI 14%；全球高速率光模块封测设备市场2020年5.9亿元→2024年51.8亿元", "caliber": "F&S（招股书引用），设备台数口径", "region": "全球", "url": "https://cj.sina.cn/articles/view/6693595466/18ef8294a00101ah1c", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "光模块专用贴片设备，非通用固晶机口径"}
+  ]
+}

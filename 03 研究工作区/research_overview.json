@@ -1,0 +1,227 @@
+{
+  "scope": "industry_overview",
+  "facts": [
+    {
+      "key": "equipment_global_total_2025",
+      "label": "全球半导体设备市场规模（总设备，OEM billings）",
+      "value": "1351",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-02",
+      "note": "SEMI WWSEMS 口径，同比+15%（2024年为1171亿美元），创历史新高；其中晶圆加工设备+12%、测试设备+55%、组装封装设备+21%"
+    },
+    {
+      "key": "equipment_global_total_2026f",
+      "label": "全球半导体设备市场规模预测（总设备）",
+      "value": "1659",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-OV-01",
+      "note": "SEMI 2026年7月年中预测，同比+23.2%；预计2028年达2295亿美元，连续五年增长"
+    },
+    {
+      "key": "wfe_global_2025",
+      "label": "全球晶圆厂设备（WFE）市场规模",
+      "value": "1169",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-01",
+      "note": "SEMI口径WFE含晶圆加工、掩膜/掩膜版及厂房设施类设备，2025年创纪录"
+    },
+    {
+      "key": "wfe_global",
+      "label": "全球晶圆厂设备（WFE）市场规模预测",
+      "value": "1439",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-OV-01",
+      "note": "SEMI 2026年7月年中预测，同比+23.1%，较其2025年末预测大幅上修；预计2027年+21.8%、2028年+14.1%至约2000亿美元。注意：公司旧内部图谱引用「2026E WFE 1968亿美元、+21.68%」与SEMI公开口径不符——SEMI最新2026E WFE为1439亿美元（+23.1%），旧值绝对额高出约37%、增速接近，疑为券商广义口径（含服务/备件或晶圆厂总支出）或已过时预测，建议以SEMI 1439亿美元为准；旧值出处未能核到SEMI任何公开版本"
+    },
+    {
+      "key": "equipment_china_2025",
+      "label": "中国大陆半导体设备市场规模",
+      "value": "493",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "中国大陆",
+      "source_id": "SRC-OV-02",
+      "note": "SEMI WWSEMS，同比-0.5%，仍接近历史高位，约占全球36.5%；2024年为496亿美元（+35%，SRC-OV-12）。国内厂商持续投资成熟制程及部分先进产能"
+    },
+    {
+      "key": "equipment_taiwan_korea_2025",
+      "label": "中国台湾/韩国半导体设备市场规模",
+      "value": "315/258",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "中国台湾/韩国",
+      "source_id": "SRC-OV-02",
+      "note": "台湾+90%（AI/HPC驱动）、韩国+26%（HBM/DRAM驱动）；中国大陆+台湾+韩国合计占全球79%（2024年为74%）"
+    },
+    {
+      "key": "equipment_test_2026f",
+      "label": "全球测试设备销售额预测",
+      "value": "153",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-OV-01",
+      "note": "2025年激增55.3%后，2026E再增31.0%；组装封装设备2026E为67亿美元（+9.6%），2028年分别达208/86亿美元；后道为增长最快环节"
+    },
+    {
+      "key": "wfe_by_application_2026f",
+      "label": "WFE分应用：代工/逻辑、DRAM、NAND（2026E）",
+      "value": "780/388/139",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-OV-01",
+      "note": "代工/逻辑+18.9%（2nm GAA量产推进），DRAM +39.0%（HBM相关DRAM技术），NAND +30.7%（3D NAND层数迁移）；2028年分别达1047/569/208亿美元"
+    },
+    {
+      "key": "materials_global_2025",
+      "label": "全球半导体材料市场规模",
+      "value": "732",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-03",
+      "note": "SEMI MMDS口径，同比+6.8%，创历史新高；2024年为675亿美元（+3.8%，SRC-OV-04）"
+    },
+    {
+      "key": "materials_waferfab_2025",
+      "label": "全球晶圆制造材料市场规模",
+      "value": "458",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-03",
+      "note": "同比+5.4%；光掩膜、光刻胶及配套、湿电子化学品实现两位数增长（2024年：429亿美元，+3.3%）"
+    },
+    {
+      "key": "materials_packaging_2025",
+      "label": "全球封装材料市场规模",
+      "value": "274",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-03",
+      "note": "同比+9.3%，封装基板与键合丝领涨（金价上行+先进基板需求）（2024年：246亿美元，+4.7%）"
+    },
+    {
+      "key": "materials_taiwan_2025",
+      "label": "中国台湾地区半导体材料市场规模",
+      "value": "217",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "中国台湾",
+      "source_id": "SRC-OV-03",
+      "note": "连续第16年为全球最大材料消费地（2024年：201亿美元）"
+    },
+    {
+      "key": "materials_china_2025",
+      "label": "中国大陆半导体材料市场规模",
+      "value": "156",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "中国大陆",
+      "source_id": "SRC-OV-03",
+      "note": "全球第二，同比两位数增长，为主要地区中增速最快之一；韩国第三为112亿美元"
+    },
+    {
+      "key": "semi_market_2025",
+      "label": "全球半导体行业整体规模",
+      "value": "约7920",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-06",
+      "note": "WSTS实际数（经Semiconductor Intelligence整理），同比+25.6%，为2010年以来最强增长。注意：WSTS 2025年秋季预测值为7720亿美元（+22%），实际值超出预测；以实际值为准"
+    },
+    {
+      "key": "semi_market_2026f",
+      "label": "全球半导体行业规模预测",
+      "value": "15100",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-OV-05",
+      "note": "WSTS 2026年春季预测：+90%至1.51万亿美元，由存储（+250%，超8000亿美元）与逻辑（+37%）驱动；2027年预计+27%至约1.9万亿美元。增速异常高，反映本轮AI/HBM存储超级周期"
+    },
+    {
+      "key": "equipment_cr5",
+      "label": "半导体设备厂商集中度（CR5）",
+      "value": "Top5合计近1127亿美元，约占Top10合计（超1300亿）的85%；约合SEMI全球总设备billings的83%",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-07",
+      "note": "CINNO口径为各公司半导体业务营收（不含FPD/PCB），与SEMI billings口径存在差异，占比仅供参考；ASML/AMAT/LAM/TEL/KLA前五排名连续两年不变"
+    },
+    {
+      "key": "silicon_wafer_cr5",
+      "label": "半导体硅片全球CR5",
+      "value": "约90%（300mm领域超95%）",
+      "unit": "%",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-OV-08",
+      "note": "信越化学、SUMCO、环球晶、Siltronic、SK Siltron五家寡头垄断；硅片约占半导体材料价值量35%-40%；2025年全球硅片仍供过于求约5%-10%（12英寸稼动率>95%、8英寸偏弱，SRC-OV-11）"
+    }
+  ],
+  "prosperity": {
+    "equipment": {
+      "level": "高景气",
+      "evidence": "2025年全球设备billings创纪录达1351亿美元（+15%），SEMI 2026年7月预测2026年再增23.2%至1659亿美元并上修至2028年2295亿美元，连续五年增长；WSTS 2026春季预测行业整体+90%，存储/逻辑扩产直接拉动设备资本开支，中国大陆493亿美元高位企稳叠加国产替代。",
+      "source_ids": ["SRC-OV-01", "SRC-OV-02", "SRC-OV-05"]
+    },
+    "materials": {
+      "level": "高景气稳健",
+      "evidence": "2025年材料市场创纪录达732亿美元（+6.8%），晶圆制造材料（+5.4%）与封装材料（+9.3%）双增长，中国大陆两位数增长；但材料增速显著低于设备与芯片市场，且硅片环节仍供过于求5%-10%、价格修复刚起步，故判为高景气稳健而非高景气。",
+      "source_ids": ["SRC-OV-03", "SRC-OV-11", "SRC-OV-06"]
+    }
+  },
+  "drivers": [
+    "AI算力与HBM需求：AI加速器/HPC推动先进逻辑与HBM相关DRAM扩产，2026E DRAM设备+39%、代工/逻辑WFE+18.9%（见SRC-OV-01）",
+    "存储超级周期：WSTS预测2026年存储市场+250%至超8000亿美元，带动设备与材料需求整体上移（见SRC-OV-05）",
+    "先进封装与测试强度提升：2025年测试设备+55%、封装设备+21%，封装材料中先进基板与键合丝领涨（见SRC-OV-01、SRC-OV-02、SRC-OV-03）",
+    "国产替代与中国大陆产能扩张：中国大陆设备支出493亿美元高位企稳、材料消费两位数增长，北方华创进入全球设备Top10（见SRC-OV-02、SRC-OV-03、SRC-OV-07）"
+  ],
+  "equipment_top": [
+    {"rank": 1, "name": "ASML（阿斯麦）", "country": "荷", "revenue": "372", "unit": "亿美元", "share": "N/A（CINNO未披露份额；按Top10合计超1300亿估算约28.6%）", "products": "光刻机（EUV/DUV），2025年半导体业务营收+23%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 2, "name": "Applied Materials（应用材料）", "country": "美", "revenue": "270", "unit": "亿美元", "share": "N/A", "products": "沉积/刻蚀/CMP/离子注入等除光刻外多环节设备，2025年营收+1%（受美国出口限制致中国区下滑拖累）", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 3, "name": "Lam Research（泛林）", "country": "美", "revenue": "N/A（CINNO仅披露增速）", "unit": "亿美元", "share": "N/A", "products": "刻蚀、薄膜沉积、清洗，2025年营收+27%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 4, "name": "Tokyo Electron（东京电子）", "country": "日", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "涂胶显影/刻蚀/沉积/清洗等，2025年营收+2%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 5, "name": "KLA（科磊）", "country": "美", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "工艺控制与量测检测，2025年营收+18%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 6, "name": "Advantest（爱德万测试）", "country": "日", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "SoC/存储测试机，2025年营收+78%（AI驱动HBM与SoC测试需求）", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 7, "name": "北方华创（NAURA）", "country": "中", "revenue": "约51", "unit": "亿美元", "share": "N/A", "products": "刻蚀/薄膜沉积/清洗/炉管等前道核心设备，2025年营收+36%，Top10中唯一中国企业", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 8, "name": "ASM International（ASM国际）", "country": "荷", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "ALD/Epi等前道薄膜沉积，2025年营收+15%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 9, "name": "SCREEN（迪恩士）", "country": "日", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "湿法清洗设备，2025年营收-10%", "year": "2025", "source_id": "SRC-OV-07"},
+    {"rank": 10, "name": "DISCO（迪斯科）", "country": "日", "revenue": "N/A", "unit": "亿美元", "share": "N/A", "products": "后道切割/研磨设备及耗材，2025年营收+11%", "year": "2025", "source_id": "SRC-OV-07"}
+  ],
+  "trend_notes": [
+    {"text": "出口管制持续加码重塑区域格局：2024年12月美国BIS新规将HBM及更多半导体制造设备纳入管制并新增140家实体清单，荷兰2025年4月起扩大光刻、ALD、Epi、PECVD及量测设备出口许可范围；管制下中国大陆转向成熟制程扩产与国产设备导入，2025年中国设备支出493亿美元高位企稳、北美设备支出下滑20%。", "source_id": "SRC-OV-09"},
+    {"text": "中国大陆设备与材料份额持续抬升：2024年中国设备支出+35%至496亿美元、2025年493亿美元仍居全球第一（占36.5%）；材料消费156亿美元居全球第二且两位数增长；北方华创以约51亿美元营收成为Top10中唯一中国企业（第7位）。", "source_id": "SRC-OV-02"},
+    {"text": "国内设备行业进入平台化整合期：2025年3月北方华创以16.87亿元受让芯源微9.49%股份并谋求控制权，被视为设备板块并购整合的「信号枪」，并购潮覆盖设备、材料、EDA、封测各环节。", "source_id": "SRC-OV-10"},
+    {"text": "AI驱动后道设备与测试异军突起：2025年测试设备billings激增55%，Advantest营收+78%跃居全球第6；先进封装/异构集成使组装封装设备连续两年20%左右增长，后道成为设备市场增长最快环节。", "source_id": "SRC-OV-01"},
+    {"text": "头部设备格局固化但内部位次松动：2025年Top10名单与2024年完全相同、前五排名不变，CR5约占Top10的85%；增长引擎从泛林（+27%）、Advantest（+78%）等AI敞口高的厂商切换，应用材料（+1%）、TEL（+2%）、SCREEN（-10%）明显跑输。", "source_id": "SRC-OV-07"},
+    {"text": "材料端结构性分化：光刻胶/掩膜版/湿化学品等先进制程材料两位数增长，封装材料受先进基板与金价驱动+9.3%；但硅片2025年仍供过于求约5%-10%（8英寸偏弱、12英寸稼动率>95%），价格修复滞后于量的回升。", "source_id": "SRC-OV-11"}
+  ],
+  "sources": [
+    {"source_id": "SRC-OV-01", "org": "SEMI", "title": "Global Semiconductor Equipment Sales Forecast to Reach a Record $229 Billion in 2028 (Mid-Year Total Semiconductor Equipment Forecast – OEM Perspective)", "publish_date": "2026-07-14", "data_year": "2025实际/2026-2028预测", "metric": "总设备/WFE/测试/封装设备销售额及分应用WFE", "caliber": "OEM销售额；WFE含晶圆加工、掩膜/掩膜版、厂房设施设备", "region": "全球", "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-forecast-to-reach-a-record-229-billion-dollars-in-2028-semi-reports", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2026E总设备1659亿(+23.2%)、WFE 1439亿(+23.1%)；较2025年末预测（WFE 2026E +9.0%）大幅上修"},
+    {"source_id": "SRC-OV-02", "org": "SEMI", "title": "SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025 (WWSEMS)", "publish_date": "2026-04-07", "data_year": "2025", "metric": "全球及分地区设备billings", "caliber": "WWSEMS出货/开票口径", "region": "全球/中国大陆/中国台湾/韩国等", "url": "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "中国大陆493亿(-0.5%)、台湾315亿(+90%)、韩国258亿(+26%)、北美109亿(-20%)、欧洲29亿(-41%)"},
+    {"source_id": "SRC-OV-03", "org": "SEMI", "title": "Global Semiconductor Materials Market Revenue Reaches Record $73.2 Billion in 2025 (MMDS)", "publish_date": "2026-05-12", "data_year": "2025", "metric": "材料市场总额/晶圆制造材料/封装材料/分地区", "caliber": "MMDS营收口径", "region": "全球/中国台湾/中国大陆/韩国", "url": "https://www.ctiweb.co.jp/en/global-semiconductor-materials-market-revenue-reaches-record-73-2-billion-in-2025-semi-reports/", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "经行业媒体全文转载SEMI新闻稿核对：晶圆制造材料458亿(+5.4%)、封装材料274亿(+9.3%)、台湾217亿、中国156亿、韩国112亿"},
+    {"source_id": "SRC-OV-04", "org": "SEMI", "title": "2024 Global Semiconductor Materials Market Posts $67.5 Billion in Revenue (MMDS)", "publish_date": "2025-04-28", "data_year": "2024", "metric": "材料市场总额/晶圆制造材料/封装材料", "caliber": "MMDS营收口径", "region": "全球/中国台湾", "url": "https://finance.yahoo.com/news/2024-global-semiconductor-materials-market-140000018.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2024年：总额675亿(+3.8%)、晶圆制造429亿(+3.3%)、封装246亿(+4.7%)、台湾201亿（连续15年第一）"},
+    {"source_id": "SRC-OV-05", "org": "WSTS", "title": "Global Semiconductor Market Surges Beyond $1.5T 2026 (Spring 2026 Forecast)", "publish_date": "2026-06", "data_year": "2026-2027预测", "metric": "全球半导体市场规模/分产品/分地区增速", "caliber": "WSTS官方预测", "region": "全球", "url": "https://www.wsts.org/76/Recent-News-Release", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2026E +90%至1.51万亿美元（存储+250%超8000亿、逻辑+37%、美洲+112%）；2027E +27%约1.9万亿。增速为存储超级周期下的异常高值，引用时建议注明WSTS春季预测背景"},
+    {"source_id": "SRC-OV-06", "org": "Semiconductor Intelligence（SemiWiki转载）", "title": "AI Drives Strong Semiconductor Market in 2025-2026", "publish_date": "2026-02-26", "data_year": "2025", "metric": "全球半导体市场实际规模", "caliber": "引用WSTS实际数据", "region": "全球", "url": "https://www.semiconductorintelligence.com/ai-drives-semiconductor-market-in-2025-2026/", "access_date": "2026-10-15", "type": "行业媒体", "level": "B", "remark": "2025年实际约7920亿美元(+25.6%)。与WSTS 2025秋季预测值7720亿(+22%)存在差异，系预测vs实际，已在fact备注中说明"},
+    {"source_id": "SRC-OV-07", "org": "CINNO·IC Research", "title": "2025年全球半导体设备厂商市场规模排名Top10", "publish_date": "2026-04-20", "data_year": "2025", "metric": "设备厂商半导体业务营收Top10", "caliber": "上市公司半导体业务营收（不含FPD/PCB），汇率1欧元=1.14美元、1日元=0.0067美元", "region": "全球", "url": "https://www.eet-china.com/mp/a489262.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "B", "remark": "CINNO为第三方咨询机构，原文经EET-China转载；ASML 372亿/AMAT 270亿/北方华创约51亿，3-6及8-10名未披露绝对额仅披露增速；Top5合计近1127亿、约占Top10的85%"},
+    {"source_id": "SRC-OV-08", "org": "野村证券（东方财富财富号转载）", "title": "野村研报解析：半导体设备与材料", "publish_date": "2026-10-11", "data_year": "2025", "metric": "硅片CR5、硅片占材料价值量比例", "caliber": "券商研报口径", "region": "全球", "url": "https://caifuhao.eastmoney.com/news/20261011153705211934450", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "二手转载。信越/SUMCO/环球晶/Siltronic/SK Siltron合计供应近90%、300mm超95%；与公开资料常见口径（CR5约90%）一致"},
+    {"source_id": "SRC-OV-09", "org": "美国国会研究局CRS / BIS / 荷兰政府公报（综合）", "title": "U.S. Export Controls and China: Advanced Semiconductors (CRS R48642) 及2024年12月BIS新规、2025年4月荷兰出口管制扩展", "publish_date": "2025-09-19", "data_year": "2024-2025", "metric": "出口管制政策要点", "caliber": "官方文件与政策梳理", "region": "美国/荷兰/中国", "url": "https://www.congress.gov/crs-product/R48642", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2024年12月BIS：HBM与SME管制扩展+140家实体清单；荷兰2025年4月1日起将光刻/ALD/Epi/PECVD/量测等纳入国家许可"},
+    {"source_id": "SRC-OV-10", "org": "第一财经", "title": "半导体年内首笔「A吃A」：北方华创拟「两步走」拿下芯源微控制权", "publish_date": "2025-03-11", "data_year": "2025", "metric": "并购事件", "caliber": "上市公司公告报道", "region": "中国大陆", "url": "https://www.yicai.com/news/102504860.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "16.87亿元受让芯源微9.49%股份（88.48元/股），后续通过公开竞买继续增持以取得控制权"},
+    {"source_id": "SRC-OV-11", "org": "36氪（引环球晶公开表态）", "title": "硅片，冷热不均", "publish_date": "2025-11-09", "data_year": "2025", "metric": "硅片供需状况", "caliber": "公司高管公开表态", "region": "全球", "url": "https://m.36kr.com/p/3545270077550465", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "环球晶董事长：全球硅片供过于求约5%-10%，12英寸稼动率>95%、8英寸偏弱"},
+    {"source_id": "SRC-OV-12", "org": "SEMI", "title": "Global Semiconductor Equipment Billings Surged to $117 Billion in 2024 (WWSEMS)", "publish_date": "2025-04-09", "data_year": "2024", "metric": "全球及分地区设备billings", "caliber": "WWSEMS口径", "region": "全球/中国大陆", "url": "https://finance.yahoo.com/news/global-semiconductor-equipment-billings-surged-220000778.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "2024年全球1171亿(+10%)，中国大陆496亿(+35%)连续第五年第一，中韩台合计74%"}
+  ]
+}

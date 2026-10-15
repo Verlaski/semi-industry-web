@@ -1,0 +1,298 @@
+{
+  "scope": "materials_pkg",
+  "base_materials": [
+    {
+      "name": "电子级多晶硅",
+      "relation": "高纯多晶硅经拉晶（直拉/区熔）→单晶硅棒→切磨抛→半导体硅片，是晶圆制造及后续封装的衬底起点",
+      "note": "属晶圆制造材料环节，此处仅说明与封装材料的上下游关系"
+    },
+    {
+      "name": "高纯石英砂",
+      "relation": "高纯石英砂→电弧熔制/气炼→石英坩埚、石英管、石英舟等石英制品，用于拉晶与扩散等高温工艺",
+      "note": "石英制品归装备零部件图谱，此处仅说明原料→材料转换关系"
+    },
+    {
+      "name": "基础化工原料",
+      "relation": "基础酸碱、溶剂、特种气体原料经提纯/合成→湿电子化学品（超净高纯试剂）、电子特气，用于清洗、刻蚀、沉积及封装工艺",
+      "note": "湿电子化学品/电子特气另有专门赛道，此处仅说明关系"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "ma-p-substrate",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "封装基板",
+      "subs": [
+        {"name": "BT树脂基板", "note": "存储/CSP主流，日企（三菱瓦斯化学BT树脂）与韩台厂主导，内资已批量供货"},
+        {"name": "ABF载板", "note": "FCBGA高端赛道，味之素ABF膜为关键材料；欣兴/揖斐电/南亚电路板等寡头垄断，内资处于送样认证与爬坡期"}
+      ],
+      "market_size": {
+        "value": "178.4（2022）；预计2026年约214",
+        "unit": "亿美元",
+        "year": "2022",
+        "scope": "全球（IC封装基板整体）",
+        "source_id": "SRC-MP-01"
+      },
+      "global_leaders": [
+        {"name": "欣兴电子 Unimicron", "country": "中国台湾", "share": "ABF约26.6%（2022）；IC载板总口径约15%（2021）", "products": "ABF载板、BT基板", "tag": "全球IC载板营收第一", "source_id": "SRC-MP-02"},
+        {"name": "揖斐电 Ibiden", "country": "日本", "share": "ABF约14.6%（2022）；IC载板总口径约14%（2021）", "products": "FCBGA用ABF载板", "tag": "日系ABF龙头", "source_id": "SRC-MP-02"},
+        {"name": "南亚电路板 Nan Ya PCB", "country": "中国台湾", "share": "ABF约13.5%（2022）", "products": "ABF载板、BT基板", "tag": "台系载板大厂", "source_id": "SRC-MP-02"},
+        {"name": "新光电气 Shinko Electric", "country": "日本", "share": "ABF约12.8%（2022）", "products": "FCBGA载板、引线框架", "tag": "日系载板+框架双主业", "source_id": "SRC-MP-02"},
+        {"name": "奥特斯 AT&S", "country": "奥地利", "share": "ABF约8%（2022）", "products": "高端ABF载板", "tag": "欧洲唯一ABF大厂", "source_id": "SRC-MP-02"}
+      ],
+      "china_leaders": [
+        {"name": "深南电路", "share": "N/A（按收入排名）", "tag": "内资IC载板第一，BT基板批量、FCBGA爬坡", "source_id": "SRC-MP-01"},
+        {"name": "兴森科技", "share": "N/A（按收入排名）", "tag": "内资ABF/FCBGA先行者，广州+珠海基地", "source_id": "SRC-MP-03"},
+        {"name": "珠海越亚", "share": "N/A（按收入排名）", "tag": "射频无芯载板特色厂商", "source_id": "SRC-MP-03"}
+      ],
+      "localization": {
+        "stage": "验证导入",
+        "scope": "ABF载板（FCBGA）",
+        "evidence": "2021年中国大陆IC载板合计份额约5%；兴森科技、深南电路FCBGA产线处于客户认证与产能爬坡阶段，BT基板已实现批量供货",
+        "source_id": "SRC-MP-03"
+      },
+      "note": "三星电机（韩）IC载板约11%（2021）居全球前三；ABF增层膜几乎由味之素Ajinomoto（日）独家供应。ABF份额为台湾电路板协会口径（2022），与IC载板总口径（2021）不可直接比较。"
+    },
+    {
+      "id": "ma-p-leadframe",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "引线框架",
+      "subs": [
+        {"name": "冲压引线框架", "note": "工艺成熟、成本低，当前市场主流"},
+        {"name": "蚀刻引线框架", "note": "高密度QFN/DFN方向，精度壁垒更高"}
+      ],
+      "market_size": {
+        "value": "42.95",
+        "unit": "亿美元",
+        "year": "2024",
+        "scope": "全球",
+        "source_id": "SRC-MP-04"
+      },
+      "global_leaders": [
+        {"name": "三井高科技 Mitsui High-tec", "country": "日本", "share": "N/A（按收入排名）；全球前三家合计约35%（2024）", "products": "冲压/蚀刻框架", "tag": "全球引线框架龙头", "source_id": "SRC-MP-04"},
+        {"name": "新光电气 Shinko Electric", "country": "日本", "share": "N/A（按收入排名）；前三家之一", "products": "蚀刻框架、IC载板", "tag": "全球前三", "source_id": "SRC-MP-04"},
+        {"name": "长华科技 Chang Wah", "country": "中国台湾", "share": "N/A（按收入排名）；前三家之一", "products": "冲压/蚀刻框架、导线架材料", "tag": "台系龙头", "source_id": "SRC-MP-04"},
+        {"name": "HAESUNG DS", "country": "韩国", "share": "N/A（按收入排名）", "products": "冲压/蚀刻框架", "tag": "韩系主力", "source_id": "SRC-MP-04"},
+        {"name": "先进封装材料国际 AAMI", "country": "中国香港/新加坡", "share": "N/A（按收入排名）；全球第4（2025，媒体口径）", "products": "蚀刻框架", "tag": "2025年被至正股份收购", "source_id": "SRC-MP-06"}
+      ],
+      "china_leaders": [
+        {"name": "康强电子", "share": "国内约30%（2024，媒体口径）", "tag": "国内引线框架龙头，2024年出货约128亿只", "source_id": "SRC-MP-06"},
+        {"name": "至正股份（AAMI）", "share": "N/A（按收入排名）", "tag": "收购AAMI后国内第二、全球第四，客户含长电/通富/日月光", "source_id": "SRC-MP-06"}
+      ],
+      "localization": {
+        "stage": "批量替代",
+        "scope": "冲压型引线框架",
+        "evidence": "引线框架国产化率约52%（2025，行业媒体口径）；康强电子国内市占约30%居首，QFN/DFN精度可对标日系厂商",
+        "source_id": "SRC-MP-06"
+      },
+      "note": "QYResearch预计2031年全球规模55.41亿美元（CAGR 3.8%）；2024年前十大厂商合计约50%。中国为最大生产地区（产量占比约27%）。"
+    },
+    {
+      "id": "ma-p-wire",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "键合丝与键合带",
+      "subs": [
+        {"name": "金线/银线", "note": "高端存储、车规仍以金丝为主，超细金丝（≤15μm）高度依赖进口"},
+        {"name": "铜线/镀钯铜线", "note": "成本较金丝低约90%，已成消费电子与通用芯片主流，国产替代进展最快"}
+      ],
+      "market_size": {
+        "value": "73.3",
+        "unit": "亿美元",
+        "year": "2024",
+        "scope": "全球",
+        "source_id": "SRC-MP-07"
+      },
+      "global_leaders": [
+        {"name": "田中贵金属 Tanaka", "country": "日本", "share": "N/A（按收入排名）；全球Top3合计约54.65%", "products": "金/银/铜键合丝", "tag": "高端金线全球第一，台积电先进封装核心耗材供应商", "source_id": "SRC-MP-08"},
+        {"name": "贺利氏 Heraeus", "country": "德国", "share": "N/A（按收入排名）；Top3之一", "products": "金/铜键合丝、键合带", "tag": "欧洲键合材料龙头", "source_id": "SRC-MP-08"},
+        {"name": "住友电工 Sumitomo Electric", "country": "日本", "share": "N/A（按收入排名）", "products": "金/铜键合丝", "tag": "日系主力", "source_id": "SRC-MP-09"},
+        {"name": "铭凯益 MKE", "country": "韩国", "share": "N/A（按收入排名）", "products": "键合丝", "tag": "韩系主力", "source_id": "SRC-MP-24"}
+      ],
+      "china_leaders": [
+        {"name": "康强电子", "share": "N/A（按收入排名）；产能可满足全国30%以上需求", "tag": "金/银/铜全系列，年产能3.6亿米", "source_id": "SRC-MP-08"},
+        {"name": "烟台一诺", "share": "国内约11%（2025，媒体口径）", "tag": "内资高端键合丝头部民企", "source_id": "SRC-MP-25"},
+        {"name": "紫金佳博", "share": "N/A（按收入排名）", "tag": "背靠紫金矿业，攻克高纯金丝原料", "source_id": "SRC-MP-25"}
+      ],
+      "localization": {
+        "stage": "批量替代",
+        "scope": "镀钯铜线/通用铜键合丝",
+        "evidence": "镀钯铜丝已成消费电子与通用芯片封装主流，康强电子产能3.6亿米可满足全国30%以上需求；但高端金线（≤15μm）进口依存度仍约95%（2024，媒体口径）",
+        "source_id": "SRC-MP-08"
+      },
+      "note": "市场规模口径分歧大：Grand View Research为73.3亿美元（2024），另有机构给出约15-16亿美元（2024），差异源于是否含键合带/统计边界不同；高端金丝进口依存度95%、铜基85%为二手汇编口径（D级），仅供方向参考。"
+    },
+    {
+      "id": "ma-p-emc",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "塑封料",
+      "subs": [
+        {"name": "环氧塑封料EMC（固态）", "note": "占包封材料约90%，住友电木/Resonac双寡头，华海诚科并购衡所华威后出货全球第二"},
+        {"name": "液态塑封/GMC·LMC", "note": "HBM等先进封装用颗粒状/液态料，此前仅住友、Resonac量产，华海诚科国内唯一量产GMC"}
+      ],
+      "market_size": {
+        "value": "25.05",
+        "unit": "亿美元",
+        "year": "2024",
+        "scope": "全球（环氧树脂模塑料）",
+        "source_id": "SRC-MP-10"
+      },
+      "global_leaders": [
+        {"name": "住友电木 Sumitomo Bakelite", "country": "日本", "share": "约28%（2024）", "products": "全系列EMC、GMC", "tag": "全球第一，苏州产能3.3万吨/年以上", "source_id": "SRC-MP-11"},
+        {"name": "力森诺科 Resonac（原日立化成）", "country": "日本", "share": "约16%（2024）", "products": "EMC、底填料、DAF", "tag": "全球第二，苏州扩产瞄准中国第一", "source_id": "SRC-MP-11"},
+        {"name": "松下电子材料 Panasonic", "country": "日本", "share": "N/A（按收入排名）", "products": "EMC", "tag": "日系主要厂商", "source_id": "SRC-MP-12"},
+        {"name": "长春塑封料（长春人造树脂集团）", "country": "中国台湾", "share": "国内约8%（2025，二手口径）", "products": "EMC", "tag": "台系主力", "source_id": "SRC-MP-26"}
+      ],
+      "china_leaders": [
+        {"name": "华海诚科", "share": "全球约9%（2024，并购前）；国内约25%居第一", "tag": "2025年并购衡所华威后全球出货第二、年产销超2.5万吨，HBM用GMC国内唯一量产", "source_id": "SRC-MP-11"},
+        {"name": "衡所华威", "share": "全球约9%（2024）", "tag": "原汉高华威体系，2025年并入华海诚科", "source_id": "SRC-MP-26"},
+        {"name": "中科科化", "share": "N/A（按收入排名）", "tag": "中端EMC规模效应已形成，IPO进程中", "source_id": "SRC-MP-13"}
+      ],
+      "localization": {
+        "stage": "份额提升",
+        "scope": "高性能EMC（先进封装/车规/存储）",
+        "evidence": "高性能EMC国产化率仅10-20%（2025，国金证券引公司数据）；基础EMC已较高程度国产化，华海诚科GMC实现国内独家量产打破住友/Resonac垄断",
+        "source_id": "SRC-MP-11"
+      },
+      "note": "先进封装用EMC为独立高增细分：2024年全球约6.54亿美元（QYResearch）。先进封装EMC单价为高性能EMC的5-6倍、基础EMC的10倍以上（衡所华威口径）。"
+    },
+    {
+      "id": "ma-p-attach",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "芯片粘结材料",
+      "subs": [
+        {"name": "导电胶/绝缘胶", "note": "汉高乐泰主导，德邦科技已在长电/通富批量替代"},
+        {"name": "DAF膜", "note": "超薄芯片堆叠关键材料，日东/Resonac/琳得科等垄断，国产化率不足5%"},
+        {"name": "焊料焊球", "note": "BGA锡球2023年全球约15.12亿美元，千住/DS HiMetal/恒硕前三约63%"}
+      ],
+      "market_size": {
+        "value": "12",
+        "unit": "亿元人民币",
+        "year": "2024",
+        "scope": "中国（DAF胶膜）",
+        "source_id": "SRC-MP-14"
+      },
+      "global_leaders": [
+        {"name": "汉高 Henkel（乐泰/ABLESTIK）", "country": "德国", "share": "N/A（按收入排名）", "products": "导电胶、导电芯片粘接膜cDAF、底填", "tag": "导电胶全球主导厂商", "source_id": "SRC-MP-15"},
+        {"name": "力森诺科 Resonac（原日立化成）", "country": "日本", "share": "N/A（按收入排名）", "products": "导电胶、DAF、底填", "tag": "日系固晶材料主力", "source_id": "SRC-MP-15"},
+        {"name": "日东电工 Nitto", "country": "日本", "share": "N/A（按收入排名）", "products": "DAF膜", "tag": "DAF垄断厂商之一", "source_id": "SRC-MP-14"},
+        {"name": "琳得科 Lintec", "country": "日本", "share": "N/A（按收入排名）", "products": "DAF膜、UV膜", "tag": "DAF/晶圆胶带主力", "source_id": "SRC-MP-14"},
+        {"name": "千住金属 Senju Metal", "country": "日本", "share": "BGA锡球前三家合计约63%（2024）", "products": "BGA锡球、锡膏", "tag": "焊料全球龙头", "source_id": "SRC-MP-17"}
+      ],
+      "china_leaders": [
+        {"name": "德邦科技", "share": "N/A（按收入排名）", "tag": "芯片固晶导电胶批量替代汉高乐泰/日立化成，2024年研制导电固晶膜CDAF", "source_id": "SRC-MP-15"},
+        {"name": "恒硕科技", "share": "N/A（按收入排名）；BGA锡球全球前三之一", "tag": "国产锡球头部", "source_id": "SRC-MP-17"},
+        {"name": "上海锡喜", "share": "N/A（按收入排名）", "tag": "BGA锡球/锡膏专业厂商", "source_id": "SRC-MP-16"}
+      ],
+      "localization": {
+        "stage": "验证导入",
+        "scope": "DAF膜",
+        "evidence": "中国DAF市场由日东、Resonac、汉高、LG化学、琳得科等外资垄断，国产化率不足5%（2024-2025，智研咨询/行业媒体）；导电胶环节德邦科技已进入主流封测厂",
+        "source_id": "SRC-MP-14"
+      },
+      "note": "芯片粘结材料缺乏权威全球总规模口径；BGA锡球可作参照：2023年全球15.12亿美元、预计2030年23.45亿美元（QYResearch）。迪睿合Dexerials（日）、LG化学（韩）亦为DAF重要供应商。"
+    },
+    {
+      "id": "ma-p-underfill",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "底填料",
+      "subs": [
+        {"name": "毛细底填CUF", "note": "倒装芯片主流，汉高/NAMICS主导"},
+        {"name": "模塑底填MUF", "note": "HBM MR-MUF工艺带动需求，与先进封装EMC高度协同"}
+      ],
+      "market_size": {
+        "value": "2.1",
+        "unit": "亿美元",
+        "year": "2024",
+        "scope": "中国",
+        "source_id": "SRC-MP-18"
+      },
+      "global_leaders": [
+        {"name": "汉高 Henkel", "country": "德国", "share": "N/A（按收入排名）", "products": "毛细底填、非导电胶", "tag": "全球主流供应商", "source_id": "SRC-MP-19"},
+        {"name": "纳美仕 NAMICS", "country": "日本", "share": "N/A（按收入排名）", "products": "底填胶、芯片包封", "tag": "日系底填专业龙头", "source_id": "SRC-MP-18"},
+        {"name": "力森诺科 Resonac（原日立化成）", "country": "日本", "share": "N/A（按收入排名）", "products": "底填、EMC", "tag": "底填主要供应商", "source_id": "SRC-MP-19"},
+        {"name": "长濑 Nagase（ChemteX）", "country": "日本", "share": "N/A（按收入排名）", "products": "底填胶、液态塑封", "tag": "日系主力", "source_id": "SRC-MP-20"}
+      ],
+      "china_leaders": [
+        {"name": "德邦科技", "share": "N/A（按收入排名）", "tag": "底填/固晶胶布局，客户验证推进", "source_id": "SRC-MP-24"},
+        {"name": "飞凯材料", "share": "N/A（按收入排名）", "tag": "封装胶材布局（临时键合胶、EMC相关）", "source_id": "SRC-MP-21"},
+        {"name": "东莞亚聚电子", "share": "N/A（按收入排名）", "tag": "内资底填胶厂商", "source_id": "SRC-MP-24"}
+      ],
+      "localization": {
+        "stage": "验证导入",
+        "scope": "毛细底填/MUF",
+        "evidence": "底部填充料国产化率不足10%（2024，专家交流口径），主流供应商为汉高、日立化成/Resonac，国内企业处于下游客户验证阶段",
+        "source_id": "SRC-MP-19"
+      },
+      "note": "全球规模口径不一：约6.1亿美元（2022，研报汇编口径）、约5亿美元（2024，专家交流口径），预计2030年约8亿美元。"
+    },
+    {
+      "id": "ma-p-ceramic",
+      "chain_position": "上游",
+      "group": "封装材料",
+      "name": "陶瓷封装材料",
+      "subs": [
+        {"name": "HTCC管壳", "note": "氧化铝/氮化铝高温共烧，通信/军工主力，京瓷、NGK/NTK、河北中瓷(13所)三家约占85%"},
+        {"name": "LTCC", "note": "低温共烧，射频模块/基站方向，日系（京瓷、村田、TDK）领先"}
+      ],
+      "market_size": {
+        "value": "25.49",
+        "unit": "亿美元",
+        "year": "2025",
+        "scope": "全球（HTCC陶瓷封装）",
+        "source_id": "SRC-MP-20"
+      },
+      "global_leaders": [
+        {"name": "京瓷 Kyocera", "country": "日本", "share": "N/A（按收入排名）；与NGK/NTK、河北中瓷合计约85%（2024）", "products": "HTCC/LTCC管壳、基座、基板", "tag": "全球第一", "source_id": "SRC-MP-22"},
+        {"name": "NGK/NTK（日本碍子/特殊陶业）", "country": "日本", "share": "N/A（按收入排名）；前三家之一", "products": "HTCC管壳、陶瓷基板", "tag": "全球前三", "source_id": "SRC-MP-22"},
+        {"name": "丸和 Maruwa", "country": "日本", "share": "N/A（按收入排名）", "products": "HTCC封装、氮化铝基板", "tag": "日系核心厂商", "source_id": "SRC-MP-20"},
+        {"name": "Egide", "country": "法国", "share": "N/A（按收入排名）", "products": "金属-陶瓷管壳", "tag": "欧洲主导厂商", "source_id": "SRC-MP-21"}
+      ],
+      "china_leaders": [
+        {"name": "河北中瓷（中电科13所）", "share": "N/A（按收入排名）；HTCC管壳全球前三", "tag": "与京瓷、NGK/NTK合计约占全球85%", "source_id": "SRC-MP-22"},
+        {"name": "中电科43所/合肥圣达", "share": "N/A（按收入排名）", "tag": "军工电子陶瓷管壳主力", "source_id": "SRC-MP-21"},
+        {"name": "潮州三环", "share": "N/A（按收入排名）；HTCC基座与京瓷合计约83%", "tag": "电子陶瓷平台型龙头", "source_id": "SRC-MP-22"}
+      ],
+      "localization": {
+        "stage": "批量替代",
+        "scope": "HTCC管壳/基座",
+        "evidence": "中国为全球第二大生产地区、产值占比约24.76%（QYResearch，2025报告）；河北中瓷/13所居HTCC管壳全球前三，潮州三环HTCC基座与京瓷合计约83%",
+        "source_id": "SRC-MP-20"
+      },
+      "note": "口径差异：金属-陶瓷封装管壳（含金属管壳）2025年全球超30亿美元（新思界），大于纯HTCC口径。日本产值占全球约69%。"
+    }
+  ],
+  "sources": [
+    {"source_id": "SRC-MP-01", "org": "Prismark（经券商研报引用）", "title": "2024年深南电路研究报告（未来智库转载）", "publish_date": "2024-03-25", "data_year": "2022", "metric": "全球IC封装基板市场规模178.4亿美元（2022），预计2026年214亿美元", "caliber": "IC封装基板整体产值", "region": "全球", "url": "https://www.vzkoo.com/read/202403256d058e0f0d40cac6cd3a81b4.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "Prismark原始数据经研报转引"},
+    {"source_id": "SRC-MP-02", "org": "台湾电路板协会TPCA（经观研报告网引用）", "title": "ABF载板行业：高壁垒下全球市场高度集中", "publish_date": "2025-08-22", "data_year": "2022", "metric": "ABF载板份额：欣兴26.6%、揖斐电14.6%、南亚电路13.5%、新光12.8%、AT&S 8%", "caliber": "ABF载板产值份额", "region": "全球", "url": "https://m.chinabaogao.com/detail/762170.html", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "与IC载板总口径（2021）不同"},
+    {"source_id": "SRC-MP-03", "org": "券商研报（未来智库转载）", "title": "2024年兴森科技研究报告：国内封装基板先行者", "publish_date": "2024-02-22", "data_year": "2021", "metric": "IC载板总份额：欣兴15%、揖斐电14%、三星电机11%；大陆合计约5%", "caliber": "IC载板整体产值份额", "region": "全球", "url": "https://www.vzkoo.com/read/2024022212d6bfc097b4b560af6bc014.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-04", "org": "QYResearch恒州博智", "title": "2025-2031全球与中国引线框架市场现状及未来发展趋势", "publish_date": "2025-01-19", "data_year": "2024", "metric": "全球引线框架42.95亿美元（2024），2031年预计55.41亿美元；前三大厂商约35%", "caliber": "引线框架销售额", "region": "全球", "url": "https://www.qyresearch.com.cn/reports/4478535/leadframes", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-05", "org": "行业研究机构（新浪财经转载）", "title": "2026-2032年引线框架行业市场调研及发展趋势预测报告", "publish_date": "2025-12-03", "data_year": "2024", "metric": "全球前十大引线框架厂商合计约50%份额；主要厂商名单", "caliber": "厂商收入份额", "region": "全球", "url": "https://finance.sina.cn/2025-12-03/detail-infzpsna9344395.d.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MP-06", "org": "雪球专栏", "title": "引线框架和键合丝行业简析：国产替代正当时", "publish_date": "2026-06-14", "data_year": "2025", "metric": "康强电子国内市占约29%、2024年出货128亿只；国产化率约52%；至正股份收购AAMI居全球第4", "caliber": "国内市场份额（自媒体汇编）", "region": "中国", "url": "https://xueqiu.com/9966004797/394624853", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "自媒体二手汇编，份额数字需以公司年报复核"},
+    {"source_id": "SRC-MP-07", "org": "Grand View Research", "title": "Bonding Wire - Semiconductor Packaging Market Statistics", "publish_date": "2025-05-02", "data_year": "2024", "metric": "全球键合丝市场73.344亿美元（2024），2030年预计136.59亿美元", "caliber": "半导体封装键合丝收入", "region": "全球", "url": "https://www.grandviewresearch.com/horizon/statistics/semiconductor-packaging-market/material/bonding-wire/global", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "与Strategic Market Research约15.6亿美元（2024）口径差异极大，需注明"},
+    {"source_id": "SRC-MP-08", "org": "中商产业研究院", "title": "2026年中国先进封装产业链图谱及投资布局分析", "publish_date": "2026-06-15", "data_year": "2025", "metric": "全球键合丝Top3占54.65%（贺利氏、田中领先）；康强电子产能3.6亿米、满足全国30%以上需求", "caliber": "厂商份额/产能", "region": "全球/中国", "url": "https://t.cj.sina.com.cn/articles/view/7962326780/1da9776fc001018cf6", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "Top3份额统计年份未明示"},
+    {"source_id": "SRC-MP-09", "org": "知乎专栏（汇编）", "title": "卡脖子：中国哪些新材料高度依赖日本进口及国外进口", "publish_date": "2025-11-25", "data_year": "2024", "metric": "高端金键合丝（≤15μm）进口依存度95%、铜基85%；田中40%/住友25%/K&S 20%（高端市场）", "caliber": "高端键合丝中国市场", "region": "中国", "url": "https://zhuanlan.zhihu.com/p/1976639322536042807", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "二手汇编，仅作方向参考"},
+    {"source_id": "SRC-MP-10", "org": "QYResearch（格隆汇转载）", "title": "2025全球环氧树脂模塑料市场：销量、收入、价格及最新动态", "publish_date": "2025-01-24", "data_year": "2024", "metric": "全球环氧树脂模塑料25.05亿美元（2024），2031年预计34.46亿美元", "caliber": "EMC销售额", "region": "全球", "url": "https://www.gelonghui.com/p/1666047", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-11", "org": "国金证券", "title": "华海诚科：升级前夜，材料当先，HBM革新AI存储", "publish_date": "2025-11-18", "data_year": "2024-2025", "metric": "住友电木全球约28%、力森诺科约16%；高性能EMC国产化率仅10-20%；先进封装EMC单价为基础EMC 10倍以上", "caliber": "EMC厂商份额/国产化率（引公司数据）", "region": "全球/中国", "url": "http://news.10jqka.com.cn/field/sr/20251121/54989345.shtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-12", "org": "三个皮匠报告（汇编）", "title": "环氧塑封料：定义、工艺、产业链与市场趋势", "publish_date": "2026-08-27", "data_year": "2024-2025", "metric": "2024年住友电木市占约28%；全球前五含Resonac、Eternal、Panasonic、住友、京瓷；华海并购衡所后年产销超2.5万吨", "caliber": "厂商份额/出货量", "region": "全球", "url": "https://www.sgpjbg.com/news/7072826.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MP-13", "org": "国金证券研报口径（网易转载）", "title": "中科科化IPO：高端化转型求突围", "publish_date": "2026-04-15", "data_year": "2024-2025", "metric": "住友电木约28%、力森诺科约16%，合计超40%；住友苏州产能3.3万吨/年", "caliber": "EMC厂商份额", "region": "全球", "url": "https://www.163.com/dy/article/KQIMKJ1D05568V7Z.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "引用国金证券研报"},
+    {"source_id": "SRC-MP-14", "org": "智研咨询", "title": "研判2025！中国DAF胶膜行业发展驱动力、市场规模", "publish_date": "2025-09-19", "data_year": "2024", "metric": "2024年中国DAF胶膜市场规模突破12亿元；市场由日东、力森诺科、汉高、LG化学、琳得科垄断", "caliber": "DAF胶膜市场规模", "region": "中国", "url": "https://www.chyxx.com/industry/1236402.html", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-15", "org": "德邦科技", "title": "发行人及保荐机构关于第二轮审核问询函的回复", "publish_date": "2022-06", "data_year": "2021", "metric": "芯片固晶导电胶替代汉高乐泰、日立化成，客户长电科技/通富微电；2024年研制CDAF（另据2024年报）", "caliber": "公司披露", "region": "中国", "url": "http://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=688035&id=7937033", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "CDAF进展出自公司2024年年度报告"},
+    {"source_id": "SRC-MP-16", "org": "QYResearch（格隆汇转载）", "title": "2024-2030全球及中国半导体封装BGA锡球行业分析", "publish_date": "2024-08-06", "data_year": "2023", "metric": "全球BGA锡球15.12亿美元（2023），2030年预计23.45亿美元，CAGR 6.5%", "caliber": "BGA锡球销售额", "region": "全球", "url": "https://m.gelonghui.com/p/904148", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-17", "org": "发现报告（汇编）", "title": "BGA焊球市场规模及全球中国现状", "publish_date": "2025-09-06", "data_year": "2024", "metric": "BGA焊球前三厂商（Senju、DS HiMetal、恒硕科技）合计约63%；无铅焊球占比约73%", "caliber": "厂商份额", "region": "全球", "url": "https://www.fxbaogao.com/q/2509065972971244", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "二手汇编"},
+    {"source_id": "SRC-MP-18", "org": "华经情报网", "title": "2025年中国半导体底部填充胶行业发展现状及趋势分析", "publish_date": "2025-12-07", "data_year": "2024", "metric": "中国半导体底部填充胶市场规模2.1亿美元（2024）；以汉高、NAMICS为主要供应商", "caliber": "底填胶市场规模", "region": "中国", "url": "https://m.huaon.com/channel/trend/1126275.html", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-19", "org": "行业专家交流纪要（微信公众号）", "title": "一帆风正劲，关键材料国产化正当时", "publish_date": "2025", "data_year": "2024", "metric": "底部填充料2024年全球约5亿美元、2030年约8亿美元；国产化率不足10%；主流供应商汉高、日立化成", "caliber": "专家口径", "region": "全球/中国", "url": "http://mp.weixin.qq.com/s?__biz=MzU1MTE0NzU5Nw==&mid=2247523583&idx=3&sn=c2e33ec23d244b3ef3b32e4ffe117714", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "专家访谈口径，非正式统计"},
+    {"source_id": "SRC-MP-20", "org": "QYResearch（搜狐转载）", "title": "全球HTCC陶瓷封装市场报告2025-2031", "publish_date": "2025-03-04", "data_year": "2025", "metric": "全球HTCC陶瓷封装2025年约25.49亿美元、2031年38.3亿美元（CAGR 6.4%）；日本产值占69%、中国占24.76%", "caliber": "HTCC陶瓷封装产值", "region": "全球", "url": "https://www.sohu.com/a/866682226_121172584", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-21", "org": "格隆汇（行业报告转载）", "title": "2025年全球金属-陶瓷封装管壳市场规模将达35.24亿美元", "publish_date": "2025-09-16", "data_year": "2025", "metric": "金属-陶瓷封装管壳全球规模及竞争梯队（京瓷、NGK/NTK、Egide、NEO Tech、河北中瓷、潮州三环等）", "caliber": "金属-陶瓷管壳规模/厂商梯队", "region": "全球", "url": "https://m.gelonghui.com/p/2846509", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "与新思界口径（超30亿美元）接近"},
+    {"source_id": "SRC-MP-22", "org": "QYResearch（掘金转载）", "title": "全球金属陶瓷封装管壳市场现状及未来发展趋势", "publish_date": "2024-09-23", "data_year": "2024", "metric": "HTCC管壳前三（京瓷、NGK/NTK、河北中瓷和13所）约占85%；HTCC基座京瓷+潮州三环约83%", "caliber": "厂商产值份额", "region": "全球", "url": "https://juejin.cn/post/7417005270420455424", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-23", "org": "QYResearch（格隆汇转载）", "title": "全球先进封装用环氧塑封料市场规模及趋势分析2025版", "publish_date": "2025-03-12", "data_year": "2024", "metric": "全球先进封装用EMC 6.54亿美元（2024），2031年预计10.01亿美元", "caliber": "先进封装EMC销售额", "region": "全球", "url": "https://m.gelonghui.com/p/1886214", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": ""},
+    {"source_id": "SRC-MP-24", "org": "Reportify（八亿时空材料汇编）", "title": "半导体封装材料国内外企业梳理", "publish_date": "2026-01-07", "data_year": "2025", "metric": "导电胶膜（迪睿合、3M、H&S、日立化成 vs 连森、飞世尔）、底填（日立化成、NAMICS、信越、陶氏、洛德 vs 亚聚、三略、库泰）等企业名单", "caliber": "企业名录", "region": "全球/中国", "url": "https://staging.reportify.cn/companies/SH:688181/documents", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-MP-25", "org": "搜狐财经（汇编）", "title": "芯片金丝国产替代：铜丝替代与国产键合丝产业矩阵", "publish_date": "2026-05-28", "data_year": "2025", "metric": "康强电子年产能3.6亿米；烟台一诺国内约11%份额；紫金佳博攻克高纯金丝", "caliber": "产能/国内份额（媒体口径）", "region": "中国", "url": "https://www.sohu.com/a/1029027752_122157897", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "媒体汇编，份额需复核"},
+    {"source_id": "SRC-MP-26", "org": "雪球专栏（汇编）", "title": "华海诚科全球EMC市占率分析", "publish_date": "2026-05-14", "data_year": "2024-2025", "metric": "2024年全球EMC：住友28%、力森诺科16%、衡所华威9%、华海诚科9%；并购后合计约18%居全球第二；国内（含衡所）约35%、长春塑封料约8%", "caliber": "厂商份额（自媒体汇编）", "region": "全球/中国", "url": "https://xueqiu.com/1624764609/388956658", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "份额与国金证券口径大体一致，细节需以公司公告复核"}
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "scope": "equipment_frontend",
+  "wfe_facts": [
+    {
+      "label": "全球半导体制造设备销售额（总设备口径，OEM出货/billings）",
+      "value": "1351",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-EF-01",
+      "note": "2025年实际值，同比+15%（2024年为1171亿美元）；其中晶圆加工设备（wafer processing）+12%，测试设备+55%，封装设备+21%。为目前可溯源的最新实际值。"
+    },
+    {
+      "label": "中国大陆半导体设备销售额",
+      "value": "493",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "中国大陆",
+      "source_id": "SRC-EF-01",
+      "note": "2025年实际值，同比-0.5%，仍为全球第一大市场；中国台湾315亿美元（+90%）、韩国258亿美元（+26%）分列二、三。"
+    },
+    {
+      "label": "全球晶圆厂设备（WFE，含晶圆加工、掩膜/掩模版、厂务设施）销售额",
+      "value": "1169",
+      "unit": "亿美元",
+      "year": "2025",
+      "region": "全球",
+      "source_id": "SRC-EF-02",
+      "note": "SEMI 2026年7月中预测报告中回溯的2025年WFE实际值，创历史纪录。"
+    },
+    {
+      "label": "全球WFE销售额预测",
+      "value": "1439",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-EF-02",
+      "note": "SEMI 2026年7月最新预测，同比+23.1%。与旧口径差异说明：公司旧内部图谱引用的「2026E 全球WFE 1968亿美元、同比+21.68%」未找到可溯源公开出处；SEMI最新2026E WFE为1439亿美元（+23.1%），旧值较之高约37%，增速接近但基数明显不符，建议以SEMI 1439亿美元口径替换；旧值可能混入了非WFE口径或为过时的第三方乐观预测。2027E WFE预计+21.8%，2028E再增14.1%至约2000亿美元。"
+    },
+    {
+      "label": "全球半导体制造设备销售额预测（总设备口径）",
+      "value": "1659",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-EF-02",
+      "note": "同比+23.2%；2028E预计达2295亿美元，连续五年增长。"
+    },
+    {
+      "label": "全球半导体设备销售额（总设备口径）",
+      "value": "1171",
+      "unit": "亿美元",
+      "year": "2024",
+      "region": "全球",
+      "source_id": "SRC-EF-03",
+      "note": "2024年实际值，同比+10%；中国大陆496亿美元（+35%）居首。"
+    },
+    {
+      "label": "全球半导体设备销售额预测（总设备口径，SEMI 2025年末预测）",
+      "value": "1450",
+      "unit": "亿美元",
+      "year": "2026E",
+      "region": "全球",
+      "source_id": "SRC-EF-04",
+      "note": "SEMI 2025年12月年末预测：2025年1330亿（+13.7%）、2026年1450亿、2027年1560亿。已被2026年7月中预测（2026E 1659亿）大幅上修，列此供版本对比。"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "eq-f-litho",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "光刻机",
+      "subs": [
+        {"name": "EUV", "global_leaders": ["ASML（荷）"], "note": "ASML独家垄断（100%），含High-NA EUV；中国大陆受出口管制无法采购。"},
+        {"name": "ArF浸没式", "global_leaders": ["ASML（荷）", "Nikon（日）"], "note": "ASML占绝对主导（高端机型合计出货份额约91%），Nikon少量；对华出口受管制。"},
+        {"name": "ArF干式", "global_leaders": ["ASML（荷）", "Nikon（日）"], "note": "ASML为主，Nikon保有份额；成熟制程扩产带动需求。"},
+        {"name": "KrF", "global_leaders": ["ASML（荷）", "Nikon（日）", "Canon（日）"], "note": "三家竞争，成熟制程主力机型，国产替代的主要切入区间。"},
+        {"name": "i-line", "global_leaders": ["Canon（日）", "Nikon（日）", "ASML（荷）"], "note": "技术成熟、单价低，Canon份额较高；国产整机已有出货。"}
+      ],
+      "market_size": {"value": "264", "unit": "亿美元", "year": "2024", "scope": "全球", "source_id": "SRC-EF-05"},
+      "global_leaders": [
+        {"name": "阿斯麦 ASML", "country": "荷", "share": "约82%（2024，收入口径，按264亿美元市场与其光刻系统收入推算）；EUV独占100%，EUV/ArFi/ArF高端机型出货份额91.4%（2024）", "products": "EUV（NXE/EXE High-NA）、ArF浸没式/干式、KrF、i-line全线", "tag": "全球绝对龙头", "source_id": "SRC-EF-05"},
+        {"name": "尼康 Nikon", "country": "日", "share": "N/A（按收入排名第二，个位数百分比）", "products": "ArF浸没式/干式、KrF、i-line", "tag": "第二供应商", "source_id": "SRC-EF-05"},
+        {"name": "佳能 Canon", "country": "日", "share": "N/A（按收入排名第三，个位数百分比）", "products": "KrF、i-line、纳米压印（NIL）", "tag": "成熟制程与NIL路线", "source_id": "SRC-EF-05"}
+      ],
+      "china_leaders": [
+        {"name": "上海微电子装备 SMEE", "share": "N/A（全球份额<1%，2024）", "tag": "国内唯一前道光刻整机厂，i-line/KrF已出货，ArF干式在验证", "source_id": "SRC-EF-21"}
+      ],
+      "localization": {"stage": "依赖进口", "scope": "EUV与ArF浸没式完全依赖进口且受出口管制；i-line/KrF国产整机已出货但份额<1%", "evidence": "2024年光刻机国产化率<1%（国金/东吴证券整理）；SMEE量产机型限于90nm级ArF干式及以下。", "source_id": "SRC-EF-21"},
+      "note": "2024年全球前道光刻机出货683台、销售额约264亿美元（芯思想，ASML/Nikon/Canon三家合计）；封装用光刻机不在本口径内。EUV细分2025年约105亿美元（行业媒体口径，SRC-EF-06）。ASML 2024年中国大陆光刻收入约90亿欧元，占比显著提升。"
+    },
+    {
+      "id": "eq-f-coater",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "涂胶显影设备",
+      "subs": [
+        {"name": "前道inline涂胶显影（与光刻机联机）", "global_leaders": ["TEL东京电子（日）"], "note": "TEL全球约90-92%，EUV配套Track达100%，与ASML深度绑定。"},
+        {"name": "offline/独立式及先进封装Track", "global_leaders": ["TEL（日）", "SCREEN（日）", "SUSS MicroTec（德）"], "note": "TEL仍主导，竞争者较多，是国产突破的切入区间。"}
+      ],
+      "market_size": {"value": "13.2", "unit": "亿美元", "year": "2025E", "scope": "中国大陆", "source_id": "SRC-EF-07"},
+      "global_leaders": [
+        {"name": "东京电子 TEL", "country": "日", "share": "约90-92%（2024，收入口径）", "products": "CLEAN TRACK LITHIUS Pro系列，覆盖EUV/ArF/KrF/i-line全线联机Track", "tag": "绝对垄断", "source_id": "SRC-EF-08"},
+        {"name": "SCREEN Holdings 迪恩士", "country": "日", "share": "N/A（按收入排名第二，个位数百分比）", "products": "涂胶显影、清洗设备", "tag": "第二供应商", "source_id": "SRC-EF-08"},
+        {"name": "SUSS MicroTec", "country": "德", "share": "N/A（按收入排名）", "products": "先进封装/化合物半导体Track", "tag": "后道细分", "source_id": "SRC-EF-08"}
+      ],
+      "china_leaders": [
+        {"name": "芯源微 Kingsemi", "share": "N/A（中国大陆份额不足10%，2024）", "tag": "国内唯一量产前道涂胶显影机厂商，28nm及以上工艺全覆盖，28nm以下验证中", "source_id": "SRC-EF-07"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "前道offline及KrF/i-line工序已量产，28nm及以上全覆盖；28nm以下inline高端机型验证中", "evidence": "芯源微前道涂胶显影设备完成28nm及以上节点全覆盖、offline量产，国产化率<10%（券商首覆研报，2025-12）。", "source_id": "SRC-EF-07"},
+      "note": "全球口径规模较小（2018年约23亿美元，此后随WFE增长估算约30亿美元级别，无权威最新全球值，故market_size采用中国大陆2025E口径13.17亿美元）。"
+    },
+    {
+      "id": "eq-f-etch",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "刻蚀设备",
+      "subs": [
+        {"name": "介质刻蚀 CCP", "global_leaders": ["Lam Research（美）", "TEL（日）", "AMAT（美）"], "note": "Lam主导CCP；国产中微公司在CCP突破最深，已进入5nm及以下产线。"},
+        {"name": "硅与金属刻蚀 ICP", "global_leaders": ["Lam Research（美）", "TEL（日）", "AMAT（美）"], "note": "ICP/导体刻蚀TEL较强；国产北方华创以ICP见长。两细分海外格局同为三家垄断（CR3约90%），差异不大，故合并呈现。"}
+      ],
+      "market_size": {"value": "262", "unit": "亿美元", "year": "2026E", "scope": "全球", "source_id": "SRC-EF-09"},
+      "global_leaders": [
+        {"name": "泛林 Lam Research", "country": "美", "share": "约40-45%（2024，收入口径）", "products": "CCP介质刻蚀、ICP导体刻蚀、高深宽比刻蚀全线", "tag": "全球第一", "source_id": "SRC-EF-10"},
+        {"name": "东京电子 TEL", "country": "日", "share": "约30-35%（2024，收入口径）", "products": "ICP导体刻蚀领先，介质刻蚀", "tag": "全球第二", "source_id": "SRC-EF-10"},
+        {"name": "应用材料 Applied Materials", "country": "美", "share": "约15-20%（2024，收入口径）", "products": "导体/金属刻蚀、选择性刻蚀", "tag": "全球第三", "source_id": "SRC-EF-10"}
+      ],
+      "china_leaders": [
+        {"name": "中微公司 AMEC", "share": "约10-12%（中国大陆市场，2024）；全球约1.4%（2021，Gartner）", "tag": "CCP介质刻蚀国产龙头，累计交付CCP反应台超3800个（2024Q3），覆盖28nm以上绝大部分CCP应用并进入5nm以下产线", "source_id": "SRC-EF-11"},
+        {"name": "北方华创 NAURA", "share": "约8-10%（中国大陆市场，2024）；全球约0.9%（2021，Gartner）", "tag": "ICP硅/金属刻蚀国产龙头，ICP累计出货超3200腔（2023年底）", "source_id": "SRC-EF-10"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "CCP介质刻蚀覆盖28nm以上绝大部分应用并进入先进制程；ICP成熟制程批量应用；先进制程高深宽比刻蚀仍在追赶", "evidence": "刻蚀国产化率>20-25%（2023-2024券商口径）；中微CCP反应台交付超3800个、北方华创ICP超3200腔。", "source_id": "SRC-EF-11"},
+      "note": "市场规模为Straits Research第三方口径（2026E 261.8亿美元）；另一通行口径为刻蚀占WFE约21%，按2025年WFE 1169亿美元估算约245亿美元，两口径接近。份额区间为券商整理口径，不同机构略有出入。"
+    },
+    {
+      "id": "eq-f-depo",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "薄膜沉积设备",
+      "subs": [
+        {"name": "PVD", "global_leaders": ["AMAT应用材料（美）"], "note": "AMAT约85%绝对垄断；国产北方华创覆盖逻辑/存储大部分PVD应用。"},
+        {"name": "CVD（含PECVD/LPCVD）", "global_leaders": ["AMAT（美）", "Lam Research（美）", "TEL（日）"], "note": "CR3约70%（AMAT 30%/Lam 21%/TEL 19%，2019 Gartner）；PECVD为最大细分（占沉积33%），国产拓荆科技主攻。"},
+        {"name": "ALD", "global_leaders": ["TEL（日）", "ASM International（荷）"], "note": "TEL约31%、ASM约29%（2019 Gartner）；国产拓荆、微导纳米、北方华创布局。"},
+        {"name": "外延 Epi", "global_leaders": ["AMAT（美）", "ASM International（荷）"], "note": "海外双头主导；国产北方华创已有EPI产品布局。"}
+      ],
+      "market_size": {"value": "230", "unit": "亿美元", "year": "2024", "scope": "全球", "source_id": "SRC-EF-12"},
+      "global_leaders": [
+        {"name": "应用材料 Applied Materials", "country": "美", "share": "PVD约85%、CVD约30%（2019，Gartner，收入口径）", "products": "PVD/CVD/ALD/Epi全线，Endura、Producer平台", "tag": "综合龙头", "source_id": "SRC-EF-13"},
+        {"name": "泛林 Lam Research", "country": "美", "share": "CVD约21%（2019，Gartner）", "products": "CVD/ALD/ECD电镀", "tag": "CVD/ALD强", "source_id": "SRC-EF-13"},
+        {"name": "东京电子 TEL", "country": "日", "share": "CVD约19%、ALD约31%（2019，Gartner）", "products": "CVD/ALD/炉管沉积", "tag": "ALD领先", "source_id": "SRC-EF-13"},
+        {"name": "ASM International", "country": "荷", "share": "ALD约29%（2019，Gartner）", "products": "ALD、Epi外延", "tag": "ALD/Epi细分龙头", "source_id": "SRC-EF-13"}
+      ],
+      "china_leaders": [
+        {"name": "北方华创 NAURA", "share": "N/A（全球份额个位数；国内PVD主力）", "tag": "PVD/CVD/ALD/EPI/ECP全系列布局，2024年薄膜沉积收入超100亿元，Metal Gate PVD实现28nm量产", "source_id": "SRC-EF-14"},
+        {"name": "拓荆科技 Piotech", "share": "N/A（国内PECVD主力）", "tag": "PECVD/ALD国产龙头，混合键合设备延伸", "source_id": "SRC-EF-12"},
+        {"name": "中微公司 AMEC", "share": "N/A", "tag": "LPCVD/W CVD等布局，平台化扩张", "source_id": "SRC-EF-11"},
+        {"name": "微导纳米 Leadmicro", "share": "N/A", "tag": "ALD细分国产厂商", "source_id": "SRC-EF-15"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "PVD/CVD成熟制程（28nm以上）批量应用；PVD成熟制程国产化率15-20%，先进制程<10%；CVD/ALD国产化率低于PVD", "evidence": "2024年PVD成熟制程国产化率15-20%、先进制程<10%（东海证券引微导纳米招股书口径）；薄膜沉积整体国产化率<20-25%。", "source_id": "SRC-EF-15"},
+      "note": "2024年全球约230亿美元系拓荆科技年报按薄膜沉积占晶圆制造设备22%推算（年报口径，A级）；沉积设备占设备资本开支比例有22-25%不同口径。"
+    },
+    {
+      "id": "eq-f-clean",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "清洗设备",
+      "subs": [
+        {"name": "单片清洗", "global_leaders": ["SCREEN（日）", "TEL（日）", "Lam Research（美）"], "note": "SCREEN全球约50%（湿法/清洗整体口径），单片为主流路线；国产盛美上海SAPS/TEBO差异化突破。"},
+        {"name": "槽式清洗", "global_leaders": ["SCREEN（日）", "TEL（日）"], "note": "日系主导槽式；国产北方华创、至纯科技具备批量能力。"}
+      ],
+      "market_size": {"value": "70", "unit": "亿美元", "year": "2023", "scope": "全球", "source_id": "SRC-EF-16"},
+      "global_leaders": [
+        {"name": "SCREEN Holdings 迪恩士", "country": "日", "share": "约50%（2022，收入口径，SEMI口径引用）", "products": "单片/槽式清洗全线", "tag": "全球第一", "source_id": "SRC-EF-17"},
+        {"name": "东京电子 TEL", "country": "日", "share": "N/A（按收入排名第二）", "products": "单片清洗、涂胶显影联机清洗", "tag": "日系双雄", "source_id": "SRC-EF-17"},
+        {"name": "泛林 Lam Research", "country": "美", "share": "N/A（按收入排名第三）", "products": "单片清洗、干法清洗", "tag": "主要竞争者", "source_id": "SRC-EF-17"}
+      ],
+      "china_leaders": [
+        {"name": "盛美上海 ACM Research", "share": "约7.2%（全球，2023，Gartner，排名第五）；约23%（中国大陆，中银证券历年累计口径）", "tag": "国产清洗龙头，SAPS/TEBO兆声波单片清洗全球首创，已用于逻辑28nm、DRAM 19nm节点", "source_id": "SRC-EF-18"},
+        {"name": "北方华创 NAURA", "share": "N/A（按收入排名国内第二梯队）", "tag": "槽式/单片清洗布局", "source_id": "SRC-EF-18"},
+        {"name": "至纯科技 PNCS", "share": "N/A", "tag": "湿法槽式清洗批量供货", "source_id": "SRC-EF-18"},
+        {"name": "芯源微 Kingsemi", "share": "N/A", "tag": "单片式化学清洗机拓展中", "source_id": "SRC-EF-17"}
+      ],
+      "localization": {"stage": "批量替代", "scope": "单片/槽式成熟制程全面覆盖，先进制程部分验证；中国大陆清洗设备国产化率约31%（2024）", "evidence": "2024年中国大陆清洗设备国产化率约31%（CSEAC调研），为前道设备中国产化率最高的环节之一；盛美SAPS已应用于28nm逻辑/19nm DRAM。", "source_id": "SRC-EF-19"},
+      "note": "全球规模约70亿美元为2023年口径（Gartner，经行业整理引用）；不同机构对清洗设备口径（是否含干法清洗、刷洗等）有差异。"
+    },
+    {
+      "id": "eq-f-thermal",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "热处理与氧化扩散设备",
+      "subs": [
+        {"name": "炉管（立式/卧式氧化扩散炉）", "global_leaders": ["TEL（日）", "Kokusai Electric（日）", "AMAT（美）"], "note": "炉管以日系为主；国产北方华创立式炉批量应用。"},
+        {"name": "RTP快速热处理", "global_leaders": ["AMAT（美）", "屹唐半导体 Mattson（中）"], "note": "RTP占热处理约47%（2022 Gartner）；屹唐（Mattson）RTP居全球第二，为国产稀缺国际级资产。"}
+      ],
+      "market_size": {"value": "30", "unit": "亿美元", "year": "2022", "scope": "全球", "source_id": "SRC-EF-20"},
+      "global_leaders": [
+        {"name": "应用材料 Applied Materials", "country": "美", "share": "约46%（2022，收入口径，Gartner）", "products": "RTP单片快速热处理、氧化/退火", "tag": "整体第一、RTP主导", "source_id": "SRC-EF-20"},
+        {"name": "东京电子 TEL", "country": "日", "share": "约21%（2022，Gartner）", "products": "立式炉管氧化/扩散/退火", "tag": "炉管龙头", "source_id": "SRC-EF-20"},
+        {"name": "Kokusai Electric 日立国际电气", "country": "日", "share": "约15%（2022，Gartner）", "products": "立式炉管、批式沉积/氧化", "tag": "炉管第二", "source_id": "SRC-EF-20"}
+      ],
+      "china_leaders": [
+        {"name": "北方华创 NAURA", "share": "N/A（全球份额个位数）", "tag": "立式氧化/扩散炉国产主力，批量进入国内产线", "source_id": "SRC-EF-20"},
+        {"name": "屹唐半导体（Mattson）", "share": "约5%（全球热处理整体，2022）；RTP细分全球第二", "tag": "RTP国产/中资国际化龙头，干法去胶亦强", "source_id": "SRC-EF-20"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "立式炉管成熟制程批量应用；RTP经屹唐（Mattson）具备全球竞争力；先进制程高温/尖峰退火仍有差距", "evidence": "屹唐全球热处理份额约5%、RTP全球第二；北方华创炉管在国内产线批量替代（深芯盟2024调研）。", "source_id": "SRC-EF-20"},
+      "note": "市场规模采用Gartner 2022年口径（约30亿美元，其中RTP 14.1亿占47%、氧化/扩散10.8亿占36%）；另有2021年约50亿美元口径（含范围更宽的热工艺设备），口径差异在此注明。"
+    },
+    {
+      "id": "eq-f-implant",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "离子注入设备",
+      "subs": [
+        {"name": "中低束流/大束流", "global_leaders": ["AMAT应用材料（美）", "Axcelis 亚舍立（美）"], "note": "AMAT整体份额超50%；大束流为最大细分。"},
+        {"name": "高能离子注入", "global_leaders": ["Axcelis（美）", "Sumitomo/SEN 住友重工（日）"], "note": "Axcelis高能机型份额约55%。"}
+      ],
+      "market_size": {"value": "25", "unit": "亿美元", "year": "2021", "scope": "全球", "source_id": "SRC-EF-22"},
+      "global_leaders": [
+        {"name": "应用材料 Applied Materials（Varian）", "country": "美", "share": "超50%（收入口径，行业整理）", "products": "全谱系离子注入机", "tag": "全球第一", "source_id": "SRC-EF-22"},
+        {"name": "Axcelis 亚舍立", "country": "美", "share": "N/A（整体第二；高能机型约55%）", "products": "Purion系列，高能/大束流/中束流", "tag": "高能细分龙头", "source_id": "SRC-EF-22"},
+        {"name": "住友重工/SEN Sumitomo", "country": "日", "share": "N/A（第三；2024年三家合计89%）", "products": "中束流/高能注入机", "tag": "日系供应商", "source_id": "SRC-EF-23"}
+      ],
+      "china_leaders": [
+        {"name": "凯世通 Kingstone（先导基电/万业企业旗下）", "share": "N/A（国内出货领先，份额个位数）", "tag": "国产离子注入整机龙头，2026年发布Hyperion先进制程大束流与iKing 360中束流新品，覆盖逻辑/存储/SiC", "source_id": "SRC-EF-24"},
+        {"name": "中科信（电科装备CETC）", "share": "N/A", "tag": "全谱系产品国产化，工艺达28nm，已启动IPO", "source_id": "SRC-EF-24"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "中束流/大束流成熟制程已量产导入，高能及先进制程机型验证中；2024年中国晶圆厂采购约320台、国产化率约7%", "evidence": "2024年离子注入国产化率约7%（观研），2025年底约12-16%（行业整理口径）；中科信工艺达28nm。", "source_id": "SRC-EF-23"},
+      "note": "全球市场规模约25亿美元为2021年券商口径（占晶圆制造设备约3%并缓升）；缺乏2024-2025权威更新值，实际随WFE增长应已在30亿美元以上，谨慎标注年份。"
+    },
+    {
+      "id": "eq-f-cmp",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "CMP设备",
+      "subs": [
+        {"name": "12英寸CMP", "global_leaders": ["AMAT应用材料（美）", "Ebara 荏原（日）"], "note": "双寡头合计超90%（AMAT约64%、Ebara约29%）；华海清科为国内唯一12英寸量产厂商。"},
+        {"name": "减薄/其他平坦化", "global_leaders": ["Disco（日）", "东京精密（日）"], "note": "减薄环节日系主导；华海清科减薄装备已放量。"}
+      ],
+      "market_size": {"value": "27.8", "unit": "亿美元", "year": "2021", "scope": "全球", "source_id": "SRC-EF-25"},
+      "global_leaders": [
+        {"name": "应用材料 Applied Materials", "country": "美", "share": "约64%（2020，收入口径，Gartner）", "products": "Reflexion系列12英寸CMP", "tag": "全球第一", "source_id": "SRC-EF-25"},
+        {"name": "荏原 Ebara", "country": "日", "share": "约29%（2020，Gartner）", "products": "CMP设备、干进干出系统", "tag": "全球第二", "source_id": "SRC-EF-25"}
+      ],
+      "china_leaders": [
+        {"name": "华海清科 Hwatsing", "share": "超90%（中国大陆12英寸国产CMP设备中）", "tag": "国内唯一12英寸CMP商业化量产厂商，进入中芯国际、长江存储、华虹、长鑫核心产线；2025年营收46.48亿元（+36.5%）", "source_id": "SRC-EF-26"},
+        {"name": "烁科精微（电科装备）", "share": "N/A", "tag": "8/12英寸CMP布局", "source_id": "SRC-EF-26"}
+      ],
+      "localization": {"stage": "批量替代", "scope": "12英寸成熟制程CMP批量替代（国产设备中华海清科占超90%）；先进制程（14nm以下）及高端应用验证中", "evidence": "国内CMP国产化率自2018年约1%升至2020年12%以上并持续爬坡；华海清科已进入头部晶圆厂核心产线。", "source_id": "SRC-EF-26"},
+      "note": "全球27.8亿美元为2021年Gartner口径（同比+57.5%），随WFE扩张2024-2025年实际规模估计在40亿美元以上，缺乏权威更新值，谨慎标注年份；先进制程CMP步骤数显著增加（65nm约12道→7nm超30道）。"
+    },
+    {
+      "id": "eq-f-metrology",
+      "chain_position": "中游",
+      "group": "前道设备",
+      "name": "量测与检测设备",
+      "subs": [
+        {"name": "缺陷检测（明场/暗场/电子束）", "global_leaders": ["KLA科磊（美）", "AMAT（美）", "Lasertec（日）"], "note": "KLA在明/暗场检测绝对优势（部分高端细分超90%）；Lasertec独占EUV掩膜检测。"},
+        {"name": "量测（CD-SEM/套刻/膜厚）", "global_leaders": ["KLA（美）", "Hitachi High-Tech日立高新（日）", "AMAT（美）", "ASML（荷）"], "note": "CD-SEM日立高新主导；套刻量测KLA与ASML双强。"},
+        {"name": "掩膜版检测", "global_leaders": ["Lasertec（日）", "KLA（美）"], "note": "EUV掩膜检测Lasertec近乎独占，壁垒极高。"}
+      ],
+      "market_size": {"value": "438", "unit": "亿元人民币", "year": "2024", "scope": "中国大陆", "source_id": "SRC-EF-27"},
+      "global_leaders": [
+        {"name": "科磊 KLA", "country": "美", "share": "超50%（2024，收入口径；中国市场约54.8%）", "products": "明场/暗场/电子束检测、套刻/膜厚/CD量测全线", "tag": "一超垄断", "source_id": "SRC-EF-27"},
+        {"name": "应用材料 Applied Materials", "country": "美", "share": "N/A（第二，约9-12%）", "products": "电子束检测/复查、光学检测", "tag": "四强之一", "source_id": "SRC-EF-28"},
+        {"name": "日立高新 Hitachi High-Tech", "country": "日", "share": "N/A（第三；CD-SEM主导）", "products": "CD-SEM、电子束量测", "tag": "CD-SEM龙头", "source_id": "SRC-EF-28"},
+        {"name": "Lasertec", "country": "日", "share": "N/A（掩膜检测细分近垄断）", "products": "EUV/DUV掩膜版检测（ACTIS/MATRICS）", "tag": "掩膜检测独占", "source_id": "SRC-EF-28"},
+        {"name": "ASML", "country": "荷", "share": "N/A", "products": "套刻量测（YieldStar）、电子束检测（eScan）", "tag": "光刻配套量测", "source_id": "SRC-EF-28"}
+      ],
+      "china_leaders": [
+        {"name": "中科飞测 Skyverse", "share": "N/A（国内收入体量第一；国产化率<10%）", "tag": "无图形/图形缺陷检测+量测全布局，与KLA产品体系对标，多款设备在头部客户产线批量应用", "source_id": "SRC-EF-29"},
+        {"name": "精测电子（上海精测）", "share": "N/A", "tag": "膜厚/OCD/电子束复查领先，膜厚设备实现国产替代突破", "source_id": "SRC-EF-29"},
+        {"name": "上海睿励 RSIC", "share": "N/A", "tag": "光学膜厚量测老牌国产厂商", "source_id": "SRC-EF-21"},
+        {"name": "东方晶源 DJEL", "share": "N/A", "tag": "电子束缺陷检测（EBI）与计算光刻", "source_id": "SRC-EF-29"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "无图形缺陷检测、膜厚/OCD量测等中低端环节批量导入；明场检测、电子束检测、掩膜检测等高端环节国产化率<5%", "evidence": "2023-2024年前道量检测国产化率<5-10%（券商/协会口径），为前道设备国产化率最低环节之一；2024年中国大陆市场规模438亿元、国产化率年提升约2-3个百分点。", "source_id": "SRC-EF-27"},
+      "note": "market_size采用中国大陆口径（智研咨询：2024年438亿元，2020-2024 CAGR约30%）；全球口径约为WFE的13%左右，按2025年WFE 1169亿美元估算约150亿美元，无权威最新全球绝对值，故未填入。KLA份额各机构口径为50-55%。"
+    }
+  ],
+  "sources": [
+    {"source_id": "SRC-EF-01", "org": "SEMI（国际半导体产业协会）", "title": "SEMI Reports Global Semiconductor Equipment Billings Reached $135 Billion in 2025, Up 15% Year-on-Year（WWSEMS）", "publish_date": "2026-04-07", "data_year": "2025", "metric": "全球及分区域半导体设备销售额（billings）", "caliber": "总设备口径（OEM出货，含前道+后道）；2025年全球1351亿美元，中国大陆493亿美元（-0.5%）", "region": "全球/中国大陆", "url": "https://www.prnewswire.com/news-releases/semi-reports-global-semiconductor-equipment-billings-reached-135-billion-in-2025-up-15-year-on-year-302735003.html", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "WWSEMS年度实际值，当前可溯源最新实际数据"},
+    {"source_id": "SRC-EF-02", "org": "SEMI", "title": "Global Semiconductor Equipment Sales Forecast to Reach a Record $229 Billion in 2028（Mid-Year Total Semiconductor Equipment Forecast – OEM Perspective）", "publish_date": "2026-07-14", "data_year": "2025-2028E", "metric": "总设备及WFE分部销售额与预测", "caliber": "WFE口径（晶圆加工+掩膜/掩模版+厂务设施）：2025年1169亿（实际）、2026E 1439亿（+23.1%）、2027E +21.8%、2028E约2000亿；总设备2026E 1659亿（+23.2%）、2028E 2295亿", "region": "全球", "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-sales-forecast-to-reach-a-record-229-billion-dollars-in-2028-semi-reports", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "核验旧口径「2026E WFE 1968亿/+21.68%」的基准：SEMI最新2026E WFE为1439亿（+23.1%），旧值无公开出处且高约37%"},
+    {"source_id": "SRC-EF-03", "org": "SEMI", "title": "Global Semiconductor Equipment Billings Surged to $117 Billion in 2024（WWSEMS）", "publish_date": "2025-04-09", "data_year": "2024", "metric": "全球及分区域设备销售额", "caliber": "总设备口径：2024年全球1171亿美元（+10%），中国大陆496亿（+35%）", "region": "全球/中国大陆", "url": "https://www.semi.org/en/semi-press-release/global-semiconductor-equipment-billings-surged-to-117-billion-dollars-in-2024-semi-reports", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": ""},
+    {"source_id": "SRC-EF-04", "org": "SEMI（经Taiwan News转载PRNewswire）", "title": "Global Semiconductor Equipment Sales Projected to Reach a Record of $156 Billion in 2027（Year-End Forecast, SEMICON Japan 2025）", "publish_date": "2025-12-16", "data_year": "2025-2027E", "metric": "总设备销售额预测", "caliber": "总设备口径：2025E 1330亿（+13.7%）、2026E 1450亿、2027E 1560亿", "region": "全球", "url": "https://www.taiwannews.com.tw/news/6265948", "access_date": "2026-10-15", "type": "行业机构", "level": "A", "remark": "已被2026-07中预测上修（2026E 1659亿），保留作版本演变对照"},
+    {"source_id": "SRC-EF-05", "org": "芯思想 ChipInsights（国家科技图书文献中心NSTL收录）", "title": "2024年度全球前道光刻机市场", "publish_date": "2025-04-02", "data_year": "2024", "metric": "前道光刻机出货量/销售额/份额", "caliber": "ASML/Nikon/Canon三家IC用光刻机合计：683台、约264亿美元；高端机型（EUV+ArFi+ArF）ASML出货份额91.4%；不含封装用光刻机", "region": "全球", "url": "http://portal.nstl.gov.cn/choiceness/getChoicenessDetail.htm?serverId=14&uuid=3e4dbe1f217558d31ed854642c97757c&recommendId=155488&controlType=openhome", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "行业通行引用口径；ASML份额约82%为按其光刻收入推算"},
+    {"source_id": "SRC-EF-06", "org": "钛媒体", "title": "光刻版图，马上变天？", "publish_date": "2026-06-06", "data_year": "2025", "metric": "EUV细分市场规模", "caliber": "全球EUV光刻市场2025年约105亿美元（市场研究机构预计）", "region": "全球", "url": "https://www.tmtpost.com/8016989.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-07", "org": "华金证券（新浪财经发布）", "title": "芯源微首次覆盖：国内涂胶显影设备龙头", "publish_date": "2025-12-20", "data_year": "2023-2025E", "metric": "中国大陆前道涂胶显影市场规模及竞争格局", "caliber": "中国大陆前道涂胶显影2023年10.15亿美元、2025E 13.17亿美元；TEL全球约90%；芯源微28nm及以上全覆盖", "region": "中国大陆/全球", "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/772815756861/index.phtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EF-08", "org": "三个皮匠报告（行业资料整理）", "title": "涂胶显影机：定义、工作原理、技术分类、产业链与市场趋势", "publish_date": "2026-09-04", "data_year": "2024-2025", "metric": "涂胶显影竞争格局", "caliber": "TEL全球约92%，EUV配套Track 100%；其余为SCREEN/SEMES/SUSS等", "region": "全球", "url": "https://www.sgpjbg.com/news/7226731.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "与TEL约90%口径并存，差异在统计年份与是否含后道"},
+    {"source_id": "SRC-EF-09", "org": "Straits Research", "title": "Semiconductor Etch Equipment Market", "publish_date": "2026-08-24", "data_year": "2026E", "metric": "全球半导体刻蚀设备市场规模", "caliber": "2026E 261.8亿美元，2026-2034 CAGR 7.52%", "region": "全球", "url": "https://straitsresearch.com/zh/report/semiconductor-etch-equipment-market", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "第三方咨询口径；与「刻蚀占WFE约21%」交叉验证接近"},
+    {"source_id": "SRC-EF-10", "org": "电子工程专辑 EE Times China / 雪球行业整理", "title": "干法刻蚀设备主要供应商及市场情况介绍；头部厂商全球及中国市场占比整理", "publish_date": "2025-04-03", "data_year": "2024", "metric": "刻蚀设备市场份额", "caliber": "全球Lam 40-45%、TEL 30-35%、AMAT 15-20%（CR3约90%）；中国大陆Lam约50%、中微10-12%、北方华创8-10%", "region": "全球/中国大陆", "url": "https://www.eet-china.com/mp/a393946.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "份额为区间估计，不同机构口径略有出入"},
+    {"source_id": "SRC-EF-11", "org": "国盛证券（慧博/微信发布）", "title": "中微公司：国产刻蚀+MOCVD龙头，加速打造高端装备平台", "publish_date": "2025-03-21", "data_year": "2024", "metric": "中微公司刻蚀设备进展", "caliber": "截至2024Q3累计交付CCP反应台超3800个，覆盖28nm以上逻辑绝大部分CCP应用；ICP 700+反应台在线", "region": "中国大陆", "url": "https://m.hibor.com.cn/wap_detail.aspx?id=d6131993db811677147351e408af9835", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EF-12", "org": "拓荆科技股份有限公司", "title": "拓荆科技2024年年度报告摘要", "publish_date": "2025-04-25", "data_year": "2024", "metric": "全球薄膜沉积设备市场规模", "caliber": "按薄膜沉积约占晶圆制造设备22%推算，2024年全球约230亿美元", "region": "全球", "url": "http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2025/2025-4/2025-04-25/10974000.PDF", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "年报引用SEMI/Gartner口径推算"},
+    {"source_id": "SRC-EF-13", "org": "西部证券（引Gartner、拓荆招股说明书）", "title": "拓荆科技深度报告", "publish_date": "2023-06", "data_year": "2019", "metric": "薄膜沉积细分市场份额", "caliber": "CVD：AMAT 30%/Lam 21%/TEL 19%；ALD：TEL 31%/ASM 29%；PVD：AMAT 85%（2019，Gartner）", "region": "全球", "url": "https://bigdata-s3.wmcloud.com/researchreport/2023-06/1551a616e1bffa9c97eef112c1683da8.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "Gartner 2019口径，近年格局未发生根本变化但数值偏旧"},
+    {"source_id": "SRC-EF-14", "org": "雪球（引北方华创2024年报数据）", "title": "北方华创PVD/CVD/ALD/EPI全系列布局整理", "publish_date": "2025-06-05", "data_year": "2024", "metric": "北方华创薄膜沉积收入与产品进展", "caliber": "2024年薄膜沉积设备收入超100亿元，ALD近20亿元；Metal Gate PVD 28nm量产", "region": "中国大陆", "url": "https://xueqiu.com/7346568834/337527065", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "二手整理，原始出处为公司年报，建议正式引用时回溯年报"},
+    {"source_id": "SRC-EF-15", "org": "东海证券（引微导纳米招股说明书）", "title": "半导体设备行业报告（微导纳米相关）", "publish_date": "2025-10-14", "data_year": "2024", "metric": "薄膜沉积国产化率与结构", "caliber": "2024年沉积占IC设备资本开支23.0%；PECVD占33%、管式CVD 12%、LPCVD 11%、ALD 11%；PVD成熟制程国产化率15-20%、先进制程<10%", "region": "中国大陆", "url": "https://pdf.dfcfw.com/pdf/H3_AP202510141762055129_1.pdf", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EF-16", "org": "雪球（引Gartner/SEMI行业整理）", "title": "盛美上海行业空间分析", "publish_date": "2025-05-23", "data_year": "2023", "metric": "全球清洗设备市场规模", "caliber": "2023年全球清洗设备约70亿美元；盛美全球份额7.2%（Gartner，第五）", "region": "全球", "url": "https://xueqiu.com/1671287982/336198061", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "二手整理引用Gartner，数值与多家券商口径一致"},
+    {"source_id": "SRC-EF-17", "org": "未来智库/华金证券（芯源微研报，引SEMI）", "title": "2024年芯源微研究报告", "publish_date": "2024-06-28", "data_year": "2022", "metric": "清洗/湿法设备份额", "caliber": "DNS（SCREEN）全球清洗约50%；2022年国内湿法前三DNS/盛美/Lam合计89%；芯源微国内约1%", "region": "全球/中国大陆", "url": "https://www.vzkoo.com/read/202406283d5bace613aebfaea73297aa.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": ""},
+    {"source_id": "SRC-EF-18", "org": "与非网（中银证券口径）", "title": "五家国产半导体清洗设备上市企业25Q1市场表现分析；盛美上海市占率整理", "publish_date": "2025-07-16", "data_year": "2023-2025", "metric": "盛美上海市场份额", "caliber": "盛美中国清洗市占率约23%（中银证券累计口径）；全球7%左右（Gartner 2023，第五）", "region": "中国大陆/全球", "url": "https://www.eefocus.com/article/1863395.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-19", "org": "与非网（CSEAC 2024调研）", "title": "2024 CSEAC：半导体设备国产化加速，竞争力在哪里？", "publish_date": "2024-10-15", "data_year": "2024", "metric": "中国清洗设备国产化率", "caliber": "2024年中国大陆清洗设备国产化率约31%；盛美占国内清洗设备国产份额约80%", "region": "中国大陆", "url": "https://m.eefocus.com/article/1760735.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-20", "org": "深芯盟（2024国产半导体前道设备调研报告，引Gartner）", "title": "2024年深芯盟国产半导体前道设备+第三代半导体设备调研分析报告", "publish_date": "2024-2025", "data_year": "2022", "metric": "全球热处理设备市场规模与份额", "caliber": "Gartner：2022年全球热处理约30亿美元（RTP 14.1亿占47%、氧化/扩散10.8亿占36%）；AMAT 46%/TEL 21%/Kokusai 15%；屹唐约5%", "region": "全球", "url": "https://semibay.oss-cn-shenzhen.aliyuncs.com/20250918/e89bfce7338f420b9132d41d6ce052ae.pdf", "access_date": "2026-10-15", "type": "行业机构", "level": "B", "remark": "另有2021年约50亿美元更宽口径，已注明差异"},
+    {"source_id": "SRC-EF-21", "org": "国金证券/东吴证券（小牛行研图表整理）", "title": "半导体设备分环节国产化率图表", "publish_date": "2024-05", "data_year": "2023-2024", "metric": "分环节国产化率", "caliber": "光刻机<1%、量/检测<5%、涂胶显影<10%、薄膜沉积<20-25%、刻蚀>20-25%、清洗>30%、CMP>30%", "region": "中国大陆", "url": "https://www.hangyan.co/charts/3379240300315674534", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "经二手图表平台转载，原始为券商研报"},
+    {"source_id": "SRC-EF-22", "org": "中银证券", "title": "半导体设备国产化专题十一：离子注入机", "publish_date": "2021-2022", "data_year": "2021", "metric": "离子注入机市场规模与份额", "caliber": "2021年全球约25亿美元（占晶圆制造设备约3%）；AMAT超50%、Axcelis高能机型55%", "region": "全球", "url": "https://m.stdlibrary.com/p-2895378.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "数据年份偏旧，缺乏权威更新"},
+    {"source_id": "SRC-EF-23", "org": "观研报告网", "title": "半导体赛道扩容下全球离子注入机市场稳步增长 中国市场国产化驶入发展快车道", "publish_date": "2026-05-19", "data_year": "2024", "metric": "离子注入机格局与国产化率", "caliber": "2024年AMAT+Axcelis+住友合计全球89%；中国晶圆厂采购约320台，国产化率约7%", "region": "全球/中国大陆", "url": "https://m.chinabaogao.com/detail/795034.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-24", "org": "新浪财经/搜狐（爱集微等）", "title": "凯世通双系列新品发布；中科信启动IPO", "publish_date": "2026-03-30", "data_year": "2025-2026", "metric": "国产离子注入厂商进展", "caliber": "凯世通发布Hyperion大束流与iKing 360中束流新品；中科信全谱系国产化、工艺达28nm；2025年底国产化率约12-16%（行业整理）", "region": "中国大陆", "url": "https://www.sohu.com/a/1032973521_122884248", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-25", "org": "华金证券/新浪财经（引Gartner）", "title": "华海清科：国内CMP设备龙头，引领国产替代征程", "publish_date": "2022-2024", "data_year": "2020-2021", "metric": "CMP设备市场规模与份额", "caliber": "2021年全球CMP设备27.83亿美元（Gartner，+57.5%）；2020年AMAT 64%/Ebara 29%（Gartner）", "region": "全球", "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/707206345470/index.phtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "2025年行业整理口径AMAT约64.1%/Ebara约29.1%，格局稳定"},
+    {"source_id": "SRC-EF-26", "org": "东方财富财富号/华海清科F10（引公司公告）", "title": "CMP国产化龙头华海清科；华海清科2025年报要点", "publish_date": "2026-06-11", "data_year": "2025", "metric": "华海清科市场地位与业绩", "caliber": "国内唯一12英寸CMP商业化量产厂商，国内12英寸国产CMP市占率超90%；2025年营收46.48亿元（+36.46%）", "region": "中国大陆", "url": "https://caifuhao.eastmoney.com/news/20260610105747381957670", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "业绩数据原始出处为公司年报（A级）"},
+    {"source_id": "SRC-EF-27", "org": "智研咨询", "title": "研判2025！全球及中国前道量检测设备发展背景、市场规模、企业格局及未来趋势分析", "publish_date": "2025-11-08", "data_year": "2024", "metric": "中国大陆量检测市场规模与格局", "caliber": "2024年中国大陆检测与量测设备市场438亿元（2020-2024 CAGR约30%）；全球CR5超80%，KLA超50%", "region": "中国大陆/全球", "url": "https://www.chyxx.com/industry/1241764.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""},
+    {"source_id": "SRC-EF-28", "org": "腾讯云开发者社区（半导体检测行业深度，引VLSI Research）", "title": "半导体检测行业深度", "publish_date": "2024-12-05", "data_year": "2023", "metric": "量检测设备格局", "caliber": "量检测约占半导体设备市场13%；中国市场KLA 54.8%/AMAT 9.0%/日立 7.1%（VLSI Research）", "region": "全球/中国大陆", "url": "https://cloud.tencent.com/developer/article/2473748", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "VLSI（现TechInsights）口径经二手引用"},
+    {"source_id": "SRC-EF-29", "org": "股百科/搜狐（引SEMI与中国电子专用设备工业协会）", "title": "中科飞测如何受益于国产存储巨头上市潮", "publish_date": "2026-05-20", "data_year": "2024", "metric": "量检测国产化率与国产厂商格局", "caliber": "2024年中国大陆前道量检测国产化率<10%，年提升2-3个百分点；中科飞测国内收入体量第一", "region": "中国大陆", "url": "https://www.aigbk.com/article/how_does_skyverse_benefit_from_domestic_storage_ipo_wave/", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": ""}
+  ]
+}

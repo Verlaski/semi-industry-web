@@ -1,0 +1,319 @@
+{
+  "scope": "equipment_upstream",
+  "tracks": [
+    {
+      "id": "eq-u-vacuum",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "真空系统",
+      "subs": [
+        {"name": "干式真空泵", "note": "集成电路用干泵由Edwards、Ebara、Kashiyama垄断，中科仪为国内出货量最大的国产厂商"},
+        {"name": "分子泵", "note": "磁悬浮分子泵由Edwards、Pfeiffer、岛津等主导，中科仪磁悬浮分子泵极限真空度达10⁻⁸Pa级"},
+        {"name": "真空阀", "note": "VAT(瑞士)为绝对龙头，国产以新莱应材等切入，本报告未单列采集"}
+      ],
+      "market_size": {"value": "21.19", "unit": "亿美元", "year": "2026E", "scope": "全球（半导体干式真空泵）", "source_id": "SRC-EU-03"},
+      "global_leaders": [
+        {"name": "Edwards 爱德华(Atlas Copco旗下，英/瑞典)", "country": "英", "share": "干式真空泵全球市占率常年超50%（收入口径，媒体援引）", "products": "干式真空泵、分子泵、真空计与尾气处理", "tag": "全球半导体真空泵绝对霸主，先进制程主导", "source_id": "SRC-EU-03"},
+        {"name": "Ebara 荏原(日)", "country": "日", "share": "N/A（按收入排名居前二）", "products": "干式真空泵、CMP设备", "tag": "日系干泵双雄之一", "source_id": "SRC-EU-01"},
+        {"name": "Kashiyama 樫山工业(日)", "country": "日", "share": "N/A（按收入排名前三）", "products": "干式真空泵", "tag": "集成电路干泵主要供应商之一", "source_id": "SRC-EU-01"},
+        {"name": "Pfeiffer 普发(德)", "country": "德", "share": "N/A（按收入排名）", "products": "涡轮分子泵、真空计", "tag": "分子泵领先厂商", "source_id": "SRC-EU-03"}
+      ],
+      "china_leaders": [
+        {"name": "中科仪(920186)", "share": "约12.72%（2024，中国大陆集成电路干式真空泵，收入口径，招股书）", "tag": "国内集成电路干式真空泵龙头，唯一在先进制程批量应用的国产企业", "source_id": "SRC-EU-01"},
+        {"name": "汉钟精机(002158)", "share": "N/A（按收入排名）", "tag": "干式螺杆真空泵已通过多家国内晶圆厂认可并开始批量供货（2024-2026）", "source_id": "SRC-EU-02"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "集成电路干式真空泵及分子泵", "evidence": "2024年国内半导体真空泵国产化率不足10%（欧美日品牌占约90%份额），中科仪已在集成电路先进制程实现批量应用", "source_id": "SRC-EU-02"},
+      "note": "中国市场规模另有申万宏源测算：2026年中国半导体真空泵市场约63.4亿元（经媒体转引，未核原始报告，见SRC-EU-03）。Edwards'超50%'份额为媒体援引口径，未获原始报告确认。"
+    },
+    {
+      "id": "eq-u-rf",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "射频电源与匹配器",
+      "subs": [
+        {"name": "射频电源发生器", "note": "美系双寡头MKS+AE主导，恒运昌为国产厂商份额第一"},
+        {"name": "自动匹配器", "note": "通常与射频源成套供应，格局与射频源一致"}
+      ],
+      "market_size": {"value": "53.4", "unit": "亿美元", "year": "2024", "scope": "全球（等离子体射频电源系统）", "source_id": "SRC-EU-06"},
+      "global_leaders": [
+        {"name": "MKS Instruments(美)", "country": "美", "share": "前二，与AE合计约45%-50%（2025，收入口径，行业媒体）；另有口径称2022年两家合计87%", "products": "射频电源、匹配器、MFC、真空计", "tag": "射频电源双寡头之一，2024年营收35.86亿美元", "source_id": "SRC-EU-04"},
+        {"name": "Advanced Energy 先进能源(美)", "country": "美", "share": "前二，与MKS合计约45%-50%（2025，收入口径，行业媒体）", "products": "射频电源、匹配网络、远程等离子源", "tag": "射频电源双寡头之一，2024年营收14.82亿美元", "source_id": "SRC-EU-04"},
+        {"name": "DAIHEN(日)", "country": "日", "share": "N/A（按收入排名，欧日第二梯队合计约25%-30%）", "products": "射频电源、传输机器人", "tag": "日系射频电源主力", "source_id": "SRC-EU-04"},
+        {"name": "Comet 康姆艾德(瑞士)", "country": "瑞士", "share": "N/A（按收入排名）", "products": "射频电源、匹配器、真空电容", "tag": "欧系第二梯队", "source_id": "SRC-EU-04"},
+        {"name": "TRUMPF Hüttinger 霍廷格(德)", "country": "德", "share": "N/A（按收入排名）", "products": "射频及中频电源", "tag": "欧系第二梯队", "source_id": "SRC-EU-04"}
+      ],
+      "china_leaders": [
+        {"name": "恒运昌(688785)", "share": "中国大陆国产等离子体射频电源系统厂商中市占率第一（2024，弗若斯特沙利文）", "tag": "2020年起批量交付半导体级射频电源系统，2024年自研产品收入占比超80%", "source_id": "SRC-EU-05"},
+        {"name": "英杰电气(300820)/英杰晨晖", "share": "N/A（按收入排名）", "tag": "射频电源已切入国内头部存储厂供应链，获中微公司战略投资", "source_id": "SRC-EU-04"},
+        {"name": "神州半导体", "share": "N/A（按收入排名）", "tag": "国内远程等离子体源（RPS）市占率本土第一，2026年北交所IPO受理", "source_id": "SRC-EU-05"},
+        {"name": "北方华创(002371)", "share": "N/A（自用为主）", "tag": "自研射频电源已批量应用于自家多款设备", "source_id": "SRC-EU-05"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "半导体用等离子体射频电源系统", "evidence": "2024年中国大陆半导体领域等离子体射频电源系统国产化率不足12%（弗若斯特沙利文），MKS+AE在华份额仍超70%", "source_id": "SRC-EU-05"},
+      "note": "双寡头份额存在口径冲突：行业媒体称2025年MKS+AE合计约45%-50%（含匹配器的射频电源系统口径），另有资料称2022年两家合计87%（射频电源狭义口径），差异源于统计范围与年份，均未获原始报告核验。中国大陆市场2024年约65.6亿元（弗若斯特沙利文，经转引）。"
+    },
+    {
+      "id": "eq-u-gas",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "气体输送与流量控制",
+      "subs": [
+        {"name": "MFC质量流量控制器", "note": "HORIBA、Fujikin、MKS三家合计约80.54%（2024，收入口径），集中度高"},
+        {"name": "气体输送系统/阀件", "note": "Fujikin、Swagelok、VAT等主导超高纯阀件，国产新莱应材等切入"}
+      ],
+      "market_size": {"value": "9.05", "unit": "亿美元", "year": "2024", "scope": "全球（半导体用MFC）", "source_id": "SRC-EU-08"},
+      "global_leaders": [
+        {"name": "HORIBA 堀场(日)", "country": "日", "share": "第一；一口径称约61%（2024，收入），另一口径前三合计80.54%（2024，收入）", "products": "MFC、气体分析仪器", "tag": "全球半导体MFC龙头", "source_id": "SRC-EU-07"},
+        {"name": "Fujikin 富士金(日)", "country": "日", "share": "前三（与HORIBA、MKS合计80.54%，2024，收入口径）", "products": "MFC、超高纯阀门", "tag": "日系MFC与高纯阀件双料厂商", "source_id": "SRC-EU-07"},
+        {"name": "MKS Instruments(美)", "country": "美", "share": "前三（2024，收入口径）", "products": "MFC、压力计、射频电源", "tag": "美系气体控制主力", "source_id": "SRC-EU-07"},
+        {"name": "Brooks Instrument(美)", "country": "美", "share": "N/A（按收入排名）", "products": "MFC（热式/压力式）", "tag": "老牌流量计厂商", "source_id": "SRC-EU-08"}
+      ],
+      "china_leaders": [
+        {"name": "北京七星流量计(Sevenstar，北方华创旗下)", "share": "N/A（按收入排名）", "tag": "国产MFC龙头，CS/D07系列批量配套国产设备与晶圆厂", "source_id": "SRC-EU-31"},
+        {"name": "北京华丞电子", "share": "N/A（按收入排名）", "tag": "国产MFC与射频电源均有布局", "source_id": "SRC-EU-05"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "半导体用MFC", "evidence": "射频电源、MFC等精密控制类零部件国产化率约15%-20%（行业媒体测算），七星流量计产品已在国产设备批量应用但高端热式/压力式MFC仍以进口为主", "source_id": "SRC-EU-31"},
+      "note": "HORIBA份额口径冲突：StatsMarketResearch称HORIBA约61%（2024），Intel Market Research称前三（HORIBA/Fujikin/MKS）合计80.54%（2024，收入），两说并存未裁决。泛MFC全市场（含非半导体）格局不同，Bronkhorst居首，不可混用。"
+    },
+    {
+      "id": "eq-u-thermal",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "温控系统",
+      "subs": [
+        {"name": "Chiller半导体专用温控装置", "note": "刻蚀应用占约61%（2023），液冷型占超81%；京仪装备国内市占率第一"},
+        {"name": "TEC热电温控", "note": "增速最快的技术路线，目前占比小"}
+      ],
+      "market_size": {"value": "7.25", "unit": "亿美元", "year": "2024", "scope": "全球（半导体专用温控装置Chiller）", "source_id": "SRC-EU-09"},
+      "global_leaders": [
+        {"name": "Advanced Thermal Sciences ATS(美)", "country": "美", "share": "N/A（按收入排名居全球前列；全球CR10约80.2%，2024）", "products": "半导体Chiller", "tag": "全球Chiller传统龙头", "source_id": "SRC-EU-09"},
+        {"name": "Shinwa Controls 伸和控制(日)", "country": "日", "share": "N/A（按收入排名前列）", "products": "半导体Chiller", "tag": "日系Chiller主力", "source_id": "SRC-EU-09"},
+        {"name": "SMC(日)", "country": "日", "share": "约12%（收入口径，媒体援引）", "products": "温控装置、气动元件", "tag": "自动化巨头，模块化低成本路线", "source_id": "SRC-EU-09"},
+        {"name": "Unisem/FST(韩)", "country": "韩", "share": "N/A（按收入排名）", "products": "半导体Chiller", "tag": "韩系配套厂商", "source_id": "SRC-EU-09"}
+      ],
+      "china_leaders": [
+        {"name": "京仪装备(688652)", "share": "约39%（2024，中国大陆半导体专用温控设备，收入口径，QYResearch）", "tag": "国内市占率第一（2018年12.5%升至2022年35.73%），唯一实现先进制程大规模装机的国产厂商", "source_id": "SRC-EU-11"},
+        {"name": "同飞股份(300990)", "share": "N/A（按收入排名）", "tag": "工业温控厂商切入半导体Chiller", "source_id": "SRC-EU-09"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "半导体专用温控设备（Chiller）", "evidence": "京仪装备国内市占率2018年12.5%升至2024年约39%、排名第一，打破ATS、SMC等国外厂商垄断", "source_id": "SRC-EU-11"},
+      "note": "另有口径称2024年全球市场规模52.45亿元（约7.3亿美元），与7.25亿美元基本一致；为国产化程度最高的子系统赛道之一。"
+    },
+    {
+      "id": "eq-u-motion",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "精密运动与定位系统",
+      "subs": [
+        {"name": "光刻机工件台", "note": "双工件台为光刻机三大核心子系统之一，ASML独占、华卓精科为全球第二家"},
+        {"name": "直线电机/气浮与磁浮平台", "note": "通用精密运动部件由THK、NSK、HIWIN等供应，本报告侧重光刻级运动台"}
+      ],
+      "global_leaders": [
+        {"name": "ASML(荷)", "country": "荷", "share": "N/A（自研自用，先进光刻机双工件台实质独占）", "products": "磁悬浮双工件台（TWINSCAN）", "tag": "全球唯一量产EUV/ArFi双工件台的厂商", "source_id": "SRC-EU-29"},
+        {"name": "Nikon/Canon(日)", "country": "日", "share": "N/A（自研自用）", "products": "光刻机工件台", "tag": "日系光刻机自研运动台", "source_id": "SRC-EU-29"}
+      ],
+      "china_leaders": [
+        {"name": "华卓精科(A04100，IPO辅导中)", "share": "N/A（按收入排名）", "tag": "国内唯一、全球第二家掌握光刻机双工件台核心技术的企业，2026年磁浮双工件台定位精度达1.2nm（媒体报道口径）", "source_id": "SRC-EU-29"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "光刻机用超精密工件台", "evidence": "华卓精科DWS等双工件台产品配套国产前道光刻机，为全球第二家突破者，但尚未形成对外批量销售市场", "source_id": "SRC-EU-29"},
+      "note": "该环节全球无可比第三方市场（ASML自研自用），无可靠市场规模口径，market_size从略。华卓精科1.2nm精度等信息来自百科及媒体，建议以公司IPO披露文件核实。"
+    },
+    {
+      "id": "eq-u-esc",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "静电吸盘 ESC",
+      "subs": [
+        {"name": "库仑型/约翰逊型陶瓷ESC", "note": "氧化铝、氮化铝为主流介质，日企主导第三方市场"},
+        {"name": "设备原厂自配ESC", "note": "AMAT、Lam自研自配，第三方（merchant）市场由SHINKO、NGK等供应"}
+      ],
+      "market_size": {"value": "17.16", "unit": "亿美元", "year": "2024", "scope": "全球（晶圆操作静电吸盘）", "source_id": "SRC-EU-12"},
+      "global_leaders": [
+        {"name": "SHINKO 新光电气工业(日)", "country": "日", "share": "N/A（按收入排名，merchant市场领先）", "products": "陶瓷静电吸盘、真空部件", "tag": "ESC第三方供应龙头", "source_id": "SRC-EU-13"},
+        {"name": "NGK Insulators/NTK CERATEC 日本碍子(日)", "country": "日", "share": "N/A（按收入排名前列）", "products": "氮化铝ESC、陶瓷加热器", "tag": "日系陶瓷ESC双雄之一", "source_id": "SRC-EU-13"},
+        {"name": "TOTO(日)", "country": "日", "share": "N/A（按收入排名）", "products": "陶瓷静电吸盘", "tag": "陶瓷ESC主要供应商", "source_id": "SRC-EU-13"},
+        {"name": "Entegris(美)", "country": "美", "share": "N/A（按收入排名）", "products": "ESC、材料与污染控制", "tag": "美系挑战者", "source_id": "SRC-EU-13"},
+        {"name": "Kyocera 京瓷(日)", "country": "日", "share": "N/A（按收入排名）", "products": "ESC、精密陶瓷部件", "tag": "精密陶瓷平台型厂商", "source_id": "SRC-EU-13"}
+      ],
+      "china_leaders": [
+        {"name": "华卓精科", "share": "N/A（按收入排名）", "tag": "覆盖刻蚀/PVD/离子注入全品类ESC，12寸PVD氮化铝ESC已小批量量产", "source_id": "SRC-EU-04"},
+        {"name": "珂玛科技(301611)", "share": "N/A（按收入排名）", "tag": "8寸单极刻蚀ESC小批量交付、12寸小规模量产，国内进度最快之一", "source_id": "SRC-EU-04"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "半导体设备用静电吸盘", "evidence": "静电吸盘处于国外龙头垄断、国产探索初期，先进制程国产化率不足10%，国产厂商2024-2026年刚进入小批量交付阶段", "source_id": "SRC-EU-24"},
+      "note": "另有口径：陶瓷ESC（半导体+显示）2025年约12亿美元（marketreportanalytics），与17.16亿美元（晶圆操作ESC，2024）口径不同，均非A/B级来源，引用需谨慎。"
+    },
+    {
+      "id": "eq-u-light",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "光源与激光系统",
+      "subs": [
+        {"name": "DUV准分子激光光源", "note": "KrF/ArF，全球仅Cymer(ASML)与Gigaphoton两家量产，科益虹源为全球第三家"},
+        {"name": "EUV CO2驱动激光", "note": "TRUMPF独家供应ASML，国产处于低功率预研阶段"}
+      ],
+      "global_leaders": [
+        {"name": "Cymer(ASML子公司，美/荷)", "country": "美", "share": "约80%以上（光刻机准分子激光光源，收入口径，行业研究口径）", "products": "ArF/KrF准分子激光光源、EUV光源", "tag": "光刻光源绝对龙头", "source_id": "SRC-EU-14"},
+        {"name": "Gigaphoton(日，小松旗下)", "country": "日", "share": "N/A（按收入排名第二；公司称KrF略占优、ArF与Cymer大体相当）", "products": "KrF/ArF准分子激光光源", "tag": "光刻光源双寡头之一", "source_id": "SRC-EU-15"},
+        {"name": "TRUMPF 通快(德)", "country": "德", "share": "EUV驱动激光独家供应（100%，供应链口径）", "products": "EUV用高功率CO2激光系统", "tag": "EUV光源链独家卡位", "source_id": "SRC-EU-16"}
+      ],
+      "china_leaders": [
+        {"name": "科益虹源", "share": "N/A（按收入排名）", "tag": "国内唯一、全球第三家光刻准分子激光全链条研发与产业化公司，193nm ArF准分子激光器已出货", "source_id": "SRC-EU-14"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "光刻用准分子激光光源", "evidence": "科益虹源193nm ArF准分子激光器完成出货打破海外垄断，但功率/稳定性与Cymer 120W/6kHz量产水平仍有差距，EUV驱动激光国产仅约10W量级", "source_id": "SRC-EU-14"},
+      "note": "光源独立市场规模无可靠公开口径，从略。Cymer'80%以上'份额为2023年前后行业研究口径；Gigaphoton公司IR(2022)称双方ArF大体相当、KrF略占优，两说存在张力。"
+    },
+    {
+      "id": "eq-u-optics",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "光学元件与物镜系统",
+      "subs": [
+        {"name": "光刻投影物镜", "note": "蔡司SMT垄断EUV及高端ArFi物镜，ASML独家供应商"},
+        {"name": "精密光学元件", "note": "透镜/棱镜/镀膜元件，国产茂莱光学、福晶科技等供应成熟制程与检测设备"}
+      ],
+      "global_leaders": [
+        {"name": "Carl Zeiss SMT 卡尔蔡司SMT(德)", "country": "德", "share": "约90%（EUV光刻光学元件，媒体/行业分析口径）；ASML EUV光学独家供应商", "products": "EUV反射光学系统、DUV投影物镜", "tag": "全球光刻光学绝对垄断者", "source_id": "SRC-EU-17"},
+        {"name": "Nikon/Canon(日)", "country": "日", "share": "N/A（自研自用）", "products": "光刻物镜（自配）", "tag": "日系光刻机自研物镜", "source_id": "SRC-EU-17"},
+        {"name": "Berliner Glas(ASML旗下，德)", "country": "德", "share": "N/A（按收入排名）", "products": "光学组件", "tag": "ASML体系光学配套", "source_id": "SRC-EU-17"}
+      ],
+      "china_leaders": [
+        {"name": "国科精密(未上市)", "share": "N/A（按收入排名）", "tag": "国产光刻物镜攻关主体之一", "source_id": "SRC-EU-17"},
+        {"name": "茂莱光学(688502)", "share": "N/A（按收入排名）", "tag": "半导体精密光学元件供应商，产品进入国产光刻/量检测供应链", "source_id": "SRC-EU-16"},
+        {"name": "福晶科技(002222)", "share": "N/A（按收入排名）", "tag": "激光光学晶体与元件，切入半导体光学", "source_id": "SRC-EU-16"}
+      ],
+      "localization": {"stage": "依赖进口", "scope": "先进光刻投影物镜及EUV光学", "evidence": "蔡司SMT为ASML EUV光学独家供应商、垄断高端市场，国产物镜系统仅达成熟制程（媒体报道套刻精度≤8nm、分辨率65nm级）", "source_id": "SRC-EU-17"},
+      "note": "成熟制程光学元件（照明系统、检测光学）国产化已有进展，与先进投影物镜属于不同难度层级，故scope限定为高端物镜系统。无可靠独立市场规模口径，market_size从略。"
+    },
+    {
+      "id": "eq-u-robot",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "机械手与传输系统",
+      "subs": [
+        {"name": "真空机械手", "note": "Brooks、RORZE、DAIHEN主导，新松为国产批量商业化代表"},
+        {"name": "EFEM设备前端模块", "note": "含Load Port、大气机械手、对准器；京仪装备Sorter亦属此类"},
+        {"name": "AMHS自动物料搬运", "note": "Daifuku大福与村田机械双寡头，国产新松等有布局"}
+      ],
+      "market_size": {"value": "6.3", "unit": "亿美元", "year": "2025", "scope": "全球（EFEM设备前端模块，狭义口径）", "source_id": "SRC-EU-19"},
+      "global_leaders": [
+        {"name": "Brooks Automation 布鲁克斯(美)", "country": "美", "share": "N/A（按收入排名前列）", "products": "真空/大气机械手、EFEM、自动化系统", "tag": "晶圆传输自动化老牌龙头", "source_id": "SRC-EU-19"},
+        {"name": "RORZE 罗泽(日)", "country": "日", "share": "N/A（按收入排名前列）", "products": "晶圆传输机器人、EFEM", "tag": "深度绑定TSMC，EFEM主力厂商", "source_id": "SRC-EU-19"},
+        {"name": "DAIHEN(日)", "country": "日", "share": "N/A（按收入排名）", "products": "洁净机器人、EFEM", "tag": "日系传输机器人主力", "source_id": "SRC-EU-19"},
+        {"name": "Daifuku 大福(日)", "country": "日", "share": "N/A（AMHS按收入排名第一梯队）", "products": "AMHS天车系统、Stocker", "tag": "AMHS全球双寡头之一", "source_id": "SRC-EU-19"},
+        {"name": "Hirata 平田机工(日)", "country": "日", "share": "N/A（按收入排名）", "products": "EFEM、搬送设备", "tag": "日系EFEM供应商", "source_id": "SRC-EU-19"}
+      ],
+      "china_leaders": [
+        {"name": "新松机器人(300024，新松半导体)", "share": "N/A（按收入排名）", "tag": "国内晶圆传输机器人国产化程度最高的厂商，真空机械手批量进入北方华创、中微公司供应链，EFEM/大气机械手全面导入市场，获大基金二期入股", "source_id": "SRC-EU-18"},
+        {"name": "京仪装备(688652)", "share": "N/A（按收入排名）", "tag": "晶圆传片设备（Sorter）为主要产品线之一", "source_id": "SRC-EU-10"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "真空/大气机械手与EFEM", "evidence": "新松真空机械手已批量商业化并被北方华创、中微采用，EFEM、大气机械手全面导入市场且份额持续提升（公司2024年年报）", "source_id": "SRC-EU-18"},
+      "note": "市场规模口径分歧极大：狭义EFEM约6.3亿美元（2025，Verified Market Reports，D级），含Sorter的宽口径约38.6-43.3亿美元（2025，Precedence/SNS），引用时需注明口径。AMHS未单列规模。"
+    },
+    {
+      "id": "eq-u-quartz",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "石英零部件",
+      "subs": [
+        {"name": "石英舟/管/环", "note": "扩散、刻蚀环节耗材，8英寸国产化较快、12英寸高端件仍依赖进口"},
+        {"name": "合成石英玻璃材料", "note": "上游材料由贺利氏、东曹、迈图垄断，菲利华材料通过国际设备商认证"}
+      ],
+      "market_size": {"value": "32.26", "unit": "亿美元", "year": "2024", "scope": "全球（半导体石英制品）", "source_id": "SRC-EU-20"},
+      "global_leaders": [
+        {"name": "Heraeus 贺利氏(德)", "country": "德", "share": "N/A（按收入排名；与大和热磁、泰谷诺、东曹合计约91%）", "products": "石英玻璃材料与制品", "tag": "全球石英材料寡头", "source_id": "SRC-EU-21"},
+        {"name": "Ferrotec 大和热磁(日)", "country": "日", "share": "N/A（按收入排名，四大家合计约91%）", "products": "石英制品、真空部件、热电材料", "tag": "石英加工件全球龙头", "source_id": "SRC-EU-21"},
+        {"name": "Tosoh 东曹(日)", "country": "日", "share": "N/A（按收入排名，四大家合计约91%）", "products": "合成石英玻璃", "tag": "石英材料寡头", "source_id": "SRC-EU-21"},
+        {"name": "Momentive 迈图(美)", "country": "美", "share": "N/A（按收入排名）", "products": "高纯石英材料", "tag": "美系石英材料主要厂商", "source_id": "SRC-EU-20"},
+        {"name": "泰谷诺(日)", "country": "日", "share": "N/A（按收入排名，四大家合计约91%）", "products": "石英加工制品", "tag": "日系石英制品主要厂商", "source_id": "SRC-EU-21"}
+      ],
+      "china_leaders": [
+        {"name": "菲利华(300395)", "share": "N/A（按收入排名）", "tag": "国内石英材料/部件精密加工领先，通过AMAT、Lam、TEL、北方华创、中微认证", "source_id": "SRC-EU-20"},
+        {"name": "凯德石英(835179，江丰电子控股)", "share": "N/A（按收入排名）", "tag": "聚焦12英寸半导体石英器件量产，北交所扩产高端产线", "source_id": "SRC-EU-21"},
+        {"name": "石英股份(603688)", "share": "N/A（按收入排名）", "tag": "高纯石英砂/石英材料平台，半导体认证推进中", "source_id": "SRC-EU-20"},
+        {"name": "臻宝科技(科创板IPO)", "share": "N/A（按收入排名）", "tag": "半导体设备石英制品新上市标的", "source_id": "SRC-EU-28"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "半导体级石英制品", "evidence": "中国半导体石英制品国产化率不足10%（弘燊石英大会口径，2024），菲利华材料/部件已获国际设备商认证，12英寸高端件国产化攻坚中", "source_id": "SRC-EU-20"},
+      "note": "中国市场口径：弗若斯特沙利文称2024年中国晶圆厂石英零部件采购额34.8亿元、2029年预计74.4亿元（财通证券研报引用）。'四大家合计91%'原始出处为《石英部件在半导体领域应用及市场概览》，经券商研报转引。"
+    },
+    {
+      "id": "eq-u-ceramic",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "陶瓷零部件",
+      "subs": [
+        {"name": "氧化铝/氮化铝结构件", "note": "国产化率相对较高（整体约19%-20%），珂玛科技为国产龙头"},
+        {"name": "碳化硅部件", "note": "刻蚀聚焦环、光刻工件台等，技术壁垒最高，仍由日美厂商主导"},
+        {"name": "陶瓷加热器", "note": "珂玛科技2024年起加速放量的高价值品类"}
+      ],
+      "market_size": {"value": "29.4", "unit": "亿元人民币", "year": "2024", "scope": "中国（晶圆厂陶瓷零部件采购额，弗若斯特沙利文）", "source_id": "SRC-EU-23"},
+      "global_leaders": [
+        {"name": "Kyocera 京瓷(日)", "country": "日", "share": "N/A（按收入排名；京瓷、NGK、CoorsTek等把持高端市场60%-70%份额，媒体口径）", "products": "精密陶瓷部件、ESC", "tag": "全球半导体陶瓷部件霸主", "source_id": "SRC-EU-23"},
+        {"name": "NGK Insulators 日本碍子(日)", "country": "日", "share": "N/A（按收入排名前列）", "products": "氮化铝ESC、陶瓷加热器", "tag": "日系高端陶瓷部件双雄", "source_id": "SRC-EU-22"},
+        {"name": "CoorsTek(美)", "country": "美", "share": "N/A（按收入排名前列）", "products": "先进陶瓷部件、耐腐蚀涂层", "tag": "美系陶瓷部件龙头", "source_id": "SRC-EU-22"},
+        {"name": "Niterra 日本特殊陶业(日)", "country": "日", "share": "N/A（按收入排名）", "products": "精密陶瓷部件", "tag": "日系主要供应商", "source_id": "SRC-EU-22"}
+      ],
+      "china_leaders": [
+        {"name": "珂玛科技(301611)", "share": "国产供应商中约72%（2024，中国大陆国产半导体设备先进结构陶瓷供应商口径，公司公告引弗若斯特沙利文）", "tag": "国产先进陶瓷零部件绝对龙头，陶瓷加热器放量、ESC导入中", "source_id": "SRC-EU-22"},
+        {"name": "中瓷电子(003031)", "share": "N/A（按收入排名）", "tag": "电子陶瓷平台，布局半导体精密陶瓷", "source_id": "SRC-EU-22"}
+      ],
+      "localization": {"stage": "验证导入", "scope": "半导体设备用先进结构陶瓷零部件", "evidence": "国产化率约19%-20%且先进制程不足10%，珂玛科技2024年实现特定产品型号单点突破并通过头部晶圆厂认证批量供货（先锋精科问询回复）", "source_id": "SRC-EU-24"},
+      "note": "国产化率口径差异：泛半导体先进结构陶瓷2024年国产化率约7.1%（弗若斯特沙利文，经媒体转引），而'国产设备用先进结构陶瓷'口径约19%-20%，两口径分母不同，引用时须区分。全球市场规模有'2024年约446亿元（泛半导体先进陶瓷需求）'之说（券商研报），口径偏宽未采为market_size。"
+    },
+    {
+      "id": "eq-u-metal",
+      "chain_position": "上游",
+      "group": "核心零部件与子系统",
+      "name": "金属及硅基精密零部件",
+      "subs": [
+        {"name": "腔体/内衬/匀气盘", "note": "机械加工件国产化程度最高，富创精密、先锋精科批量配套"},
+        {"name": "硅电极/硅环", "note": "刻蚀核心耗材，Silfex(Lam子公司)主导，神工股份硅材料全球份额约13%-15%"},
+        {"name": "密封件", "note": "FFKM全氟醚密封圈由DuPont(Kalrez)、Greene Tweed主导，国产唯万密封等切入"}
+      ],
+      "global_leaders": [
+        {"name": "Silfex(Lam Research子公司，美)", "country": "美", "share": "N/A（按收入排名，全球刻蚀用硅部件主导地位）", "products": "刻蚀用硅电极、硅环", "tag": "硅部件原厂件霸主，配套Lam", "source_id": "SRC-EU-25"},
+        {"name": "Hana Materials(韩)", "country": "韩", "share": "约13.3%（全球刻蚀用硅部件原厂件市场，媒体转引口径）", "products": "硅电极、硅环", "tag": "韩系硅部件龙头，客户含TEL/三星/AMAT", "source_id": "SRC-EU-25"},
+        {"name": "Ultra Clean Holdings UCT(美)", "country": "美", "share": "N/A（按收入排名）", "products": "气体输送系统、精密金属腔体与子模组", "tag": "设备商外包精密制造与子系统龙头", "source_id": "SRC-EU-25"},
+        {"name": "Ichor Systems(美)", "country": "美", "share": "N/A（按收入排名）", "products": "气体/液体输送子系统、精密金属件", "tag": "美系精密子系统供应商", "source_id": "SRC-EU-25"}
+      ],
+      "china_leaders": [
+        {"name": "富创精密(688409)", "share": "N/A（按收入排名）", "tag": "国产精密零部件平台型龙头，腔体、内衬、匀气盘等工艺零部件批量配套国内外设备商（2024年报）", "source_id": "SRC-EU-30"},
+        {"name": "神工股份(688233)", "share": "约13%-15%（集成电路刻蚀用单晶硅材料细分市场，全球，公司披露口径）", "tag": "国内刻蚀用硅材料龙头，材料进入Lam/AMAT/TEL供应链体系", "source_id": "SRC-EU-26"},
+        {"name": "先锋精科(688605)", "share": "N/A（按收入排名）", "tag": "刻蚀/薄膜设备精密零部件，问询回复披露行业国产化率约20%", "source_id": "SRC-EU-24"},
+        {"name": "新莱应材(300260)", "share": "N/A（按收入排名）", "tag": "真空腔体、高洁净管阀件，半导体真空与气体系统配套", "source_id": "SRC-EU-24"}
+      ],
+      "localization": {"stage": "份额提升", "scope": "金属精密机械件（腔体/内衬等）", "evidence": "机械类精密零部件国产化率约40%-50%（行业媒体测算），富创精密等已批量配套国内外头部设备商；但硅电极、高端密封件先进制程国产化率仍不足10%", "source_id": "SRC-EU-24"},
+      "note": "本赛道金属件与硅基件国产化阶段分化：金属机加件进入'份额提升'，硅电极及全氟醚密封件仍处'验证导入'，stage取主体金属件口径。无公认整体市场规模口径，market_size从略（背景参考：QYResearch称2025年全球半导体零部件市场约315.3亿美元，含全部品类）。"
+    }
+  ],
+  "sources": [
+    {"source_id": "SRC-EU-01", "org": "中国科学院沈阳科学仪器（中科仪）招股书，经东方财富财富号转引", "title": "对日国产替代主要相关上市公司梳理（转引中科仪招股书）", "publish_date": "2026-07", "data_year": "2024", "metric": "集成电路干式真空泵国内市占率12.72%；Edwards/Ebara/Kashiyama垄断格局", "caliber": "中国大陆集成电路领域干式真空泵，收入口径", "region": "中国", "url": "https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260620145755245881100&postId=1729376013", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "数据经自媒体文章转引自中科仪(920186)招股书，建议核对招股书原文"},
+    {"source_id": "SRC-EU-02", "org": "盛剑科技（引汉钟精机2024年半年报、东吴证券测算）", "title": "盛剑科技向不特定对象发行可转换公司债券申请文件审核问询函回复（修订稿）", "publish_date": "2026-10", "data_year": "2022-2024", "metric": "半导体真空泵欧美日品牌占约90%份额；2022年国产化率仅6%", "caliber": "中国半导体真空泵市场", "region": "中国", "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603324&id=10784661", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "问询回复中引用汉钟精机半年报及东吴证券测算"},
+    {"source_id": "SRC-EU-03", "org": "东方财富财富号（援引第三方研究）", "title": "半导体制造的'真空心脏'，国产替代空间广阔", "publish_date": "2026-07", "data_year": "2026E", "metric": "全球半导体干泵2026年21.19亿美元、2033年40.90亿美元；中国2026年63.4亿元（申万宏源测算）", "caliber": "半导体干式真空泵，销售额", "region": "全球/中国", "url": "https://caifuhao.eastmoney.com/news/20260702061248280367140", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "自媒体援引未具名机构及申万宏源测算，原始报告未核实；Edwards'干泵市占率超50%'同源（见SRC-EU-03关联报道）"},
+    {"source_id": "SRC-EU-04", "org": "与非网/Supplyframe四方维", "title": "半导体设备核心零部件，谁最卡？", "publish_date": "2026-09", "data_year": "2024-2025", "metric": "MKS+AE 2025年全球份额合计约45%-50%；中国大陆半导体射频电源2024年65.6亿元、国产化率不足12%；ESC国产进展（华卓精科、珂玛科技）", "caliber": "等离子体射频电源系统，收入口径", "region": "全球/中国", "url": "https://www.eefocus.com/article/2079394.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "行业分析文章，份额数据未注明原始统计机构"},
+    {"source_id": "SRC-EU-05", "org": "恒运昌（机构调研纪要，同花顺财经发布）", "title": "恒运昌：6月26日接受机构调研", "publish_date": "2026-07", "data_year": "2024", "metric": "2024年中国大陆半导体等离子体射频电源系统国产化率不足12%；恒运昌居国产厂商市场份额第一", "caliber": "弗若斯特沙利文，中国大陆半导体领域等离子体射频电源系统", "region": "中国", "url": "https://news.10jqka.com.cn/20260706/c677980568.shtml", "access_date": "2026-10-15", "type": "上市公司披露", "level": "B", "remark": "上市公司调研纪要引用弗若斯特沙利文正式数据，口径明确"},
+    {"source_id": "SRC-EU-06", "org": "雪球用户（转引弗若斯特沙利文/恒运昌招股书数据）", "title": "比较研究：掘金全球射频电源系统五大上市公司", "publish_date": "2026-02", "data_year": "2024", "metric": "全球等离子体射频电源系统2024年53.4亿美元；中国大陆65.6亿元，2025-2029 CAGR 15.6%", "caliber": "等离子体射频电源系统（含匹配器）", "region": "全球/中国", "url": "https://xueqiu.com/3352558222/376585441", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "个人专栏转引弗若斯特沙利文数据，与恒运昌招股书口径一致但未经原文核验"},
+    {"source_id": "SRC-EU-07", "org": "Intel Market Research", "title": "Mass Flow Controller (MFC) for Semiconductor Market 2025 to 2031", "publish_date": "2026-08", "data_year": "2024", "metric": "半导体MFC前三（HORIBA、Fujikin、MKS）合计80.54%收入份额", "caliber": "半导体用MFC，收入口径", "region": "全球", "url": "https://www.intelmarketresearch.com/mass-flow-controller-mfc-semiconductor-market-527", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": "商业咨询机构公开摘要，完整口径需购报告"},
+    {"source_id": "SRC-EU-08", "org": "StatsMarketResearch", "title": "Mass Flow Controller for Semiconductor Market, Global Outlook and Forecast 2025-2032", "publish_date": "2025-08", "data_year": "2024", "metric": "全球半导体用MFC 2024年9.05亿美元；HORIBA约61%份额", "caliber": "半导体用MFC，销售额", "region": "全球", "url": "https://www.statsmarketresearch.com/global-mass-flow-controller-for-semiconductor-forecast-market-8058221", "access_date": "2026-10-15", "type": "行业机构", "level": "D", "remark": "HORIBA 61%份额与SRC-EU-07（前三合计80.54%）存在口径冲突，两说并存"},
+    {"source_id": "SRC-EU-09", "org": "QYResearch（经脉脉/格隆汇等媒体转载）", "title": "全球及中国半导体温控设备（Chiller）市场报告", "publish_date": "2025-06", "data_year": "2024", "metric": "全球半导体Chiller 2024年7.25亿美元；全球CR10约80.2%；SMC约12%", "caliber": "半导体专用温控装置，销售额", "region": "全球", "url": "https://maimai.cn/article/detail?fid=1879498892&efid=jFXBcU2UW9Bk5KURGalpZg", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": "QYResearch报告经社交媒体转载，份额明细未完整披露"},
+    {"source_id": "SRC-EU-10", "org": "京仪装备", "title": "首次公开发行股票并在科创板上市招股说明书", "publish_date": "2023-11", "data_year": "2018-2022", "metric": "半导体专用温控设备国内市占率2018年12.50%升至2022年35.73%，排名第一（QYResearch数据）", "caliber": "中国大陆半导体专用温控设备，收入口径", "region": "中国", "url": "http://dataclouds.cninfo.com.cn/sjother/ipo_data/zjh_publish/842083aa1fcd11ee98ddfa163ebe0297.pdf", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "招股书引用QYResearch统计，口径明确"},
+    {"source_id": "SRC-EU-11", "org": "山西证券（新浪财经发布）", "title": "京仪装备：深耕半导体专用温控/废气处理设备，国内市场份额稳步提升", "publish_date": "2025-06", "data_year": "2024", "metric": "2024年京仪装备温控设备国内市占率约39%", "caliber": "中国大陆半导体专用温控设备，收入口径", "region": "中国", "url": "https://finance.sina.com.cn/roll/2025-06-14/doc-inezyzhv2254168.shtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "券商基于QYResearch数据延续测算"},
+    {"source_id": "SRC-EU-12", "org": "Valuates Reports（经openPR发布）", "title": "Wafer Handling Electrostatic Chuck Market", "publish_date": "2025-11", "data_year": "2024", "metric": "全球晶圆操作静电吸盘2024年17.16亿美元，2031年预计25.41亿美元", "caliber": "晶圆操作用ESC，销售额", "region": "全球", "url": "https://www.openpr.com/news/4290961/wafer-handling-electrostatic-chuck-market-set-to-surge", "access_date": "2026-10-15", "type": "行业机构", "level": "D", "remark": "商业报告新闻稿，口径偏宽（含晶圆搬运类ESC）"},
+    {"source_id": "SRC-EU-13", "org": "Reportprime", "title": "Ceramic Electrostatic Chuck for Semiconductor Equipment Market Size & Share", "publish_date": "2026-04", "data_year": "2025", "metric": "SHINKO、NGK、TOTO主导第三方（merchant）陶瓷ESC供应，日企占主要产能", "caliber": "半导体设备用陶瓷ESC第三方市场", "region": "全球", "url": "https://www.reportprime.com/ceramic-electrostatic-chuck-for-semiconductor-equipment-r3069", "access_date": "2026-10-15", "type": "行业机构", "level": "C", "remark": "独立研究机构报告摘要"},
+    {"source_id": "SRC-EU-14", "org": "未来智库（汇编券商光刻机深度报告）", "title": "光刻机产品发展及产业链各环节梳理", "publish_date": "2025-01", "data_year": "2022-2023", "metric": "Cymer占光刻机光源80%以上份额；科益虹源为国内唯一、全球第三家光刻准分子激光全链条公司，193nm ArF已出货", "caliber": "光刻机准分子激光光源，收入口径", "region": "全球/中国", "url": "https://www.vzkoo.com/question/1737351095907037.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "汇编性质，Cymer份额为2023年前后券商研究口径"},
+    {"source_id": "SRC-EU-15", "org": "小松制作所（Komatsu IR）", "title": "GIGAPHOTON's growth-strategy Q&A", "publish_date": "2022", "data_year": "2022", "metric": "Gigaphoton称ArF光源与Cymer大体相当、KrF略占优", "caliber": "公司自述市场份额", "region": "全球", "url": "https://www.komatsu.jp/en/-/media/home/ir/library/results/2022/qa_gigaphoton_e_2022.pdf", "access_date": "2026-10-15", "type": "公司官网", "level": "B", "remark": "公司IR自述，存在立场偏向，与'Cymer占80%'口径有张力"},
+    {"source_id": "SRC-EU-16", "org": "知乎专栏/天下工厂产业研究院等", "title": "精密光学四大核心壁垒与五大发展趋势深度解析等", "publish_date": "2026-05", "data_year": "2025-2026", "metric": "蔡司垄断全球90% EUV光刻光学元件市场；EUV CO2驱动激光TRUMPF独家、国产约10W量级", "caliber": "EUV光学元件/驱动激光", "region": "全球/中国", "url": "https://zhuanlan.zhihu.com/p/2035750391577567633", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "专栏文章，90%份额未见原始出处，与'蔡司为ASML EUV光学独家供应商'事实相互印证"},
+    {"source_id": "SRC-EU-17", "org": "发现报告（行业研究汇编）", "title": "光刻机物镜模组和物镜系统产业链上下游及主要参与主体分析", "publish_date": "2026-05", "data_year": "2025-2026", "metric": "蔡司垄断EUV反射系统和高端DUV投影物镜市场，为ASML先进光刻物镜核心供应商；国科精密为国产物镜攻关主体", "caliber": "光刻物镜供应链定性分析", "region": "全球/中国", "url": "https://www.fxbaogao.com/q/2605136180934159", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "产业链汇编研究，定性结论"},
+    {"source_id": "SRC-EU-18", "org": "新松机器人", "title": "2024年年度报告摘要", "publish_date": "2025-04", "data_year": "2024", "metric": "EFEM、大气机械手全面导入市场、份额持续提升；LOADPORT、SMIF完成客户端验证并集成量产销售", "caliber": "公司经营披露", "region": "中国", "url": "https://file.finance.qq.com/finance/hs/pdf/2025/04/19/1223152104.PDF", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "定期报告"},
+    {"source_id": "SRC-EU-19", "org": "Verified Market Reports", "title": "Global Equipment Front End Module (EFEM) Market", "publish_date": "2026-05", "data_year": "2025", "metric": "全球EFEM市场2025年6.3亿美元；主要厂商Brooks、RORZE、DAIHEN、Hirata、Daifuku等", "caliber": "EFEM狭义口径，销售额", "region": "全球", "url": "https://www.verifiedmarketreports.com/product/equipment-front-end-module-efem-market/", "access_date": "2026-10-15", "type": "行业机构", "level": "D", "remark": "与Precedence/SNS宽口径（EFEM+Sorter约38.6-43.3亿美元，2025）差异大，引用须注明口径"},
+    {"source_id": "SRC-EU-20", "org": "QYResearch（经券商研报/同花顺引用）；弘燊石英大会", "title": "菲利华研报：半导体夯实重要增长极", "publish_date": "2025-07", "data_year": "2024", "metric": "全球半导体石英制品2024年32.26亿美元，2031年预计73.21亿美元；中国国产化率不足10%；菲利华通过AMAT/Lam/TEL认证", "caliber": "半导体用石英制品，销售额", "region": "全球/中国", "url": "http://news.10jqka.com.cn/field/sr/20250718/53288285.shtml", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "券商研报引用QYResearch及行业大会数据"},
+    {"source_id": "SRC-EU-21", "org": "财通证券（三个皮匠报告平台）", "title": "江丰电子控股凯德石英：补齐石英版图", "publish_date": "2026-03", "data_year": "2024", "metric": "2024年中国晶圆厂石英零部件采购额34.8亿元（弗若斯特沙利文）；大和热磁、泰谷诺、贺利氏、东曹四家合计约91%份额", "caliber": "中国晶圆厂石英零部件采购额；全球石英制品份额", "region": "中国/全球", "url": "https://www.sgpjbg.com.cn/labels/jiangfengdianzikonggukaideshiyingshiyingjian/1/6888765.html", "access_date": "2026-10-15", "type": "券商研报", "level": "B", "remark": "'四大家91%'原始出处为《石英部件在半导体领域应用及市场概览》，经研报转引"},
+    {"source_id": "SRC-EU-22", "org": "珂玛科技（可转债审核问询回复，同花顺/全景网发布）", "title": "珂玛科技7.5亿元可转债获深交所通过", "publish_date": "2026-02", "data_year": "2024", "metric": "珂玛科技占2024年国产半导体设备先进结构陶瓷采购规模14%，在国产供应商中市占率72%；高端市场由京瓷、NGK、CoorsTek主导，国产化率低于20%", "caliber": "中国大陆国产半导体设备先进结构陶瓷供应商口径（弗若斯特沙利文）", "region": "中国", "url": "http://m.10jqka.com.cn/20260210/c674692728.shtml", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "审核问询回复引用弗若斯特沙利文数据，注意分母为'国产供应商'"},
+    {"source_id": "SRC-EU-23", "org": "东方财富财富号（转引弗若斯特沙利文）", "title": "如何认识珂玛科技目前所处的发展阶段", "publish_date": "2026-05", "data_year": "2024", "metric": "2024年中国晶圆厂陶瓷零部件采购额29.4亿元，2029年预计69.7亿元；国产化率2024年7.1%", "caliber": "中国晶圆厂陶瓷零部件采购额；泛半导体先进结构陶瓷国产化率", "region": "中国", "url": "https://emcreative.eastmoney.com/app_fortune/article/index.html?artCode=20260509224525602652080&postId=1705064888", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "自媒体转引弗若斯特沙利文；7.1%国产化率口径与SRC-EU-24的约20%口径分母不同"},
+    {"source_id": "SRC-EU-24", "org": "先锋精科", "title": "向不特定对象发行可转换公司债券申请文件审核问询函的回复", "publish_date": "2026-05", "data_year": "2024-2025", "metric": "先进陶瓷零部件国产化率约20%、先进制程不足10%；静电吸盘处于国外垄断、国产探索初期；珂玛科技2024年单点突破并批量供货", "caliber": "中国大陆半导体设备零部件", "region": "中国", "url": "https://www.cfi.net.cn/p20260525001355.html", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "交易所审核问询回复"},
+    {"source_id": "SRC-EU-25", "org": "雪球（行业梳理帖）", "title": "硅部件产业链中游竞争格局", "publish_date": "2024-07", "data_year": "2023-2024", "metric": "Silfex（Lam子公司）全球主导；Hana约占全球刻蚀用硅部件原厂件市场13.3%；主要厂商Silfex、Hana、Worldex、SKC Solmics、三菱材料、CoorsTek", "caliber": "全球刻蚀用硅部件原厂件市场", "region": "全球", "url": "https://xueqiu.com/1946985191/296711583", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "个人专栏汇编，份额数据未注明原始统计机构；UCT/Ichor行业地位为公开常识性描述"},
+    {"source_id": "SRC-EU-26", "org": "辽宁省地方金融管理局（转引神工股份披露）", "title": "半导体硅材料产业领先者神工股份科创板上市", "publish_date": "2026-06（网站更新）", "data_year": "2020", "metric": "神工股份在集成电路刻蚀用单晶硅材料细分市场份额达13%-15%，进入国际先进供应链", "caliber": "全球集成电路刻蚀用单晶硅材料", "region": "全球", "url": "https://jrjg.ln.gov.cn/lnsdfjrjddlj/ywzq/zbsc/804B8127ADBF40DC963FA8E8F005A2DB/index.shtml", "access_date": "2026-10-15", "type": "上市公司披露", "level": "C", "remark": "政府网站转载上市报道，份额为公司上市时披露口径（2018-2020），时效偏早"},
+    {"source_id": "SRC-EU-27", "org": "界面新闻", "title": "新松机器人2025年营收41亿元", "publish_date": "2026-04", "data_year": "2025", "metric": "EFEM、大气机械手实现规模化，国内市场份额持续提升", "caliber": "公司经营情况", "region": "中国", "url": "https://www.jiemian.com/article/14314890.html", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "媒体基于年报报道"},
+    {"source_id": "SRC-EU-28", "org": "凤凰网财经（臻宝科技打新分析，引QYResearch/SEMI）", "title": "臻宝科技估值分析：半导体设备石英制品", "publish_date": "2026-06", "data_year": "2025", "metric": "2025年全球半导体零部件市场约315.3亿美元（QYResearch）；2025年全球半导体设备销售额预计1330亿美元（SEMI）", "caliber": "半导体设备零部件全品类", "region": "全球", "url": "https://i.ifeng.com/c/8tsBVB3vmj8", "access_date": "2026-10-15", "type": "行业媒体", "level": "C", "remark": "打新分析文章转引QYResearch与SEMI数据"},
+    {"source_id": "SRC-EU-29", "org": "百度百科（汇编公司披露与媒体报道）", "title": "北京华卓精科科技股份有限公司", "publish_date": "2025-12（更新）", "data_year": "2026", "metric": "2026年磁浮双工件台定位精度1.2nm；国内唯一、全球第二家掌握光刻机双工件台核心技术", "caliber": "公司技术进展", "region": "中国", "url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E5%8D%8E%E5%8D%93%E7%B2%BE%E7%A7%91%E7%A7%91%E6%8A%80%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/20023664", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "百科汇编，1.2nm精度及'全球第二家'表述建议以华卓精科IPO申报文件核实"},
+    {"source_id": "SRC-EU-30", "org": "富创精密", "title": "2024年年度报告摘要", "publish_date": "2025-04", "data_year": "2024", "metric": "产品覆盖机械及机电零组件（腔体、内衬、匀气盘等工艺零部件）；零部件国产化率将持续提升", "caliber": "公司经营披露", "region": "中国", "url": "http://static.cninfo.com.cn/finalpage/2025-04-30/1223424618.PDF", "access_date": "2026-10-15", "type": "上市公司披露", "level": "A", "remark": "定期报告"},
+    {"source_id": "SRC-EU-31", "org": "博客园（行业采购研究转载）", "title": "2026自动化零件一站式采购平台深度测评", "publish_date": "2026-09", "data_year": "2025-2026", "metric": "机械类零部件国产化率约40%-50%；射频电源、MFC等精密控制类约15%-20%；真空系统类国产化率低", "caliber": "中国半导体零部件国产化率估算", "region": "中国", "url": "https://www.cnblogs.com/hdsj/p/22835924", "access_date": "2026-10-15", "type": "行业媒体", "level": "D", "remark": "转载类测评文章，国产化率为估算口径，仅作量级参考"}
+  ]
+}
