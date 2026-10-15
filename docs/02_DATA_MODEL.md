@@ -46,6 +46,8 @@
 | aliases | string[] | 否；确认过的名称变体（更名史/品牌/收购前名） | 研究 |
 | country_region | string | 应填；未确认留空 | 研究 |
 | listing_status | enum | 应填；上市或非上市，未知留空（查不到不等于非上市） | 研究 |
+| ipo_status | enum | 否；A股IPO在审 或空。仅当项目在 IPO 在审清单时填，listing_status 仍为非上市 | 研究 |
+| ipo_detail | string | 否；板块（交易所）+ 审核状态（已受理/已问询/上市委通过/提交注册/中止/中止（财报更新）/注册同意） | 研究 |
 | listings | object[] | 已上市时应提供；多地上市不复制公司 | 研究 |
 | listing_id | string | 正式上市身份编号 `{company_id}_{交易所}`；行情关联键 | 研究 |
 | market / exchange / ticker | string | 上市市场词表、交易所、标准证券代码（带市场后缀） | 研究 |

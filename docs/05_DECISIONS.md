@@ -32,3 +32,4 @@
 PDF视觉规范来自[Verlaski/cn-pdf-report-style](https://github.com/Verlaski/cn-pdf-report-style)，保留A4、藏蓝#17375E、中文研究排版、斑马纹、来源和页码。实现中修正默认Frame内边距导致表宽超出正文的问题，并将科学计数上标转换为真正的上标排版，来源注与表格尾行共同分页，避免注释单独占页。
 
 数据安全规则采用最小作用范围：三个新集合仅服务端访问；只为semiApi增加公共调用，syncQuotes/generateReport仅供管理端、定时器和服务端调用。环境共享的其他函数规则和通配条目保持原值。
+| DEC-025 | 上市状态用独立字段而非扩充 listing_status 词表 | IPO在审是过程状态不是上市结论；保留 listing_status=非上市，用 ipo_status 承载在审信息，前端徽章与筛选不破坏现有值域；注册同意待挂牌属同字段管理 |

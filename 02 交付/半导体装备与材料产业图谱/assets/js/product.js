@@ -14,7 +14,10 @@
     clearTimeout(notify.timer);notify.timer=setTimeout(()=>box.hidden=true,5500);
   }
   function badge(c) {
-    if(c.listing_status==='非上市')return '<span class="market-badge unlisted">非上市</span>';
+    if(c.listing_status==='非上市') {
+      if(c.ipo_status==='A股IPO在审')return '<span class="market-badge ipo">IPO在审</span>'+(c.ipo_detail?' <span class="ticker ipo-detail">'+esc(c.ipo_detail)+'</span>':'');
+      return '<span class="market-badge unlisted">非上市</span>';
+    }
     const listing=D.primaryListing(c);
     if(c.listing_status!=='上市'||!listing)return '<span class="market-badge unknown">上市信息待补充</span>';
     const group=D.marketGroup(listing.market);
@@ -22,7 +25,7 @@
     return '<span class="market-badge '+cls+'">'+esc(group)+'</span> <span class="ticker">'+esc(listing.ticker || '')+'</span>';
   }
   function companyButton(c,label) {return c ? '<button class="company-link" data-company="'+esc(c.runtime_key)+'">'+esc(label || c.name)+'<span class="company-arrow" aria-hidden="true"> ↗</span></button>' : esc(label || '');}
-  function legend() {return '<div class="market-legend" aria-label="资本市场图例"><span>资本市场</span><span class="market-badge a">A股</span><span class="market-badge hk">港股</span><span class="market-badge us">美股</span><span class="market-badge overseas">其他海外上市</span><span class="market-badge unlisted">非上市</span></div>';}
+  function legend() {return '<div class="market-legend" aria-label="资本市场图例"><span>资本市场</span><span class="market-badge a">A股</span><span class="market-badge hk">港股</span><span class="market-badge us">美股</span><span class="market-badge overseas">其他海外上市</span><span class="market-badge ipo">IPO在审</span><span class="market-badge unlisted">非上市</span></div>';}
   function openDrawer(html) {
     const layer=document.getElementById('drawer-layer');
     if(layer.hidden)returnFocus=document.activeElement;
@@ -62,6 +65,7 @@
     if(!c.verified_master)html+='<p class="quiet-note">当前名称来自已收录赛道。上市身份及主体关系待正式公司数据库补充。</p>';
     if(c.combo)html+='<p class="quiet-note">该记录包含组合名称，待研究人员确认主体关系；不参与机会抽卡。</p>';
     if(c.ticker_hints.length)html+='<p class="quiet-note">原始代码线索：'+esc(c.ticker_hints.join('、'))+'（未作证券代码确认）</p>';
+    if(c.ipo_status==='A股IPO在审')html+='<p class="ipo-banner">A股IPO在审：'+esc(c.ipo_detail || '')+'</p>';
     if(listing)html+='<p>交易所：'+esc(listing.exchange || '待补充')+'</p><div data-company-quote="'+esc(listing.ticker || '')+'"></div>';
     html+='<h3>产业关系</h3>';
     const seen=new Set();

@@ -89,6 +89,7 @@
         const vm = {runtime_key:c.company_id, name:c.short_name || c.name_cn || c.name_en || c.company_id,
           name_cn:c.name_cn || '',name_en:c.name_en || '',country_region:c.country_region || '',
           listing_status:['上市','非上市'].includes(c.listing_status) ? c.listing_status : '',
+          ipo_status:c.ipo_status || '',ipo_detail:c.ipo_detail || '',
           listings:Array.isArray(c.listings) ? c.listings : [],aliases:c.aliases || [],ticker_hints:[],
           occurrences:[],combo:false,verified_master:true};
         this.companies.push(vm); this.byKey.set(vm.runtime_key,vm);
@@ -184,7 +185,7 @@
     if(kind==='companies') {
       if(repo.mode!=='official')throw new Error('正式公司数据库尚未接入，当前无已核验公司主表可导出。');
       return [
-        {name:'companies.csv',rows:[['company_id','name_cn','name_en','country_region','listing_status'],...repo.companies.map(c=>[c.runtime_key,c.name_cn,c.name_en,c.country_region,c.listing_status])]},
+        {name:'companies.csv',rows:[['company_id','name_cn','name_en','country_region','listing_status','ipo_status','ipo_detail'],...repo.companies.map(c=>[c.runtime_key,c.name_cn,c.name_en,c.country_region,c.listing_status,c.ipo_status||'',c.ipo_detail||''])]},
         {name:'company_listings.csv',rows:[['company_id','listing_id','market','exchange','ticker','primary'],...repo.companies.flatMap(c=>c.listings.map(l=>[c.runtime_key,l.listing_id,l.market,l.exchange,l.ticker,l.primary]))]},
         {name:'track_company_relations.csv',rows:[['company_id','dataset','track_id','sub_name','role','share','source_id'],...repo.companies.flatMap(c=>c.occurrences.map(o=>[c.runtime_key,o.dataset,o.track_id,o.sub_name,o.role,o.share,o.source_id]))]}
       ];

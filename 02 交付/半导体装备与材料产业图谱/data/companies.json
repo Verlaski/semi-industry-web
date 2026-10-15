@@ -17,9 +17,11 @@
       "source_keys": [
         "珠海越亚"
       ],
-      "entity_decision": "确认为独立实体：珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2026-07-16过会、07-17提交注册，截至2026-10-15未见发行上市，记非上市；珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2025-09-30受理、2026-07-16上市委通过、2026-07-17提交注册，截至2026-10-15未见发行挂牌，记非上市",
+      "entity_decision": "确认为独立实体：珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2026-07-16过会、07-17提交注册，截至2026-10-15未见发行上市，记非上市；珠海越亚半导体股份有限公司（IC封装基板）；创业板IPO 2025-09-30受理、2026-07-16上市委通过、2026-07-17提交注册，截至2026-10-15未见发行挂牌，记非上市；IPO在审：创业板（深交所），审核状态：中止（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "创业板IPO已提交注册，尚未发行；后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO已提交注册，尚未发行；后续将转为上市，需滚动复核"
+      "unresolved": "创业板IPO已提交注册，尚未发行；后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO已提交注册，尚未发行；后续将转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "创业板（深交所），审核状态：中止"
     },
     {
       "company_id": "ACCOTEST",
@@ -163,7 +165,8 @@
       ],
       "entity_decision": "北京华丞电子股份有限公司（2026年5月由有限公司改制更名；曾用名北京七星华创流量计有限公司）；北方华创科技集团旗下核心国有控股企业，自身未上市",
       "confidence": "high",
-      "unresolved": "英文法定名称未确认（AURASKY 为品牌名）；股东结构（七星华创/北方华创体系关联）未专项核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "英文法定名称未确认（AURASKY 为品牌名）；股东结构（七星华创/北方华创体系关联）未专项核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "AUTOWELL",
@@ -212,7 +215,8 @@
       ],
       "entity_decision": "上海中艺自动化系统有限公司（2001年成立，集成电路分选机/编带机厂商）；非上市",
       "confidence": "medium",
-      "unresolved": "法定英文名称未确认；company_id CASCOL 取自官网域名 cascol.com；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；法定英文名称以 SEMI 展商名录 Chart Automation System 为准，建议工商档案复核"
+      "unresolved": "法定英文名称未确认；company_id CASCOL 取自官网域名 cascol.com；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；法定英文名称以 SEMI 展商名录 Chart Automation System 为准，建议工商档案复核",
+      "ipo_status": ""
     },
     {
       "company_id": "CASTECH",
@@ -338,7 +342,8 @@
       ],
       "entity_decision": "拆分：中电科43所（研究所）与合肥圣达电子科技实业有限公司为不同法人，43所仅为合肥圣达第一大股东（持股46.27%），各占一条",
       "confidence": "medium",
-      "unresolved": "研究所企业化改制后运营主体名称未逐字核验"
+      "unresolved": "研究所企业化改制后运营主体名称未逐字核验",
+      "ipo_status": ""
     },
     {
       "company_id": "CNEPO",
@@ -358,7 +363,8 @@
       ],
       "entity_decision": "确认为非上市公司：长春国科精密光学技术有限公司（光刻投影光学系统），2022年初被国望光学全资收购，原始备注'未上市'核验一致；长春国科精密光学技术有限公司（光刻机投影物镜）；2021年春被北京国望光学科技有限公司全资收购，为其全资子公司，自身未上市",
       "confidence": "medium",
-      "unresolved": "英文全称未见权威披露；被国望光学收购后的存续主体状态未进一步核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；被国望光学收购后的最新存续主体状态未进一步核验；英文法定名称未确认"
+      "unresolved": "英文全称未见权威披露；被国望光学收购后的存续主体状态未进一步核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；被国望光学收购后的最新存续主体状态未进一步核验；英文法定名称未确认",
+      "ipo_status": ""
     },
     {
       "company_id": "CSLVAC",
@@ -491,9 +497,11 @@
       "source_keys": [
         "DJEL"
       ],
-      "entity_decision": "科创板 IPO 已于 2026-09-29 获上交所受理（招股说明书申报稿披露），辅导机构中信建投，截至 2026-10-15 尚未发行上市；东方晶源微电子科技（北京）股份有限公司；2026年已申报科创板IPO（拟募资约25亿元），目前处于审核流程中，尚未发行上市；2024-11曾完成近10亿元融资",
+      "entity_decision": "科创板 IPO 已于 2026-09-29 获上交所受理（招股说明书申报稿披露），辅导机构中信建投，截至 2026-10-15 尚未发行上市；东方晶源微电子科技（北京）股份有限公司；2026年已申报科创板IPO（拟募资约25亿元），目前处于审核流程中，尚未发行上市；2024-11曾完成近10亿元融资；IPO在审：科创板（上交所），审核状态：已问询（2026-09-29）（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "IPO 审核中，存在不确定性；法定英文名称未确认（DJEL 为英文品牌缩写）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO审核中，存在不确定性；法定英文名称以官网品牌 Dongfang Jingyuan Electron Limited 为准"
+      "unresolved": "法定英文名称未确认（DJEL 为英文品牌缩写）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO审核中，存在不确定性；法定英文名称以官网品牌 Dongfang Jingyuan Electron Limited 为准",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询（2026-09-29）"
     },
     {
       "company_id": "DZFC",
@@ -514,7 +522,8 @@
       ],
       "entity_decision": "拆分+合并：大族封测为独立法人（大族激光控股子公司），两行候选均指同一主体，合并为一条",
       "confidence": "high",
-      "unresolved": "英文注册名未查到"
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
     },
     {
       "company_id": "ESWINMAT",
@@ -746,7 +755,8 @@
       ],
       "entity_decision": "确认为非上市公司：江苏格朗瑞科技有限公司（半导体封测设备，苏州工业园区）；江苏格朗瑞科技有限公司（2010年成立，苏州工业园区，半导体转塔式分选机等专用设备）；非上市",
       "confidence": "medium",
-      "unresolved": "英文全称不完整（36氪页面截断）；未见任何上市记录；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；英文法定名称未确认（Grandtry 为公开报道品牌口径）；未见任何上市记录"
+      "unresolved": "英文全称不完整（36氪页面截断）；未见任何上市记录；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；英文法定名称未确认（Grandtry 为公开报道品牌口径）；未见任何上市记录",
+      "ipo_status": ""
     },
     {
       "company_id": "GLTECH",
@@ -888,7 +898,8 @@
       ],
       "entity_decision": "确认为非上市公司：沈阳和研科技股份有限公司（划片机/研磨机厂商），2023年1月IPO辅导备案，未见后续上市；沈阳和研科技股份有限公司（划片机/研磨机等半导体磨划设备）；非上市，2023年曾启动A股IPO辅导备案，截至2026-10-15未见发行上市",
       "confidence": "high",
-      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "HHCK",
@@ -941,7 +952,8 @@
       ],
       "entity_decision": "赛道主体=衡所华威本体（衡所华威电子有限公司，Hysol品牌，国内环氧塑封料出货量第一）；2025年3月起为华海诚科（688535.SH）100%控股子公司，自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "HUATE",
@@ -1051,7 +1063,8 @@
       ],
       "entity_decision": "确认为独立实体：苏州芯睿科技有限公司（晶圆键合/解键合设备，品牌 iWiseeTec），未上市；苏州芯睿科技有限公司（2021年成立，晶圆临时/永久键合及解键合设备）；非上市，已完成多轮融资（累计披露约2.3亿元）",
       "confidence": "high",
-      "unresolved": "法定英文名未获官方确认（iWiseeTec 为官网品牌口径）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "法定英文名未获官方确认（iWiseeTec 为官网品牌口径）；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "JHT",
@@ -1393,7 +1406,8 @@
       ],
       "entity_decision": "赛道主体=凯世通本体（上海凯世通半导体股份有限公司，国内离子注入机龙头）；其为上市公司先导基电（600641.SH，原万业企业，2024年起实控人变更为先导科技集团）控股子公司，凯世通自身未单独上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "KONFOONG",
@@ -1467,9 +1481,11 @@
       "source_keys": [
         "猎奇智能"
       ],
-      "entity_decision": "确认为独立实体：苏州猎奇智能设备股份有限公司（昆山，封测/贴片设备），未上市；上市公司金海通2024年受让部分股权为参股关系；苏州猎奇智能设备股份有限公司（昆山，光模块/半导体封测设备）；创业板IPO 2025-12-26受理、2026-07-31上市委通过、2026-08-21证监会同意注册，截至2026-10-15尚未发行挂牌，记非上市",
+      "entity_decision": "确认为独立实体：苏州猎奇智能设备股份有限公司（昆山，封测/贴片设备），未上市；上市公司金海通2024年受让部分股权为参股关系；苏州猎奇智能设备股份有限公司（昆山，光模块/半导体封测设备）；创业板IPO 2025-12-26受理、2026-07-31上市委通过、2026-08-21证监会同意注册，截至2026-10-15尚未发行挂牌，记非上市；IPO在审：创业板（深交所），审核状态：注册同意（2026-08-21）（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "法定英文名未获官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO注册已生效，尚未发行上市；后续将转为上市，需滚动复核"
+      "unresolved": "法定英文名未获官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；创业板IPO注册已生效，尚未发行上市；后续将转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "创业板（深交所），审核状态：注册同意（2026-08-21）"
     },
     {
       "company_id": "LION",
@@ -1580,7 +1596,8 @@
       ],
       "entity_decision": "确认为非上市公司：深圳微见先进封装技术股份有限公司（曾用名微见智能封装技术（深圳）有限公司，固晶机厂商），2025年8月完成B轮融资，未上市；微见智能封装技术（深圳）有限公司（2026年更名深圳微见先进封装技术股份有限公司）；高精度固晶机等芯片封装设备；非上市，2025-08完成超亿元B轮融资",
       "confidence": "high",
-      "unresolved": "股份制改造后是否启动IPO辅导未核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；股改后是否启动IPO辅导未核验"
+      "unresolved": "股份制改造后是否启动IPO辅导未核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；股改后是否启动IPO辅导未核验",
+      "ipo_status": ""
     },
     {
       "company_id": "MLOPTIC",
@@ -1962,7 +1979,8 @@
       ],
       "entity_decision": "确认为独立实体：青禾晶元半导体科技（集团）有限责任公司（原北京青禾晶元半导体科技有限责任公司，2025年1月迁址天津滨海高新区并更名，为上市主体）；计划2027年申报上市，截至2026-10-15未上市；青禾晶元半导体科技（集团）有限责任公司（原北京青禾晶元半导体科技有限责任公司，2025-01迁址天津并更名，作为全国总部和上市主体；键合设备/复合衬底）；非上市，计划2027年申报上市",
       "confidence": "high",
-      "unresolved": "法定英文名未获官方确认；上市计划推进中，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "法定英文名未获官方确认；上市计划推进中，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "REDAVENUE",
@@ -2020,7 +2038,8 @@
       ],
       "entity_decision": "中微公司（688012.SH）参股公司，中微公司为第一大股东（持股约 27.46%），未单独上市；睿励科学仪器（上海）有限公司；非上市，2024-11完成近5亿元战略融资（金石投资、招商致远领投）；中微公司（688012）2020-12公告明确其为非上市公司",
       "confidence": "high",
-      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "RSLASER",
@@ -2040,7 +2059,8 @@
       ],
       "entity_decision": "确认为独立实体：北京科益虹源光电技术有限公司（光刻准分子激光光源），中科院光电院等发起设立，未上市；北京科益虹源光电技术有限公司（2016年成立，中科院微电子所控股，光刻准分子激光器/光源系统）；非上市，尚未有IPO发行记录",
       "confidence": "high",
-      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "SANJIA",
@@ -2154,7 +2174,8 @@
       ],
       "entity_decision": "赛道主体=北京七星华创流量计有限公司（Sevenstar品牌，国产质量流量控制器MFC龙头）；其为北京七星华创电子股份有限公司集团化整合后新设子公司，属北方华创（002371.SZ）体系，自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "SHENGDA",
@@ -2175,7 +2196,8 @@
       ],
       "entity_decision": "拆分：合肥圣达为43所参控股的独立法人企业（产业化公司），单列为一条",
       "confidence": "medium",
-      "unresolved": "英文注册名未查到"
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
     },
     {
       "company_id": "SHENZHOU",
@@ -2193,9 +2215,11 @@
       "source_keys": [
         "神州半导体"
       ],
-      "entity_decision": "确认为独立实体：江苏神州半导体科技股份有限公司（射频电源/匹配器等设备部件），科创板IPO申报中，未上市；江苏神州半导体科技股份有限公司（扬州，等离子体射频电源等半导体设备核心零部件）；科创板IPO 2026-06-30获受理、2026-07-15进入问询，截至2026-10-15未见发行上市",
+      "entity_decision": "确认为独立实体：江苏神州半导体科技股份有限公司（射频电源/匹配器等设备部件），科创板IPO申报中，未上市；江苏神州半导体科技股份有限公司（扬州，等离子体射频电源等半导体设备核心零部件）；科创板IPO 2026-06-30获受理、2026-07-15进入问询，截至2026-10-15未见发行上市；IPO在审：科创板（上交所），审核状态：已问询（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "科创板IPO审核中，后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "科创板IPO审核中，后续可能转为上市，需滚动复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询"
     },
     {
       "company_id": "SIASUN",
@@ -2338,7 +2362,8 @@
       ],
       "entity_decision": "确认为独立实体：北京烁科精微电子装备有限公司，中国电科旗下电科装备体系公司（CMP设备）；子公司未单独上市，母公司电科装备亦未整体上市，记为电科装备旗下非上市主体；北京烁科精微电子装备有限公司（2019年9月成立，中国电科成果转化新设混合所有制公司，CMP设备厂商）；未上市",
       "confidence": "medium",
-      "unresolved": "法定英文名未获官方确认；未上市结论基于无任何交易所/挂牌记录及公开报道；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "法定英文名未获官方确认；未上市结论基于无任何交易所/挂牌记录及公开报道；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "SKY",
@@ -2418,7 +2443,8 @@
       ],
       "entity_decision": "确认为独立实体：上海微电子装备（集团）股份有限公司（SMEE，光刻机整机）；股份有限公司（非上市、国有控股），曾进行科创板IPO辅导后于2024年撤回，截至2026-10-15未上市；上海微电子装备（集团）股份有限公司（SMEE，光刻机整机）；公认未上市",
       "confidence": "high",
-      "unresolved": "资本运作路径（借壳/分拆）存在市场传闻，未经官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "资本运作路径（借壳/分拆）存在市场传闻，未经官方确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "SPRINT",
@@ -2585,9 +2611,11 @@
       "source_keys": [
         "华卓精科"
       ],
-      "entity_decision": "2020-06 科创板 IPO 获受理、2021-09 过会，2024-06-26 因撤回申请被上交所终止审核；2026 年完成新一轮上市辅导拟再申报科创板；ticker_hint A04100 为原 IPO 申请编号，非证券代码；北京华卓精科科技股份有限公司；曾申报科创板（2021-09过会、2024-06终止）；2026-02-12在北京证监局办理辅导备案重启IPO，2026-06-30科创板IPO再获受理（拟募资35亿元），目前审核状态中止（财报更新），尚未上市",
+      "entity_decision": "2020-06 科创板 IPO 获受理、2021-09 过会，2024-06-26 因撤回申请被上交所终止审核；2026 年完成新一轮上市辅导拟再申报科创板；ticker_hint A04100 为原 IPO 申请编号，非证券代码；北京华卓精科科技股份有限公司；曾申报科创板（2021-09过会、2024-06终止）；2026-02-12在北京证监局办理辅导备案重启IPO，2026-06-30科创板IPO再获受理（拟募资35亿元），目前审核状态中止（财报更新），尚未上市；IPO在审：科创板（上交所），审核状态：已问询（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "截至 2026-10-15 未见二次申报获受理的公开信息；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO二次申报受理后中止（财报更新），尚未发行上市"
+      "unresolved": "截至 2026-10-15 未见二次申报获受理的公开信息；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO二次申报受理后中止（财报更新），尚未发行上市",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：已问询"
     },
     {
       "company_id": "WST",
@@ -2609,7 +2637,8 @@
       ],
       "entity_decision": "确认为独立实体：苏州芯慧联半导体科技有限公司（WST，常熟，湿法/键合等设备）；未上市，2024年10月起被上市公司百傲化学（603360）增资控股；其晶圆键合业务2024年分立为芯慧联芯/芯慧联新（苏州）科技有限公司，亦未上市；苏州芯慧联半导体科技有限公司（涂胶显影/光刻/湿法清洗等黄光制程设备）；2024-12被上市公司百傲化学（603360.SH）控股（增资7亿元持股46.67%并取得控制权），自身未独立上市",
       "confidence": "high",
-      "unresolved": "英文全称为官方简称口径拼写，法定英文注册名未单独核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "英文全称为官方简称口径拼写，法定英文注册名未单独核验；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "WUSHIWEI",
@@ -2628,7 +2657,8 @@
       ],
       "entity_decision": "确认为非上市公司：吾拾微电子（苏州）有限公司，晶圆级键合/解键合设备厂商，2025年底完成Pre-A轮融资；吾拾微电子（苏州）有限公司（晶圆级临时键合/解键合及永久键合设备）；非上市，2026-09完成亿元A轮融资",
       "confidence": "high",
-      "unresolved": "英文全称未见权威披露；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "英文全称未见权威披露；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "XFDZ",
@@ -2681,7 +2711,8 @@
       ],
       "entity_decision": "上海锡喜材料科技有限公司（曾用名上海新华锦焊接材料科技有限公司；BGA锡球/锡膏等半导体封装焊料）；非上市",
       "confidence": "medium",
-      "unresolved": "英文名称未确认；曾用名来自百科，建议工商档案复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "英文名称未确认；曾用名来自百科，建议工商档案复核；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "XYC",
@@ -2736,7 +2767,8 @@
       ],
       "entity_decision": "东莞市亚聚电子材料有限公司（2009年成立，底部填充胶等电子胶粘剂）；非上市",
       "confidence": "medium",
-      "unresolved": "英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "YESDO",
@@ -2757,7 +2789,8 @@
       ],
       "entity_decision": "确认为独立实体：烟台一诺电子材料有限公司（键合丝/封装材料），未上市；烟台一诺电子材料有限公司（2007年成立，键合银丝/金丝等半导体封装材料）；非上市",
       "confidence": "high",
-      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）"
+      "unresolved": "东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）",
+      "ipo_status": ""
     },
     {
       "company_id": "YJCH",
@@ -2777,7 +2810,8 @@
       ],
       "entity_decision": "拆分：英杰晨晖为英杰电气控股的独立法人子公司，单列为一条",
       "confidence": "high",
-      "unresolved": "英文注册名未查到"
+      "unresolved": "英文注册名未查到",
+      "ipo_status": ""
     },
     {
       "company_id": "YOKE",
@@ -2856,7 +2890,8 @@
       ],
       "entity_decision": "TCL中环（002129.SZ）控股子公司，未单独上市；中环领先半导体科技股份有限公司；TCL中环（002129.SZ）控股子公司，自身未上市；市场曾传分拆独立上市，TCL中环2026-07仍公告以子公司身份投资建设深圳12英寸大硅片项目",
       "confidence": "high",
-      "unresolved": "曾由有限公司股改为股份有限公司，旧名 中环领先半导体材料有限公司 列入别名；市场有分拆上市传闻，未获公司确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；分拆上市仅为市场讨论，未获公司确认；股改后曾用名中环领先半导体材料有限公司"
+      "unresolved": "曾由有限公司股改为股份有限公司，旧名 中环领先半导体材料有限公司 列入别名；市场有分拆上市传闻，未获公司确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；分拆上市仅为市场讨论，未获公司确认；股改后曾用名中环领先半导体材料有限公司",
+      "ipo_status": ""
     },
     {
       "company_id": "ZJJB",
@@ -2877,7 +2912,8 @@
       ],
       "entity_decision": "赛道主体=紫金佳博本体（键合金丝/键合丝国产龙头）；为紫金矿业（601899.SH/02899.HK）与广东佳博电子2017年合资公司，自身未上市；2026年集团新设福建紫金佳博新材料有限公司承接键合线材扩产项目",
       "confidence": "medium",
-      "unresolved": "法人主体口径：2017年注册主体为\"上杭县紫金佳博电子新材料科技有限公司\"，2026年报道另出现\"福建紫金佳博新材料有限公司\"作为键合线材扩产项目主体，两者承继关系未经工商底档核实"
+      "unresolved": "法人主体口径：2017年注册主体为\"上杭县紫金佳博电子新材料科技有限公司\"，2026年报道另出现\"福建紫金佳博新材料有限公司\"作为键合线材扩产项目主体，两者承继关系未经工商底档核实",
+      "ipo_status": ""
     },
     {
       "company_id": "ZKKH",
@@ -2895,9 +2931,11 @@
       "source_keys": [
         "中科科化"
       ],
-      "entity_decision": "科创板 IPO 已于 2025-12-05 获受理（保荐人招商证券），截至 2026-10-15 尚未发行上市；江苏中科科化新材料股份有限公司（控股股东北京科化新材料科技有限公司持股64.57%）；环氧塑封料厂商；科创板IPO 2025-12-05获受理、2025-12-24进入问询，截至2026-10-15未见发行上市",
+      "entity_decision": "科创板 IPO 已于 2025-12-05 获受理（保荐人招商证券），截至 2026-10-15 尚未发行上市；江苏中科科化新材料股份有限公司（控股股东北京科化新材料科技有限公司持股64.57%）；环氧塑封料厂商；科创板IPO 2025-12-05获受理、2025-12-24进入问询，截至2026-10-15未见发行上市；IPO在审：科创板（上交所），审核状态：中止（财报更新）（投行之声A股IPO项目明细 2026-10-15）",
       "confidence": "high",
-      "unresolved": "科创板 IPO 审核中，尚未发行上市；英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO问询中，后续可能转为上市，需滚动复核"
+      "unresolved": "科创板 IPO 审核中，尚未发行上市；英文名称未确认；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；科创板IPO问询中，后续可能转为上市，需滚动复核",
+      "ipo_status": "A股IPO在审",
+      "ipo_detail": "科创板（上交所），审核状态：中止（财报更新）"
     },
     {
       "company_id": "ZKX",
@@ -2929,7 +2967,8 @@
       ],
       "entity_decision": "中国电科（CETC）电科装备旗下离子注入机业务主体；2026-06-04 启动 IPO 上市辅导（辅导机构中信建投），截至 2026-10-15 未上市；主体裁决：脚本按名称近似匹配300678（中科信息，中科院成都信息技术股份有限公司）为误判，300678主营信息化解决方案、与离子注入无关；图谱所指为北京中科信半导体股份有限公司（曾用名北京烁科中科信电子装备有限公司，中国电科48所系，离子注入机），2026-06-04在北京证监局办理IPO辅导备案，尚未上市",
       "confidence": "high",
-      "unresolved": "主体更名沿革（中科信电子装备→烁科中科信→中科信半导体）建议以工商登记复核；辅导备案编号未公开；名称近似匹配（原名 中科信 vs 行情名 中科信息），待人工复核；与300678中科信息为不同主体，脚本匹配已纠正"
+      "unresolved": "主体更名沿革（中科信电子装备→烁科中科信→中科信半导体）建议以工商登记复核；辅导备案编号未公开；名称近似匹配（原名 中科信 vs 行情名 中科信息），待人工复核；与300678中科信息为不同主体，脚本匹配已纠正",
+      "ipo_status": ""
     },
     {
       "company_id": "ZZGF",
@@ -2982,7 +3021,8 @@
       ],
       "entity_decision": "核验后确认为中国台湾地区企业：恒硕科技股份有限公司（Accurus Scientific，半导体封装锡球），2019年被汉高（Henkel）收购，非独立上市主体；候选归入'中国公司'需注意其为台湾注册；恒硕科技股份有限公司（Accurus Scientific，台湾，半导体封装焊接球）；2021年被马来西亚MI Technovation Berhad（正齐科技，马交所主板）收购99%股权成为其子公司，自身未独立上市",
       "confidence": "high",
-      "unresolved": "若图谱所指为大陆同名企业则需另行核验；半导体封装锡球语境下匹配Accurus；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；若图谱所指为大陆同名企业需另行核验；半导体封装锡球语境下匹配 Accurus"
+      "unresolved": "若图谱所指为大陆同名企业则需另行核验；半导体封装锡球语境下匹配Accurus；东财名录+行情接口均未匹配；上市状态待人工核验（不得默认非上市）；若图谱所指为大陆同名企业需另行核验；半导体封装锡球语境下匹配 Accurus",
+      "ipo_status": ""
     },
     {
       "company_id": "CCP",
@@ -3004,7 +3044,8 @@
       ],
       "entity_decision": "赛道主体=长春人造树脂厂股份有限公司（Chang Chun Plastics，台湾长春集团核心企业，环氧塑封料/环氧成型材料）；长春集团为私人控股集团未上市；大陆塑封料产能主体为长春封塑料（常熟）有限公司（与日本住友电木合资）",
       "confidence": "medium",
-      "unresolved": "长春集团为私人控股，长春人造树脂未上市系行业常识级判断，未获取交易所/官网明示\"未上市\"的A级直接证据"
+      "unresolved": "长春集团为私人控股，长春人造树脂未上市系行业常识级判断，未获取交易所/官网明示\"未上市\"的A级直接证据",
+      "ipo_status": ""
     },
     {
       "company_id": "CWTC",
@@ -3229,7 +3270,8 @@
       ],
       "entity_decision": "赛道主体=AAMI本体（先进封装材料国际有限公司，全球前五引线框架供应商，总部中国香港，原始地区\"中国香港/新加坡\"冲突裁决为中国香港，新加坡为运营子公司）；2020年自ASMPT材料业务分拆为合资公司，自身未上市；2025年起被至正股份/领先股份（603991.SH）收购99.97%并并表",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "ATS",
@@ -3277,7 +3319,8 @@
       ],
       "entity_decision": "拆分+合并：EVG（奥地利EV Group）与 SUSS（德国SUSS MicroTec）为不同主体；单行 EVG 与斜杠行中的 EVG 为同一主体，合并为一条；修正：EVG 记录误带 SUSS 的别名与 SMHN.DE 上市记录，已剔除（主会话）",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "EXELLIQ",
@@ -3296,7 +3339,8 @@
       ],
       "entity_decision": "非上市私营公司：前身为 Greiner Extrusion（Greiner 集团挤出业务），2022-12 更名 Exelliq；2023 年起随 Extrusion Technology Group 被 Davis-Standard（Gamut Capital 旗下）收购，未在任何交易所上市。官网 imprint 显示主体为 Exelliq Austria GmbH，持股方 Davis-Standard (Austria) GmbH 100%",
       "confidence": "high",
-      "unresolved": "无通行中文名；主业为塑料挤出成型设备，与半导体产业链的关联环节待业务侧确认"
+      "unresolved": "无通行中文名；主业为塑料挤出成型设备，与半导体产业链的关联环节待业务侧确认",
+      "ipo_status": ""
     },
     {
       "company_id": "ATOTECH",
@@ -3318,7 +3362,8 @@
       ],
       "entity_decision": "赛道主体=Atotech品牌实体（德国柏林，PCB/IC封装工艺化学品与设备）；2022-08-17被MKS Instruments（MKSI.US）以约44亿美元完成收购并自纽交所退市，品牌存续（MKS旗下Atotech），保留实体并注明归属，listing只填自身=非上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "BASF",
@@ -3371,7 +3416,8 @@
       ],
       "entity_decision": "赛道主体=Berliner Glas本体（德国柏林，陶瓷与精密光学模组）；2020年被ASML（ASML.AS）收购100%股份，自身未上市；2021-2023年医疗（Berliner Glas Medical）与SwissOptic业务出售给Jenoptik，ASML保留光刻相关业务",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "GN",
@@ -3391,7 +3437,8 @@
       ],
       "entity_decision": "拆分：G&N（德国精密磨床厂）与冈本工作机械（日本上市公司）为不同主体，各占一条",
       "confidence": "medium",
-      "unresolved": "中文通行名不统一，暂用直译"
+      "unresolved": "中文通行名不统一，暂用直译",
+      "ipo_status": ""
     },
     {
       "company_id": "HENKEL",
@@ -3442,7 +3489,8 @@
       ],
       "entity_decision": "非上市：Heraeus（贺利氏）为家族全资持有的科技集团（Heraeus Holding GmbH，总部德国哈瑙），1851 年创立，不上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "MERCKKGAA",
@@ -3585,7 +3633,8 @@
       ],
       "entity_decision": "确认独立：TRUMPF（通快集团）为独立主体；与 TRUMPF Hüttinger 名称相近不合并——Hüttinger 是其电子业务子公司，另行保留",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "TRUMPFHUTTINGER",
@@ -3606,7 +3655,8 @@
       ],
       "entity_decision": "确认独立（不同主体保留）：TRUMPF Hüttinger 为 TRUMPF 集团旗下独立法人子公司（射频/微波发生器，半导体等离子体电源），不单列上市记录",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "ZEISS",
@@ -3625,7 +3675,8 @@
       ],
       "entity_decision": "非上市：Carl Zeiss SMT GmbH 为 Carl Zeiss AG 全资子公司（蔡司集团半导体制造技术事业部），集团由 Carl-Zeiss-Stiftung（卡尔蔡司基金会）100% 持有，整体不上市；ASML 2016 年入股 Carl Zeiss SMT 24.9% 少数股权",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "ASMPT",
@@ -3976,7 +4027,8 @@
       ],
       "entity_decision": "",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "FUJIMI",
@@ -4032,7 +4084,8 @@
       ],
       "entity_decision": "赛道主体=Gigaphoton本体（日本栃木县小山市，光刻准分子激光光源双寡头之一）；为小松制作所Komatsu（6301.T）全资子公司，自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "HHT",
@@ -4053,7 +4106,8 @@
       ],
       "entity_decision": "原株式会社日立ハイテクノロジーズ（东证1部8036）2020年5月18日退市，成为日立制作所100%子公司，并更名株式会社日立ハイテク；当前为非上市日立全资子公司",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "HIRATA",
@@ -4193,7 +4247,8 @@
       ],
       "entity_decision": "原东证Prime 4185；2024年4月产业革新投资机构（JIC）旗下JICC-02完成TOB，2024年6月25日退市，2024年12月法人并入JICC-02（存续公司沿用JSR株式会社名称），现为JIC旗下非上市公司",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "JXMETALS",
@@ -4243,7 +4298,8 @@
       ],
       "entity_decision": "",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "KASHIYAMA",
@@ -4263,7 +4319,8 @@
       ],
       "entity_decision": "",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "KOKUSAI",
@@ -4517,7 +4574,8 @@
       ],
       "entity_decision": "",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "NGKINSULATORS",
@@ -4696,7 +4754,8 @@
       ],
       "entity_decision": "拆分：NTK 指株式会社NTK CERATEC（日本特殊陶业 Niterra 全资子公司），与 NGK Insulators 分属不同集团，单列一条",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "OKAMOTO",
@@ -4877,7 +4936,8 @@
       ],
       "entity_decision": "拆分+合并：SEN 原为住友重工与 Eaton/Axcelis 各50%合资公司（Sumitomo Eaton Nova），2009年住友重工收购全部股权，现为全资子会社（现名住友重机械Material Solutions）；两个斜杠行中的 SEN 为同一主体，合并为一条",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "SENJUMETAL",
@@ -4898,7 +4958,8 @@
       ],
       "entity_decision": "",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "SHI",
@@ -4982,7 +5043,8 @@
       ],
       "entity_decision": "合并：Shinko Electric（新光电气）为 Shinko Electric Industries（新光電気工業）的通行简称，半导体封装基板语境下两行候选为同一主体，合并为一条",
       "confidence": "high",
-      "unresolved": "存在同名企业神钢电机（Shinko Electric Co., Ltd.，Kobe Steel系）的歧义，已按半导体封装基板语境裁决为新光电气工业"
+      "unresolved": "存在同名企业神钢电机（Shinko Electric Co., Ltd.，Kobe Steel系）的歧义，已按半导体封装基板语境裁决为新光电气工业",
+      "ipo_status": ""
     },
     {
       "company_id": "SHINWACONTROLS",
@@ -5001,7 +5063,8 @@
       ],
       "entity_decision": "confirmed",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "SMC",
@@ -5186,7 +5249,8 @@
       ],
       "entity_decision": "confirmed",
       "confidence": "high",
-      "unresolved": "2025-01-01集团重组后事业公司商号细节（田中貴金属工業→TANAKA Precious Metal Technologies）以日语登记名为准待复核；不影响非上市结论"
+      "unresolved": "2025-01-01集团重组后事业公司商号细节（田中貴金属工業→TANAKA Precious Metal Technologies）以日语登记名为准待复核；不影响非上市结论",
+      "ipo_status": ""
     },
     {
       "company_id": "TECHNOQUARTZ",
@@ -5206,7 +5270,8 @@
       ],
       "entity_decision": "mapped_uncertain",
       "confidence": "medium",
-      "unresolved": "“泰谷诺”为Techno Quartz杭州子公司名，推定图谱所指为日本母体Techno Quartz（已于2024-09-27退市，现为GL Techno Holdings(255A.T，东证Standard)子公司）；若原图谱另有所指需人工确认"
+      "unresolved": "“泰谷诺”为Techno Quartz杭州子公司名，推定图谱所指为日本母体Techno Quartz（已于2024-09-27退市，现为GL Techno Holdings(255A.T，东证Standard)子公司）；若原图谱另有所指需人工确认",
+      "ipo_status": ""
     },
     {
       "company_id": "TEKSCEND",
@@ -5406,7 +5471,8 @@
       ],
       "entity_decision": "合并：APIC YAMADA（原 SHINKAWA 全资子公司）已于2025年7月与 Yamaha Robotics Holdings、SHINKAWA、PFA 吸收合并为 Yamaha Robotics Co., Ltd.；两行候选均指向该存续主体，合并为一条；株式会社新川（原东证1部6274）2019年与アピックヤマダ经营整合为ヤマハロボティクスホールディングス，2020年5月25日退市成为雅马哈发动机全资子公司；2025年7月1日新川等4家法人合并为ヤマハロボティクス株式会社（Yamaha Robotics Co., Ltd.），SHINKAWA现为该公司半导体后工序设备（键合机）品牌；当前主体非上市；主会话裁决：与 E1 批 YAMAHAROBOTICS 为同一当前法人，company_id 统一为 YAMAHAROBOTICS",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "AIRLIQUIDE",
@@ -5565,7 +5631,8 @@
       ],
       "entity_decision": "非上市；Advanced Thermal Sciences Corporation（ATS，半导体温控系统 TCS，总部加州 Anaheim），现为 Collins Aerospace（柯林斯宇航）一部分，归属母公司 RTX Corporation（NYSE: RTX）；历史上曾为 B/E Aerospace 子公司，随 B/E 并入 Rockwell Collins 后归入 Collins Aerospace",
       "confidence": "high",
-      "unresolved": "通行中文名未确认"
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
     },
     {
       "company_id": "AEIS",
@@ -5671,7 +5738,8 @@
       ],
       "entity_decision": "非上市；Brooks Instrument, LLC（质量流量控制器 MFC，总部宾州 Hatfield，成立 1946 年）2012 年起为 Illinois Tool Works Inc.（伊利诺伊工具，NYSE: ITW）子公司；注意与 Brooks Automation 无任何股权关系",
       "confidence": "high",
-      "unresolved": "通行中文名未确认"
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
     },
     {
       "company_id": "BROOKS",
@@ -5690,7 +5758,8 @@
       ],
       "entity_decision": "非上市；半导体自动化业务主体 Brooks Automation（总部马萨诸塞州 Chelmsford）2022 年 2 月随交易交割归入私募股权 Thomas H. Lee Partners（交易对价约 30 亿美元）；原上市主体 Brooks Automation, Inc.（原 Nasdaq: BRKS）剥离半导体业务后更名 Azenta, Inc.（Nasdaq: AZTA，生命科学），与本实体不同；2026 年 7 月有报道称 Brooks Automation 正筹划赴美 IPO，尚未完成",
       "confidence": "high",
-      "unresolved": "筹划中的 IPO 进展需持续跟踪"
+      "unresolved": "筹划中的 IPO 进展需持续跟踪",
+      "ipo_status": ""
     },
     {
       "company_id": "CLASSONE",
@@ -5707,7 +5776,8 @@
       ],
       "entity_decision": "非上市私营公司 ClassOne Technology, Inc.（≤200mm 单晶圆电镀/湿法设备 Solstice 系列，总部蒙大拿州 Kalispell，2013 年成立）；注意与同集团翻新设备商 ClassOne Equipment（总部佐治亚州 Atlanta）区分",
       "confidence": "high",
-      "unresolved": "通行中文名未确认"
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
     },
     {
       "company_id": "COHU",
@@ -5757,7 +5827,8 @@
       ],
       "entity_decision": "非上市私营公司 CoorsTek, Inc.（半导体用技术陶瓷/石英部件，总部科罗拉多州 Golden，1920 年创立），由 Coors 家族信托 Keystone Holdings LLC 全资持有",
       "confidence": "high",
-      "unresolved": "通行中文名未确认"
+      "unresolved": "通行中文名未确认",
+      "ipo_status": ""
     },
     {
       "company_id": "CYMER",
@@ -5778,7 +5849,8 @@
       ],
       "entity_decision": "赛道主体=Cymer本体（美国加州圣迭戈，DUV准分子激光光源）；2013年被ASML（ASML.AS）收购，作为ASML旗下独立运营业务存续（ASML San Diego），自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "DUPONT",
@@ -6072,7 +6144,8 @@
       ],
       "entity_decision": "非上市；迈图（Momentive，有机硅/特种材料，总部纽约州 Niskayuna，原 Momentive Performance Materials Inc.）2024 年起为韩国 KCC Corporation（KRX: 002380）全资子公司；注意半导体石英/陶瓷业务已于 2020 年剥离为 Momentive Technologies（SJL Partners/Wonik QnC 持有），与本实体不同",
       "confidence": "medium",
-      "unresolved": "需确认原始图谱语境中 Momentive 指迈图高新材料（有机硅，KCC 旗下）还是 Momentive Technologies（石英/陶瓷，SJL/Wonik 旗下）；本行按前者（迈图 Momentive）建档"
+      "unresolved": "需确认原始图谱语境中 Momentive 指迈图高新材料（有机硅，KCC 旗下）还是 Momentive Technologies（石英/陶瓷，SJL/Wonik 旗下）；本行按前者（迈图 Momentive）建档",
+      "ipo_status": ""
     },
     {
       "company_id": "PLAB",
@@ -6122,7 +6195,8 @@
       ],
       "entity_decision": "赛道主体归属=Linde plc（LIN.US）：Praxair（普莱克斯）2018年10月与林德合并，纽交所代码PX于2018-10-30停止交易，Linde plc为存续上市主体；Praxair作为品牌/子公司存续（如Praxair Surface Technologies），保留实体记录并注明归属，listing只填自身=非上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "SILFEX",
@@ -6143,7 +6217,8 @@
       ],
       "entity_decision": "赛道主体=Silfex本体（美国俄亥俄州Eaton，硅部件/硅电极全球最大定制硅组件制造基地）；为Lam Research（LRCX.US）全资子公司（a division of Lam Research），自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "TER",
@@ -6226,7 +6301,8 @@
       ],
       "entity_decision": "赛道主体=Edwards本体（爱德华，英国Burgess Hill，半导体真空泵与尾气处理）；2014年1月被瑞典Atlas Copco（阿特拉斯·科普柯，ATCO-A.ST）以约16亿美元收购，品牌存续，自身未上市",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     },
     {
       "company_id": "ASMI",
@@ -6456,7 +6532,8 @@
       ],
       "entity_decision": "原始条目仅为'韩华(Hanwha)'，按本批半导体设备语境推断为 Hanwha Semitech Co., Ltd.（韩华半导体设备，原 Hanwha Precision Machinery，2025年2月更名）：2024年8月自 Hanwha Aerospace 分拆，现为韩华集团旗下非上市子公司；其上层新控股公司 Hanwha M&S（한화머시너리앤서비스홀딩스）于2026年8月25日在韩国交易所主板上市",
       "confidence": "medium",
-      "unresolved": "原始条目'韩华'指代主体无法完全确证（亦可能指 Hanwha Corporation 000880.KS 或 Hanwha Solutions 009830.KS 等上市主体）；按本批设备语境暂定为 Hanwha Semitech，待上游口径确认"
+      "unresolved": "原始条目'韩华'指代主体无法完全确证（亦可能指 Hanwha Corporation 000880.KS 或 Hanwha Solutions 009830.KS 等上市主体）；按本批设备语境暂定为 Hanwha Semitech，待上游口径确认",
+      "ipo_status": ""
     },
     {
       "company_id": "LAKEMATERIALS",
@@ -6532,7 +6609,8 @@
       ],
       "entity_decision": "原 SK Materials（SK머티리얼즈，原KOSPI上市036490）于2021年12月1日被控股公司 SK Inc. 吸收合并并退市；特种气体等业务分拆为 SK Inc. 旗下非上市子公司（现以 SK materials 名义存续，隶属 SK Inc. 材料板块）",
       "confidence": "high",
-      "unresolved": "通行中文名未确认；如需对应上市主体请用 SK Inc.（034730.KS）"
+      "unresolved": "通行中文名未确认；如需对应上市主体请用 SK Inc.（034730.KS）",
+      "ipo_status": ""
     },
     {
       "company_id": "SKSILTRON",
@@ -6552,7 +6630,8 @@
       ],
       "entity_decision": "确认为 SK Siltron, Inc.（SK실트론），韩国唯一硅晶圆制造商，非上市公司；原 SK Inc. 持股70.6%，2026年7月31日 SK Inc. 董事会批准以2.3万亿韩元将该持股售予 Doosan Corp.（交易尚待交割，预计2027年1月31日前完成）",
       "confidence": "high",
-      "unresolved": "通行中文名未确认；Doosan 收购交割后归属需更新"
+      "unresolved": "通行中文名未确认；Doosan 收购交割后归属需更新",
+      "ipo_status": ""
     },
     {
       "company_id": "SOULBRAIN",
@@ -6660,7 +6739,8 @@
       ],
       "entity_decision": "赛道主体=UP Chemical本体（韩国前驱体厂商，注册地韩国，原始地区\"中国/韩国\"冲突裁决为韩国）；2016年被雅克科技（002409.SZ）以约11.79亿元收购为全资子公司，自身未上市，雅克科技代码不赋给该实体",
       "confidence": "high",
-      "unresolved": ""
+      "unresolved": "",
+      "ipo_status": ""
     }
   ]
 }

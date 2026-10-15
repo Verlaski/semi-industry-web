@@ -11984,6 +11984,36 @@
       "type": "财经数据站",
       "level": "B",
       "remark": ""
+    },
+    {
+      "source_id": "SRC-LS-900",
+      "org": "Wind（同事导出）",
+      "title": "金融中台-WIND导出：全球上市公司清单（含新三板）",
+      "publish_date": "2026-10-15",
+      "data_year": "2026",
+      "metric": "上市公司名录/代码/板块",
+      "caliber": "Wind导出，28056家",
+      "region": "全球",
+      "url": "",
+      "access_date": "2026-10-15",
+      "type": "财经数据站",
+      "level": "B",
+      "remark": "用于上市库代码核对（75只A股代码0错误）与非上市公司反向排查"
+    },
+    {
+      "source_id": "SRC-LS-901",
+      "org": "投行之声",
+      "title": "A股IPO项目明细",
+      "publish_date": "2026-10-15",
+      "data_year": "2026",
+      "metric": "A股IPO在审项目及审核状态",
+      "caliber": "3618个项目，在审状态含已受理/已问询/上市委通过/提交注册/中止/中止（财报更新）",
+      "region": "中国",
+      "url": "",
+      "access_date": "2026-10-15",
+      "type": "行业机构",
+      "level": "B",
+      "remark": "据此新增 ipo_status=A股IPO在审 分类，6家实体命中"
     }
   ]
 }
