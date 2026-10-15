@@ -5,3 +5,17 @@
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# 本地凭证、依赖、构建和报告验收产物
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.local/
+.cloudbase/credentials*
+output/
+tmp/
+*.pdf
+qa_snapshots/

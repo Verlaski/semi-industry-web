@@ -1,0 +1,203 @@
+/* 纯数据层：浏览器和Node测试共用，不依赖研究草稿或DOM。 */
+(function (root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory();
+  else root.SemiDomain = factory();
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+  const regions = {中:'中国',美:'美国',日:'日本',韩:'韩国',台:'中国台湾',荷:'荷兰',德:'德国',英:'英国',法:'法国',奥:'奥地利',新:'新加坡'};
+  const norm = s => String(s || '').normalize('NFKC').toUpperCase().replace(/[^\p{L}\p{N}&/-]/gu, '');
+  function topSplit(text, separators) {
+    const out = []; let depth = 0, begin = 0;
+    for (let i=0;i<text.length;i++) {
+      const c=text[i];
+      if ('(（'.includes(c)) depth++;
+      else if (')）'.includes(c)) depth--;
+      else if (!depth && separators.includes(c)) {out.push(text.slice(begin, i).trim()); begin = i+1;}
+    }
+    out.push(text.slice(begin).trim()); return out.filter(Boolean);
+  }
+  function pieces(text) {
+    const description = topSplit(text, ':：').length > 1;
+    return topSplit(text, ';；').flatMap((clause, i) => {
+      const parts = topSplit(clause, ':：');
+      return i && description && parts.length === 1 ? [] : topSplit(parts[0], '、·');
+    });
+  }
+  function parseName(raw, country) {
+    const notes = [], countries = (country || '').split('/').filter(Boolean).map(c => regions[c] || c);
+    const hints = [];
+    const cleaned = raw.replace(/[（(]([^（）()]*)[）)]/g, (_, inner) => {
+      const parts = inner.split(/[，,]/), first = parts[0];
+      if (regions[first] || ['中国','日本','美国','韩国','中国台湾','新加坡','荷兰','德国','奥地利'].includes(first)) {
+        countries.push(regions[first] || first); if (parts[1]) notes.push(parts.slice(1).join('，'));
+      } else {
+        const code = inner.match(/(?:[A-Z]\d{5,6}|\b\d{5,6}(?:\.[A-Z]+)?\b)/g);
+        if (code) hints.push(...code);
+        notes.push(inner);
+      }
+      return ' ';
+    }).replace(/\s+/g, ' ').trim();
+    let cn = '', en = '';
+    const combo = /[/／]/.test(cleaned);
+    const cjk = /[\u3400-\u9fff]/.exec(cleaned);
+    if (combo) {if (cjk) cn = cleaned; else en = cleaned;}
+    else if (!cjk) en = cleaned;
+    else {
+      const cnFirst = /^(.+?[\u3400-\u9fff][^\s]*)\s+([A-Za-z].*)$/.exec(cleaned);
+      if (cnFirst && !/[\u3400-\u9fff]/.test(cnFirst[2])) {cn = cnFirst[1]; en = cnFirst[2];}
+      else if (cjk.index) {en = cleaned.slice(0,cjk.index).trim(); cn = cleaned.slice(cjk.index).trim();}
+      else cn = cleaned;
+    }
+    return {cn,en,cleaned,combo,notes,ticker_hints:[...new Set(hints)],countries:[...new Set(countries)]};
+  }
+  function leaderRows(data) {
+    const rows = [];
+    ['equipment','materials'].forEach(dataset => {
+      (data[dataset].tracks || []).forEach(track => {
+        [{obj:track,sub:''}, ...(track.subs || []).map(obj => ({obj,sub:obj.name}))].forEach(({obj,sub}) => {
+          ['global','china'].forEach(role => (obj[role+'_leaders'] || []).forEach((leader, index) => {
+            const raw = typeof leader === 'string' ? {name:leader} : leader;
+            if (raw.company_id && !raw.name) {
+              rows.push({dataset,track_id:track.id,track_name:track.name,sub_name:sub,role,index,raw_name:'',...raw}); return;
+            }
+            pieces(raw.name || '').forEach((name, piece) => rows.push({dataset,track_id:track.id,track_name:track.name,
+              sub_name:sub,role,index,piece,raw_name:name,...raw,parsed:parseName(name,raw.country)}));
+          }));
+        });
+      });
+    });
+    return rows;
+  }
+  class CompanyRepository {
+    constructor(data, official) {
+      this.data = data; this.rows = leaderRows(data); this.mode = official ? 'official' : 'compatibility';
+      this.companies = []; this.rowMap = new Map(); this.byKey = new Map();
+      if (official) this.fromOfficial(official); else this.fromLeaders();
+    }
+    static async load(data, fetcher) {
+      const version=typeof window!=='undefined' && window.SEMI_CONFIG ? window.SEMI_CONFIG.dataVersion || 'local' : 'local';
+      const response = await (fetcher || fetch)('data/companies.json?v='+encodeURIComponent(version),{cache:'no-store'});
+      if (response.status === 404) return new CompanyRepository(data, null);
+      if (!response.ok) throw new Error('正式公司数据暂不可用，请稍后再试');
+      return new CompanyRepository(data, await response.json());
+    }
+    fromOfficial(official) {
+      const list = Array.isArray(official) ? official : official.companies;
+      if (!Array.isArray(list)) throw new Error('正式公司数据格式需要维护人员检查');
+      list.forEach(c => {
+        if (!c.company_id || this.byKey.has(c.company_id)) throw new Error('正式公司编号缺失或重复');
+        const vm = {runtime_key:c.company_id, name:c.name_cn || c.name_en || c.short_name || c.company_id,
+          name_cn:c.name_cn || '',name_en:c.name_en || '',country_region:c.country_region || '',
+          listing_status:['上市','非上市'].includes(c.listing_status) ? c.listing_status : '',
+          listings:Array.isArray(c.listings) ? c.listings : [],aliases:c.aliases || [],ticker_hints:[],
+          occurrences:[],combo:false,verified_master:true};
+        this.companies.push(vm); this.byKey.set(vm.runtime_key,vm);
+      });
+      this.rows.forEach(row => {
+        let c = this.byKey.get(row.company_id);
+        if (!c && row.parsed) {
+          const p = row.parsed;
+          const matches = this.companies.filter(x => [x.name_cn,x.name_en,...x.aliases].filter(Boolean).some(n => [p.cn,p.en,p.cleaned].filter(Boolean).some(v => norm(n) === norm(v))));
+          if (matches.length === 1) c = matches[0];
+        }
+        if (c) this.attach(c,row);
+      });
+    }
+    fromLeaders() {
+      const groups = [], aliasMap = new Map();
+      this.rows.forEach(row => {
+        const p = row.parsed; if (!p || !p.cleaned) return;
+        const tokens = p.combo ? ['full:'+norm(p.cleaned)] : [p.cn && 'cn:'+norm(p.cn),p.en && 'en:'+norm(p.en)].filter(Boolean);
+        const matches = [...new Set(tokens.map(t => aliasMap.get(t)).filter(Boolean))];
+        let c = matches[0];
+        if (!c) {c = {name_cn:p.cn,name_en:p.en,aliases:[],ticker_hints:[],countries:[],occurrences:[],combo:p.combo,listing_status:'',listings:[],verified_master:false};groups.push(c);}
+        matches.slice(1).forEach(other => {
+          other.occurrences.forEach(o => this.attach(c,o));
+          c.aliases.push(...other.aliases); c.ticker_hints.push(...other.ticker_hints);c.countries.push(...other.countries);
+          if (!c.name_cn) c.name_cn=other.name_cn;if(!c.name_en)c.name_en=other.name_en;
+          for (const [token,target] of aliasMap) if (target===other) aliasMap.set(token,c);
+          groups.splice(groups.indexOf(other),1);
+        });
+        if (!c.name_cn) c.name_cn=p.cn;if (!c.name_en)c.name_en=p.en;
+        c.aliases.push(p.cn,p.en,p.cleaned,row.raw_name);c.ticker_hints.push(...p.ticker_hints);c.countries.push(...p.countries);
+        this.attach(c,row);tokens.forEach(t => aliasMap.set(t,c));
+      });
+      groups.forEach(c => {
+        c.aliases=[...new Set(c.aliases.filter(Boolean))];c.ticker_hints=[...new Set(c.ticker_hints)];
+        c.country_region=[...new Set(c.countries)].join('/');
+        c.name=c.name_cn || c.name_en;c.runtime_key='legacy:'+norm(c.name_en || c.name_cn);
+        if (this.byKey.has(c.runtime_key)) c.runtime_key += ':'+groups.indexOf(c);
+        this.byKey.set(c.runtime_key,c);this.companies.push(c);
+      });
+    }
+    attach(c,row) {c.occurrences.push(row);this.rowMap.set(row,c);}
+    find(key) {return this.byKey.get(key);}
+    forLeader(leader, trackId) {
+      const row = this.rows.find(r => (!trackId || r.track_id===trackId) && (leader.company_id ? r.company_id===leader.company_id : r.name===leader.name));
+      return row ? this.rowMap.get(row) : null;
+    }
+    filter(filters, discovery) {
+      return this.companies.filter(c => {
+        if (discovery && (c.combo || !c.occurrences.length)) return false;
+        const text=[c.name,c.name_en,...c.aliases,...c.ticker_hints,...c.listings.map(l=>l.ticker)].join(' ').toLowerCase();
+        if (filters.search && !text.includes(filters.search.toLowerCase())) return false;
+        if (filters.status && c.listing_status!==filters.status) return false;
+        if (filters.market && !c.listings.some(l=>marketGroup(l.market)===filters.market)) return false;
+        if (filters.track && !c.occurrences.some(o=>o.track_id===filters.track)) return false;
+        const domestic = c.country_region==='中国' || (!c.country_region && c.occurrences.some(o=>o.role==='china'));
+        const overseas = c.country_region && !c.country_region.includes('中国') && !c.country_region.includes('/');
+        if (filters.region==='domestic' && !domestic) return false;
+        if (filters.region==='overseas' && !overseas && !['中国台湾','中国香港'].includes(c.country_region)) return false;
+        return true;
+      });
+    }
+  }
+  function marketGroup(market) {return ['A股','港股','美股'].includes(market) ? market : '其他海外';}
+  function primaryListing(c) {return c.listings.find(l=>l.primary===true) || c.listings[0];}
+  function recommendation(c,track) {
+    const occurrence = c.occurrences.find(o=>!track || o.track_id===track) || c.occurrences[0];
+    if (!occurrence) return '该公司为本图谱已收录的核心企业之一。';
+    let reason=(occurrence.role==='china'?'中国':'全球')+'龙头名单收录企业，涉及'+occurrence.track_name+'。';
+    if (c.listing_status==='上市') reason+='已上市，可持续跟踪公开披露。';
+    else if (c.listing_status==='非上市') reason+='未上市，可持续观察IPO及资本运作进展。';
+    return reason;
+  }
+  function draw(pool,count,random) {
+    if (!Number.isInteger(count) || count<1) throw new Error('抽取数量无效');
+    const unique=[...new Map(pool.map(c=>[c.runtime_key,c])).values()];
+    if(unique.length<count)throw new Error('符合条件的企业只有'+unique.length+'家，请放宽筛选条件或选择单抽。');
+    const copy=unique.slice();const rng=random || Math.random;
+    for(let i=copy.length-1;i>0;i--){const n=rng();if(!Number.isFinite(n)||n<0||n>=1)throw new Error('随机源异常');const j=Math.floor(n*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}
+    return copy.slice(0,count);
+  }
+  function csvCell(value) {
+    let s=String(value==null?'':value);
+    if (/^[\s]*[=+@-]/.test(s)) s="'"+s;
+    return '"'+s.replace(/"/g,'""')+'"';
+  }
+  function csvText(rows) {return '\ufeff'+rows.map(row=>row.map(csvCell).join(',')).join('\r\n');}
+  function csvTables(data,kind,repo) {
+    if(kind==='sources') {
+      const keys=['source_id','org','title','publish_date','data_year','metric','caliber','region','url','access_date','type','level','remark'];
+      return [{name:'sources.csv',rows:[keys,...data.sources.sources.map(s=>keys.map(k=>s[k] || ''))]}];
+    }
+    if(kind==='companies') {
+      if(repo.mode!=='official')throw new Error('正式公司数据库尚未接入，当前无已核验公司主表可导出。');
+      return [
+        {name:'companies.csv',rows:[['company_id','name_cn','name_en','country_region','listing_status'],...repo.companies.map(c=>[c.runtime_key,c.name_cn,c.name_en,c.country_region,c.listing_status])]},
+        {name:'company_listings.csv',rows:[['company_id','listing_id','market','exchange','ticker','primary'],...repo.companies.flatMap(c=>c.listings.map(l=>[c.runtime_key,l.listing_id,l.market,l.exchange,l.ticker,l.primary]))]},
+        {name:'track_company_relations.csv',rows:[['company_id','dataset','track_id','sub_name','role','share','source_id'],...repo.companies.flatMap(c=>c.occurrences.map(o=>[c.runtime_key,o.dataset,o.track_id,o.sub_name,o.role,o.share,o.source_id]))]}
+      ];
+    }
+    const tracks=data[kind].tracks;
+    const trackKeys=['track_id','name','group','chain_position','sub_name','sub_note','market_value','market_unit','market_year','market_scope','market_source_id','localization_stage','localization_scope','localization_evidence','localization_source_id','note'];
+    const trackRows=tracks.flatMap(t=>[{name:'',note:''},...(t.subs || [])].map(sub=>{
+      const m=t.market_size || {},l=t.localization || {};
+      return [t.id,t.name,t.group,t.chain_position,sub.name,sub.note,m.value,m.unit,m.year,m.scope,m.source_id,l.stage,l.scope,l.evidence,l.source_id,t.note];
+    }));
+    const leaders=leaderRows(data).filter(r=>r.dataset===kind).map(r=>[r.track_id,r.track_name,r.sub_name,r.role,r.parsed ? r.parsed.cleaned : '',r.raw_name,r.parsed ? r.parsed.countries.join('/') : r.country || '',r.share || '',r.products || '',r.tag || '',r.source_id || '',r.company_id || '',r.name || '',r.parsed ? r.parsed.ticker_hints.join(';') : '']);
+    return [{name:kind+'_tracks.csv',rows:[trackKeys,...trackRows]},
+      {name:kind+'_leaders.csv',rows:[['track_id','track_name','sub_name','role','name','raw_name','country','share','products','tag','source_id','company_id','source_text','ticker_hints'],...leaders]}];
+  }
+  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables};
+});

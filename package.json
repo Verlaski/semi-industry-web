@@ -1,0 +1,9 @@
+{
+  "name": "semi-industry-web",
+  "version": "1.1.0",
+  "private": true,
+  "description": "原生图谱前端与CloudBase事件服务",
+  "scripts": {"test": "node --test tests/*.test.js"},
+  "dependencies": {"@cloudbase/node-sdk": "^3.16.0"},
+  "engines": {"node": ">=18.15"}
+}

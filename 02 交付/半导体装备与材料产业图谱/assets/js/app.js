@@ -3,11 +3,12 @@
 (function () {
   'use strict';
 
-  var ROUTES = ['overview', 'equipment', 'materials', 'landscape', 'sources'];
+  var ROUTES = ['overview', 'equipment', 'materials', 'landscape', 'sources', 'companies', 'discovery'];
   var STAGE_CLASS = {
     '依赖进口': 's1', '验证导入': 's2', '份额提升': 's3', '批量替代': 's4', '国际领先': 's5'
   };
   var DATA = { meta: null, equipment: null, materials: null, sources: null };
+  var REPO;
   var SRC_INDEX = {};   // source_id -> 序号（从 1 开始）
   var SRC_MAP = {};     // source_id -> 条目
 
@@ -16,6 +17,9 @@
     if (s === null || s === undefined) return '';
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function safeSourceUrl(url) {
+    try {var parsed=new URL(url);return ['https:','http:'].indexOf(parsed.protocol)>=0 ? parsed.href : '';} catch (error) {return '';}
   }
   function el(tag, cls, html) {
     var e = document.createElement(tag);
@@ -33,7 +37,7 @@
     var n = SRC_INDEX[id];
     var s = SRC_MAP[id];
     var tip = (s.org || '') + '《' + (s.title || '') + '》' + (s.data_year || s.publish_date || '') + ' · 证据' + (s.level || '?') + '级';
-    return '<sup class="src" data-src="' + esc(id) + '" title="' + esc(tip) + '">[' + n + ']</sup>';
+    return '<sup class="src" role="link" tabindex="0" data-src="' + esc(id) + '" title="' + esc(tip) + '">[' + n + ']</sup>';
   }
   function srcRefs(ids) {
     if (!ids) return '';
@@ -41,7 +45,7 @@
     return ids.map(srcRef).join('');
   }
   function leaderLine(l, withProducts) {
-    var s = '<span class="g"><span class="nm">' + esc(l.name) + '</span>';
+    var s = '<span class="g"><span class="nm">' + companyName(l) + '</span>';
     if (l.country) s += '<span class="ct">(' + esc(l.country) + ')</span>';
     if (l.share) s += '<span class="sh">' + esc(l.share) + '</span>';
     s += srcRef(l.source_id);
@@ -49,19 +53,28 @@
     else if (withProducts && l.tag) s += '<span class="tg">' + esc(l.tag) + '</span>';
     return s + '</span>';
   }
-  function leaderNames(list, max) {
-    if (!list || !list.length) return '';
-    var out = list.slice(0, max || 3).map(function (l) {
-      return esc(l.name) + (l.country ? '(' + esc(l.country) + ')' : '');
-    });
-    return out.join(' · ') + (list.length > (max || 3) ? ' 等' : '');
+  function companyName(leader) {
+    var company = REPO && REPO.forLeader(leader);
+    return company ? SemiProduct.companyButton(company, leader.name || company.name) + ' ' + SemiProduct.badge(company) : esc(leader.name || leader.company_id || '待补充');
+  }
+  function subLeaderNames(trackId, subName, role) {
+    var rows=REPO.rows.filter(function (row) {return row.track_id===trackId && row.sub_name===subName && row.role===role;});
+    var names=rows.map(function (row) {
+      var company=REPO.rowMap.get(row);
+      return company ? SemiProduct.companyButton(company) : esc(row.raw_name || row.company_id || '待补充');
+    }).join(' · ');
+    var originals=Array.from(new Set(rows.map(function (row) {return row.name || '';}).filter(function (text) {return /[:：]/.test(text);}))).map(esc);
+    return names+(originals.length ? '<small class="sub-leader-original">'+originals.join('<br>')+'</small>' : '');
+  }
+  function leaderNames(list) {
+    return (list || []).map(function (leader) {return '<span class="compact-leader">' + companyName(leader) + '</span>';}).join('');
   }
 
   /* ---------- 数据加载 ---------- */
   function loadAll() {
     var files = ['meta', 'equipment', 'materials', 'sources'];
     return Promise.all(files.map(function (k) {
-      return fetch('data/' + k + '.json').then(function (r) {
+      return fetch('data/' + k + '.json?v=' + encodeURIComponent((window.SEMI_CONFIG || {}).dataVersion || 'local'), {cache:'no-store'}).then(function (r) {
         if (!r.ok) throw new Error(k + '.json HTTP ' + r.status);
         return r.json();
       }).then(function (j) { DATA[k] = j; });
@@ -176,8 +189,8 @@
         t.subs.map(function (s) {
           var line = '<b>' + esc(s.name) + '</b>';
           var parts = [];
-          if (s.global_leaders && s.global_leaders.length) parts.push('全球：' + esc(s.global_leaders.join(' · ')));
-          if (s.china_leaders && s.china_leaders.length) parts.push('国内：' + esc(s.china_leaders.join(' · ')));
+          if (s.global_leaders && s.global_leaders.length) parts.push('全球：' + subLeaderNames(t.id, s.name, 'global'));
+          if (s.china_leaders && s.china_leaders.length) parts.push('国内：' + subLeaderNames(t.id, s.name, 'china'));
           if (parts.length) line += ' — ' + parts.join('；');
           if (s.note) line += ' <span style="color:var(--faint)">（' + esc(s.note) + '）</span>';
           return '<li>' + line + '</li>';
@@ -203,10 +216,10 @@
     if (t.note) detail += '<div class="tc-kv"><span class="k">注</span><span style="color:var(--muted)">' + esc(t.note) + '</span></div>';
 
     return '<div class="track-card" id="card-' + esc(t.id) + '" data-track="' + esc(t.id) + '">' +
-      '<div class="tc-head"><span class="tc-name">' + esc(t.name) + '</span>' + stageBadge(stage) + '</div>' +
+      '<div class="tc-head"><button class="track-open tc-name" data-track-open="' + esc(t.id) + '">' + esc(t.name) + '</button>' + stageBadge(stage) + '</div>' +
       '<div class="tc-leaders">' +
-        (g.length ? '<span class="lbl">全球</span>' + esc(leaderNames(g, 3)) + '<br>' : '') +
-        (c.length ? '<span class="lbl">国内</span>' + esc(leaderNames(c, 3)) : '<span class="lbl">国内</span><span style="color:var(--faint)">暂无头部厂商</span>') +
+        (g.length ? '<span class="lbl">全球</span>' + leaderNames(g) + '<br>' : '') +
+        (c.length ? '<span class="lbl">国内</span>' + leaderNames(c) : '<span class="lbl">国内</span><span style="color:var(--faint)">暂无头部厂商</span>') +
       '</div>' +
       '<div class="tc-detail">' + detail + '</div></div>';
   }
@@ -423,7 +436,7 @@
           '<td>' + esc(s.metric || '') + '</td><td>' + esc(s.caliber || '') + '</td>' +
           '<td>' + esc(s.region || '') + '</td><td>' + esc(s.type || '') + '</td>' +
           '<td><span class="level ' + esc(s.level || 'D') + '">' + esc(s.level || '?') + '</span></td>' +
-          '<td>' + (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">链接</a>' : '—') + '</td>' +
+          '<td>' + (safeSourceUrl(s.url) ? '<a href="' + esc(safeSourceUrl(s.url)) + '" target="_blank" rel="noopener">链接</a>' : '—') + '</td>' +
           '<td style="max-width:280px">' + esc(s.remark || '') + '</td></tr>';
       }).join('') + '</tbody></table></div>';
 
@@ -440,9 +453,10 @@
   /* ---------- 交互 ---------- */
   function bindInteractions() {
     document.getElementById('app').addEventListener('click', function (e) {
+      if (e.target.closest('[data-company]')) return;
       var card = e.target.closest('.track-card[data-track]');
       if (card && !e.target.closest('a') && !e.target.closest('sup.src')) {
-        card.classList.toggle('open');
+        SemiProduct.openTrack(card.getAttribute('data-track'));
         return;
       }
       var ref = e.target.closest('sup.src');
@@ -476,35 +490,7 @@
     });
   }
 
-  function exportCSV(kind) {
-    var data = kind === 'equipment' ? DATA.equipment : DATA.materials;
-    var rows = [['环节', '分组', '赛道', '二级细分', '全球龙头(名称/国别/份额)', '国内龙头(名称/份额)', '市场规模', '国产化阶段', '适用范围', '依据']];
-    (data.tracks || []).forEach(function (t) {
-      var g = (t.global_leaders || []).map(function (l) {
-        return l.name + (l.country ? '(' + l.country + ')' : '') + (l.share ? ' ' + l.share : '');
-      }).join('；');
-      var c = (t.china_leaders || []).map(function (l) {
-        return l.name + (l.share ? ' ' + l.share : '');
-      }).join('；') || '国内暂无头部厂商';
-      var loc = t.localization || {};
-      rows.push([t.chain_position || '', t.group || '', t.name,
-        (t.subs || []).map(function (s) { return s.name; }).join('、'),
-        g, c,
-        t.market_size ? (t.market_size.value + t.market_size.unit + '（' + t.market_size.year + '）') : '',
-        loc.stage || '', loc.scope || '', loc.evidence || '']);
-    });
-    var csv = '﻿' + rows.map(function (r) {
-      return r.map(function (cell) {
-        return '"' + String(cell).replace(/"/g, '""') + '"';
-      }).join(',');
-    }).join('\r\n');
-    var blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
-    var a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = (kind === 'equipment' ? '半导体装备' : '半导体材料') + '_赛道龙头总览表.csv';
-    a.click();
-    URL.revokeObjectURL(a.href);
-  }
+  function exportCSV(kind) { SemiProduct.exportCSV(kind); }
 
   /* ---------- 路由 ---------- */
   function showView(route, trackId) {
@@ -519,7 +505,7 @@
       setTimeout(function () {
         var card = document.getElementById('card-' + trackId);
         if (card) {
-          card.classList.add('open');
+          SemiProduct.openTrack(trackId);
           card.scrollIntoView({ block: 'center' });
         }
         var row = document.getElementById('row-' + trackId);
@@ -546,16 +532,23 @@
 
   /* ---------- 启动 ---------- */
   loadAll().then(function () {
+    return SemiDomain.CompanyRepository.load(DATA).then(function (repository) {REPO=repository;});
+  }).then(function () {
     buildSourceIndex();
+    SemiProduct.configure({DATA:DATA,REPO:REPO,esc:esc,srcRef:srcRef,stageBadge:stageBadge});
     renderChrome();
     renderOverview();
     renderIndustry('view-equipment', DATA.equipment, 'equipment');
     renderIndustry('view-materials', DATA.materials, 'materials');
     renderLandscape();
     renderSources();
+    SemiProduct.init({DATA:DATA,REPO:REPO,esc:esc,srcRef:srcRef,stageBadge:stageBadge});
     document.getElementById('loading').style.display = 'none';
     bindInteractions();
     window.addEventListener('hashchange', route);
     route();
+  }).catch(function () {
+    var loading=document.getElementById('loading');
+    loading.style.display='block';loading.textContent='图谱数据暂时无法加载，请刷新后重试。';
   });
 })();

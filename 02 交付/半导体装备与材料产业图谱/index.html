@@ -25,7 +25,9 @@
     <a href="#/overview"  data-route="overview">产业链总图</a>
     <a href="#/equipment" data-route="equipment">半导体装备图谱</a>
     <a href="#/materials" data-route="materials">半导体材料图谱</a>
+    <a href="#/companies" data-route="companies">龙头公司库</a>
     <a href="#/landscape" data-route="landscape">竞争格局与国产化</a>
+    <a href="#/discovery" data-route="discovery">🎴 机会抽卡</a>
     <a href="#/sources"   data-route="sources">数据来源与版本</a>
   </div>
 </nav>
@@ -36,6 +38,8 @@
   <section class="view" id="view-equipment"></section>
   <section class="view" id="view-materials"></section>
   <section class="view" id="view-landscape"></section>
+  <section class="view" id="view-companies"></section>
+  <section class="view" id="view-discovery"></section>
   <section class="view" id="view-sources"></section>
 </main>
 
@@ -43,6 +47,17 @@
   <div class="footer-inner" id="footer-inner"><!-- JS 填充 --></div>
 </footer>
 
+<div id="drawer-layer" class="drawer-layer" hidden>
+  <div class="drawer-backdrop" data-close-drawer></div>
+  <aside id="detail-drawer" class="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" tabindex="-1">
+    <div class="drawer-top"><button class="btn" id="drawer-back" hidden>返回赛道</button><button class="drawer-close" data-close-drawer aria-label="关闭详情">×</button></div>
+    <div id="drawer-body"></div>
+  </aside>
+</div>
+<div id="product-status" role="status" aria-live="polite" class="product-status" hidden></div>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/domain.js"></script>
+<script src="assets/js/product.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>
