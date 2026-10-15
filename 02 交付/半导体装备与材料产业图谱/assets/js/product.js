@@ -113,7 +113,7 @@
     if(c.ticker_hints.length)notes+='<p class="quiet-note">原始代码线索：'+esc(c.ticker_hints.join('、'))+'（未作证券代码确认）</p>';
     if(notes)html+=drawerSection('数据说明',notes);
     if(c.ipo_status==='A股IPO在审')html+=drawerSection('IPO进展','<p class="ipo-banner">A股IPO在审：'+esc(c.ipo_detail || '')+'</p>');
-    if(listing)html+=drawerSection('上市与行情','<p>交易所：'+esc(listing.exchange || '待补充')+'</p><div data-company-quote="'+esc(listing.ticker || '')+'"></div>');
+    if(listing)html+=drawerSection(config().offline?'上市信息':'上市与行情','<p>交易所：'+esc(listing.exchange || '待补充')+'</p>'+(config().offline?'':'<div data-company-quote="'+esc(listing.ticker || '')+'"></div>'));
     html+='<section class="drawer-section"><h3 class="drawer-section-title">产业关系</h3>';
     const seen=new Set();
     c.occurrences.forEach(o=>{
@@ -164,13 +164,14 @@
       '<div class="page-actions">'+(repo.mode==='official'?['companies','company_listings','track_company_relations'].map((name,i)=>'<button class="btn" data-export="companies" data-export-table="'+name+'.csv">下载'+['公司','上市信息','赛道关系'][i]+' CSV</button>').join(''):'<button class="btn" data-export="companies">下载公司 CSV</button>')+'</div>'+filterControls('companies',true)+
       '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。表内行情覆盖注册表内全部 A股/港股/美股证券（listing_id 与正式公司主表关联），其余市场记录显示—；每小时同步，红涨绿跌，市值按原币种以亿元列示。顶部更新时间是行情缓存获取时间，单元格提示保留行情时间与状态。</p><p id="company-quote-updated" class="quote-updated" role="status">最近更新时间：正在读取…</p><div id="company-results"></div>';
     view.querySelectorAll('#companies-filters input,#companies-filters select').forEach(el=>el.addEventListener('input',renderCompanyRows));
+    if(config().offline){view.querySelector('#company-quote-updated').remove();view.querySelector('[data-footer-note]').textContent='地域按已收录国别分组。离线版本仅展示公司、上市信息和赛道关系，不含行情数据。';}
     renderCompanyRows();loadQuotes();
   }
   function renderCompanyRows() {
     const list=repo.filter(values('companies'));
     document.getElementById('company-results').innerHTML='<p class="result-count">'+list.length+' 个公司记录</p>'+(list.length?
-      '<div class="table-wrap" tabindex="0" role="region" aria-label="公司表，可在表内滚动查看，表头固定"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th><th>最新价</th><th>涨跌额</th><th>涨跌幅</th><th>总市值</th><th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
-        '<tr><td>'+companyButton(c)+'<small class="english-name">'+esc(c.name_en || '')+(c.combo?' · 组合待拆分':'')+'</small></td><td>'+badge(c)+'</td><td>'+esc(c.country_region || '待补充')+'</td>'+['price','change','pct','cap'].map(field=>'<td class="quote-cell" data-quote-symbol="'+esc(D.quoteSymbol(c))+'" data-quote-field="'+field+'">—</td>').join('')+'<td>'+[...new Map(c.occurrences.map(o=>[o.track_id,o])).values()].map(o=>'<button class="relation-track" data-open-track="'+esc(o.track_id)+'">'+esc(o.track_name)+'</button>').join(' · ')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty-state">暂无符合条件的记录。未核验上市身份的公司不会被归为“未上市”，可调整筛选条件。</div>');
+      '<div class="table-wrap" tabindex="0" role="region" aria-label="公司表，可在表内滚动查看，表头固定"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th>'+(config().offline?'':'<th>最新价</th><th>涨跌额</th><th>涨跌幅</th><th>总市值</th>')+'<th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
+        '<tr><td>'+companyButton(c)+'<small class="english-name">'+esc(c.name_en || '')+(c.combo?' · 组合待拆分':'')+'</small></td><td>'+badge(c)+'</td><td>'+esc(c.country_region || '待补充')+'</td>'+(config().offline?'':['price','change','pct','cap'].map(field=>'<td class="quote-cell" data-quote-symbol="'+esc(D.quoteSymbol(c))+'" data-quote-field="'+field+'">—</td>').join(''))+'<td>'+[...new Map(c.occurrences.map(o=>[o.track_id,o])).values()].map(o=>'<button class="relation-track" data-open-track="'+esc(o.track_id)+'">'+esc(o.track_name)+'</button>').join(' · ')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty-state">暂无符合条件的记录。未核验上市身份的公司不会被归为“未上市”，可调整筛选条件。</div>');
     updateQuoteCells();
   }
   function updateQuoteCells(){
@@ -276,6 +277,7 @@
     const field=panel.querySelector('textarea');field.focus();field.select();notify('清单已展开，可复制或下载。');
   }
   async function request(path,options) {
+    if(config().offline)throw new Error('离线版本不连接在线服务。');
     if(!config().apiBase)throw new Error('在线服务尚未配置，请使用已发布的网站。');
     const r=await fetch(config().apiBase+path,{...options,signal:AbortSignal.timeout(65000)});
     const body=await r.json();if(!r.ok)throw new Error(body.message || '服务暂时繁忙，请稍后再试。');return body;
@@ -286,6 +288,7 @@
     return '<div class="quote-card"><div class="quote-label">'+esc(q.name || q.symbol)+' <span class="ticker">'+esc(q.symbol)+'</span></div><div class="quote-price">'+(valid?esc(q.price.toFixed(2)):'—')+' <small>'+esc(q.currency || '')+'</small></div><div class="quote-change">'+(valid && typeof q.change_pct==='number'?esc((q.change_pct>0?'+':'')+q.change_pct.toFixed(2))+'%':'')+' · '+esc(quoteStatus[q.status] || '待确认')+'</div><div class="quote-time">行情时间 '+esc(D.formatQuoteTime(q.quote_time))+'<br>获取时间 '+esc(D.formatQuoteTime(q.fetched_at))+'<br>来源 '+esc(q.provider || '待补充')+(typeof q.market_cap==='number'?'<br>总市值 '+esc(q.market_cap.toLocaleString('zh-CN'))+' '+esc(q.currency):'')+'</div></div>';
   }
   async function loadQuotes(symbol) {
+    if(config().offline)return;
     const panel=symbol?document.querySelector('[data-company-quote]'):null;if(symbol&&!panel)return;
     try {const response=await request('/api/quotes'+(symbol?'?symbols='+encodeURIComponent(symbol):''));
       if(panel?.isConnected)panel.innerHTML=response.quotes.map(quoteMarkup).join('');
@@ -318,8 +321,9 @@
   function addActions() {
     ['overview','equipment','materials','landscape','sources'].forEach(kind=>{
       const section=document.getElementById('view-'+kind);const bar=document.createElement('div');bar.className='page-actions';
-      bar.innerHTML=(kind!=='sources'?'<button class="btn" data-report="'+kind+'">下载 PDF</button>':'<button class="btn" data-export="sources">下载来源 CSV</button>')+
+      bar.innerHTML=(kind==='sources'?'<button class="btn" data-export="sources">下载来源 CSV</button>':config().offline?'':'<button class="btn" data-report="'+kind+'">下载 PDF</button>')+
         (['equipment','materials'].includes(kind)?'<button class="btn" data-export="'+kind+'" data-export-table="'+kind+'_tracks.csv">下载赛道 CSV</button><button class="btn" data-export="'+kind+'" data-export-table="'+kind+'_leaders.csv">下载龙头 CSV</button>':'');
+      if(!bar.innerHTML)return;
       const heading=section.querySelector('.section-desc') || section.firstElementChild;heading.after(bar);
       if(['equipment','materials'].includes(kind)){const key=document.createElement('div');key.innerHTML=legend();bar.after(key);}
     });
@@ -448,7 +452,7 @@
       }
     });
     window.addEventListener('hashchange',closeDrawer);
-    setInterval(()=>{if(document.getElementById('view-companies').classList.contains('active'))loadQuotes();},3600000);
+    if(!config().offline)setInterval(()=>{if(document.getElementById('view-companies').classList.contains('active'))loadQuotes();},3600000);
   }
   function configure(context) {
     data=context.DATA;repo=context.REPO;esc=context.esc;src=context.srcRef;stage=context.stageBadge;
@@ -456,6 +460,16 @@
   }
   function init(context) {
     configure(context);
+    if(config().offline){document.documentElement.classList.add('offline-mode');document.getElementById('header-meta').insertAdjacentHTML('beforeend','<span class="offline-edition">离线版本</span>');}
+    const save=document.getElementById('offline-save');
+    if(save){
+      save.title='离线包准备中';
+      if(config().offlineDownload){
+        try{const url=new URL(config().offlineDownload);if(url.protocol!=='https:')throw new Error('下载地址必须使用 HTTPS');
+          save.href=url.href;save.removeAttribute('aria-disabled');save.title='下载离线网页压缩包（不含行情）';save.setAttribute('download','');
+        }catch(error){console.warn('离线包地址配置无效');}
+      }
+    }
     renderCompanies();renderDiscovery();addActions();refineLayout();bind();
   }
   window.SemiProduct={configure,init,openTrack,openCompany,openSource,closeDrawer,companyButton,badge,exportCSV};

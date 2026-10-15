@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import hashlib
 import shutil
+from urllib.parse import urlparse
 from reporting.data_provider import ReportDataProvider
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +32,15 @@ def build(environment):
         raise ValueError("站点数据目录含未批准的文件")
     revision = {"data_version": ReportDataProvider(SITE / "data").snapshot()["data_version"]}
     config = {"version": "1.1.0", "apiBase": environment["api_base"], "dataVersion": revision["data_version"]}
+    # Only add the reviewed COS URL after the package has actually been uploaded.
+    release_path = ROOT / "config" / "offline-release.json"
+    if release_path.exists():
+        release = json.loads(release_path.read_text(encoding="utf-8"))
+        url = release["url"]
+        parsed = urlparse(url)
+        if parsed.scheme != "https" or not parsed.hostname or parsed.username or parsed.password or parsed.query or parsed.fragment:
+            raise ValueError("离线包应使用无签名参数的 COS HTTPS 公共读地址")
+        config["offlineDownload"] = url
     text = "window.SEMI_CONFIG=" + json.dumps(config, ensure_ascii=False) + ";\n"
     (static / "assets/js/config.js").write_text(text, encoding="utf-8")
     # 此文件为公开配置，不包含环境凭证。

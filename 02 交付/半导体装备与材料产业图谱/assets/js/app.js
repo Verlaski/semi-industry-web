@@ -9,6 +9,7 @@
   };
   var DATA = { meta: null, equipment: null, materials: null, sources: null };
   var REPO;
+  var OFFLINE_MASTER;
   var SRC_INDEX = {};   // source_id -> 序号（从 1 开始）
   var SRC_MAP = {};     // source_id -> 条目
 
@@ -70,6 +71,12 @@
   /* ---------- 数据加载 ---------- */
   function loadAll() {
     var files = ['meta', 'equipment', 'materials', 'sources'];
+    if ((window.SEMI_CONFIG || {}).offline) return Promise.resolve().then(function () {
+      var bundle=JSON.parse(document.getElementById('offline-data').textContent);
+      files.forEach(function (key) {if(!bundle[key])throw new Error('离线数据缺失');DATA[key]=bundle[key];});
+      if(!bundle.companies)throw new Error('离线公司库缺失');
+      OFFLINE_MASTER=bundle.companies;
+    });
     return Promise.all(files.map(function (k) {
       return fetch('data/' + k + '.json?v=' + encodeURIComponent((window.SEMI_CONFIG || {}).dataVersion || 'local'), {cache:'no-store'}).then(function (r) {
         if (!r.ok) throw new Error(k + '.json HTTP ' + r.status);
@@ -534,6 +541,7 @@
 
   /* ---------- 启动 ---------- */
   loadAll().then(function () {
+    if ((window.SEMI_CONFIG || {}).offline) {REPO=new SemiDomain.CompanyRepository(DATA,OFFLINE_MASTER);return;}
     return SemiDomain.CompanyRepository.load(DATA).then(function (repository) {REPO=repository;});
   }).then(function () {
     buildSourceIndex();

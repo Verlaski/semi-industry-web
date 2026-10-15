@@ -95,6 +95,10 @@ body {
 }
 .site-nav a:hover { color: var(--navy); background: var(--navy-soft); }
 .site-nav a.active { color: var(--navy); font-weight: 700; border-bottom-color: var(--gold); }
+.site-nav .nav-offline { margin-left:auto;display:flex;align-items:center;gap:7px;font-size:13px;padding-left:14px;padding-right:14px; }
+.nav-offline img { flex-shrink:0; }.nav-offline[aria-disabled="true"] { opacity:.55;cursor:default; }
+.offline-edition { display:block;font-size:11px;font-weight:600;margin-top:3px; }
+.offline-mode .company-table { min-width:760px!important; }
 
 /* ---------- 主体 ---------- */
 #app { max-width: 1440px; margin: 0 auto; padding: 26px 32px 60px; }
