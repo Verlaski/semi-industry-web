@@ -25,8 +25,9 @@ def entry(company, listing):
         return {"name": name, "market": "A股", "currency": "CNY", "zone": "Asia/Shanghai",
                 "eastmoney": em, "tencent": tc, "listing_id": listing["listing_id"]}
     if suffix == "HK":
+        provider_code = code.zfill(5)
         return {"name": name, "market": "港股", "currency": "HKD", "zone": "Asia/Hong_Kong",
-                "eastmoney": "116." + code, "tencent": "hk" + code, "listing_id": listing["listing_id"]}
+                "eastmoney": "116." + provider_code, "tencent": "hk" + provider_code, "listing_id": listing["listing_id"]}
     if suffix == "US":
         em = EM_US.get(listing.get("exchange", ""), "105") + "." + code
         return {"name": name, "market": "美股", "currency": "USD", "zone": "America/New_York",

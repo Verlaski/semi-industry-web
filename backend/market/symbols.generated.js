@@ -76,7 +76,7 @@ module.exports = {
   '688783.SH':{name:"西安奕材",market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'1.688783',tencent:'sh688783',listing_id:'ESWINMAT_SSE'},
   '688785.SH':{name:"恒运昌",market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'1.688785',tencent:'sh688785',listing_id:'CSLVAC_SSE'},
   '688797.SH':{name:"臻宝科技",market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'1.688797',tencent:'sh688797',listing_id:'GENORI_SSE'},
-  '6951.HK':{name:"三环集团",market:'港股',currency:'HKD',zone:'Asia/Hong_Kong',eastmoney:'116.6951',tencent:'hk6951',listing_id:'CCTC_HKEX'},
+  '6951.HK':{name:"三环集团",market:'港股',currency:'HKD',zone:'Asia/Hong_Kong',eastmoney:'116.06951',tencent:'hk06951',listing_id:'CCTC_HKEX'},
   '920179.BJ':{name:"凯德石英",market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'0.920179',tencent:'bj920179',listing_id:'KDSZ_'},
   '920186.BJ':{name:"中科仪",market:'A股',currency:'CNY',zone:'Asia/Shanghai',eastmoney:'0.920186',tencent:'bj920186',listing_id:'SKY_BSE'},
   'ACLS.US':{name:"Axcelis",market:'美股',currency:'USD',zone:'America/New_York',eastmoney:'105.ACLS',tencent:'usACLS',listing_id:'ACLS_NASDAQ'},
