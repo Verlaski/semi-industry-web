@@ -515,6 +515,21 @@ table.matrix { border-collapse:separate;border-spacing:0;min-width:850px;width:1
 .source-id { font:11px/1.7 var(--mono); }
 .source-facts { margin-top:26px; }.source-facts>div { padding:14px 0;border-top:1px solid var(--line); }
 .source-facts dt { font-size:11px;color:var(--muted);margin-bottom:6px; }.source-facts dd { margin:0;font-size:14px;line-height:1.9;overflow-wrap:anywhere; }
+
+/* Drawer information hierarchy; content and source links remain shared with the map. */
+.detail-drawer .drawer-section { margin:20px 0;padding:18px;background:#f4f9fa;border:1px solid #dce9ec;border-radius:10px;line-height:1.85;font-size:13px;overflow-wrap:anywhere; }
+.detail-drawer .drawer-section-title { display:flex;align-items:center;gap:9px;margin:0 0 14px;padding:0 0 10px;border-bottom:1px solid #d5e5e8;font-size:14px;font-weight:700;line-height:1.5;color:var(--navy-deep); }
+.detail-drawer .drawer-section-title::before { content:"";width:3px;height:14px;border-radius:2px;background:var(--navy);flex-shrink:0; }
+.detail-drawer .drawer-section>p { margin:8px 0; }.detail-drawer .drawer-section>:last-child:not(.drawer-section-title) { margin-bottom:0; }
+.detail-drawer .tc-subs { margin:0; }.detail-drawer .tc-subs li { margin:0 0 10px;padding:12px 14px;border:1px solid #e1ebed;border-radius:7px;background:var(--paper); }
+.detail-drawer .tc-subs li:last-child { margin-bottom:0; }.detail-drawer .tc-subs li>b { display:block;color:var(--navy-deep);margin-bottom:5px; }
+.detail-drawer .leader-cell>.g { display:block;margin:0;padding:12px 0; }.detail-drawer .leader-cell>.g:first-child { padding-top:0; }.detail-drawer .leader-cell>.g:last-child { padding-bottom:0; }
+.detail-drawer .leader-cell>.g+.g { border-top:1px solid #dce7ea; }.detail-drawer .leader-cell>.g>.nm { display:block;margin-bottom:5px; }
+.detail-drawer .leader-cell .sh,.detail-drawer .leader-cell .tg { line-height:1.85;margin-top:4px; }
+.detail-drawer .relation-block { margin:0 0 10px;padding:12px 14px;border:1px solid #e1ebed;background:var(--paper);border-radius:7px; }.detail-drawer .relation-block:last-child { margin-bottom:0; }
+.detail-drawer .relation-role { color:var(--muted);font-size:11px;margin:5px 0; }.detail-drawer .source-facts { margin:0; }.detail-drawer .source-facts>div:first-child { border-top:0;padding-top:0; }
+.detail-drawer .drawer-section .company-facts { margin:0; }
+@media(max-width:700px) { .detail-drawer .drawer-section { padding:14px;margin:16px 0; }.detail-drawer .drawer-section-title { margin-bottom:12px; } }
 .source-external { display:inline-block;text-decoration:none;margin-top:20px; }
 .reading-notes { color:var(--muted);padding-bottom:16px;margin-bottom:14px;border-bottom:1px solid var(--line); }
 .reading-notes>summary { font-size:13px;font-weight:600;cursor:pointer;padding:8px 0; }

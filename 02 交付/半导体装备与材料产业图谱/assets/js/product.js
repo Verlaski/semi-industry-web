@@ -23,10 +23,18 @@
   }
   function companyButton(c,label) {return c ? '<button class="company-link" data-company="'+esc(c.runtime_key)+'">'+esc(label || c.name)+'<span class="company-arrow" aria-hidden="true"> ↗</span></button>' : esc(label || '');}
   function legend() {return '<div class="market-legend" aria-label="资本市场图例"><span>资本市场</span><span class="market-badge a">A股</span><span class="market-badge hk">港股</span><span class="market-badge us">美股</span><span class="market-badge overseas">其他海外上市</span><span class="market-badge unlisted">非上市</span></div>';}
+  function drawerSection(title,content) {return '<section class="drawer-section"><h3 class="drawer-section-title">'+esc(title)+'</h3>'+content+'</section>';}
   function openDrawer(html) {
     const layer=document.getElementById('drawer-layer');
     if(layer.hidden)returnFocus=document.activeElement;
     document.getElementById('drawer-body').innerHTML=html;layer.hidden=false;
+    // 复用赛道详情的已有字段，只调整抽屉中的信息层级，不修改主图卡片。
+    document.querySelectorAll('#drawer-body .tc-kv').forEach(block=>{
+      const label=block.querySelector(':scope > .k');if(!label)return;
+      const heading=document.createElement('h3');heading.className='drawer-section-title';heading.textContent=label.textContent==='注'?'补充说明':label.textContent==='国产化'?'国产化进展':label.textContent;
+      if(block.nextElementSibling?.matches('.tc-subs'))block.append(block.nextElementSibling);
+      label.replaceWith(heading);block.classList.add('drawer-section');
+    });
     document.body.classList.add('drawer-visible');document.getElementById('app').inert=true;
     document.getElementById('site-nav').inert=true;
     requestAnimationFrame(()=>document.getElementById('detail-drawer').focus());
@@ -50,16 +58,16 @@
     const nodes=type==='base' ? D.structureModel(data).baseMaterials : type==='downstream' ? D.structureModel(data).downstream : [];
     const node=nodes[Number(index)];if(!node)return;
     const html='<div class="drawer-eyebrow">'+(type==='base'?'材料链 · 基础原料':'装备与材料 · 共同应用环节')+'</div><h2 id="drawer-title">'+esc(node.name)+'</h2>'+
-      (node.relation?'<p>'+esc(node.relation)+'</p>':'')+(node.note?'<p class="drawer-subtitle">'+esc(node.note)+'</p>':'')+
-      (node.players?.length?'<h3>代表性厂商</h3><p>'+node.players.map(esc).join(' · ')+'</p>':'');
+      (node.relation?drawerSection('产业关系','<p>'+esc(node.relation)+'</p>'):'')+(node.note?drawerSection('环节说明','<p>'+esc(node.note)+'</p>'):'')+
+      (node.players?.length?drawerSection('代表性厂商','<p>'+node.players.map(esc).join(' · ')+'</p>'):'');
     parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
   }
   function openSource(id) {
     const source=data.sources.sources.find(s=>s.source_id===id);if(!source)return;
     const fields={org:'发布机构',publish_date:'发布日期',data_year:'数据年份',metric:'指标',caliber:'统计口径',region:'覆盖范围',type:'资料类型',level:'证据等级',access_date:'查阅日期',remark:'备注'};
-    let html='<div class="drawer-eyebrow source-id">'+esc(source.source_id)+'</div><h2 id="drawer-title">'+esc(source.title)+'</h2><dl class="source-facts">';
+    let html='<div class="drawer-eyebrow source-id">'+esc(source.source_id)+'</div><h2 id="drawer-title">'+esc(source.title)+'</h2><section class="drawer-section"><h3 class="drawer-section-title">资料信息</h3><dl class="source-facts">';
     Object.entries(fields).forEach(([key,label])=>{if(source[key])html+='<div><dt>'+label+'</dt><dd>'+esc(source[key])+'</dd></div>';});
-    html+='</dl>';
+    html+='</dl></section>';
     try{const url=new URL(source.url);if(['http:','https:'].includes(url.protocol))html+='<a class="btn source-external" href="'+esc(url.href)+'" target="_blank" rel="noopener">打开原始资料 ↗</a>';}catch(error){/* 没有有效链接时保留已收录的来源字段。 */}
     parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
   }
@@ -67,12 +75,14 @@
     const c=repo.find(key);if(!c)return;
     const listing=D.primaryListing(c);
     let html='<div class="drawer-eyebrow">公司详情'+(c.verified_master?'':' · 赛道名单兼容展示')+'</div><h2 id="drawer-title">'+esc(c.name)+'</h2>'+
-      '<p class="drawer-subtitle">'+esc(c.name_en || '')+'</p><div class="company-facts">'+badge(c)+'<span>'+esc(c.country_region || '国家地区待补充')+'</span></div>';
-    if(!c.verified_master)html+='<p class="quiet-note">当前名称来自已收录赛道。上市身份及主体关系待正式公司数据库补充。</p>';
-    if(c.combo)html+='<p class="quiet-note">该记录包含组合名称，待研究人员确认主体关系；不参与机会抽卡。</p>';
-    if(c.ticker_hints.length)html+='<p class="quiet-note">原始代码线索：'+esc(c.ticker_hints.join('、'))+'（未作证券代码确认）</p>';
-    if(listing)html+='<p>交易所：'+esc(listing.exchange || '待补充')+'</p><div data-company-quote="'+esc(listing.ticker || '')+'"></div>';
-    html+='<h3>产业关系</h3>';
+      '<p class="drawer-subtitle">'+esc(c.name_en || '')+'</p>'+drawerSection('基本信息','<div class="company-facts">'+badge(c)+'<span>'+esc(c.country_region || '国家地区待补充')+'</span></div>');
+    let notes='';
+    if(!c.verified_master)notes+='<p class="quiet-note">当前名称来自已收录赛道。上市身份及主体关系待正式公司数据库补充。</p>';
+    if(c.combo)notes+='<p class="quiet-note">该记录包含组合名称，待研究人员确认主体关系；不参与机会抽卡。</p>';
+    if(c.ticker_hints.length)notes+='<p class="quiet-note">原始代码线索：'+esc(c.ticker_hints.join('、'))+'（未作证券代码确认）</p>';
+    if(notes)html+=drawerSection('数据说明',notes);
+    if(listing)html+=drawerSection('上市与行情','<p>交易所：'+esc(listing.exchange || '待补充')+'</p><div data-company-quote="'+esc(listing.ticker || '')+'"></div>');
+    html+='<section class="drawer-section"><h3 class="drawer-section-title">产业关系</h3>';
     const seen=new Set();
     c.occurrences.forEach(o=>{
       const k=[o.track_id,o.sub_name,o.role,o.share,o.raw_name].join('|');if(seen.has(k))return;seen.add(k);
@@ -81,6 +91,7 @@
         (o.tag?'<p>'+esc(o.tag)+'</p>':'')+(!o.share&&o.name&&/[:：]/.test(o.name)?'<p class="quiet-note">原始说明：'+esc(o.name)+'</p>':'')+src(o.source_id)+'</section>';
     });
     if(!c.occurrences.length)html+='<p class="quiet-note">赛道关系待补充。</p>';
+    html+='</section>';
     document.getElementById('drawer-back').hidden=!parentTrack;openDrawer(html);
     if(listing && ['688012.SH','00522.HK','AMAT.US'].includes(listing.ticker))loadQuotes(listing.ticker);
   }
