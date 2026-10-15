@@ -19,6 +19,7 @@
 | 本轮改了哪些内容 | [变更记录](CHANGELOG.md) |
 | KimiCode从哪里接手本次界面修订 | [交接文档](docs/KIMICODE_HANDOFF.md) |
 | 公司主数据接入后的发布要点 | [发布交接](docs/CODEX_RELEASE_HANDOFF.md) |
+| 本轮成果与缺口怎么验收 | [验收说明](docs/COMPANY_DATA_ACCEPTANCE.md) |
 
 网站文件在`02 交付/半导体装备与材料产业图谱/`；四份研究JSON保持原始内容。`backend/`与`cloudfunctions/`实现服务，`reporting/`实现报告，`tools/`用于打包与发布。`01 用户提供资料/`不入库、不发布。
 
@@ -34,4 +35,4 @@
 
 本轮开发分支为`codex/v1.1-online-product`，不合并main。上一轮公司池预处理仍在独立的`codex/v1.1-company-prep`分支。
 
-当前界面采用荧光黄主色与蓝青辅色；总图提供双链结构示意及留页详情，公司表内显示已配置三证券行情。给Kimi的最终交接快照在commit/push后由`python -m tools.export_handoff`生成，包含完整SHA及远端核对状态；维护内容见上方交接文档。
+当前界面采用荧光黄主色与蓝青辅色；总图提供双链结构示意及留页详情，公司表内显示注册表内 A股/港股/美股证券行情（96 只，按小时同步）。给Kimi的最终交接快照在commit/push后由`python -m tools.export_handoff`生成，包含完整SHA及远端核对状态；维护内容见上方交接文档。
