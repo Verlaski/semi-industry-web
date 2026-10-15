@@ -51,11 +51,15 @@ MarketDataProvider → syncQuotes（每小时:05）→ quotes_latest
 
 syncQuotes按QUOTE_PROVIDERS配置依次尝试供应商。当前云端腾讯优先；东方财富在本机返回正常、云端连接失败，失败会尝试备源。两者均失败时保留旧有效值和原始时间，记录本次尝试时间。quotes_latest以symbol保存，后续由正式上市记录连接listing_id。
 
+公司页将API三股缓存接入表格单元格，更新行情时不重绘表格，保留筛选、滚动与焦点；domain.quoteSymbol只负责正式listing或显式三证券试运行关联，quoteDisplay负责数值/币种和红涨绿跌。没有向浏览器增加供应商直连。
+
 freshness依据市场时区、常规交易时段与90分钟阈值。周末及收盘后允许closed；节假日日历尚未完整接入。行情每小时更新，页面也每小时读取一次缓存，无WebSocket。
 
 ## 报告运行方式
 
 `reporting/data_provider.py`负责全部文件读取；`models.py`定义报告模型；`builders.py`按类型组织章节；`styles.py`负责字体和排版；`components.py`负责表格/段落；`engine.py`输出PDF；`qa.py`逐页渲染与检查。
+
+Provider能读取可选companies.json并更新内容摘要；当前Builder仍按leader.name或company_id直接显示，不会自动查主表名称。迁移为ID-only关系前需要增加名称解析薄层，复用现有模型、样式与Engine。
 
 报告样式沿用Verlaski/cn-pdf-report-style，A4、藏蓝#17375E、斑马纹表格、页码、摘要高亮和来源附录。FontResolver本地可用微软雅黑；云端使用随包发布的Noto Sans SC常规/粗体及OFL许可。科学计数上标使用排版标签，避免中文字体缺字。
 

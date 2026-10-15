@@ -4,6 +4,7 @@
   const D = window.SemiDomain;
   let data, repo, esc, src, stage, returnFocus, parentTrack, drawn=[];
   const trackMap = new Map();
+  const quoteCache=new Map();
   let celebrationTimer, preparationTimer, preparationStepTimer;
   const starIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 2 2.8 6.5L22 12l-7.2 3.5L12 22l-2.8-6.5L2 12l7.2-3.5Z"/></svg>';
   const stackIcon='<svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="6" width="15" height="19" rx="2" transform="rotate(-10 3 6)"/><rect x="10" y="2" width="15" height="20" rx="2"/><path d="m17.5 6 1.4 3.5 3.6 1.5-3.6 1.5-1.4 3.5-1.4-3.5-3.6-1.5 3.6-1.5Z"/></svg>';
@@ -88,16 +89,23 @@
     const view=document.getElementById('view-companies');
     view.innerHTML='<h2 class="section-title">龙头公司库</h2><p class="section-desc">从公司反查产业关系、产品与来源。'+(repo.mode==='official'?'已接入正式公司数据库。':'当前为赛道名单兼容展示；上市字段待正式公司数据库补充。')+'</p>'+legend()+
       '<div class="page-actions">'+(repo.mode==='official'?['companies','company_listings','track_company_relations'].map((name,i)=>'<button class="btn" data-export="companies" data-export-table="'+name+'.csv">下载'+['公司','上市信息','赛道关系'][i]+' CSV</button>').join(''):'<button class="btn" data-export="companies">下载公司 CSV</button>')+'</div>'+filterControls('companies',true)+
-      '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。</p><div id="company-results"></div>'+
-      '<h3 class="section-title">行情试运行</h3><p class="section-desc">三只指定测试证券 · 每小时同步 · 最新价格按各市场币种列示</p><div id="quote-panel" class="quote-grid"><p class="quiet-note">正在读取行情缓存…</p></div>';
+      '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。表内行情目前仅覆盖688012.SH、00522.HK、AMAT.US三只试运行证券，兼容模式使用显式临时关联，不确认公司上市身份。其他记录显示—，等待正式listing关联；每小时同步，红涨绿跌，市值按原币种以亿元列示。顶部更新时间是行情缓存获取时间，单元格提示保留行情时间与状态。</p><p id="company-quote-updated" class="quote-updated" role="status">最近更新时间：正在读取…</p><div id="company-results"></div>';
     view.querySelectorAll('#companies-filters input,#companies-filters select').forEach(el=>el.addEventListener('input',renderCompanyRows));
     renderCompanyRows();loadQuotes();
   }
   function renderCompanyRows() {
     const list=repo.filter(values('companies'));
     document.getElementById('company-results').innerHTML='<p class="result-count">'+list.length+' 个公司记录</p>'+(list.length?
-      '<div class="table-wrap" tabindex="0" role="region" aria-label="公司表，可在表内滚动查看，表头固定"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th><th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
-        '<tr><td>'+companyButton(c)+'<small class="english-name">'+esc(c.name_en || '')+(c.combo?' · 组合待拆分':'')+'</small></td><td>'+badge(c)+'</td><td>'+esc(c.country_region || '待补充')+'</td><td>'+[...new Map(c.occurrences.map(o=>[o.track_id,o])).values()].map(o=>'<button class="relation-track" data-open-track="'+esc(o.track_id)+'">'+esc(o.track_name)+'</button>').join(' · ')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty-state">暂无符合条件的记录。未核验上市身份的公司不会被归为“未上市”，可调整筛选条件。</div>');
+      '<div class="table-wrap" tabindex="0" role="region" aria-label="公司表，可在表内滚动查看，表头固定"><table class="data company-table"><thead><tr><th>公司</th><th>资本市场</th><th>国家 / 地区</th><th>最新价</th><th>涨跌额</th><th>涨跌幅</th><th>总市值</th><th>涉及赛道</th></tr></thead><tbody>'+list.map(c=>
+        '<tr><td>'+companyButton(c)+'<small class="english-name">'+esc(c.name_en || '')+(c.combo?' · 组合待拆分':'')+'</small></td><td>'+badge(c)+'</td><td>'+esc(c.country_region || '待补充')+'</td>'+['price','change','pct','cap'].map(field=>'<td class="quote-cell" data-quote-symbol="'+esc(D.quoteSymbol(c))+'" data-quote-field="'+field+'">—</td>').join('')+'<td>'+[...new Map(c.occurrences.map(o=>[o.track_id,o])).values()].map(o=>'<button class="relation-track" data-open-track="'+esc(o.track_id)+'">'+esc(o.track_name)+'</button>').join(' · ')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty-state">暂无符合条件的记录。未核验上市身份的公司不会被归为“未上市”，可调整筛选条件。</div>');
+    updateQuoteCells();
+  }
+  function updateQuoteCells(){
+    document.querySelectorAll('#company-results [data-quote-field]').forEach(cell=>{
+      const q=quoteCache.get(cell.dataset.quoteSymbol),values=D.quoteDisplay(q),field=cell.dataset.quoteField;
+      cell.textContent=values[field];cell.className='quote-cell'+(field==='cap'?'':' quote-'+values.trend);
+      cell.title=q?[q.symbol,'行情时间 '+(q.quote_time || '待补充'),'缓存获取 '+(q.fetched_at || '待补充'),quoteStatus[q.status] || '待确认',q.last_sync_failed?'同步失败，保留旧值':''].filter(Boolean).join(' · '):'行情关联待补充';
+    });
   }
   function renderDiscovery() {
     document.getElementById('view-discovery').innerHTML='<div class="discovery-heading"><div><p class="drawer-eyebrow">产业发现 / DISCOVERY</p><h2 class="section-title">AI推荐跟踪龙头</h2><p class="section-desc">发现一家，或开启一份十家跟踪清单。</p></div><div class="draw-stamp">下一家<br><small>值得了解的公司</small></div></div>'+
@@ -119,8 +127,7 @@
     if(matchMedia('(prefers-reduced-motion: reduce)').matches){drawCards(count,selected);return;}
     document.querySelectorAll('[data-draw]').forEach(button=>button.disabled=true);
     document.getElementById('draw-state').textContent='跟踪清单准备中';
-    const sets=[['把赛道地图摊开，下一位主角在哪？','给候选清单洗个牌，惊喜正在路上…','跟踪标签贴好啦，准备揭晓！'],['产业雷达已上线，开始寻宝！','装备、材料，各路龙头集合中…','清单打包完毕，接住这份灵感！'],['给下一次研究留一点随机的快乐。','熟悉的赛道，也能发现新面孔…','研究搭子已就位，马上见面！']];
-    const messages=sets[Math.floor(Math.random()*sets.length)];
+    const messages=D.preparationMessages();
     const results=document.getElementById('draw-results');results.setAttribute('aria-busy','true');
     results.innerHTML='<div class="draw-preparation"><div class="preparation-orbit" aria-hidden="true">'+stackIcon+'</div><p id="preparation-message" role="status">'+messages[0]+'</p><progress id="preparation-progress" max="100" value="0" aria-label="卡片揭晓进度"></progress><small>准备你的 '+count+' 家跟踪清单</small></div>';
     const started=performance.now();
@@ -145,7 +152,7 @@
   function celebrate(){
     if(matchMedia('(prefers-reduced-motion: reduce)').matches || !document.getElementById('view-discovery').classList.contains('active'))return;
     const layer=document.createElement('div');layer.id='draw-confetti';layer.setAttribute('aria-hidden','true');
-    const colors=['#d6f94a','#087f98','#7043a4','#e4b56b','#52bfcb'];
+    const colors=['#dfff00','#087f98','#7043a4','#e4b56b','#52bfcb'];
     for(let i=0;i<48;i++){const ribbon=document.createElement('i');ribbon.style.cssText='--x:'+Math.random()*100+'vw;--drift:'+(Math.random()*160-80)+'px;--spin:'+(180+Math.random()*540)+'deg;--delay:'+Math.random()*.35+'s;--color:'+colors[i%colors.length];layer.append(ribbon);}
     document.body.append(layer);celebrationTimer=setTimeout(clearCelebration,3400);
   }
@@ -167,10 +174,14 @@
     return '<div class="quote-card"><div class="quote-label">'+esc(q.name || q.symbol)+' <span class="ticker">'+esc(q.symbol)+'</span></div><div class="quote-price">'+(valid?esc(q.price.toFixed(2)):'—')+' <small>'+esc(q.currency || '')+'</small></div><div class="quote-change">'+(valid && typeof q.change_pct==='number'?esc((q.change_pct>0?'+':'')+q.change_pct.toFixed(2))+'%':'')+' · '+esc(quoteStatus[q.status] || '待确认')+'</div><div class="quote-time">行情时间 '+esc(q.quote_time || '待补充')+'<br>获取时间 '+esc(q.fetched_at || '待补充')+'<br>来源 '+esc(q.provider || '待补充')+(typeof q.market_cap==='number'?'<br>总市值 '+esc(q.market_cap.toLocaleString('zh-CN'))+' '+esc(q.currency):'')+'</div></div>';
   }
   async function loadQuotes(symbol) {
-    const panel=symbol?document.querySelector('[data-company-quote]'):document.getElementById('quote-panel');if(!panel)return;
+    const panel=symbol?document.querySelector('[data-company-quote]'):null;if(symbol&&!panel)return;
     try {const response=await request('/api/quotes?symbols='+encodeURIComponent(symbol || '688012.SH,00522.HK,AMAT.US'));
-      if(panel.isConnected)panel.innerHTML=response.quotes.map(quoteMarkup).join('');
-    }catch(error){panel.textContent=error.message;}
+      if(panel?.isConnected)panel.innerHTML=response.quotes.map(quoteMarkup).join('');
+      else if(!symbol){response.quotes.forEach(q=>quoteCache.set(q.symbol,q));updateQuoteCells();
+        const times=response.quotes.map(q=>Date.parse(q.fetched_at)).filter(Number.isFinite);
+        const stamp=document.getElementById('company-quote-updated');
+        stamp.textContent='最近更新时间：'+(times.length?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'medium',hour12:false}).format(new Date(Math.max(...times)))+'（北京时间）':'暂无有效缓存');stamp.title='最近一次成功获取行情缓存的时间；各证券行情时间见单元格提示';}
+    }catch(error){if(panel)panel.textContent=error.message;else {const stamp=document.getElementById('company-quote-updated');if(!quoteCache.size)stamp.textContent='最近更新时间：行情暂不可用';stamp.title=error.message;}}
   }
   function download(name,text,type) {
     const url=URL.createObjectURL(new Blob([text],{type:type || 'text/csv;charset=utf-8'}));

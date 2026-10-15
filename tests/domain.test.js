@@ -3,6 +3,23 @@ const test=require('node:test');const assert=require('node:assert/strict');const
 const D=require('../02 交付/半导体装备与材料产业图谱/assets/js/domain');
 const base=path.join(__dirname,'../02 交付/半导体装备与材料产业图谱/data');
 const data=Object.fromEntries(['meta','equipment','materials','sources'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(base,n+'.json'),'utf8'))]));
+test('行情临时关联只覆盖显式三证券，正式主表优先且不猜测证券代码',()=>{
+  const repo=new D.CompanyRepository(data,null);
+  assert.equal(repo.companies.filter(c=>D.quoteSymbol(c)).length,3);
+  assert.equal(D.quoteSymbol(repo.companies.find(c=>c.name_en==='AMEC')),'688012.SH');
+  assert.equal(D.quoteSymbol({runtime_key:'other',ticker_hints:['688012'],listings:[]}), '');
+  assert.equal(D.quoteSymbol({verified_master:true,runtime_key:'legacy:AMEC',listing_status:'',listings:[]}), '');
+  assert.equal(D.quoteSymbol({verified_master:true,listing_status:'上市',listings:[{ticker:'00522.HK'}]}),'00522.HK');
+});
+test('行情红涨绿跌对应正负数，市值保留币种，缺失数据不填0',()=>{
+  const q={price:100,change:2,change_pct:2.04,market_cap:1.2e10,currency:'HKD',status:'closed'};
+  assert.deepEqual(D.quoteDisplay(q),{price:'100.00 HKD',change:'+2.00',pct:'+2.04%',cap:'120.00亿 HKD',trend:'up'});
+  assert.equal(D.quoteDisplay({...q,change:-2,change_pct:-2}).trend,'down');
+  assert.equal(D.quoteDisplay({...q,change_pct:0}).pct,'0.00%');
+  assert.equal(D.quoteDisplay({...q,price:null}).price,'—');
+  assert.equal(D.quoteDisplay({...q,market_cap:null}).cap,'—');
+  assert.equal(D.quoteDisplay(null).price,'—');
+});
 test('卡面等级取已有赛道关系，筛选范围生效，未知上市身份不影响等级',()=>{
   const c={listing_status:'',occurrences:[{track_id:'eq-f-etch',role:'global',sub_name:''},{track_id:'other',role:'china',sub_name:'细分'}]};
   assert.equal(D.cardCategory(c).key,'gold');

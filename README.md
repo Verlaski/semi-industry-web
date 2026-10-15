@@ -32,3 +32,5 @@
 本机预览：在仓库根目录执行 `python -m http.server 8000 --directory "02 交付/半导体装备与材料产业图谱"`，访问 `http://localhost:8000`。测试执行 `npm test`；PDF、部署及在线验收步骤见操作手册。
 
 本轮开发分支为`codex/v1.1-online-product`，不合并main。上一轮公司池预处理仍在独立的`codex/v1.1-company-prep`分支。
+
+当前界面采用荧光黄主色与蓝青辅色；总图提供双链结构示意及留页详情，公司表内显示已配置三证券行情。给Kimi的最终交接快照在commit/push后由`python -m tools.export_handoff`生成，包含完整SHA及远端核对状态；维护内容见上方交接文档。

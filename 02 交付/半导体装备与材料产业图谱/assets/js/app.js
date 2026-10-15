@@ -108,10 +108,35 @@
   }
 
   /* ---------- 视图一：产业链总图 ---------- */
-  function miniTrack(t, route) {
+  function miniTrack(t) {
     var stage = t.localization ? t.localization.stage : null;
-    return '<div class="mini-track"><a href="#/' + route + '?track=' + esc(t.id) + '">' +
-      '<span class="nm">' + esc(t.name) + '</span></a>' + stageBadge(stage) + '</div>';
+    return '<div class="mini-track mini-track-link"><button class="overview-track" data-open-track="' + esc(t.id) + '">' +
+      '<span class="nm">' + esc(t.name) + '</span>' + stageBadge(stage) + '</button></div>';
+  }
+
+  function structureDiagram() {
+    return '<figure class="chain-structure"><figcaption>产业链结构<span class="structure-mobile-hint">横向滑动查看全图</span></figcaption>' +
+      '<div class="structure-scroll" tabindex="0" role="region" aria-label="半导体双链汇流结构图，可横向滚动">' +
+      '<svg viewBox="0 0 1320 400" role="img" aria-labelledby="structure-title structure-desc" class="structure-svg">' +
+      '<title id="structure-title">装备链与材料链汇入芯片制造</title>' +
+      '<desc id="structure-desc">半导体装备链分为设备核心零部件与子系统、前道制造设备和封装测试设备；半导体材料链包括上游基础原料、晶圆制造材料和封装材料。两条投入链共同汇入晶圆制造与封装测试，最终形成芯片。</desc>' +
+      '<defs><marker id="structure-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" class="structure-arrowhead"/></marker></defs>' +
+      '<g class="structure-wires"><path d="M180 80H210V50H245"/><path d="M210 80V140H495"/>' +
+      '<path d="M460 50H495"/><path d="M180 290H210V260H245"/><path d="M210 290V350H495"/><path d="M460 260H495"/>' +
+      '<path d="M710 50H790V140" class="structure-bus"/><path d="M710 140H790V230H845"/>' +
+      '<path d="M710 260H790V230" class="structure-bus"/><path d="M710 350H790V260" class="structure-bus"/>' +
+      '<path d="M1060 230H1135"/></g>' +
+      '<g class="structure-node structure-entry"><rect x="20" y="55" width="160" height="50" rx="12"/><text x="100" y="86">半导体装备链</text></g>' +
+      '<g class="structure-node"><rect x="250" y="25" width="210" height="50" rx="10"/><text x="355" y="56">设备核心零部件 / 子系统</text></g>' +
+      '<g class="structure-node"><rect x="500" y="25" width="210" height="50" rx="10"/><text x="605" y="56">前道制造设备</text></g>' +
+      '<g class="structure-node"><rect x="500" y="115" width="210" height="50" rx="10"/><text x="605" y="146">封装 / 测试设备</text></g>' +
+      '<g class="structure-node structure-entry"><rect x="20" y="265" width="160" height="50" rx="12"/><text x="100" y="296">半导体材料链</text></g>' +
+      '<g class="structure-node"><rect x="250" y="235" width="210" height="50" rx="10"/><text x="355" y="266">上游基础原料</text></g>' +
+      '<g class="structure-node"><rect x="500" y="235" width="210" height="50" rx="10"/><text x="605" y="266">晶圆制造材料</text></g>' +
+      '<g class="structure-node"><rect x="500" y="325" width="210" height="50" rx="10"/><text x="605" y="356">封装材料</text></g>' +
+      '<g class="structure-node structure-manufacturing"><rect x="850" y="195" width="210" height="70" rx="12"/><text x="955" y="225">晶圆制造</text><text x="955" y="249">封装测试</text></g>' +
+      '<g class="structure-node structure-entry"><rect x="1140" y="205" width="120" height="50" rx="12"/><text x="1200" y="236">芯片</text></g>' +
+      '<circle cx="790" cy="230" r="5" class="structure-junction"/></svg></div></figure>';
   }
 
   function renderOverview() {
@@ -127,6 +152,7 @@
     var html = '';
     html += '<h2 class="section-title">产业链总图</h2>';
     html += '<p class="section-desc" data-footer-note>装备链与材料链并行汇入制造。国产化阶段依次为：依赖进口、验证导入、份额提升、批量替代、国际领先。阶段描述赛道及其适用产品范围，具体依据见详情。</p>';
+    html += structureDiagram();
 
     html += '<div class="lane-label"><span class="tag">装备链</span>核心零部件与子系统 → 半导体制造装备 → 晶圆制造 / 封装测试</div>';
     html += '<div class="flow">';
@@ -492,8 +518,6 @@
           SemiProduct.openTrack(trackId);
           card.scrollIntoView({ block: 'center' });
         }
-        var row = document.getElementById('row-' + trackId);
-        if (row) row.classList.add('hl');
       }, 60);
     } else {
       window.scrollTo(0, 0);

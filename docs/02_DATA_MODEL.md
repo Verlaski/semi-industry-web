@@ -82,6 +82,10 @@
 
 EastMoney按f59精度缩放价格；Tencent市值单位转换为基础货币单位。美股行情时间按纽约时区处理夏令时。交易时段任一有效时间超过90分钟显示stale；常规收盘时段允许closed；主备均失败保留最后有效价并标记stale。
 
+公司表行情显示由quoteSymbol/quoteDisplay桥接。正式模式只认已上市公司的primary listing ticker；兼容模式仅显式关联legacy:AMEC→688012.SH、legacy:ASMPT→00522.HK、legacy:APPLIEDMATERIALS→AMAT.US，不读ticker_hints猜代码、不改变listing_status。该临时表不属于正式公司数据。price/change/change_pct保留数值含义，市值原币种除1e8展示为亿；未知显示—。正涨跌为红、负为绿。主表完成后迁移为listing_id关联，保留symbol作供应商标识。
+
+当前关系来自tracks/subs的global_leaders/china_leaders，不自动读取独立关系文件。position与source_ids多来源是目标契约，前端当前主要展示share/tag并读取source_id主来源；采用新契约时需同步小范围适配。详见[交接契约](KIMICODE_HANDOFF.md#三companyrepository数据契约p0必读)。
+
 ## ReportModel与缓存
 
 ReportModel包括report_type、title、data_version、generated_at、summary、sections、sources、disclaimer、quotes。每个SectionModel包含标题、段落、TableModel、source_ids及分页标志；Builder只消费Provider快照，不直接读取文件。

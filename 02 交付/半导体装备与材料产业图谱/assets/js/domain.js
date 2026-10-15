@@ -210,5 +210,28 @@
     if(follow)return {key:'purple',label:'重点跟踪',stars:4,reason:'细分龙头或重点产业标签',trackId:follow.track_id,subName:follow.sub_name};
     return {key:'blue',label:'产业观察',stars:3,reason:'产业图谱收录'};
   }
-  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory};
+  // 仅三只既有试运行证券。此显示桥不修改公司上市身份，不读取ticker_hints猜代码。
+  const PREVIEW_QUOTES={'legacy:AMEC':'688012.SH','legacy:ASMPT':'00522.HK','legacy:APPLIEDMATERIALS':'AMAT.US'};
+  function quoteSymbol(company) {
+    if(company.verified_master)return company.listing_status==='上市' ? primaryListing(company)?.ticker || '' : '';
+    return PREVIEW_QUOTES[company.runtime_key] || '';
+  }
+  function quoteDisplay(quote) {
+    const empty={price:'—',change:'—',pct:'—',cap:'—',trend:'flat'};
+    if(!quote || !Number.isFinite(quote.price) || quote.price<=0 || quote.status==='unavailable')return empty;
+    const signed=value=>Number.isFinite(value) ? (value>0?'+':'')+value.toFixed(2) : '—';
+    return {price:quote.price.toFixed(2)+' '+(quote.currency || ''),change:signed(quote.change),pct:Number.isFinite(quote.change_pct)?signed(quote.change_pct)+'%':'—',
+      cap:Number.isFinite(quote.market_cap)&&quote.market_cap>0?(quote.market_cap/1e8).toFixed(2)+'亿 '+(quote.currency || ''):'—',
+      trend:Number.isFinite(quote.change_pct)?(quote.change_pct>0?'up':quote.change_pct<0?'down':'flat'):'flat'};
+  }
+  function preparationMessages(random) {
+    const pools=[
+      ['产业雷达上线，今天遇见谁？','把赛道地图摊开，下一位主角在哪？','研究搭子招募中，先来点新面孔！','给下一次研究留一点随机的快乐。','打开产业盲盒，灵感正在排队。','装备与材料集合，发现之旅出发！','今天的跟踪清单，想加哪位新朋友？','请接收一份来自产业深处的小惊喜。','赛道很多，先认识一家有趣的公司。','给研究清单松松土，种点新灵感。'],
+      ['给候选清单洗个牌，惊喜正在路上…','熟悉的赛道，也能发现新面孔。','让装备和材料的名字，换个出场顺序。','翻翻已有名单，把下一站线索整理好。','给清单留一点未知，给研究留一点好奇。','不赶路，先看看产业地图里的风景。','候选企业排好队，马上轮到你认识。','把细分赛道的小线索，装进这次清单。','下一位研究搭子，正在候场。','寻找新面孔的快乐，就藏在这几秒。'],
+      ['跟踪标签贴好啦，准备揭晓！','清单打包完毕，接住这份灵感！','研究搭子已就位，马上见面！','卡面已就位，三、二、一！','这一站的产业新朋友，马上出场。','惊喜不剧透，揭晓交给下一秒。','把好奇心准备好，你的清单来了。','新线索已装袋，欢迎开启下一次研究。','下一份研究灵感，即将送达。','出场顺序排好啦，开卡见！']
+    ];
+    const rng=random || Math.random;
+    return pools.map(pool=>pool[Math.floor(rng()*pool.length)]);
+  }
+  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory,quoteSymbol,quoteDisplay,preparationMessages};
 });

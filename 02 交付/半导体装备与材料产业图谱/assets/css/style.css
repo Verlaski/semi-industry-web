@@ -18,7 +18,9 @@
   --navy-soft: #e5f3f5;
   --gold:      #527700;
   --gold-soft: #f0facb;
-  --lime:      #d6f94a;
+  --lime:      #dfff00;
+  --brand-primary: var(--lime);
+  --brand-secondary: var(--navy);
 
   /* 国产化阶段五色 */
   --st-1: #b42318;  /* 依赖进口 */
@@ -223,7 +225,6 @@ table.data th {
 table.data td { padding: 10px 12px; border-top: 1px solid var(--line-soft); vertical-align: top; line-height: 1.6; }
 table.data tbody tr:nth-child(even) { background: #fafbfc; }
 table.data tbody tr:hover { background: var(--gold-soft); }
-table.data tbody tr.hl { background: #fdf3d7; outline: 2px solid var(--gold); outline-offset: -2px; }
 table.data td .pos { color: var(--faint); font-size: 12px; }
 .leader-cell { line-height: 1.8; }
 .leader-cell .g { display: block; }
@@ -464,9 +465,10 @@ button,input,select,textarea { font-family:var(--sans); }
 .flow-node { padding:20px;border-radius:12px;box-shadow:0 2px 8px #16324f05; }
 .flow-node h4 { font-size:16px;margin-bottom:12px; }
 .mini-track { justify-content:flex-start;gap:10px;line-height:1.85;padding:7px 0;flex-wrap:wrap; }
-.mini-track:has(a) { border-radius:7px;padding:6px 8px;margin:3px -8px;width:fit-content;max-width:calc(100% + 16px);transition:background .18s; }
-.mini-track:has(a):hover { background:var(--navy-soft); }
-.mini-track a { text-decoration:none; }
+.mini-track-link { display:block;margin:2px 0;padding:0;width:100%; }
+.overview-track { width:100%;border:0;border-radius:7px;background:transparent;display:flex;justify-content:space-between;align-items:center;gap:12px;text-align:left;padding:9px 0;color:var(--navy-deep);font:inherit;cursor:pointer;transition:background .18s; }
+.overview-track:hover { background:var(--navy-soft); }
+.overview-track .nm { min-width:0; }.overview-track .stage { flex-shrink:0; }
 .mini-track .stage { font-size:10px; }
 .flow-node .hint { margin-bottom:14px; }
 .stat-card { border-radius:12px;transition:transform .22s,box-shadow .22s,border-color .22s;position:relative; }
@@ -563,14 +565,14 @@ table.matrix { border-collapse:separate;border-spacing:0;min-width:850px;width:1
 @media print { .map-sticky,.map-section .chain .chain-col-head { position:static; }.table-wrap { max-height:none;overflow:visible; }.map-actions,.card-key,#draw-confetti { display:none; } }
 
 /* Youthful cyan/lime palette; card rarity colors explicitly follow the product brief. */
-.site-header { border-bottom:4px solid var(--lime); }
-.brand-eyebrow { color:#d4eff2; }.header-meta .v { color:var(--lime); }
+.site-header { background:var(--brand-primary);color:var(--ink);border-bottom:1px solid #124c5a18; }
+.brand-eyebrow,.header-meta { color:var(--ink-2); }.brand-title,.header-meta .v { color:var(--ink); }
 .site-nav a.active { border-bottom-color:var(--lime);background:var(--navy-soft); }
 .chain-col-head.up,.chain-col-head.mid { background:var(--navy); }.chain-col-head.down { background:var(--navy-deep); }
 .chain-col-head .tier { color:#d0f0f1; }
 .stat-card.prosperity-card { border-top-color:var(--lime); }.stat-card:hover,.stat-card:focus-visible { border-color:#54b5c5;box-shadow:0 12px 26px #087f9818; }
 .stage { border-radius:999px; }.card-number { font-family:var(--sans); }
-.draw-actions .draw-ten { background:var(--lime);color:var(--navy-deep);box-shadow:none; }.draw-actions .draw-ten:hover { background:#c7ef27; }
+.draw-actions .draw-ten { background:var(--lime);color:var(--navy-deep);box-shadow:none; }.draw-actions .draw-ten:hover { background:#d0ec00; }
 .draw-ten b { border-color:#124c5a40; }.card-disclaimer { text-align:right;font-size:11px;color:var(--muted);margin:-6px 0 20px; }
 .card-stars { color:var(--card-accent);letter-spacing:2px;font-size:14px;margin-top:14px; }
 .discovery-card h3 { margin-top:12px; }.discovery-card .company-link { color:var(--ink); }
@@ -587,3 +589,20 @@ table.matrix { border-collapse:separate;border-spacing:0;min-width:850px;width:1
 .draw-preparation progress::-webkit-progress-bar { background:var(--navy-soft);border-radius:99px; }.draw-preparation progress::-webkit-progress-value { background:var(--navy);border-radius:99px;transition:width .08s linear; }
 @keyframes prepare-float { to {transform:translateY(-8px) rotate(8deg)} }
 :focus-visible { outline-color:var(--navy); }.source-open:focus-visible { outline-offset:0; }
+
+.chain-structure { margin:0 0 30px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:18px 20px 6px; }
+.chain-structure figcaption { display:flex;align-items:center;justify-content:space-between;font-size:14px;font-weight:700;color:var(--navy); }
+.structure-scroll { overflow-x:auto; }.structure-svg { display:block;width:100%;min-width:850px;height:auto; }
+.structure-wires { fill:none;stroke:var(--navy);stroke-width:2;stroke-linejoin:round;marker-end:url(#structure-arrow); }
+.structure-wires .structure-bus { marker-end:none; }.structure-arrowhead,.structure-junction { fill:var(--navy); }
+.structure-node rect { fill:var(--paper);stroke:#9dcbd2;stroke-width:1; }
+.structure-node text { font:600 16px var(--sans);fill:var(--navy-deep);text-anchor:middle; }
+.structure-entry rect { fill:var(--brand-primary);stroke:none; }.structure-entry text { fill:var(--ink);font-weight:700; }
+.structure-manufacturing rect { fill:var(--brand-secondary);stroke:none; }.structure-manufacturing text { fill:var(--paper); }
+.structure-mobile-hint { display:none;font-size:10px;font-weight:400;color:var(--muted); }
+.site-nav .nav-discovery { background:var(--brand-primary);color:var(--navy-deep);font-weight:700;border-radius:8px 8px 0 0;box-shadow:inset 0 -3px 0 var(--navy); }
+.site-nav .nav-discovery:hover,.site-nav .nav-discovery.active { background:#d0ec00;color:var(--ink);border-bottom-color:var(--navy); }
+.quote-updated { text-align:right;font-size:12px;color:var(--muted);margin:0 0 8px; }
+.company-table { min-width:1180px!important; }.company-table th:nth-child(1) { min-width:205px; }.company-table th:last-child { min-width:220px; }
+.quote-cell { white-space:nowrap;font-variant-numeric:tabular-nums; }.quote-up { color:#c62828;font-weight:600; }.quote-down { color:#087443;font-weight:600; }.quote-flat { color:var(--ink-2); }
+@media(max-width:850px) { .structure-mobile-hint { display:inline; }.chain-structure { padding:14px 12px 4px; } }
