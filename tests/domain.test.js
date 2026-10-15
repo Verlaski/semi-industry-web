@@ -3,6 +3,15 @@ const test=require('node:test');const assert=require('node:assert/strict');const
 const D=require('../02 交付/半导体装备与材料产业图谱/assets/js/domain');
 const base=path.join(__dirname,'../02 交付/半导体装备与材料产业图谱/data');
 const data=Object.fromEntries(['meta','equipment','materials','sources'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(base,n+'.json'),'utf8'))]));
+
+test('行情展示固定UTC+8，跨日和美股夏冬令时输入不受本机时区影响，缺失值不伪造时间',()=>{
+  assert.equal(D.formatQuoteTime('2026-10-15T08:14:48.000Z'),'2026-10-15 16:14:48（UTC+8）');
+  assert.equal(D.formatQuoteTime('2026-10-15T23:59:59Z'),'2026-10-16 07:59:59（UTC+8）');
+  assert.equal(D.formatQuoteTime('2026-10-15T16:00:00Z'),'2026-10-16 00:00:00（UTC+8）');
+  assert.equal(D.formatQuoteTime('2026-07-15T16:00:00-04:00'),'2026-07-16 04:00:00（UTC+8）');
+  assert.equal(D.formatQuoteTime('2026-01-15T16:00:00-05:00'),'2026-01-16 05:00:00（UTC+8）');
+  for(const value of [undefined,null,'','invalid'])assert.equal(D.formatQuoteTime(value),'待补充');
+});
 test('结构模型完整收录真实赛道、原料与下游，新增分组无需改图',()=>{
   const model=D.structureModel(data);
   const tracks=model.lanes.flatMap(l=>l.groups.flatMap(g=>g.tracks));

@@ -101,8 +101,12 @@
   function openCompany(key) {
     const c=repo.find(key);if(!c)return;
     const listing=D.primaryListing(c);
+    const names=[['中文名称',c.name_cn],['英文名称',c.name_en]]
+      .filter(([,value])=>typeof value==='string' && value.trim())
+      .map(([label,value])=>'<div><dt>'+label+'</dt><dd>'+esc(value)+'</dd></div>').join('');
     let html='<div class="drawer-eyebrow">公司详情'+(c.verified_master?'':' · 赛道名单兼容展示')+'</div><h2 id="drawer-title">'+esc(c.name)+'</h2>'+
-      '<p class="drawer-subtitle">'+esc(c.name_en || '')+'</p>'+drawerSection('基本信息','<div class="company-facts">'+badge(c)+'<span>'+esc(c.country_region || '国家地区待补充')+'</span></div>');
+      drawerSection('基本信息','<div class="company-facts">'+badge(c)+'<span>'+esc(c.country_region || '国家地区待补充')+'</span></div>'+
+        (names?'<dl class="source-facts company-names">'+names+'</dl>':''));
     let notes='';
     if(!c.verified_master)notes+='<p class="quiet-note">当前名称来自已收录赛道。上市身份及主体关系待正式公司数据库补充。</p>';
     if(c.combo)notes+='<p class="quiet-note">该记录包含组合名称，待研究人员确认主体关系；不参与机会抽卡。</p>';
@@ -173,7 +177,7 @@
     document.querySelectorAll('#company-results [data-quote-field]').forEach(cell=>{
       const q=quoteCache.get(cell.dataset.quoteSymbol),values=D.quoteDisplay(q),field=cell.dataset.quoteField;
       cell.textContent=values[field];cell.className='quote-cell'+(field==='cap'?'':' quote-'+values.trend);
-      cell.title=q?[q.symbol,'行情时间 '+(q.quote_time || '待补充'),'缓存获取 '+(q.fetched_at || '待补充'),quoteStatus[q.status] || '待确认',q.last_sync_failed?'同步失败，保留旧值':''].filter(Boolean).join(' · '):'行情关联待补充';
+      cell.title=q?[q.symbol,'行情时间 '+D.formatQuoteTime(q.quote_time),'缓存获取 '+D.formatQuoteTime(q.fetched_at),quoteStatus[q.status] || '待确认',q.last_sync_failed?'同步失败，保留旧值':''].filter(Boolean).join(' · '):'行情关联待补充';
     });
   }
   function renderDiscovery() {
@@ -279,7 +283,7 @@
   const quoteStatus={ok:'交易中',closed:'收盘行情',latest_close:'最新收盘',stale:'缓存待更新',unavailable:'暂无有效行情'};
   function quoteMarkup(q) {
     const valid=typeof q.price==='number'&&Number.isFinite(q.price)&&q.price>0;
-    return '<div class="quote-card"><div class="quote-label">'+esc(q.name || q.symbol)+' <span class="ticker">'+esc(q.symbol)+'</span></div><div class="quote-price">'+(valid?esc(q.price.toFixed(2)):'—')+' <small>'+esc(q.currency || '')+'</small></div><div class="quote-change">'+(valid && typeof q.change_pct==='number'?esc((q.change_pct>0?'+':'')+q.change_pct.toFixed(2))+'%':'')+' · '+esc(quoteStatus[q.status] || '待确认')+'</div><div class="quote-time">行情时间 '+esc(q.quote_time || '待补充')+'<br>获取时间 '+esc(q.fetched_at || '待补充')+'<br>来源 '+esc(q.provider || '待补充')+(typeof q.market_cap==='number'?'<br>总市值 '+esc(q.market_cap.toLocaleString('zh-CN'))+' '+esc(q.currency):'')+'</div></div>';
+    return '<div class="quote-card"><div class="quote-label">'+esc(q.name || q.symbol)+' <span class="ticker">'+esc(q.symbol)+'</span></div><div class="quote-price">'+(valid?esc(q.price.toFixed(2)):'—')+' <small>'+esc(q.currency || '')+'</small></div><div class="quote-change">'+(valid && typeof q.change_pct==='number'?esc((q.change_pct>0?'+':'')+q.change_pct.toFixed(2))+'%':'')+' · '+esc(quoteStatus[q.status] || '待确认')+'</div><div class="quote-time">行情时间 '+esc(D.formatQuoteTime(q.quote_time))+'<br>获取时间 '+esc(D.formatQuoteTime(q.fetched_at))+'<br>来源 '+esc(q.provider || '待补充')+(typeof q.market_cap==='number'?'<br>总市值 '+esc(q.market_cap.toLocaleString('zh-CN'))+' '+esc(q.currency):'')+'</div></div>';
   }
   async function loadQuotes(symbol) {
     const panel=symbol?document.querySelector('[data-company-quote]'):null;if(symbol&&!panel)return;
@@ -288,7 +292,7 @@
       else if(!symbol){response.quotes.forEach(q=>quoteCache.set(q.symbol,q));updateQuoteCells();
         const times=response.quotes.map(q=>Date.parse(q.fetched_at)).filter(Number.isFinite);
         const stamp=document.getElementById('company-quote-updated');
-        stamp.textContent='最近更新时间：'+(times.length?new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',dateStyle:'short',timeStyle:'medium',hour12:false}).format(new Date(Math.max(...times)))+'（北京时间）':'暂无有效缓存');stamp.title='最近一次成功获取行情缓存的时间；各证券行情时间见单元格提示';}
+        stamp.textContent='最近更新时间：'+(times.length?D.formatQuoteTime(Math.max(...times)):'暂无有效缓存');stamp.title='最近一次成功获取行情缓存的时间；各证券行情时间见单元格提示';}
     }catch(error){if(panel)panel.textContent=error.message;else {const stamp=document.getElementById('company-quote-updated');if(!quoteCache.size)stamp.textContent='最近更新时间：行情暂不可用';stamp.title=error.message;}}
   }
   function download(name,text,type) {

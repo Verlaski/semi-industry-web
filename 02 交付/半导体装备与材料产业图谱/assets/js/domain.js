@@ -169,6 +169,13 @@
       });
     }
   }
+  const quoteTimeFormatter=new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'});
+  function formatQuoteTime(value) {
+    if(value===null || value===undefined || value==='')return '待补充';
+    const date=new Date(value);if(!Number.isFinite(date.getTime()))return '待补充';
+    const p=Object.fromEntries(quoteTimeFormatter.formatToParts(date).map(part=>[part.type,part.value]));
+    return `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}:${p.second}（UTC+8）`;
+  }
   function marketGroup(market) {return ['A股','港股','美股'].includes(market) ? market : '其他海外';}
   function primaryListing(c) {return c.listings.find(l=>l.primary===true) || c.listings[0];}
   function recommendation(c,track) {
@@ -250,5 +257,5 @@
     const rng=random || Math.random;
     return pools.map(pool=>pool[Math.floor(rng()*pool.length)]);
   }
-  return {CompanyRepository,leaderRows,parseName,pieces,norm,selection,selected,structureModel,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory,quoteSymbol,quoteDisplay,preparationMessages};
+  return {CompanyRepository,leaderRows,parseName,pieces,norm,selection,selected,structureModel,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory,quoteSymbol,quoteDisplay,formatQuoteTime,preparationMessages};
 });

@@ -538,6 +538,7 @@ table.matrix { border-collapse:separate;border-spacing:0;min-width:850px;width:1
 .detail-drawer .relation-block { margin:0 0 10px;padding:12px 14px;border:1px solid #e1ebed;background:var(--paper);border-radius:7px; }.detail-drawer .relation-block:last-child { margin-bottom:0; }
 .detail-drawer .relation-role { color:var(--muted);font-size:11px;margin:5px 0; }.detail-drawer .source-facts { margin:0; }.detail-drawer .source-facts>div:first-child { border-top:0;padding-top:0; }
 .detail-drawer .drawer-section .company-facts { margin:0; }
+.detail-drawer .company-names { margin:14px 0 0; }
 @media(max-width:700px) { .detail-drawer .drawer-section { padding:14px;margin:16px 0; }.detail-drawer .drawer-section-title { margin-bottom:12px; } }
 .source-external { display:inline-block;text-decoration:none;margin-top:20px; }
 .reading-notes { color:var(--muted);padding-bottom:16px;margin-bottom:14px;border-bottom:1px solid var(--line); }
