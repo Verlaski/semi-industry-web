@@ -462,7 +462,7 @@
     configure(context);
     if(config().offline){document.documentElement.classList.add('offline-mode');document.getElementById('header-meta').insertAdjacentHTML('beforeend','<span class="offline-edition">离线版本</span>');}
     const save=document.getElementById('offline-save');
-    if(save){
+    if(save&&!config().offline){
       save.title='离线包准备中';
       if(config().offlineDownload){
         try{const url=new URL(config().offlineDownload);if(url.protocol!=='https:')throw new Error('下载地址必须使用 HTTPS');

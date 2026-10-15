@@ -11,12 +11,15 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / '02 交付' / '半导体装备与材料产业图谱'
+ONLINE_URL = 'https://teyvat-1-d8g0sba0a7e30225d-1463262475.tcloudbaseapp.com/semi-industry/index.html#/overview'
+FILENAME = '半导体装备与材料产业链龙头图谱_上海业务部_离线版本.zip'
 ASSETS = (
     'assets/css/style.css',
     'assets/js/domain.js', 'assets/js/product.js', 'assets/js/app.js',
     'assets/fonts/NotoSansSC-Regular.woff2', 'assets/fonts/NotoSansSC-Bold.woff2',
     'assets/fonts/NotoSansKR-Hangul-Regular.woff2', 'assets/fonts/NotoSansKR-Hangul-Bold.woff2',
     'assets/fonts/OFL.txt',
+    'assets/icons/github-mark.svg',
 )
 COMPANY_FIELDS = ('company_id', 'short_name', 'name_cn', 'name_en', 'aliases',
                   'country_region', 'listing_status', 'ipo_status', 'ipo_detail')
@@ -39,7 +42,9 @@ def make_files(site=SITE):
     encoded = json.dumps(bundle, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     html = (site / 'index.html').read_text(encoding='utf-8')
     html = html.replace('<meta charset="UTF-8">', '<meta charset="UTF-8">\n<meta http-equiv="Content-Security-Policy" content="connect-src \'none\'; object-src \'none\'; frame-src \'none\'">')
-    html = re.sub(r'\s*<a\b[^>]*\bid="offline-save"[^>]*>.*?</a>', '', html, flags=re.S)
+    html = re.sub(r'<a\b[^>]*\bid="offline-save"[^>]*>.*?</a>',
+                  '<a id="offline-save" class="nav-offline" href="' + ONLINE_URL + '" target="_blank" rel="noopener" title="访问在线版本"><img src="assets/icons/github-mark.svg" width="18" height="18" alt="">点击访问在线url</a>',
+                  html, flags=re.S)
     html = html.replace('<script src="assets/js/config.js">',
                         '<script id="offline-data" type="application/json">' + encoded + '</script>\n<script src="assets/js/config.js">')
     files = {name: (site / name).read_bytes() for name in ASSETS}
@@ -54,7 +59,7 @@ def build(destination, site=SITE):
     destination.mkdir(parents=True, exist_ok=True)
     files, bundle = make_files(site)
     version = str(bundle['meta']['version'])
-    filename = 'semi-industry-offline-' + version + '-' + bundle['meta']['updated'].replace('-', '') + '.zip'
+    filename = FILENAME
     archive = destination / filename
     with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=9) as package:
         for name, content in sorted(files.items()):

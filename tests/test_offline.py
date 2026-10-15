@@ -4,13 +4,14 @@ import tempfile
 import unittest
 import zipfile
 from pathlib import Path
-from tools.build_offline import ASSETS, SITE, build, make_files, public_bundle
+from tools.build_offline import ASSETS, SITE, ONLINE_URL, FILENAME, build, make_files, public_bundle
 
 
 class OfflinePackageTest(unittest.TestCase):
     def test_strict_file_allowlist_and_embedded_data(self):
         with tempfile.TemporaryDirectory() as target:
             result = build(target)
+            self.assertEqual(result['filename'], FILENAME)
             with zipfile.ZipFile(Path(target) / result['filename']) as package:
                 expected = {'semi-industry-offline/' + name for name in (*ASSETS, 'index.html', 'assets/js/config.js')}
                 self.assertEqual(set(package.namelist()), expected)
@@ -20,7 +21,10 @@ class OfflinePackageTest(unittest.TestCase):
                 self.assertNotIn('offlineDownload', config)
                 self.assertIn('"offline": true', config)
                 html = package.read('semi-industry-offline/index.html').decode()
-                self.assertNotIn('id="offline-save"', html)
+                self.assertIn('点击访问在线url', html)
+                self.assertIn('href="' + ONLINE_URL + '"', html)
+                self.assertNotIn('点击下载离线版本', html)
+                self.assertNotIn('aria-disabled="true"', html)
                 self.assertIn("connect-src 'none'", html)
                 payload = re.search(r'<script id="offline-data" type="application/json">(.*?)</script>', html, re.S)[1]
                 self.assertEqual(json.loads(payload), public_bundle())
