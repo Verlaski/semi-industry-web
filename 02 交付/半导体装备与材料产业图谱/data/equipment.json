@@ -95,50 +95,56 @@
       },
       "global_leaders": [
         {
-          "name": "Edwards 爱德华（Atlas Copco旗下）",
+          "name": "Edwards Edwards Vacuum",
           "country": "英",
           "share": "干式真空泵全球市占率常年超50%（收入口径，媒体援引）",
           "products": "干式真空泵、分子泵、真空计与尾气处理",
           "tag": "全球半导体真空泵绝对霸主，先进制程主导",
-          "source_id": "SRC-EU-03"
+          "source_id": "SRC-EU-03",
+          "company_id": "EDWARDS"
         },
         {
-          "name": "Ebara 荏原",
+          "name": "Ebara",
           "country": "日",
           "share": "N/A（按收入排名居前二）",
           "products": "干式真空泵、CMP设备",
           "tag": "日系干泵双雄之一",
-          "source_id": "SRC-EU-01"
+          "source_id": "SRC-EU-01",
+          "company_id": "EBARA"
         },
         {
-          "name": "Kashiyama 樫山工业",
+          "name": "Kashiyama",
           "country": "日",
           "share": "N/A（按收入排名前三）",
           "products": "干式真空泵",
           "tag": "集成电路干泵主要供应商之一",
-          "source_id": "SRC-EU-01"
+          "source_id": "SRC-EU-01",
+          "company_id": "KASHIYAMA"
         },
         {
-          "name": "Pfeiffer 普发",
+          "name": "Pfeiffer Vacuum",
           "country": "德",
           "share": "N/A（按收入排名）",
           "products": "涡轮分子泵、真空计",
           "tag": "分子泵领先厂商",
-          "source_id": "SRC-EU-03"
+          "source_id": "SRC-EU-03",
+          "company_id": "PFEIFFER"
         }
       ],
       "china_leaders": [
         {
-          "name": "中科仪(920186)",
+          "name": "中科仪",
           "share": "约12.72%（2024，中国大陆集成电路干式真空泵，收入口径，招股书）",
           "tag": "国内集成电路干式真空泵龙头，唯一在先进制程批量应用的国产企业",
-          "source_id": "SRC-EU-01"
+          "source_id": "SRC-EU-01",
+          "company_id": "SKY"
         },
         {
-          "name": "汉钟精机(002158)",
+          "name": "汉钟精机",
           "share": "N/A（按收入排名）",
           "tag": "干式螺杆真空泵已通过多家国内晶圆厂认可并开始批量供货（2024-2026）",
-          "source_id": "SRC-EU-02"
+          "source_id": "SRC-EU-02",
+          "company_id": "HANBELL"
         }
       ],
       "localization": {
@@ -173,20 +179,22 @@
       },
       "global_leaders": [
         {
-          "name": "MKS Instruments",
+          "name": "MKS MKS Instruments",
           "country": "美",
           "share": "前二，与AE合计约45%-50%（2025，收入口径，行业媒体）；另有口径称2022年两家合计87%",
           "products": "射频电源、匹配器、MFC、真空计",
           "tag": "射频电源双寡头之一，2024年营收35.86亿美元",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "MKS"
         },
         {
-          "name": "Advanced Energy 先进能源",
+          "name": "Advanced Energy",
           "country": "美",
           "share": "前二，与MKS合计约45%-50%（2025，收入口径，行业媒体）",
           "products": "射频电源、匹配网络、远程等离子源",
           "tag": "射频电源双寡头之一，2024年营收14.82亿美元",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "AEIS"
         },
         {
           "name": "DAIHEN",
@@ -194,49 +202,63 @@
           "share": "N/A（按收入排名，欧日第二梯队合计约25%-30%）",
           "products": "射频电源、传输机器人",
           "tag": "日系射频电源主力",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "DAIHEN"
         },
         {
-          "name": "Comet 康姆艾德",
+          "name": "Comet Comet Holding AG",
           "country": "瑞士",
           "share": "N/A（按收入排名）",
           "products": "射频电源、匹配器、真空电容",
           "tag": "欧系第二梯队",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "COMET"
         },
         {
-          "name": "TRUMPF Hüttinger 霍廷格",
+          "name": "TRUMPF Hüttinger",
           "country": "德",
           "share": "N/A（按收入排名）",
           "products": "射频及中频电源",
           "tag": "欧系第二梯队",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "TRUMPFHUTTINGER"
         }
       ],
       "china_leaders": [
         {
-          "name": "恒运昌(688785)",
+          "name": "恒运昌",
           "share": "中国大陆国产等离子体射频电源系统厂商中市占率第一（2024，弗若斯特沙利文）",
           "tag": "2020年起批量交付半导体级射频电源系统，2024年自研产品收入占比超80%",
-          "source_id": "SRC-EU-05"
+          "source_id": "SRC-EU-05",
+          "company_id": "CSLVAC"
         },
         {
-          "name": "英杰电气(300820)/英杰晨晖",
+          "name": "英杰电气 Injet",
           "share": "N/A（按收入排名）",
-          "tag": "射频电源已切入国内头部存储厂供应链，获中微公司战略投资",
-          "source_id": "SRC-EU-04"
+          "tag": "射频电源已切入国内头部存储厂供应链，获中微公司战略投资（原组合条目拆分）",
+          "source_id": "SRC-EU-04",
+          "company_id": "INJET"
+        },
+        {
+          "name": "英杰晨晖",
+          "share": "N/A（按收入排名）",
+          "tag": "射频电源已切入国内头部存储厂供应链，获中微公司战略投资（原组合条目拆分）",
+          "source_id": "SRC-EU-04",
+          "company_id": "YJCH"
         },
         {
           "name": "神州半导体",
           "share": "N/A（按收入排名）",
           "tag": "国内远程等离子体源（RPS）市占率本土第一，2026年北交所IPO受理",
-          "source_id": "SRC-EU-05"
+          "source_id": "SRC-EU-05",
+          "company_id": "SHENZHOU"
         },
         {
-          "name": "北方华创(002371)",
+          "name": "北方华创",
           "share": "N/A（自用为主）",
           "tag": "自研射频电源已批量应用于自家多款设备",
-          "source_id": "SRC-EU-05"
+          "source_id": "SRC-EU-05",
+          "company_id": "NAURA"
         }
       ],
       "localization": {
@@ -271,28 +293,31 @@
       },
       "global_leaders": [
         {
-          "name": "HORIBA 堀场",
+          "name": "HORIBA",
           "country": "日",
           "share": "第一；一口径称约61%（2024，收入），另一口径前三合计80.54%（2024，收入）",
           "products": "MFC、气体分析仪器",
           "tag": "全球半导体MFC龙头",
-          "source_id": "SRC-EU-07"
+          "source_id": "SRC-EU-07",
+          "company_id": "HORIBA"
         },
         {
-          "name": "Fujikin 富士金",
+          "name": "Fujikin",
           "country": "日",
           "share": "前三（与HORIBA、MKS合计80.54%，2024，收入口径）",
           "products": "MFC、超高纯阀门",
           "tag": "日系MFC与高纯阀件双料厂商",
-          "source_id": "SRC-EU-07"
+          "source_id": "SRC-EU-07",
+          "company_id": "FUJIKIN"
         },
         {
-          "name": "MKS Instruments",
+          "name": "MKS MKS Instruments",
           "country": "美",
           "share": "前三（2024，收入口径）",
           "products": "MFC、压力计、射频电源",
           "tag": "美系气体控制主力",
-          "source_id": "SRC-EU-07"
+          "source_id": "SRC-EU-07",
+          "company_id": "MKS"
         },
         {
           "name": "Brooks Instrument",
@@ -300,21 +325,24 @@
           "share": "N/A（按收入排名）",
           "products": "MFC（热式/压力式）",
           "tag": "老牌流量计厂商",
-          "source_id": "SRC-EU-08"
+          "source_id": "SRC-EU-08",
+          "company_id": "BRKINSTR"
         }
       ],
       "china_leaders": [
         {
-          "name": "北京七星流量计(Sevenstar，北方华创旗下)",
+          "name": "七星流量计 Sevenstar",
           "share": "N/A（按收入排名）",
           "tag": "国产MFC龙头，CS/D07系列批量配套国产设备与晶圆厂",
-          "source_id": "SRC-EU-31"
+          "source_id": "SRC-EU-31",
+          "company_id": "SEVENSTAR"
         },
         {
-          "name": "北京华丞电子",
+          "name": "华丞电子 AURASKY",
           "share": "N/A（按收入排名）",
           "tag": "国产MFC与射频电源均有布局",
-          "source_id": "SRC-EU-05"
+          "source_id": "SRC-EU-05",
+          "company_id": "AURASKY"
         }
       ],
       "localization": {
@@ -349,20 +377,22 @@
       },
       "global_leaders": [
         {
-          "name": "Advanced Thermal Sciences ATS",
+          "name": "ATS",
           "country": "美",
           "share": "N/A（按收入排名居全球前列；全球CR10约80.2%，2024）",
           "products": "半导体Chiller",
           "tag": "全球Chiller传统龙头",
-          "source_id": "SRC-EU-09"
+          "source_id": "SRC-EU-09",
+          "company_id": "ADVANCEDTS"
         },
         {
-          "name": "Shinwa Controls 伸和控制",
+          "name": "Shinwa Controls",
           "country": "日",
           "share": "N/A（按收入排名前列）",
           "products": "半导体Chiller",
           "tag": "日系Chiller主力",
-          "source_id": "SRC-EU-09"
+          "source_id": "SRC-EU-09",
+          "company_id": "SHINWACONTROLS"
         },
         {
           "name": "SMC",
@@ -370,29 +400,42 @@
           "share": "约12%（收入口径，媒体援引）",
           "products": "温控装置、气动元件",
           "tag": "自动化巨头，模块化低成本路线",
-          "source_id": "SRC-EU-09"
+          "source_id": "SRC-EU-09",
+          "company_id": "SMC"
         },
         {
-          "name": "Unisem/FST",
+          "name": "Unisem 유니셈",
           "country": "韩",
           "share": "N/A（按收入排名）",
           "products": "半导体Chiller",
-          "tag": "韩系配套厂商",
-          "source_id": "SRC-EU-09"
+          "tag": "韩系配套厂商（原组合条目拆分）",
+          "source_id": "SRC-EU-09",
+          "company_id": "UNISEM"
+        },
+        {
+          "name": "FST Fine Semitech",
+          "country": "韩",
+          "share": "N/A（按收入排名）",
+          "products": "半导体Chiller",
+          "tag": "韩系配套厂商（原组合条目拆分）",
+          "source_id": "SRC-EU-09",
+          "company_id": "FST"
         }
       ],
       "china_leaders": [
         {
-          "name": "京仪装备(688652)",
+          "name": "京仪装备",
           "share": "约39%（2024，中国大陆半导体专用温控设备，收入口径，QYResearch）",
           "tag": "国内市占率第一（2018年12.5%升至2022年35.73%），唯一实现先进制程大规模装机的国产厂商",
-          "source_id": "SRC-EU-11"
+          "source_id": "SRC-EU-11",
+          "company_id": "JINGYI"
         },
         {
-          "name": "同飞股份(300990)",
+          "name": "同飞股份",
           "share": "N/A（按收入排名）",
           "tag": "工业温控厂商切入半导体Chiller",
-          "source_id": "SRC-EU-09"
+          "source_id": "SRC-EU-09",
+          "company_id": "TONFY"
         }
       ],
       "localization": {
@@ -425,23 +468,35 @@
           "share": "N/A（自研自用，先进光刻机双工件台实质独占）",
           "products": "磁悬浮双工件台（TWINSCAN）",
           "tag": "全球唯一量产EUV/ArFi双工件台的厂商",
-          "source_id": "SRC-EU-29"
+          "source_id": "SRC-EU-29",
+          "company_id": "ASML"
         },
         {
-          "name": "Nikon/Canon",
+          "name": "尼康 Nikon",
           "country": "日",
           "share": "N/A（自研自用）",
           "products": "光刻机工件台",
-          "tag": "日系光刻机自研运动台",
-          "source_id": "SRC-EU-29"
+          "tag": "日系光刻机自研运动台（原组合条目拆分）",
+          "source_id": "SRC-EU-29",
+          "company_id": "NIKON"
+        },
+        {
+          "name": "佳能 Canon Inc.",
+          "country": "日",
+          "share": "N/A（自研自用）",
+          "products": "光刻机工件台",
+          "tag": "日系光刻机自研运动台（原组合条目拆分）",
+          "source_id": "SRC-EU-29",
+          "company_id": "CANON"
         }
       ],
       "china_leaders": [
         {
-          "name": "华卓精科(A04100，IPO辅导中)",
+          "name": "华卓精科 U-PRECISION",
           "share": "N/A（按收入排名）",
           "tag": "国内唯一、全球第二家掌握光刻机双工件台核心技术的企业，2026年磁浮双工件台定位精度达1.2nm（媒体报道口径）",
-          "source_id": "SRC-EU-29"
+          "source_id": "SRC-EU-29",
+          "company_id": "UPRECISION"
         }
       ],
       "localization": {
@@ -476,20 +531,31 @@
       },
       "global_leaders": [
         {
-          "name": "SHINKO 新光电气工业",
+          "name": "Shinko Shinko Electric",
           "country": "日",
           "share": "N/A（按收入排名，merchant市场领先）",
           "products": "陶瓷静电吸盘、真空部件",
           "tag": "ESC第三方供应龙头",
-          "source_id": "SRC-EU-13"
+          "source_id": "SRC-EU-13",
+          "company_id": "SHINKO"
         },
         {
-          "name": "NGK Insulators/NTK CERATEC 日本碍子",
+          "name": "NGK Insulators",
           "country": "日",
           "share": "N/A（按收入排名前列）",
           "products": "氮化铝ESC、陶瓷加热器",
-          "tag": "日系陶瓷ESC双雄之一",
-          "source_id": "SRC-EU-13"
+          "tag": "日系陶瓷ESC双雄之一（原组合条目拆分）",
+          "source_id": "SRC-EU-13",
+          "company_id": "NGKINSULATORS"
+        },
+        {
+          "name": "NTK CERATEC NTKセラテック",
+          "country": "日",
+          "share": "N/A（按收入排名前列）",
+          "products": "氮化铝ESC、陶瓷加热器",
+          "tag": "日系陶瓷ESC双雄之一（原组合条目拆分）",
+          "source_id": "SRC-EU-13",
+          "company_id": "NTKCERATEC"
         },
         {
           "name": "TOTO",
@@ -497,7 +563,8 @@
           "share": "N/A（按收入排名）",
           "products": "陶瓷静电吸盘",
           "tag": "陶瓷ESC主要供应商",
-          "source_id": "SRC-EU-13"
+          "source_id": "SRC-EU-13",
+          "company_id": "TOTO"
         },
         {
           "name": "Entegris",
@@ -505,29 +572,33 @@
           "share": "N/A（按收入排名）",
           "products": "ESC、材料与污染控制",
           "tag": "美系挑战者",
-          "source_id": "SRC-EU-13"
+          "source_id": "SRC-EU-13",
+          "company_id": "ENTEGRIS"
         },
         {
-          "name": "Kyocera 京瓷",
+          "name": "Kyocera",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "ESC、精密陶瓷部件",
           "tag": "精密陶瓷平台型厂商",
-          "source_id": "SRC-EU-13"
+          "source_id": "SRC-EU-13",
+          "company_id": "KYOCERA"
         }
       ],
       "china_leaders": [
         {
-          "name": "华卓精科",
+          "name": "华卓精科 U-PRECISION",
           "share": "N/A（按收入排名）",
           "tag": "覆盖刻蚀/PVD/离子注入全品类ESC，12寸PVD氮化铝ESC已小批量量产",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "UPRECISION"
         },
         {
-          "name": "珂玛科技(301611)",
+          "name": "珂玛科技",
           "share": "N/A（按收入排名）",
           "tag": "8寸单极刻蚀ESC小批量交付、12寸小规模量产，国内进度最快之一",
-          "source_id": "SRC-EU-04"
+          "source_id": "SRC-EU-04",
+          "company_id": "KEMATEK"
         }
       ],
       "localization": {
@@ -555,36 +626,40 @@
       ],
       "global_leaders": [
         {
-          "name": "Cymer（ASML子公司）",
+          "name": "Cymer Cymer LLC (ASML)",
           "country": "美",
           "share": "约80%以上（光刻机准分子激光光源，收入口径，行业研究口径）",
           "products": "ArF/KrF准分子激光光源、EUV光源",
           "tag": "光刻光源绝对龙头",
-          "source_id": "SRC-EU-14"
+          "source_id": "SRC-EU-14",
+          "company_id": "CYMER"
         },
         {
-          "name": "Gigaphoton（小松旗下）",
+          "name": "Gigaphoton ギガフォトン",
           "country": "日",
           "share": "N/A（按收入排名第二；公司称KrF略占优、ArF与Cymer大体相当）",
           "products": "KrF/ArF准分子激光光源",
           "tag": "光刻光源双寡头之一",
-          "source_id": "SRC-EU-15"
+          "source_id": "SRC-EU-15",
+          "company_id": "GIGAPHOTON"
         },
         {
-          "name": "TRUMPF 通快",
+          "name": "通快 TRUMPF",
           "country": "德",
           "share": "EUV驱动激光独家供应（100%，供应链口径）",
           "products": "EUV用高功率CO2激光系统",
           "tag": "EUV光源链独家卡位",
-          "source_id": "SRC-EU-16"
+          "source_id": "SRC-EU-16",
+          "company_id": "TRUMPF"
         }
       ],
       "china_leaders": [
         {
-          "name": "科益虹源",
+          "name": "科益虹源 RSLaser",
           "share": "N/A（按收入排名）",
           "tag": "国内唯一、全球第三家光刻准分子激光全链条研发与产业化公司，193nm ArF准分子激光器已出货",
-          "source_id": "SRC-EU-14"
+          "source_id": "SRC-EU-14",
+          "company_id": "RSLASER"
         }
       ],
       "localization": {
@@ -612,48 +687,63 @@
       ],
       "global_leaders": [
         {
-          "name": "Carl Zeiss SMT 卡尔蔡司SMT",
+          "name": "ZEISS SMT",
           "country": "德",
           "share": "约90%（EUV光刻光学元件，媒体/行业分析口径）；ASML EUV光学独家供应商",
           "products": "EUV反射光学系统、DUV投影物镜",
           "tag": "全球光刻光学绝对垄断者",
-          "source_id": "SRC-EU-17"
+          "source_id": "SRC-EU-17",
+          "company_id": "ZEISS"
         },
         {
-          "name": "Nikon/Canon",
+          "name": "尼康 Nikon",
           "country": "日",
           "share": "N/A（自研自用）",
           "products": "光刻物镜（自配）",
-          "tag": "日系光刻机自研物镜",
-          "source_id": "SRC-EU-17"
+          "tag": "日系光刻机自研物镜（原组合条目拆分）",
+          "source_id": "SRC-EU-17",
+          "company_id": "NIKON"
         },
         {
-          "name": "Berliner Glas（ASML旗下）",
+          "name": "佳能 Canon Inc.",
+          "country": "日",
+          "share": "N/A（自研自用）",
+          "products": "光刻物镜（自配）",
+          "tag": "日系光刻机自研物镜（原组合条目拆分）",
+          "source_id": "SRC-EU-17",
+          "company_id": "CANON"
+        },
+        {
+          "name": "Berliner Glas",
           "country": "德",
           "share": "N/A（按收入排名）",
           "products": "光学组件",
           "tag": "ASML体系光学配套",
-          "source_id": "SRC-EU-17"
+          "source_id": "SRC-EU-17",
+          "company_id": "BERLINERGLAS"
         }
       ],
       "china_leaders": [
         {
-          "name": "国科精密(未上市)",
+          "name": "国科精密",
           "share": "N/A（按收入排名）",
           "tag": "国产光刻物镜攻关主体之一",
-          "source_id": "SRC-EU-17"
+          "source_id": "SRC-EU-17",
+          "company_id": "CNEPO"
         },
         {
-          "name": "茂莱光学(688502)",
+          "name": "茂莱光学 MLOPTIC Corp.",
           "share": "N/A（按收入排名）",
           "tag": "半导体精密光学元件供应商，产品进入国产光刻/量检测供应链",
-          "source_id": "SRC-EU-16"
+          "source_id": "SRC-EU-16",
+          "company_id": "MLOPTIC"
         },
         {
-          "name": "福晶科技(002222)",
+          "name": "福晶科技 CASTECH Inc.",
           "share": "N/A（按收入排名）",
           "tag": "激光光学晶体与元件，切入半导体光学",
-          "source_id": "SRC-EU-16"
+          "source_id": "SRC-EU-16",
+          "company_id": "CASTECH"
         }
       ],
       "localization": {
@@ -692,20 +782,22 @@
       },
       "global_leaders": [
         {
-          "name": "Brooks Automation 布鲁克斯",
+          "name": "Brooks Automation",
           "country": "美",
           "share": "N/A（按收入排名前列）",
           "products": "真空/大气机械手、EFEM、自动化系统",
           "tag": "晶圆传输自动化老牌龙头",
-          "source_id": "SRC-EU-19"
+          "source_id": "SRC-EU-19",
+          "company_id": "BROOKS"
         },
         {
-          "name": "RORZE 罗泽",
+          "name": "Rorze",
           "country": "日",
           "share": "N/A（按收入排名前列）",
           "products": "晶圆传输机器人、EFEM",
           "tag": "深度绑定TSMC，EFEM主力厂商",
-          "source_id": "SRC-EU-19"
+          "source_id": "SRC-EU-19",
+          "company_id": "RORZE"
         },
         {
           "name": "DAIHEN",
@@ -713,37 +805,42 @@
           "share": "N/A（按收入排名）",
           "products": "洁净机器人、EFEM",
           "tag": "日系传输机器人主力",
-          "source_id": "SRC-EU-19"
+          "source_id": "SRC-EU-19",
+          "company_id": "DAIHEN"
         },
         {
-          "name": "Daifuku 大福",
+          "name": "Daifuku",
           "country": "日",
           "share": "N/A（AMHS按收入排名第一梯队）",
           "products": "AMHS天车系统、Stocker",
           "tag": "AMHS全球双寡头之一",
-          "source_id": "SRC-EU-19"
+          "source_id": "SRC-EU-19",
+          "company_id": "DAIFUKU"
         },
         {
-          "name": "Hirata 平田机工",
+          "name": "Hirata",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "EFEM、搬送设备",
           "tag": "日系EFEM供应商",
-          "source_id": "SRC-EU-19"
+          "source_id": "SRC-EU-19",
+          "company_id": "HIRATA"
         }
       ],
       "china_leaders": [
         {
-          "name": "新松机器人(300024，新松半导体)",
+          "name": "机器人",
           "share": "N/A（按收入排名）",
           "tag": "国内晶圆传输机器人国产化程度最高的厂商，真空机械手批量进入北方华创、中微公司供应链，EFEM/大气机械手全面导入市场，获大基金二期入股",
-          "source_id": "SRC-EU-18"
+          "source_id": "SRC-EU-18",
+          "company_id": "SIASUN"
         },
         {
-          "name": "京仪装备(688652)",
+          "name": "京仪装备",
           "share": "N/A（按收入排名）",
           "tag": "晶圆传片设备（Sorter）为主要产品线之一",
-          "source_id": "SRC-EU-10"
+          "source_id": "SRC-EU-10",
+          "company_id": "JINGYI"
         }
       ],
       "localization": {
@@ -778,70 +875,79 @@
       },
       "global_leaders": [
         {
-          "name": "Heraeus 贺利氏",
+          "name": "Heraeus",
           "country": "德",
           "share": "N/A（按收入排名；与大和热磁、泰谷诺、东曹合计约91%）",
           "products": "石英玻璃材料与制品",
           "tag": "全球石英材料寡头",
-          "source_id": "SRC-EU-21"
+          "source_id": "SRC-EU-21",
+          "company_id": "HERAEUS"
         },
         {
-          "name": "Ferrotec 大和热磁",
+          "name": "Ferrotec",
           "country": "日",
           "share": "N/A（按收入排名，四大家合计约91%）",
           "products": "石英制品、真空部件、热电材料",
           "tag": "石英加工件全球龙头",
-          "source_id": "SRC-EU-21"
+          "source_id": "SRC-EU-21",
+          "company_id": "FERROTEC"
         },
         {
-          "name": "Tosoh 东曹",
+          "name": "Tosoh",
           "country": "日",
           "share": "N/A（按收入排名，四大家合计约91%）",
           "products": "合成石英玻璃",
           "tag": "石英材料寡头",
-          "source_id": "SRC-EU-21"
+          "source_id": "SRC-EU-21",
+          "company_id": "TOSOH"
         },
         {
-          "name": "Momentive 迈图",
+          "name": "Momentive",
           "country": "美",
           "share": "N/A（按收入排名）",
           "products": "高纯石英材料",
           "tag": "美系石英材料主要厂商",
-          "source_id": "SRC-EU-20"
+          "source_id": "SRC-EU-20",
+          "company_id": "MOMENTIVE"
         },
         {
-          "name": "泰谷诺",
+          "name": "Techno Quartz",
           "country": "日",
           "share": "N/A（按收入排名，四大家合计约91%）",
           "products": "石英加工制品",
           "tag": "日系石英制品主要厂商",
-          "source_id": "SRC-EU-21"
+          "source_id": "SRC-EU-21",
+          "company_id": "TECHNOQUARTZ"
         }
       ],
       "china_leaders": [
         {
-          "name": "菲利华(300395)",
+          "name": "菲利华",
           "share": "N/A（按收入排名）",
           "tag": "国内石英材料/部件精密加工领先，通过AMAT、Lam、TEL、北方华创、中微认证",
-          "source_id": "SRC-EU-20"
+          "source_id": "SRC-EU-20",
+          "company_id": "FEILIHUA"
         },
         {
-          "name": "凯德石英(835179，江丰电子控股)",
+          "name": "凯德石英",
           "share": "N/A（按收入排名）",
           "tag": "聚焦12英寸半导体石英器件量产，北交所扩产高端产线",
-          "source_id": "SRC-EU-21"
+          "source_id": "SRC-EU-21",
+          "company_id": "KDSZ"
         },
         {
-          "name": "石英股份(603688)",
+          "name": "石英股份",
           "share": "N/A（按收入排名）",
           "tag": "高纯石英砂/石英材料平台，半导体认证推进中",
-          "source_id": "SRC-EU-20"
+          "source_id": "SRC-EU-20",
+          "company_id": "PACIFICQUARTZ"
         },
         {
-          "name": "臻宝科技(科创板IPO)",
+          "name": "臻宝科技 Genori",
           "share": "N/A（按收入排名）",
           "tag": "半导体设备石英制品新上市标的",
-          "source_id": "SRC-EU-28"
+          "source_id": "SRC-EU-28",
+          "company_id": "GENORI"
         }
       ],
       "localization": {
@@ -880,20 +986,22 @@
       },
       "global_leaders": [
         {
-          "name": "Kyocera 京瓷",
+          "name": "Kyocera",
           "country": "日",
           "share": "N/A（按收入排名；京瓷、NGK、CoorsTek等把持高端市场60%-70%份额，媒体口径）",
           "products": "精密陶瓷部件、ESC",
           "tag": "全球半导体陶瓷部件霸主",
-          "source_id": "SRC-EU-23"
+          "source_id": "SRC-EU-23",
+          "company_id": "KYOCERA"
         },
         {
-          "name": "NGK Insulators 日本碍子",
+          "name": "NGK Insulators",
           "country": "日",
           "share": "N/A（按收入排名前列）",
           "products": "氮化铝ESC、陶瓷加热器",
           "tag": "日系高端陶瓷部件双雄",
-          "source_id": "SRC-EU-22"
+          "source_id": "SRC-EU-22",
+          "company_id": "NGKINSULATORS"
         },
         {
           "name": "CoorsTek",
@@ -901,29 +1009,33 @@
           "share": "N/A（按收入排名前列）",
           "products": "先进陶瓷部件、耐腐蚀涂层",
           "tag": "美系陶瓷部件龙头",
-          "source_id": "SRC-EU-22"
+          "source_id": "SRC-EU-22",
+          "company_id": "COORSTEK"
         },
         {
-          "name": "Niterra 日本特殊陶业",
+          "name": "Niterra",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "精密陶瓷部件",
           "tag": "日系主要供应商",
-          "source_id": "SRC-EU-22"
+          "source_id": "SRC-EU-22",
+          "company_id": "NITERRA"
         }
       ],
       "china_leaders": [
         {
-          "name": "珂玛科技(301611)",
+          "name": "珂玛科技",
           "share": "国产供应商中约72%（2024，中国大陆国产半导体设备先进结构陶瓷供应商口径，公司公告引弗若斯特沙利文）",
           "tag": "国产先进陶瓷零部件绝对龙头，陶瓷加热器放量、ESC导入中",
-          "source_id": "SRC-EU-22"
+          "source_id": "SRC-EU-22",
+          "company_id": "KEMATEK"
         },
         {
-          "name": "中瓷电子(003031)",
+          "name": "中瓷电子",
           "share": "N/A（按收入排名）",
           "tag": "电子陶瓷平台，布局半导体精密陶瓷",
-          "source_id": "SRC-EU-22"
+          "source_id": "SRC-EU-22",
+          "company_id": "SINOPACK"
         }
       ],
       "localization": {
@@ -955,28 +1067,31 @@
       ],
       "global_leaders": [
         {
-          "name": "Silfex（Lam Research子公司）",
+          "name": "Silfex",
           "country": "美",
           "share": "N/A（按收入排名，全球刻蚀用硅部件主导地位）",
           "products": "刻蚀用硅电极、硅环",
           "tag": "硅部件原厂件霸主，配套Lam",
-          "source_id": "SRC-EU-25"
+          "source_id": "SRC-EU-25",
+          "company_id": "SILFEX"
         },
         {
-          "name": "Hana Materials",
+          "name": "Hana Materials Hana Silicon",
           "country": "韩",
           "share": "约13.3%（全球刻蚀用硅部件原厂件市场，媒体转引口径）",
           "products": "硅电极、硅环",
           "tag": "韩系硅部件龙头，客户含TEL/三星/AMAT",
-          "source_id": "SRC-EU-25"
+          "source_id": "SRC-EU-25",
+          "company_id": "HANAMAT"
         },
         {
-          "name": "Ultra Clean Holdings UCT",
+          "name": "Ultra Clean (UCT)",
           "country": "美",
           "share": "N/A（按收入排名）",
           "products": "气体输送系统、精密金属腔体与子模组",
           "tag": "设备商外包精密制造与子系统龙头",
-          "source_id": "SRC-EU-25"
+          "source_id": "SRC-EU-25",
+          "company_id": "UCT"
         },
         {
           "name": "Ichor Systems",
@@ -984,33 +1099,38 @@
           "share": "N/A（按收入排名）",
           "products": "气体/液体输送子系统、精密金属件",
           "tag": "美系精密子系统供应商",
-          "source_id": "SRC-EU-25"
+          "source_id": "SRC-EU-25",
+          "company_id": "ICHOR"
         }
       ],
       "china_leaders": [
         {
-          "name": "富创精密(688409)",
+          "name": "富创精密",
           "share": "N/A（按收入排名）",
           "tag": "国产精密零部件平台型龙头，腔体、内衬、匀气盘等工艺零部件批量配套国内外设备商（2024年报）",
-          "source_id": "SRC-EU-30"
+          "source_id": "SRC-EU-30",
+          "company_id": "FORTUNE"
         },
         {
-          "name": "神工股份(688233)",
+          "name": "神工股份",
           "share": "约13%-15%（集成电路刻蚀用单晶硅材料细分市场，全球，公司披露口径）",
           "tag": "国内刻蚀用硅材料龙头，材料进入Lam/AMAT/TEL供应链体系",
-          "source_id": "SRC-EU-26"
+          "source_id": "SRC-EU-26",
+          "company_id": "THINKON"
         },
         {
-          "name": "先锋精科(688605)",
+          "name": "先锋精科",
           "share": "N/A（按收入排名）",
           "tag": "刻蚀/薄膜设备精密零部件，问询回复披露行业国产化率约20%",
-          "source_id": "SRC-EU-24"
+          "source_id": "SRC-EU-24",
+          "company_id": "SPRINT"
         },
         {
-          "name": "新莱应材(300260)",
+          "name": "新莱应材",
           "share": "N/A（按收入排名）",
           "tag": "真空腔体、高洁净管阀件，半导体真空与气体系统配套",
-          "source_id": "SRC-EU-24"
+          "source_id": "SRC-EU-24",
+          "company_id": "KINGLAI"
         }
       ],
       "localization": {
@@ -1030,41 +1150,74 @@
         {
           "name": "EUV",
           "global_leaders": [
-            "ASML（荷）"
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            }
           ],
           "note": "ASML独家垄断（100%），含High-NA EUV；中国大陆受出口管制无法采购。"
         },
         {
           "name": "ArF浸没式",
           "global_leaders": [
-            "ASML（荷）",
-            "Nikon（日）"
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            },
+            {
+              "name": "尼康 Nikon",
+              "company_id": "NIKON"
+            }
           ],
           "note": "ASML占绝对主导（高端机型合计出货份额约91%），Nikon少量；对华出口受管制。"
         },
         {
           "name": "ArF干式",
           "global_leaders": [
-            "ASML（荷）",
-            "Nikon（日）"
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            },
+            {
+              "name": "尼康 Nikon",
+              "company_id": "NIKON"
+            }
           ],
           "note": "ASML为主，Nikon保有份额；成熟制程扩产带动需求。"
         },
         {
           "name": "KrF",
           "global_leaders": [
-            "ASML（荷）",
-            "Nikon（日）",
-            "Canon（日）"
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            },
+            {
+              "name": "尼康 Nikon",
+              "company_id": "NIKON"
+            },
+            {
+              "name": "佳能 Canon Inc.",
+              "company_id": "CANON"
+            }
           ],
           "note": "三家竞争，成熟制程主力机型，国产替代的主要切入区间。"
         },
         {
           "name": "i-line",
           "global_leaders": [
-            "Canon（日）",
-            "Nikon（日）",
-            "ASML（荷）"
+            {
+              "name": "佳能 Canon Inc.",
+              "company_id": "CANON"
+            },
+            {
+              "name": "尼康 Nikon",
+              "company_id": "NIKON"
+            },
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            }
           ],
           "note": "技术成熟、单价低，Canon份额较高；国产整机已有出货。"
         }
@@ -1078,12 +1231,13 @@
       },
       "global_leaders": [
         {
-          "name": "阿斯麦 ASML",
+          "name": "ASML",
           "country": "荷",
           "share": "约82%（2024，收入口径，按264亿美元市场与其光刻系统收入推算）；EUV独占100%，EUV/ArFi/ArF高端机型出货份额91.4%（2024）",
           "products": "EUV（NXE/EXE High-NA）、ArF浸没式/干式、KrF、i-line全线",
           "tag": "全球绝对龙头",
-          "source_id": "SRC-EF-05"
+          "source_id": "SRC-EF-05",
+          "company_id": "ASML"
         },
         {
           "name": "尼康 Nikon",
@@ -1091,23 +1245,26 @@
           "share": "N/A（按收入排名第二，个位数百分比）",
           "products": "ArF浸没式/干式、KrF、i-line",
           "tag": "第二供应商",
-          "source_id": "SRC-EF-05"
+          "source_id": "SRC-EF-05",
+          "company_id": "NIKON"
         },
         {
-          "name": "佳能 Canon",
+          "name": "佳能 Canon Inc.",
           "country": "日",
           "share": "N/A（按收入排名第三，个位数百分比）",
           "products": "KrF、i-line、纳米压印（NIL）",
           "tag": "成熟制程与NIL路线",
-          "source_id": "SRC-EF-05"
+          "source_id": "SRC-EF-05",
+          "company_id": "CANON"
         }
       ],
       "china_leaders": [
         {
-          "name": "上海微电子装备 SMEE",
+          "name": "上海微电子 SMEE",
           "share": "N/A（全球份额<1%，2024）",
           "tag": "国内唯一前道光刻整机厂，i-line/KrF已出货，ArF干式在验证",
-          "source_id": "SRC-EF-21"
+          "source_id": "SRC-EF-21",
+          "company_id": "SMEE"
         }
       ],
       "localization": {
@@ -1127,16 +1284,28 @@
         {
           "name": "前道inline涂胶显影（与光刻机联机）",
           "global_leaders": [
-            "TEL东京电子（日）"
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            }
           ],
           "note": "TEL全球约90-92%，EUV配套Track达100%，与ASML深度绑定。"
         },
         {
           "name": "offline/独立式及先进封装Track",
           "global_leaders": [
-            "TEL（日）",
-            "SCREEN（日）",
-            "SUSS MicroTec（德）"
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "SCREEN SCREENホールディングス",
+              "company_id": "SCREEN"
+            },
+            {
+              "name": "SUSS SUSS MicroTec SE",
+              "company_id": "SUSS"
+            }
           ],
           "note": "TEL仍主导，竞争者较多，是国产突破的切入区间。"
         }
@@ -1155,31 +1324,35 @@
           "share": "约90-92%（2024，收入口径）",
           "products": "CLEAN TRACK LITHIUS Pro系列，覆盖EUV/ArF/KrF/i-line全线联机Track",
           "tag": "绝对垄断",
-          "source_id": "SRC-EF-08"
+          "source_id": "SRC-EF-08",
+          "company_id": "TEL"
         },
         {
-          "name": "SCREEN Holdings 迪恩士",
+          "name": "SCREEN SCREENホールディングス",
           "country": "日",
           "share": "N/A（按收入排名第二，个位数百分比）",
           "products": "涂胶显影、清洗设备",
           "tag": "第二供应商",
-          "source_id": "SRC-EF-08"
+          "source_id": "SRC-EF-08",
+          "company_id": "SCREEN"
         },
         {
-          "name": "SUSS MicroTec",
+          "name": "SUSS SUSS MicroTec SE",
           "country": "德",
           "share": "N/A（按收入排名）",
           "products": "先进封装/化合物半导体Track",
           "tag": "后道细分",
-          "source_id": "SRC-EF-08"
+          "source_id": "SRC-EF-08",
+          "company_id": "SUSS"
         }
       ],
       "china_leaders": [
         {
-          "name": "芯源微 Kingsemi",
+          "name": "芯源微",
           "share": "N/A（中国大陆份额不足10%，2024）",
           "tag": "国内唯一量产前道涂胶显影机厂商，28nm及以上工艺全覆盖，28nm以下验证中",
-          "source_id": "SRC-EF-07"
+          "source_id": "SRC-EF-07",
+          "company_id": "KINGSEMI"
         }
       ],
       "localization": {
@@ -1199,18 +1372,36 @@
         {
           "name": "介质刻蚀 CCP",
           "global_leaders": [
-            "Lam Research（美）",
-            "TEL（日）",
-            "AMAT（美）"
+            {
+              "name": "Lam Research",
+              "company_id": "LAM"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            }
           ],
           "note": "Lam主导CCP；国产中微公司在CCP突破最深，已进入5nm及以下产线。"
         },
         {
           "name": "硅与金属刻蚀 ICP",
           "global_leaders": [
-            "Lam Research（美）",
-            "TEL（日）",
-            "AMAT（美）"
+            {
+              "name": "Lam Research",
+              "company_id": "LAM"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            }
           ],
           "note": "ICP/导体刻蚀TEL较强；国产北方华创以ICP见长。两细分海外格局同为三家垄断（CR3约90%），差异不大，故合并呈现。"
         }
@@ -1224,12 +1415,13 @@
       },
       "global_leaders": [
         {
-          "name": "泛林 Lam Research",
+          "name": "Lam Research",
           "country": "美",
           "share": "约40-45%（2024，收入口径）",
           "products": "CCP介质刻蚀、ICP导体刻蚀、高深宽比刻蚀全线",
           "tag": "全球第一",
-          "source_id": "SRC-EF-10"
+          "source_id": "SRC-EF-10",
+          "company_id": "LAM"
         },
         {
           "name": "东京电子 TEL",
@@ -1237,29 +1429,33 @@
           "share": "约30-35%（2024，收入口径）",
           "products": "ICP导体刻蚀领先，介质刻蚀",
           "tag": "全球第二",
-          "source_id": "SRC-EF-10"
+          "source_id": "SRC-EF-10",
+          "company_id": "TEL"
         },
         {
-          "name": "应用材料 Applied Materials",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "约15-20%（2024，收入口径）",
           "products": "导体/金属刻蚀、选择性刻蚀",
           "tag": "全球第三",
-          "source_id": "SRC-EF-10"
+          "source_id": "SRC-EF-10",
+          "company_id": "AMAT"
         }
       ],
       "china_leaders": [
         {
-          "name": "中微公司 AMEC",
+          "name": "中微公司",
           "share": "约10-12%（中国大陆市场，2024）；全球约1.4%（2021，Gartner）",
           "tag": "CCP介质刻蚀国产龙头，累计交付CCP反应台超3800个（2024Q3），覆盖28nm以上绝大部分CCP应用并进入5nm以下产线",
-          "source_id": "SRC-EF-11"
+          "source_id": "SRC-EF-11",
+          "company_id": "AMEC"
         },
         {
-          "name": "北方华创 NAURA",
+          "name": "北方华创",
           "share": "约8-10%（中国大陆市场，2024）；全球约0.9%（2021，Gartner）",
           "tag": "ICP硅/金属刻蚀国产龙头，ICP累计出货超3200腔（2023年底）",
-          "source_id": "SRC-EF-10"
+          "source_id": "SRC-EF-10",
+          "company_id": "NAURA"
         }
       ],
       "localization": {
@@ -1279,32 +1475,56 @@
         {
           "name": "PVD",
           "global_leaders": [
-            "AMAT应用材料（美）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            }
           ],
           "note": "AMAT约85%绝对垄断；国产北方华创覆盖逻辑/存储大部分PVD应用。"
         },
         {
           "name": "CVD（含PECVD/LPCVD）",
           "global_leaders": [
-            "AMAT（美）",
-            "Lam Research（美）",
-            "TEL（日）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "Lam Research",
+              "company_id": "LAM"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            }
           ],
           "note": "CR3约70%（AMAT 30%/Lam 21%/TEL 19%，2019 Gartner）；PECVD为最大细分（占沉积33%），国产拓荆科技主攻。"
         },
         {
           "name": "ALD",
           "global_leaders": [
-            "TEL（日）",
-            "ASM International（荷）"
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "ASM International",
+              "company_id": "ASMI"
+            }
           ],
           "note": "TEL约31%、ASM约29%（2019 Gartner）；国产拓荆、微导纳米、北方华创布局。"
         },
         {
           "name": "外延 Epi",
           "global_leaders": [
-            "AMAT（美）",
-            "ASM International（荷）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "ASM International",
+              "company_id": "ASMI"
+            }
           ],
           "note": "海外双头主导；国产北方华创已有EPI产品布局。"
         }
@@ -1318,20 +1538,22 @@
       },
       "global_leaders": [
         {
-          "name": "应用材料 Applied Materials",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "PVD约85%、CVD约30%（2019，Gartner，收入口径）",
           "products": "PVD/CVD/ALD/Epi全线，Endura、Producer平台",
           "tag": "综合龙头",
-          "source_id": "SRC-EF-13"
+          "source_id": "SRC-EF-13",
+          "company_id": "AMAT"
         },
         {
-          "name": "泛林 Lam Research",
+          "name": "Lam Research",
           "country": "美",
           "share": "CVD约21%（2019，Gartner）",
           "products": "CVD/ALD/ECD电镀",
           "tag": "CVD/ALD强",
-          "source_id": "SRC-EF-13"
+          "source_id": "SRC-EF-13",
+          "company_id": "LAM"
         },
         {
           "name": "东京电子 TEL",
@@ -1339,7 +1561,8 @@
           "share": "CVD约19%、ALD约31%（2019，Gartner）",
           "products": "CVD/ALD/炉管沉积",
           "tag": "ALD领先",
-          "source_id": "SRC-EF-13"
+          "source_id": "SRC-EF-13",
+          "company_id": "TEL"
         },
         {
           "name": "ASM International",
@@ -1347,33 +1570,38 @@
           "share": "ALD约29%（2019，Gartner）",
           "products": "ALD、Epi外延",
           "tag": "ALD/Epi细分龙头",
-          "source_id": "SRC-EF-13"
+          "source_id": "SRC-EF-13",
+          "company_id": "ASMI"
         }
       ],
       "china_leaders": [
         {
-          "name": "北方华创 NAURA",
+          "name": "北方华创",
           "share": "N/A（全球份额个位数；国内PVD主力）",
           "tag": "PVD/CVD/ALD/EPI/ECP全系列布局，2024年薄膜沉积收入超100亿元，Metal Gate PVD实现28nm量产",
-          "source_id": "SRC-EF-14"
+          "source_id": "SRC-EF-14",
+          "company_id": "NAURA"
         },
         {
-          "name": "拓荆科技 Piotech",
+          "name": "拓荆科技 Piotech Inc.",
           "share": "N/A（国内PECVD主力）",
           "tag": "PECVD/ALD国产龙头，混合键合设备延伸",
-          "source_id": "SRC-EF-12"
+          "source_id": "SRC-EF-12",
+          "company_id": "PIOTECH"
         },
         {
-          "name": "中微公司 AMEC",
+          "name": "中微公司",
           "share": "N/A",
           "tag": "LPCVD/W CVD等布局，平台化扩张",
-          "source_id": "SRC-EF-11"
+          "source_id": "SRC-EF-11",
+          "company_id": "AMEC"
         },
         {
-          "name": "微导纳米 Leadmicro",
+          "name": "微导纳米",
           "share": "N/A",
           "tag": "ALD细分国产厂商",
-          "source_id": "SRC-EF-15"
+          "source_id": "SRC-EF-15",
+          "company_id": "LEADMICRO"
         }
       ],
       "localization": {
@@ -1393,17 +1621,32 @@
         {
           "name": "单片清洗",
           "global_leaders": [
-            "SCREEN（日）",
-            "TEL（日）",
-            "Lam Research（美）"
+            {
+              "name": "SCREEN SCREENホールディングス",
+              "company_id": "SCREEN"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "Lam Research",
+              "company_id": "LAM"
+            }
           ],
           "note": "SCREEN全球约50%（湿法/清洗整体口径），单片为主流路线；国产盛美上海SAPS/TEBO差异化突破。"
         },
         {
           "name": "槽式清洗",
           "global_leaders": [
-            "SCREEN（日）",
-            "TEL（日）"
+            {
+              "name": "SCREEN SCREENホールディングス",
+              "company_id": "SCREEN"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            }
           ],
           "note": "日系主导槽式；国产北方华创、至纯科技具备批量能力。"
         }
@@ -1417,12 +1660,13 @@
       },
       "global_leaders": [
         {
-          "name": "SCREEN Holdings 迪恩士",
+          "name": "SCREEN SCREENホールディングス",
           "country": "日",
           "share": "约50%（2022，收入口径，SEMI口径引用）",
           "products": "单片/槽式清洗全线",
           "tag": "全球第一",
-          "source_id": "SRC-EF-17"
+          "source_id": "SRC-EF-17",
+          "company_id": "SCREEN"
         },
         {
           "name": "东京电子 TEL",
@@ -1430,41 +1674,47 @@
           "share": "N/A（按收入排名第二）",
           "products": "单片清洗、涂胶显影联机清洗",
           "tag": "日系双雄",
-          "source_id": "SRC-EF-17"
+          "source_id": "SRC-EF-17",
+          "company_id": "TEL"
         },
         {
-          "name": "泛林 Lam Research",
+          "name": "Lam Research",
           "country": "美",
           "share": "N/A（按收入排名第三）",
           "products": "单片清洗、干法清洗",
           "tag": "主要竞争者",
-          "source_id": "SRC-EF-17"
+          "source_id": "SRC-EF-17",
+          "company_id": "LAM"
         }
       ],
       "china_leaders": [
         {
-          "name": "盛美上海 ACM Research",
+          "name": "盛美上海",
           "share": "约7.2%（全球，2023，Gartner，排名第五）；约23%（中国大陆，中银证券历年累计口径）",
           "tag": "国产清洗龙头，SAPS/TEBO兆声波单片清洗全球首创，已用于逻辑28nm、DRAM 19nm节点",
-          "source_id": "SRC-EF-18"
+          "source_id": "SRC-EF-18",
+          "company_id": "ACMSH"
         },
         {
-          "name": "北方华创 NAURA",
+          "name": "北方华创",
           "share": "N/A（按收入排名国内第二梯队）",
           "tag": "槽式/单片清洗布局",
-          "source_id": "SRC-EF-18"
+          "source_id": "SRC-EF-18",
+          "company_id": "NAURA"
         },
         {
-          "name": "至纯科技 PNCS",
+          "name": "至纯科技",
           "share": "N/A",
           "tag": "湿法槽式清洗批量供货",
-          "source_id": "SRC-EF-18"
+          "source_id": "SRC-EF-18",
+          "company_id": "PNCS"
         },
         {
-          "name": "芯源微 Kingsemi",
+          "name": "芯源微",
           "share": "N/A",
           "tag": "单片式化学清洗机拓展中",
-          "source_id": "SRC-EF-17"
+          "source_id": "SRC-EF-17",
+          "company_id": "KINGSEMI"
         }
       ],
       "localization": {
@@ -1484,17 +1734,32 @@
         {
           "name": "炉管（立式/卧式氧化扩散炉）",
           "global_leaders": [
-            "TEL（日）",
-            "Kokusai Electric（日）",
-            "AMAT（美）"
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "Kokusai Electric",
+              "company_id": "KOKUSAI"
+            },
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            }
           ],
           "note": "炉管以日系为主；国产北方华创立式炉批量应用。"
         },
         {
           "name": "RTP快速热处理",
           "global_leaders": [
-            "AMAT（美）",
-            "屹唐半导体 Mattson（中）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "屹唐股份 Mattson",
+              "company_id": "ETOWNSEMI"
+            }
           ],
           "note": "RTP占热处理约47%（2022 Gartner）；屹唐（Mattson）RTP居全球第二，为国产稀缺国际级资产。"
         }
@@ -1508,12 +1773,13 @@
       },
       "global_leaders": [
         {
-          "name": "应用材料 Applied Materials",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "约46%（2022，收入口径，Gartner）",
           "products": "RTP单片快速热处理、氧化/退火",
           "tag": "整体第一、RTP主导",
-          "source_id": "SRC-EF-20"
+          "source_id": "SRC-EF-20",
+          "company_id": "AMAT"
         },
         {
           "name": "东京电子 TEL",
@@ -1521,29 +1787,33 @@
           "share": "约21%（2022，Gartner）",
           "products": "立式炉管氧化/扩散/退火",
           "tag": "炉管龙头",
-          "source_id": "SRC-EF-20"
+          "source_id": "SRC-EF-20",
+          "company_id": "TEL"
         },
         {
-          "name": "Kokusai Electric 日立国际电气",
+          "name": "Kokusai Electric",
           "country": "日",
           "share": "约15%（2022，Gartner）",
           "products": "立式炉管、批式沉积/氧化",
           "tag": "炉管第二",
-          "source_id": "SRC-EF-20"
+          "source_id": "SRC-EF-20",
+          "company_id": "KOKUSAI"
         }
       ],
       "china_leaders": [
         {
-          "name": "北方华创 NAURA",
+          "name": "北方华创",
           "share": "N/A（全球份额个位数）",
           "tag": "立式氧化/扩散炉国产主力，批量进入国内产线",
-          "source_id": "SRC-EF-20"
+          "source_id": "SRC-EF-20",
+          "company_id": "NAURA"
         },
         {
-          "name": "屹唐半导体（Mattson）",
+          "name": "屹唐股份 Mattson",
           "share": "约5%（全球热处理整体，2022）；RTP细分全球第二",
           "tag": "RTP国产/中资国际化龙头，干法去胶亦强",
-          "source_id": "SRC-EF-20"
+          "source_id": "SRC-EF-20",
+          "company_id": "ETOWNSEMI"
         }
       ],
       "localization": {
@@ -1563,16 +1833,32 @@
         {
           "name": "中低束流/大束流",
           "global_leaders": [
-            "AMAT应用材料（美）",
-            "Axcelis 亚舍立（美）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "Axcelis",
+              "company_id": "ACLS"
+            }
           ],
           "note": "AMAT整体份额超50%；大束流为最大细分。"
         },
         {
           "name": "高能离子注入",
           "global_leaders": [
-            "Axcelis（美）",
-            "Sumitomo/SEN 住友重工（日）"
+            {
+              "name": "Axcelis",
+              "company_id": "ACLS"
+            },
+            {
+              "name": "住友重工 SEN Sumitomo",
+              "company_id": "SHI"
+            },
+            {
+              "name": "SEN",
+              "company_id": "SEN"
+            }
           ],
           "note": "Axcelis高能机型份额约55%。"
         }
@@ -1586,42 +1872,56 @@
       },
       "global_leaders": [
         {
-          "name": "应用材料 Applied Materials（Varian）",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "超50%（收入口径，行业整理）",
           "products": "全谱系离子注入机",
           "tag": "全球第一",
-          "source_id": "SRC-EF-22"
+          "source_id": "SRC-EF-22",
+          "company_id": "AMAT"
         },
         {
-          "name": "Axcelis 亚舍立",
+          "name": "Axcelis",
           "country": "美",
           "share": "N/A（整体第二；高能机型约55%）",
           "products": "Purion系列，高能/大束流/中束流",
           "tag": "高能细分龙头",
-          "source_id": "SRC-EF-22"
+          "source_id": "SRC-EF-22",
+          "company_id": "ACLS"
         },
         {
-          "name": "住友重工/SEN Sumitomo",
+          "name": "住友重工 SEN Sumitomo",
           "country": "日",
           "share": "N/A（第三；2024年三家合计89%）",
           "products": "中束流/高能注入机",
-          "tag": "日系供应商",
-          "source_id": "SRC-EF-23"
+          "tag": "日系供应商（原组合条目拆分）",
+          "source_id": "SRC-EF-23",
+          "company_id": "SHI"
+        },
+        {
+          "name": "住友重工 SEN Sumitomo",
+          "country": "日",
+          "share": "N/A（第三；2024年三家合计89%）",
+          "products": "中束流/高能注入机",
+          "tag": "日系供应商（原组合条目拆分）",
+          "source_id": "SRC-EF-23",
+          "company_id": "SHI"
         }
       ],
       "china_leaders": [
         {
-          "name": "凯世通 Kingstone（先导基电/万业企业旗下）",
+          "name": "凯世通 KST",
           "share": "N/A（国内出货领先，份额个位数）",
           "tag": "国产离子注入整机龙头，2026年发布Hyperion先进制程大束流与iKing 360中束流新品，覆盖逻辑/存储/SiC",
-          "source_id": "SRC-EF-24"
+          "source_id": "SRC-EF-24",
+          "company_id": "KINGSTONE"
         },
         {
-          "name": "中科信（电科装备CETC）",
+          "name": "中科信",
           "share": "N/A",
           "tag": "全谱系产品国产化，工艺达28nm，已启动IPO",
-          "source_id": "SRC-EF-24"
+          "source_id": "SRC-EF-24",
+          "company_id": "ZKX"
         }
       ],
       "localization": {
@@ -1641,16 +1941,28 @@
         {
           "name": "12英寸CMP",
           "global_leaders": [
-            "AMAT应用材料（美）",
-            "Ebara 荏原（日）"
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "Ebara",
+              "company_id": "EBARA"
+            }
           ],
           "note": "双寡头合计超90%（AMAT约64%、Ebara约29%）；华海清科为国内唯一12英寸量产厂商。"
         },
         {
           "name": "减薄/其他平坦化",
           "global_leaders": [
-            "Disco（日）",
-            "东京精密（日）"
+            {
+              "name": "DISCO",
+              "company_id": "DISCO"
+            },
+            {
+              "name": "东京精密 ACCRETECH",
+              "company_id": "ACCRETECH"
+            }
           ],
           "note": "减薄环节日系主导；华海清科减薄装备已放量。"
         }
@@ -1664,34 +1976,38 @@
       },
       "global_leaders": [
         {
-          "name": "应用材料 Applied Materials",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "约64%（2020，收入口径，Gartner）",
           "products": "Reflexion系列12英寸CMP",
           "tag": "全球第一",
-          "source_id": "SRC-EF-25"
+          "source_id": "SRC-EF-25",
+          "company_id": "AMAT"
         },
         {
-          "name": "荏原 Ebara",
+          "name": "Ebara",
           "country": "日",
           "share": "约29%（2020，Gartner）",
           "products": "CMP设备、干进干出系统",
           "tag": "全球第二",
-          "source_id": "SRC-EF-25"
+          "source_id": "SRC-EF-25",
+          "company_id": "EBARA"
         }
       ],
       "china_leaders": [
         {
-          "name": "华海清科 Hwatsing",
+          "name": "华海清科",
           "share": "超90%（中国大陆12英寸国产CMP设备中）",
           "tag": "国内唯一12英寸CMP商业化量产厂商，进入中芯国际、长江存储、华虹、长鑫核心产线；2025年营收46.48亿元（+36.5%）",
-          "source_id": "SRC-EF-26"
+          "source_id": "SRC-EF-26",
+          "company_id": "HWATSING"
         },
         {
-          "name": "烁科精微（电科装备）",
+          "name": "烁科精微",
           "share": "N/A",
           "tag": "8/12英寸CMP布局",
-          "source_id": "SRC-EF-26"
+          "source_id": "SRC-EF-26",
+          "company_id": "SKJW"
         }
       ],
       "localization": {
@@ -1711,27 +2027,54 @@
         {
           "name": "缺陷检测（明场/暗场/电子束）",
           "global_leaders": [
-            "KLA科磊（美）",
-            "AMAT（美）",
-            "Lasertec（日）"
+            {
+              "name": "KLA",
+              "company_id": "KLA"
+            },
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "Lasertec",
+              "company_id": "LASERTEC"
+            }
           ],
           "note": "KLA在明/暗场检测绝对优势（部分高端细分超90%）；Lasertec独占EUV掩膜检测。"
         },
         {
           "name": "量测（CD-SEM/套刻/膜厚）",
           "global_leaders": [
-            "KLA（美）",
-            "Hitachi High-Tech日立高新（日）",
-            "AMAT（美）",
-            "ASML（荷）"
+            {
+              "name": "KLA",
+              "company_id": "KLA"
+            },
+            {
+              "name": "Hitachi High-Tech",
+              "company_id": "HHT"
+            },
+            {
+              "name": "Applied Materials AMAT",
+              "company_id": "AMAT"
+            },
+            {
+              "name": "ASML",
+              "company_id": "ASML"
+            }
           ],
           "note": "CD-SEM日立高新主导；套刻量测KLA与ASML双强。"
         },
         {
           "name": "掩膜版检测",
           "global_leaders": [
-            "Lasertec（日）",
-            "KLA（美）"
+            {
+              "name": "Lasertec",
+              "company_id": "LASERTEC"
+            },
+            {
+              "name": "KLA",
+              "company_id": "KLA"
+            }
           ],
           "note": "EUV掩膜检测Lasertec近乎独占，壁垒极高。"
         }
@@ -1745,28 +2088,31 @@
       },
       "global_leaders": [
         {
-          "name": "科磊 KLA",
+          "name": "KLA",
           "country": "美",
           "share": "超50%（2024，收入口径；中国市场约54.8%）",
           "products": "明场/暗场/电子束检测、套刻/膜厚/CD量测全线",
           "tag": "一超垄断",
-          "source_id": "SRC-EF-27"
+          "source_id": "SRC-EF-27",
+          "company_id": "KLA"
         },
         {
-          "name": "应用材料 Applied Materials",
+          "name": "Applied Materials AMAT",
           "country": "美",
           "share": "N/A（第二，约9-12%）",
           "products": "电子束检测/复查、光学检测",
           "tag": "四强之一",
-          "source_id": "SRC-EF-28"
+          "source_id": "SRC-EF-28",
+          "company_id": "AMAT"
         },
         {
-          "name": "日立高新 Hitachi High-Tech",
+          "name": "Hitachi High-Tech",
           "country": "日",
           "share": "N/A（第三；CD-SEM主导）",
           "products": "CD-SEM、电子束量测",
           "tag": "CD-SEM龙头",
-          "source_id": "SRC-EF-28"
+          "source_id": "SRC-EF-28",
+          "company_id": "HHT"
         },
         {
           "name": "Lasertec",
@@ -1774,7 +2120,8 @@
           "share": "N/A（掩膜检测细分近垄断）",
           "products": "EUV/DUV掩膜版检测（ACTIS/MATRICS）",
           "tag": "掩膜检测独占",
-          "source_id": "SRC-EF-28"
+          "source_id": "SRC-EF-28",
+          "company_id": "LASERTEC"
         },
         {
           "name": "ASML",
@@ -1782,33 +2129,38 @@
           "share": "N/A",
           "products": "套刻量测（YieldStar）、电子束检测（eScan）",
           "tag": "光刻配套量测",
-          "source_id": "SRC-EF-28"
+          "source_id": "SRC-EF-28",
+          "company_id": "ASML"
         }
       ],
       "china_leaders": [
         {
-          "name": "中科飞测 Skyverse",
+          "name": "中科飞测",
           "share": "N/A（国内收入体量第一；国产化率<10%）",
           "tag": "无图形/图形缺陷检测+量测全布局，与KLA产品体系对标，多款设备在头部客户产线批量应用",
-          "source_id": "SRC-EF-29"
+          "source_id": "SRC-EF-29",
+          "company_id": "SKYVERSE"
         },
         {
-          "name": "精测电子（上海精测）",
+          "name": "精测电子",
           "share": "N/A",
           "tag": "膜厚/OCD/电子束复查领先，膜厚设备实现国产替代突破",
-          "source_id": "SRC-EF-29"
+          "source_id": "SRC-EF-29",
+          "company_id": "JINGCE"
         },
         {
-          "name": "上海睿励 RSIC",
+          "name": "上海睿励",
           "share": "N/A",
           "tag": "光学膜厚量测老牌国产厂商",
-          "source_id": "SRC-EF-21"
+          "source_id": "SRC-EF-21",
+          "company_id": "RSIC"
         },
         {
           "name": "东方晶源 DJEL",
           "share": "N/A",
           "tag": "电子束缺陷检测（EBI）与计算光刻",
-          "source_id": "SRC-EF-29"
+          "source_id": "SRC-EF-29",
+          "company_id": "DJEL"
         }
       ],
       "localization": {
@@ -1828,127 +2180,344 @@
         {
           "name": "划片切割",
           "global_leaders": [
-            "DISCO 迪思科(日)：全球市占率约59%-65%（2022-2025，口径不一），砂轮/激光划片绝对龙头",
-            "东京精密 Accretech(日)：全球第二，市占率约12%-25%（口径不一）",
-            "光力科技(中，含收购的以色列ADT/英国LP)：全球前三"
+            {
+              "name": "DISCO",
+              "company_id": "DISCO"
+            },
+            {
+              "name": "东京精密 ACCRETECH",
+              "company_id": "ACCRETECH"
+            },
+            {
+              "name": "光力科技 GL Tech",
+              "company_id": "GLTECH"
+            }
           ],
           "china_leaders": [
-            "光力科技：国内12英寸全自动划片机市占率约30%，国内唯一量产12英寸划片机厂商",
-            "德龙激光：激光隐切/激光开槽",
-            "大族激光/大族封测",
-            "和研科技"
+            {
+              "name": "光力科技 GL Tech",
+              "company_id": "GLTECH"
+            },
+            {
+              "name": "德龙激光",
+              "company_id": "DELPHILASER"
+            },
+            {
+              "name": "大族激光 Han's Laser",
+              "company_id": "HANSLASER"
+            },
+            {
+              "name": "大族封测",
+              "company_id": "DZFC"
+            },
+            {
+              "name": "和研科技",
+              "company_id": "HEYAN"
+            }
           ],
           "note": "2022年全球市场约17亿美元（中国约5亿美元），CR3接近90%，日系合计约71%；国产化率约10%-20%。DISCO份额各来源口径差异大（59%/65%/70%），取区间表述。"
         },
         {
           "name": "减薄研磨",
           "global_leaders": [
-            "DISCO 迪思科(日)：全球份额最高，公开共识超60%",
-            "东京精密 Accretech(日)",
-            "G&N(德)/冈本 Okamoto(日)"
+            {
+              "name": "DISCO",
+              "company_id": "DISCO"
+            },
+            {
+              "name": "东京精密 ACCRETECH",
+              "company_id": "ACCRETECH"
+            },
+            {
+              "name": "G&N",
+              "company_id": "GN"
+            },
+            {
+              "name": "冈本 OKAMOTO",
+              "company_id": "OKAMOTO"
+            }
           ],
           "china_leaders": [
-            "华海清科：Versatile-GP300减薄抛光一体机已获头部客户批量订单",
-            "宇晶股份",
-            "光力科技（研磨抛光产品线）"
+            {
+              "name": "华海清科",
+              "company_id": "HWATSING"
+            },
+            {
+              "name": "宇晶股份",
+              "company_id": "YUJING"
+            },
+            {
+              "name": "光力科技 GL Tech",
+              "company_id": "GLTECH"
+            }
           ],
           "note": "2023年全球CR2约68%、CR3约84%；2024年我国进口研磨机金额3.8亿美元，2017-2024年CAGR约13%；国产化率约5%-10%，为封装设备中国产化最低环节之一。"
         },
         {
           "name": "贴片固晶(die bonder)",
           "global_leaders": [
-            "ASMPT(新加坡/港股上市)：2018年全球固晶机市占率约31%（Yole），全球封装设备龙头",
-            "Besi 比恩西(荷)：2018年约28%，高端固晶/先进封装贴装领先",
-            "新益昌(中)：2018年全球约6%，位列第三",
-            "Shinkawa(日)、Hanwha(韩)"
+            {
+              "name": "ASMPT ASMPT Limited",
+              "company_id": "ASMPT"
+            },
+            {
+              "name": "Besi",
+              "company_id": "BESI"
+            },
+            {
+              "name": "新益昌 Xinyichang",
+              "company_id": "XYC"
+            },
+            {
+              "name": "Yamaha Robotics APIC YAMADA",
+              "company_id": "YAMAHAROBOTICS"
+            },
+            {
+              "name": "Hanwha Semitech 한화세미텍",
+              "company_id": "HANWHA_SEMITECH"
+            }
           ],
           "china_leaders": [
-            "新益昌：国产固晶机龙头，高精度机型HAD8212可用于CoWoS/HBM封装（位置精度±3μm）",
-            "猎奇智能：2024年全球光模块贴片设备按台数市占率约21%，居第一（弗若斯特沙利文）",
-            "微见智能",
-            "凯格精机"
+            {
+              "name": "新益昌 Xinyichang",
+              "company_id": "XYC"
+            },
+            {
+              "name": "猎奇智能",
+              "company_id": "LIEQI"
+            },
+            {
+              "name": "微见智能",
+              "company_id": "MICROVIEW"
+            },
+            {
+              "name": "凯格精机",
+              "company_id": "GKG"
+            }
           ],
           "note": "全球固晶机市场规模超20亿美元，ASMPT+Besi合计市占率超60%；中低精度固晶国产化率约70%，高精度固晶机国产化率仅约20%，贴片环节整体国产化率约30%。"
         },
         {
           "name": "键合(引线键合/倒装/TCB/混合键合)",
           "global_leaders": [
-            "K&S 库力索法(美)：引线键合机全球市占率超60%，引线键合CR2(K&S+ASMPT)约80%",
-            "ASMPT(新)：TCB热压键合份额约34%（Yole 2024Q3），引线键合第二",
-            "Besi(荷)：混合键合设备市占率约67%，官网称占全球高端键合机市场近74%；TCB约17%",
-            "K&S：TCB约27%；EVG(奥)/SUSS(德)：晶圆级键合"
+            {
+              "name": "K&S Kulicke & Soffa",
+              "company_id": "KNS"
+            },
+            {
+              "name": "ASMPT ASMPT Limited",
+              "company_id": "ASMPT"
+            },
+            {
+              "name": "Besi",
+              "company_id": "BESI"
+            },
+            {
+              "name": "K&S Kulicke & Soffa",
+              "company_id": "KNS"
+            },
+            {
+              "name": "EVG EV Group (EVG)",
+              "company_id": "EVG"
+            },
+            {
+              "name": "SUSS SUSS MicroTec SE",
+              "company_id": "SUSS"
+            }
           ],
           "china_leaders": [
-            "奥特维：铝线键合机对标国际一线",
-            "大族封测：焊线机年产量曾达3000台级",
-            "新益昌（收购深圳开玖，光通讯焊线机国内市占超80%）",
-            "拓荆科技：混合键合Dione 300/300F，2023年首台晶圆对晶圆键合设备出货",
-            "迈为股份、芯慧联：混合键合布局"
+            {
+              "name": "奥特维",
+              "company_id": "AUTOWELL"
+            },
+            {
+              "name": "大族封测",
+              "company_id": "DZFC"
+            },
+            {
+              "name": "新益昌 Xinyichang",
+              "company_id": "XYC"
+            },
+            {
+              "name": "拓荆科技 Piotech Inc.",
+              "company_id": "PIOTECH"
+            },
+            {
+              "name": "迈为股份 Maxwell",
+              "company_id": "MAXWELL"
+            },
+            {
+              "name": "芯慧联 WST",
+              "company_id": "WST"
+            }
           ],
           "note": "2024年我国引线键合机进口市场约6.18亿美元；引线键合国产化率约20%-30%（2021年曾仅3%），TCB/混合键合国产处于验证导入期。BESI混合键合份额有67%（研报）与74%（官网口径，指高端键合机）两种表述，口径不同。"
         },
         {
           "name": "塑封",
           "global_leaders": [
-            "TOWA(日)：全球全自动塑封机市占率过半（年销量约200台，2020年SEMI口径），高端塑封与YAMADA合计约70%",
-            "YAMADA/APIC YAMADA(日，现属Yamaha Robotics)：年销量约50台",
-            "Besi(荷)、ASMPT(新)：各约50台/年（2020年口径）"
+            {
+              "name": "TOWA",
+              "company_id": "TOWA"
+            },
+            {
+              "name": "Yamaha Robotics APIC YAMADA",
+              "company_id": "YAMAHAROBOTICS"
+            },
+            {
+              "name": "Yamaha Robotics APIC YAMADA",
+              "company_id": "YAMAHAROBOTICS"
+            },
+            {
+              "name": "Besi",
+              "company_id": "BESI"
+            },
+            {
+              "name": "ASMPT ASMPT Limited",
+              "company_id": "ASMPT"
+            }
           ],
           "china_leaders": [
-            "耐科装备：2024年国内半导体封装设备市占率约15%，已批量供货长电/通富/华天并进入英飞凌、安世海外工厂",
-            "文一科技（文一三佳）"
+            {
+              "name": "耐科装备 Nextool",
+              "company_id": "NEXTOOL"
+            },
+            {
+              "name": "三佳科技",
+              "company_id": "SANJIA"
+            }
           ],
           "note": "2020年中国大陆全自动塑封系统市场约20亿元（SEMI，耐科装备问询回复转引）；2024年全球全自动塑封机市场约4.42亿美元（QYResearch）；国产已可替代TOWA/YAMADA常规塑封机型，处于批量替代阶段。"
         },
         {
           "name": "切筋成型",
           "global_leaders": [
-            "TOWA(日)",
-            "APIC YAMADA/Yamaha Robotics(日)",
-            "Exelliq(奥)"
+            {
+              "name": "TOWA",
+              "company_id": "TOWA"
+            },
+            {
+              "name": "Yamaha Robotics APIC YAMADA",
+              "company_id": "YAMAHAROBOTICS"
+            },
+            {
+              "name": "Yamaha Robotics APIC YAMADA",
+              "company_id": "YAMAHAROBOTICS"
+            },
+            {
+              "name": "Exelliq",
+              "company_id": "EXELLIQ"
+            }
           ],
           "china_leaders": [
-            "耐科装备：国内少数同时提供全自动塑封+切筋成型设备的厂商",
-            "文一科技"
+            {
+              "name": "耐科装备 Nextool",
+              "company_id": "NEXTOOL"
+            },
+            {
+              "name": "三佳科技",
+              "company_id": "SANJIA"
+            }
           ],
           "note": "与塑封环节同源（塑封后直接进入切筋成型），格局高度重叠；中国大陆切筋成型设备技术趋于成熟，国产化率在后道设备中相对较高，公开独立份额数据缺乏。"
         },
         {
           "name": "电镀",
           "global_leaders": [
-            "Lam Research 泛林(美)：SABRE系列ECD设备主导bumping/RDL电镀",
-            "ClassOne Technology(美)：先进封装电镀专业厂商",
-            "Atotech(德，已被MKS收购)：电镀化学品+设备"
+            {
+              "name": "Lam Research",
+              "company_id": "LAM"
+            },
+            {
+              "name": "ClassOne Technology",
+              "company_id": "CLASSONE"
+            },
+            {
+              "name": "Atotech MKS Atotech",
+              "company_id": "ATOTECH"
+            }
           ],
           "china_leaders": [
-            "盛美上海：Ultra ECP系列覆盖bump/pillar/RDL及面板级封装电镀，FOPLP电镀设备获国际奖项，2025年交付首台水平式面板电镀设备"
+            {
+              "name": "盛美上海",
+              "company_id": "ACMSH"
+            }
           ],
           "note": "指先进封装bumping/RDL用电化学沉积(ECD)设备；全球半导体电镀系统市场2026年预计约62.8亿美元（Fortune Business Insights，口径含前道铜互连，不限封装），封装环节独立规模与份额缺乏权威公开数据。"
         },
         {
           "name": "临时键合与解键合",
           "global_leaders": [
-            "EVG 奥地利EV集团：临时键合/解键合龙头（850系列）",
-            "SUSS MicroTec(德)：XBS300等",
-            "东京电子(日)：Synapse系列"
+            {
+              "name": "EVG EV Group (EVG)",
+              "company_id": "EVG"
+            },
+            {
+              "name": "SUSS SUSS MicroTec SE",
+              "company_id": "SUSS"
+            },
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            }
           ],
           "china_leaders": [
-            "芯源微：临时键合机/解键合机已获国内多家客户订单并通过多家客户工艺验证（2026年半年报）；2024年报在手订单近20台",
-            "拓荆科技",
-            "迈为股份",
-            "华卓精科、青禾晶元、吾拾微、芯睿科技"
+            {
+              "name": "芯源微",
+              "company_id": "KINGSEMI"
+            },
+            {
+              "name": "拓荆科技 Piotech Inc.",
+              "company_id": "PIOTECH"
+            },
+            {
+              "name": "迈为股份 Maxwell",
+              "company_id": "MAXWELL"
+            },
+            {
+              "name": "华卓精科 U-PRECISION",
+              "company_id": "UPRECISION"
+            },
+            {
+              "name": "青禾晶元 Isabers",
+              "company_id": "QHJY"
+            },
+            {
+              "name": "吾拾微",
+              "company_id": "WUSHIWEI"
+            },
+            {
+              "name": "芯睿科技 iWiseeTec",
+              "company_id": "IWISEETEC"
+            }
           ],
           "note": "市场规模尚小：Yole预计临时键合/解键合设备2027年约1.76亿美元（2020-2027 CAGR约7%）；长期由EVG/SUSS/TEL垄断，国产刚起步，处验证导入阶段。"
         },
         {
           "name": "先进封装光刻",
           "global_leaders": [
-            "上海微电子 SMEE(中)：后道/先进封装光刻机全球市占率第一（约40%），国内市占率超80%",
-            "佳能 Canon(日)",
-            "SUSS MicroTec(德)、EVG(奥)：掩模对准/键合对准曝光"
+            {
+              "name": "上海微电子 SMEE",
+              "company_id": "SMEE"
+            },
+            {
+              "name": "佳能 Canon Inc.",
+              "company_id": "CANON"
+            },
+            {
+              "name": "SUSS SUSS MicroTec SE",
+              "company_id": "SUSS"
+            },
+            {
+              "name": "EVG EV Group (EVG)",
+              "company_id": "EVG"
+            }
           ],
           "china_leaders": [
-            "上海微电子：已交付国内首台2.5D/3D先进封装光刻机"
+            {
+              "name": "上海微电子 SMEE",
+              "company_id": "SMEE"
+            }
           ],
           "note": "先进封装光刻（RDL/Bumping/TSV用）技术难度低于前道光刻，是光刻环节中国产唯一取得国际领先的细分；SMEE全球约40%、国内80%+份额为研报口径，未见行业协会正式统计。"
         }
@@ -1962,36 +2531,40 @@
       },
       "global_leaders": [
         {
-          "name": "ASMPT",
+          "name": "ASMPT ASMPT Limited",
           "country": "新加坡",
           "share": "固晶机约31%（2018，Yole）",
           "products": "固晶机、引线键合机、TCB键合机、塑封、SMT贴片",
           "tag": "全球封装设备龙头（香港上市）",
-          "source_id": "SRC-EB-27"
+          "source_id": "SRC-EB-27",
+          "company_id": "ASMPT"
         },
         {
-          "name": "BESI 比恩西",
+          "name": "Besi",
           "country": "荷兰",
           "share": "高端键合机近74%（公司口径）；混合键合约67%",
           "products": "高端固晶机、倒装/TCB/混合键合、塑封、电镀",
           "tag": "先进封装键合设备龙头",
-          "source_id": "SRC-EB-08"
+          "source_id": "SRC-EB-08",
+          "company_id": "BESI"
         },
         {
-          "name": "DISCO 迪思科",
+          "name": "DISCO",
           "country": "日本",
           "share": "划片机约59%-65%、减薄机超60%",
           "products": "划片机、减薄研磨机、激光切割",
           "tag": "切磨抛垄断者",
-          "source_id": "SRC-EB-10"
+          "source_id": "SRC-EB-10",
+          "company_id": "DISCO"
         },
         {
-          "name": "K&S 库力索法",
+          "name": "K&S Kulicke & Soffa",
           "country": "美国",
           "share": "引线键合机超60%；TCB约27%（2024）",
           "products": "引线键合机、楔焊机、TCB/先进封装键合",
           "tag": "引线键合龙头",
-          "source_id": "SRC-EB-07"
+          "source_id": "SRC-EB-07",
+          "company_id": "KNS"
         },
         {
           "name": "TOWA",
@@ -1999,33 +2572,38 @@
           "share": "全自动塑封机过半",
           "products": "塑封设备、切筋成型、模具",
           "tag": "塑封设备龙头",
-          "source_id": "SRC-EB-17"
+          "source_id": "SRC-EB-17",
+          "company_id": "TOWA"
         }
       ],
       "china_leaders": [
         {
-          "name": "光力科技",
+          "name": "光力科技 GL Tech",
           "share": "划片机全球前三；国内12英寸划片机约30%",
           "tag": "划片切割国产龙头（并购ADT/LP/LPB）",
-          "source_id": "SRC-EB-12"
+          "source_id": "SRC-EB-12",
+          "company_id": "GLTECH"
         },
         {
-          "name": "新益昌",
+          "name": "新益昌 Xinyichang",
           "share": "全球固晶机约6%（2018，Yole），国产固晶机第一",
           "tag": "固晶机/焊线机国产龙头",
-          "source_id": "SRC-EB-27"
+          "source_id": "SRC-EB-27",
+          "company_id": "XYC"
         },
         {
           "name": "华海清科",
           "share": "N/A（按订单）",
           "tag": "减薄抛光一体机打破日企垄断",
-          "source_id": "SRC-EB-14"
+          "source_id": "SRC-EB-14",
+          "company_id": "HWATSING"
         },
         {
-          "name": "耐科装备",
+          "name": "耐科装备 Nextool",
           "share": "国内塑封设备约15%（2024）",
           "tag": "塑封+切筋成型国产主力",
-          "source_id": "SRC-EB-15"
+          "source_id": "SRC-EB-15",
+          "company_id": "NEXTOOL"
         }
       ],
       "localization": {
@@ -2045,66 +2623,160 @@
         {
           "name": "SoC测试机",
           "global_leaders": [
-            "Advantest 爱德万测试(日)：2024年数字SoC测试机全球约60%，中国大陆接近60%",
-            "Teradyne 泰瑞达(美)：全球约30%，中国大陆约15%"
+            {
+              "name": "Advantest",
+              "company_id": "ADVANTEST"
+            },
+            {
+              "name": "Teradyne",
+              "company_id": "TER"
+            }
           ],
           "china_leaders": [
-            "长川科技：D9000数字测试机批量突破，国产SoC测试机龙头",
-            "华峰测控：STS8600高端SoC测试系统对标爱德万V93000，已在头部GPU客户验证通过"
+            {
+              "name": "长川科技 CCTech",
+              "company_id": "CCKJ"
+            },
+            {
+              "name": "华峰测控 AccoTEST",
+              "company_id": "ACCOTEST"
+            }
           ],
           "note": "2024年全球SoC测试机市场约40+亿美元（另有46亿美元口径）；高端SoC测试机国产化率不足15%，国产处于验证导入向份额提升过渡阶段。"
         },
         {
           "name": "存储测试机",
           "global_leaders": [
-            "Advantest 爱德万测试(日)：存储测试机全球约55%，绝对主导",
-            "Teradyne 泰瑞达(美)：约40%"
+            {
+              "name": "Advantest",
+              "company_id": "ADVANTEST"
+            },
+            {
+              "name": "Teradyne",
+              "company_id": "TER"
+            }
           ],
           "china_leaders": [
-            "长川科技：存储测试机已取得批量订单（第二成长曲线）",
-            "精智达：存储芯片测试设备供应商"
+            {
+              "name": "长川科技 CCTech",
+              "company_id": "CCKJ"
+            },
+            {
+              "name": "精智达 SEICHI",
+              "company_id": "SEICHI"
+            }
           ],
           "note": "2024年全球存储测试机市场约10+亿美元（另有14亿美元口径）；受HBM扩产驱动高景气，单价100万-300万美元，国产份额很低。"
         },
         {
           "name": "模拟与分立测试机",
           "global_leaders": [
-            "Teradyne 泰瑞达(美，ETS/LTX-Credence平台)",
-            "Advantest 爱德万测试(日)",
-            "Cohu 科休(美)"
+            {
+              "name": "Teradyne",
+              "company_id": "TER"
+            },
+            {
+              "name": "Advantest",
+              "company_id": "ADVANTEST"
+            },
+            {
+              "name": "Cohu",
+              "company_id": "COHU"
+            }
           ],
           "china_leaders": [
-            "华峰测控：模拟/数模混合测试机国内市占第一，STS8200为主力机型，国内测试机市占率约8%",
-            "长川科技：CTA系列模拟测试机起家，国内测试机市占率约5%",
-            "联动科技：分立器件测试"
+            {
+              "name": "华峰测控 AccoTEST",
+              "company_id": "ACCOTEST"
+            },
+            {
+              "name": "长川科技 CCTech",
+              "company_id": "CCKJ"
+            },
+            {
+              "name": "联动科技 PowerTECH",
+              "company_id": "POWERTECH"
+            }
           ],
           "note": "模拟/分立测试机单价5万-15万美元，技术门槛相对低，是国产测试机最先实现批量替代的细分；华峰测控、长川科技国内市占率分别约8%和5%（中证鹏元，时点未注明）。"
         },
         {
           "name": "探针台",
           "global_leaders": [
-            "东京电子(日)、东京精密(日)：2019年中国市场合计份额约34%以上，全球主导",
-            "FormFactor(美)",
-            "旺矽科技、惠特科技(中国台湾)：2019年大陆市场日台四厂合计约74%"
+            {
+              "name": "东京电子 TEL",
+              "company_id": "TEL"
+            },
+            {
+              "name": "东京精密 ACCRETECH",
+              "company_id": "ACCRETECH"
+            },
+            {
+              "name": "FormFactor",
+              "company_id": "FORM"
+            },
+            {
+              "name": "旺矽科技 MPI Corporation",
+              "company_id": "MPI"
+            },
+            {
+              "name": "惠特科技 FitTech",
+              "company_id": "FITTECH"
+            }
           ],
           "china_leaders": [
-            "矽电股份：2023年中国探针台市场份额25.7%，大陆厂商第一；大陆首家12英寸晶圆探针台产业化厂商",
-            "长川科技：探针台产品线（收购长奕科技）"
+            {
+              "name": "矽电股份",
+              "company_id": "SIDEA"
+            },
+            {
+              "name": "长川科技 CCTech",
+              "company_id": "CCKJ"
+            }
           ],
           "note": "全球探针台市场规模超10亿美元；矽电股份2019-2023年中国市场份额从13%升至25.7%，探针台国产化率约20%，12英寸高端机型国产仍处追赶阶段。"
         },
         {
           "name": "分选机handler",
           "global_leaders": [
-            "Cohu 科休(美，含Xcerra/MCT)：全球第一，市占率约20%-21%",
-            "Advantest 爱德万测试(日)：全球第二，约15%+",
-            "鸿劲精密(中国台湾)：全球第四，约10%+",
-            "Techwing(韩)、ASMPT(新)"
+            {
+              "name": "Cohu",
+              "company_id": "COHU"
+            },
+            {
+              "name": "Advantest",
+              "company_id": "ADVANTEST"
+            },
+            {
+              "name": "鸿劲精密 HPI",
+              "company_id": "HONPREC"
+            },
+            {
+              "name": "Techwing 테크윙",
+              "company_id": "TECHWING"
+            },
+            {
+              "name": "ASMPT ASMPT Limited",
+              "company_id": "ASMPT"
+            }
           ],
           "china_leaders": [
-            "长川科技：全球第三、中国第一，2024年市占率约13.1%，分选机收入11.9亿元，2024年国内中标量约45%居首",
-            "金海通：全球第五、中国第二，2024年市占率约3.9%，三温分选机放量",
-            "上海中艺、格朗瑞"
+            {
+              "name": "长川科技 CCTech",
+              "company_id": "CCKJ"
+            },
+            {
+              "name": "金海通 JHT",
+              "company_id": "JHT"
+            },
+            {
+              "name": "上海中艺 Cascol",
+              "company_id": "CASCOL"
+            },
+            {
+              "name": "格朗瑞 Grandtry",
+              "company_id": "GLR"
+            }
           ],
           "note": "全球分选机市场规模超10亿美元（2023年约20亿美元，QYResearch口径），CR5约57%-59%；国产化率约35%，为测试设备中国产化程度最高的细分之一。"
         }
@@ -2118,62 +2790,79 @@
       },
       "global_leaders": [
         {
-          "name": "Advantest 爱德万测试",
+          "name": "Advantest",
           "country": "日本",
           "share": "2024年测试机市占率约58%（公司投资者指引）；FY2024营收53亿美元",
           "products": "V93000 SoC测试机、存储测试机、分选机",
           "tag": "全球ATE第一",
-          "source_id": "SRC-EB-04"
+          "source_id": "SRC-EB-04",
+          "company_id": "ADVANTEST"
         },
         {
-          "name": "Teradyne 泰瑞达",
+          "name": "Teradyne",
           "country": "美国",
           "share": "与爱德万合计约80%（公司口径）-90%（Counterpoint口径）",
           "products": "UltraFLEX/J750 SoC测试机、ETS模拟测试、存储测试",
           "tag": "全球ATE双寡头之一",
-          "source_id": "SRC-EB-03"
+          "source_id": "SRC-EB-03",
+          "company_id": "TER"
         },
         {
-          "name": "Cohu 科休",
+          "name": "Cohu",
           "country": "美国",
           "share": "分选机全球约20%-21%",
           "products": "分选机、测试插座、接口",
           "tag": "分选机全球龙头",
-          "source_id": "SRC-EB-19"
+          "source_id": "SRC-EB-19",
+          "company_id": "COHU"
         },
         {
-          "name": "东京电子/东京精密",
+          "name": "东京电子 TEL",
           "country": "日本",
           "share": "探针台全球主导（N/A，按收入排名）",
           "products": "晶圆探针台",
-          "tag": "探针台双雄",
-          "source_id": "SRC-EB-18"
+          "tag": "探针台双雄（原组合条目拆分）",
+          "source_id": "SRC-EB-18",
+          "company_id": "TEL"
+        },
+        {
+          "name": "东京精密 ACCRETECH",
+          "country": "日本",
+          "share": "探针台全球主导（N/A，按收入排名）",
+          "products": "晶圆探针台",
+          "tag": "探针台双雄（原组合条目拆分）",
+          "source_id": "SRC-EB-18",
+          "company_id": "ACCRETECH"
         }
       ],
       "china_leaders": [
         {
-          "name": "长川科技",
+          "name": "长川科技 CCTech",
           "share": "分选机全球约13.1%（2024）、国内中标约45%；国内测试机约5%",
           "tag": "测试机+分选机+探针台平台型龙头",
-          "source_id": "SRC-EB-19"
+          "source_id": "SRC-EB-19",
+          "company_id": "CCKJ"
         },
         {
-          "name": "华峰测控",
+          "name": "华峰测控 AccoTEST",
           "share": "国内测试机约8%；模拟测试机国内第一",
           "tag": "模拟/数模混合测试机龙头，STS8600冲击高端SoC",
-          "source_id": "SRC-EB-20"
+          "source_id": "SRC-EB-20",
+          "company_id": "ACCOTEST"
         },
         {
           "name": "矽电股份",
           "share": "中国探针台市场25.7%（2023）",
           "tag": "国产探针台龙头",
-          "source_id": "SRC-EB-18"
+          "source_id": "SRC-EB-18",
+          "company_id": "SIDEA"
         },
         {
-          "name": "金海通",
+          "name": "金海通 JHT",
           "share": "分选机全球约3.9%（2024）",
           "tag": "平移式/三温分选机国产第二",
-          "source_id": "SRC-EB-19"
+          "source_id": "SRC-EB-19",
+          "company_id": "JHT"
         }
       ],
       "localization": {

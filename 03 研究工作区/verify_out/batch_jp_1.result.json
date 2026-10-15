@@ -1,0 +1,1754 @@
+{
+ "batch": "batch_jp_1",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": [
+    "ADVANTEST"
+   ],
+   "entity_decision": "",
+   "company_id": "ADVANTEST",
+   "name_cn": "爱德万测试",
+   "name_en": "Advantest Corporation",
+   "short_name": "Advantest",
+   "aliases": [
+    "株式会社アドバンテスト",
+    "Advantest 爱德万测试"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "ADVANTEST-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6857.T",
+     "primary": true
+    },
+    {
+     "listing_id": "ADVANTEST-OTC",
+     "market": "美股",
+     "exchange": "OTC",
+     "ticker": "ATEYY",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6857",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6857",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6857",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": "另有美国OTC市场ADR（ATEYY）"
+    },
+    {
+     "org": "Yahoo!ファイナンス",
+     "title": "(株)アドバンテスト【6857】",
+     "url": "https://finance.yahoo.co.jp/quote/6857.T",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime 6857",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "DAIFUKU"
+   ],
+   "entity_decision": "",
+   "company_id": "DAIFUKU",
+   "name_cn": "大福",
+   "name_en": "Daifuku Co., Ltd.",
+   "short_name": "Daifuku",
+   "aliases": [
+    "株式会社ダイフク",
+    "大福（集团）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "DAIFUKU-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6383.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6383",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6383",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6383",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "DAIHEN"
+   ],
+   "entity_decision": "株式会社ダイヘン（前身大阪变压器），焊接机器人/电力设备/半导体电源厂商，焊接业务在华通行品牌名为OTC欧地希",
+   "company_id": "DAIHEN",
+   "name_cn": "大恒（DAIHEN，焊接品牌OTC欧地希）",
+   "name_en": "DAIHEN Corporation",
+   "short_name": "DAIHEN",
+   "aliases": [
+    "株式会社ダイヘン",
+    "欧地希 OTC",
+    "大阪变压器 Osaka Transformer（前身）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "DAIHEN-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6622.T",
+     "primary": true
+    },
+    {
+     "listing_id": "DAIHEN-FSE",
+     "market": "日股",
+     "exchange": "FSE（福冈证券交易所）",
+     "ticker": "6622",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo!ファイナンス",
+     "title": "(株)ダイヘン【6622】企业信息",
+     "url": "https://finance.yahoo.co.jp/quote/6622.T/profile",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime、福证上市，英文社名DAIHEN CORPORATION",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "OFweek机器人网",
+     "title": "OFweek带你认识欧地希OTC",
+     "url": "https://robot.ofweek.com/2021-01/ART-8321202-5803-30481696.html",
+     "publish_date": "2021-01-18",
+     "data_year": "2026",
+     "metric": "中文通行名",
+     "caliber": "日本DAIHEN集团在华品牌OTC欧地希",
+     "region": "日本",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": "中文译名不统一"
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "中文通行译名不统一（大恒/欧地希/直接使用DAIHEN），建议数据库中以英文缩写为准"
+  },
+  {
+   "source_keys": [
+    "DISCO"
+   ],
+   "entity_decision": "",
+   "company_id": "DISCO",
+   "name_cn": "迪思科",
+   "name_en": "DISCO Corporation",
+   "short_name": "DISCO",
+   "aliases": [
+    "株式会社ディスコ",
+    "Disco 迪思科"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "DISCO-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6146.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6146",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6146",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6146",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "DNP"
+   ],
+   "entity_decision": "",
+   "company_id": "DNP",
+   "name_cn": "大日本印刷",
+   "name_en": "Dai Nippon Printing Co., Ltd.",
+   "short_name": "DNP",
+   "aliases": [
+    "大日本印刷株式会社",
+    "DNP 大日本印刷"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "DNP-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7912.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 7912",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=7912",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码7912",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "EBARA"
+   ],
+   "entity_decision": "",
+   "company_id": "EBARA",
+   "name_cn": "荏原（荏原制作所）",
+   "name_en": "EBARA Corporation",
+   "short_name": "Ebara",
+   "aliases": [
+    "株式会社荏原製作所",
+    "荏原 Ebara"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "EBARA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6361.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6361",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6361",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6361",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "FERROTEC"
+   ],
+   "entity_decision": "上市主体为株式会社フェローテックホールディングス（控股公司），中文圈按其中国子公司杭州大和热磁电子常称\"大和热磁\"",
+   "company_id": "FERROTEC",
+   "name_cn": "大和热磁（Ferrotec）",
+   "name_en": "Ferrotec Holdings Corporation",
+   "short_name": "Ferrotec",
+   "aliases": [
+    "株式会社フェローテックホールディングス",
+    "Ferrotec 大和热磁",
+    "杭州大和热磁电子（中国子公司）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "FERROTEC-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6890.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "松井证券",
+     "title": "フェローテック(6890) 东证Standard 股价",
+     "url": "https://finance.matsui.co.jp/stock/6890/index",
+     "publish_date": "2026-10-09",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Standard市场，证券代码6890",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "日本M&Aセンター",
+     "title": "フェローテックHD、东洋刃物股票公开收购",
+     "url": "https://www.nihon-ma.co.jp/news/20220603_6890-8/",
+     "publish_date": "2022-06-02",
+     "data_year": "2026",
+     "metric": "公司主体与中文名",
+     "caliber": "株式会社フェローテックホールディングス（6890），中国子公司杭州大和热磁电子",
+     "region": "日本",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "FUJIFILM"
+   ],
+   "entity_decision": "上市主体为富士胶片控股（FUJIFILM Holdings），2006年由富士写真胶片改制为控股公司",
+   "company_id": "FUJIFILM",
+   "name_cn": "富士胶片",
+   "name_en": "FUJIFILM Holdings Corporation",
+   "short_name": "Fujifilm",
+   "aliases": [
+    "富士フイルムホールディングス株式会社",
+    "富士写真フイルム Fuji Photo Film（旧名）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "FUJIFILM-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "4901.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 4901",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=4901",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码4901",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "FUJIKIN"
+   ],
+   "entity_decision": "",
+   "company_id": "FUJIKIN",
+   "name_cn": "富士金",
+   "name_en": "Fujikin Incorporated",
+   "short_name": "Fujikin",
+   "aliases": [
+    "株式会社フジキン",
+    "Fujikin 富士金"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "株式会社フジキン",
+     "title": "公司官网",
+     "url": "https://www.fujikin.co.jp/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "半导体制造装置用超精密阀门厂商，未上市",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Baseconnect",
+     "title": "株式会社フジキン企业信息（上市种别：未上市）",
+     "url": "https://baseconnect.in/companies/3e3bc8c3-141c-4a60-8f77-89406470dd1f",
+     "publish_date": "2026-09-09",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "未上市",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "日文维基亦标注非上場"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "FUJIMI"
+   ],
+   "entity_decision": "",
+   "company_id": "FUJIMI",
+   "name_cn": "富士美（Fujimi）",
+   "name_en": "Fujimi Incorporated",
+   "short_name": "Fujimi",
+   "aliases": [
+    "フジミインコーポレーテッド",
+    "不二见（另见译法）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "FUJIMI-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "5384.T",
+     "primary": true
+    },
+    {
+     "listing_id": "FUJIMI-NSE",
+     "market": "日股",
+     "exchange": "NSE（名古屋证券交易所）",
+     "ticker": "5384",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo!ファイナンス",
+     "title": "(株)フジミインコーポレーテッド【5384】",
+     "url": "https://finance.yahoo.co.jp/quote/5384.T",
+     "publish_date": "2026-10-09",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码5384，CMP研磨材料全球龙头",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "松井证券",
+     "title": "フジミインコーポレーテッド(5384) 东证Prime",
+     "url": "https://finance.matsui.co.jp/stock/5384/index",
+     "publish_date": "2026-06-19",
+     "data_year": "2026",
+     "metric": "上市状态与市场",
+     "caliber": "东证Prime市场（另在名证Premier上市）",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "中文译名（富士美/不二见）使用不统一"
+  },
+  {
+   "source_keys": [
+    "HIRATA"
+   ],
+   "entity_decision": "",
+   "company_id": "HIRATA",
+   "name_cn": "平田机工",
+   "name_en": "Hirata Corporation",
+   "short_name": "Hirata",
+   "aliases": [
+    "平田機工株式会社",
+    "Hirata 平田机工"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HIRATA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6258.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Note（株探系引用）",
+     "title": "ローツェ（6323）vs 平田機工（6258）",
+     "url": "https://note.com/kabutabi2000/n/n12c09388115f",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "平田机工东证Prime上市，证券代码6258",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6258",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6258",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6258",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "HITACHIHIGH-TECH"
+   ],
+   "entity_decision": "原株式会社日立ハイテクノロジーズ（东证1部8036）2020年5月18日退市，成为日立制作所100%子公司，并更名株式会社日立ハイテク；当前为非上市日立全资子公司",
+   "company_id": "HHT",
+   "name_cn": "日立高新",
+   "name_en": "Hitachi High-Tech Corporation",
+   "short_name": "Hitachi High-Tech",
+   "aliases": [
+    "株式会社日立ハイテク",
+    "日立ハイテクノロジーズ Hitachi High-Technologies（旧名）",
+    "Hitachi High-Tech 日立高新"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "日本取引所集团（JPX）",
+     "title": "上場廃止等の決定：（株）日立ハイテク（代码8036）",
+     "url": "https://www.jpx.co.jp/news/1021/20200416-12.html",
+     "publish_date": "2020-04-16",
+     "data_year": "2026",
+     "metric": "退市与现状",
+     "caliber": "2020年5月18日东证1部退市（8036），日立完全子公司化",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "日立高新集团",
+     "title": "公司沿革（2020年5月退市、成为日立100%子公司）",
+     "url": "https://www.hitachi-hightech.com/jp/ja/company/history.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "退市与现状",
+     "caliber": "公司官网沿革确认退市与全资子会社化",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "HORIBA"
+   ],
+   "entity_decision": "",
+   "company_id": "HORIBA",
+   "name_cn": "堀场（堀场制作所）",
+   "name_en": "HORIBA, Ltd.",
+   "short_name": "HORIBA",
+   "aliases": [
+    "株式会社堀場製作所",
+    "HORIBA 堀场"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HORIBA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6856.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6856",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6856",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6856",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "HOYA"
+   ],
+   "entity_decision": "",
+   "company_id": "HOYA",
+   "name_cn": "豪雅",
+   "name_en": "HOYA Corporation",
+   "short_name": "HOYA",
+   "aliases": [
+    "HOYA株式会社",
+    "保谷 Hoya"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HOYA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7741.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 7741",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=7741",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码7741",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "IBIDEN"
+   ],
+   "entity_decision": "",
+   "company_id": "IBIDEN",
+   "name_cn": "揖斐电",
+   "name_en": "IBIDEN Co., Ltd.",
+   "short_name": "Ibiden",
+   "aliases": [
+    "イビデン株式会社",
+    "揖斐电 Ibiden"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "IBIDEN-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "4062.T",
+     "primary": true
+    },
+    {
+     "listing_id": "IBIDEN-NSE",
+     "market": "日股",
+     "exchange": "NSE（名古屋证券交易所）",
+     "ticker": "4062",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 4062",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=4062",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码4062（另在名证Premier上市）",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "JSR"
+   ],
+   "entity_decision": "原东证Prime 4185；2024年4月产业革新投资机构（JIC）旗下JICC-02完成TOB，2024年6月25日退市，2024年12月法人并入JICC-02（存续公司沿用JSR株式会社名称），现为JIC旗下非上市公司",
+   "company_id": "JSR",
+   "name_cn": "JSR（原日本合成橡胶）",
+   "name_en": "JSR Corporation",
+   "short_name": "JSR",
+   "aliases": [
+    "JSR株式会社",
+    "日本合成ゴム Japan Synthetic Rubber（旧名）",
+    "JICC-02株式会社（存续法人登记名沿革）"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "日本取引所集团（JPX）",
+     "title": "上場廃止等の決定：ＪＳＲ（株）（代码4185）",
+     "url": "https://www.jpx.co.jp/news/1023/20240605-11.html",
+     "publish_date": "2024-06-05",
+     "data_year": "2026",
+     "metric": "退市与现状",
+     "caliber": "2024年6月25日东证Prime退市（4185），JIC系TOB非公开化",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "日本经济新闻",
+     "title": "JICの瀬口CEO、JSRの売却「決定していない」",
+     "url": "https://www.nikkei.com/article/DGXZQOUA25CTL0V20C26A6000000/",
+     "publish_date": "2026-06-26",
+     "data_year": "2026",
+     "metric": "退市与现状",
+     "caliber": "2024年JIC约1兆日元收购，完全子公司化并退市",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "JXMETALS"
+   ],
+   "entity_decision": "原JX日矿日石金属（JX Nippon Mining & Metals），2016年更名JX金属，2024年5月英文商号改为JX Advanced Metals Corporation；2025年3月19日在东证Prime新上市（5016），ENEOS控股仍为大股东（约42%）",
+   "company_id": "JXMETALS",
+   "name_cn": "JX金属",
+   "name_en": "JX Advanced Metals Corporation",
+   "short_name": "JX Metals",
+   "aliases": [
+    "JX金属株式会社",
+    "JX日鉱日石金属 JX Nippon Mining & Metals（旧名）",
+    "JX Metals Corporation（旧英文商号）",
+    "日矿金属"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "JXMETALS-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "5016.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "JX金属（公司IR经EDINET DB收录）",
+     "title": "JX金属统合报告书2025",
+     "url": "https://edinetdb.jp/company/E01081/integrated-reports/",
+     "publish_date": "2025-06-24",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime，证券代码5016，2025年3月19日上市，法定名ＪＸ金属株式会社（JX Advanced Metals Corporation）",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "松井证券",
+     "title": "JX金属(5016) 东证Prime 股价",
+     "url": "https://finance.matsui.co.jp/stock/5016/index",
+     "publish_date": "2026-09-17",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime 5016，上市日2025/03/19",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KANTOCHEMICAL"
+   ],
+   "entity_decision": "",
+   "company_id": "KANTOCHEM",
+   "name_cn": "关东化学",
+   "name_en": "Kanto Chemical Co., Inc.",
+   "short_name": "Kanto Chemical",
+   "aliases": [
+    "関東化学株式会社",
+    "关东化学 Kanto Chemical"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "関東化学株式会社",
+     "title": "公司官网（试剂/半导体用药液厂商）",
+     "url": "https://www.kanto.co.jp/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "国内试剂大厂，半导体用药液等4部门；未上市",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "アラームボックス",
+     "title": "関東化学株式会社企业信息（未上場）",
+     "url": "https://alarmbox.jp/companyinfo/entities/6010001039923",
+     "publish_date": "2026-09-22",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "未上場",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KASHIYAMA"
+   ],
+   "entity_decision": "",
+   "company_id": "KASHIYAMA",
+   "name_cn": "樫山工业",
+   "name_en": "Kashiyama Industries, Ltd.",
+   "short_name": "Kashiyama",
+   "aliases": [
+    "樫山工業株式会社",
+    "Kashiyama 樫山工业"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "樫山工業株式会社",
+     "title": "公司官网（半导体用干式真空泵）",
+     "url": "https://www.kashiyama.com/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "半导体制造用真空泵厂商；未上市",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "长野县移住支援金对象求人サイト",
+     "title": "樫山工業株式会社企业信息（非上場）",
+     "url": "https://uij-matching.pref.nagano.lg.jp/company/detail?id=24",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "非上場",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KOKUSAIELECTRIC"
+   ],
+   "entity_decision": "原为日立国际电气（Hitachi Kokusai Electric），2017-2018年从日立集团分拆至KKR旗下并更名Kokusai Electric（与日立无资本关系），2023年10月在东证Prime再上市（6525）；中文旧称\"日立国际电气\"已不准确",
+   "company_id": "KOKUSAI",
+   "name_cn": "科库赛电气（Kokusai Electric，原日立国际电气）",
+   "name_en": "Kokusai Electric Corporation",
+   "short_name": "Kokusai Electric",
+   "aliases": [
+    "コクサイエレクトリック株式会社",
+    "日立国际电气 Hitachi Kokusai Electric（旧名，已剥离日立）",
+    "国际电气"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KOKUSAI-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6525.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "株探",
+     "title": "値下がり率ランキング（コクサイエレ 6525 东证P）",
+     "url": "https://s.kabutan.jp/news/n202607281000/",
+     "publish_date": "2026-07-28",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime，证券代码6525",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6525",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6525",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6525",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KYOCERA"
+   ],
+   "entity_decision": "",
+   "company_id": "KYOCERA",
+   "name_cn": "京瓷",
+   "name_en": "Kyocera Corporation",
+   "short_name": "Kyocera",
+   "aliases": [
+    "京セラ株式会社",
+    "京都陶瓷 Kyoto Ceramic（旧名）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "KYOCERA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6971.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6971",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6971",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6971",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "LASERTEC"
+   ],
+   "entity_decision": "",
+   "company_id": "LASERTEC",
+   "name_cn": "雷泰光电（Lasertec）",
+   "name_en": "Lasertec Corporation",
+   "short_name": "Lasertec",
+   "aliases": [
+    "株式会社レーザーテック",
+    "Lasertec半导体（富途译名）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "LASERTEC-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6920.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "株探",
+     "title": "レーザーテック【6920】股价・基本信息",
+     "url": "https://kabutan.jp/stock/?code=6920",
+     "publish_date": "2026-10-13",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime，证券代码6920",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "中金（经AvantSemi转载）",
+     "title": "KLA：全球半导体制造量检测设备龙头",
+     "url": "https://avantsemi.com/中金看海外-kla：全球半导体制造量检测设备龙头/",
+     "publish_date": "2025-03-11",
+     "data_year": "2026",
+     "metric": "中文通行名",
+     "caliber": "中文研报译名\"雷泰光电（Lasertec）\"",
+     "region": "日本",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "LINTEC"
+   ],
+   "entity_decision": "",
+   "company_id": "LINTEC",
+   "name_cn": "琳得科",
+   "name_en": "Lintec Corporation",
+   "short_name": "Lintec",
+   "aliases": [
+    "リンテック株式会社",
+    "琳得科 Lintec"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "LINTEC-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7966.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 7966",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=7966",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码7966",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "MARUWA"
+   ],
+   "entity_decision": "",
+   "company_id": "MARUWA",
+   "name_cn": "丸和",
+   "name_en": "MARUWA Co., Ltd.",
+   "short_name": "MARUWA",
+   "aliases": [
+    "株式会社マルワ",
+    "丸和 Maruwa"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "MARUWA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "5344.T",
+     "primary": true
+    },
+    {
+     "listing_id": "MARUWA-NSE",
+     "market": "日股",
+     "exchange": "NSE（名古屋证券交易所）",
+     "ticker": "5344",
+     "primary": false
+    },
+    {
+     "listing_id": "MARUWA-LSE",
+     "market": "英股",
+     "exchange": "LSE（伦敦证券交易所）",
+     "ticker": "5344",
+     "primary": false
+    },
+    {
+     "listing_id": "MARUWA-SGX",
+     "market": "新加坡股",
+     "exchange": "SGX（新加坡交易所）",
+     "ticker": "5344",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "株式会社MARUWA",
+     "title": "股票基本信息（投资者信息）",
+     "url": "https://www.maruwa-g.com/ir/stock/kihon.html",
+     "publish_date": "2026-03-31",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码5344；东证Prime、名证Premier、伦敦、新加坡多地上市",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "LSE/SGX具体代码未逐一核对"
+    },
+    {
+     "org": "Yahoo!ファイナンス",
+     "title": "(株)MARUWA【5344】",
+     "url": "https://finance.yahoo.co.jp/quote/5344.T",
+     "publish_date": "2026-09-20",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码5344.T",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "LSE/SGX挂牌的具体交易代码未逐一核验（公司IR页仅列交易所名）"
+  },
+  {
+   "source_keys": [
+    "MITSUBISHICHEMICAL"
+   ],
+   "entity_decision": "上市主体为三菱ケミカルグループ株式会社（三菱化学集团），2022年由三菱ケミカルホールディングス（三菱化学控股）更名；事业公司三菱化学株式会社为其子公司",
+   "company_id": "MCG",
+   "name_cn": "三菱化学（三菱化学集团）",
+   "name_en": "Mitsubishi Chemical Group Corporation",
+   "short_name": "Mitsubishi Chemical Group",
+   "aliases": [
+    "三菱ケミカルグループ株式会社",
+    "三菱ケミカルホールディングス Mitsubishi Chemical Holdings（旧名）",
+    "三菱化学 Mitsubishi Chemical"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "MCG-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "4188.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 4188",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=4188",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码4188（三菱ケミカルグループ）",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "MITSUIHIGH-TEC"
+   ],
+   "entity_decision": "",
+   "company_id": "MITSUIHT",
+   "name_cn": "三井高科技",
+   "name_en": "Mitsui High-tec, Inc.",
+   "short_name": "Mitsui High-tec",
+   "aliases": [
+    "三井ハイテック株式会社",
+    "三井高科技 Mitsui High-tec"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "MITSUIHT-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6966.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6966（三井ハイテック）",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=&topSearchStr=6966",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码6966，东证Prime市场",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "松井证券",
+     "title": "三井ハイテック(6966) 东证Prime 股价",
+     "url": "https://finance.matsui.co.jp/stock/6966/index",
+     "publish_date": "2026-09-01",
+     "data_year": "2026",
+     "metric": "上市状态与市场",
+     "caliber": "东证Prime市场",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NAGASE"
+   ],
+   "entity_decision": "法定名为長瀬産業株式会社；Nagase ChemteX（長瀬ケムテックス）为其化学品制造子公司，非上市主体本身",
+   "company_id": "NAGASE",
+   "name_cn": "长濑产业",
+   "name_en": "NAGASE & CO., LTD.",
+   "short_name": "Nagase",
+   "aliases": [
+    "長瀬産業株式会社",
+    "长濑 Nagase",
+    "Nagase ChemteX 長瀬ケムテックス（子公司）"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NAGASE-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "8012.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 8012",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=8012",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码8012",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NAMICS"
+   ],
+   "entity_decision": "",
+   "company_id": "NAMICS",
+   "name_cn": "纳美仕",
+   "name_en": "NAMICS Corporation",
+   "short_name": "NAMICS",
+   "aliases": [
+    "ナミックス株式会社",
+    "纳美仕 NAMICS"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "ナミックス株式会社",
+     "title": "公司概要（新潟市，underfill底部填充材料厂商）",
+     "url": "https://www.namics.co.jp/company/outline/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "英文表记NAMICS CORPORATION；非上市企业",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "LinkedIn日本",
+     "title": "NAMICS Corporation（种类：非上場企業）",
+     "url": "https://jp.linkedin.com/company/namics-corporation",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "非上場企業",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NITERRA"
+   ],
+   "entity_decision": "原日本特殊陶业株式会社（NGK Spark Plug/NGK火花塞），2023年4月更名为Niterra株式会社，证券代码不变（5334）",
+   "company_id": "NITERRA",
+   "name_cn": "日本特殊陶业（Niterra）",
+   "name_en": "Niterra Co., Ltd.",
+   "short_name": "Niterra",
+   "aliases": [
+    "Niterra株式会社",
+    "日本特殊陶業株式会社 NGK Spark Plug Co., Ltd.（旧名）",
+    "NGK火花塞",
+    "Niterra 日本特殊陶业"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NITERRA-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "5334.T",
+     "primary": true
+    },
+    {
+     "listing_id": "NITERRA-NSE",
+     "market": "日股",
+     "exchange": "NSE（名古屋证券交易所）",
+     "ticker": "5334",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 5334",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=5334",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码5334（Niterra，原日本特殊陶业）",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NITTO"
+   ],
+   "entity_decision": "",
+   "company_id": "NITTO",
+   "name_cn": "日东电工",
+   "name_en": "Nitto Denko Corporation",
+   "short_name": "Nitto",
+   "aliases": [
+    "日東電工株式会社",
+    "日东电工 Nitto"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NITTO-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6988.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6988",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6988",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6988",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "PANASONIC"
+   ],
+   "entity_decision": "图谱所指\"松下电子材料\"为松下集团旗下电子材料业务板块（原Panasonic Industry电子材料），上市主体为パナソニック ホールディングス株式会社（松下控股，2022年4月由Panasonic株式会社改制更名）",
+   "company_id": "PANASONIC",
+   "name_cn": "松下控股（松下电子材料为其业务板块）",
+   "name_en": "Panasonic Holdings Corporation",
+   "short_name": "Panasonic",
+   "aliases": [
+    "パナソニック ホールディングス株式会社",
+    "Panasonic Corporation（旧名）",
+    "松下电器产业 Matsushita Electric Industrial（旧名）",
+    "松下电子材料"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "PANASONIC-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6752.T",
+     "primary": true
+    },
+    {
+     "listing_id": "PANASONIC-NSE",
+     "market": "日股",
+     "exchange": "NSE（名古屋证券交易所）",
+     "ticker": "6752",
+     "primary": false
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 6752",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=6752",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6752（松下控股）",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "图谱条目实指其电子材料业务而非整个集团，主数据库如需精确到事业公司（松下电器机电等）另议"
+  },
+  {
+   "source_keys": [
+    "RORZE"
+   ],
+   "entity_decision": "",
+   "company_id": "RORZE",
+   "name_cn": "罗泽",
+   "name_en": "Rorze Corporation",
+   "short_name": "Rorze",
+   "aliases": [
+    "ローツェ株式会社",
+    "RORZE 罗泽"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "RORZE-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6323.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SMBC日兴证券",
+     "title": "ローツェ［6323］东证Prime",
+     "url": "https://fund2.smbcnikko.co.jp/smbc_nikko_hp/market/main/index.aspx?F=stk_detail&KEY1=6323/T",
+     "publish_date": "2026-10-14",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码6323",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SENJUMETAL"
+   ],
+   "entity_decision": "",
+   "company_id": "SENJUMETAL",
+   "name_cn": "千住金属",
+   "name_en": "Senju Metal Industry Co., Ltd.",
+   "short_name": "Senju Metal",
+   "aliases": [
+    "千住金属工業株式会社",
+    "SMIC（集团标识）",
+    "千住金属 Senju Metal"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "千住金属工業株式会社",
+     "title": "公司概要",
+     "url": "https://www.senju.com/ja/company/overview/",
+     "publish_date": "2025-04-01",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "英文商号SENJU METAL INDUSTRY CO., LTD.，焊料厂商；未上市",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Baseconnect",
+     "title": "千住金属工業株式会社企业信息（上市种别：未上市）",
+     "url": "https://baseconnect.in/companies/19972d42-f2f4-4a5e-bed2-84388ff47f1c",
+     "publish_date": "2026-09-02",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "未上場",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SHIN-ETSU"
+   ],
+   "entity_decision": "",
+   "company_id": "SHINETSU",
+   "name_cn": "信越化学",
+   "name_en": "Shin-Etsu Chemical Co., Ltd.",
+   "short_name": "Shin-Etsu",
+   "aliases": [
+    "信越化学工業株式会社",
+    "信越化学 Shin-Etsu"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SHINETSU-TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "4063.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "东京证券交易所",
+     "title": "东证上市公司信息服务 4063",
+     "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=topsearch&topSearchStr=4063",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东证Prime市场，证券代码4063",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "株テック",
+     "title": "信越化学工業(4063) 投资信息",
+     "url": "https://www.kabutec.jp/sp/i.php?code=4063",
+     "publish_date": "2026-03-04",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码4063",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SHINKAWA"
+   ],
+   "entity_decision": "株式会社新川（原东证1部6274）2019年与アピックヤマダ经营整合为ヤマハロボティクスホールディングス，2020年5月25日退市成为雅马哈发动机全资子公司；2025年7月1日新川等4家法人合并为ヤマハロボティクス株式会社（Yamaha Robotics Co., Ltd.），SHINKAWA现为该公司半导体后工序设备（键合机）品牌；当前主体非上市；主会话裁决：与 E1 批 YAMAHAROBOTICS 为同一当前法人，company_id 统一为 YAMAHAROBOTICS",
+   "company_id": "YAMAHAROBOTICS",
+   "name_cn": "雅马哈机器人",
+   "name_en": "Yamaha Robotics Co., Ltd.",
+   "short_name": "雅马哈机器人",
+   "aliases": [
+    "SHINKAWA",
+    "Shinkawa",
+    "アピックヤマダ APIC YAMADA（2019年并入）",
+    "ヤマハロボティクスホールディングス（2021-2025旧称）",
+    "ヤマハロボティクス株式会社 Yamaha Robotics",
+    "新川",
+    "株式会社新川 Shinkawa Ltd.（旧法人，已并入）"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "日本取引所集团（JPX）",
+     "title": "上場廃止銘柄一覧（2020/05/25 ヤマハモーターロボティクスホールディングス 6274）",
+     "url": "https://www.jpx.co.jp/listing/stocks/delisted/archives-06.html",
+     "publish_date": "2020-05-25",
+     "data_year": "2026",
+     "metric": "退市与现状",
+     "caliber": "旧6274于2020年5月25日退市（雅马哈发动机收购）",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "雅马哈发动机",
+     "title": "ヤマハロボティクスホールディングスおよび傘下の会社統合について",
+     "url": "https://global.yamaha-motor.com/jp/news/2025/0212/yrh.html",
+     "publish_date": "2025-02-12",
+     "data_year": "2026",
+     "metric": "重组",
+     "caliber": "2025年7月1日YRH、新川、アピックヤマダ、PFA四社合并为ヤマハロボティクス株式会社",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "ヤマハロボティクス",
+     "title": "SHINKAWA Series品牌页",
+     "url": "https://www.yamaha-robotics.com/brand/shinkawa",
+     "publish_date": "2026-09-28",
+     "data_year": "2026",
+     "metric": "现状",
+     "caliber": "SHINKAWA为雅马哈机器人键合设备品牌",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  }
+ ]
+}

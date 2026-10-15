@@ -2,6 +2,32 @@
 
 用途：记录实际变化。读者：负责人及维护人员。更新时间：2026-10-15。对应产品：V1.1。
 
+## V1.1 正式公司主数据库接入与行情扩容 · 2026-10-15
+
+### Added
+- 新增 `data/companies.json` 正式公司主表：245 家实体（上市 171 / 非上市 74），全部经主体核验与上市信息核验；新增 SRC-LS- 上市核验来源 644 条。
+- 行情证券注册表扩容至 96 只（A股 SH/SZ/BJ、港股、美股），由 `tools/build_quote_registry.py` 从主表 listings 生成，每只携带 listing_id 外键。
+- 新增研究流水线脚本（03 研究工作区，不发布）：分批核验、东财名录+腾讯行情接口批量核验、名称反查交叉核验、关系迁移与显示名修正。
+- 新增 `docs/CODEX_RELEASE_HANDOFF.md` 发布交接。
+
+### Changed
+- equipment.json / materials.json 一级与二级龙头全部改为 `{name, company_id, …}` 结构：426 条引用全部 attach，0 未匹配；斜杠组合主体全部拆分；股票代码从名称中剥离。
+- 公司库显示名改用 short_name 优先（避免法定全称过长）。
+- semiApi `/api/quotes` 取消三证券限制，注册表内任意证券可查（缺省全部）。
+- 公司 Drawer 行情按代码后缀（SH/SZ/BJ/HK/US）触发，不再写死三只。
+- sources.json 达 799 条；meta 数据版本升 v1.1。
+
+### Fixed
+- TencentProvider 深市/北交所总股本字段下标（原仅 .SH 正确）。
+- 修正 EVG 误带 SUSS 上市记录、Advanced Thermal Sciences 与 AT&S 奥特斯编号碰撞、MKS 更名（MKS Inc.）、新川并入雅马哈机器人等主体问题。
+
+### Removed
+- domain.js 的 PREVIEW_QUOTES 三证券临时显示桥（正式 listing 关联取代）。
+
+### Technical
+- 东财 suggest + 腾讯 gtimg 接口交叉核验 160 只证券名称 160/160 一致；公司池 249 候选行全覆盖裁决；JS 测试 12/12 通过（3 项断言更新为正式主表契约）。
+- 本轮中国批核验采用接口脚本化路径（模型额度中断后的替代方案），置信度与未决项保留在 companies.json 各实体字段中。
+
 ## V1.1 总图与交接追加修订 · 2026-10-15
 
 - 荧光黄#DFFF00改为主色，Hero深色字，蓝青保留为辅色和正文标题/链接色。

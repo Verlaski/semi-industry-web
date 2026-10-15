@@ -1,0 +1,1449 @@
+{
+ "batch": "batch_e1_slash_dup",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": [
+    "中电科43所/合肥圣达"
+   ],
+   "entity_decision": "拆分：中电科43所（研究所）与合肥圣达电子科技实业有限公司为不同法人，43所仅为合肥圣达第一大股东（持股46.27%），各占一条",
+   "company_id": "CETC43",
+   "name_cn": "中国电子科技集团公司第四十三研究所",
+   "name_en": "CETC 43rd Research Institute",
+   "short_name": "中电科43所",
+   "aliases": [
+    "中电科43所",
+    "43所",
+    "中国电科43所"
+   ],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "山东大学就业信息网",
+     "title": "中国电子科技集团公司第四十三研究所",
+     "url": "https://jobcareer.sdu.edu.cn/eweb/jygl/zpfw.so?entityId=SCFW_JYGL_DWXX&subsyscode=zpfw&modcode=jygl_scfwyrdw&type=viewDwxx&id=Pqa8aCP6TCPYtiTvsffeZc",
+     "publish_date": "2023-07-20",
+     "data_year": "2023",
+     "metric": "主体性质与所在地",
+     "caliber": "国家Ⅰ类研究所、央企骨干单位，位于合肥高新区",
+     "region": "中国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": "事业单位性质研究所，无上市主体"
+    },
+    {
+     "org": "企查查",
+     "title": "合肥圣达电子科技实业有限公司 股东信息",
+     "url": "https://m.qcc.com/firm/a93416b166f3458236898ede3f082f58.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "股权关系",
+     "caliber": "43所持股46.2726%为第一大股东",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "证明43所与合肥圣达为不同法人"
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "研究所企业化改制后运营主体名称未逐字核验"
+  },
+  {
+   "source_keys": [
+    "中电科43所/合肥圣达"
+   ],
+   "entity_decision": "拆分：合肥圣达为43所参控股的独立法人企业（产业化公司），单列为一条",
+   "company_id": "SHENGDA",
+   "name_cn": "合肥圣达电子科技实业有限公司",
+   "name_en": "",
+   "short_name": "合肥圣达",
+   "aliases": [
+    "圣达"
+   ],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "企查查",
+     "title": "合肥圣达电子科技实业有限公司",
+     "url": "https://m.qcc.com/firm/a93416b166f3458236898ede3f082f58.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体与股东",
+     "caliber": "独立法人；大股东为中国电子科技集团公司第四十三研究所（46.2726%）",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "中电科芯片技术股份有限公司",
+     "title": "2024年年度报告",
+     "url": "http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESH_STOCK/2025/2025-4/2025-04-25/10962211.PDF",
+     "publish_date": "2025-04-25",
+     "data_year": "2024",
+     "metric": "关联方认定",
+     "caliber": "合肥圣达列为受同一控股股东、实际控制人控制的企业",
+     "region": "中国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "上市公司年报关联方披露"
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "英文注册名未查到"
+  },
+  {
+   "source_keys": [
+    "大族激光/大族封测"
+   ],
+   "entity_decision": "拆分：大族激光为上市母公司，大族封测为其控股子公司，两个独立法人各占一条",
+   "company_id": "HANSLASER",
+   "name_cn": "大族激光科技产业集团股份有限公司",
+   "name_en": "Han's Laser Technology Industry Group Co., Ltd.",
+   "short_name": "大族激光",
+   "aliases": [
+    "大族激光",
+    "Han's Laser"
+   ],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HANSLASER_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "002008.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz002008",
+      "eastmoney": "0.002008"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "界面新闻",
+     "title": "大族激光：终止控股子公司深圳大族封测分拆至创业板上市",
+     "url": "https://www.jiemian.com/article/10758544.html",
+     "publish_date": "2024-01-31",
+     "data_year": "2024",
+     "metric": "上市状态与母子关系",
+     "caliber": "大族激光为A股上市公司，大族封测为其控股子公司",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "002008.SZ 为深市主板通行代码"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "大族封测",
+    "大族激光/大族封测"
+   ],
+   "entity_decision": "拆分+合并：大族封测为独立法人（大族激光控股子公司），两行候选均指同一主体，合并为一条",
+   "company_id": "DZFC",
+   "name_cn": "深圳市大族封测科技股份有限公司",
+   "name_en": "",
+   "short_name": "大族封测",
+   "aliases": [
+    "大族封测",
+    "大族光电"
+   ],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "界面新闻",
+     "title": "大族激光：终止控股子公司深圳大族封测分拆至创业板上市",
+     "url": "https://www.jiemian.com/article/10758544.html",
+     "publish_date": "2024-01-31",
+     "data_year": "2024",
+     "metric": "上市状态",
+     "caliber": "创业板分拆上市终止并撤回申请，仍为大族激光控股子公司",
+     "region": "中国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "金证研",
+     "title": "大族激光分拆子公司上市相继终止",
+     "url": "https://www.thejzy.com/?p=130497",
+     "publish_date": "2026-05-21",
+     "data_year": "2026",
+     "metric": "上市状态复核",
+     "caliber": "2023年1月撤材料终止创业板上市，截至2026年未再上市",
+     "region": "中国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "英文注册名未查到"
+  },
+  {
+   "source_keys": [
+    "英杰电气/英杰晨晖"
+   ],
+   "entity_decision": "拆分：英杰电气为上市母公司，英杰晨晖为其控股子公司，两个独立法人各占一条",
+   "company_id": "INJET",
+   "name_cn": "四川英杰电气股份有限公司",
+   "name_en": "Sichuan Injet Electric Co., Ltd.",
+   "short_name": "英杰电气",
+   "aliases": [
+    "英杰电气",
+    "Injet"
+   ],
+   "country_region": "中国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "INJET_SZSE",
+     "market": "A股",
+     "exchange": "SZSE",
+     "ticker": "300820.SZ",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "sz300820",
+      "eastmoney": "0.300820"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "深圳证券交易所",
+     "title": "四川英杰电气股份有限公司关于控股子公司完成工商变更登记的公告",
+     "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-06-29/6c5e7639-6b6d-4f9c-b697-16aefdef1702.PDF",
+     "publish_date": "2026-06-29",
+     "data_year": "2026",
+     "metric": "上市状态与代码、母子关系",
+     "caliber": "证券代码300820（深交所创业板）；英杰晨晖为控股子公司",
+     "region": "中国",
+     "type": "交易所",
+     "level": "A",
+     "remark": "与输入行 ticker_hint 300820 一致"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "英杰电气/英杰晨晖"
+   ],
+   "entity_decision": "拆分：英杰晨晖为英杰电气控股的独立法人子公司，单列为一条",
+   "company_id": "YJCH",
+   "name_cn": "成都英杰晨晖科技有限公司",
+   "name_en": "",
+   "short_name": "英杰晨晖",
+   "aliases": [
+    "英杰晨晖",
+    "晨晖公司"
+   ],
+   "country_region": "中国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "深圳证券交易所",
+     "title": "四川英杰电气股份有限公司关于控股子公司完成工商变更登记的公告",
+     "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-06-29/6c5e7639-6b6d-4f9c-b697-16aefdef1702.PDF",
+     "publish_date": "2026-06-29",
+     "data_year": "2026",
+     "metric": "主体性质与持股",
+     "caliber": "增资换股后英杰电气持股59.364%，仍为控股子公司并纳入合并报表",
+     "region": "中国",
+     "type": "交易所",
+     "level": "A",
+     "remark": "成立于2023年4月，主营射频电源等半导体核心零部件"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "英文注册名未查到"
+  },
+  {
+   "source_keys": [
+    "EVG",
+    "EVG/SUSS"
+   ],
+   "entity_decision": "拆分+合并：EVG（奥地利EV Group）与 SUSS（德国SUSS MicroTec）为不同主体；单行 EVG 与斜杠行中的 EVG 为同一主体，合并为一条；修正：EVG 记录误带 SUSS 的别名与 SMHN.DE 上市记录，已剔除（主会话）",
+   "company_id": "EVG",
+   "name_cn": "奥地利EV集团",
+   "name_en": "EV Group (EVG)",
+   "short_name": "EVG",
+   "aliases": [
+    "EV Group",
+    "EVG"
+   ],
+   "country_region": "奥地利",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "PR Newswire",
+     "title": "EV Group Launches New Flagship Model in GEMINI FB Family of Fusion Wafer Bonding Systems",
+     "url": "https://www.prnewswire.com/news-releases/ev-group-launches-new-flagship-model-in-its-gemini-fb-family-of-fusion-wafer-bonding-systems-to-enhance-throughput-and-automation-performance-129372928.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体与所在地",
+     "caliber": "晶圆键合/光刻设备龙头，总部位于奥地利 St. Florian",
+     "region": "奥地利",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    },
+    {
+     "org": "Arizona AI",
+     "title": "EV Group in Arizona",
+     "url": "https://arizonaai.com/companies/ev-group",
+     "publish_date": "2026-08-30",
+     "data_year": "2026",
+     "metric": "上市状态",
+     "caliber": "privately held（私人持股公司），1980年由 Thallner 夫妇创立",
+     "region": "奥地利",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": "私人公司，无上市记录"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "EVG/SUSS"
+   ],
+   "entity_decision": "拆分：SUSS 指德国 SUSS MicroTec SE，与 EVG 分属不同国家、不同上市状态的两个主体，单列一条",
+   "company_id": "SUSS",
+   "name_cn": "SUSS MicroTec",
+   "name_en": "SUSS MicroTec SE",
+   "short_name": "SUSS",
+   "aliases": [
+    "SUSS",
+    "Süss MicroTec",
+    "SUSS MicroTec SE"
+   ],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SUSS_XETRA",
+     "market": "欧股",
+     "exchange": "XETRA",
+     "ticker": "SMHN.DE",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SUSS MicroTec 官网 IR",
+     "title": "Share | SUSS",
+     "url": "https://www.suss.com/en/investor-relations/share",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "Xetra 上市，WKN/代码 722670/SMH，总部 Garching（慕尼黑）",
+     "region": "德国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Yahoo Finance",
+     "title": "SUSS MicroTec SE (SMHN.DE)",
+     "url": "https://finance.yahoo.com/quote/SMHN.DE/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "交易所与ISIN",
+     "caliber": "Xetra: SMHN，ISIN DE000A1K0235",
+     "region": "德国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "TRUMPF"
+   ],
+   "entity_decision": "确认独立：TRUMPF（通快集团）为独立主体；与 TRUMPF Hüttinger 名称相近不合并——Hüttinger 是其电子业务子公司，另行保留",
+   "company_id": "TRUMPF",
+   "name_cn": "通快",
+   "name_en": "TRUMPF",
+   "short_name": "通快",
+   "aliases": [
+    "TRUMPF",
+    "Trumpf",
+    "通快集团"
+   ],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "TRUMPF 官网",
+     "title": "High-tech company TRUMPF Hüttinger turns 100",
+     "url": "https://www.trumpf.com/zh_INT/newsroom/global-press-releases/press-release-detail-page/release/high-tech-company-trumpf-huettinger-turns-100/",
+     "publish_date": "2022-06-02",
+     "data_year": "2022",
+     "metric": "集团结构",
+     "caliber": "TRUMPF 为 Ditzingen 总部机床/激光集团，Hüttinger 为其电子业务子公司",
+     "region": "德国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "TRUMPF 为 Leibinger 家族所有的私人公司（TRUMPF SE），无上市"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "TRUMPFHÜTTINGER"
+   ],
+   "entity_decision": "确认独立（不同主体保留）：TRUMPF Hüttinger 为 TRUMPF 集团旗下独立法人子公司（射频/微波发生器，半导体等离子体电源），不单列上市记录",
+   "company_id": "TRUMPFHUTTINGER",
+   "name_cn": "霍廷格",
+   "name_en": "TRUMPF Hüttinger GmbH + Co. KG",
+   "short_name": "TRUMPF Hüttinger",
+   "aliases": [
+    "霍廷格",
+    "Hüttinger",
+    "TRUMPF Hüttinger"
+   ],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "TRUMPF 官网",
+     "title": "High-tech company TRUMPF Hüttinger turns 100",
+     "url": "https://www.trumpf.com/zh_INT/newsroom/global-press-releases/press-release-detail-page/release/high-tech-company-trumpf-huettinger-turns-100/",
+     "publish_date": "2022-06-02",
+     "data_year": "2022",
+     "metric": "主体关系",
+     "caliber": "1922年创立于弗莱堡，TRUMPF 电子业务子公司，等离子体发生器用于半导体制造",
+     "region": "德国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "SEMI 会员名录",
+     "title": "TRUMPF Hüttinger GmbH + Co. KG",
+     "url": "https://www.semi.org/en/resources/member-directory/trumpf-huttinger-gmbh-co-kg",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "业务定位",
+     "caliber": "DC/MF/HF 及固态微波发生器厂商，隶属 TRUMPF",
+     "region": "德国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "G&N/冈本OKAMOTO"
+   ],
+   "entity_decision": "拆分：G&N（德国精密磨床厂）与冈本工作机械（日本上市公司）为不同主体，各占一条",
+   "company_id": "GN",
+   "name_cn": "G&N精密机床",
+   "name_en": "G&N Genauigkeits Maschinenbau Nürnberg GmbH",
+   "short_name": "G&N",
+   "aliases": [
+    "G&N",
+    "Grinding Machines Nuernberg"
+   ],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "G&N 官网",
+     "title": "About us - Grinders (G&N)",
+     "url": "https://www.grinders.de/en/about-us/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体与业务",
+     "caliber": "德国精密磨床厂商，产品含全自动晶圆磨床（NANO系列）",
+     "region": "德国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "GmbH 组织形式，无上市记录"
+    },
+    {
+     "org": "24MarketReports",
+     "title": "Silicon Wafer Grinding Machine Market 2026-2032",
+     "url": "https://www.24marketreports.com/machines/global-silicon-wafer-grinding-machine-forecast-market",
+     "publish_date": "2025-12-13",
+     "data_year": "2025",
+     "metric": "行业定位",
+     "caliber": "硅晶圆磨床主要厂商之一（与 Disco、东京精密、Okamoto 并列）",
+     "region": "德国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "中文通行名不统一，暂用直译"
+  },
+  {
+   "source_keys": [
+    "G&N/冈本OKAMOTO"
+   ],
+   "entity_decision": "拆分：冈本 Okamoto 指日本冈本工作机械制作所，独立上市主体，单列一条",
+   "company_id": "OKAMOTO",
+   "name_cn": "冈本工作机械制作所",
+   "name_en": "Okamoto Machine Tool Works, Ltd.",
+   "short_name": "冈本",
+   "aliases": [
+    "冈本",
+    "Okamoto",
+    "OKAMOTO"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "OKAMOTO_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6125.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "JPX TDnet（经 BigGo 转载）",
+     "title": "Okamoto Machine Tool Works 2026年3月期决算短信",
+     "url": "https://finance.biggo.com/news/jpx_tdnet_140120260429514118",
+     "publish_date": "2026-05-13",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "证券代码6125，东京证券交易所上市",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "FT Markets",
+     "title": "Okamoto Machine Tool Works Ltd, 6125:TYO profile",
+     "url": "https://markets.ft.com/data/equities/tearsheet/profile?s=6125:TYO",
+     "publish_date": "2026-02-05",
+     "data_year": "2026",
+     "metric": "业务概况",
+     "caliber": "机床与半导体相关设备（晶圆磨床）两大板块",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "默克MERCKKGAA/霍尼韦尔HONEYWELL"
+   ],
+   "entity_decision": "拆分：默克 Merck KGaA（德国）与霍尼韦尔 Honeywell（美国）为不同主体，各占一条",
+   "company_id": "MERCKKGAA",
+   "name_cn": "默克",
+   "name_en": "Merck KGaA",
+   "short_name": "默克",
+   "aliases": [
+    "默克",
+    "Merck KGaA",
+    "德国默克",
+    "EMD Electronics"
+   ],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "MERCKKGAA_XETRA",
+     "market": "欧股",
+     "exchange": "XETRA",
+     "ticker": "MRK.DE",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo Finance",
+     "title": "Merck KGaA (MRK.DE)",
+     "url": "https://finance.yahoo.com/quote/MRK.DE/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "Xetra: MRK，DAX 成分股",
+     "region": "德国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "multiples.vc",
+     "title": "Merck KGaA valuation multiples",
+     "url": "https://multiples.vc/public-comps/merck-kgaa-valuation-multiples",
+     "publish_date": "2025-10-26",
+     "data_year": "2025",
+     "metric": "上市地与总部",
+     "caliber": "总部德国 Darmstadt，1995年于 Deutsche Börse Xetra 上市",
+     "region": "德国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "北美以 EMD 品牌运营；注意与美国 Merck & Co. 区分"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "默克MERCKKGAA/霍尼韦尔HONEYWELL",
+    "HONEYWELL"
+   ],
+   "entity_decision": "拆分+合并：霍尼韦尔与默克为不同主体；单行 HONEYWELL 与斜杠行中的霍尼韦尔为同一主体，合并为一条",
+   "company_id": "HONEYWELL",
+   "name_cn": "霍尼韦尔",
+   "name_en": "Honeywell Technologies",
+   "short_name": "霍尼韦尔",
+   "aliases": [
+    "霍尼韦尔",
+    "Honeywell",
+    "Honeywell International"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "HONEYWELL_NASDAQ",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "HON.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usHON"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Honeywell 官网",
+     "title": "Honeywell Technologies Launches As Independent, Pure-Play Automation Company Following Completion of Honeywell Aerospace Spin-Off",
+     "url": "https://www.honeywell.com/us/en/news/press-releases/2026/06/honeywell-technologies-launches-independent-pure-play-automation-company-following-honeywell-aerospace-spin-off",
+     "publish_date": "2026-06-29",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "三分拆完成：存续自动化公司更名 Honeywell Technologies，继续在 Nasdaq 以 HON 交易；航空航天分拆为 HONA（2026-06-29），先进材料已分拆为 Solstice（SOLS，2025-10）",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "原电子材料业务随 Solstice Advanced Materials 分拆，引用时需注意口径"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "ACCRETECH",
+    "东京电子/东京精密"
+   ],
+   "entity_decision": "拆分+合并：东京精密（Accretech）与东京电子（TEL）为不同主体；单行 ACCRETECH 与斜杠行中的东京精密为同一主体，合并为一条",
+   "company_id": "ACCRETECH",
+   "name_cn": "东京精密",
+   "name_en": "Tokyo Seimitsu Co., Ltd. (ACCRETECH)",
+   "short_name": "东京精密",
+   "aliases": [
+    "东京精密",
+    "Accretech",
+    "ACCRETECH"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "ACCRETECH_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7729.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "株式マーケットデータ",
+     "title": "SOX指数日本关联铭柄列表",
+     "url": "https://stock-marketdata.com/sox.html",
+     "publish_date": "2026-08-02",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "东京精密证券代码7729，TSE上市",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "APICYAMADA/YAMAHAROBOTICS",
+    "YAMADA/APICYAMADA"
+   ],
+   "entity_decision": "合并：APIC YAMADA（原 SHINKAWA 全资子公司）已于2025年7月与 Yamaha Robotics Holdings、SHINKAWA、PFA 吸收合并为 Yamaha Robotics Co., Ltd.；两行候选均指向该存续主体，合并为一条",
+   "company_id": "YAMAHAROBOTICS",
+   "name_cn": "雅马哈机器人",
+   "name_en": "Yamaha Robotics Co., Ltd.",
+   "short_name": "Yamaha Robotics",
+   "aliases": [
+    "APIC YAMADA",
+    "YAMADA",
+    "SHINKAWA",
+    "PFA",
+    "Yamaha Robotics Holdings"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Yamaha Robotics 官网",
+     "title": "About Yamaha Robotics Co., Ltd.",
+     "url": "https://www.yamaha-robotics.com/en/solution/yrh",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体沿革",
+     "caliber": "2025年7月由 Yamaha Robotics Holdings、Shinkawa、Apic Yamada、PFA 四社合并成立 Yamaha Robotics Co., Ltd.",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Yamaha Motor 官网",
+     "title": "Merger between Yamaha Robotics Holdings and its subsidiaries / Formulation of Medium- to Long-Term Management Plan",
+     "url": "https://news.yamaha-motor.co.jp/news/2025/0212/yrh.html",
+     "publish_date": "2025-02-12",
+     "data_year": "2025",
+     "metric": "母子关系",
+     "caliber": "Yamaha Robotics Holdings 为雅马哈发动机全资子公司，吸收合并后更名 Yamaha Robotics",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "上市母体为雅马哈发动机（7272.T）"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "CANON",
+    "NIKON/CANON"
+   ],
+   "entity_decision": "拆分+合并：Nikon 与 Canon 为不同主体；单行 CANON 与斜杠行中的 Canon 为同一主体，合并为一条",
+   "company_id": "CANON",
+   "name_cn": "佳能",
+   "name_en": "Canon Inc.",
+   "short_name": "佳能",
+   "aliases": [
+    "佳能",
+    "Canon",
+    "キヤノン"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "CANON_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7751.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SBI证券",
+     "title": "日经225成分股列表",
+     "url": "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&getFlg=on&burl=search_market&cat1=market&cat2=info&dir=info&file=market_meigara_225.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "キヤノン 证券代码7751，日经225成分股",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NIKON",
+    "NIKON/CANON"
+   ],
+   "entity_decision": "拆分+合并：Nikon 与 Canon 为不同主体；单行 NIKON 与斜杠行中的 Nikon 为同一主体，合并为一条",
+   "company_id": "NIKON",
+   "name_cn": "尼康",
+   "name_en": "Nikon Corporation",
+   "short_name": "尼康",
+   "aliases": [
+    "尼康",
+    "Nikon",
+    "ニコン"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NIKON_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7731.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SBI证券",
+     "title": "日经225成分股列表",
+     "url": "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&getFlg=on&burl=search_market&cat1=market&cat2=info&dir=info&file=market_meigara_225.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "ニコン 证券代码7731，日经225成分股",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NGK/NTK",
+    "NGKINSULATORS",
+    "NGKINSULATORS/NTKCERATEC日本碍子"
+   ],
+   "entity_decision": "拆分+合并：NGK（日本碍子，NGK Insulators）与 NTK（特殊陶业旗下 NTK CERATEC）属不同集团的不同主体；单行 NGKINSULATORS 与两个斜杠行中的 NGK/日本碍子为同一主体，合并为一条",
+   "company_id": "NGKINSULATORS",
+   "name_cn": "日本碍子",
+   "name_en": "NGK Insulators, Ltd.",
+   "short_name": "NGK Insulators",
+   "aliases": [
+    "日本碍子",
+    "NGK",
+    "NGK Insulators"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NGKINSULATORS_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "5333.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "ReportPrime",
+     "title": "Semiconductor Electrostatic Chuck Market Size & Share Analysis",
+     "url": "https://www.reportprime.com/semiconductor-electrostatic-chuck-r3081",
+     "publish_date": "2025-03-18",
+     "data_year": "2025",
+     "metric": "上市状态与代码",
+     "caliber": "NGK Insulators, Nagoya, TSE:5333，半导体静电卡盘龙头",
+     "region": "日本",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "NGK/NTK",
+    "NGKINSULATORS/NTKCERATEC日本碍子"
+   ],
+   "entity_decision": "拆分：NTK 指株式会社NTK CERATEC（日本特殊陶业 Niterra 全资子公司），与 NGK Insulators 分属不同集团，单列一条",
+   "company_id": "NTKCERATEC",
+   "name_cn": "NTK CERATEC",
+   "name_en": "NTK CERATEC Co., Ltd.",
+   "short_name": "NTK CERATEC",
+   "aliases": [
+    "NTK",
+    "NTK CERATEC",
+    "NTKセラテック",
+    "特殊陶业NTK"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "NTK CERATEC 官网",
+     "title": "Corporate information | NTK CERATEC CO., LTD.",
+     "url": "https://www.ceratech.co.jp/en/company/history/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体关系与业务",
+     "caliber": "NGK SPARK PLUG（现 Niterra）全资子公司，生产静电卡盘/陶瓷部件",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "上市母体为 Niterra Co., Ltd.（5334.T）"
+    },
+    {
+     "org": "Niterra 官网",
+     "title": "Our Brands | Corporate Information",
+     "url": "https://www.niterragroup.com/english/corporate/brand/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "品牌归属",
+     "caliber": "NTK 为 Niterra 旗下品牌（IC封装、静电卡盘等）",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SCREEN",
+    "SCREENHOLDINGS"
+   ],
+   "entity_decision": "合并：SCREEN 为 SCREEN Holdings 的通行简称，同一主体，合并为一条",
+   "company_id": "SCREEN",
+   "name_cn": "迪恩士",
+   "name_en": "SCREEN Holdings Co., Ltd.",
+   "short_name": "SCREEN",
+   "aliases": [
+    "SCREEN",
+    "SCREEN Holdings",
+    "迪恩士",
+    "斯克林",
+    "SCREENホールディングス"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SCREEN_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "7735.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SBI证券",
+     "title": "日经225成分股列表",
+     "url": "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&getFlg=on&burl=search_market&cat1=market&cat2=info&dir=info&file=market_meigara_225.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "SCREENホールディングス 证券代码7735，日经225成分股",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "openPR",
+     "title": "Southeast Asia Semiconductor Equipment Market 2026",
+     "url": "https://www.openpr.com/news/4542940/southeast-asia-semiconductor-equipment-market-2026",
+     "publish_date": "2026-06-09",
+     "data_year": "2026",
+     "metric": "交易所代码佐证",
+     "caliber": "SCREEN Holdings Co., Ltd. (TSE: 7735)",
+     "region": "日本",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SHINKO",
+    "SHINKOELECTRIC"
+   ],
+   "entity_decision": "合并：Shinko Electric（新光电气）为 Shinko Electric Industries（新光電気工業）的通行简称，半导体封装基板语境下两行候选为同一主体，合并为一条",
+   "company_id": "SHINKO",
+   "name_cn": "新光电气工业",
+   "name_en": "Shinko Electric Industries Co., Ltd.",
+   "short_name": "Shinko",
+   "aliases": [
+    "SHINKO",
+    "Shinko Electric",
+    "新光电气",
+    "新光電気工業"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Japan Exchange Group",
+     "title": "Decision on Delisting, etc.: SHINKO ELECTRIC INDUSTRIES CO.,LTD.",
+     "url": "https://www.jpx.co.jp/english/news/1023/20250520-11.html",
+     "publish_date": "2025-05-20",
+     "data_year": "2025",
+     "metric": "退市裁定",
+     "caliber": "原证券代码6967（Prime市场），2025年退市",
+     "region": "日本",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Shinko Electric Industries 官网 IR",
+     "title": "FAQs | Investor Relations",
+     "url": "https://www.shinko.co.jp/english/ir/faq/",
+     "publish_date": "",
+     "data_year": "2025",
+     "metric": "退市确认",
+     "caliber": "公司股票于2025年6月6日退市，不可在TSE Prime市场交易；JIC主导财团以每股5,920日元TOB收购",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "存在同名企业神钢电机（Shinko Electric Co., Ltd.，Kobe Steel系）的歧义，已按半导体封装基板语境裁决为新光电气工业"
+  },
+  {
+   "source_keys": [
+    "SUMITOMO/SEN住友重工",
+    "住友重工/SENSUMITOMO"
+   ],
+   "entity_decision": "拆分+合并：住友重工与 SEN（离子注入子公司）为不同主体；两个斜杠行表述同一对组合，对应的住友重工合并为一条",
+   "company_id": "SHI",
+   "name_cn": "住友重工",
+   "name_en": "Sumitomo Heavy Industries, Ltd.",
+   "short_name": "住友重工",
+   "aliases": [
+    "住友重工",
+    "Sumitomo",
+    "SHI",
+    "住友重機械工業"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SHI_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "6302.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "住友重机械工业 官网",
+     "title": "Ion Implanters | Sumitomo Heavy Industries, Ltd.",
+     "url": "https://www.shi.co.jp/english/products/machinery/ion/index.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体与业务",
+     "caliber": "综合重机械厂商，离子注入设备业务主体",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "日经225代码一览（wsnova整理）",
+     "title": "日經指數股票代碼一覽",
+     "url": "https://wwwsnova.blogspot.com/2013/08/nikkie225-stock-symbols.html",
+     "publish_date": "2013-08",
+     "data_year": "2026",
+     "metric": "上市代码",
+     "caliber": "Sumitomo Heavy Industries, Ltd. TYO: 6302",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SUMITOMO/SEN住友重工",
+    "住友重工/SENSUMITOMO"
+   ],
+   "entity_decision": "拆分+合并：SEN 原为住友重工与 Eaton/Axcelis 各50%合资公司（Sumitomo Eaton Nova），2009年住友重工收购全部股权，现为全资子会社（现名住友重机械Material Solutions）；两个斜杠行中的 SEN 为同一主体，合并为一条",
+   "company_id": "SEN",
+   "name_cn": "SEN（住友重机械材料解决方案）",
+   "name_en": "Sumitomo Heavy Industries Material Solutions Co., Ltd.",
+   "short_name": "SEN",
+   "aliases": [
+    "SEN",
+    "SEN Corporation",
+    "Sumitomo Eaton Nova",
+    "Sumitomo Heavy Industries Ion Technology",
+    "住友重機械マテリアルソリューションズ"
+   ],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "GlobeNewswire（Axcelis 公告）",
+     "title": "Axcelis Technologies in Agreement to Sell Its Interest in Joint Venture SEN Corporation to Sumitomo Heavy Industries",
+     "url": "https://www.globenewswire.com/news-release/2009/02/26/393297/9831/en/axcelis-technologies-in-agreement-to-sell-its-interest-in-joint-venture-sen-corporation-to-sumitomo-heavy-industries.html",
+     "publish_date": "2009-02-26",
+     "data_year": "2009",
+     "metric": "股权沿革",
+     "caliber": "住友重工收购 Axcelis 持有的 SEN 50% 股权，SEN 成为全资子公司",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "住友重機械マテリアルソリューションズ 官网",
+     "title": "Announcement of Company Name Changes",
+     "url": "https://shi-ms.com/en/news/news1114/",
+     "publish_date": "2025-12-10",
+     "data_year": "2026",
+     "metric": "现名",
+     "caliber": "Sumitomo Heavy Industries Ion Technology 于2026年1月1日更名 Sumitomo Heavy Industries Material Solutions；历史沿革即原 SEN（SHI与Eaton 50-50合资）",
+     "region": "日本",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "SEN 法人格经更名存续至今"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "TEL",
+    "东京电子/东京精密"
+   ],
+   "entity_decision": "拆分+合并：东京电子与东京精密为不同主体；单行 TEL 与斜杠行中的东京电子为同一主体，合并为一条",
+   "company_id": "TEL",
+   "name_cn": "东京电子",
+   "name_en": "Tokyo Electron Limited",
+   "short_name": "东京电子",
+   "aliases": [
+    "TEL",
+    "东京电子",
+    "東京エレクトロン",
+    "Tokyo Electron"
+   ],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "TEL_TSE",
+     "market": "日股",
+     "exchange": "TSE",
+     "ticker": "8035.T",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SBI证券",
+     "title": "日经225成分股列表",
+     "url": "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&getFlg=on&burl=search_market&cat1=market&cat2=info&dir=info&file=market_meigara_225.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "東京エレクトロン 证券代码8035，日经225成分股",
+     "region": "日本",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SOULBRAIN/LAKEMATERIALS/DNF"
+   ],
+   "entity_decision": "拆分：Soulbrain、Lake Materials、DNF 为三家独立韩国上市公司，各占一条",
+   "company_id": "SOULBRAIN",
+   "name_cn": "Soulbrain",
+   "name_en": "Soulbrain Co., Ltd.",
+   "short_name": "Soulbrain",
+   "aliases": [
+    "Soulbrain",
+    "솔브레인",
+    "索尔布雷恩"
+   ],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "SOULBRAIN_KOSDAQ",
+     "market": "韩股",
+     "exchange": "KOSDAQ",
+     "ticker": "357780.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo Finance",
+     "title": "Soulbrain Co., Ltd. (357780.KQ)",
+     "url": "https://finance.yahoo.com/quote/357780.KQ/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ: 357780，半导体材料（CVD/ALD前驱体、蚀刻液、CMP浆料）",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SOULBRAIN/LAKEMATERIALS/DNF"
+   ],
+   "entity_decision": "拆分：Lake Materials 为独立韩国上市公司，单列一条",
+   "company_id": "LAKEMATERIALS",
+   "name_cn": "Lake Materials",
+   "name_en": "Lake Materials Co., Ltd.",
+   "short_name": "Lake Materials",
+   "aliases": [
+    "Lake Materials",
+    "레이크머티리얼즈"
+   ],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "LAKEMATERIALS_KOSDAQ",
+     "market": "韩股",
+     "exchange": "KOSDAQ",
+     "ticker": "281740.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Bloomberg",
+     "title": "281740: Lake Materials Co Ltd Stock Price Quote - KOSDAQ",
+     "url": "https://www.bloomberg.com/quote/281740:KS",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ: 281740，有机金属前驱体厂商",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "SOULBRAIN/LAKEMATERIALS/DNF"
+   ],
+   "entity_decision": "拆分：DNF 为独立韩国上市公司（Soulbrain 为其大股东之一，但各自独立上市），单列一条",
+   "company_id": "DNF",
+   "name_cn": "DNF",
+   "name_en": "DNF Co., Ltd.",
+   "short_name": "DNF",
+   "aliases": [
+    "DNF",
+    "디엔에프"
+   ],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "DNF_KOSDAQ",
+     "market": "韩股",
+     "exchange": "KOSDAQ",
+     "ticker": "092070.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo Finance",
+     "title": "DNF Co.,Ltd. (092070.KQ)",
+     "url": "https://finance.yahoo.com/quote/092070.KQ/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ: 092070",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "DNF 官网",
+     "title": "Semiconductor - DNF",
+     "url": "https://www.dnfsolution.com/english/sub050201",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "业务定位",
+     "caliber": "CVD/ALD 前驱体专业厂商",
+     "region": "韩国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "Soulbrain 为最大股东之一，仍为独立上市主体"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "UNISEM/FST"
+   ],
+   "entity_decision": "拆分：Unisem 与 FST 为两家独立韩国上市公司，各占一条",
+   "company_id": "UNISEM",
+   "name_cn": "Unisem",
+   "name_en": "UNISEM Co., Ltd.",
+   "short_name": "Unisem",
+   "aliases": [
+    "Unisem",
+    "유니셈",
+    "UNISEM"
+   ],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "UNISEM_KOSDAQ",
+     "market": "韩股",
+     "exchange": "KOSDAQ",
+     "ticker": "036200.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Investing.com",
+     "title": "Unisem Co Ltd Stock Price Today | KQ: 036200",
+     "url": "https://www.investing.com/equities/union-semiconductor-equipment-co-lt",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ: 036200，半导体设备与零部件（清洗/蚀刻设备、ESC部件）",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "SEMI 会员名录",
+     "title": "UNISEM Co., Ltd.",
+     "url": "https://www.semi.org/en/resources/member-directory/unisem-co-ltd",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "主体确认",
+     "caliber": "1988年成立的韩国半导体设备公司",
+     "region": "韩国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "UNISEM/FST"
+   ],
+   "entity_decision": "拆分：FST 为独立韩国上市公司，现名 Fine Semitech Corp.，单列一条",
+   "company_id": "FST",
+   "name_cn": "FST（Fine Semitech）",
+   "name_en": "Fine Semitech Corp.",
+   "short_name": "FST",
+   "aliases": [
+    "FST",
+    "FST Inc.",
+    "Fine Semitech",
+    "파인세미텍"
+   ],
+   "country_region": "韩国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "FST_KOSDAQ",
+     "market": "韩股",
+     "exchange": "KOSDAQ",
+     "ticker": "036810.KQ",
+     "primary": true
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo Finance",
+     "title": "Fine Semitech Corp. (036810.KQ)",
+     "url": "https://finance.yahoo.com/quote/036810.KQ/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "KOSDAQ: 036810，原名 FST Inc.，半导体/FPD 设备零部件与温控",
+     "region": "韩国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  }
+ ]
+}

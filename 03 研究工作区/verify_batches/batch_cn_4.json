@@ -1,0 +1,100 @@
+{
+ "batch": "batch_cn_4.json",
+ "count": 4,
+ "rows": [
+  {
+   "key": "鼎龙股份",
+   "name_cn": "鼎龙股份",
+   "name_en": "",
+   "raw_names": [
+    "鼎龙股份"
+   ],
+   "cn_variants": [
+    "鼎龙股份"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "龙图光罩",
+   "name_cn": "龙图光罩",
+   "name_en": "",
+   "raw_names": [
+    "龙图光罩"
+   ],
+   "cn_variants": [
+    "龙图光罩"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "MATTSON",
+   "name_cn": "屹唐半导体",
+   "name_en": "Mattson",
+   "raw_names": [
+    "屹唐半导体 Mattson（中）",
+    "屹唐半导体（Mattson）"
+   ],
+   "cn_variants": [
+    "屹唐半导体"
+   ],
+   "en_variants": [
+    "Mattson"
+   ],
+   "region": "中国",
+   "regions_evidence": [
+    "中国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "Mattson"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SMEE",
+   "name_cn": "上海微电子装备",
+   "name_en": "SMEE",
+   "raw_names": [
+    "上海微电子",
+    "上海微电子 SMEE(中)",
+    "上海微电子装备 SMEE"
+   ],
+   "cn_variants": [
+    "上海微电子装备",
+    "上海微电子"
+   ],
+   "en_variants": [
+    "SMEE"
+   ],
+   "region": "中国",
+   "regions_evidence": [
+    "中国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "name: 同一清洗名连接多种中英文写法；仅粗去重，仍需核验别名对应"
+   ],
+   "occurrence_count": 3
+  }
+ ]
+}

@@ -1,0 +1,665 @@
+{
+ "batch": "batch_cn_1.json",
+ "count": 30,
+ "rows": [
+  {
+   "key": "ACMRESEARCH",
+   "name_cn": "盛美上海",
+   "name_en": "ACM Research",
+   "raw_names": [
+    "盛美上海",
+    "盛美上海 ACM Research"
+   ],
+   "cn_variants": [
+    "盛美上海"
+   ],
+   "en_variants": [
+    "ACM Research"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "AMEC",
+   "name_cn": "中微公司",
+   "name_en": "AMEC",
+   "raw_names": [
+    "中微公司 AMEC"
+   ],
+   "cn_variants": [
+    "中微公司"
+   ],
+   "en_variants": [
+    "AMEC"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "DJEL",
+   "name_cn": "东方晶源",
+   "name_en": "DJEL",
+   "raw_names": [
+    "东方晶源 DJEL"
+   ],
+   "cn_variants": [
+    "东方晶源"
+   ],
+   "en_variants": [
+    "DJEL"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HWATSING",
+   "name_cn": "华海清科",
+   "name_en": "Hwatsing",
+   "raw_names": [
+    "华海清科",
+    "华海清科 Hwatsing"
+   ],
+   "cn_variants": [
+    "华海清科"
+   ],
+   "en_variants": [
+    "Hwatsing"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "KINGSEMI",
+   "name_cn": "芯源微",
+   "name_en": "Kingsemi",
+   "raw_names": [
+    "芯源微",
+    "芯源微 Kingsemi"
+   ],
+   "cn_variants": [
+    "芯源微"
+   ],
+   "en_variants": [
+    "Kingsemi"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "LEADMICRO",
+   "name_cn": "微导纳米",
+   "name_en": "Leadmicro",
+   "raw_names": [
+    "微导纳米 Leadmicro"
+   ],
+   "cn_variants": [
+    "微导纳米"
+   ],
+   "en_variants": [
+    "Leadmicro"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NAURA",
+   "name_cn": "北方华创",
+   "name_en": "NAURA",
+   "raw_names": [
+    "北方华创 NAURA",
+    "北方华创(002371)"
+   ],
+   "cn_variants": [
+    "北方华创"
+   ],
+   "en_variants": [
+    "NAURA"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "002371"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 5
+  },
+  {
+   "key": "PIOTECH",
+   "name_cn": "拓荆科技",
+   "name_en": "Piotech",
+   "raw_names": [
+    "拓荆科技",
+    "拓荆科技 Piotech"
+   ],
+   "cn_variants": [
+    "拓荆科技"
+   ],
+   "en_variants": [
+    "Piotech"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "PNCS",
+   "name_cn": "至纯科技",
+   "name_en": "PNCS",
+   "raw_names": [
+    "至纯科技 PNCS"
+   ],
+   "cn_variants": [
+    "至纯科技"
+   ],
+   "en_variants": [
+    "PNCS"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "RSIC",
+   "name_cn": "上海睿励",
+   "name_en": "RSIC",
+   "raw_names": [
+    "上海睿励 RSIC"
+   ],
+   "cn_variants": [
+    "上海睿励"
+   ],
+   "en_variants": [
+    "RSIC"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SKYVERSE",
+   "name_cn": "中科飞测",
+   "name_en": "Skyverse",
+   "raw_names": [
+    "中科飞测 Skyverse"
+   ],
+   "cn_variants": [
+    "中科飞测"
+   ],
+   "en_variants": [
+    "Skyverse"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "上海中艺",
+   "name_cn": "上海中艺",
+   "name_en": "",
+   "raw_names": [
+    "上海中艺"
+   ],
+   "cn_variants": [
+    "上海中艺"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "上海新阳",
+   "name_cn": "上海新阳",
+   "name_en": "",
+   "raw_names": [
+    "上海新阳"
+   ],
+   "cn_variants": [
+    "上海新阳"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "上海锡喜",
+   "name_cn": "上海锡喜",
+   "name_en": "",
+   "raw_names": [
+    "上海锡喜"
+   ],
+   "cn_variants": [
+    "上海锡喜"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "东莞亚聚电子",
+   "name_cn": "东莞亚聚电子",
+   "name_en": "",
+   "raw_names": [
+    "东莞亚聚电子"
+   ],
+   "cn_variants": [
+    "东莞亚聚电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中环领先",
+   "name_cn": "中环领先",
+   "name_en": "",
+   "raw_names": [
+    "中环领先（TCL中环）"
+   ],
+   "cn_variants": [
+    "中环领先"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "TCL中环"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中瓷电子",
+   "name_cn": "中瓷电子",
+   "name_en": "",
+   "raw_names": [
+    "中瓷电子(003031)"
+   ],
+   "cn_variants": [
+    "中瓷电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "003031"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中科仪",
+   "name_cn": "中科仪",
+   "name_en": "",
+   "raw_names": [
+    "中科仪(920186)"
+   ],
+   "cn_variants": [
+    "中科仪"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "920186"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中科信",
+   "name_cn": "中科信",
+   "name_en": "",
+   "raw_names": [
+    "中科信（电科装备CETC）"
+   ],
+   "cn_variants": [
+    "中科信"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "电科装备CETC"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中科科化",
+   "name_cn": "中科科化",
+   "name_en": "",
+   "raw_names": [
+    "中科科化"
+   ],
+   "cn_variants": [
+    "中科科化"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "中船特气",
+   "name_cn": "中船特气",
+   "name_en": "",
+   "raw_names": [
+    "中船特气（派瑞特气）"
+   ],
+   "cn_variants": [
+    "中船特气"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "派瑞特气"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "京仪装备",
+   "name_cn": "京仪装备",
+   "name_en": "",
+   "raw_names": [
+    "京仪装备(688652)"
+   ],
+   "cn_variants": [
+    "京仪装备"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "688652"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "先锋精科",
+   "name_cn": "先锋精科",
+   "name_en": "",
+   "raw_names": [
+    "先锋精科(688605)"
+   ],
+   "cn_variants": [
+    "先锋精科"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "688605"
+   ],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "兴森科技",
+   "name_cn": "兴森科技",
+   "name_en": "",
+   "raw_names": [
+    "兴森科技"
+   ],
+   "cn_variants": [
+    "兴森科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "凯格精机",
+   "name_cn": "凯格精机",
+   "name_en": "",
+   "raw_names": [
+    "凯格精机"
+   ],
+   "cn_variants": [
+    "凯格精机"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "北京华丞电子",
+   "name_cn": "北京华丞电子",
+   "name_en": "",
+   "raw_names": [
+    "北京华丞电子"
+   ],
+   "cn_variants": [
+    "北京华丞电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "华卓精科",
+   "name_cn": "华卓精科",
+   "name_en": "",
+   "raw_names": [
+    "华卓精科",
+    "华卓精科(A04100，IPO辅导中)"
+   ],
+   "cn_variants": [
+    "华卓精科"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "A04100"
+   ],
+   "notes": [
+    "IPO辅导中"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态",
+    "ticker: 包含非六位数字代码（如辅导编号）；不可直接作为证券代码",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "华峰测控",
+   "name_cn": "华峰测控",
+   "name_en": "",
+   "raw_names": [
+    "华峰测控"
+   ],
+   "cn_variants": [
+    "华峰测控"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "华特气体",
+   "name_cn": "华特气体",
+   "name_en": "",
+   "raw_names": [
+    "华特气体"
+   ],
+   "cn_variants": [
+    "华特气体"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "南大光电",
+   "name_cn": "南大光电",
+   "name_en": "",
+   "raw_names": [
+    "南大光电"
+   ],
+   "cn_variants": [
+    "南大光电"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明"
+   ],
+   "occurrence_count": 3
+  }
+ ]
+}

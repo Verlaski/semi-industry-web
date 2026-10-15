@@ -7,7 +7,7 @@
 - [在线网站](https://teyvat-1-d8g0sba0a7e30225d-1463262475.tcloudbaseapp.com/semi-industry/index.html)
 - 环境：`teyvat-1-d8g0sba0a7e30225d`，`ap-shanghai`；复用既有CloudBase个人版。
 - 产品包含产业链总图、装备图谱、材料图谱、龙头公司库、竞争格局、AI推荐跟踪龙头和来源页。
-- 正式公司主数据库尚未接入；当前公司库为赛道名单兼容展示，未确认的上市身份显示待补充。
+- 正式公司主数据库（companies.json）已接入：公司实体经主体与上市信息核验，赛道龙头以 company_id 引用；A股/港股/美股龙头行情按小时更新。
 
 | 想知道什么 | 文档 |
 | --- | --- |
@@ -18,6 +18,7 @@
 | 为什么采用这些方案 | [关键决策](docs/05_DECISIONS.md) |
 | 本轮改了哪些内容 | [变更记录](CHANGELOG.md) |
 | KimiCode从哪里接手本次界面修订 | [交接文档](docs/KIMICODE_HANDOFF.md) |
+| 公司主数据接入后的发布要点 | [发布交接](docs/CODEX_RELEASE_HANDOFF.md) |
 
 网站文件在`02 交付/半导体装备与材料产业图谱/`；四份研究JSON保持原始内容。`backend/`与`cloudfunctions/`实现服务，`reporting/`实现报告，`tools/`用于打包与发布。`01 用户提供资料/`不入库、不发布。
 
@@ -25,9 +26,9 @@
 | --- | --- |
 | equipment.json | 装备赛道及龙头关系 |
 | materials.json | 材料赛道及龙头关系 |
-| sources.json | 研究来源账本 |
+| sources.json | 研究来源账本（含 SRC-LS- 上市核验段） |
 | meta.json | 研究日期、行业概览及版本 |
-| companies.json（待提供） | 统一公司与上市身份主表 |
+| companies.json | 统一公司与上市身份主表 |
 
 本机预览：在仓库根目录执行 `python -m http.server 8000 --directory "02 交付/半导体装备与材料产业图谱"`，访问 `http://localhost:8000`。测试执行 `npm test`；PDF、部署及在线验收步骤见操作手册。
 

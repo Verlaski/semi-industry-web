@@ -3,12 +3,16 @@ const test=require('node:test');const assert=require('node:assert/strict');const
 const D=require('../02 交付/半导体装备与材料产业图谱/assets/js/domain');
 const base=path.join(__dirname,'../02 交付/半导体装备与材料产业图谱/data');
 const data=Object.fromEntries(['meta','equipment','materials','sources'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(base,n+'.json'),'utf8'))]));
-test('行情临时关联只覆盖显式三证券，正式主表优先且不猜测证券代码',()=>{
-  const repo=new D.CompanyRepository(data,null);
-  assert.equal(repo.companies.filter(c=>D.quoteSymbol(c)).length,3);
-  assert.equal(D.quoteSymbol(repo.companies.find(c=>c.name_en==='AMEC')),'688012.SH');
+test('正式主表按主上市地ticker关联行情，兼容模式不提供关联且不猜测证券代码',()=>{
+  const official=JSON.parse(fs.readFileSync(path.join(base,'companies.json'),'utf8'));
+  const repo=new D.CompanyRepository(data,official);
+  assert.equal(repo.mode,'official');
+  assert.equal(D.quoteSymbol(repo.find('AMEC')),'688012.SH');
+  assert.equal(D.quoteSymbol(repo.find('ACMSH')),'688082.SH');
+  const compat=new D.CompanyRepository(data,null);
+  assert.equal(compat.companies.filter(c=>D.quoteSymbol(c)).length,0);
   assert.equal(D.quoteSymbol({runtime_key:'other',ticker_hints:['688012'],listings:[]}), '');
-  assert.equal(D.quoteSymbol({verified_master:true,runtime_key:'legacy:AMEC',listing_status:'',listings:[]}), '');
+  assert.equal(D.quoteSymbol({verified_master:true,listing_status:'',listings:[]}), '');
   assert.equal(D.quoteSymbol({verified_master:true,listing_status:'上市',listings:[{ticker:'00522.HK'}]}),'00522.HK');
 });
 test('行情红涨绿跌对应正负数，市值保留币种，缺失数据不填0',()=>{
@@ -31,14 +35,17 @@ test('卡面等级取已有赛道关系，筛选范围生效，未知上市身�
   assert.equal(D.cardCategory({occurrences:[{track_id:'other',tag:'国产MFC龙头'}]}).key,'purple');
   assert.equal(D.cardCategory({listing_status:'非上市',occurrences:[{track_id:'other'}]}).key,'blue');
 });
-test('兼容模型覆盖一级二级引用，组合主体不进入抽卡',()=>{
-  const repo=new D.CompanyRepository(data,null);
-  assert.equal(repo.rows.length,408);assert.equal(repo.companies.length,249);
-  assert.equal(repo.companies.reduce((sum,c)=>sum+c.occurrences.length,0),408);
+test('正式主表全量接入：一级二级引用全部attach，无组合主体',()=>{
+  const official=JSON.parse(fs.readFileSync(path.join(base,'companies.json'),'utf8'));
+  const repo=new D.CompanyRepository(data,official);
+  // 迁移后 426 条引用（原 408 + 斜杠组合拆分增量），全部经 company_id attach
+  assert.equal(repo.rows.length,426);
+  assert.equal(repo.companies.length,245);
+  assert.equal(repo.companies.reduce((sum,c)=>sum+c.occurrences.length,0),426);
   assert(repo.filter({},true).every(c=>!c.combo));
-  assert.equal(repo.filter({status:'非上市'}).length,0);
-  const amec=repo.companies.find(c=>c.name_en==='AMEC');assert.equal(amec.occurrences.length,2);assert.equal(amec.listing_status,'');
-  assert(repo.filter({track:'eq-f-etch'}).some(c=>c.name_en==='AMEC'));
+  assert(repo.filter({status:'非上市'}).length>0);
+  const amec=repo.find('AMEC');assert(amec.occurrences.length>=2);
+  assert(repo.filter({track:'eq-f-etch'}).some(c=>c.runtime_key==='AMEC'));
 });
 test('公司库只在404时回退，错误的正式库不悄悄替代',async()=>{
   const fallback=await D.CompanyRepository.load(data,async()=>({status:404}));assert.equal(fallback.mode,'compatibility');
@@ -59,7 +66,7 @@ test('十连无放回、条件池不足提示、均匀洗牌没有越界',()=>{
 });
 test('CSV有BOM、标准转义、公式防护；赛道和leader拆表含二级',()=>{
   const tables=D.csvTables(data,'equipment');assert.equal(tables.length,2);
-  assert.equal(tables[1].rows.length,294+1); // equipment 145一级 + 137二级 + 12并列增量。
+  assert.equal(tables[1].rows.length,307+1); // equipment 迁移后 307 条 leader 引用（含组合拆分增量）。
   assert(tables[1].rows.some(r=>r[2]));assert(D.csvText(tables[0].rows).startsWith('\ufeff'));
   assert.equal(D.csvText([['=1+1','a"b','第一行\n第二行']]),'\ufeff"\'=1+1","a""b","第一行\n第二行"');
   assert(D.csvTables(data,'sources')[0].rows.length>1);

@@ -1,0 +1,579 @@
+{
+ "batch": "batch_e2_relationship.json",
+ "count": 23,
+ "rows": [
+  {
+   "key": "KINGSTONE",
+   "name_cn": "凯世通",
+   "name_en": "Kingstone",
+   "raw_names": [
+    "凯世通 Kingstone（先导基电/万业企业旗下）"
+   ],
+   "cn_variants": [
+    "凯世通"
+   ],
+   "en_variants": [
+    "Kingstone"
+   ],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "先导基电/万业企业旗下"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "兴福电子",
+   "name_cn": "兴福电子",
+   "name_en": "",
+   "raw_names": [
+    "兴福电子（兴发集团）"
+   ],
+   "cn_variants": [
+    "兴福电子"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "兴发集团"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "凯德石英",
+   "name_cn": "凯德石英",
+   "name_en": "",
+   "raw_names": [
+    "凯德石英(835179，江丰电子控股)"
+   ],
+   "cn_variants": [
+    "凯德石英"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [
+    "835179"
+   ],
+   "notes": [
+    "江丰电子控股"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "北京七星流量计",
+   "name_cn": "北京七星流量计",
+   "name_en": "",
+   "raw_names": [
+    "北京七星流量计(Sevenstar，北方华创旗下)"
+   ],
+   "cn_variants": [
+    "北京七星流量计"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "Sevenstar，北方华创旗下"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "华海诚科",
+   "name_cn": "华海诚科",
+   "name_en": "",
+   "raw_names": [
+    "华海诚科"
+   ],
+   "cn_variants": [
+    "华海诚科"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "紫金佳博",
+   "name_cn": "紫金佳博",
+   "name_en": "",
+   "raw_names": [
+    "紫金佳博"
+   ],
+   "cn_variants": [
+    "紫金佳博"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "至正股份",
+   "name_cn": "至正股份",
+   "name_en": "",
+   "raw_names": [
+    "至正股份（AAMI）"
+   ],
+   "cn_variants": [
+    "至正股份"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [
+    "AAMI"
+   ],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "衡所华威",
+   "name_cn": "衡所华威",
+   "name_en": "",
+   "raw_names": [
+    "衡所华威"
+   ],
+   "cn_variants": [
+    "衡所华威"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "长川科技",
+   "name_cn": "长川科技",
+   "name_en": "",
+   "raw_names": [
+    "长川科技"
+   ],
+   "cn_variants": [
+    "长川科技"
+   ],
+   "en_variants": [],
+   "region": "",
+   "regions_evidence": [],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "country: 所有引用均无明确国家地区；china角色不等同注册地证明",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界"
+   ],
+   "occurrence_count": 6
+  },
+  {
+   "key": "光力科技",
+   "name_cn": "光力科技",
+   "name_en": "",
+   "raw_names": [
+    "光力科技",
+    "光力科技(中，含收购的以色列ADT/英国LP)",
+    "光力科技（研磨抛光产品线）"
+   ],
+   "cn_variants": [
+    "光力科技"
+   ],
+   "en_variants": [],
+   "region": "中国",
+   "regions_evidence": [
+    "中国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "含收购的以色列ADT/英国LP",
+    "研磨抛光产品线"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "新益昌",
+   "name_cn": "新益昌",
+   "name_en": "",
+   "raw_names": [
+    "新益昌",
+    "新益昌(中)",
+    "新益昌（收购深圳开玖，光通讯焊线机国内市占超80%）"
+   ],
+   "cn_variants": [
+    "新益昌"
+   ],
+   "en_variants": [],
+   "region": "中国",
+   "regions_evidence": [
+    "中国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "收购深圳开玖，光通讯焊线机国内市占超80%"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "UPCHEMICAL",
+   "name_cn": "",
+   "name_en": "UP Chemical",
+   "raw_names": [
+    "UP Chemical（雅克科技子公司）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "UP Chemical"
+   ],
+   "region": "中国/韩国",
+   "regions_evidence": [
+    "中国",
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "雅克科技子公司"
+   ],
+   "reviews": [
+    "other: 原始地区多值或冲突：中国 / 韩国；不得任择一项",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "长春塑封料",
+   "name_cn": "长春塑封料",
+   "name_en": "",
+   "raw_names": [
+    "长春塑封料（长春人造树脂集团）"
+   ],
+   "cn_variants": [
+    "长春塑封料"
+   ],
+   "en_variants": [],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "长春人造树脂集团"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "AAMI",
+   "name_cn": "先进封装材料国际",
+   "name_en": "AAMI",
+   "raw_names": [
+    "先进封装材料国际 AAMI"
+   ],
+   "cn_variants": [
+    "先进封装材料国际"
+   ],
+   "en_variants": [
+    "AAMI"
+   ],
+   "region": "中国香港/新加坡",
+   "regions_evidence": [
+    "中国香港",
+    "新加坡"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "other: 原始地区多值或冲突：中国香港 / 新加坡；不得任择一项",
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ATOTECH",
+   "name_cn": "",
+   "name_en": "Atotech",
+   "raw_names": [
+    "Atotech(德，已被MKS收购)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Atotech"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "已被MKS收购"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "BERLINERGLAS",
+   "name_cn": "",
+   "name_en": "Berliner Glas",
+   "raw_names": [
+    "Berliner Glas（ASML旗下）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Berliner Glas"
+   ],
+   "region": "德国",
+   "regions_evidence": [
+    "德国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "ASML旗下"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "GIGAPHOTON",
+   "name_cn": "",
+   "name_en": "Gigaphoton",
+   "raw_names": [
+    "Gigaphoton（小松旗下）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Gigaphoton"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "小松旗下"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "RESONAC",
+   "name_cn": "力森诺科",
+   "name_en": "Resonac",
+   "raw_names": [
+    "Resonac（原日立化成）",
+    "力森诺科 Resonac（原日立化成）"
+   ],
+   "cn_variants": [
+    "力森诺科"
+   ],
+   "en_variants": [
+    "Resonac"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "原日立化成"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "CYMER",
+   "name_cn": "",
+   "name_en": "Cymer",
+   "raw_names": [
+    "Cymer（ASML子公司）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Cymer"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "ASML子公司"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ENTEGRIS",
+   "name_cn": "",
+   "name_en": "Entegris",
+   "raw_names": [
+    "Entegris",
+    "Entegris（收购CMC Materials）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Entegris"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "收购CMC Materials"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SILFEX",
+   "name_cn": "",
+   "name_en": "Silfex",
+   "raw_names": [
+    "Silfex（Lam Research子公司）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Silfex"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "Lam Research子公司"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "普莱克斯",
+   "name_cn": "普莱克斯",
+   "name_en": "",
+   "raw_names": [
+    "普莱克斯（现属林德 Linde）"
+   ],
+   "cn_variants": [
+    "普莱克斯"
+   ],
+   "en_variants": [],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "现属林德 Linde"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "EDWARDS",
+   "name_cn": "爱德华",
+   "name_en": "Edwards",
+   "raw_names": [
+    "Edwards 爱德华（Atlas Copco旗下）"
+   ],
+   "cn_variants": [
+    "爱德华"
+   ],
+   "en_variants": [
+    "Edwards"
+   ],
+   "region": "英国",
+   "regions_evidence": [
+    "英国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "Atlas Copco旗下"
+   ],
+   "reviews": [
+    "relationship: 名称备注或龙头tag涉及集团、子公司、收购或历史名称，需核对法人/品牌/上市母公司边界",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  }
+ ]
+}

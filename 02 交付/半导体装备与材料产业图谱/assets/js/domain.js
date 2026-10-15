@@ -86,7 +86,7 @@
       if (!Array.isArray(list)) throw new Error('正式公司数据格式需要维护人员检查');
       list.forEach(c => {
         if (!c.company_id || this.byKey.has(c.company_id)) throw new Error('正式公司编号缺失或重复');
-        const vm = {runtime_key:c.company_id, name:c.name_cn || c.name_en || c.short_name || c.company_id,
+        const vm = {runtime_key:c.company_id, name:c.short_name || c.name_cn || c.name_en || c.company_id,
           name_cn:c.name_cn || '',name_en:c.name_en || '',country_region:c.country_region || '',
           listing_status:['上市','非上市'].includes(c.listing_status) ? c.listing_status : '',
           listings:Array.isArray(c.listings) ? c.listings : [],aliases:c.aliases || [],ticker_hints:[],
@@ -210,11 +210,11 @@
     if(follow)return {key:'purple',label:'重点跟踪',stars:4,reason:'细分龙头或重点产业标签',trackId:follow.track_id,subName:follow.sub_name};
     return {key:'blue',label:'产业观察',stars:3,reason:'产业图谱收录'};
   }
-  // 仅三只既有试运行证券。此显示桥不修改公司上市身份，不读取ticker_hints猜代码。
-  const PREVIEW_QUOTES={'legacy:AMEC':'688012.SH','legacy:ASMPT':'00522.HK','legacy:APPLIEDMATERIALS':'AMAT.US'};
+  // 正式模式下按已核验上市身份的主上市地 ticker 关联行情（listing 经 listing_id 入注册表）；
+  // 兼容模式不提供行情关联，不读 ticker_hints 猜代码、不改变 listing_status。
   function quoteSymbol(company) {
     if(company.verified_master)return company.listing_status==='上市' ? primaryListing(company)?.ticker || '' : '';
-    return PREVIEW_QUOTES[company.runtime_key] || '';
+    return '';
   }
   function quoteDisplay(quote) {
     const empty={price:'—',change:'—',pct:'—',cap:'—',trend:'flat'};

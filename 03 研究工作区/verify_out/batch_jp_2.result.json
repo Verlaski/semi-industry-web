@@ -1,0 +1,309 @@
+{
+ "batch": "batch_jp_2",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": ["SHINWACONTROLS"],
+   "entity_decision": "confirmed",
+   "company_id": "SHINWACONTROLS",
+   "name_cn": "伸和控制",
+   "name_en": "Shinwa Controls Co., Ltd.",
+   "short_name": "Shinwa Controls",
+   "aliases": ["伸和コントロールズ株式会社"],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Baseconnect", "title": "伸和コントロールズ株式会社の企業情報（上場種別：未上場）", "url": "https://baseconnect.in/companies/50a4f718-0c30-4f25-a872-49968c4092d2", "publish_date": "2026-10-01", "data_year": "2026", "metric": "上市状态", "caliber": "上場種別=未上場", "region": "日本", "type": "财经数据站", "level": "B", "remark": "半导体制造装置用温湿度控制装置厂商"},
+    {"org": "アラームボックス", "title": "伸和コントロールズ株式会社は上場していません", "url": "https://alarmbox.jp/companyinfo/entities/9020001065263", "publish_date": "2026-09-29", "data_year": "2026", "metric": "上市状态", "caliber": "明确回答未上市", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "伸和コントロールズ株式会社", "title": "会社概要（官网无IR/上市信息）", "url": "https://www.shinwa-cont.com/company/c_index.html", "publish_date": "", "data_year": "2026", "metric": "公司法定名称", "caliber": "官网公司概要", "region": "日本", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SMC"],
+   "entity_decision": "confirmed",
+   "company_id": "SMC",
+   "name_cn": "",
+   "name_en": "SMC Corporation",
+   "short_name": "SMC",
+   "aliases": ["SMC株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SMC_TSE_6273", "market": "日股", "exchange": "TSE", "ticker": "6273.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "J-LiC 上場企業サーチ", "title": "SMC株式会社（6273）の企業情報", "url": "https://j-lic.com/companies/6273", "publish_date": "2026-06-27", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・機械・証券コード6273", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "Yahoo!ファイナンス", "title": "SMC(株)【6273】東証PRM", "url": "https://finance.yahoo.co.jp/quote/6273.T", "publish_date": "2026-10-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页标注東証PRM", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "无官方中文公司名（中国子公司以SMC名义运营），name_cn留空"
+  },
+  {
+   "source_keys": ["STELLACHEMIFA"],
+   "entity_decision": "confirmed",
+   "company_id": "STELLACHEMIFA",
+   "name_cn": "",
+   "name_en": "Stella Chemifa Corporation",
+   "short_name": "Stella Chemifa",
+   "aliases": ["ステラ ケミファ株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "STELLACHEMIFA_TSE_4109", "market": "日股", "exchange": "TSE", "ticker": "4109.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "東京証券取引所（JPX）", "title": "東証上場会社情報サービス：4109 ステラ ケミファ プライム", "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=&topSearchStr=4109", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "交易所官方检索：プライム市場・化学", "region": "日本", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "日本経済新聞", "title": "ステラケミファ[4109]企業概要（上場市場名：東京証券取引所プライム市場）", "url": "https://www.nikkei.com/nkd/company/gaiyo/?scode=4109", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "日経会社概要", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "无通行官方中文名，name_cn留空"
+  },
+  {
+   "source_keys": ["SUMCO"],
+   "entity_decision": "confirmed",
+   "company_id": "SUMCO",
+   "name_cn": "胜高",
+   "name_en": "SUMCO Corporation",
+   "short_name": "SUMCO",
+   "aliases": ["株式会社SUMCO"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SUMCO_TSE_3436", "market": "日股", "exchange": "TSE", "ticker": "3436.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "野村證券", "title": "SUMCO (3436/T) 東証プライム", "url": "https://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=3436&TEMPLATE=nomura_tp_kabu_01&MKTN=T", "publish_date": "2026-10-13", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・金属製品", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "Yahoo!ファイナンス", "title": "(株)SUMCO【3436.T】東証PRM", "url": "https://finance.yahoo.co.jp/quote/3436.T", "publish_date": "2026-10-13", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页标注東証PRM", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SUMITOMOBAKELITE"],
+   "entity_decision": "confirmed",
+   "company_id": "SUMITOMOBAKELITE",
+   "name_cn": "住友电木",
+   "name_en": "Sumitomo Bakelite Co., Ltd.",
+   "short_name": "Sumitomo Bakelite",
+   "aliases": ["住友ベークライト株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SUMITOMOBAKELITE_TSE_4203", "market": "日股", "exchange": "TSE", "ticker": "4203.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "松井証券", "title": "住友ベークライト(4203) 東証プライム", "url": "https://finance.matsui.co.jp/stock/4203/index", "publish_date": "2026-07-31", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・化学", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "OSHIKABU", "title": "住友ベークライト(4203) プライム Sumitomo Bakelite Company,Limited", "url": "https://oshikabu.jp/4203", "publish_date": "2026-03-22", "data_year": "2026", "metric": "上市状态与代码", "caliber": "英文名与市场区分佐证", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SUMITOMOELECTRIC"],
+   "entity_decision": "confirmed",
+   "company_id": "SUMITOMOELECTRIC",
+   "name_cn": "住友电工",
+   "name_en": "Sumitomo Electric Industries, Ltd.",
+   "short_name": "Sumitomo Electric",
+   "aliases": ["住友電気工業株式会社", "住友電工"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SUMITOMOELECTRIC_TSE_5802", "market": "日股", "exchange": "TSE", "ticker": "5802.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "Yahoo!ファイナンス", "title": "住友電気工業(株)【5802】東証PRM", "url": "https://finance.yahoo.co.jp/quote/5802.T", "publish_date": "2026-10-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页标注東証PRM", "region": "日本", "type": "财经数据站", "level": "B", "remark": "另有美国OTC ADR（SMTOY，非上市地）"},
+    {"org": "松井証券", "title": "住友電気工業(5802) 東証プライム", "url": "https://finance.matsui.co.jp/stock/5802/index", "publish_date": "2026-09-30", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・非鉄金属", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["TAIYONIPPONSANSO"],
+   "entity_decision": "renamed_mapped",
+   "company_id": "NIPPONSANSOHD",
+   "name_cn": "日本酸素控股（大阳日酸）",
+   "name_en": "Nippon Sanso Holdings Corporation",
+   "short_name": "Nippon Sanso HD",
+   "aliases": ["大阳日酸株式会社", "Taiyo Nippon Sanso Corporation", "大陽日酸", "日本酸素ホールディングス株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "NIPPONSANSOHD_TSE_4091", "market": "日股", "exchange": "TSE", "ticker": "4091.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "Wikipedia（日本語）", "title": "日本酸素ホールディングス：東証プライム 4091、1949年5月16日上場", "url": "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E9%85%B8%E7%B4%A0%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム4091", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "美股之家", "title": "日本酸素控股株式会社（前称大阳日酸，2020年10月改现名）TYO:4091", "url": "https://www.mg21.com/tynpf.html", "publish_date": "2026-05-17", "data_year": "2026", "metric": "更名史与代码", "caliber": "控股公司化更名：大阳日酸→日本酸素控股，大阳日酸品牌由事业子公司承继", "region": "日本", "type": "财经数据站", "level": "B", "remark": "三菱化学集团合并子公司"},
+    {"org": "Yahoo!ファイナンス", "title": "日本酸素ホールディングス(株)【4091】", "url": "https://finance.yahoo.co.jp/quote/4091.T", "publish_date": "2026-10-11", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "原“大阳日酸/Taiyo Nippon Sanso”上市主体2020年10月改制为控股公司日本酸素控股（4091.T）；大阳日酸株式会社现为非上市事业子公司。图谱若按品牌列示可保留“大阳日酸”作展示名"
+  },
+  {
+   "source_keys": ["TANAKA"],
+   "entity_decision": "confirmed",
+   "company_id": "TANAKA",
+   "name_cn": "田中贵金属",
+   "name_en": "TANAKA Holdings Co., Ltd.",
+   "short_name": "TANAKA",
+   "aliases": ["TANAKAホールディングス株式会社", "田中貴金属工業株式会社", "Tanaka Kikinzoku Kogyo Co., Ltd.", "TANAKA Precious Metal Technologies Co., Ltd."],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "TANAKAホールディングス株式会社", "title": "TANAKAホールディングス株式会社（集团官网：純粋持株会社、2010年4月設立）", "url": "https://www.tanaka.co.jp/company/group/thd/", "publish_date": "", "data_year": "2026", "metric": "公司法定名称与架构", "caliber": "集团官网", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "アンドプロ", "title": "田中貴金属工業株式会社の企業情報（上場・非上場：非上場）", "url": "https://and-pro.jp/company-info-3686/", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "非上場", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "日本M&Aセンター", "title": "田中貴金属のTANAKAホールディングス、2025年1月1日付で組織体制再編", "url": "https://www.nihon-ma.co.jp/news/20240806_1-1318/", "publish_date": "2024-08-06", "data_year": "2026", "metric": "重组史", "caliber": "2025-01-01集团重组", "region": "日本", "type": "行业媒体", "level": "B", "remark": "中核事业公司英文名变更为TANAKA PRECIOUS METAL TECHNOLOGIES"}
+   ],
+   "confidence": "high",
+   "unresolved": "2025-01-01集团重组后事业公司商号细节（田中貴金属工業→TANAKA Precious Metal Technologies）以日语登记名为准待复核；不影响非上市结论"
+  },
+  {
+   "source_keys": ["TOK"],
+   "entity_decision": "confirmed",
+   "company_id": "TOK",
+   "name_cn": "东京应化",
+   "name_en": "Tokyo Ohka Kogyo Co., Ltd.",
+   "short_name": "TOK",
+   "aliases": ["東京応化工業株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "TOK_TSE_4186", "market": "日股", "exchange": "TSE", "ticker": "4186.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "キタイシホン", "title": "東京応化工業【4186】の企業情報（市場区分：東証プライム）", "url": "https://kitaishihon.com/company/4186/top", "publish_date": "2026-09-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "証券番号4186・東証プライム・化学", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "Yahoo!ファイナンス", "title": "東京応化工業(株)【4186】東証PRM", "url": "https://finance.yahoo.co.jp/quote/4186.T", "publish_date": "2026-10-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页标注東証PRM", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["TOPPANPHOTOMASK"],
+   "entity_decision": "renamed_mapped",
+   "company_id": "TEKSCEND",
+   "name_cn": "凸版光罩",
+   "name_en": "Tekscend Photomask Corp.",
+   "short_name": "Tekscend",
+   "aliases": ["Toppan Photomask Co., Ltd.", "凸版フォトマスク株式会社", "テクセンドフォトマスク株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "TEKSCEND_TSE_429A", "market": "日股", "exchange": "TSE", "ticker": "429A.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "TOPPANホールディングス", "title": "「テクセンドフォトマスク株式会社」に社名を変更（2024年11月1日）", "url": "https://www.holdings.toppan.com/ja/news/2024/10/newsrelease241001_1.html", "publish_date": "2024-10-01", "data_year": "2026", "metric": "更名史", "caliber": "凸版フォトマスク→テクセンドフォトマスク（Tekscend Photomask Corp.）", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "東京IPO", "title": "テクセンドフォトマスク(429A) IPO情報：2025/10/16 東証プライム上場", "url": "http://www.tokyoipo.com/ipo/detail.php?id=pre&seqid=3214", "publish_date": "2025-10-16", "data_year": "2026", "metric": "上市状态与代码", "caliber": "上場日2025-10-16・東証プライム・429A", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "日本経済新聞", "title": "テクセンドフォトマスク[429A]企業概要（正式社名・英文社名確認）", "url": "https://www.nikkei.com/nkd/company/gaiyo/?scode=429A", "publish_date": "2026-08-31", "data_year": "2026", "metric": "公司法定名称", "caliber": "英文社名Tekscend Photomask Corp.", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "原“凸版光罩/Toppan Photomask”2024-11更名Tekscend Photomask，2025-10-16东证Prime上市（429A.T），现仍为TOPPAN Holdings（7911.T）子会社；中文名“凸版光罩”为旧名通行译法，新名暂无官方中文译名"
+  },
+  {
+   "source_keys": ["TOSOH"],
+   "entity_decision": "confirmed",
+   "company_id": "TOSOH",
+   "name_cn": "东曹",
+   "name_en": "Tosoh Corporation",
+   "short_name": "Tosoh",
+   "aliases": ["東ソー株式会社", "東ソー"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "TOSOH_TSE_4042", "market": "日股", "exchange": "TSE", "ticker": "4042.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "野村證券", "title": "東ソー（4042）東証プライム・化学", "url": "https://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=4042&TEMPLATE=nomura_tp_kabu_01&MKTN=T", "publish_date": "2026-08-27", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・化学", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "Yahoo!ファイナンス", "title": "東ソー(株)【4042】", "url": "https://finance.yahoo.co.jp/quote/4042.T", "publish_date": "2026-10-15", "data_year": "2026", "metric": "上市状态与代码", "caliber": "实时行情页", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["TOTO"],
+   "entity_decision": "confirmed",
+   "company_id": "TOTO",
+   "name_cn": "东陶",
+   "name_en": "TOTO Ltd.",
+   "short_name": "TOTO",
+   "aliases": ["TOTO株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "TOTO_TSE_5332", "market": "日股", "exchange": "TSE", "ticker": "5332.T", "primary": true},
+    {"listing_id": "TOTO_NSE_5332", "market": "日股", "exchange": "NSE", "ticker": "5332.T", "primary": false},
+    {"listing_id": "TOTO_FSE_5332", "market": "日股", "exchange": "FSE", "ticker": "5332.T", "primary": false}
+   ],
+   "evidence": [
+    {"org": "東京証券取引所（JPX）", "title": "東証上場会社情報サービス：5332 TOTO プライム", "url": "https://www2.jpx.co.jp/tseHpFront/StockSearch.do?method=&topSearchStr=5332", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "交易所官方检索：プライム・ガラス・土石製品", "region": "日本", "type": "交易所", "level": "A", "remark": ""},
+    {"org": "TOTO株式会社", "title": "株主メモ：上場証券取引所 東京・名古屋・福岡、証券コード5332", "url": "https://jp.toto.com/company/ir/information/shareholder_memo/", "publish_date": "", "data_year": "2026", "metric": "多地上市", "caliber": "公司官网IR记载三地上市", "region": "日本", "type": "公司官网", "level": "A", "remark": "名古屋为プレミア市場、福岡为本則市場（据日経/J-LiC佐证）"},
+    {"org": "日本経済新聞", "title": "TOTO[5332]企業概要（上場市場名：東証プライム・名証プレミア・福証）", "url": "https://www.nikkei.com/nkd/company/gaiyo/?scode=5332", "publish_date": "", "data_year": "2026", "metric": "多地上市", "caliber": "三地市场区分佐证", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "名古屋/福冈两地上市共用代码5332，行情抓取以TSE为主"
+  },
+  {
+   "source_keys": ["TOWA"],
+   "entity_decision": "confirmed",
+   "company_id": "TOWA",
+   "name_cn": "",
+   "name_en": "TOWA Corporation",
+   "short_name": "TOWA",
+   "aliases": ["TOWA株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "TOWA_TSE_6315", "market": "日股", "exchange": "TSE", "ticker": "6315.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "SBI証券", "title": "TOWA（6315）東証プライム市場上場の半導体製造装置メーカー", "url": "https://go.sbisec.co.jp/media/report/dom_senryaku/dom_senryaku_260828.html", "publish_date": "2026-08-28", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム・6315", "region": "日本", "type": "财经数据站", "level": "B", "remark": "京都市南区本社、モールディング装置"},
+    {"org": "日本文化ラボ", "title": "TOWA株式会社：東証プライム・証券コード6315（英文名TOWA CORPORATION）", "url": "https://japan-culture-lab.com/business/towa-culture/", "publish_date": "2026-09-03", "data_year": "2026", "metric": "公司法定名称与代码", "caliber": "公司概要", "region": "日本", "type": "行业媒体", "level": "C", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": "无官方中文名，name_cn留空（勿与东和药品4553混淆）"
+  },
+  {
+   "source_keys": ["住友化学"],
+   "entity_decision": "confirmed",
+   "company_id": "SUMITOMOCHEMICAL",
+   "name_cn": "住友化学",
+   "name_en": "Sumitomo Chemical Co., Ltd.",
+   "short_name": "Sumitomo Chemical",
+   "aliases": ["住友化学株式会社"],
+   "country_region": "日本",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SUMITOMOCHEMICAL_TSE_4005", "market": "日股", "exchange": "TSE", "ticker": "4005.T", "primary": true}
+   ],
+   "evidence": [
+    {"org": "J-LiC 上場企業サーチ", "title": "住友化学株式会社（4005）の企業情報：上場市場 東証プライム", "url": "https://j-lic.com/companies/4005", "publish_date": "2025-06-23", "data_year": "2026", "metric": "上市状态与代码", "caliber": "証券コード4005・東証プライム・化学", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "野村證券", "title": "住友化学（4005）東証プライム・化学", "url": "https://quote.nomura.co.jp/nomura/cgi-bin/parser.pl?QCODE=4005&TEMPLATE=nomura_tp_kabu_01&MKTN=T", "publish_date": "2026-08-24", "data_year": "2026", "metric": "上市状态与代码", "caliber": "東証プライム", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["泰谷诺"],
+   "entity_decision": "mapped_uncertain",
+   "company_id": "TECHNOQUARTZ",
+   "name_cn": "泰谷诺",
+   "name_en": "Techno Quartz Inc.",
+   "short_name": "Techno Quartz",
+   "aliases": ["テクノクオーツ株式会社", "杭州泰谷诺石英有限公司"],
+   "country_region": "日本",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "テクノクオーツ株式会社", "title": "公司官网中国站点：杭州泰谷諾石英有限公司（杭州子公司）", "url": "https://techno-q.com/CH/", "publish_date": "", "data_year": "2026", "metric": "中文名对应主体", "caliber": "“泰谷诺”为其杭州子公司名称，映射至日本母体テクノクオーツ", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "J-LiC 上場企業サーチ", "title": "テクノクオーツ株式会社（5217）：東証上場廃止 2024-09-27（ジーエルテクノホールディングスの完全子会社化）", "url": "https://j-lic.com/companies/5217", "publish_date": "2025-06-15", "data_year": "2026", "metric": "上市状态", "caliber": "上場市場ヒストリー：1999年JASDAQ上市→2024-09-27退市", "region": "日本", "type": "财经数据站", "level": "B", "remark": ""},
+    {"org": "テクノクオーツ株式会社", "title": "IR情報：2024年10月1日にジーエルサイエンスと経営統合し共同持株会社ジーエルテクノホールディングスを設立", "url": "https://www.techno-q.com/ir/", "publish_date": "2024-10-01", "data_year": "2026", "metric": "重组史", "caliber": "经营整合说明", "region": "日本", "type": "公司官网", "level": "A", "remark": ""},
+    {"org": "ジーエルテクノホールディングス", "title": "株式基本情報：証券コード255A・東証スタンダード市場", "url": "https://www.gltechno.co.jp/ir/shareholders/basic-info.html", "publish_date": "", "data_year": "2026", "metric": "母公司上市状态", "caliber": "母公司GL Techno Holdings为東証スタンダード255A", "region": "日本", "type": "公司官网", "level": "A", "remark": ""}
+   ],
+   "confidence": "medium",
+   "unresolved": "“泰谷诺”为Techno Quartz杭州子公司名，推定图谱所指为日本母体Techno Quartz（已于2024-09-27退市，现为GL Techno Holdings(255A.T，东证Standard)子公司）；若原图谱另有所指需人工确认"
+  }
+ ]
+}

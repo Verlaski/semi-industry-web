@@ -1,0 +1,1140 @@
+{
+ "batch": "batch_us",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": [
+    "ADVANCEDENERGY"
+   ],
+   "entity_decision": "独立上市公司 Advanced Energy Industries, Inc.（精密电源/等离子体电源，总部美国科罗拉多州丹佛）",
+   "company_id": "AEIS",
+   "name_cn": "先进能源",
+   "name_en": "Advanced Energy Industries, Inc.",
+   "short_name": "Advanced Energy",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:AEIS",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "AEIS.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usAEIS"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Morningstar",
+     "title": "Advanced Energy Industries Inc (AEIS) Quote - XNAS",
+     "url": "https://www.morningstar.com/stocks/xnas/aeis/quote",
+     "publish_date": "2026-10-09",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ 挂牌普通股，实时行情页",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "NASDAQ:AEIS"
+    },
+    {
+     "org": "MarketWatch",
+     "title": "AEIS Stock Price | Advanced Energy Industries Inc. (U.S.: Nasdaq)",
+     "url": "https://www.marketwatch.com/investing/stock/aeis",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司法定名与总部",
+     "caliber": "Advanced Energy Industries, Inc.，总部 Denver, CO",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "ADVANCEDTHERMALSCIENCESATS"
+   ],
+   "entity_decision": "非上市；Advanced Thermal Sciences Corporation（ATS，半导体温控系统 TCS，总部加州 Anaheim），现为 Collins Aerospace（柯林斯宇航）一部分，归属母公司 RTX Corporation（NYSE: RTX）；历史上曾为 B/E Aerospace 子公司，随 B/E 并入 Rockwell Collins 后归入 Collins Aerospace",
+   "company_id": "ADVANCEDTS",
+   "name_cn": "",
+   "name_en": "Advanced Thermal Sciences Corporation",
+   "short_name": "ATS",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Advanced Thermal Sciences",
+     "title": "About Us | ATS Chiller",
+     "url": "https://atschiller.com/about/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司归属",
+     "caliber": "官网自述：ATS is a part of Collins Aerospace",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "母公司 Collins Aerospace 属 RTX Corporation"
+    },
+    {
+     "org": "NASA TFAWS",
+     "title": "Thermal & Fluids Analysis Workshop - Hardware Vendors",
+     "url": "https://tfaws.nasa.gov/TFAWS12/Sessions.html",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "历史归属",
+     "caliber": "ATS 为 B/E Aerospace 子公司，位于 Anaheim, CA，成立 1997 年",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": "早期资料，归属链 B/E Aerospace→Rockwell Collins→Collins Aerospace"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "AIRPRODUCTS"
+   ],
+   "entity_decision": "独立上市公司 Air Products and Chemicals, Inc.（工业气体，总部宾州 Allentown）",
+   "company_id": "APD",
+   "name_cn": "空气化工",
+   "name_en": "Air Products and Chemicals, Inc.",
+   "short_name": "Air Products",
+   "aliases": [
+    "空气产品"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NYSE:APD",
+     "market": "美股",
+     "exchange": "NYSE",
+     "ticker": "APD.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usAPD"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "MarketWatch",
+     "title": "Air Products & Chemicals Inc. Stock Quote (U.S.: NYSE - APD)",
+     "url": "https://www.marketwatch.com/investing/stock/apd",
+     "publish_date": "2026-10-14",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NYSE 挂牌，代码 APD",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "WSJ",
+     "title": "Air Products and Chemicals, Inc. (APD)",
+     "url": "https://www.wsj.com/market-data/stock/apd",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "法定名称",
+     "caliber": "Air Products and Chemicals, Inc.，U.S.: NYSE",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "APPLIEDMATERIALS"
+   ],
+   "entity_decision": "独立上市公司 Applied Materials, Inc.（应用材料，总部加州 Santa Clara）；备注中 Varian 指 Varian Semiconductor Equipment Associates（原 Nasdaq: VSEA），2011 年 11 月被 AMAT 以约 49 亿美元收购并退市，现为 AMAT 离子注入业务",
+   "company_id": "AMAT",
+   "name_cn": "应用材料",
+   "name_en": "Applied Materials, Inc.",
+   "short_name": "Applied Materials",
+   "aliases": [
+    "AMAT",
+    "Varian Semiconductor（Varian，2011年被收购并入，原 Nasdaq: VSEA）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:AMAT",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "AMAT.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usAMAT"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SEC EDGAR",
+     "title": "Applied Materials Completes Acquisition of Varian Semiconductor Equipment Associates (EX-99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/6951/000119312511305751/d252724dex991.htm",
+     "publish_date": "2011-11-10",
+     "data_year": "2026",
+     "metric": "并购史（Varian）",
+     "caliber": "Applied Materials, Inc. (Nasdaq: AMAT) 完成对 Varian Semiconductor (Nasdaq: VSEA) 收购",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": "SEC 存档新闻稿"
+    },
+    {
+     "org": "SEC EDGAR",
+     "title": "Applied Materials and Varian announce definitive merger agreement",
+     "url": "https://www.sec.gov/Archives/edgar/data/6951/000095012311044254/f59074exv99w1.htm",
+     "publish_date": "2011-05-04",
+     "data_year": "2026",
+     "metric": "并购对价",
+     "caliber": "每股 63 美元现金、总价约 49 亿美元",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "AXCELIS"
+   ],
+   "entity_decision": "独立上市公司 Axcelis Technologies, Inc.（离子注入设备，总部马萨诸塞州 Beverly）",
+   "company_id": "ACLS",
+   "name_cn": "亚舍立",
+   "name_en": "Axcelis Technologies, Inc.",
+   "short_name": "Axcelis",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:ACLS",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "ACLS.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usACLS"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Fortune",
+     "title": "Axcelis Technologies company profile",
+     "url": "https://fortune.com/company/axcelis-technologies/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与总部",
+     "caliber": "Public，Ticker ACLS，总部 Beverly, Mass.",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "StockTitan",
+     "title": "Axcelis (Nasdaq: ACLS) Q2 2026 results",
+     "url": "https://www.stocktitan.net/news/ACLS/",
+     "publish_date": "2026-09-21",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "Nasdaq: ACLS",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "BROOKSAUTOMATION"
+   ],
+   "entity_decision": "非上市；半导体自动化业务主体 Brooks Automation（总部马萨诸塞州 Chelmsford）2022 年 2 月随交易交割归入私募股权 Thomas H. Lee Partners（交易对价约 30 亿美元）；原上市主体 Brooks Automation, Inc.（原 Nasdaq: BRKS）剥离半导体业务后更名 Azenta, Inc.（Nasdaq: AZTA，生命科学），与本实体不同；2026 年 7 月有报道称 Brooks Automation 正筹划赴美 IPO，尚未完成",
+   "company_id": "BROOKS",
+   "name_cn": "布鲁克斯",
+   "name_en": "Brooks Automation",
+   "short_name": "Brooks Automation",
+   "aliases": [
+    "原 Nasdaq: BRKS（上市主体已更名 Azenta, Inc., Nasdaq: AZTA）"
+   ],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Caproasia",
+     "title": "United States $3 Billion Semiconductor Automation Company Brooks Automation Plans for United States IPO",
+     "url": "https://www.caproasia.com/2026/07/25/united-states-3-billion-semiconductor-automation-company-brooks-automation-plans-for-united-states-ipo-founded-in-1978-by-norman-brooks-frank-brooks-with-semiconductor-automation-business-acquired/",
+     "publish_date": "2026-07-25",
+     "data_year": "2026",
+     "metric": "归属与上市状态",
+     "caliber": "半导体自动化业务 2021 年被 Thomas H. Lee Partners 以约 30 亿美元收购（2022 年交割），生命科学业务分拆更名 Azenta",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "筹划 IPO，截至核验日未上市"
+    },
+    {
+     "org": "Excedr",
+     "title": "Azenta Automated Sample Storage: A Buyer's Guide",
+     "url": "https://www.excedr.com/blog/azenta-automated-sample-storage",
+     "publish_date": "2026-08-11",
+     "data_year": "2026",
+     "metric": "历史沿革",
+     "caliber": "2022 年 2 月完成半导体业务出售，上市公司更名 Azenta, Inc.",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "筹划中的 IPO 进展需持续跟踪"
+  },
+  {
+   "source_keys": [
+    "BROOKSINSTRUMENT"
+   ],
+   "entity_decision": "非上市；Brooks Instrument, LLC（质量流量控制器 MFC，总部宾州 Hatfield，成立 1946 年）2012 年起为 Illinois Tool Works Inc.（伊利诺伊工具，NYSE: ITW）子公司；注意与 Brooks Automation 无任何股权关系",
+   "company_id": "BRKINSTR",
+   "name_cn": "",
+   "name_en": "Brooks Instrument, LLC",
+   "short_name": "Brooks Instrument",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Brooks Instrument",
+     "title": "Our History",
+     "url": "https://www.brooksinstrument.com/company/about-us/history",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司归属",
+     "caliber": "官网：2012 年 Brooks Instrument becomes part of Illinois Tool Works (ITW)",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "Thomasnet",
+     "title": "Brooks Instrument, an ITW Company: Hatfield, PA",
+     "url": "https://www.thomasnet.com/company/brooks-instrument-an-itw-company-130799/profile",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "归属佐证",
+     "caliber": "Brooks Instrument, LLC, an ITW Company",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "CLASSONETECHNOLOGY"
+   ],
+   "entity_decision": "非上市私营公司 ClassOne Technology, Inc.（≤200mm 单晶圆电镀/湿法设备 Solstice 系列，总部蒙大拿州 Kalispell，2013 年成立）；注意与同集团翻新设备商 ClassOne Equipment（总部佐治亚州 Atlanta）区分",
+   "company_id": "CLASSONE",
+   "name_cn": "",
+   "name_en": "ClassOne Technology, Inc.",
+   "short_name": "ClassOne Technology",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "GlobeNewswire",
+     "title": "ClassOne Expands Engineering Team (About ClassOne Technology)",
+     "url": "https://www.globenewswire.com/news-release/2022/01/31/2375849/0/en/classone-expands-engineering-team-appoints-alia-doll-as-director-of-engineering.html",
+     "publish_date": "2022-01-31",
+     "data_year": "2026",
+     "metric": "公司概况",
+     "caliber": "总部 Kalispell, Montana，≤200mm 湿化学晶圆处理设备供应商",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": "公司新闻稿"
+    },
+    {
+     "org": "LinkedIn",
+     "title": "ClassOne Technology company page",
+     "url": "https://ch.linkedin.com/company/classone-technology",
+     "publish_date": "2026-08-05",
+     "data_year": "2026",
+     "metric": "经营状态",
+     "caliber": "私人持股，Kalispell, Montana，51-200 人",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "未见任何上市记录"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "COHU"
+   ],
+   "entity_decision": "独立上市公司 Cohu, Inc.（测试分选/接口，总部加州 Poway）；备注“含Xcerra/MCT”确认：Xcerra Corporation（原 Nasdaq: XCRA，由 LTX-Credence 更名而来）2018 年 10 月被 Cohu 以约 7.96 亿美元收购并退市",
+   "company_id": "COHU",
+   "name_cn": "科休",
+   "name_en": "Cohu, Inc.",
+   "short_name": "Cohu",
+   "aliases": [
+    "Xcerra Corporation（2018年被收购并入，原 Nasdaq: XCRA）",
+    "LTX-Credence（Xcerra 前身）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:COHU",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "COHU.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usCOHU"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SEC EDGAR",
+     "title": "Cohu and Xcerra enter into definitive merger agreement (EX-99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/357020/000119312518155336/d566921dex991.htm",
+     "publish_date": "2018-05-08",
+     "data_year": "2026",
+     "metric": "并购史（Xcerra）",
+     "caliber": "Cohu, Inc. (NASDAQ: COHU) 收购 Xcerra Corporation (NASDAQ: XCRA)，每股 13.92 美元、约 7.96 亿美元",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "KoalaGains",
+     "title": "Cohu, Inc. (COHU) Stock Analysis",
+     "url": "https://koalagains.com/stocks/NASDAQ/COHU",
+     "publish_date": "2025-10-30",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ: COHU",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "COORSTEK"
+   ],
+   "entity_decision": "非上市私营公司 CoorsTek, Inc.（半导体用技术陶瓷/石英部件，总部科罗拉多州 Golden，1920 年创立），由 Coors 家族信托 Keystone Holdings LLC 全资持有",
+   "company_id": "COORSTEK",
+   "name_cn": "",
+   "name_en": "CoorsTek, Inc.",
+   "short_name": "CoorsTek",
+   "aliases": [
+    "Coors Porcelain（前身）"
+   ],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Wikipedia",
+     "title": "CoorsTek",
+     "url": "https://en.wikipedia.org/wiki/CoorsTek",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司归属",
+     "caliber": "privately owned，wholly owned by Keystone Holdings LLC (Coors 家族信托)，总部 Golden, Colorado",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    },
+    {
+     "org": "CoorsTek",
+     "title": "Company History",
+     "url": "https://www.coorstek.com/en/about/history/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司沿革",
+     "caliber": "官网公司历史，源自 Coors Porcelain",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "DUPONT"
+   ],
+   "entity_decision": "独立上市公司 DuPont de Nemours, Inc.（电子材料/特种化学品，总部特拉华州 Wilmington；2019 年 DowDuPont 分拆后的存续主体之一）",
+   "company_id": "DUPONT",
+   "name_cn": "杜邦",
+   "name_en": "DuPont de Nemours, Inc.",
+   "short_name": "DuPont",
+   "aliases": [
+    "DowDuPont（2017-2019合并期间主体）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NYSE:DD",
+     "market": "美股",
+     "exchange": "NYSE",
+     "ticker": "DD.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usDD"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "WSJ",
+     "title": "DuPont de Nemours, Inc. (DD) U.S.: NYSE",
+     "url": "https://www.wsj.com/market-data/stock/dd",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NYSE: DD",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Morningstar",
+     "title": "DuPont de Nemours Inc (DD) XNYS",
+     "url": "https://www.morningstar.com/stocks/xnys/dd/quote",
+     "publish_date": "2026-10-09",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NYSE 挂牌",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "FORMFACTOR"
+   ],
+   "entity_decision": "独立上市公司 FormFactor, Inc.（探针卡/测试系统，总部加州 Livermore）",
+   "company_id": "FORM",
+   "name_cn": "",
+   "name_en": "FormFactor, Inc.",
+   "short_name": "FormFactor",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:FORM",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "FORM.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usFORM"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Yahoo Finance (StockStory)",
+     "title": "FormFactor (NASDAQ:FORM) Q1 earnings",
+     "url": "https://finance.yahoo.com/news/formfactor-nasdaq-form-beats-q1-200636147.html",
+     "publish_date": "2025-04-30",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ: FORM，探针卡供应商",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "FormFactor",
+     "title": "IR Presentation - Investor Relations",
+     "url": "https://investors.formfactor.com/static-files/321e5a7d-bc2e-4e9b-886e-1234f2231a32",
+     "publish_date": "2026-05-28",
+     "data_year": "2026",
+     "metric": "公司经营",
+     "caliber": "公司 IR 材料",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "ICHORSYSTEMS"
+   ],
+   "entity_decision": "独立上市主体为 Ichor Holdings, Ltd.（气体/化学品输送子系统，运营品牌 Ichor Systems，运营总部加州 Fremont）；注意：上市控股主体注册于开曼群岛，运营实体在美国，按业务归属记为美国公司",
+   "company_id": "ICHOR",
+   "name_cn": "",
+   "name_en": "Ichor Holdings, Ltd.",
+   "short_name": "Ichor Systems",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:ICHR",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "ICHR.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usICHR"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Morningstar",
+     "title": "Ichor Holdings Ltd (ICHR) XNAS",
+     "url": "https://www.morningstar.com/stocks/xnas/ichr/quote",
+     "publish_date": "2026-10-07",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ: ICHR",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Hargreaves Lansdown",
+     "title": "Ichor Holdings Ltd (USD0.0001) Company Information",
+     "url": "https://www.hl.co.uk/shares/shares-search-results/i/ichor-holdings-ltd-usd0.0001/company-information",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "法定主体",
+     "caliber": "Ichor Holdings, Ltd. 普通股（面值 USD0.0001），开曼注册控股结构",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "Holdings 注册地为开曼群岛"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认；控股主体注册地开曼群岛（运营在美国），注册地归类口径待定"
+  },
+  {
+   "source_keys": [
+    "K&S"
+   ],
+   "entity_decision": "独立上市公司 Kulicke and Soffa Industries, Inc.（封装/键合设备，品牌 K&S）；注册地为美国宾夕法尼亚州（SEC 注册信息），全球总部在新加坡，按注册地记为美国公司",
+   "company_id": "KNS",
+   "name_cn": "库力索法",
+   "name_en": "Kulicke and Soffa Industries, Inc.",
+   "short_name": "K&S",
+   "aliases": [
+    "K&S",
+    "Kulicke & Soffa"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:KLIC",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "KLIC.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usKLIC"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Kulicke & Soffa",
+     "title": "Stock Information - Investor Relations",
+     "url": "https://investor.kns.com/stock-information",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "公司 IR 页：NASDAQ: KLIC",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "SEC EDGAR (CapEdge)",
+     "title": "KULICKE & SOFFA INDUSTRIES INC 8-K Cover",
+     "url": "https://capedge.com/filing/56978/0000056978-22-000078/KLIC-8K/file/10/data",
+     "publish_date": "2022-08-03",
+     "data_year": "2026",
+     "metric": "注册地",
+     "caliber": "Entity Incorporation: PA（宾夕法尼亚州），地址 Singapore",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": "注册美国、总部新加坡"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "KLA"
+   ],
+   "entity_decision": "独立上市公司 KLA Corporation（过程控制/量检测，总部加州 Milpitas）；1997 年 KLA Instruments 与 Tencor Instruments 合并为 KLA-Tencor Corporation，2019 年 7 月更名 KLA Corporation",
+   "company_id": "KLA",
+   "name_cn": "科磊",
+   "name_en": "KLA Corporation",
+   "short_name": "KLA",
+   "aliases": [
+    "KLA-Tencor Corporation（1997-2019）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:KLAC",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "KLAC.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usKLAC"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "KLA Corporation IR",
+     "title": "KLA-Tencor Corporation to Change Name to KLA Corporation",
+     "url": "https://ir.kla.com/news-events/press-releases/detail/52/kla-tencor-corporation-to-change-name-to-kla-corporation-to",
+     "publish_date": "2019-01-10",
+     "data_year": "2026",
+     "metric": "更名史",
+     "caliber": "公司官网新闻稿：KLA-Tencor 更名 KLA Corporation",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "2019 年 7 月生效"
+    },
+    {
+     "org": "Wikipedia",
+     "title": "KLA Corporation",
+     "url": "https://en.wikipedia.org/wiki/KLA_Corporation",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "Public, Nasdaq: KLAC, Nasdaq-100/S&P 500 成分股",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "LAMRESEARCH"
+   ],
+   "entity_decision": "独立上市公司 Lam Research Corporation（刻蚀/沉积设备，总部加州 Fremont）",
+   "company_id": "LAM",
+   "name_cn": "泛林",
+   "name_en": "Lam Research Corporation",
+   "short_name": "Lam Research",
+   "aliases": [
+    "泛林集团"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:LRCX",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "LRCX.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usLRCX"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Lam Research (PR Newswire)",
+     "title": "Lam Research Corporation Announces June Quarter Financial Conference Call",
+     "url": "https://www.morningstar.com/news/pr-newswire/20260708sf00529/lam-research-corporation-announces-june-quarter-financial-conference-call",
+     "publish_date": "2026-07-08",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "Lam Research Corp. (NASDAQ: LRCX), FREMONT, Calif.",
+     "region": "美国",
+     "type": "公司官网",
+     "level": "A",
+     "remark": "公司新闻稿"
+    },
+    {
+     "org": "Morningstar",
+     "title": "Lam Research Corp (LRCX) XNAS quote",
+     "url": "https://www.morningstar.com/stocks/xnas/lrcx/quote",
+     "publish_date": "2026-10-14",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ 挂牌",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "MKSINSTRUMENTS"
+   ],
+   "entity_decision": "独立上市公司，法定名已变更：MKS Instruments, Inc. 于 2025 年 5 月 16 日更名 MKS Inc.（总部马萨诸塞州 Andover，代码不变 MKSI）；Atotech Limited（原 NYSE: ATC，注册泽西岛）2022 年 8 月被 MKS 收购并退市",
+   "company_id": "MKS",
+   "name_cn": "万机仪器",
+   "name_en": "MKS Inc.",
+   "short_name": "MKS",
+   "aliases": [
+    "MKS Instruments, Inc.（2025年5月更名前法定名）",
+    "Atotech Limited（2022年被收购并入，原 NYSE: ATC）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:MKSI",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "MKSI.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usMKSI"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SEC EDGAR",
+     "title": "Atotech 6-K: MKS acquisition definitive agreement",
+     "url": "https://www.sec.gov/Archives/edgar/data/1762459/000119312522146901/d354497d6k.htm",
+     "publish_date": "2022-05",
+     "data_year": "2026",
+     "metric": "并购史（Atotech）",
+     "caliber": "MKS Instruments, Inc. (NASDAQ: MKSI) 收购 Atotech Limited（原 NYSE: ATC），2022-08-17 交割",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "StockTitan",
+     "title": "MKS Instruments Announces Change of Corporate Name to MKS Inc.",
+     "url": "https://www.stocktitan.net/news/MKSI/mks-instruments-announces-change-of-corporate-name-to-mks-xuegdx6se3ab.html",
+     "publish_date": "2025-05-15",
+     "data_year": "2026",
+     "metric": "更名史",
+     "caliber": "2025-05-16 生效，股票代码 MKSI 不变",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": [
+    "MOMENTIVE"
+   ],
+   "entity_decision": "非上市；迈图（Momentive，有机硅/特种材料，总部纽约州 Niskayuna，原 Momentive Performance Materials Inc.）2024 年起为韩国 KCC Corporation（KRX: 002380）全资子公司；注意半导体石英/陶瓷业务已于 2020 年剥离为 Momentive Technologies（SJL Partners/Wonik QnC 持有），与本实体不同",
+   "company_id": "MOMENTIVE",
+   "name_cn": "迈图",
+   "name_en": "Momentive Inc.",
+   "short_name": "Momentive",
+   "aliases": [
+    "Momentive Performance Materials Inc.（原名）",
+    "GE Silicones / GE Bayer Silicones（前身）"
+   ],
+   "country_region": "美国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {
+     "org": "Wikipedia",
+     "title": "Momentive",
+     "url": "https://en.wikipedia.org/wiki/Momentive",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "公司归属",
+     "caliber": "Momentive is a fully owned subsidiary of KCC Corporation (2024-)",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "C",
+     "remark": ""
+    },
+    {
+     "org": "The Korea Herald",
+     "title": "Wonik QnC embraces Momentive's quartz operation for $266m",
+     "url": "https://www.koreaherald.com/article/2195454",
+     "publish_date": "2020-01-03",
+     "data_year": "2026",
+     "metric": "业务剥离史",
+     "caliber": "Wonik QnC 完成收购 Momentive Performance Materials 石英与陶瓷业务（即现 Momentive Technologies）",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": "用于区分两个 Momentive 实体"
+    }
+   ],
+   "confidence": "medium",
+   "unresolved": "需确认原始图谱语境中 Momentive 指迈图高新材料（有机硅，KCC 旗下）还是 Momentive Technologies（石英/陶瓷，SJL/Wonik 旗下）；本行按前者（迈图 Momentive）建档"
+  },
+  {
+   "source_keys": [
+    "PHOTRONICS"
+   ],
+   "entity_decision": "独立上市公司 Photronics, Inc.（光掩模，总部康涅狄格州 Brookfield）",
+   "company_id": "PLAB",
+   "name_cn": "",
+   "name_en": "Photronics, Inc.",
+   "short_name": "Photronics",
+   "aliases": [],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:PLAB",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "PLAB.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usPLAB"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Stock Analysis",
+     "title": "Photronics (PLAB) FY2026 earnings call / company page",
+     "url": "https://stockanalysis.com/stocks/plab/",
+     "publish_date": "2026-10-14",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "trades on Nasdaq under ticker PLAB",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "financialdata.net",
+     "title": "PHOTRONICS INC (PLAB, US7194051022) Company Profile",
+     "url": "https://financialdata.net/stocks/PLAB",
+     "publish_date": "2026-07-31",
+     "data_year": "2026",
+     "metric": "法定主体",
+     "caliber": "Photronics, Inc., Nasdaq: PLAB, ISIN US7194051022, CIK 0000810136",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  },
+  {
+   "source_keys": [
+    "TERADYNE"
+   ],
+   "entity_decision": "独立上市公司 Teradyne, Inc.（半导体测试机，总部马萨诸塞州 North Reading，现于 NASDAQ 交易，早年曾在 NYSE 挂牌）；2008 年先后收购 Nextest Systems（原 Nasdaq: NEXT）与 Eagle Test Systems（ETS，原 Nasdaq: EGLT）",
+   "company_id": "TER",
+   "name_cn": "泰瑞达",
+   "name_en": "Teradyne, Inc.",
+   "short_name": "Teradyne",
+   "aliases": [
+    "Nextest Systems（2008年被收购并入）",
+    "Eagle Test Systems / ETS（2008年被收购并入）"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:TER",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "TER.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usTER"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "SEC EDGAR",
+     "title": "Teradyne to acquire Nextest Systems (EX-99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312507263552/dex991.htm",
+     "publish_date": "2007-12",
+     "data_year": "2026",
+     "metric": "并购史（Nextest）",
+     "caliber": "Teradyne 收购 Nextest Systems Corporation (NASDAQ: NEXT)，每股 20 美元现金",
+     "region": "美国",
+     "type": "交易所",
+     "level": "A",
+     "remark": ""
+    },
+    {
+     "org": "PE Hub",
+     "title": "Teradyne Buys Eagle Test Systems",
+     "url": "https://www.pehub.com/teradyne-buys-eagle-test-systems/",
+     "publish_date": "2008-11-17",
+     "data_year": "2026",
+     "metric": "并购史（Eagle Test）",
+     "caliber": "Teradyne 以约 3.6 亿美元、每股 15.65 美元完成对 Eagle Test Systems (Nasdaq: EGLT) 收购",
+     "region": "美国",
+     "type": "行业媒体",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Simply Wall St",
+     "title": "Teradyne (Nasdaq:TER) Stock Analysis",
+     "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-ter/teradyne",
+     "publish_date": "2026",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NasdaqGS: TER",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": "现于 NASDAQ 交易"
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "原始备注“ETS/LTX-Credence平台”部分有误：ETS（Eagle Test）确属 Teradyne；LTX-Credence 不属 Teradyne，其后身 Xcerra 于 2018 年被 Cohu 收购"
+  },
+  {
+   "source_keys": [
+    "ULTRACLEANHOLDINGSUCT"
+   ],
+   "entity_decision": "独立上市公司 Ultra Clean Holdings, Inc.（半导体设备子系统/超高纯清洗服务，品牌 UCT，总部加州 Hayward）",
+   "company_id": "UCT",
+   "name_cn": "",
+   "name_en": "Ultra Clean Holdings, Inc.",
+   "short_name": "Ultra Clean (UCT)",
+   "aliases": [
+    "UCT"
+   ],
+   "country_region": "美国",
+   "listing_status": "上市",
+   "listings": [
+    {
+     "listing_id": "NASDAQ:UCTT",
+     "market": "美股",
+     "exchange": "NASDAQ",
+     "ticker": "UCTT.US",
+     "primary": true,
+     "provider_symbols": {
+      "tencent": "usUCTT"
+     }
+    }
+   ],
+   "evidence": [
+    {
+     "org": "Morningstar",
+     "title": "Ultra Clean Holdings Inc (UCTT) XNAS quote",
+     "url": "https://www.morningstar.com/stocks/xnas/uctt/quote",
+     "publish_date": "2026-10-02",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ: UCTT，半导体资本设备子系统供应商",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    },
+    {
+     "org": "Yahoo Finance",
+     "title": "UCTT Ultra Clean Holdings, Inc.",
+     "url": "https://finance.yahoo.com/quote/UCTT/",
+     "publish_date": "",
+     "data_year": "2026",
+     "metric": "上市状态与代码",
+     "caliber": "NASDAQ: UCTT",
+     "region": "美国",
+     "type": "财经数据站",
+     "level": "B",
+     "remark": ""
+    }
+   ],
+   "confidence": "high",
+   "unresolved": "通行中文名未确认"
+  }
+ ]
+}

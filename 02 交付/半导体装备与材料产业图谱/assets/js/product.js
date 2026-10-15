@@ -73,7 +73,7 @@
     });
     if(!c.occurrences.length)html+='<p class="quiet-note">赛道关系待补充。</p>';
     document.getElementById('drawer-back').hidden=!parentTrack;openDrawer(html);
-    if(listing && ['688012.SH','00522.HK','AMAT.US'].includes(listing.ticker))loadQuotes(listing.ticker);
+    if(listing && /\.(SH|SZ|BJ|HK|US)$/.test(listing.ticker || ''))loadQuotes(listing.ticker);
   }
   function filterControls(prefix, search) {
     const options=[...trackMap.values()].map(t=>'<option value="'+esc(t.id)+'">'+esc(t.name)+'</option>').join('');
@@ -89,7 +89,7 @@
     const view=document.getElementById('view-companies');
     view.innerHTML='<h2 class="section-title">龙头公司库</h2><p class="section-desc">从公司反查产业关系、产品与来源。'+(repo.mode==='official'?'已接入正式公司数据库。':'当前为赛道名单兼容展示；上市字段待正式公司数据库补充。')+'</p>'+legend()+
       '<div class="page-actions">'+(repo.mode==='official'?['companies','company_listings','track_company_relations'].map((name,i)=>'<button class="btn" data-export="companies" data-export-table="'+name+'.csv">下载'+['公司','上市信息','赛道关系'][i]+' CSV</button>').join(''):'<button class="btn" data-export="companies">下载公司 CSV</button>')+'</div>'+filterControls('companies',true)+
-      '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。表内行情目前仅覆盖688012.SH、00522.HK、AMAT.US三只试运行证券，兼容模式使用显式临时关联，不确认公司上市身份。其他记录显示—，等待正式listing关联；每小时同步，红涨绿跌，市值按原币种以亿元列示。顶部更新时间是行情缓存获取时间，单元格提示保留行情时间与状态。</p><p id="company-quote-updated" class="quote-updated" role="status">最近更新时间：正在读取…</p><div id="company-results"></div>';
+      '<p class="quiet-note" data-footer-note>地域按原始国别分组；缺少国别时，国内龙头角色可进入国内组，该分组不代表注册地核验。未确认上市身份的企业不进入已上市或未上市筛选。表内行情覆盖注册表内全部 A股/港股/美股证券（listing_id 与正式公司主表关联），其余市场记录显示—；每小时同步，红涨绿跌，市值按原币种以亿元列示。顶部更新时间是行情缓存获取时间，单元格提示保留行情时间与状态。</p><p id="company-quote-updated" class="quote-updated" role="status">最近更新时间：正在读取…</p><div id="company-results"></div>';
     view.querySelectorAll('#companies-filters input,#companies-filters select').forEach(el=>el.addEventListener('input',renderCompanyRows));
     renderCompanyRows();loadQuotes();
   }
@@ -175,7 +175,7 @@
   }
   async function loadQuotes(symbol) {
     const panel=symbol?document.querySelector('[data-company-quote]'):null;if(symbol&&!panel)return;
-    try {const response=await request('/api/quotes?symbols='+encodeURIComponent(symbol || '688012.SH,00522.HK,AMAT.US'));
+    try {const response=await request('/api/quotes'+(symbol?'?symbols='+encodeURIComponent(symbol):''));
       if(panel?.isConnected)panel.innerHTML=response.quotes.map(quoteMarkup).join('');
       else if(!symbol){response.quotes.forEach(q=>quoteCache.set(q.symbol,q));updateQuoteCells();
         const times=response.quotes.map(q=>Date.parse(q.fetched_at)).filter(Number.isFinite);

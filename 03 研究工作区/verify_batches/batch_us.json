@@ -1,0 +1,479 @@
+{
+ "batch": "batch_us.json",
+ "count": 21,
+ "rows": [
+  {
+   "key": "ADVANCEDENERGY",
+   "name_cn": "先进能源",
+   "name_en": "Advanced Energy",
+   "raw_names": [
+    "Advanced Energy 先进能源"
+   ],
+   "cn_variants": [
+    "先进能源"
+   ],
+   "en_variants": [
+    "Advanced Energy"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ADVANCEDTHERMALSCIENCESATS",
+   "name_cn": "",
+   "name_en": "Advanced Thermal Sciences ATS",
+   "raw_names": [
+    "Advanced Thermal Sciences ATS"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Advanced Thermal Sciences ATS"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "AIRPRODUCTS",
+   "name_cn": "空气化工",
+   "name_en": "Air Products",
+   "raw_names": [
+    "空气化工 Air Products"
+   ],
+   "cn_variants": [
+    "空气化工"
+   ],
+   "en_variants": [
+    "Air Products"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "APPLIEDMATERIALS",
+   "name_cn": "应用材料",
+   "name_en": "Applied Materials",
+   "raw_names": [
+    "AMAT应用材料（美）",
+    "AMAT（美）",
+    "应用材料 Applied Materials",
+    "应用材料 Applied Materials（Varian）"
+   ],
+   "cn_variants": [
+    "应用材料"
+   ],
+   "en_variants": [
+    "Applied Materials",
+    "AMAT"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "Varian"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体",
+    "name: 同一清洗名连接多种中英文写法；仅粗去重，仍需核验别名对应"
+   ],
+   "occurrence_count": 17
+  },
+  {
+   "key": "AXCELIS",
+   "name_cn": "亚舍立",
+   "name_en": "Axcelis",
+   "raw_names": [
+    "Axcelis 亚舍立",
+    "Axcelis 亚舍立（美）",
+    "Axcelis（美）"
+   ],
+   "cn_variants": [
+    "亚舍立"
+   ],
+   "en_variants": [
+    "Axcelis"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "BROOKSAUTOMATION",
+   "name_cn": "布鲁克斯",
+   "name_en": "Brooks Automation",
+   "raw_names": [
+    "Brooks Automation 布鲁克斯"
+   ],
+   "cn_variants": [
+    "布鲁克斯"
+   ],
+   "en_variants": [
+    "Brooks Automation"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "BROOKSINSTRUMENT",
+   "name_cn": "",
+   "name_en": "Brooks Instrument",
+   "raw_names": [
+    "Brooks Instrument"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Brooks Instrument"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "CLASSONETECHNOLOGY",
+   "name_cn": "",
+   "name_en": "ClassOne Technology",
+   "raw_names": [
+    "ClassOne Technology(美)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "ClassOne Technology"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "COHU",
+   "name_cn": "科休",
+   "name_en": "Cohu",
+   "raw_names": [
+    "Cohu 科休",
+    "Cohu 科休(美)",
+    "Cohu 科休(美，含Xcerra/MCT)"
+   ],
+   "cn_variants": [
+    "科休"
+   ],
+   "en_variants": [
+    "Cohu"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "含Xcerra/MCT"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 3
+  },
+  {
+   "key": "COORSTEK",
+   "name_cn": "",
+   "name_en": "CoorsTek",
+   "raw_names": [
+    "CoorsTek"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "CoorsTek"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "DUPONT",
+   "name_cn": "杜邦",
+   "name_en": "DuPont",
+   "raw_names": [
+    "DuPont 杜邦"
+   ],
+   "cn_variants": [
+    "杜邦"
+   ],
+   "en_variants": [
+    "DuPont"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "FORMFACTOR",
+   "name_cn": "",
+   "name_en": "FormFactor",
+   "raw_names": [
+    "FormFactor(美)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "FormFactor"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ICHORSYSTEMS",
+   "name_cn": "",
+   "name_en": "Ichor Systems",
+   "raw_names": [
+    "Ichor Systems"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Ichor Systems"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "K&S",
+   "name_cn": "库力索法",
+   "name_en": "K&S",
+   "raw_names": [
+    "K&S",
+    "K&S 库力索法",
+    "K&S 库力索法(美)"
+   ],
+   "cn_variants": [
+    "库力索法"
+   ],
+   "en_variants": [
+    "K&S"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "KLA",
+   "name_cn": "科磊",
+   "name_en": "KLA",
+   "raw_names": [
+    "KLA科磊（美）",
+    "KLA（美）",
+    "科磊 KLA"
+   ],
+   "cn_variants": [
+    "科磊"
+   ],
+   "en_variants": [
+    "KLA"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 4
+  },
+  {
+   "key": "LAMRESEARCH",
+   "name_cn": "泛林",
+   "name_en": "Lam Research",
+   "raw_names": [
+    "Lam Research 泛林(美)",
+    "Lam Research（美）",
+    "泛林 Lam Research"
+   ],
+   "cn_variants": [
+    "泛林"
+   ],
+   "en_variants": [
+    "Lam Research"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 8
+  },
+  {
+   "key": "MKSINSTRUMENTS",
+   "name_cn": "",
+   "name_en": "MKS Instruments",
+   "raw_names": [
+    "MKS Instruments"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "MKS Instruments"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "MOMENTIVE",
+   "name_cn": "迈图",
+   "name_en": "Momentive",
+   "raw_names": [
+    "Momentive 迈图"
+   ],
+   "cn_variants": [
+    "迈图"
+   ],
+   "en_variants": [
+    "Momentive"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "PHOTRONICS",
+   "name_cn": "",
+   "name_en": "Photronics",
+   "raw_names": [
+    "Photronics"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Photronics"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TERADYNE",
+   "name_cn": "泰瑞达",
+   "name_en": "Teradyne",
+   "raw_names": [
+    "Teradyne 泰瑞达",
+    "Teradyne 泰瑞达(美)",
+    "Teradyne 泰瑞达(美，ETS/LTX-Credence平台)"
+   ],
+   "cn_variants": [
+    "泰瑞达"
+   ],
+   "en_variants": [
+    "Teradyne"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "ETS/LTX-Credence平台"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "ULTRACLEANHOLDINGSUCT",
+   "name_cn": "",
+   "name_en": "Ultra Clean Holdings UCT",
+   "raw_names": [
+    "Ultra Clean Holdings UCT"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Ultra Clean Holdings UCT"
+   ],
+   "region": "美国",
+   "regions_evidence": [
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  }
+ ]
+}

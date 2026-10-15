@@ -1,0 +1,780 @@
+{
+ "batch": "batch_jp_1.json",
+ "count": 35,
+ "rows": [
+  {
+   "key": "ADVANTEST",
+   "name_cn": "爱德万测试",
+   "name_en": "Advantest",
+   "raw_names": [
+    "Advantest 爱德万测试",
+    "Advantest 爱德万测试(日)"
+   ],
+   "cn_variants": [
+    "爱德万测试"
+   ],
+   "en_variants": [
+    "Advantest"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 5
+  },
+  {
+   "key": "DAIFUKU",
+   "name_cn": "大福",
+   "name_en": "Daifuku",
+   "raw_names": [
+    "Daifuku 大福"
+   ],
+   "cn_variants": [
+    "大福"
+   ],
+   "en_variants": [
+    "Daifuku"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "DAIHEN",
+   "name_cn": "",
+   "name_en": "DAIHEN",
+   "raw_names": [
+    "DAIHEN"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "DAIHEN"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "DISCO",
+   "name_cn": "迪思科",
+   "name_en": "DISCO",
+   "raw_names": [
+    "DISCO 迪思科",
+    "DISCO 迪思科(日)",
+    "Disco（日）"
+   ],
+   "cn_variants": [
+    "迪思科"
+   ],
+   "en_variants": [
+    "DISCO",
+    "Disco"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "name: 同一清洗名连接多种中英文写法；仅粗去重，仍需核验别名对应"
+   ],
+   "occurrence_count": 4
+  },
+  {
+   "key": "DNP",
+   "name_cn": "大日本印刷",
+   "name_en": "DNP",
+   "raw_names": [
+    "DNP 大日本印刷"
+   ],
+   "cn_variants": [
+    "大日本印刷"
+   ],
+   "en_variants": [
+    "DNP"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "EBARA",
+   "name_cn": "荏原",
+   "name_en": "Ebara",
+   "raw_names": [
+    "Ebara 荏原",
+    "Ebara 荏原（日）",
+    "荏原 Ebara"
+   ],
+   "cn_variants": [
+    "荏原"
+   ],
+   "en_variants": [
+    "Ebara"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "FERROTEC",
+   "name_cn": "大和热磁",
+   "name_en": "Ferrotec",
+   "raw_names": [
+    "Ferrotec 大和热磁"
+   ],
+   "cn_variants": [
+    "大和热磁"
+   ],
+   "en_variants": [
+    "Ferrotec"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "FUJIFILM",
+   "name_cn": "富士胶片",
+   "name_en": "Fujifilm",
+   "raw_names": [
+    "富士胶片 Fujifilm"
+   ],
+   "cn_variants": [
+    "富士胶片"
+   ],
+   "en_variants": [
+    "Fujifilm"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "FUJIKIN",
+   "name_cn": "富士金",
+   "name_en": "Fujikin",
+   "raw_names": [
+    "Fujikin 富士金"
+   ],
+   "cn_variants": [
+    "富士金"
+   ],
+   "en_variants": [
+    "Fujikin"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "FUJIMI",
+   "name_cn": "",
+   "name_en": "Fujimi",
+   "raw_names": [
+    "Fujimi"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Fujimi"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HIRATA",
+   "name_cn": "平田机工",
+   "name_en": "Hirata",
+   "raw_names": [
+    "Hirata 平田机工"
+   ],
+   "cn_variants": [
+    "平田机工"
+   ],
+   "en_variants": [
+    "Hirata"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HITACHIHIGH-TECH",
+   "name_cn": "日立高新",
+   "name_en": "Hitachi High-Tech",
+   "raw_names": [
+    "Hitachi High-Tech日立高新（日）",
+    "日立高新 Hitachi High-Tech"
+   ],
+   "cn_variants": [
+    "日立高新"
+   ],
+   "en_variants": [
+    "Hitachi High-Tech"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "HORIBA",
+   "name_cn": "堀场",
+   "name_en": "HORIBA",
+   "raw_names": [
+    "HORIBA 堀场"
+   ],
+   "cn_variants": [
+    "堀场"
+   ],
+   "en_variants": [
+    "HORIBA"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HOYA",
+   "name_cn": "",
+   "name_en": "HOYA",
+   "raw_names": [
+    "HOYA"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "HOYA"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "IBIDEN",
+   "name_cn": "揖斐电",
+   "name_en": "Ibiden",
+   "raw_names": [
+    "揖斐电 Ibiden"
+   ],
+   "cn_variants": [
+    "揖斐电"
+   ],
+   "en_variants": [
+    "Ibiden"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "JSR",
+   "name_cn": "",
+   "name_en": "JSR",
+   "raw_names": [
+    "JSR"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "JSR"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "JXMETALS",
+   "name_cn": "JX金属",
+   "name_en": "JX Metals",
+   "raw_names": [
+    "JX金属 JX Metals"
+   ],
+   "cn_variants": [
+    "JX金属"
+   ],
+   "en_variants": [
+    "JX Metals"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "KANTOCHEMICAL",
+   "name_cn": "关东化学",
+   "name_en": "Kanto Chemical",
+   "raw_names": [
+    "关东化学 Kanto Chemical"
+   ],
+   "cn_variants": [
+    "关东化学"
+   ],
+   "en_variants": [
+    "Kanto Chemical"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "KASHIYAMA",
+   "name_cn": "樫山工业",
+   "name_en": "Kashiyama",
+   "raw_names": [
+    "Kashiyama 樫山工业"
+   ],
+   "cn_variants": [
+    "樫山工业"
+   ],
+   "en_variants": [
+    "Kashiyama"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "KOKUSAIELECTRIC",
+   "name_cn": "日立国际电气",
+   "name_en": "Kokusai Electric",
+   "raw_names": [
+    "Kokusai Electric 日立国际电气",
+    "Kokusai Electric（日）"
+   ],
+   "cn_variants": [
+    "日立国际电气"
+   ],
+   "en_variants": [
+    "Kokusai Electric"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "KYOCERA",
+   "name_cn": "京瓷",
+   "name_en": "Kyocera",
+   "raw_names": [
+    "Kyocera 京瓷",
+    "京瓷 Kyocera"
+   ],
+   "cn_variants": [
+    "京瓷"
+   ],
+   "en_variants": [
+    "Kyocera"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "LASERTEC",
+   "name_cn": "",
+   "name_en": "Lasertec",
+   "raw_names": [
+    "Lasertec",
+    "Lasertec（日）"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Lasertec"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 3
+  },
+  {
+   "key": "LINTEC",
+   "name_cn": "琳得科",
+   "name_en": "Lintec",
+   "raw_names": [
+    "琳得科 Lintec"
+   ],
+   "cn_variants": [
+    "琳得科"
+   ],
+   "en_variants": [
+    "Lintec"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "MARUWA",
+   "name_cn": "丸和",
+   "name_en": "Maruwa",
+   "raw_names": [
+    "丸和 Maruwa"
+   ],
+   "cn_variants": [
+    "丸和"
+   ],
+   "en_variants": [
+    "Maruwa"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "MITSUBISHICHEMICAL",
+   "name_cn": "三菱化学",
+   "name_en": "Mitsubishi Chemical",
+   "raw_names": [
+    "三菱化学 Mitsubishi Chemical"
+   ],
+   "cn_variants": [
+    "三菱化学"
+   ],
+   "en_variants": [
+    "Mitsubishi Chemical"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "MITSUIHIGH-TEC",
+   "name_cn": "三井高科技",
+   "name_en": "Mitsui High-tec",
+   "raw_names": [
+    "三井高科技 Mitsui High-tec"
+   ],
+   "cn_variants": [
+    "三井高科技"
+   ],
+   "en_variants": [
+    "Mitsui High-tec"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NAGASE",
+   "name_cn": "长濑",
+   "name_en": "Nagase",
+   "raw_names": [
+    "长濑 Nagase（ChemteX）"
+   ],
+   "cn_variants": [
+    "长濑"
+   ],
+   "en_variants": [
+    "Nagase"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "ChemteX"
+   ],
+   "reviews": [
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NAMICS",
+   "name_cn": "纳美仕",
+   "name_en": "NAMICS",
+   "raw_names": [
+    "纳美仕 NAMICS"
+   ],
+   "cn_variants": [
+    "纳美仕"
+   ],
+   "en_variants": [
+    "NAMICS"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NITERRA",
+   "name_cn": "日本特殊陶业",
+   "name_en": "Niterra",
+   "raw_names": [
+    "Niterra 日本特殊陶业"
+   ],
+   "cn_variants": [
+    "日本特殊陶业"
+   ],
+   "en_variants": [
+    "Niterra"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NITTO",
+   "name_cn": "日东电工",
+   "name_en": "Nitto",
+   "raw_names": [
+    "日东电工 Nitto"
+   ],
+   "cn_variants": [
+    "日东电工"
+   ],
+   "en_variants": [
+    "Nitto"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "PANASONIC",
+   "name_cn": "松下电子材料",
+   "name_en": "Panasonic",
+   "raw_names": [
+    "松下电子材料 Panasonic"
+   ],
+   "cn_variants": [
+    "松下电子材料"
+   ],
+   "en_variants": [
+    "Panasonic"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "RORZE",
+   "name_cn": "罗泽",
+   "name_en": "RORZE",
+   "raw_names": [
+    "RORZE 罗泽"
+   ],
+   "cn_variants": [
+    "罗泽"
+   ],
+   "en_variants": [
+    "RORZE"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SENJUMETAL",
+   "name_cn": "千住金属",
+   "name_en": "Senju Metal",
+   "raw_names": [
+    "千住金属 Senju Metal"
+   ],
+   "cn_variants": [
+    "千住金属"
+   ],
+   "en_variants": [
+    "Senju Metal"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SHIN-ETSU",
+   "name_cn": "信越化学",
+   "name_en": "Shin-Etsu",
+   "raw_names": [
+    "信越化学 Shin-Etsu"
+   ],
+   "cn_variants": [
+    "信越化学"
+   ],
+   "en_variants": [
+    "Shin-Etsu"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 2
+  },
+  {
+   "key": "SHINKAWA",
+   "name_cn": "",
+   "name_en": "Shinkawa",
+   "raw_names": [
+    "Shinkawa(日)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Shinkawa"
+   ],
+   "region": "日本",
+   "regions_evidence": [
+    "日本"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  }
+ ]
+}

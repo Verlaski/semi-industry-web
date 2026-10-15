@@ -1,0 +1,15 @@
+{
+  "add_aliases": {
+    "MKS": ["MKS Instruments"],
+    "SHI": ["SEN Sumitomo", "住友重工/SEN"],
+    "SHENGDA": ["合肥圣达", "合肥圣达电子"],
+    "YAJU": ["东莞亚聚电子"],
+    "HANWHA_SEMITECH": ["Hanwha", "韩华"],
+    "ADVANCEDTS": ["Advanced Thermal Sciences ATS"]
+  },
+  "drop_match_tokens": {},
+  "name_cn": {
+    "MKS": ""
+  },
+  "_note": "人工裁决补丁：add_aliases 补充匹配别名；drop_match_tokens 从匹配索引剔除指定 token（实体记录保留原字段）；name_cn 修正中文名。K3 的 E1 结果落地后需复核 Shinkawa/Yamaha Robotics 是否仍需拆分裁决。"
+}

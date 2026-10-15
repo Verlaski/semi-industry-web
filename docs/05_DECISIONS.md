@@ -24,6 +24,10 @@
 | DEC-018 | 总图直接开Drawer，不切产业标签，也不保留行高亮 | 原深链接曾积累hl样式，误显为特殊研究分类；总图按钮只打开详情，外部旧深链接继续可用 |
 | DEC-019 | 公司表内行情采用显式试运行桥 | 复用已部署三证券API与Provider，红涨绿跌；不从未核验代码猜报价，不向兼容主表写上市身份，待listing_id迁移移除临时桥 |
 | DEC-020 | 最终交接快照自动核对GitHub SHA | 避免在文档自身写入自身提交SHA的循环；维护版与代码同次提交，推送后导出含精确HEAD和核对时间的交付快照 |
+| DEC-021 | company_id 用英文缩写/拼音助记符而非数字代码 | 可读、稳定、与赛道编号风格一致；数字代码会变（更名/换板），助记符不变；规则写入 DATA_MODEL |
+| DEC-022 | 赛道 leader 保留已核验显示 name 并加 company_id 双写 | PDF Builder 读 name 无需改动即可出报告；前端按 company_id 连接正式主表；后续如要 ID-only 再加薄层解析 |
+| DEC-023 | 行情注册表由公司主表生成、symbol 不变 | symbols.generated.js 从 listings 生成并携带 listing_id；symbol 作缓存键不变，旧行情缓存可回退；首批只覆盖腾讯已实测的 SH/SZ/BJ/HK/US 五类前缀 |
+| DEC-024 | 中国批上市核验用东财名录+腾讯行情接口脚本化 | 模型额度中断后的替代路径；接口核验（名称↔代码↔板块）为 B 级证据，置信度分级保留人工复核入口 |
 
 PDF视觉规范来自[Verlaski/cn-pdf-report-style](https://github.com/Verlaski/cn-pdf-report-style)，保留A4、藏蓝#17375E、中文研究排版、斑马纹、来源和页码。实现中修正默认Frame内边距导致表宽超出正文的问题，并将科学计数上标转换为真正的上标排版，来源注与表格尾行共同分页，避免注释单独占页。
 

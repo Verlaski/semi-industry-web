@@ -47,44 +47,49 @@
       },
       "global_leaders": [
         {
-          "name": "信越化学 Shin-Etsu",
+          "name": "Shin-Etsu",
           "country": "日",
           "share": "约27%-28%（2023-2024）",
           "products": "12英寸抛光片/外延片、SOI",
           "tag": "全球第一",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "SHINETSU"
         },
         {
-          "name": "SUMCO 胜高",
+          "name": "SUMCO",
           "country": "日",
           "share": "约22%-24%（2023-2024）",
           "products": "12英寸抛光/外延片",
           "tag": "全球第二",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "SUMCO"
         },
         {
-          "name": "环球晶圆 GlobalWafers",
+          "name": "环球晶圆 GWC",
           "country": "台",
           "share": "约15%-17%（2023-2024）",
           "products": "全尺寸硅片、SOI",
           "tag": "全球第三",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "GLOBALWAFERS"
         },
         {
-          "name": "Siltronic 世创",
+          "name": "Siltronic",
           "country": "德",
           "share": "约11%-13%（2023-2024）",
           "products": "12英寸抛光/外延片",
           "tag": "欧洲最大",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "SILTRONIC"
         },
         {
-          "name": "SK Siltron",
+          "name": "SK Siltron SK실트론",
           "country": "韩",
           "share": "约11%-13%（2023-2024）",
           "products": "12英寸抛光/外延片",
           "tag": "全球第五",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "SKSILTRON"
         }
       ],
       "china_leaders": [
@@ -92,25 +97,29 @@
           "name": "沪硅产业",
           "share": "全球约2%-2.5%（2024，按销量505万片）",
           "tag": "国内大硅片龙头，12英寸产能约50-60万片/月",
-          "source_id": "SRC-MF-24"
+          "source_id": "SRC-MF-24",
+          "company_id": "NSIG"
         },
         {
-          "name": "西安奕材（奕斯伟材料）",
+          "name": "西安奕材",
           "share": "N/A（按收入排名）",
           "tag": "12英寸国内第一梯队",
-          "source_id": "SRC-MF-25"
+          "source_id": "SRC-MF-25",
+          "company_id": "ESWINMAT"
         },
         {
-          "name": "立昂微",
+          "name": "立昂微 LION",
           "share": "N/A（按收入排名）",
           "tag": "8英寸为主力，12英寸爬坡",
-          "source_id": "SRC-MF-24"
+          "source_id": "SRC-MF-24",
+          "company_id": "LION"
         },
         {
-          "name": "中环领先（TCL中环）",
+          "name": "中环领先",
           "share": "N/A（按收入排名）",
           "tag": "12英寸产能扩张中",
-          "source_id": "SRC-MF-03"
+          "source_id": "SRC-MF-03",
+          "company_id": "ZHLX"
         }
       ],
       "localization": {
@@ -150,23 +159,26 @@
           "share": "N/A（第三方掩膜版龙头，三家合计占第三方市场超80%）",
           "products": "逻辑/存储掩膜版",
           "tag": "全球最大独立掩膜厂",
-          "source_id": "SRC-MF-08"
+          "source_id": "SRC-MF-08",
+          "company_id": "PLAB"
         },
         {
-          "name": "DNP 大日本印刷",
+          "name": "DNP",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "高端逻辑掩膜版、EUV掩膜",
           "tag": "高端领先",
-          "source_id": "SRC-MF-08"
+          "source_id": "SRC-MF-08",
+          "company_id": "DNP"
         },
         {
-          "name": "Toppan Photomask 凸版",
+          "name": "Tekscend",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "全品类掩膜版",
           "tag": "第三方前三",
-          "source_id": "SRC-MF-08"
+          "source_id": "SRC-MF-08",
+          "company_id": "TEKSCEND"
         },
         {
           "name": "HOYA",
@@ -174,7 +186,8 @@
           "share": "N/A（按收入排名）",
           "products": "EUV空白掩膜基板、掩膜版",
           "tag": "EUV基板主导",
-          "source_id": "SRC-MF-26"
+          "source_id": "SRC-MF-26",
+          "company_id": "HOYA"
         }
       ],
       "china_leaders": [
@@ -182,19 +195,22 @@
           "name": "清溢光电",
           "share": "N/A（按收入排名）",
           "tag": "国产第三方掩膜版龙头（面板起家、半导体放量）",
-          "source_id": "SRC-MF-26"
+          "source_id": "SRC-MF-26",
+          "company_id": "SQM"
         },
         {
-          "name": "路维光电",
+          "name": "路维光电 Newway",
           "share": "N/A（按收入排名）",
           "tag": "半导体掩膜版国产前三",
-          "source_id": "SRC-MF-26"
+          "source_id": "SRC-MF-26",
+          "company_id": "NEWWAY"
         },
         {
-          "name": "龙图光罩",
+          "name": "龙图光罩 STARMASK",
           "share": "N/A（按收入排名）",
           "tag": "专注半导体掩膜版，130nm及以上制程",
-          "source_id": "SRC-MF-22"
+          "source_id": "SRC-MF-22",
+          "company_id": "STARMASK"
         }
       ],
       "localization": {
@@ -250,65 +266,74 @@
           "share": "ArF约24.9%（2020口径）",
           "products": "KrF/ArF/EUV全系列，收购Inpria强化EUV",
           "tag": "ArF全球第一",
-          "source_id": "SRC-MF-05"
+          "source_id": "SRC-MF-05",
+          "company_id": "JSR"
         },
         {
-          "name": "东京应化 TOK",
+          "name": "TOK",
           "country": "日",
           "share": "KrF约31.4%、EUV约51.8%（2020口径）",
           "products": "g/i线、KrF、ArF、EUV",
           "tag": "KrF与EUV第一",
-          "source_id": "SRC-MF-05"
+          "source_id": "SRC-MF-05",
+          "company_id": "TOK"
         },
         {
-          "name": "信越化学 Shin-Etsu",
+          "name": "Shin-Etsu",
           "country": "日",
           "share": "KrF约21.9%、ArF约21.8%（2020口径）",
           "products": "KrF/ArF/EUV",
           "tag": "全品类前三",
-          "source_id": "SRC-MF-05"
+          "source_id": "SRC-MF-05",
+          "company_id": "SHINETSU"
         },
         {
-          "name": "住友化学",
+          "name": "Sumitomo Chemical",
           "country": "日",
           "share": "ArF约16.8%（2020口径）",
           "products": "g/i线、ArF",
           "tag": "日系主力",
-          "source_id": "SRC-MF-05"
+          "source_id": "SRC-MF-05",
+          "company_id": "SUMITOMOCHEMICAL"
         },
         {
-          "name": "富士胶片 Fujifilm",
+          "name": "Fujifilm",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "KrF/ArF/EUV及配套材料",
           "tag": "日系主力",
-          "source_id": "SRC-MF-23"
+          "source_id": "SRC-MF-23",
+          "company_id": "FUJIFILM"
         }
       ],
       "china_leaders": [
         {
-          "name": "彤程新材（北京科华）",
+          "name": "彤程新材",
           "share": "N/A（按收入排名）",
           "tag": "国产KrF光刻胶龙头",
-          "source_id": "SRC-MF-06"
+          "source_id": "SRC-MF-06",
+          "company_id": "REDAVENUE"
         },
         {
           "name": "晶瑞电材",
           "share": "N/A（按收入排名）",
           "tag": "g/i线规模供货，KrF上量",
-          "source_id": "SRC-MF-23"
+          "source_id": "SRC-MF-23",
+          "company_id": "JINGRUI"
         },
         {
           "name": "南大光电",
           "share": "N/A（按收入排名）",
           "tag": "ArF光刻胶通过验证、小批量销售",
-          "source_id": "SRC-MF-23"
+          "source_id": "SRC-MF-23",
+          "company_id": "NATA"
         },
         {
           "name": "上海新阳",
           "share": "N/A（按收入排名）",
           "tag": "KrF/ArF布局，配套电镀液清洗液协同",
-          "source_id": "SRC-MF-23"
+          "source_id": "SRC-MF-23",
+          "company_id": "SINYANG"
         }
       ],
       "localization": {
@@ -351,62 +376,70 @@
       },
       "global_leaders": [
         {
-          "name": "林德 Linde",
+          "name": "林德 Linde plc",
           "country": "德/美",
           "share": "N/A（四大巨头合计约90%）",
           "products": "电子大宗气、特气、TGCM服务",
           "tag": "全球第一",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "LINDE"
         },
         {
-          "name": "液化空气 Air Liquide",
+          "name": "Air Liquide",
           "country": "法",
           "share": "N/A（按收入排名）",
           "products": "电子气体全线、载气",
           "tag": "四大巨头之一",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "AIRLIQUIDE"
         },
         {
-          "name": "空气化工 Air Products",
+          "name": "Air Products",
           "country": "美",
           "share": "N/A（按收入排名）",
           "products": "电子大宗气、特气",
           "tag": "四大巨头之一",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "APD"
         },
         {
-          "name": "大阳日酸 Taiyo Nippon Sanso",
+          "name": "Nippon Sanso HD",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "电子气体、设备",
           "tag": "日系龙头",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "NIPPONSANSOHD"
         }
       ],
       "china_leaders": [
         {
-          "name": "中船特气（派瑞特气）",
+          "name": "中船特气",
           "share": "N/A（按收入排名）",
           "tag": "NF3/WF6全球前列，国内首个进入5nm制程特气供应商",
-          "source_id": "SRC-MF-11"
+          "source_id": "SRC-MF-11",
+          "company_id": "PERIC"
         },
         {
           "name": "华特气体",
           "share": "N/A（按收入排名）",
           "tag": "光刻气等20余种特气导入国内外晶圆厂",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "HUATE"
         },
         {
           "name": "金宏气体",
           "share": "N/A（按收入排名）",
           "tag": "超纯氨、电子大宗气TGCM",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "JINHONGGAS"
         },
         {
           "name": "南大光电",
           "share": "N/A（按收入排名）",
           "tag": "高纯磷烷/砷烷、氢类特气",
-          "source_id": "SRC-MF-10"
+          "source_id": "SRC-MF-10",
+          "company_id": "NATA"
         }
       ],
       "localization": {
@@ -441,28 +474,31 @@
       },
       "global_leaders": [
         {
-          "name": "巴斯夫 BASF",
+          "name": "BASF BASF SE",
           "country": "德",
           "share": "N/A（欧美厂商合计约30%）",
           "products": "超纯酸、显影液",
           "tag": "欧美龙头",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "BASF"
         },
         {
-          "name": "三菱化学 Mitsubishi Chemical",
+          "name": "Mitsubishi Chemical Group",
           "country": "日",
           "share": "N/A（日系厂商合计约27%）",
           "products": "超纯硫酸/双氧水/功能液",
           "tag": "日系龙头",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "MCG"
         },
         {
-          "name": "关东化学 Kanto Chemical",
+          "name": "Kanto Chemical",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "超净高纯试剂全品类",
           "tag": "高端市场主导",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "KANTOCHEM"
         },
         {
           "name": "Stella Chemifa",
@@ -470,41 +506,56 @@
           "share": "N/A（按收入排名）",
           "products": "高纯氢氟酸、缓冲蚀刻液",
           "tag": "高纯氟化物龙头",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "STELLACHEMIFA"
         },
         {
-          "name": "默克 Merck KGaA / 霍尼韦尔 Honeywell",
+          "name": "默克 Merck KGaA",
           "country": "德/美",
           "share": "N/A（按收入排名）",
           "products": "功能型湿化学品、高纯溶剂",
-          "tag": "欧美主力",
-          "source_id": "SRC-MF-13"
+          "tag": "欧美主力（原组合条目拆分）",
+          "source_id": "SRC-MF-13",
+          "company_id": "MERCKKGAA"
+        },
+        {
+          "name": "霍尼韦尔 Honeywell",
+          "country": "德/美",
+          "share": "N/A（按收入排名）",
+          "products": "功能型湿化学品、高纯溶剂",
+          "tag": "欧美主力（原组合条目拆分）",
+          "source_id": "SRC-MF-13",
+          "company_id": "HONEYWELL"
         }
       ],
       "china_leaders": [
         {
-          "name": "兴福电子（兴发集团）",
+          "name": "兴福电子 Sinophorus",
           "share": "N/A（按收入排名）",
           "tag": "电子级磷酸/硫酸国内龙头，进入主流晶圆厂",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "XFDZ"
         },
         {
           "name": "江化微",
           "share": "N/A（按收入排名）",
           "tag": "超净高纯试剂及功能液，8英寸批量供货",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "JIANGHUA"
         },
         {
           "name": "晶瑞电材",
           "share": "N/A（按收入排名）",
           "tag": "双氧水/硫酸/氨水G5级量产",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "JINGRUI"
         },
         {
           "name": "上海新阳",
           "share": "N/A（按收入排名）",
           "tag": "电镀液/清洗液进入先进封装与晶圆产线",
-          "source_id": "SRC-MF-13"
+          "source_id": "SRC-MF-13",
+          "company_id": "SINYANG"
         }
       ],
       "localization": {
@@ -539,44 +590,49 @@
       },
       "global_leaders": [
         {
-          "name": "Entegris（收购CMC Materials）",
+          "name": "Entegris",
           "country": "美",
           "share": "N/A（按收入排名）",
           "products": "全品类抛光液、抛光垫",
           "tag": "抛光液全球第一梯队",
-          "source_id": "SRC-MF-16"
+          "source_id": "SRC-MF-16",
+          "company_id": "ENTEGRIS"
         },
         {
-          "name": "Fujimi",
+          "name": "Fujimi フジミインコーポレーテッド",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "硅片/介电/金属抛光液",
           "tag": "日系龙头",
-          "source_id": "SRC-MF-16"
+          "source_id": "SRC-MF-16",
+          "company_id": "FUJIMI"
         },
         {
-          "name": "富士胶片 Fujifilm",
+          "name": "Fujifilm",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "铜/钨抛光液",
           "tag": "日系主力",
-          "source_id": "SRC-MF-17"
+          "source_id": "SRC-MF-17",
+          "company_id": "FUJIFILM"
         },
         {
-          "name": "DuPont 杜邦",
+          "name": "DuPont",
           "country": "美",
           "share": "抛光垫约75%-80%",
           "products": "抛光垫、抛光液",
           "tag": "抛光垫绝对主导",
-          "source_id": "SRC-MF-17"
+          "source_id": "SRC-MF-17",
+          "company_id": "DUPONT"
         },
         {
-          "name": "Resonac（原日立化成）",
+          "name": "Resonac レゾナック",
           "country": "日",
           "share": "N/A（按收入排名）",
           "products": "抛光液、CMP后清洗液",
           "tag": "日系主力",
-          "source_id": "SRC-MF-16"
+          "source_id": "SRC-MF-16",
+          "company_id": "RESONAC"
         }
       ],
       "china_leaders": [
@@ -584,13 +640,15 @@
           "name": "安集科技",
           "share": "全球约11%（2024，2023年约8%，2025年约13%）",
           "tag": "国产抛光液龙头，铜/钨/介电全覆盖",
-          "source_id": "SRC-MF-17"
+          "source_id": "SRC-MF-17",
+          "company_id": "ANJI"
         },
         {
           "name": "鼎龙股份",
           "share": "N/A（按收入排名）",
           "tag": "国产CMP抛光垫第一，并拓展抛光液/清洗液",
-          "source_id": "SRC-MF-17"
+          "source_id": "SRC-MF-17",
+          "company_id": "DINGLONG"
         }
       ],
       "localization": {
@@ -625,12 +683,13 @@
       },
       "global_leaders": [
         {
-          "name": "JX金属 JX Metals",
+          "name": "JX Metals",
           "country": "日",
           "share": "约30%（2023）",
           "products": "钛/铝/钽/ITO靶",
           "tag": "全球第一",
-          "source_id": "SRC-MF-18"
+          "source_id": "SRC-MF-18",
+          "company_id": "JXMETALS"
         },
         {
           "name": "霍尼韦尔 Honeywell",
@@ -638,23 +697,26 @@
           "share": "约20%（2023）",
           "products": "钛/铝/铜/钽靶",
           "tag": "全球前二",
-          "source_id": "SRC-MF-18"
+          "source_id": "SRC-MF-18",
+          "company_id": "HONEYWELL"
         },
         {
-          "name": "东曹 Tosoh",
+          "name": "Tosoh",
           "country": "日",
           "share": "约20%（2023）",
           "products": "铝/钛/钽靶",
           "tag": "全球前三",
-          "source_id": "SRC-MF-18"
+          "source_id": "SRC-MF-18",
+          "company_id": "TOSOH"
         },
         {
-          "name": "普莱克斯（现属林德 Linde）",
+          "name": "Praxair",
           "country": "美",
           "share": "约10%（2023）",
           "products": "铝/钛靶及合金靶",
           "tag": "四家合计约80%",
-          "source_id": "SRC-MF-18"
+          "source_id": "SRC-MF-18",
+          "company_id": "PRAXAIR"
         }
       ],
       "china_leaders": [
@@ -662,19 +724,22 @@
           "name": "江丰电子",
           "share": "全球晶圆制造用溅射靶材第二（2022，弗若斯特沙利文）；国内12英寸晶圆厂综合份额约73%（媒体口径）",
           "tag": "国产替代标杆、全球前二",
-          "source_id": "SRC-MF-19"
+          "source_id": "SRC-MF-19",
+          "company_id": "KONFOONG"
         },
         {
-          "name": "有研新材（有研亿金）",
+          "name": "有研新材",
           "share": "N/A（按收入排名）",
           "tag": "高纯铜/钴/贵金属靶",
-          "source_id": "SRC-MF-19"
+          "source_id": "SRC-MF-19",
+          "company_id": "GRINM"
         },
         {
-          "name": "隆华科技（四丰电子/晶联光电）",
+          "name": "隆华科技",
           "share": "N/A（按收入排名）",
           "tag": "钼/ITO靶，半导体靶拓展中",
-          "source_id": "SRC-MF-19"
+          "source_id": "SRC-MF-19",
+          "company_id": "LONGHUA"
         }
       ],
       "localization": {
@@ -718,53 +783,78 @@
           "share": "N/A（按收入排名）",
           "products": "High-k/金属前驱体全线",
           "tag": "全球前列",
-          "source_id": "SRC-MF-21"
+          "source_id": "SRC-MF-21",
+          "company_id": "MERCKKGAA"
         },
         {
-          "name": "液化空气 Air Liquide",
+          "name": "Air Liquide",
           "country": "法",
           "share": "N/A（按收入排名）",
           "products": "前驱体+载气一体化",
           "tag": "全球前列",
-          "source_id": "SRC-MF-21"
+          "source_id": "SRC-MF-21",
+          "company_id": "AIRLIQUIDE"
         },
         {
-          "name": "UP Chemical（雅克科技子公司）",
+          "name": "UP Chemical 유피케미칼",
           "country": "韩/中",
           "share": "N/A（全球前五大）",
           "products": "High-k/硅基前驱体",
           "tag": "存储大厂核心供应商",
-          "source_id": "SRC-MF-21"
+          "source_id": "SRC-MF-21",
+          "company_id": "UPCHEM"
         },
         {
-          "name": "SK Materials",
+          "name": "SK Materials SK머티리얼즈",
           "country": "韩",
           "share": "N/A（按收入排名）",
           "products": "硅基/金属前驱体",
           "tag": "韩系主力",
-          "source_id": "SRC-MF-21"
+          "source_id": "SRC-MF-21",
+          "company_id": "SKMATERIALS"
         },
         {
-          "name": "Soulbrain / Lake Materials / DNF",
+          "name": "Soulbrain 솔브레인",
           "country": "韩",
           "share": "N/A（前20大合计约96%）",
           "products": "High-k/金属前驱体",
-          "tag": "韩系集群",
-          "source_id": "SRC-MF-21"
+          "tag": "韩系集群（原组合条目拆分）",
+          "source_id": "SRC-MF-21",
+          "company_id": "SOULBRAIN"
+        },
+        {
+          "name": "Lake Materials 레이크머티리얼즈",
+          "country": "韩",
+          "share": "N/A（前20大合计约96%）",
+          "products": "High-k/金属前驱体",
+          "tag": "韩系集群（原组合条目拆分）",
+          "source_id": "SRC-MF-21",
+          "company_id": "LAKEMATERIALS"
+        },
+        {
+          "name": "DNF 디엔에프",
+          "country": "韩",
+          "share": "N/A（前20大合计约96%）",
+          "products": "High-k/金属前驱体",
+          "tag": "韩系集群（原组合条目拆分）",
+          "source_id": "SRC-MF-21",
+          "company_id": "DNF"
         }
       ],
       "china_leaders": [
         {
-          "name": "雅克科技",
+          "name": "雅克科技 Yoke",
           "share": "N/A（全球前五大，媒体口径全球市占率约18%）",
           "tag": "前驱体国内绝对龙头（UP Chemical+科美特）",
-          "source_id": "SRC-MF-27"
+          "source_id": "SRC-MF-27",
+          "company_id": "YOKE"
         },
         {
           "name": "南大光电",
           "share": "N/A（按收入排名）",
           "tag": "MO源全球领先，前驱体导入晶圆厂",
-          "source_id": "SRC-MF-21"
+          "source_id": "SRC-MF-21",
+          "company_id": "NATA"
         }
       ],
       "localization": {
@@ -799,44 +889,49 @@
       },
       "global_leaders": [
         {
-          "name": "欣兴电子 Unimicron",
+          "name": "欣兴电子",
           "country": "中国台湾",
           "share": "ABF约26.6%（2022）；IC载板总口径约15%（2021）",
           "products": "ABF载板、BT基板",
           "tag": "全球IC载板营收第一",
-          "source_id": "SRC-MP-02"
+          "source_id": "SRC-MP-02",
+          "company_id": "UNIMICRON"
         },
         {
-          "name": "揖斐电 Ibiden",
+          "name": "Ibiden",
           "country": "日本",
           "share": "ABF约14.6%（2022）；IC载板总口径约14%（2021）",
           "products": "FCBGA用ABF载板",
           "tag": "日系ABF龙头",
-          "source_id": "SRC-MP-02"
+          "source_id": "SRC-MP-02",
+          "company_id": "IBIDEN"
         },
         {
-          "name": "南亚电路板 Nan Ya PCB",
+          "name": "南亚电路板 NYPCB",
           "country": "中国台湾",
           "share": "ABF约13.5%（2022）",
           "products": "ABF载板、BT基板",
           "tag": "台系载板大厂",
-          "source_id": "SRC-MP-02"
+          "source_id": "SRC-MP-02",
+          "company_id": "NANYAPCB"
         },
         {
-          "name": "新光电气 Shinko Electric",
+          "name": "Shinko Shinko Electric",
           "country": "日本",
           "share": "ABF约12.8%（2022）",
           "products": "FCBGA载板、引线框架",
           "tag": "日系载板+框架双主业",
-          "source_id": "SRC-MP-02"
+          "source_id": "SRC-MP-02",
+          "company_id": "SHINKO"
         },
         {
-          "name": "奥特斯 AT&S",
+          "name": "AT&S",
           "country": "奥地利",
           "share": "ABF约8%（2022）",
           "products": "高端ABF载板",
           "tag": "欧洲唯一ABF大厂",
-          "source_id": "SRC-MP-02"
+          "source_id": "SRC-MP-02",
+          "company_id": "ATS"
         }
       ],
       "china_leaders": [
@@ -844,19 +939,22 @@
           "name": "深南电路",
           "share": "N/A（按收入排名）",
           "tag": "内资IC载板第一，BT基板批量、FCBGA爬坡",
-          "source_id": "SRC-MP-01"
+          "source_id": "SRC-MP-01",
+          "company_id": "SCC"
         },
         {
           "name": "兴森科技",
           "share": "N/A（按收入排名）",
           "tag": "内资ABF/FCBGA先行者，广州+珠海基地",
-          "source_id": "SRC-MP-03"
+          "source_id": "SRC-MP-03",
+          "company_id": "FASTPRINT"
         },
         {
           "name": "珠海越亚",
           "share": "N/A（按收入排名）",
           "tag": "射频无芯载板特色厂商",
-          "source_id": "SRC-MP-03"
+          "source_id": "SRC-MP-03",
+          "company_id": "ACCESS"
         }
       ],
       "localization": {
@@ -891,44 +989,49 @@
       },
       "global_leaders": [
         {
-          "name": "三井高科技 Mitsui High-tec",
+          "name": "Mitsui High-tec",
           "country": "日本",
           "share": "N/A（按收入排名）；全球前三家合计约35%（2024）",
           "products": "冲压/蚀刻框架",
           "tag": "全球引线框架龙头",
-          "source_id": "SRC-MP-04"
+          "source_id": "SRC-MP-04",
+          "company_id": "MITSUIHT"
         },
         {
-          "name": "新光电气 Shinko Electric",
+          "name": "Shinko Shinko Electric",
           "country": "日本",
           "share": "N/A（按收入排名）；前三家之一",
           "products": "蚀刻框架、IC载板",
           "tag": "全球前三",
-          "source_id": "SRC-MP-04"
+          "source_id": "SRC-MP-04",
+          "company_id": "SHINKO"
         },
         {
-          "name": "长华科技 Chang Wah",
+          "name": "长华科技 CWTC",
           "country": "中国台湾",
           "share": "N/A（按收入排名）；前三家之一",
           "products": "冲压/蚀刻框架、导线架材料",
           "tag": "台系龙头",
-          "source_id": "SRC-MP-04"
+          "source_id": "SRC-MP-04",
+          "company_id": "CWTC"
         },
         {
-          "name": "HAESUNG DS",
+          "name": "Haesung DS 해성디에스",
           "country": "韩国",
           "share": "N/A（按收入排名）",
           "products": "冲压/蚀刻框架",
           "tag": "韩系主力",
-          "source_id": "SRC-MP-04"
+          "source_id": "SRC-MP-04",
+          "company_id": "HAESUNGDS"
         },
         {
-          "name": "先进封装材料国际 AAMI",
+          "name": "AAMI",
           "country": "中国香港/新加坡",
           "share": "N/A（按收入排名）；全球第4（2025，媒体口径）",
           "products": "蚀刻框架",
           "tag": "2025年被至正股份收购",
-          "source_id": "SRC-MP-06"
+          "source_id": "SRC-MP-06",
+          "company_id": "AAMI"
         }
       ],
       "china_leaders": [
@@ -936,13 +1039,15 @@
           "name": "康强电子",
           "share": "国内约30%（2024，媒体口径）",
           "tag": "国内引线框架龙头，2024年出货约128亿只",
-          "source_id": "SRC-MP-06"
+          "source_id": "SRC-MP-06",
+          "company_id": "KANGQIANG"
         },
         {
-          "name": "至正股份（AAMI）",
+          "name": "领先股份",
           "share": "N/A（按收入排名）",
           "tag": "收购AAMI后国内第二、全球第四，客户含长电/通富/日月光",
-          "source_id": "SRC-MP-06"
+          "source_id": "SRC-MP-06",
+          "company_id": "ZZGF"
         }
       ],
       "localization": {
@@ -977,36 +1082,40 @@
       },
       "global_leaders": [
         {
-          "name": "田中贵金属 Tanaka",
+          "name": "TANAKA",
           "country": "日本",
           "share": "N/A（按收入排名）；全球Top3合计约54.65%",
           "products": "金/银/铜键合丝",
           "tag": "高端金线全球第一，台积电先进封装核心耗材供应商",
-          "source_id": "SRC-MP-08"
+          "source_id": "SRC-MP-08",
+          "company_id": "TANAKA"
         },
         {
-          "name": "贺利氏 Heraeus",
+          "name": "Heraeus",
           "country": "德国",
           "share": "N/A（按收入排名）；Top3之一",
           "products": "金/铜键合丝、键合带",
           "tag": "欧洲键合材料龙头",
-          "source_id": "SRC-MP-08"
+          "source_id": "SRC-MP-08",
+          "company_id": "HERAEUS"
         },
         {
-          "name": "住友电工 Sumitomo Electric",
+          "name": "Sumitomo Electric",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "金/铜键合丝",
           "tag": "日系主力",
-          "source_id": "SRC-MP-09"
+          "source_id": "SRC-MP-09",
+          "company_id": "SUMITOMOELECTRIC"
         },
         {
-          "name": "铭凯益 MKE",
+          "name": "MK Electron 엠케이전자",
           "country": "韩国",
           "share": "N/A（按收入排名）",
           "products": "键合丝",
           "tag": "韩系主力",
-          "source_id": "SRC-MP-24"
+          "source_id": "SRC-MP-24",
+          "company_id": "MKELECTRON"
         }
       ],
       "china_leaders": [
@@ -1014,19 +1123,22 @@
           "name": "康强电子",
           "share": "N/A（按收入排名）；产能可满足全国30%以上需求",
           "tag": "金/银/铜全系列，年产能3.6亿米",
-          "source_id": "SRC-MP-08"
+          "source_id": "SRC-MP-08",
+          "company_id": "KANGQIANG"
         },
         {
           "name": "烟台一诺",
           "share": "国内约11%（2025，媒体口径）",
           "tag": "内资高端键合丝头部民企",
-          "source_id": "SRC-MP-25"
+          "source_id": "SRC-MP-25",
+          "company_id": "YESDO"
         },
         {
           "name": "紫金佳博",
           "share": "N/A（按收入排名）",
           "tag": "背靠紫金矿业，攻克高纯金丝原料",
-          "source_id": "SRC-MP-25"
+          "source_id": "SRC-MP-25",
+          "company_id": "ZJJB"
         }
       ],
       "localization": {
@@ -1061,56 +1173,63 @@
       },
       "global_leaders": [
         {
-          "name": "住友电木 Sumitomo Bakelite",
+          "name": "Sumitomo Bakelite",
           "country": "日本",
           "share": "约28%（2024）",
           "products": "全系列EMC、GMC",
           "tag": "全球第一，苏州产能3.3万吨/年以上",
-          "source_id": "SRC-MP-11"
+          "source_id": "SRC-MP-11",
+          "company_id": "SUMITOMOBAKELITE"
         },
         {
-          "name": "力森诺科 Resonac（原日立化成）",
+          "name": "Resonac レゾナック",
           "country": "日本",
           "share": "约16%（2024）",
           "products": "EMC、底填料、DAF",
           "tag": "全球第二，苏州扩产瞄准中国第一",
-          "source_id": "SRC-MP-11"
+          "source_id": "SRC-MP-11",
+          "company_id": "RESONAC"
         },
         {
-          "name": "松下电子材料 Panasonic",
+          "name": "Panasonic",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "EMC",
           "tag": "日系主要厂商",
-          "source_id": "SRC-MP-12"
+          "source_id": "SRC-MP-12",
+          "company_id": "PANASONIC"
         },
         {
-          "name": "长春塑封料（长春人造树脂集团）",
+          "name": "长春人造树脂 CCP",
           "country": "中国台湾",
           "share": "国内约8%（2025，二手口径）",
           "products": "EMC",
           "tag": "台系主力",
-          "source_id": "SRC-MP-26"
+          "source_id": "SRC-MP-26",
+          "company_id": "CCP"
         }
       ],
       "china_leaders": [
         {
-          "name": "华海诚科",
+          "name": "华海诚科 Huahai Chengke",
           "share": "全球约9%（2024，并购前）；国内约25%居第一",
           "tag": "2025年并购衡所华威后全球出货第二、年产销超2.5万吨，HBM用GMC国内唯一量产",
-          "source_id": "SRC-MP-11"
+          "source_id": "SRC-MP-11",
+          "company_id": "HHCK"
         },
         {
-          "name": "衡所华威",
+          "name": "衡所华威 Hysol",
           "share": "全球约9%（2024）",
           "tag": "原汉高华威体系，2025年并入华海诚科",
-          "source_id": "SRC-MP-26"
+          "source_id": "SRC-MP-26",
+          "company_id": "HSHW"
         },
         {
           "name": "中科科化",
           "share": "N/A（按收入排名）",
           "tag": "中端EMC规模效应已形成，IPO进程中",
-          "source_id": "SRC-MP-13"
+          "source_id": "SRC-MP-13",
+          "company_id": "ZKKH"
         }
       ],
       "localization": {
@@ -1149,44 +1268,49 @@
       },
       "global_leaders": [
         {
-          "name": "汉高 Henkel（乐泰/ABLESTIK）",
+          "name": "Henkel",
           "country": "德国",
           "share": "N/A（按收入排名）",
           "products": "导电胶、导电芯片粘接膜cDAF、底填",
           "tag": "导电胶全球主导厂商",
-          "source_id": "SRC-MP-15"
+          "source_id": "SRC-MP-15",
+          "company_id": "HENKEL"
         },
         {
-          "name": "力森诺科 Resonac（原日立化成）",
+          "name": "Resonac レゾナック",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "导电胶、DAF、底填",
           "tag": "日系固晶材料主力",
-          "source_id": "SRC-MP-15"
+          "source_id": "SRC-MP-15",
+          "company_id": "RESONAC"
         },
         {
-          "name": "日东电工 Nitto",
+          "name": "Nitto",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "DAF膜",
           "tag": "DAF垄断厂商之一",
-          "source_id": "SRC-MP-14"
+          "source_id": "SRC-MP-14",
+          "company_id": "NITTO"
         },
         {
-          "name": "琳得科 Lintec",
+          "name": "Lintec",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "DAF膜、UV膜",
           "tag": "DAF/晶圆胶带主力",
-          "source_id": "SRC-MP-14"
+          "source_id": "SRC-MP-14",
+          "company_id": "LINTEC"
         },
         {
-          "name": "千住金属 Senju Metal",
+          "name": "Senju Metal",
           "country": "日本",
           "share": "BGA锡球前三家合计约63%（2024）",
           "products": "BGA锡球、锡膏",
           "tag": "焊料全球龙头",
-          "source_id": "SRC-MP-17"
+          "source_id": "SRC-MP-17",
+          "company_id": "SENJUMETAL"
         }
       ],
       "china_leaders": [
@@ -1194,19 +1318,22 @@
           "name": "德邦科技",
           "share": "N/A（按收入排名）",
           "tag": "芯片固晶导电胶批量替代汉高乐泰/日立化成，2024年研制导电固晶膜CDAF",
-          "source_id": "SRC-MP-15"
+          "source_id": "SRC-MP-15",
+          "company_id": "DARBOND"
         },
         {
-          "name": "恒硕科技",
+          "name": "恒硕科技 Accurus",
           "share": "N/A（按收入排名）；BGA锡球全球前三之一",
           "tag": "国产锡球头部",
-          "source_id": "SRC-MP-17"
+          "source_id": "SRC-MP-17",
+          "company_id": "ACCURUS"
         },
         {
           "name": "上海锡喜",
           "share": "N/A（按收入排名）",
           "tag": "BGA锡球/锡膏专业厂商",
-          "source_id": "SRC-MP-16"
+          "source_id": "SRC-MP-16",
+          "company_id": "XIXI"
         }
       ],
       "localization": {
@@ -1241,36 +1368,40 @@
       },
       "global_leaders": [
         {
-          "name": "汉高 Henkel",
+          "name": "Henkel",
           "country": "德国",
           "share": "N/A（按收入排名）",
           "products": "毛细底填、非导电胶",
           "tag": "全球主流供应商",
-          "source_id": "SRC-MP-19"
+          "source_id": "SRC-MP-19",
+          "company_id": "HENKEL"
         },
         {
-          "name": "纳美仕 NAMICS",
+          "name": "NAMICS",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "底填胶、芯片包封",
           "tag": "日系底填专业龙头",
-          "source_id": "SRC-MP-18"
+          "source_id": "SRC-MP-18",
+          "company_id": "NAMICS"
         },
         {
-          "name": "力森诺科 Resonac（原日立化成）",
+          "name": "Resonac レゾナック",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "底填、EMC",
           "tag": "底填主要供应商",
-          "source_id": "SRC-MP-19"
+          "source_id": "SRC-MP-19",
+          "company_id": "RESONAC"
         },
         {
-          "name": "长濑 Nagase（ChemteX）",
+          "name": "Nagase",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "底填胶、液态塑封",
           "tag": "日系主力",
-          "source_id": "SRC-MP-20"
+          "source_id": "SRC-MP-20",
+          "company_id": "NAGASE"
         }
       ],
       "china_leaders": [
@@ -1278,19 +1409,22 @@
           "name": "德邦科技",
           "share": "N/A（按收入排名）",
           "tag": "底填/固晶胶布局，客户验证推进",
-          "source_id": "SRC-MP-24"
+          "source_id": "SRC-MP-24",
+          "company_id": "DARBOND"
         },
         {
-          "name": "飞凯材料",
+          "name": "飞凯材料 PhiChem",
           "share": "N/A（按收入排名）",
           "tag": "封装胶材布局（临时键合胶、EMC相关）",
-          "source_id": "SRC-MP-21"
+          "source_id": "SRC-MP-21",
+          "company_id": "PHICHEM"
         },
         {
-          "name": "东莞亚聚电子",
+          "name": "东莞亚聚",
           "share": "N/A（按收入排名）",
           "tag": "内资底填胶厂商",
-          "source_id": "SRC-MP-24"
+          "source_id": "SRC-MP-24",
+          "company_id": "YAJU"
         }
       ],
       "localization": {
@@ -1325,28 +1459,40 @@
       },
       "global_leaders": [
         {
-          "name": "京瓷 Kyocera",
+          "name": "Kyocera",
           "country": "日本",
           "share": "N/A（按收入排名）；与NGK/NTK、河北中瓷合计约85%（2024）",
           "products": "HTCC/LTCC管壳、基座、基板",
           "tag": "全球第一",
-          "source_id": "SRC-MP-22"
+          "source_id": "SRC-MP-22",
+          "company_id": "KYOCERA"
         },
         {
-          "name": "NGK/NTK（日本碍子/特殊陶业）",
+          "name": "NGK Insulators",
           "country": "日本",
           "share": "N/A（按收入排名）；前三家之一",
           "products": "HTCC管壳、陶瓷基板",
-          "tag": "全球前三",
-          "source_id": "SRC-MP-22"
+          "tag": "全球前三（原组合条目拆分）",
+          "source_id": "SRC-MP-22",
+          "company_id": "NGKINSULATORS"
         },
         {
-          "name": "丸和 Maruwa",
+          "name": "NTK CERATEC NTKセラテック",
+          "country": "日本",
+          "share": "N/A（按收入排名）；前三家之一",
+          "products": "HTCC管壳、陶瓷基板",
+          "tag": "全球前三（原组合条目拆分）",
+          "source_id": "SRC-MP-22",
+          "company_id": "NTKCERATEC"
+        },
+        {
+          "name": "MARUWA",
           "country": "日本",
           "share": "N/A（按收入排名）",
           "products": "HTCC封装、氮化铝基板",
           "tag": "日系核心厂商",
-          "source_id": "SRC-MP-20"
+          "source_id": "SRC-MP-20",
+          "company_id": "MARUWA"
         },
         {
           "name": "Egide",
@@ -1354,27 +1500,38 @@
           "share": "N/A（按收入排名）",
           "products": "金属-陶瓷管壳",
           "tag": "欧洲主导厂商",
-          "source_id": "SRC-MP-21"
+          "source_id": "SRC-MP-21",
+          "company_id": "EGIDE"
         }
       ],
       "china_leaders": [
         {
-          "name": "河北中瓷（中电科13所）",
+          "name": "中瓷电子",
           "share": "N/A（按收入排名）；HTCC管壳全球前三",
           "tag": "与京瓷、NGK/NTK合计约占全球85%",
-          "source_id": "SRC-MP-22"
+          "source_id": "SRC-MP-22",
+          "company_id": "SINOPACK"
         },
         {
-          "name": "中电科43所/合肥圣达",
+          "name": "中电科43所",
           "share": "N/A（按收入排名）",
-          "tag": "军工电子陶瓷管壳主力",
-          "source_id": "SRC-MP-21"
+          "tag": "军工电子陶瓷管壳主力（原组合条目拆分）",
+          "source_id": "SRC-MP-21",
+          "company_id": "CETC43"
         },
         {
-          "name": "潮州三环",
+          "name": "合肥圣达",
+          "share": "N/A（按收入排名）",
+          "tag": "军工电子陶瓷管壳主力（原组合条目拆分）",
+          "source_id": "SRC-MP-21",
+          "company_id": "SHENGDA"
+        },
+        {
+          "name": "三环集团 CCTC",
           "share": "N/A（按收入排名）；HTCC基座与京瓷合计约83%",
           "tag": "电子陶瓷平台型龙头",
-          "source_id": "SRC-MP-22"
+          "source_id": "SRC-MP-22",
+          "company_id": "CCTC"
         }
       ],
       "localization": {

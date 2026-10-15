@@ -9,10 +9,10 @@
 | 数据 | 用途 | 维护边界 |
 | --- | --- | --- |
 | meta.json | 研究日期、规模、景气度、下游、趋势 | 本轮不改研究内容 |
-| equipment.json / materials.json | 一级/二级赛道、龙头、份额、国产化、来源 | 保留现有taxonomy及关系属性 |
-| sources.json | 资料来源、日期、口径及证据等级 | 本轮不重新核验或升级证据等级 |
-| companies.json | 未来正式公司主表 | 可选；不使用company_pool_draft代替 |
-| quotes_latest | 最新有效行情 | ADMINONLY；symbol暂作_id，TODO改连listing_id |
+| equipment.json / materials.json | 一级/二级赛道、龙头、份额、国产化、来源 | 保留现有taxonomy及关系属性；龙头经 company_id 引用公司主表 |
+| sources.json | 资料来源、日期、口径及证据等级 | 含 SRC-LS- 上市核验来源段 |
+| companies.json | 正式公司主表（公司固有属性 + 上市身份） | 公司主表研究线维护；不保存赛道关系属性 |
+| quotes_latest | 最新有效行情 | ADMINONLY；symbol 作 _id 并关联 listing_id |
 | report_cache | 报告状态与元数据 | ADMINONLY；缓存、生成锁与到期时间 |
 | report_files | PDF的base64分块 | ADMINONLY；每块最多500000字符，随缓存6小时到期 |
 
@@ -36,21 +36,25 @@
 
 公司名称、地区与上市身份属于公司；规模和国产化属于赛道；份额、角色和产品属于两者的关系。例如同一公司在刻蚀和薄膜沉积中的份额可以不同。
 
-正式companies.json接受公司数组或含companies数组的对象。适配合同如下，最终编号由主表维护者确定：
+正式companies.json为 `{"companies":[...]}` 对象。适配合同如下，company_id 由公司主表研究线分配：
 
 | 字段 | 类型 | 必填 / 含义 | 维护者 |
 | --- | --- | --- | --- |
-| company_id | string | 是；公司唯一编号 | 公司主表研究线 |
+| company_id | string | 是；公司唯一编号（编码规则见下） | 公司主表研究线 |
 | name_cn / name_en | string | 至少一项；中英文名称 | 研究 |
-| aliases | string[] | 否；确认过的名称变体 | 研究 |
+| short_name | string | 否；通行显示简称 | 研究 |
+| aliases | string[] | 否；确认过的名称变体（更名史/品牌/收购前名） | 研究 |
 | country_region | string | 应填；未确认留空 | 研究 |
-| listing_status | enum | 应填；上市或非上市，未知留空 | 研究 |
-| listings | object[] | 已上市时应提供 | 研究 |
-| listing_id | string | 正式上市身份编号；未来连接行情 | 研究 |
-| market / exchange / ticker | string | 上市市场、交易所、标准证券代码 | 研究 |
+| listing_status | enum | 应填；上市或非上市，未知留空（查不到不等于非上市） | 研究 |
+| listings | object[] | 已上市时应提供；多地上市不复制公司 | 研究 |
+| listing_id | string | 正式上市身份编号 `{company_id}_{交易所}`；行情关联键 | 研究 |
+| market / exchange / ticker | string | 上市市场词表、交易所、标准证券代码（带市场后缀） | 研究 |
 | primary | boolean | 否；主要上市地，未提供时显示首条 | 研究 |
+| provider_symbols | object | 否；A股/港股/美股填 tencent 格式（sh/sz/bj/hk/us 前缀），供行情注册表生成 | 研究 |
+| listing_source_id | string | 否；上市信息核验来源（sources.json 中 SRC-LS- 编号） | 研究 |
+| source_keys / entity_decision / confidence / unresolved | string / array | 研究侧溯源字段：候选池辅助键、主体裁决、置信度、未决事项；前端不消费 | 研究 |
 
-前端不据名称线索把子公司自动连接到上市母公司，也不强行归并不同公司。正式company_id引用优先；旧名单只在名称能唯一匹配时连接正式主表。
+company_id 编码规则：通行英文缩写大写（AMEC、NAURA、ASML、TEL、SHINETSU）；无通行英文名的中国公司用拼音缩写大写；同一主体全库唯一 ID，多地上市放 listings[]，冲突由主表维护者裁决。前端不据名称线索把子公司自动连接到上市母公司，也不强行归并不同公司。正式company_id引用优先；旧名单只在名称能唯一匹配时连接正式主表。
 
 ## CompanyRepository / 抽卡Candidate
 
@@ -82,7 +86,9 @@
 
 EastMoney按f59精度缩放价格；Tencent市值单位转换为基础货币单位。美股行情时间按纽约时区处理夏令时。交易时段任一有效时间超过90分钟显示stale；常规收盘时段允许closed；主备均失败保留最后有效价并标记stale。
 
-公司表行情显示由quoteSymbol/quoteDisplay桥接。正式模式只认已上市公司的primary listing ticker；兼容模式仅显式关联legacy:AMEC→688012.SH、legacy:ASMPT→00522.HK、legacy:APPLIEDMATERIALS→AMAT.US，不读ticker_hints猜代码、不改变listing_status。该临时表不属于正式公司数据。price/change/change_pct保留数值含义，市值原币种除1e8展示为亿；未知显示—。正涨跌为红、负为绿。主表完成后迁移为listing_id关联，保留symbol作供应商标识。
+证券注册表为 `backend/market/symbols.generated.js`，由 `tools/build_quote_registry.py` 从正式公司主表的 listings 生成（携带 listing_id 外键）；首批覆盖 A股（SH/SZ/BJ）、港股、美股（腾讯 gtimg 已实测五类前缀），日股/欧股/韩股/台股公司不入注册表、前端显示—。Tencent 解析对 SH/SZ/BJ 统一按 A股载荷取总股本字段。semiApi 的 /api/quotes 允许注册表内任意证券（缺省返回全部），不再限三只试运行证券。
+
+公司表行情显示由quoteSymbol/quoteDisplay桥接：正式模式认已上市公司的 primary listing ticker；临时三证券显示桥（PREVIEW_QUOTES）已随正式主表接入移除。price/change/change_pct保留数值含义，市值原币种除1e8展示为亿；未知显示—。正涨跌为红、负为绿。symbol 保留作 Provider 证券标识（缓存键不变、可回退），listing_id 关联经注册表建立。
 
 当前关系来自tracks/subs的global_leaders/china_leaders，不自动读取独立关系文件。position与source_ids多来源是目标契约，前端当前主要展示share/tag并读取source_id主来源；采用新契约时需同步小范围适配。详见[交接契约](KIMICODE_HANDOFF.md#三companyrepository数据契约p0必读)。
 
@@ -101,9 +107,9 @@ report_cache保存state、report_type、filename、data_version、generated_at�
 | equipment_tracks / materials_tracks | 一级赛道或一个二级细分 | 赛道、分组、细分、规模、国产化及来源 |
 | equipment_leaders / materials_leaders | 一次有效企业引用 | 赛道、细分、角色、名称、原文、份额、产品、来源、代码线索 |
 | sources | 一份来源 | 原始账本列，平铺导出 |
-| companies（正式库到位） | 一家公司 | company_id、中英文名、地区、上市状态 |
-| company_listings（正式库到位） | 一个上市身份 | company_id、listing_id、市场、交易所、代码、primary |
-| track_company_relations（正式库到位） | 一条赛道引用 | 公司、赛道、细分、角色、份额、来源 |
+| companies（正式库） | 一家公司 | company_id、中英文名、地区、上市状态 |
+| company_listings（正式库） | 一个上市身份 | company_id、listing_id、市场、交易所、代码、primary |
+| track_company_relations（正式库） | 一条赛道引用 | 公司、赛道、细分、角色、份额、来源 |
 
 CSV使用UTF-8 BOM、标准引号/换行转义；可能触发Excel公式的开头字符先加文本前缀。嵌套数组按关系拆行，不把整份JSON塞入单元格。
 

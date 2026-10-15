@@ -1,0 +1,325 @@
+{
+ "batch": "batch_eu",
+ "access_date": "2026-10-15",
+ "entities": [
+  {
+   "source_keys": ["ATS"],
+   "entity_decision": "上市主体：AT & S Austria Technologie & Systemtechnik Aktiengesellschaft，奥地利莱奥本注册，维也纳证券交易所主板（Prime Market）上市",
+   "company_id": "ATS",
+   "name_cn": "奥特斯",
+   "name_en": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft",
+   "short_name": "AT&S",
+   "aliases": ["AT&S"],
+   "country_region": "奥地利",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "ATS_VIE", "market": "欧股", "exchange": "Wiener Börse (Vienna Stock Exchange)", "ticker": "ATS.VI", "primary": true}
+   ],
+   "evidence": [
+    {"org": "AT&S", "title": "AT&S Share | AT&S Investor Relations", "url": "https://www.ats.net/en/investor-relations/share/", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "维也纳证券交易所 Prime Market，Symbol ATS，ISIN AT0000969985", "region": "奥地利", "type": "公司官网", "level": "A", "remark": "公司官网 IR 页直接列示交易所与代码"},
+    {"org": "Saxo Group", "title": "AT&S Austria Technologie & Systemtechnik AG (ATS:xwbo)", "url": "https://www.home.saxo/markets/stocks/ats-xwbo", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "primary listing on Wiener Börse/Vienna Stock Exchange", "region": "奥地利", "type": "财经数据站", "level": "B", "remark": "佐证主上市地为维也纳"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["EXELLIQ"],
+   "entity_decision": "非上市私营公司：前身为 Greiner Extrusion（Greiner 集团挤出业务），2022-12 更名 Exelliq；2023 年起随 Extrusion Technology Group 被 Davis-Standard（Gamut Capital 旗下）收购，未在任何交易所上市。官网 imprint 显示主体为 Exelliq Austria GmbH，持股方 Davis-Standard (Austria) GmbH 100%",
+   "company_id": "EXELLIQ",
+   "name_cn": "",
+   "name_en": "Exelliq Austria GmbH",
+   "short_name": "Exelliq",
+   "aliases": ["Greiner Extrusion"],
+   "country_region": "奥地利",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Exelliq", "title": "Imprint | Exelliq", "url": "https://www.exelliq.com/en/imprint", "publish_date": "", "data_year": "2026", "metric": "公司主体与股权", "caliber": "Media owner: Exelliq Austria GmbH; Ownership: Davis-Standard (Austria) GmbH 100%", "region": "奥地利", "type": "公司官网", "level": "A", "remark": "注册地 Nußbach（Greinerstraße 18, 4542）"},
+    {"org": "Lincoln International", "title": "Nimbus has sold Battenfeld-Cincinnati, Exelliq and Simplas to Davis Standard", "url": "https://www.lincolninternational.com/transactions/nimbus-has-sold-battenfeld-cincinnati-exelliq-and-simplas-to-davis-standard-a-portfolio-company-of-gamut-capital/", "publish_date": "2025-08-25", "data_year": "2026", "metric": "上市状态", "caliber": "私募股权持有的并购交易，非公众公司", "region": "奥地利", "type": "行业媒体", "level": "B", "remark": "确认 Exelliq 为 PE 旗下私有资产"}
+   ],
+   "confidence": "high",
+   "unresolved": "无通行中文名；主业为塑料挤出成型设备，与半导体产业链的关联环节待业务侧确认"
+  },
+  {
+   "source_keys": ["BASF"],
+   "entity_decision": "上市主体：BASF SE，德国路德维希港注册，法兰克福/XETRA 上市（DAX 成分股），另有美国 OTC 一级 ADR",
+   "company_id": "BASF",
+   "name_cn": "巴斯夫",
+   "name_en": "BASF SE",
+   "short_name": "BASF",
+   "aliases": [],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "BAS_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "BAS.DE", "primary": true},
+    {"listing_id": "BASFY_OTC", "market": "美股", "exchange": "OTC Markets (International PremierQX, ADR Level I)", "ticker": "BASFY", "primary": false}
+   ],
+   "evidence": [
+    {"org": "BASF", "title": "ADRs for U.S. Investors | BASF Investors", "url": "https://www.basf.com/global/en/investors/share-and-adrs/adrs-for-us-investors", "publish_date": "2025-04-18", "data_year": "2026", "metric": "ADR 上市状态", "caliber": "BASF ADSs included in International PremierQX under ticker BASFY", "region": "德国/美国", "type": "公司官网", "level": "A", "remark": "官网确认 ADR 代码 BASFY"},
+    {"org": "U.S. FDA", "title": "SRO List（证券自律组织注册证券清单）", "url": "https://www.accessdata.fda.gov/scripts/SDA/sdNavigation.cfm?sd=srolist&displayAll=false&page=41", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "BASF SE / GERMANY / BAS / XETRA", "region": "德国", "type": "财经数据站", "level": "B", "remark": "官方注册清单佐证 XETRA 代码 BAS"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["CARLZEISSSMT"],
+   "entity_decision": "非上市：Carl Zeiss SMT GmbH 为 Carl Zeiss AG 全资子公司（蔡司集团半导体制造技术事业部），集团由 Carl-Zeiss-Stiftung（卡尔蔡司基金会）100% 持有，整体不上市；ASML 2016 年入股 Carl Zeiss SMT 24.9% 少数股权",
+   "company_id": "ZEISS",
+   "name_cn": "卡尔蔡司SMT",
+   "name_en": "Carl Zeiss SMT GmbH",
+   "short_name": "ZEISS SMT",
+   "aliases": ["蔡司半导体制造技术"],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Carl-Zeiss-Stiftung", "title": "Transparent Civil Society Initiative", "url": "https://www.carl-zeiss-stiftung.de/en/foundation/transparency", "publish_date": "2026-01-01", "data_year": "2026", "metric": "股权结构", "caliber": "Carl Zeiss AG 为基金会 100% 子公司", "region": "德国", "type": "公司官网", "level": "A", "remark": "基金会官网列示 Carl Zeiss AG、SCHOTT AG 均为 100% 持有"},
+    {"org": "Wikipedia", "title": "Carl Zeiss SMT", "url": "https://en.wikipedia.org/wiki/Carl_Zeiss_SMT", "publish_date": "", "data_year": "2026", "metric": "公司主体", "caliber": "ZEISS 集团半导体制造技术子公司，ASML 持 24.9%", "region": "德国", "type": "财经数据站", "level": "B", "remark": "佐证子公司定位与 ASML 少数持股"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["HENKEL"],
+   "entity_decision": "上市主体：Henkel AG & Co. KGaA，德国杜塞尔多夫注册，德国各交易所上市（优先股 HEN3 为 DAX 成分、流动性主代码），另有美国 OTC 一级 ADR（HENKY 优先股/HENOY 普通股）。备注中的乐泰/ABLESTIK 为其粘合剂业务品牌，非独立主体",
+   "company_id": "HENKEL",
+   "name_cn": "汉高",
+   "name_en": "Henkel AG & Co. KGaA",
+   "short_name": "Henkel",
+   "aliases": ["汉高股份两合公司"],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "HEN3_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "HEN3.DE", "primary": true},
+    {"listing_id": "HENKY_OTC", "market": "美股", "exchange": "OTC Markets (ADR Level I, 优先股)", "ticker": "HENKY", "primary": false}
+   ],
+   "evidence": [
+    {"org": "Henkel", "title": "Shares | Henkel Investors & Analysts", "url": "https://www.henkel.com/investors-and-analysts/shares", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "优先股 1985 年起上市、普通股 1996 年起上市，在德国全部八家交易所交易；美国设 Sponsored Level I ADR", "region": "德国", "type": "公司官网", "level": "A", "remark": "官网确认上市历史与 ADR 计划"},
+    {"org": "MarketWatch", "title": "HENKY | Henkel AG & Co. KGaA ADR (U.S.: OTC)", "url": "https://www.marketwatch.com/investing/stock/henky/company-profile", "publish_date": "", "data_year": "2026", "metric": "ADR 代码", "caliber": "OTC 市场 ADR HENKY 正常报价（2026-10）", "region": "美国", "type": "财经数据站", "level": "B", "remark": "佐证 ADR 代码与在交易状态"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["HERAEUS"],
+   "entity_decision": "非上市：Heraeus（贺利氏）为家族全资持有的科技集团（Heraeus Holding GmbH，总部德国哈瑙），1851 年创立，不上市",
+   "company_id": "HERAEUS",
+   "name_cn": "贺利氏",
+   "name_en": "Heraeus Holding GmbH",
+   "short_name": "Heraeus",
+   "aliases": [],
+   "country_region": "德国",
+   "listing_status": "非上市",
+   "listings": [],
+   "evidence": [
+    {"org": "Heraeus", "title": "Facts and Figures | Heraeus Group", "url": "https://www.heraeus.com/en/about-heraeus/facts-and-figures/", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "family-owned global technology group headquartered in Hanau, Germany", "region": "德国", "type": "公司官网", "level": "A", "remark": "官网明确家族持有、总部哈瑙"},
+    {"org": "Wikipedia", "title": "Heraeus", "url": "https://en.wikipedia.org/wiki/Heraeus", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "one of the largest family-owned companies in Germany", "region": "德国", "type": "财经数据站", "level": "B", "remark": "佐证家族企业非上市"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["MERCKKGAA"],
+   "entity_decision": "上市主体：Merck KGaA（德国达姆施塔特默克，与美国 Merck & Co./默沙东为不同主体），法兰克福/XETRA 上市（Prime Standard、DAX），约 30% 股本流通、其余由 E. Merck KG（默克家族）持有；另有美国 OTC 一级 ADR MKKGY",
+   "company_id": "MERCKKGAA",
+   "name_cn": "默克",
+   "name_en": "Merck KGaA",
+   "short_name": "Merck KGaA",
+   "aliases": ["德国默克"],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "MRK_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "MRK.DE", "primary": true},
+    {"listing_id": "MKKGY_OTC", "market": "美股", "exchange": "OTC Markets (ADR Level I)", "ticker": "MKKGY", "primary": false}
+   ],
+   "evidence": [
+    {"org": "Merck KGaA", "title": "Shares and Bonds | Merck Group Investors", "url": "https://www.merckgroup.com/en/investors/shares-and-bonds.html", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Official trading: Xetra, Frankfurt；Ticker MRK；Prime Standard；DAX；ADR: MKKGY（OTC, 1:5）", "region": "德国", "type": "公司官网", "level": "A", "remark": "官网直接列示交易所、代码与 ADR 信息"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["PFEIFFER"],
+   "entity_decision": "上市主体：Pfeiffer Vacuum Technology AG（普发真空），德国阿斯拉尔注册，法兰克福/XETRA 上市（代码 PFV）；Busch 集团通过 Pangea GmbH 控股，2023 年起签订控制与利润转移协议，但仍维持上市地位（2026 年仍有报价与定期报告）",
+   "company_id": "PFEIFFER",
+   "name_cn": "普发",
+   "name_en": "Pfeiffer Vacuum Technology AG",
+   "short_name": "Pfeiffer Vacuum",
+   "aliases": ["普发真空"],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "PFV_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "PFV.DE", "primary": true}
+   ],
+   "evidence": [
+    {"org": "StockAnalysis", "title": "Pfeiffer Vacuum Technology AG (FRA:PFV)", "url": "https://stockanalysis.com/quote/fra/PFV/", "publish_date": "2026-10-09", "data_year": "2026", "metric": "上市状态与代码", "caliber": "法兰克福 PFV 持续报价，2026-03 披露 H2 2025 年报", "region": "德国", "type": "财经数据站", "level": "B", "remark": "佐证 2026 年仍在市"},
+    {"org": "WebDisclosure", "title": "Pfeiffer Vacuum Technology AG is entering into a domination and profit and loss transfer agreement with Pangea GmbH", "url": "https://www.webdisclosure.com/press-release/pfeiffer-vacuum-technology-ag-etr-pfv-pfeiffer-vacuum-technology-ag-pfeiffer-vacuum-technology-ag-is-entering-into-a-domination-and-profit-and-loss-transfer-agreement-with-pangea-gmbh-r7yJ39J0211", "publish_date": "2023-03-14", "data_year": "2023", "metric": "股权结构", "caliber": "与 Busch 集团旗下 Pangea GmbH 签订控制与利润转移协议", "region": "德国", "type": "行业媒体", "level": "B", "remark": "说明大股东结构，未退市"}
+   ],
+   "confidence": "high",
+   "unresolved": "自由流通股比例极低，是否后续推进挤出（squeeze-out）退市需持续跟踪"
+  },
+  {
+   "source_keys": ["SILTRONIC"],
+   "entity_decision": "上市主体：Siltronic AG，德国慕尼黑注册，法兰克福证券交易所 Regulated Market（Prime Standard）/XETRA 上市",
+   "company_id": "SILTRONIC",
+   "name_cn": "世创",
+   "name_en": "Siltronic AG",
+   "short_name": "Siltronic",
+   "aliases": ["世创电子材料"],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "WAF_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "WAF.DE", "primary": true}
+   ],
+   "evidence": [
+    {"org": "Siltronic", "title": "Information on the share | Siltronic Investors", "url": "https://www.siltronic.com/en/investors/information-on-the-share.html", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "2015-06-11 起在法兰克福证券交易所 Regulated Market (Prime Standard) 上市，Ticker WAF", "region": "德国", "type": "公司官网", "level": "A", "remark": "官网直接列示上市地与代码"},
+    {"org": "Yahoo Finance", "title": "Siltronic AG (WAF.DE)", "url": "https://finance.yahoo.com/quote/WAF.DE/", "publish_date": "2026-09-29", "data_year": "2026", "metric": "上市状态与代码", "caliber": "XETRA: WAF.DE 正常报价", "region": "德国", "type": "财经数据站", "level": "B", "remark": "佐证在交易状态"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["SUSSMICROTEC"],
+   "entity_decision": "上市主体：SUSS MicroTec SE，德国加尔兴（慕尼黑附近）注册，法兰克福/XETRA 上市",
+   "company_id": "SUSS",
+   "name_cn": "",
+   "name_en": "SUSS MicroTec SE",
+   "short_name": "SUSS MicroTec",
+   "aliases": [],
+   "country_region": "德国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "SMHN_XETRA", "market": "欧股", "exchange": "Frankfurt Stock Exchange (XETRA)", "ticker": "SMHN.DE", "primary": true}
+   ],
+   "evidence": [
+    {"org": "SUSS MicroTec", "title": "Share | SUSS Investor Relations", "url": "https://www.suss.com/en/investor-relations/share", "publish_date": "", "data_year": "2026", "metric": "公司主体", "caliber": "SUSS MicroTec SE 投资者关系（分析师覆盖、股东信息）", "region": "德国", "type": "公司官网", "level": "A", "remark": "官网确认上市公众公司身份"},
+    {"org": "MarketWatch", "title": "SMHN Stock Price | Suss Microtec SE (Germany: Xetra)", "url": "https://www.marketwatch.com/investing/Stock/SMHN?countryCode=XE", "publish_date": "2026-01-02", "data_year": "2026", "metric": "上市状态与代码", "caliber": "XETRA: SMHN 正常报价", "region": "德国", "type": "财经数据站", "level": "B", "remark": "佐证交易所与代码"}
+   ],
+   "confidence": "high",
+   "unresolved": "无标准化通行中文名（业内偶译“苏斯微技术”，未确认，未列入别名）"
+  },
+  {
+   "source_keys": ["AIRLIQUIDE"],
+   "entity_decision": "上市主体：L'Air Liquide S.A.，法国巴黎注册，Euronext Paris（A 板，CAC 40）上市；另有美国 OTC ADR AIQUY",
+   "company_id": "AIRLIQUIDE",
+   "name_cn": "液化空气",
+   "name_en": "L'Air Liquide S.A.",
+   "short_name": "Air Liquide",
+   "aliases": ["液化空气集团"],
+   "country_region": "法国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "AI_PAR", "market": "欧股", "exchange": "Euronext Paris", "ticker": "AI.PA", "primary": true},
+    {"listing_id": "AIQUY_OTC", "market": "美股", "exchange": "OTC Markets (ADR)", "ticker": "AIQUY", "primary": false}
+   ],
+   "evidence": [
+    {"org": "Air Liquide", "title": "2026 Shareholder's Practical Guide", "url": "https://www.airliquide.com/sites/airliquide.com/files/2026-04/2026-shareholders-practical-guide.pdf", "publish_date": "2026-04", "data_year": "2026", "metric": "上市状态", "caliber": "listed on the Euronext Paris stock exchange (compartment A)，CAC 40 成分", "region": "法国", "type": "公司官网", "level": "A", "remark": "公司官方股东指南"},
+    {"org": "MarketWatch", "title": "AIQUY | Air Liquide S.A. ADR (U.S.: OTC)", "url": "https://www.marketwatch.com/investing/stock/aiquy", "publish_date": "", "data_year": "2026", "metric": "ADR 代码", "caliber": "OTC 市场 ADR AIQUY 正常报价", "region": "美国", "type": "财经数据站", "level": "B", "remark": "佐证 ADR 代码"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["EGIDE"],
+   "entity_decision": "上市主体：Egide S.A.，法国博莱讷（Bollène）注册，Euronext Growth Paris 上市（ISIN FR0000072373，代码 ALGID）；电子元件气密封装（hermetic packages）专业厂商",
+   "company_id": "EGIDE",
+   "name_cn": "",
+   "name_en": "Egide S.A.",
+   "short_name": "Egide",
+   "aliases": [],
+   "country_region": "法国",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "ALGID_PAR", "market": "欧股", "exchange": "Euronext Growth Paris", "ticker": "ALGID.PA", "primary": true}
+   ],
+   "evidence": [
+    {"org": "GlobeNewswire (Egide 官方公告)", "title": "Egide: 2025 FY Revenue", "url": "https://www.globenewswire.com/news-release/2026/01/26/3225241/0/en/egide-2025-fy-revenue.html", "publish_date": "2026-01-26", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Euronext Growth Paris, ISIN FR0000072373, Ticker ALGID", "region": "法国", "type": "公司官网", "level": "A", "remark": "公司经由 GlobeNewswire 发布的官方财报公告"},
+    {"org": "StockAnalysis", "title": "Egide (EPA:ALGID) Stock Price & Overview", "url": "https://stockanalysis.com/quote/epa/ALGID/", "publish_date": "2026-10-12", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Euronext Paris: ALGID 正常报价", "region": "法国", "type": "财经数据站", "level": "B", "remark": "佐证在交易状态"}
+   ],
+   "confidence": "high",
+   "unresolved": "无通行中文名"
+  },
+  {
+   "source_keys": ["COMET"],
+   "entity_decision": "上市主体：Comet Holding AG，瑞士弗拉马特（Flamatt）注册，2002-12-17 起在 SIX Swiss Exchange 上市",
+   "company_id": "COMET",
+   "name_cn": "康姆艾德",
+   "name_en": "Comet Holding AG",
+   "short_name": "Comet",
+   "aliases": [],
+   "country_region": "瑞士",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "COTN_SIX", "market": "欧股", "exchange": "SIX Swiss Exchange", "ticker": "COTN.SW", "primary": true}
+   ],
+   "evidence": [
+    {"org": "Comet Group", "title": "Stock information | Comet Investors", "url": "https://comet.tech/en/investors/stock-information", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Ticker symbol COTN；注册股于 SIX Swiss Exchange 上市", "region": "瑞士", "type": "公司官网", "level": "A", "remark": "官网 IR 页"},
+    {"org": "Comet Group", "title": "Group structure and ownership (Annual Report 2025)", "url": "https://reports.comet-group.com/25/group-structure-and-ownership", "publish_date": "", "data_year": "2026", "metric": "上市状态", "caliber": "registered shares listed on the SIX Swiss Exchange since December 17, 2002", "region": "瑞士", "type": "公司官网", "level": "A", "remark": "年报确认上市日期"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["ASMINTERNATIONAL"],
+   "entity_decision": "上市主体：ASM International N.V.，荷兰阿尔梅勒（Almere）注册，Euronext Amsterdam 上市；另有美国 OTCQX 代码 ASMIY。注意与港股 ASMPT（ASM Pacific Technology，0052.HK）区分",
+   "company_id": "ASMI",
+   "name_cn": "",
+   "name_en": "ASM International N.V.",
+   "short_name": "ASM International",
+   "aliases": [],
+   "country_region": "荷兰",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "ASM_AMS", "market": "欧股", "exchange": "Euronext Amsterdam", "ticker": "ASM.AS", "primary": true},
+    {"listing_id": "ASMIY_OTCQX", "market": "美股", "exchange": "OTCQX", "ticker": "ASMIY", "primary": false}
+   ],
+   "evidence": [
+    {"org": "ASM International", "title": "Share performance | ASM Investors", "url": "https://www.asm.com/investors/share-performance", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "listed on the Euronext Stock Exchange in Amsterdam (ASM)，OTCQX market (ASMIY)", "region": "荷兰", "type": "公司官网", "level": "A", "remark": "官网直接列示两地代码"},
+    {"org": "ASM International (Via Ritzau/GlobeNewswire)", "title": "ASM hosts Investor Day, provides new 2030 targets", "url": "https://via.ritzau.dk/pressemeddelelse/14592255/asm-international-nv?publisherId=90446&lang=en", "publish_date": "2025-09-23", "data_year": "2025", "metric": "注册地", "caliber": "Almere, The Netherlands 公司抬头", "region": "荷兰", "type": "公司官网", "level": "A", "remark": "官方新闻稿抬头确认注册地"}
+   ],
+   "confidence": "high",
+   "unresolved": "无标准化通行中文名"
+  },
+  {
+   "source_keys": ["ASML"],
+   "entity_decision": "上市主体：ASML Holding N.V.，荷兰费尔德霍芬（Veldhoven）注册，Euronext Amsterdam 与 Nasdaq 双重上市（同一代码 ASML）",
+   "company_id": "ASML",
+   "name_cn": "阿斯麦",
+   "name_en": "ASML Holding N.V.",
+   "short_name": "ASML",
+   "aliases": ["阿斯麦尔"],
+   "country_region": "荷兰",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "ASML_AMS", "market": "欧股", "exchange": "Euronext Amsterdam", "ticker": "ASML.AS", "primary": true},
+    {"listing_id": "ASML_NASDAQ", "market": "美股", "exchange": "Nasdaq", "ticker": "ASML", "primary": false}
+   ],
+   "evidence": [
+    {"org": "MarketWatch", "title": "ASML Holding N.V. (U.S.: Nasdaq) / (Netherlands: Euronext Amsterdam)", "url": "https://www.marketwatch.com/investing/stock/asml", "publish_date": "2026-10-14", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Nasdaq: ASML 与 Euronext Amsterdam: ASML 双重上市，总部 Veldhoven, Netherlands", "region": "荷兰", "type": "财经数据站", "level": "B", "remark": "两处报价均正常"},
+    {"org": "Yahoo Finance", "title": "ASML Holding NV (ASML.AS)", "url": "https://finance.yahoo.com/quote/ASML.AS/", "publish_date": "2026-10-14", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Euronext Amsterdam: ASML.AS 正常报价", "region": "荷兰", "type": "财经数据站", "level": "B", "remark": "佐证阿姆代码后缀"}
+   ],
+   "confidence": "high",
+   "unresolved": ""
+  },
+  {
+   "source_keys": ["BESI"],
+   "entity_decision": "上市主体：BE Semiconductor Industries N.V.（简称 Besi），荷兰杜伊文（Duiven）注册，Euronext Amsterdam 上市（ISIN NL0012866412）",
+   "company_id": "BESI",
+   "name_cn": "比恩西",
+   "name_en": "BE Semiconductor Industries N.V.",
+   "short_name": "Besi",
+   "aliases": ["BESI", "Besi"],
+   "country_region": "荷兰",
+   "listing_status": "上市",
+   "listings": [
+    {"listing_id": "BESI_AMS", "market": "欧股", "exchange": "Euronext Amsterdam", "ticker": "BESI.AS", "primary": true}
+   ],
+   "evidence": [
+    {"org": "Besi", "title": "Share Information | Besi Investor Relations", "url": "https://www.besi.com/investor-relations/share-information/", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "ordinary shares listed on Euronext Amsterdam, stock symbol BESI", "region": "荷兰", "type": "公司官网", "level": "A", "remark": "官网直接列示"},
+    {"org": "Euronext", "title": "BE SEMICONDUCTOR | NL0012866412 | Company information", "url": "https://live.euronext.com/en/product/equities/NL0012866412-XAMS/company-information", "publish_date": "", "data_year": "2026", "metric": "上市状态与代码", "caliber": "Euronext Amsterdam (XAMS), ISIN NL0012866412", "region": "荷兰", "type": "交易所", "level": "A", "remark": "交易所官网"}
+   ],
+   "confidence": "high",
+   "unresolved": "中文名“比恩西”沿用来源清单写法，未见公司官方中文名确认"
+  }
+ ]
+}

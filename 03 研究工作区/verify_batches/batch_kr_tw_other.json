@@ -1,0 +1,328 @@
+{
+ "batch": "batch_kr_tw_other.json",
+ "count": 15,
+ "rows": [
+  {
+   "key": "CHANGWAH",
+   "name_cn": "长华科技",
+   "name_en": "Chang Wah",
+   "raw_names": [
+    "长华科技 Chang Wah"
+   ],
+   "cn_variants": [
+    "长华科技"
+   ],
+   "en_variants": [
+    "Chang Wah"
+   ],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "GLOBALWAFERS",
+   "name_cn": "环球晶圆",
+   "name_en": "GlobalWafers",
+   "raw_names": [
+    "环球晶圆 GlobalWafers"
+   ],
+   "cn_variants": [
+    "环球晶圆"
+   ],
+   "en_variants": [
+    "GlobalWafers"
+   ],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "NANYAPCB",
+   "name_cn": "南亚电路板",
+   "name_en": "Nan Ya PCB",
+   "raw_names": [
+    "南亚电路板 Nan Ya PCB"
+   ],
+   "cn_variants": [
+    "南亚电路板"
+   ],
+   "en_variants": [
+    "Nan Ya PCB"
+   ],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "UNIMICRON",
+   "name_cn": "欣兴电子",
+   "name_en": "Unimicron",
+   "raw_names": [
+    "欣兴电子 Unimicron"
+   ],
+   "cn_variants": [
+    "欣兴电子"
+   ],
+   "en_variants": [
+    "Unimicron"
+   ],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "惠特科技",
+   "name_cn": "惠特科技",
+   "name_en": "",
+   "raw_names": [
+    "惠特科技(中国台湾)"
+   ],
+   "cn_variants": [
+    "惠特科技"
+   ],
+   "en_variants": [],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "鸿劲精密",
+   "name_cn": "鸿劲精密",
+   "name_en": "",
+   "raw_names": [
+    "鸿劲精密(中国台湾)"
+   ],
+   "cn_variants": [
+    "鸿劲精密"
+   ],
+   "en_variants": [],
+   "region": "中国台湾",
+   "regions_evidence": [
+    "中国台湾"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "LINDE",
+   "name_cn": "林德",
+   "name_en": "Linde",
+   "raw_names": [
+    "林德 Linde"
+   ],
+   "cn_variants": [
+    "林德"
+   ],
+   "en_variants": [
+    "Linde"
+   ],
+   "region": "德国/美国",
+   "regions_evidence": [
+    "德国",
+    "美国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [
+    "other: 原始地区多值或冲突：德国 / 美国；不得任择一项"
+   ],
+   "occurrence_count": 1
+  },
+  {
+   "key": "ASMPT",
+   "name_cn": "",
+   "name_en": "ASMPT",
+   "raw_names": [
+    "ASMPT",
+    "ASMPT(新)",
+    "ASMPT(新加坡/港股上市)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "ASMPT"
+   ],
+   "region": "新加坡",
+   "regions_evidence": [
+    "新加坡"
+   ],
+   "ticker_hints": [],
+   "notes": [
+    "新加坡/港股上市"
+   ],
+   "reviews": [
+    "ticker: 原始代码/上市状态仅作线索，未核验交易所、主体及当前状态",
+    "name: 括号包含别名、业务线或身份备注；保留原文，未强配中英文主体"
+   ],
+   "occurrence_count": 5
+  },
+  {
+   "key": "HAESUNGDS",
+   "name_cn": "",
+   "name_en": "HAESUNG DS",
+   "raw_names": [
+    "HAESUNG DS"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "HAESUNG DS"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HANAMATERIALS",
+   "name_cn": "",
+   "name_en": "Hana Materials",
+   "raw_names": [
+    "Hana Materials"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Hana Materials"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "HANWHA",
+   "name_cn": "",
+   "name_en": "Hanwha",
+   "raw_names": [
+    "Hanwha(韩)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Hanwha"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "MKE",
+   "name_cn": "铭凯益",
+   "name_en": "MKE",
+   "raw_names": [
+    "铭凯益 MKE"
+   ],
+   "cn_variants": [
+    "铭凯益"
+   ],
+   "en_variants": [
+    "MKE"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SKMATERIALS",
+   "name_cn": "",
+   "name_en": "SK Materials",
+   "raw_names": [
+    "SK Materials"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "SK Materials"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "SKSILTRON",
+   "name_cn": "",
+   "name_en": "SK Siltron",
+   "raw_names": [
+    "SK Siltron"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "SK Siltron"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  },
+  {
+   "key": "TECHWING",
+   "name_cn": "",
+   "name_en": "Techwing",
+   "raw_names": [
+    "Techwing(韩)"
+   ],
+   "cn_variants": [],
+   "en_variants": [
+    "Techwing"
+   ],
+   "region": "韩国",
+   "regions_evidence": [
+    "韩国"
+   ],
+   "ticker_hints": [],
+   "notes": [],
+   "reviews": [],
+   "occurrence_count": 1
+  }
+ ]
+}
