@@ -3,7 +3,7 @@
 用途：说明静态站、云函数、行情与报告如何连接。读者：开发与运维人员。更新时间：2026-10-15。对应版本：V1.1。
 
 ```text
-四份静态研究JSON
+四份静态研究JSON + 正式 companies.json
   ├─ 原生Web前端 → CompanyRepository → 公司/赛道侧栏、筛选、抽卡
   ├─ CSV Adapter → 关系拆表 → 浏览器下载
   └─ ReportDataProvider → ReportModel → Builder → ReportLab Engine
@@ -41,7 +41,7 @@ MarketDataProvider → syncQuotes（每小时:05）→ quotes_latest
 ## API合同
 
 - `GET {apiBase}/health`：固定非敏感健康信息及版本。
-- `GET {apiBase}/api/quotes?symbols=688012.SH,00522.HK,AMAT.US`：最多三只指定测试证券的规范行情，浏览器不访问供应商。
+- `GET {apiBase}/api/quotes`：默认全部 96 只注册证券；可用 symbols 传注册表内子集，未知证券返回 400。浏览器不访问供应商。
 - `POST {apiBase}/api/reports`：请求体`{"report_type":"equipment","filters":{}}`；类型限overview/equipment/materials/landscape，筛选只允许已存在的track_id及固定国产化stage。
 - `GET {apiBase}/api/reports/file?key=...&expires=...&signature=...`：验证签名/有效期后返回PDF附件，不提供永久公开文件地址。
 
@@ -49,9 +49,9 @@ MarketDataProvider → syncQuotes（每小时:05）→ quotes_latest
 
 ## 行情运行方式
 
-syncQuotes按QUOTE_PROVIDERS配置依次尝试供应商。当前云端腾讯优先；东方财富在本机返回正常、云端连接失败，失败会尝试备源。两者均失败时保留旧有效值和原始时间，记录本次尝试时间。quotes_latest以symbol保存，后续由正式上市记录连接listing_id。
+syncQuotes 按 QUOTE_PROVIDERS 配置依次尝试供应商，对注册证券并发同步。当前云端腾讯优先；两者均失败时保留旧有效值和原始时间，记录本次尝试时间及 stale。quotes_latest 仍以 symbol 保存，注册表由正式 listings 生成并携带 listing_id，不再使用临时公司名称映射。港股供应商代码补为五位，正式 ticker 保持不变。
 
-公司页将API三股缓存接入表格单元格，更新行情时不重绘表格，保留筛选、滚动与焦点；domain.quoteSymbol只负责正式listing或显式三证券试运行关联，quoteDisplay负责数值/币种和红涨绿跌。没有向浏览器增加供应商直连。
+公司页将 API 注册证券缓存接入表格单元格，更新行情时不重绘表格，保留筛选、滚动与焦点；domain.quoteSymbol 只负责正式主上市地 listing，quoteDisplay 负责数值/币种和红涨绿跌。PREVIEW_QUOTES 已移除。没有向浏览器增加供应商直连。
 
 freshness依据市场时区、常规交易时段与90分钟阈值。周末及收盘后允许closed；节假日日历尚未完整接入。行情每小时更新，页面也每小时读取一次缓存，无WebSocket。
 
@@ -59,7 +59,7 @@ freshness依据市场时区、常规交易时段与90分钟阈值。周末及收
 
 `reporting/data_provider.py`负责全部文件读取；`models.py`定义报告模型；`builders.py`按类型组织章节；`styles.py`负责字体和排版；`components.py`负责表格/段落；`engine.py`输出PDF；`qa.py`逐页渲染与检查。
 
-Provider能读取可选companies.json并更新内容摘要；当前Builder仍按leader.name或company_id直接显示，不会自动查主表名称。迁移为ID-only关系前需要增加名称解析薄层，复用现有模型、样式与Engine。
+Provider 已读取 companies.json 并更新内容摘要；当前 Builder 仍按 leader.name 或 company_id 直接显示，不会自动查主表名称。当前正式关系保留 name，因此报告正常；迁移为 ID-only 关系前需要增加名称解析薄层，复用现有模型、样式与 Engine。
 
 报告样式沿用Verlaski/cn-pdf-report-style，A4、藏蓝#17375E、斑马纹表格、页码、摘要高亮和来源附录。FontResolver本地可用微软雅黑；云端使用随包发布的Noto Sans SC常规/粗体及OFL许可。科学计数上标使用排版标签，避免中文字体缺字。
 
