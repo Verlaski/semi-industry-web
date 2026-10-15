@@ -45,6 +45,15 @@
       (detail?detail.innerHTML:'<p>详情数据待补充。</p>');
     document.getElementById('drawer-back').hidden=true;openDrawer(html);
   }
+  function openChainNode(key) {
+    const [type,index]=key.split(':');
+    const nodes=type==='base' ? D.structureModel(data).baseMaterials : type==='downstream' ? D.structureModel(data).downstream : [];
+    const node=nodes[Number(index)];if(!node)return;
+    const html='<div class="drawer-eyebrow">'+(type==='base'?'材料链 · 基础原料':'装备与材料 · 共同应用环节')+'</div><h2 id="drawer-title">'+esc(node.name)+'</h2>'+
+      (node.relation?'<p>'+esc(node.relation)+'</p>':'')+(node.note?'<p class="drawer-subtitle">'+esc(node.note)+'</p>':'')+
+      (node.players?.length?'<h3>代表性厂商</h3><p>'+node.players.map(esc).join(' · ')+'</p>':'');
+    parentTrack=null;document.getElementById('drawer-back').hidden=true;openDrawer(html);
+  }
   function openSource(id) {
     const source=data.sources.sources.find(s=>s.source_id===id);if(!source)return;
     const fields={org:'发布机构',publish_date:'发布日期',data_year:'数据年份',metric:'指标',caliber:'统计口径',region:'覆盖范围',type:'资料类型',level:'证据等级',access_date:'查阅日期',remark:'备注'};
@@ -84,7 +93,24 @@
       (search?'<label>资本市场<select name="market"><option value="">全部市场</option><option>A股</option><option>港股</option><option>美股</option><option value="其他海外">其他海外上市</option></select></label>':'')+
       '<label>赛道<select name="track"><option value="">全部赛道</option>'+options+'</select></label></div>';
   }
-  function values(prefix) {return Object.fromEntries([...document.querySelectorAll('#'+prefix+'-filters [name]')].map(el=>[el.name,el.value]));}
+  function discoveryFilters() {
+    const checkbox=(name,value,label)=>'<label class="filter-choice"><input type="checkbox" name="'+name+'" value="'+esc(value)+'"><span>'+esc(label)+'</span></label>';
+    const model=D.structureModel(data);
+    let groupIndex=0;
+    const groups=model.lanes.map(lane=>'<section class="filter-lane"><h4>'+esc(lane.name)+'</h4>'+lane.groups.map(group=>{
+      const scope=String(groupIndex++);
+      return '<fieldset data-check-scope="'+scope+'"><legend>'+esc(group.name)+'</legend><div class="filter-group-actions"><button type="button" data-check-group="'+scope+'" data-check-action="all">全选本组</button><button type="button" data-check-group="'+scope+'" data-check-action="clear">清空本组</button></div><div class="filter-options">'+group.tracks.map(t=>checkbox('track',t.id,t.name)).join('')+'</div></fieldset>';
+    }).join('')+'</section>').join('');
+    return '<div class="discovery-filters" id="discovery-filters"><div class="filter-bar"><p>可多选，未勾选的类别不限</p><button type="button" class="filter-reset" data-reset-discovery>重置筛选</button></div><div class="filter-basics"><fieldset><legend>地域</legend><div class="filter-options">'+checkbox('region','domestic','国内')+checkbox('region','overseas','海外及港澳台')+'</div></fieldset><fieldset><legend>上市状态</legend><div class="filter-options">'+checkbox('status','上市','已上市')+checkbox('status','非上市','未上市')+'</div></fieldset></div><details class="track-filter-panel"><summary>赛道范围 <span id="track-filter-summary">全部赛道</span></summary><p id="selected-track-names" class="selected-track-names" hidden></p><div class="track-filter-groups">'+groups+'</div></details></div>';
+  }
+  function values(prefix) {
+    const result={};
+    document.querySelectorAll('#'+prefix+'-filters [name]').forEach(el=>{
+      if(el.type==='checkbox'){if(!result[el.name])result[el.name]=[];if(el.checked)result[el.name].push(el.value);}
+      else result[el.name]=el.value;
+    });
+    return result;
+  }
   function renderCompanies() {
     const view=document.getElementById('view-companies');
     view.innerHTML='<h2 class="section-title">龙头公司库</h2><p class="section-desc">从公司反查产业关系、产品与来源。'+(repo.mode==='official'?'已接入正式公司数据库。':'当前为赛道名单兼容展示；上市字段待正式公司数据库补充。')+'</p>'+legend()+
@@ -109,16 +135,31 @@
   }
   function renderDiscovery() {
     document.getElementById('view-discovery').innerHTML='<div class="discovery-heading"><div><p class="drawer-eyebrow">产业发现 / DISCOVERY</p><h2 class="section-title">AI推荐跟踪龙头</h2><p class="section-desc">发现一家，或开启一份十家跟踪清单。</p></div><div class="draw-stamp">下一家<br><small>值得了解的公司</small></div></div>'+
-      filterControls('discovery',false)+'<p id="discovery-count" class="result-count"></p><p class="quiet-note" data-footer-note>候选来自已有龙头名单，排除组合主体；条件内均匀随机、无放回，无在线 AI 模型评分或个人偏好分析。金卡：光刻、刻蚀、薄膜沉积、硅片、光刻胶、CMP材料六个产品设定的重点跟踪赛道的一级龙头；紫卡：其他二级细分龙头，或原始标签含龙头、国产、替代、核心、第一等跟踪线索（重要未上市企业需有已核验上市状态及重点/重要/核心标签）；其余蓝卡。该范围是产品跟踪配置，不代表研究评级；等级按当前筛选赛道关系计算，概率不加权。准备进度表示揭晓动画进度。</p>'+
+      discoveryFilters()+'<p id="discovery-count" class="result-count" role="status" aria-live="polite"></p><p class="quiet-note" data-footer-note>候选来自已有龙头名单，排除组合主体；条件内均匀随机、无放回，无在线 AI 模型评分或个人偏好分析。复选框同组条件取并集，不同类别取交集；未勾选的类别不限。已上市/未上市均不含尚未确认上市身份的企业。金卡：光刻、刻蚀、薄膜沉积、硅片、光刻胶、CMP材料六个产品设定的重点跟踪赛道的一级龙头；紫卡：其他二级细分龙头，或原始标签含龙头、国产、替代、核心、第一等跟踪线索（重要未上市企业需有已核验上市状态及重点/重要/核心标签）；其余蓝卡。该范围是产品跟踪配置，不代表研究评级；等级按当前筛选赛道关系计算，概率不加权。准备进度表示揭晓动画进度。</p>'+
       '<div class="draw-actions"><button class="btn primary draw-single" data-draw="1">'+starIcon+'<span>单抽<small>发现一家</small></span></button><button class="btn primary draw-ten" data-draw="10">'+stackIcon+'<span>十连抽<small>开启跟踪清单</small></span><b aria-hidden="true">×10</b></button><button class="btn" id="copy-draw" disabled>复制清单</button><span id="draw-state" role="status" aria-live="polite"></span></div><div class="card-key" aria-label="卡片等级"><span class="gold">★★★★★ 核心龙头</span><span class="purple">★★★★ 重点跟踪</span><span class="blue">★★★ 产业观察</span></div><p class="card-disclaimer">卡面等级表示产业图谱中的跟踪标签，不构成投资评级。</p><div id="draw-results" class="draw-results" aria-busy="false"><div class="draw-invitation">下一站，产业深处。<br><small>设置条件，揭晓你的研究清单。</small></div></div>';
-    document.querySelectorAll('#discovery-filters select').forEach(el=>el.addEventListener('change',()=>{
-      cancelPreparation();clearCelebration();updateCandidateCount();drawn=[];document.getElementById('copy-draw').disabled=true;
-      document.getElementById('draw-state').textContent='';
-      document.getElementById('draw-results').innerHTML='<div class="empty-state">筛选条件已更新，抽取一份新清单。</div>';
-    }));
+    const filters=document.getElementById('discovery-filters');
+    filters.addEventListener('change',resetDiscoveryResults);
+    filters.addEventListener('click',event=>{
+      const reset=event.target.closest('[data-reset-discovery]'),group=event.target.closest('[data-check-group]');
+      if(!reset&&!group)return;
+      const scope=reset ? filters : filters.querySelector('[data-check-scope="'+group.dataset.checkGroup+'"]');
+      scope.querySelectorAll('input[type="checkbox"]').forEach(input=>input.checked=!reset && group.dataset.checkAction==='all');
+      resetDiscoveryResults();
+    });
     updateCandidateCount();
   }
-  function updateCandidateCount() {document.getElementById('discovery-count').textContent='当前符合条件：'+repo.filter(values('discovery'),true).length+' 家';}
+  function resetDiscoveryResults() {
+    cancelPreparation();clearCelebration();updateCandidateCount();drawn=[];document.getElementById('copy-draw').disabled=true;
+    document.getElementById('draw-state').textContent='';
+    document.getElementById('draw-results').innerHTML='<div class="empty-state">筛选条件已更新，抽取一份新清单。</div>';
+  }
+  function updateCandidateCount() {
+    const filters=values('discovery'),tracks=filters.track;
+    document.getElementById('discovery-count').textContent='当前符合条件：'+repo.filter(filters,true).length+' 家';
+    document.getElementById('track-filter-summary').textContent=tracks.length ? '已选 '+tracks.length+' 个赛道' : '全部 '+trackMap.size+' 个赛道';
+    const names=document.getElementById('selected-track-names');names.hidden=!tracks.length;
+    names.textContent=tracks.map(id=>trackMap.get(id).name).join(' · ');
+  }
   function cancelPreparation(){clearTimeout(preparationTimer);clearInterval(preparationStepTimer);document.querySelectorAll('[data-draw]').forEach(button=>button.disabled=false);const results=document.getElementById('draw-results');results.setAttribute('aria-busy','false');if(results.querySelector('.draw-preparation')){results.innerHTML='<div class="draw-invitation">准备已取消，随时开启新清单。</div>';document.getElementById('draw-state').textContent='';}}
   function startDraw(count){
     let selected;
@@ -142,7 +183,7 @@
     document.getElementById('copy-draw').disabled=false;
     document.getElementById('draw-results').innerHTML=drawn.map((c,i)=>{
       const category=D.cardCategory(c,filters.track);
-      const occurrence=c.occurrences.find(o=>o.track_id===category.trackId && o.sub_name===category.subName)||c.occurrences.find(o=>!filters.track||o.track_id===filters.track)||c.occurrences[0];
+      const occurrence=c.occurrences.find(o=>o.track_id===category.trackId && o.sub_name===category.subName)||c.occurrences.find(o=>D.selected(filters.track,o.track_id));
       const t=trackMap.get(occurrence.track_id);const reason=D.recommendation(c,occurrence.track_id)+(t && t.localization && t.localization.stage?'该赛道国产化阶段：'+t.localization.stage+'。':'');
       return '<article class="discovery-card reveal card-'+category.key+'" style="--reveal-delay:'+Math.min(i*35,250)+'ms"><div class="card-topline"><span class="card-number">'+String(i+1).padStart(2,'0')+' / '+String(count).padStart(2,'0')+'</span><span class="card-category">'+esc(category.label)+'</span></div><div class="card-stars" aria-label="'+category.stars+'星跟踪标签">'+'★'.repeat(category.stars)+'</div><div class="card-emblem" aria-hidden="true">'+starIcon+'</div><h3>'+companyButton(c)+'</h3><div>'+badge(c)+'</div><p class="card-country">'+esc(c.country_region || '国家地区待补充')+'</p><div class="card-track">'+esc(occurrence.track_name)+(occurrence.sub_name?' / '+esc(occurrence.sub_name):'')+'</div><div class="card-reason"><small>'+esc(category.reason)+'</small><p>'+esc(reason)+'</p></div>'+src(occurrence.source_id)+'</article>';
     }).join('');
@@ -258,6 +299,7 @@
       if(target.matches('[data-close-drawer]'))closeDrawer();
       else if(target.matches('[data-company]'))openCompany(target.dataset.company);
       else if(target.matches('[data-open-track]'))openTrack(target.dataset.openTrack);
+      else if(target.matches('[data-chain-node]'))openChainNode(target.dataset.chainNode);
       else if(target.matches('[data-source]'))openSource(target.dataset.source);
       else if(target.matches('[data-report]'))report(target);
       else if(target.matches('[data-export]'))exportCSV(target.dataset.export,target.dataset.exportTable);

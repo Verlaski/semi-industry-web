@@ -3,6 +3,40 @@ const test=require('node:test');const assert=require('node:assert/strict');const
 const D=require('../02 交付/半导体装备与材料产业图谱/assets/js/domain');
 const base=path.join(__dirname,'../02 交付/半导体装备与材料产业图谱/data');
 const data=Object.fromEntries(['meta','equipment','materials','sources'].map(n=>[n,JSON.parse(fs.readFileSync(path.join(base,n+'.json'),'utf8'))]));
+test('结构模型完整收录真实赛道、原料与下游，新增分组无需改图',()=>{
+  const model=D.structureModel(data);
+  const tracks=model.lanes.flatMap(l=>l.groups.flatMap(g=>g.tracks));
+  const actual=[...data.equipment.tracks,...data.materials.tracks];
+  assert.deepEqual(tracks.map(t=>t.id).sort(),actual.map(t=>t.id).sort());
+  assert.equal(new Set(tracks.map(t=>t.id)).size,actual.length);
+  assert.deepEqual(model.baseMaterials,data.materials.base_materials);
+  assert.deepEqual(model.downstream,data.meta.downstream.nodes);
+  const extended={...data,equipment:{...data.equipment,tracks:[...data.equipment.tracks,{id:'future',name:'新增赛道',group:'新增分组'}]}};
+  assert.equal(D.structureModel(extended).lanes[0].groups.at(-1).tracks[0].id,'future');
+});
+test('多选组内OR、组间AND，清空不限，上市未知不能混入状态筛选',()=>{
+  const fixture={equipment:{tracks:[{id:'a',name:'A',global_leaders:[{company_id:'cn'},{company_id:'us'},{company_id:'unknown'}]},{id:'b',name:'B',china_leaders:[{company_id:'private'}]}]},materials:{tracks:[]}};
+  const repo=new D.CompanyRepository(fixture,{companies:[
+    {company_id:'cn',name_cn:'国内上市',country_region:'中国',listing_status:'上市'},
+    {company_id:'us',name_en:'Overseas',country_region:'美国',listing_status:'上市'},
+    {company_id:'private',name_cn:'国内非上市',country_region:'中国',listing_status:'非上市'},
+    {company_id:'unknown',name_cn:'未知',country_region:'中国',listing_status:''}
+  ]});
+  const ids=f=>repo.filter(f,true).map(c=>c.runtime_key).sort();
+  assert.deepEqual(ids({region:['domestic'],track:['a','b'],status:['上市','非上市']}),['cn','private']);
+  assert.deepEqual(ids({region:['domestic','overseas'],status:['上市']}),['cn','us']);
+  assert.deepEqual(ids({track:['b']}),['private']);
+  assert.deepEqual(ids({region:[],status:[],track:[]}),ids({}));
+  assert.deepEqual(ids({region:'domestic',track:'a',status:'上市'}),['cn']);
+});
+test('多选赛道的卡面与推荐文案只使用选中关系',()=>{
+  const c={occurrences:[{track_id:'eq-f-etch',track_name:'刻蚀',role:'global',sub_name:''},{track_id:'other',track_name:'其他',role:'china',sub_name:'细分'},{track_id:'blue',track_name:'观察',role:'global'}]};
+  assert.equal(D.cardCategory(c,['other','blue']).key,'purple');
+  assert.equal(D.cardCategory(c,['other','blue']).trackId,'other');
+  assert.match(D.recommendation(c,['blue','other']),/其他/);
+  assert.doesNotMatch(D.recommendation(c,['blue','other']),/刻蚀/);
+  assert.equal(D.cardCategory(c,[]).key,'gold');
+});
 test('行情临时关联只覆盖显式三证券，正式主表优先且不猜测证券代码',()=>{
   const repo=new D.CompanyRepository(data,null);
   assert.equal(repo.companies.filter(c=>D.quoteSymbol(c)).length,3);

@@ -6,6 +6,21 @@
   'use strict';
   const regions = {中:'中国',美:'美国',日:'日本',韩:'韩国',台:'中国台湾',荷:'荷兰',德:'德国',英:'英国',法:'法国',奥:'奥地利',新:'新加坡'};
   const norm = s => String(s || '').normalize('NFKC').toUpperCase().replace(/[^\p{L}\p{N}&/-]/gu, '');
+  // 标量调用继续兼容公司库；复选框空数组表示该组不限。
+  function selection(value) {return (Array.isArray(value) ? value : [value]).filter(Boolean);}
+  function selected(value, candidate) {const choices=selection(value);return !choices.length || choices.includes(candidate);}
+  function structureModel(data) {
+    const lanes=['equipment','materials'].map(dataset=>{
+      const source=data[dataset] || {}, groups=new Map();
+      (source.tracks || []).forEach(track=>{
+        const name=track.group || '其他赛道';
+        if(!groups.has(name))groups.set(name,{name,tracks:[]});
+        groups.get(name).tracks.push(track);
+      });
+      return {dataset,name:source.industry || dataset,groups:[...groups.values()]};
+    });
+    return {lanes,baseMaterials:data.materials?.base_materials || [],downstream:data.meta?.downstream?.nodes || []};
+  }
   function topSplit(text, separators) {
     const out = []; let depth = 0, begin = 0;
     for (let i=0;i<text.length;i++) {
@@ -141,13 +156,14 @@
         if (discovery && (c.combo || !c.occurrences.length)) return false;
         const text=[c.name,c.name_en,...c.aliases,...c.ticker_hints,...c.listings.map(l=>l.ticker)].join(' ').toLowerCase();
         if (filters.search && !text.includes(filters.search.toLowerCase())) return false;
-        if (filters.status && c.listing_status!==filters.status) return false;
-        if (filters.market && !c.listings.some(l=>marketGroup(l.market)===filters.market)) return false;
-        if (filters.track && !c.occurrences.some(o=>o.track_id===filters.track)) return false;
+        if (!selected(filters.status,c.listing_status)) return false;
+        if (selection(filters.market).length && !c.listings.some(l=>selected(filters.market,marketGroup(l.market)))) return false;
+        if (selection(filters.track).length && !c.occurrences.some(o=>selected(filters.track,o.track_id))) return false;
         const domestic = c.country_region==='中国' || (!c.country_region && c.occurrences.some(o=>o.role==='china'));
         const overseas = c.country_region && !c.country_region.includes('中国') && !c.country_region.includes('/');
-        if (filters.region==='domestic' && !domestic) return false;
-        if (filters.region==='overseas' && !overseas && !['中国台湾','中国香港'].includes(c.country_region)) return false;
+        const regions=selection(filters.region);
+        if (regions.length && !((regions.includes('domestic') && domestic) ||
+          (regions.includes('overseas') && (overseas || ['中国台湾','中国香港'].includes(c.country_region))))) return false;
         return true;
       });
     }
@@ -155,7 +171,7 @@
   function marketGroup(market) {return ['A股','港股','美股'].includes(market) ? market : '其他海外';}
   function primaryListing(c) {return c.listings.find(l=>l.primary===true) || c.listings[0];}
   function recommendation(c,track) {
-    const occurrence = c.occurrences.find(o=>!track || o.track_id===track) || c.occurrences[0];
+    const occurrence = c.occurrences.find(o=>selected(track,o.track_id));
     if (!occurrence) return '该公司为本图谱已收录的核心企业之一。';
     let reason=(occurrence.role==='china'?'中国':'全球')+'龙头名单收录企业，涉及'+occurrence.track_name+'。';
     if (c.listing_status==='上市') reason+='已上市，可持续跟踪公开披露。';
@@ -202,7 +218,7 @@
   // 编辑性跟踪范围；不是市场评级。只读取已有关系，绝不推断上市身份。
   const FOCUS_TRACKS=new Set(['eq-f-litho','eq-f-etch','eq-f-depo','ma-f-wafer','ma-f-resist','ma-f-cmp']);
   function cardCategory(company, trackId) {
-    const rows=company.occurrences.filter(o=>!trackId || o.track_id===trackId);
+    const rows=company.occurrences.filter(o=>selected(trackId,o.track_id));
     const core=rows.find(o=>FOCUS_TRACKS.has(o.track_id) && !o.sub_name && ['china','global'].includes(o.role));
     if(core)return {key:'gold',label:'核心龙头',stars:5,reason:'重点跟踪赛道 · 一级龙头名单',trackId:core.track_id,subName:core.sub_name};
     const follow=rows.find(o=>o.sub_name || /龙头|国产|替代|核心|第一/.test(o.tag || '') ||
@@ -233,5 +249,5 @@
     const rng=random || Math.random;
     return pools.map(pool=>pool[Math.floor(rng()*pool.length)]);
   }
-  return {CompanyRepository,leaderRows,parseName,pieces,norm,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory,quoteSymbol,quoteDisplay,preparationMessages};
+  return {CompanyRepository,leaderRows,parseName,pieces,norm,selection,selected,structureModel,marketGroup,primaryListing,recommendation,draw,csvText,csvTables,cardCategory,quoteSymbol,quoteDisplay,preparationMessages};
 });
