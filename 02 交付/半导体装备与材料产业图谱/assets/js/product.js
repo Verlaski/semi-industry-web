@@ -99,9 +99,13 @@
     let groupIndex=0;
     const groups=model.lanes.map(lane=>'<section class="filter-lane"><h4>'+esc(lane.name)+'</h4>'+lane.groups.map(group=>{
       const scope=String(groupIndex++);
-      return '<fieldset data-check-scope="'+scope+'"><legend>'+esc(group.name)+'</legend><div class="filter-group-actions"><button type="button" data-check-group="'+scope+'" data-check-action="all">全选本组</button><button type="button" data-check-group="'+scope+'" data-check-action="clear">清空本组</button></div><div class="filter-options">'+group.tracks.map(t=>checkbox('track',t.id,t.name)).join('')+'</div></fieldset>';
+      return '<details class="filter-track-group" data-check-scope="'+scope+'"><summary>'+esc(group.name)+'<span data-group-count>不限</span></summary><div class="filter-group-actions"><button type="button" data-check-group="'+scope+'" data-check-action="all">全选本组</button><button type="button" data-check-group="'+scope+'" data-check-action="clear">清空本组</button></div><div class="filter-options">'+group.tracks.map(t=>checkbox('track',t.id,t.name)).join('')+'</div></details>';
     }).join('')+'</section>').join('');
-    return '<div class="discovery-filters" id="discovery-filters"><div class="filter-bar"><p>可多选，未勾选的类别不限</p><button type="button" class="filter-reset" data-reset-discovery>重置筛选</button></div><div class="filter-basics"><fieldset><legend>地域</legend><div class="filter-options">'+checkbox('region','domestic','国内')+checkbox('region','overseas','海外及港澳台')+'</div></fieldset><fieldset><legend>上市状态</legend><div class="filter-options">'+checkbox('status','上市','已上市')+checkbox('status','非上市','未上市')+'</div></fieldset></div><details class="track-filter-panel"><summary>赛道范围 <span id="track-filter-summary">全部赛道</span></summary><p id="selected-track-names" class="selected-track-names" hidden></p><div class="track-filter-groups">'+groups+'</div></details></div>';
+    const dropdown=(name,label,content)=>'<details class="filter-dropdown" data-filter-menu="'+name+'"><summary><span class="filter-label">'+label+'</span><span class="filter-summary" data-filter-summary="'+name+'">不限</span></summary><div class="filter-dropdown-panel"><fieldset><legend class="sr-only">'+label+'</legend><div class="filter-options">'+content+'</div></fieldset></div></details>';
+    return '<div class="discovery-filters" id="discovery-filters"><div class="filter-bar"><p>可多选，未勾选的类别不限</p><button type="button" class="filter-reset" data-reset-discovery>重置筛选</button></div><div class="filter-row">'+
+      dropdown('region','地域',checkbox('region','domestic','国内')+checkbox('region','overseas','海外及港澳台'))+
+      dropdown('status','上市状态',checkbox('status','上市','已上市')+checkbox('status','非上市','未上市'))+
+      '<details class="filter-dropdown filter-dropdown-tracks" data-filter-menu="track"><summary><span class="filter-label">赛道范围</span><span class="filter-summary" id="track-filter-summary">全部赛道</span></summary><div class="filter-dropdown-panel"><p id="selected-track-names" class="selected-track-names" hidden></p><div class="track-filter-groups">'+groups+'</div></div></details></div></div>';
   }
   function values(prefix) {
     const result={};
@@ -146,6 +150,22 @@
       scope.querySelectorAll('input[type="checkbox"]').forEach(input=>input.checked=!reset && group.dataset.checkAction==='all');
       resetDiscoveryResults();
     });
+    document.addEventListener('click',event=>{
+      filters.querySelectorAll('[data-filter-menu][open]').forEach(menu=>{if(!menu.contains(event.target))menu.open=false;});
+    });
+    filters.addEventListener('keydown',event=>{
+      if(event.key!=='Escape')return;
+      const menu=event.target.closest('[data-filter-menu][open]');if(!menu)return;
+      event.preventDefault();menu.open=false;menu.querySelector('summary').focus();
+    });
+    const fitDropdowns=()=>filters.querySelectorAll('[data-filter-menu][open]').forEach(menu=>{
+      const panel=menu.querySelector('.filter-dropdown-panel');
+      panel.style.setProperty('--filter-menu-height',Math.max(120,window.innerHeight-panel.getBoundingClientRect().top-12)+'px');
+    });
+    filters.addEventListener('toggle',event=>{if(event.target.matches('[data-filter-menu]') && event.target.open)fitDropdowns();},true);
+    window.addEventListener('resize',fitDropdowns);
+    window.addEventListener('scroll',fitDropdowns,{passive:true});
+    window.addEventListener('hashchange',()=>filters.querySelectorAll('[data-filter-menu][open]').forEach(menu=>menu.open=false));
     updateCandidateCount();
   }
   function resetDiscoveryResults() {
@@ -157,6 +177,14 @@
     const filters=values('discovery'),tracks=filters.track;
     document.getElementById('discovery-count').textContent='当前符合条件：'+repo.filter(filters,true).length+' 家';
     document.getElementById('track-filter-summary').textContent=tracks.length ? '已选 '+tracks.length+' 个赛道' : '全部 '+trackMap.size+' 个赛道';
+    ['region','status'].forEach(name=>{
+      const labels=[...document.querySelectorAll('#discovery-filters input[name="'+name+'"]:checked')].map(input=>input.nextElementSibling.textContent);
+      const summary=document.querySelector('[data-filter-summary="'+name+'"]');summary.textContent=labels.join('、') || '不限';summary.title=summary.textContent;
+    });
+    document.querySelectorAll('.filter-track-group').forEach(group=>{
+      const checked=group.querySelectorAll('input:checked').length,total=group.querySelectorAll('input').length;
+      group.querySelector('[data-group-count]').textContent=checked ? checked+' / '+total : '不限';
+    });
     const names=document.getElementById('selected-track-names');names.hidden=!tracks.length;
     names.textContent=tracks.map(id=>trackMap.get(id).name).join(' · ');
   }
