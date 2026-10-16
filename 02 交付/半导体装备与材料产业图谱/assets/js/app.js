@@ -108,10 +108,7 @@
     var m = DATA.meta || {};
     document.getElementById('header-meta').innerHTML =
       '数据更新：<span class="v">' + esc(m.updated || '') + '</span>';
-    document.getElementById('footer-inner').innerHTML =
-      esc(m.footer_note || '') +
-      (m.version_log && m.version_log.length ?
-        '<br>最近更新：' + esc(m.version_log[0].date) + ' · ' + esc(m.version_log[0].note) : '');
+    document.getElementById('footer-inner').innerHTML = esc(m.footer_note || '');
   }
 
   /* ---------- 视图一：产业链总图 ---------- */
